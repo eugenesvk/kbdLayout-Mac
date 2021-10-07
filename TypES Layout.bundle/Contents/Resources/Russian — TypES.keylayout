@@ -1386,7 +1386,7 @@
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="Ё 1">
-            <when state="none" output="Ё"/>
+            <when state="none" output="~"/>
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="І">
@@ -1588,7 +1588,7 @@
             <when state="grave" output="ѐ"/>
         </action>
         <action id="ё 1">
-            <when state="none" output="ё"/>
+            <when state="none" output="`"/>
             <when state="grave" output="ѐ"/>
         </action>
         <action id="і">
