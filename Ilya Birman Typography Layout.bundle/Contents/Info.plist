@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>org.sil.ukelele.keyboardlayout.t</string>
+	<key>CFBundleName</key>
+	<string>Ilya Birman Typography Layout</string>
+	<key>CFBundleVersion</key>
+	<string>4.0</string>
+	<key>KLInfo_English - Ilya Birman Typography</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.t.english-ilyabirmantypography</string>
+		<key>TISIntendedLanguage</key>
+		<string>en-US</string>
+	</dict>
+	<key>KLInfo_Russian - Ilya Birman Typography</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.t.russian-ilyabirmantypography</string>
+		<key>TISIntendedLanguage</key>
+		<string>ru-RU</string>
+	</dict>
+</dict>
+</plist>
