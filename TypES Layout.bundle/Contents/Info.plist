@@ -5,26 +5,26 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.t</string>
 	<key>CFBundleName</key>
-	<string>Ilya Birman Typography Layout</string>
+	<string>TypES Layout</string>
 	<key>CFBundleVersion</key>
-	<string>4.0</string>
-	<key>KLInfo_English - Ilya Birman Typography</key>
+	<string>1.0</string>
+	<key>KLInfo_English — TypES</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<true/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.t.english-ilyabirmantypography</string>
+		<string>org.sil.ukelele.keyboardlayout.t.english—types</string>
 		<key>TISIntendedLanguage</key>
 		<string>en-US</string>
 	</dict>
-	<key>KLInfo_Russian - Ilya Birman Typography</key>
+	<key>KLInfo_Russian — TypES</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<true/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.t.russian-ilyabirmantypography</string>
+		<string>org.sil.ukelele.keyboardlayout.t.russian—types</string>
 		<key>TISIntendedLanguage</key>
-		<string>ru-RU</string>
+		<string>ru-Cyrl-RU</string>
 	</dict>
 </dict>
 </plist>
