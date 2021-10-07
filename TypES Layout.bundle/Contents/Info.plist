@@ -8,6 +8,15 @@
 	<string>TypES Layout</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+	<key>KLInfo_English — Math</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.t.english—math</string>
+		<key>TISIntendedLanguage</key>
+		<string>en-US</string>
+	</dict>
 	<key>KLInfo_English — TypES</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
