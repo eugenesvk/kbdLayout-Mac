@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file
 
-[unreleased]: https://github.com/eugenesvk/DUMMY/compare/0.1.0...HEAD
+[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.1.0...HEAD
 ## [Unreleased]
   <!-- - __Added__ -->
     <!-- + :sparkles: ??? -->
@@ -22,17 +22,11 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
   - __Added__
-    + :sparkles: ???
+    + :sparkles: original Ilya Birman Typography Layout
+    + :sparkles: Math layout
   - __Changed__
-    + ??? 
-  - __Fixed__
-    + :beetle: ???
-  - __Deprecated__
-    + :poop: ???
-  - __Removed__
-    + :wastebasket: ???
-  - __Security__
-    + :lock: ???
+    + English layout: many various updates to the original layout
+    + Russian layout: many various updates to the original layout
 
 [0.1.0]: https://github.com/eugenesvk/DUMMY/releases/tag/0.1.0
 ## [0.1.0]
