@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file
 
-[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.1.0...HEAD
+[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.2.0...HEAD
 ## [Unreleased]
   <!-- - __Added__ -->
     <!-- + :sparkles: ??? -->
@@ -21,6 +21,9 @@ All notable changes to this project will be documented in this file
   <!-- - __Security__ -->
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
+
+[0.2.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.2.0
+## [0.2.0]
   - __Added__
     + :sparkles: `en` 🕱 dead key `space` and mapped it to <kbd>^</kbd><kbd>space</kbd> — after a dead key is pressed, spaces of various widths are mnemonically mapped to:
         * <kbd>j</kbd> word joiner
