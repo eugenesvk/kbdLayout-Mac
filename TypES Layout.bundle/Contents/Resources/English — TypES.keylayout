@@ -63,7 +63,7 @@
             <key code="0" action="13"/>
             <key code="1" action="s"/>
             <key code="2" action="d"/>
-            <key code="3" output="f"/>
+            <key code="3" action="f"/>
             <key code="4" action="h"/>
             <key code="5" action="g"/>
             <key code="6" action="z"/>
@@ -87,9 +87,9 @@
             <key code="24" output="="/>
             <key code="25" output="9"/>
             <key code="26" output="7"/>
-            <key code="27" output="-"/>
+            <key code="27" action="-"/>
             <key code="28" output="8"/>
-            <key code="29" output="0"/>
+            <key code="29" action="0"/>
             <key code="30" output="]"/>
             <key code="31" action="17"/>
             <key code="32" action="18"/>
@@ -107,7 +107,7 @@
             <key code="44" output="/"/>
             <key code="45" action="16"/>
             <key code="46" action="m"/>
-            <key code="47" output="."/>
+            <key code="47" action="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="5"/>
             <key code="50" output="\"/>
@@ -1755,6 +1755,18 @@
             <when state="none" next="tilde"/>
             <when state="tilde" output="̃"/>
         </action>
+        <action id="-">
+            <when state="none" output="-"/>
+            <when state="space" output="‑"/>
+        </action>
+        <action id=".">
+            <when state="none" output="."/>
+            <when state="space" output=" "/>
+        </action>
+        <action id="0">
+            <when state="none" output="0"/>
+            <when state="space" output="​"/>
+        </action>
         <action id="1">
             <when state="none" next="grave"/>
         </action>
@@ -1836,6 +1848,7 @@
             <when state="caron" output="ň"/>
             <when state="cedilla" output="ņ"/>
             <when state="grave" output="ǹ"/>
+            <when state="space" output=" "/>
             <when state="tilde" output="ñ"/>
         </action>
         <action id="17">
@@ -1861,6 +1874,7 @@
             <when state="double-acute" output="ű"/>
             <when state="grave" output="ù"/>
             <when state="ring" output="ů"/>
+            <when state="space" output="␣"/>
             <when state="tilde" output="ũ"/>
         </action>
         <action id="19">
@@ -1884,6 +1898,7 @@
             <when state="double-acute" output="˝"/>
             <when state="grave" output="`"/>
             <when state="ring" output="˚"/>
+            <when state="space" output=" "/>
             <when state="tilde" output="˜"/>
         </action>
         <action id="6">
@@ -2003,6 +2018,7 @@
             <when state="caron" output="Š"/>
             <when state="cedilla" output="Ş"/>
             <when state="circumflex" output="Ŝ"/>
+            <when state="space" output="␢"/>
         </action>
         <action id="T">
             <when state="none" output="T"/>
@@ -2045,6 +2061,7 @@
         <action id="b">
             <when state="none" output="b"/>
             <when state="acute" output="ḿ"/>
+            <when state="space" output=" "/>
         </action>
         <action id="c">
             <when state="none" output="c"/>
@@ -2067,6 +2084,10 @@
             <when state="none" next="double-acute"/>
             <when state="double-acute" output="̋"/>
         </action>
+        <action id="f">
+            <when state="none" output="f"/>
+            <when state="space" output=" "/>
+        </action>
         <action id="g">
             <when state="none" output="g"/>
             <when state="acute" output="ǵ"/>
@@ -2081,11 +2102,13 @@
             <when state="caron" output="ȟ"/>
             <when state="cedilla" output="ḩ"/>
             <when state="circumflex" output="ĥ"/>
+            <when state="space" output=" "/>
         </action>
         <action id="j">
             <when state="none" output="j"/>
             <when state="caron" output="ǰ"/>
             <when state="circumflex" output="ĵ"/>
+            <when state="space" output="⁠"/>
         </action>
         <action id="k">
             <when state="none" output="k"/>
@@ -2102,11 +2125,13 @@
             <when state="none" output="m"/>
             <when state="acute-2" output="ḿ"/>
             <when state="double-acute" output="m̋"/>
+            <when state="space" output=" "/>
         </action>
         <action id="p">
             <when state="none" output="p"/>
             <when state="acute" output="ṕ"/>
             <when state="acute-2" output="ṕ"/>
+            <when state="space" output=" "/>
         </action>
         <action id="r">
             <when state="none" output="r"/>
@@ -2126,11 +2151,13 @@
             <when state="caron" output="š"/>
             <when state="cedilla" output="ş"/>
             <when state="circumflex" output="ŝ"/>
+            <when state="space" output="␠"/>
         </action>
         <action id="t">
             <when state="none" output="t"/>
             <when state="caron" output="ť"/>
             <when state="cedilla" output="ţ"/>
+            <when state="space" output=" "/>
         </action>
         <action id="v">
             <when state="none" output="v"/>
@@ -2154,6 +2181,7 @@
             <when state="acute-2" output="ź"/>
             <when state="caron" output="ž"/>
             <when state="circumflex" output="ẑ"/>
+            <when state="space" output="​"/>
         </action>
         <action id="±">
             <when state="none" next="grave"/>
@@ -2175,6 +2203,7 @@
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
         <when state="ring" output="˚"/>
+        <when state="space" output=" "/>
         <when state="tilde" output="˜"/>
     </terminators>
 </keyboard>
