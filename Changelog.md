@@ -21,12 +21,12 @@ All notable changes to this project will be documented in this file
   <!-- - __Security__ -->
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
+
+[0.1.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.1.0
+## [0.1.0]
   - __Added__
     + :sparkles: original Ilya Birman Typography Layout
     + :sparkles: Math layout
   - __Changed__
     + English layout: many various updates to the original layout
     + Russian layout: many various updates to the original layout
-
-[0.1.0]: https://github.com/eugenesvk/DUMMY/releases/tag/0.1.0
-## [0.1.0]
