@@ -21,6 +21,8 @@ All notable changes to this project will be documented in this file
   <!-- - __Security__ -->
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
+  - __Changed__
+    + `ru` Modifiers with <kbd>^</kbd>: split into 5 additional modifier layers (#10 <kbd>^</kbd>, #11 <kbd>^</kbd><kbd>⇧</kbd>, #12 <kbd>^</kbd><kbd>⌥</kbd>, #13 <kbd>^</kbd><kbd>⌥</kbd><kbd>⇧</kbd>, #14 <kbd>^</kbd><kbd>⌥</kbd><kbd>⌘</kbd>) to allow more assignments, e.g., to <kbd>space</kbd>
 
 [0.2.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.2.0
 ## [0.2.0]
