@@ -1773,6 +1773,7 @@
         </action>
         <action id="10">
             <when state="none" output="O"/>
+            <when state="Macron+Grave" output="Ṑ"/>
             <when state="acute" output="Ó"/>
             <when state="acute-2" output="Ó"/>
             <when state="breve" output="Ŏ"/>
@@ -1825,6 +1826,7 @@
         </action>
         <action id="14">
             <when state="none" output="e"/>
+            <when state="Macron+Grave" output="ḕ"/>
             <when state="OldCyrillic" output="ѣ"/>
             <when state="acute" output="é"/>
             <when state="acute-2" output="é"/>
@@ -1863,6 +1865,7 @@
         </action>
         <action id="17">
             <when state="none" output="o"/>
+            <when state="Macron+Grave" output="ṑ"/>
             <when state="acute" output="ó"/>
             <when state="acute-2" output="ó"/>
             <when state="breve" output="ŏ"/>
@@ -1932,6 +1935,7 @@
         </action>
         <action id="7">
             <when state="none" output="E"/>
+            <when state="Macron+Grave" output="Ḕ"/>
             <when state="OldCyrillic" output="Ѣ"/>
             <when state="acute" output="É"/>
             <when state="acute-2" output="É"/>
@@ -2159,6 +2163,7 @@
         </action>
         <action id="macron">
             <when state="none" next="macron"/>
+            <when state="Macron+Grave" output="᷅"/>
             <when state="macron" output="̄"/>
         </action>
         <action id="p">
@@ -2238,6 +2243,7 @@
     <terminators>
         <when state="Copyright" output="©"/>
         <when state="OldCyrillic" output="ѣ"/>
+        <when state="Macron+Grave" output=""/>
         <when state="acute" output="´"/>
         <when state="acute-2" output="´"/>
         <when state="breve" output="˘"/>
