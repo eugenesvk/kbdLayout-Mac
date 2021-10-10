@@ -539,7 +539,7 @@
             <key code="28" output="·"/>
             <key code="29" output="›"/>
             <key code="30" output="}"/>
-            <key code="31" output=""/>
+            <key code="31" action="macron"/>
             <key code="32" output=""/>
             <key code="33" output="{"/>
             <key code="34" output=""/>
@@ -2156,6 +2156,10 @@
             <when state="acute-2" output="ḿ"/>
             <when state="double-acute" output="m̋"/>
             <when state="space" output=" "/>
+        </action>
+        <action id="macron">
+            <when state="none" next="macron"/>
+            <when state="macron" output="̄"/>
         </action>
         <action id="p">
             <when state="none" output="p"/>
