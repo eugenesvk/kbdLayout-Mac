@@ -21,6 +21,17 @@ All notable changes to this project will be documented in this file
   <!-- - __Security__ -->
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
+  - __Added__
+    + `ru` spaces of various widths, mapped to <kbd>space</kbd> with various modifiers
+        * <kbd>^</kbd><kbd>⌥</kbd>            	hair
+        * <kbd>⌥</kbd><kbd>⌘</kbd>            	thin
+        * <kbd>⇧</kbd><kbd>^</kbd>            	punctuation
+        * <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>	figure
+        * <kbd>⇧</kbd><kbd>⌥</kbd><kbd>⌘</kbd>	en
+        * <kbd>^</kbd><kbd>⌥</kbd><kbd>⌘</kbd>	em
+        * (already included in the layout)
+        * <kbd>⌥</kbd>            	no-break
+        * <kbd>⇧</kbd><kbd>⌥</kbd>	zero-width
   - __Changed__
     + `ru` Modifiers with <kbd>^</kbd>: split into 5 additional modifier layers (#10 <kbd>^</kbd>, #11 <kbd>^</kbd><kbd>⇧</kbd>, #12 <kbd>^</kbd><kbd>⌥</kbd>, #13 <kbd>^</kbd><kbd>⌥</kbd><kbd>⇧</kbd>, #14 <kbd>^</kbd><kbd>⌥</kbd><kbd>⌘</kbd>) to allow more assignments, e.g., to <kbd>space</kbd>
 
