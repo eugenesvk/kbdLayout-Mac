@@ -1902,6 +1902,7 @@
         </action>
         <action id="11">
             <when state="none" output="Г"/>
+            <when state="OldCyrillic" output="Ѵ"/>
             <when state="acute" output="Ѓ"/>
         </action>
         <action id="12">
@@ -1913,6 +1914,7 @@
         </action>
         <action id="14">
             <when state="none" output="у"/>
+            <when state="OldCyrillic" output="ѣ"/>
             <when state="breve" output="ў"/>
             <when state="diaeresis" output="ÿ"/>
             <when state="double-acute" output="ӳ"/>
@@ -1920,6 +1922,7 @@
         </action>
         <action id="15">
             <when state="none" output="ш"/>
+            <when state="OldCyrillic" output="і"/>
         </action>
         <action id="16">
             <when state="none" output="т"/>
@@ -1931,6 +1934,7 @@
         </action>
         <action id="18">
             <when state="none" output="г"/>
+            <when state="OldCyrillic" output="ѵ"/>
             <when state="acute" output="ѓ"/>
             <when state="space" output="␣"/>
         </action>
@@ -1957,12 +1961,14 @@
         </action>
         <action id="7">
             <when state="none" output="У"/>
+            <when state="OldCyrillic" output="Ѣ"/>
             <when state="breve" output="Ў"/>
             <when state="diaeresis" output="Ӱ"/>
             <when state="double-acute" output="Ӳ"/>
         </action>
         <action id="8">
             <when state="none" output="Ш"/>
+            <when state="OldCyrillic" output="І"/>
         </action>
         <action id="9">
             <when state="none" output="Т"/>
@@ -2005,7 +2011,7 @@
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="І">
-            <when state="none" output="І"/>
+            <when state="none" output=""/>
             <when state="diaeresis" output="Ї"/>
         </action>
         <action id="А">
@@ -2045,6 +2051,7 @@
         </action>
         <action id="Й">
             <when state="none" output="Й"/>
+            <when state="OldCyrillic" output="Ѳ"/>
             <when state="breve" output="Й"/>
             <when state="diaeresis" output="Ӥ"/>
             <when state="grave" output="Ѝ"/>
@@ -2147,6 +2154,7 @@
         </action>
         <action id="й">
             <when state="none" output="й"/>
+            <when state="OldCyrillic" output="ѳ"/>
             <when state="breve" output="й"/>
             <when state="diaeresis" output="ӥ"/>
             <when state="grave" output="ѝ"/>
@@ -2226,26 +2234,26 @@
             <when state="grave" output="ѐ"/>
         </action>
         <action id="і">
-            <when state="none" output="і"/>
+            <when state="none" output=""/>
             <when state="diaeresis" output="ï"/>
         </action>
         <action id="Ѣ">
-            <when state="none" output="Ѣ"/>
+            <when state="none" output=""/>
         </action>
         <action id="ѣ">
-            <when state="none" output="ѣ"/>
+            <when state="none" output=""/>
         </action>
         <action id="Ѳ">
-            <when state="none" output="Ѳ"/>
+            <when state="none" output=""/>
         </action>
         <action id="ѳ">
-            <when state="none" output="ѳ"/>
+            <when state="none" next="OldCyrillic"/>
         </action>
         <action id="Ѵ">
-            <when state="none" output="Ѵ"/>
+            <when state="none" output=""/>
         </action>
         <action id="ѵ">
-            <when state="none" output="ѵ"/>
+            <when state="none" output=""/>
         </action>
         <action id="⁄">
             <when state="none" next="acute"/>
@@ -2254,6 +2262,7 @@
     </actions>
     <terminators>
         <when state="Copyright" output="©"/>
+        <when state="OldCyrillic" output="ѣ"/>
         <when state="acute" output="´"/>
         <when state="breve" output="˘"/>
         <when state="caron" output="ˇ"/>
