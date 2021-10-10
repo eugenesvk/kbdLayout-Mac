@@ -70,7 +70,7 @@
             <key code="7" action="x"/>
             <key code="8" action="c"/>
             <key code="9" action="v"/>
-            <key code="10" output="`"/>
+            <key code="10" action="` 2"/>
             <key code="11" action="b"/>
             <key code="12" action="q"/>
             <key code="13" action="w"/>
@@ -2087,6 +2087,10 @@
             <when state="none" next="grave"/>
             <when state="grave" output="̀"/>
         </action>
+        <action id="` 2">
+            <when state="none" output="`"/>
+            <when state="macron" next="Macron+Grave"/>
+        </action>
         <action id="action">
             <when state="none" output="⇪"/>
         </action>
@@ -2233,7 +2237,9 @@
         </action>
         <action id="±">
             <when state="none" next="grave"/>
+            <when state="Macron+Grave" output="᷆"/>
             <when state="grave" output="̀"/>
+            <when state="macron" next="Macron+Grave"/>
         </action>
         <action id="ˆ">
             <when state="none" next="diaeresis"/>
