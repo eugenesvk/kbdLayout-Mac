@@ -31,6 +31,16 @@ All notable changes to this project will be documented in this file
         * <kbd>с</kbd> ©
         * <kbd>к</kbd><kbd>р</kbd> ®
         * <kbd>е</kbd><kbd>т</kbd> ™
+    +  :sparkles: `en` add 🕱 dead key `OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>o</kbd> — after dead key is pressed, the following keys are mapped to:
+        * <kbd>q</kbd> ѳ
+        * <kbd>e</kbd> ѣ
+        * <kbd>u</kbd> ѵ
+        * <kbd>i</kbd> і
+    +  :sparkles: `ru` add 🕱 dead key `OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>щ</kbd> — after dead key is pressed, the following keys are mapped to:
+        * <kbd>й</kbd> ѳ
+        * <kbd>у</kbd> ѣ
+        * <kbd>г</kbd> ѵ
+        * <kbd>ш</kbd> і
 
   [0.3.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.3.0
 ## [0.3.0]
