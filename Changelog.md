@@ -22,6 +22,20 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
   - __Added__
+    + :sparkles: `ru` <kbd>🕱</kbd>`space` and mapped it to <kbd>^</kbd><kbd>␠</kbd>, pressing it enables the following:
+        * <kbd>о</kbd> word joiner
+        * <kbd>я</kbd>, <kbd>0</kbd> zero-width
+        * <kbd>р</kbd>, <kbd>в</kbd> hair
+        * <kbd>е</kbd> thin
+        * <kbd>и</kbd> narrow no-break
+        * <kbd>з</kbd>, <kbd>.</kbd>, <kbd>п</kbd> punctuation
+        * <kbd>а</kbd>, <kbd>ф</kbd> figure
+        * <kbd>т</kbd>, <kbd>н</kbd> en
+        * <kbd>ь</kbd>, <kbd>м</kbd> em
+        * <kbd>г</kbd>, <kbd>у</kbd> open box
+        * <kbd>ы</kbd>, <kbd>с</kbd> symbol for space
+        * <kbd>⇧</kbd><kbd>ы</kbd>, <kbd>⇧</kbd><kbd>с</kbd> blank symbol
+        * <kbd>-</kbd> non-breaking hyphen
     + `ru` spaces of various widths, mapped to <kbd>space</kbd> with various modifiers
         * <kbd>^</kbd><kbd>⌥</kbd>            	hair
         * <kbd>⌥</kbd><kbd>⌘</kbd>            	thin
