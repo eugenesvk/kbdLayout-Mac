@@ -407,16 +407,16 @@
             <key code="5" output="π"/>
             <key code="6" output="Ω"/>
             <key code="7" output="×"/>
-            <key code="8" output="©"/>
+            <key code="8" action="©"/>
             <key code="9" output="↓"/>
             <key code="10" output="`"/>
             <key code="11" output="ß"/>
             <key code="12" output="⎋"/>
             <key code="13" output="∑"/>
             <key code="14" output="€"/>
-            <key code="15" output="®"/>
+            <key code="15" output=""/>
             <key code="16" action="ѣ"/>
-            <key code="17" output="™"/>
+            <key code="17" output=""/>
             <key code="18" output="¹"/>
             <key code="19" output="²"/>
             <key code="20" output="³"/>
@@ -1923,6 +1923,7 @@
         </action>
         <action id="16">
             <when state="none" output="т"/>
+            <when state="Copyright" output="™"/>
             <when state="space" output=" "/>
         </action>
         <action id="17">
@@ -1981,6 +1982,9 @@
         <action id="ring">
             <when state="none" next="ring"/>
             <when state="ring" output="̊"/>
+        </action>
+        <action id="©">
+            <when state="none" next="Copyright"/>
         </action>
         <action id="±">
             <when state="none" next="grave"/>
@@ -2118,6 +2122,7 @@
         </action>
         <action id="е">
             <when state="none" output="е"/>
+            <when state="Copyright" output="™"/>
             <when state="breve" output="ӗ"/>
             <when state="diaeresis" output="ё"/>
             <when state="grave" output="ѐ"/>
@@ -2148,6 +2153,7 @@
         </action>
         <action id="к">
             <when state="none" output="к"/>
+            <when state="Copyright" output="®"/>
             <when state="acute" output="ќ"/>
         </action>
         <action id="л">
@@ -2168,10 +2174,12 @@
         </action>
         <action id="р">
             <when state="none" output="р"/>
+            <when state="Copyright" output="®"/>
             <when state="space" output=" "/>
         </action>
         <action id="с">
             <when state="none" output="с"/>
+            <when state="Copyright" output="©"/>
             <when state="space" output="␠"/>
         </action>
         <action id="х">
@@ -2245,6 +2253,7 @@
         </action>
     </actions>
     <terminators>
+        <when state="Copyright" output="©"/>
         <when state="acute" output="´"/>
         <when state="breve" output="˘"/>
         <when state="caron" output="ˇ"/>
