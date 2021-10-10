@@ -404,16 +404,16 @@
             <key code="5" output="π"/>
             <key code="6" output="Ω"/>
             <key code="7" output="×"/>
-            <key code="8" output="©"/>
+            <key code="8" action="©"/>
             <key code="9" output="↓"/>
             <key code="10" output="`"/>
             <key code="11" output="ß"/>
             <key code="12" output="⎋"/>
             <key code="13" output="∑"/>
             <key code="14" output="€"/>
-            <key code="15" output="®"/>
+            <key code="15" output=""/>
             <key code="16" output="¥"/>
-            <key code="17" output="™"/>
+            <key code="17" output=""/>
             <key code="18" output="¹"/>
             <key code="19" output="²"/>
             <key code="20" output="³"/>
@@ -2065,6 +2065,7 @@
         </action>
         <action id="c">
             <when state="none" output="c"/>
+            <when state="Copyright" output="©"/>
             <when state="acute" output="ć"/>
             <when state="acute-2" output="ć"/>
             <when state="caron" output="č"/>
@@ -2135,6 +2136,7 @@
         </action>
         <action id="r">
             <when state="none" output="r"/>
+            <when state="Copyright" output="®"/>
             <when state="acute" output="ŕ"/>
             <when state="acute-2" output="ŕ"/>
             <when state="caron" output="ř"/>
@@ -2155,6 +2157,7 @@
         </action>
         <action id="t">
             <when state="none" output="t"/>
+            <when state="Copyright" output="™"/>
             <when state="caron" output="ť"/>
             <when state="cedilla" output="ţ"/>
             <when state="space" output=" "/>
@@ -2183,6 +2186,9 @@
             <when state="circumflex" output="ẑ"/>
             <when state="space" output="​"/>
         </action>
+        <action id="©">
+            <when state="none" next="Copyright"/>
+        </action>
         <action id="±">
             <when state="none" next="grave"/>
             <when state="grave" output="̀"/>
@@ -2193,6 +2199,7 @@
         </action>
     </actions>
     <terminators>
+        <when state="Copyright" output="©"/>
         <when state="acute" output="´"/>
         <when state="acute-2" output="´"/>
         <when state="breve" output="˘"/>
