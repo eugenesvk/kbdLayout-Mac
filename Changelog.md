@@ -22,6 +22,16 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
 
+  - __Added__
+    +  :sparkles: `en` add 🕱 dead key `Copyright` and mapped it to <kbd>⌥</kbd><kbd>c</kbd> — after dead key is pressed, the following are mnemonically mapped to:
+        * <kbd>c</kbd> ©
+        * <kbd>r</kbd> ®
+        * <kbd>t</kbd> ™
+    +  :sparkles: `ru` add 🕱 dead key `Copyright` and mapped it to <kbd>⌥</kbd><kbd>с</kbd> — after dead key is pressed, the following are mnemonically mapped to:
+        * <kbd>с</kbd> ©
+        * <kbd>к</kbd><kbd>р</kbd> ®
+        * <kbd>е</kbd><kbd>т</kbd> ™
+
   [0.3.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.3.0
 ## [0.3.0]
   - __Added__
