@@ -43,7 +43,7 @@
             <modifier keys="anyShift caps? anyOption command"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="9">
-            <modifier keys="anyShift? caps? anyOption? command anyControl?"/>
+            <modifier keys="anyShift? caps? command anyControl?"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="10">
             <modifier keys="caps? anyControl"/>
