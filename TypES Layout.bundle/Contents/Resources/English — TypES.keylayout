@@ -72,7 +72,7 @@
             <key code="9" action="v"/>
             <key code="10" output="`"/>
             <key code="11" action="b"/>
-            <key code="12" output="q"/>
+            <key code="12" action="q"/>
             <key code="13" action="w"/>
             <key code="14" action="14"/>
             <key code="15" action="r"/>
@@ -184,7 +184,7 @@
             <key code="9" action="V"/>
             <key code="10" output="~"/>
             <key code="11" action="B"/>
-            <key code="12" output="Q"/>
+            <key code="12" action="Q"/>
             <key code="13" action="W"/>
             <key code="14" action="7"/>
             <key code="15" action="R"/>
@@ -427,10 +427,10 @@
             <key code="28" output="∞"/>
             <key code="29" output="→"/>
             <key code="30" output="]"/>
-            <key code="31" output="ѳ"/>
-            <key code="32" output="ѵ"/>
+            <key code="31" action="OldCyrillic"/>
+            <key code="32" output=""/>
             <key code="33" output="["/>
-            <key code="34" output="і"/>
+            <key code="34" output=""/>
             <key code="35" output="′"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="”"/>
@@ -524,7 +524,7 @@
             <key code="13" output="⌃"/>
             <key code="14" action="action"/>
             <key code="15" action="ring"/>
-            <key code="16" output="Ѣ"/>
+            <key code="16" output=""/>
             <key code="17" output="℃"/>
             <key code="18" output="¡"/>
             <key code="19" output="½"/>
@@ -539,10 +539,10 @@
             <key code="28" output="·"/>
             <key code="29" output="›"/>
             <key code="30" output="}"/>
-            <key code="31" output="Ѳ"/>
-            <key code="32" output="Ѵ"/>
+            <key code="31" output=""/>
+            <key code="32" output=""/>
             <key code="33" output="{"/>
-            <key code="34" output="І"/>
+            <key code="34" output=""/>
             <key code="35" output="″"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="λ"/>
@@ -1784,6 +1784,7 @@
         </action>
         <action id="11">
             <when state="none" output="U"/>
+            <when state="OldCyrillic" output="Ѵ"/>
             <when state="acute" output="Ú"/>
             <when state="acute-2" output="Ú"/>
             <when state="breve" output="Ŭ"/>
@@ -1819,6 +1820,7 @@
         </action>
         <action id="14">
             <when state="none" output="e"/>
+            <when state="OldCyrillic" output="ѣ"/>
             <when state="acute" output="é"/>
             <when state="acute-2" output="é"/>
             <when state="breve" output="ĕ"/>
@@ -1831,6 +1833,7 @@
         </action>
         <action id="15">
             <when state="none" output="i"/>
+            <when state="OldCyrillic" output="і"/>
             <when state="acute" output="í"/>
             <when state="acute-2" output="í"/>
             <when state="breve" output="ĭ"/>
@@ -1865,6 +1868,7 @@
         </action>
         <action id="18">
             <when state="none" output="u"/>
+            <when state="OldCyrillic" output="ѵ"/>
             <when state="acute" output="ú"/>
             <when state="acute-2" output="ú"/>
             <when state="breve" output="ŭ"/>
@@ -1916,6 +1920,7 @@
         </action>
         <action id="7">
             <when state="none" output="E"/>
+            <when state="OldCyrillic" output="Ѣ"/>
             <when state="acute" output="É"/>
             <when state="acute-2" output="É"/>
             <when state="breve" output="Ĕ"/>
@@ -1928,6 +1933,7 @@
         </action>
         <action id="8">
             <when state="none" output="I"/>
+            <when state="OldCyrillic" output="І"/>
             <when state="acute" output="Í"/>
             <when state="acute-2" output="Í"/>
             <when state="breve" output="Ĭ"/>
@@ -1999,10 +2005,17 @@
             <when state="acute-2" output="Ḿ"/>
             <when state="double-acute" output="M̋"/>
         </action>
+        <action id="OldCyrillic">
+            <when state="none" next="OldCyrillic"/>
+        </action>
         <action id="P">
             <when state="none" output="P"/>
             <when state="acute" output="Ṕ"/>
             <when state="acute-2" output="Ṕ"/>
+        </action>
+        <action id="Q">
+            <when state="none" output="Q"/>
+            <when state="OldCyrillic" output="Ѳ"/>
         </action>
         <action id="R">
             <when state="none" output="R"/>
@@ -2134,6 +2147,10 @@
             <when state="acute-2" output="ṕ"/>
             <when state="space" output=" "/>
         </action>
+        <action id="q">
+            <when state="none" output="q"/>
+            <when state="OldCyrillic" output="ѳ"/>
+        </action>
         <action id="r">
             <when state="none" output="r"/>
             <when state="Copyright" output="®"/>
@@ -2200,6 +2217,7 @@
     </actions>
     <terminators>
         <when state="Copyright" output="©"/>
+        <when state="OldCyrillic" output="ѣ"/>
         <when state="acute" output="´"/>
         <when state="acute-2" output="´"/>
         <when state="breve" output="˘"/>
