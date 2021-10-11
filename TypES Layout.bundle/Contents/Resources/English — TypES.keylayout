@@ -101,7 +101,7 @@
             <key code="38" action="j"/>
             <key code="39" output="&#x0027;"/>
             <key code="40" action="k"/>
-            <key code="41" output=";"/>
+            <key code="41" action=";"/>
             <key code="42" output="\"/>
             <key code="43" output=","/>
             <key code="44" action="/"/>
@@ -1981,6 +1981,10 @@
             <when state="grave" output="Ǹ"/>
             <when state="tilde" output="Ñ"/>
         </action>
+        <action id=";">
+            <when state="none" output=";"/>
+            <when state="macron" next="Macron+Diaeresis"/>
+        </action>
         <action id="B">
             <when state="none" output="B"/>
             <when state="acute" output="Ḿ"/>
@@ -2255,12 +2259,14 @@
         <action id="ˆ">
             <when state="none" next="diaeresis"/>
             <when state="diaeresis" output="̈"/>
+            <when state="macron" next="Macron+Diaeresis"/>
         </action>
     </actions>
     <terminators>
         <when state="Copyright" output="©"/>
         <when state="OldCyrillic" output="ѣ"/>
         <when state="Macron+Acute" output=""/>
+        <when state="Macron+Diaeresis" output=""/>
         <when state="Macron+Grave" output=""/>
         <when state="acute" output="´"/>
         <when state="acute-2" output="´"/>
