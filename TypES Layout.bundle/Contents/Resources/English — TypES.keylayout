@@ -1779,6 +1779,7 @@
         </action>
         <action id="10">
             <when state="none" output="O"/>
+            <when state="DotAbove+Macron" output="Ȱ"/>
             <when state="Macron+Acute" output="Ṓ"/>
             <when state="Macron+Grave" output="Ṑ"/>
             <when state="acute" output="Ó"/>
@@ -1825,6 +1826,7 @@
         </action>
         <action id="13">
             <when state="none" output="a"/>
+            <when state="DotAbove+Macron" output="ǡ"/>
             <when state="acute" output="á"/>
             <when state="acute-2" output="á"/>
             <when state="breve" output="ă"/>
@@ -1885,6 +1887,7 @@
         </action>
         <action id="17">
             <when state="none" output="o"/>
+            <when state="DotAbove+Macron" output="ȱ"/>
             <when state="Macron+Acute" output="ṓ"/>
             <when state="Macron+Grave" output="ṑ"/>
             <when state="acute" output="ó"/>
@@ -1949,6 +1952,7 @@
         </action>
         <action id="6">
             <when state="none" output="A"/>
+            <when state="DotAbove+Macron" output="Ǡ"/>
             <when state="acute" output="Á"/>
             <when state="acute-2" output="Á"/>
             <when state="breve" output="Ă"/>
