@@ -1779,6 +1779,7 @@
         </action>
         <action id="10">
             <when state="none" output="O"/>
+            <when state="Diaeresis+Macron" output="Ȫ"/>
             <when state="DotAbove+Macron" output="Ȱ"/>
             <when state="Macron+Acute" output="Ṓ"/>
             <when state="Macron+Grave" output="Ṑ"/>
@@ -1798,6 +1799,7 @@
         </action>
         <action id="11">
             <when state="none" output="U"/>
+            <when state="Diaeresis+Macron" output="Ǖ"/>
             <when state="Macron+Diaeresis" output="Ṻ"/>
             <when state="OldCyrillic" output="Ѵ"/>
             <when state="acute" output="Ú"/>
@@ -1827,6 +1829,7 @@
         </action>
         <action id="13">
             <when state="none" output="a"/>
+            <when state="Diaeresis+Macron" output="ǟ"/>
             <when state="DotAbove+Macron" output="ǡ"/>
             <when state="acute" output="á"/>
             <when state="acute-2" output="á"/>
@@ -1888,6 +1891,7 @@
         </action>
         <action id="17">
             <when state="none" output="o"/>
+            <when state="Diaeresis+Macron" output="ȫ"/>
             <when state="DotAbove+Macron" output="ȱ"/>
             <when state="Macron+Acute" output="ṓ"/>
             <when state="Macron+Grave" output="ṑ"/>
@@ -1907,6 +1911,7 @@
         </action>
         <action id="18">
             <when state="none" output="u"/>
+            <when state="Diaeresis+Macron" output="ǖ"/>
             <when state="Macron+Diaeresis" output="ṻ"/>
             <when state="OldCyrillic" output="ѵ"/>
             <when state="acute" output="ú"/>
@@ -1954,6 +1959,7 @@
         </action>
         <action id="6">
             <when state="none" output="A"/>
+            <when state="Diaeresis+Macron" output="Ǟ"/>
             <when state="DotAbove+Macron" output="Ǡ"/>
             <when state="acute" output="Á"/>
             <when state="acute-2" output="Á"/>
