@@ -2290,9 +2290,12 @@
             <when state="none" next="macron"/>
             <when state="Macron+Acute" output="᷇"/>
             <when state="Macron+Grave" output="᷅"/>
+            <when state="acute" output="᷇"/>
+            <when state="breve" output="᷋"/>
             <when state="diaeresis" next="Diaeresis+Macron"/>
             <when state="dot-above" next="DotAbove+Macron"/>
             <when state="dot-below" next="DotBelow+Macron"/>
+            <when state="grave" output="᷅"/>
             <when state="macron" output="̄"/>
             <when state="tilde" next="Tilde+Macron"/>
         </action>
