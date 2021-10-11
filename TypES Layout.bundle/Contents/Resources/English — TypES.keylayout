@@ -1782,6 +1782,7 @@
             <when state="DotAbove+Macron" output="Ȱ"/>
             <when state="Macron+Acute" output="Ṓ"/>
             <when state="Macron+Grave" output="Ṑ"/>
+            <when state="Tilde+Macron" output="Ȭ"/>
             <when state="acute" output="Ó"/>
             <when state="acute-2" output="Ó"/>
             <when state="breve" output="Ŏ"/>
@@ -1890,6 +1891,7 @@
             <when state="DotAbove+Macron" output="ȱ"/>
             <when state="Macron+Acute" output="ṓ"/>
             <when state="Macron+Grave" output="ṑ"/>
+            <when state="Tilde+Macron" output="ȭ"/>
             <when state="acute" output="ó"/>
             <when state="acute-2" output="ó"/>
             <when state="breve" output="ŏ"/>
