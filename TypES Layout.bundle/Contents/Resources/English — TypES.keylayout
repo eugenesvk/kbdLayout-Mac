@@ -2068,6 +2068,7 @@
         </action>
         <action id="L">
             <when state="none" output="L"/>
+            <when state="DotBelow+Macron" output="Ḹ"/>
             <when state="acute" output="Ĺ"/>
             <when state="acute-2" output="Ĺ"/>
             <when state="cedilla" output="Ļ"/>
@@ -2095,6 +2096,7 @@
         </action>
         <action id="R">
             <when state="none" output="R"/>
+            <when state="DotBelow+Macron" output="Ṝ"/>
             <when state="acute" output="Ŕ"/>
             <when state="acute-2" output="Ŕ"/>
             <when state="caron" output="Ř"/>
@@ -2242,6 +2244,7 @@
         </action>
         <action id="l">
             <when state="none" output="l"/>
+            <when state="DotBelow+Macron" output="ḹ"/>
             <when state="acute" output="ĺ"/>
             <when state="acute-2" output="ĺ"/>
             <when state="cedilla" output="ļ"/>
@@ -2276,6 +2279,7 @@
         <action id="r">
             <when state="none" output="r"/>
             <when state="Copyright" output="®"/>
+            <when state="DotBelow+Macron" output="ṝ"/>
             <when state="acute" output="ŕ"/>
             <when state="acute-2" output="ŕ"/>
             <when state="caron" output="ř"/>
