@@ -2106,6 +2106,7 @@
         </action>
         <action id="S">
             <when state="none" output="S"/>
+            <when state="DotBelow+DotAbove" output="Ṩ"/>
             <when state="acute" output="Ś"/>
             <when state="acute-2" output="Ś"/>
             <when state="caron" output="Š"/>
@@ -2294,6 +2295,7 @@
         </action>
         <action id="s">
             <when state="none" output="s"/>
+            <when state="DotBelow+DotAbove" output="ṩ"/>
             <when state="acute" output="ś"/>
             <when state="acute-2" output="ś"/>
             <when state="caron" output="š"/>
