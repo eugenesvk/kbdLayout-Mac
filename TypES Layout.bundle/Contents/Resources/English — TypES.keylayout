@@ -1779,6 +1779,7 @@
         </action>
         <action id="10">
             <when state="none" output="O"/>
+            <when state="Circumflex+DotBelow" output="Ộ"/>
             <when state="Diaeresis+Macron" output="Ȫ"/>
             <when state="DotAbove+Macron" output="Ȱ"/>
             <when state="Macron+Acute" output="Ṓ"/>
@@ -1830,6 +1831,7 @@
         <action id="13">
             <when state="none" output="a"/>
             <when state="Breve+DotBelow" output="ặ"/>
+            <when state="Circumflex+DotBelow" output="ậ"/>
             <when state="Diaeresis+Macron" output="ǟ"/>
             <when state="DotAbove+Macron" output="ǡ"/>
             <when state="acute" output="á"/>
@@ -1848,6 +1850,7 @@
         </action>
         <action id="14">
             <when state="none" output="e"/>
+            <when state="Circumflex+DotBelow" output="ệ"/>
             <when state="Macron+Acute" output="ḗ"/>
             <when state="Macron+Grave" output="ḕ"/>
             <when state="OldCyrillic" output="ѣ"/>
@@ -1892,6 +1895,7 @@
         </action>
         <action id="17">
             <when state="none" output="o"/>
+            <when state="Circumflex+DotBelow" output="ộ"/>
             <when state="Diaeresis+Macron" output="ȫ"/>
             <when state="DotAbove+Macron" output="ȱ"/>
             <when state="Macron+Acute" output="ṓ"/>
@@ -1961,6 +1965,7 @@
         <action id="6">
             <when state="none" output="A"/>
             <when state="Breve+DotBelow" output="Ặ"/>
+            <when state="Circumflex+DotBelow" output="Ậ"/>
             <when state="Diaeresis+Macron" output="Ǟ"/>
             <when state="DotAbove+Macron" output="Ǡ"/>
             <when state="acute" output="Á"/>
@@ -1979,6 +1984,7 @@
         </action>
         <action id="7">
             <when state="none" output="E"/>
+            <when state="Circumflex+DotBelow" output="Ệ"/>
             <when state="Macron+Acute" output="Ḗ"/>
             <when state="Macron+Grave" output="Ḕ"/>
             <when state="OldCyrillic" output="Ѣ"/>
