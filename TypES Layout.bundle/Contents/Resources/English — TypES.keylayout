@@ -540,7 +540,7 @@
             <key code="29" output="›"/>
             <key code="30" output="}"/>
             <key code="31" action="macron"/>
-            <key code="32" output=""/>
+            <key code="32" action="dot-below"/>
             <key code="33" output="{"/>
             <key code="34" action="dot-above"/>
             <key code="35" output="″"/>
@@ -2169,6 +2169,9 @@
             <when state="none" next="dot-above"/>
             <when state="dot-above" output="̇"/>
         </action>
+        <action id="dot-below">
+            <when state="none" next="dot-below"/>
+        </action>
         <action id="double-acute">
             <when state="none" next="double-acute"/>
             <when state="double-acute" output="̋"/>
@@ -2325,6 +2328,7 @@
         <when state="circumflex" output="ˆ"/>
         <when state="diaeresis" output="¨"/>
         <when state="dot-above" output="˙"/>
+        <when state="dot-below" output=""/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
         <when state="macron" output="¯"/>
