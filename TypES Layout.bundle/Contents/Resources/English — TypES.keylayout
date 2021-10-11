@@ -1829,6 +1829,7 @@
         </action>
         <action id="13">
             <when state="none" output="a"/>
+            <when state="Breve+DotBelow" output="ặ"/>
             <when state="Diaeresis+Macron" output="ǟ"/>
             <when state="DotAbove+Macron" output="ǡ"/>
             <when state="acute" output="á"/>
@@ -1959,6 +1960,7 @@
         </action>
         <action id="6">
             <when state="none" output="A"/>
+            <when state="Breve+DotBelow" output="Ặ"/>
             <when state="Diaeresis+Macron" output="Ǟ"/>
             <when state="DotAbove+Macron" output="Ǡ"/>
             <when state="acute" output="Á"/>
