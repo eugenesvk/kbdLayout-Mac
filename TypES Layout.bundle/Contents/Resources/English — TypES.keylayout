@@ -2213,6 +2213,7 @@
         </action>
         <action id="dot-below">
             <when state="none" next="dot-below"/>
+            <when state="breve" next="Breve+DotBelow"/>
             <when state="dot-below" output="̣"/>
         </action>
         <action id="double-acute">
@@ -2377,6 +2378,7 @@
     <terminators>
         <when state="Copyright" output="©"/>
         <when state="OldCyrillic" output="ѣ"/>
+        <when state="Breve+DotBelow" output=""/>
         <when state="Diaeresis+Macron" output=""/>
         <when state="DotAbove+Macron" output=""/>
         <when state="DotBelow+DotAbove" output=""/>
