@@ -33,6 +33,20 @@ All notable changes to this project will be documented in this file
         * <kbd>a</kbd>–<kbd>z</kbd> ạ–ẓ (except for <kbd>c</kbd><kbd>f</kbd><kbd>g</kbd><kbd>i</kbd><kbd>j</kbd><kbd>p</kbd><kbd>x</kbd>)
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> ̣ (combining dot below)
+    +  :sparkles: `en` add 🕱 dead key `Breve+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — (after `breve` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>a</kbd> ặ
+        * (and the same with the Capital letters)
+    +  :sparkles: `en` add 🕱 dead key `Acute+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after `acute` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>s</kbd> ṥ
+        * (and the same with the Capital letters)
+    +  :sparkles: `en` add 🕱 dead key `Caron+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after `caron` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>s</kbd> ṧ
+        * (and the same with the Capital letters)
+    +  :sparkles: `en` add 🕱 dead key `Circumflex+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — (after `circumflex` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>a</kbd> ậ
+        * <kbd>e</kbd> ệ
+        * <kbd>o</kbd> ộ
+        * (and the same with the Capital letters)
 
   [0.4.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.4.0
 ## [0.4.0]
