@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file
 
-[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.3.0...HEAD
+[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.4.0...HEAD
 ## [Unreleased]
   <!-- - __Added__ -->
     <!-- + :sparkles: ??? -->
@@ -22,6 +22,8 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
 
+  [0.4.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.4.0
+## [0.4.0]
   - __Added__
     + :sparkles: `en` <kbd>🕱</kbd>`Copyright` and mapped it to <kbd>⌥</kbd><kbd>c</kbd>, pressing it enables the following:
         * <kbd>c</kbd> ©
