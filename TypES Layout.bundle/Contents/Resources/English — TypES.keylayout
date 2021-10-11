@@ -542,7 +542,7 @@
             <key code="31" action="macron"/>
             <key code="32" output=""/>
             <key code="33" output="{"/>
-            <key code="34" output=""/>
+            <key code="34" action="dot-above"/>
             <key code="35" output="″"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="λ"/>
@@ -2133,6 +2133,9 @@
             <when state="caron" output="ď"/>
             <when state="cedilla" output="ḑ"/>
         </action>
+        <action id="dot-above">
+            <when state="none" next="dot-above"/>
+        </action>
         <action id="double-acute">
             <when state="none" next="double-acute"/>
             <when state="double-acute" output="̋"/>
@@ -2277,6 +2280,7 @@
         <when state="cedilla" output="¸"/>
         <when state="circumflex" output="ˆ"/>
         <when state="diaeresis" output="¨"/>
+        <when state="dot-above" output="˙"/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
         <when state="macron" output="¯"/>
