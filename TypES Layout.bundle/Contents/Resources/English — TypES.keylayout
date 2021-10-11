@@ -2121,6 +2121,7 @@
         <action id="S">
             <when state="none" output="S"/>
             <when state="Acute+DotAbove" output="Ṥ"/>
+            <when state="Caron+DotAbove" output="Ṧ"/>
             <when state="DotBelow+DotAbove" output="Ṩ"/>
             <when state="acute" output="Ś"/>
             <when state="acute-2" output="Ś"/>
@@ -2317,6 +2318,7 @@
         <action id="s">
             <when state="none" output="s"/>
             <when state="Acute+DotAbove" output="ṥ"/>
+            <when state="Caron+DotAbove" output="ṧ"/>
             <when state="DotBelow+DotAbove" output="ṩ"/>
             <when state="acute" output="ś"/>
             <when state="acute-2" output="ś"/>
