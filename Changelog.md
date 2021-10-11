@@ -23,11 +23,11 @@ All notable changes to this project will be documented in this file
     <!-- vulnerabilities -->
 
   - __Added__
-    +  :sparkles: `en` add 🕱 dead key `Copyright` and mapped it to <kbd>⌥</kbd><kbd>c</kbd> — after dead key is pressed, the following are mnemonically mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd>`Copyright` and mapped it to <kbd>⌥</kbd><kbd>c</kbd>, pressing it enables the following:
         * <kbd>c</kbd> ©
         * <kbd>r</kbd> ®
         * <kbd>t</kbd> ™
-    +  :sparkles: `ru` add 🕱 dead key `Copyright` and mapped it to <kbd>⌥</kbd><kbd>с</kbd> — after dead key is pressed, the following are mnemonically mapped to:
+    + :sparkles: `ru` <kbd>🕱</kbd>`Copyright` and mapped it to <kbd>⌥</kbd><kbd>с</kbd>, pressing it enables the following:
         * <kbd>с</kbd> ©
         * <kbd>к</kbd><kbd>р</kbd> ®
         * <kbd>е</kbd><kbd>т</kbd> ™
@@ -41,6 +41,37 @@ All notable changes to this project will be documented in this file
         * <kbd>у</kbd> ѣ
         * <kbd>г</kbd> ѵ
         * <kbd>ш</kbd> і
+    +  :sparkles: `en` add 🕱 dead key `macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — after dead key is pressed, the following keys are mapped to:
+        * <kbd>a</kbd> ā
+        * <kbd>e</kbd> ē
+        * <kbd>i</kbd> ī
+        * <kbd>o</kbd> ō
+        * <kbd>u</kbd> ū
+        * <kbd>y</kbd> ȳ
+        * <kbd>g</kbd> ḡ
+        * (and the same with the Capital letters)
+        * <kbd>space</kbd> ¯ (stand-alone macron)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>  ̄ (combining macron)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>q</kbd>  ᷌  (combining macron-breve)
+    +  :sparkles: `en` add 🕱 dead sub-key `Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd> or <kbd>`</kbd> — (after `macron` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>e</kbd> ḕ
+        * <kbd>o</kbd> ṑ
+        * (and the same with the Capital letters)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd>  ᷆ (combining Macron-Grave)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷅ (combining Grave-Macron)
+    +  :sparkles: `en` add 🕱 dead sub-key `Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> — (after `macron` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>e</kbd> ḗ
+        * <kbd>o</kbd> ṓ
+        * (and the same with the Capital letters)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ᷄ (combining Macron-Acute)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷇ (combining Acute-Macron)
+    +  :sparkles: `ru` add 🕱 dead key `macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>щ</kbd> — after dead key is pressed, the following keys are mapped to:
+        * <kbd>й</kbd> ӣ
+        * <kbd>у</kbd> ӯ
+        * <kbd>и</kbd> ӣ
+        * (and the same with the Capital letters)
+        * <kbd>space</kbd> ¯ (stand-alone macron)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>щ</kbd>  ̄ (combining macron)
 
   [0.3.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.3.0
 ## [0.3.0]
