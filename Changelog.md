@@ -22,6 +22,18 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
 
+  - __Added__
+    +  :sparkles: `en` add 🕱 dead key `dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — after dead key is pressed, the following keys are mapped to:
+        * <kbd>a</kbd>–<kbd>z</kbd> ȧ–ż (except for <kbd>q</kbd><kbd>u</kbd><kbd>i</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>v</kbd>)
+        * (and the same with the Capital letters)
+        * <kbd>I</kbd> İ
+        * <kbd>space</kbd> ˙ (stand-alone dot above)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd>  ̇ (combining dot above)
+    +  :sparkles: `en` add 🕱 dead key `dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — after dead key is pressed, the following keys are mapped to:
+        * <kbd>a</kbd>–<kbd>z</kbd> ạ–ẓ (except for <kbd>c</kbd><kbd>f</kbd><kbd>g</kbd><kbd>i</kbd><kbd>j</kbd><kbd>p</kbd><kbd>x</kbd>)
+        * (and the same with the Capital letters)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> ̣ (combining dot below)
+
   [0.4.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.4.0
 ## [0.4.0]
   - __Added__
