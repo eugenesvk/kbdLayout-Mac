@@ -2244,7 +2244,7 @@
             <when state="none" output=""/>
         </action>
         <action id="Ѳ">
-            <when state="none" output=""/>
+            <when state="none" next="macron"/>
         </action>
         <action id="ѳ">
             <when state="none" next="OldCyrillic"/>
@@ -2271,6 +2271,7 @@
         <when state="diaeresis" output="¨"/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
+        <when state="macron" output="¯"/>
         <when state="ring" output="˚"/>
         <when state="space" output=" "/>
         <when state="tilde" output="˜"/>
