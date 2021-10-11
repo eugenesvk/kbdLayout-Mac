@@ -2196,6 +2196,7 @@
         <action id="dot-above">
             <when state="none" next="dot-above"/>
             <when state="dot-above" output="̇"/>
+            <when state="dot-below" next="DotBelow+DotAbove"/>
         </action>
         <action id="dot-below">
             <when state="none" next="dot-below"/>
@@ -2359,6 +2360,7 @@
     <terminators>
         <when state="Copyright" output="©"/>
         <when state="OldCyrillic" output="ѣ"/>
+        <when state="DotBelow+DotAbove" output=""/>
         <when state="DotBelow+Macron" output=""/>
         <when state="Macron+Acute" output=""/>
         <when state="Macron+Diaeresis" output=""/>
