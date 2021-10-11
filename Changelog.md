@@ -33,6 +33,25 @@ All notable changes to this project will be documented in this file
         * <kbd>a</kbd>–<kbd>z</kbd> ạ–ẓ (except for <kbd>c</kbd><kbd>f</kbd><kbd>g</kbd><kbd>i</kbd><kbd>j</kbd><kbd>p</kbd><kbd>x</kbd>)
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> ̣ (combining dot below)
+    +  :sparkles: `en` add 🕱 dead key `DotBelow+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after `dot-below` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>l</kbd> ḹ
+        * <kbd>r</kbd> ṝ
+        * (and the same with the Capital letters)
+    +  :sparkles: `en` add 🕱 dead key `DotBelow+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after `dot-below` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>s</kbd> ṩ
+        * (and the same with the Capital letters)
+    +  :sparkles: `en` add 🕱 dead key `DotAbove+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after `dot-above` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>a</kbd> ǡ
+        * <kbd>o</kbd> ȱ
+        * (and the same with the Capital letters)
+    +  :sparkles: `en` add 🕱 dead key `Tilde+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after `tilde` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>o</kbd> ȭ
+        * (and the same with the Capital letters)
+    +  :sparkles: `en` add 🕱 dead key `Diaeresis+Macron'` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after `diaeresis` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+        * <kbd>a</kbd> ǟ
+        * <kbd>o</kbd> ȫ
+        * <kbd>u</kbd> ǖ
+        * (and the same with the Capital letters)
     +  :sparkles: `en` add 🕱 dead key `Breve+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — (after `breve` dead key is pressed) after dead key is pressed, the following keys are mapped to:
         * <kbd>a</kbd> ặ
         * (and the same with the Capital letters)
