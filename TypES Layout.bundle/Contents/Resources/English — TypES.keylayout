@@ -104,7 +104,7 @@
             <key code="41" output=";"/>
             <key code="42" output="\"/>
             <key code="43" output=","/>
-            <key code="44" output="/"/>
+            <key code="44" action="/"/>
             <key code="45" action="16"/>
             <key code="46" action="m"/>
             <key code="47" action="."/>
@@ -1765,6 +1765,10 @@
         <action id=".">
             <when state="none" output="."/>
             <when state="space" output=" "/>
+        </action>
+        <action id="/">
+            <when state="none" output="/"/>
+            <when state="macron" next="Macron+Acute"/>
         </action>
         <action id="0">
             <when state="none" output="0"/>
