@@ -1756,6 +1756,7 @@
         <action id="/">
             <when state="none" output="/"/>
             <when state="Diacritics" next="acute"/>
+            <when state="horn" next="horn+acute"/>
             <when state="macron" next="macron+acute"/>
         </action>
         <action id="0">
@@ -1766,6 +1767,7 @@
         <action id="1">
             <when state="none" output="1"/>
             <when state="Diacritics" next="acute"/>
+            <when state="horn" next="horn+acute"/>
         </action>
         <action id="14">
             <when state="none" output="e"/>
@@ -1832,6 +1834,7 @@
             <when state="grave" output="ò"/>
             <when state="hook-above" output="ỏ"/>
             <when state="horn" output="ơ"/>
+            <when state="horn+acute" output="ớ"/>
             <when state="horn+dot-below" output="ợ"/>
             <when state="horn+hook-above" output="ở"/>
             <when state="horn+tilde" output="ỡ"/>
@@ -1858,6 +1861,7 @@
             <when state="grave" output="ù"/>
             <when state="hook-above" output="ủ"/>
             <when state="horn" output="ư"/>
+            <when state="horn+acute" output="ứ"/>
             <when state="horn+dot-below" output="ự"/>
             <when state="horn+hook-above" output="ử"/>
             <when state="horn+tilde" output="ữ"/>
@@ -2071,6 +2075,7 @@
             <when state="grave" output="Ò"/>
             <when state="hook-above" output="Ỏ"/>
             <when state="horn" output="Ơ"/>
+            <when state="horn+acute" output="Ớ"/>
             <when state="horn+dot-below" output="Ợ"/>
             <when state="horn+hook-above" output="Ở"/>
             <when state="horn+tilde" output="Ỡ"/>
@@ -2137,6 +2142,7 @@
             <when state="grave" output="Ù"/>
             <when state="hook-above" output="Ủ"/>
             <when state="horn" output="Ư"/>
+            <when state="horn+acute" output="Ứ"/>
             <when state="horn+dot-below" output="Ự"/>
             <when state="horn+hook-above" output="Ử"/>
             <when state="horn+tilde" output="Ữ"/>
@@ -2511,6 +2517,7 @@
         <when state="grave" output="`"/>
         <when state="hook-above" output=""/>
         <when state="horn" output=""/>
+        <when state="horn+acute" output=""/>
         <when state="horn+dot-below" output=""/>
         <when state="horn+hook-above" output=""/>
         <when state="horn+tilde" output=""/>
