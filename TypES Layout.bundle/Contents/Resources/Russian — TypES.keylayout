@@ -81,17 +81,17 @@
             <key code="15" action="к"/>
             <key code="16" action="н"/>
             <key code="17" action="е"/>
-            <key code="18" output="1"/>
-            <key code="19" output="2"/>
-            <key code="20" output="3"/>
-            <key code="21" output="4"/>
-            <key code="22" output="6"/>
-            <key code="23" output="5"/>
-            <key code="24" output="="/>
-            <key code="25" output="9"/>
-            <key code="26" output="7"/>
+            <key code="18" action="1"/>
+            <key code="19" action="2"/>
+            <key code="20" action="3"/>
+            <key code="21" action="4"/>
+            <key code="22" action="6"/>
+            <key code="23" action="5"/>
+            <key code="24" action="="/>
+            <key code="25" action="9"/>
+            <key code="26" action="7"/>
             <key code="27" action="-"/>
-            <key code="28" output="8"/>
+            <key code="28" action="8"/>
             <key code="29" action="0"/>
             <key code="30" action="ъ"/>
             <key code="31" action="щ"/>
@@ -117,6 +117,10 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="55" output=""/>
+            <key code="56" output=""/>
+            <key code="57" output=""/>
+            <key code="58" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
@@ -565,6 +569,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="56" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="*"/>
@@ -1114,6 +1119,7 @@
             <key code="50" output="\"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="56" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output=""/>
             <key code="66" output="&#x001D;"/>
@@ -1221,6 +1227,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="56" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
@@ -1854,15 +1861,58 @@
         </action>
         <action id="-">
             <when state="none" output="-"/>
+            <when state="Diacritics" next="dot-below"/>
             <when state="space" output="‑"/>
         </action>
         <action id=".">
             <when state="none" output="."/>
+            <when state="Diacritics" next="acute"/>
             <when state="space" output=" "/>
         </action>
         <action id="0">
             <when state="none" output="0"/>
+            <when state="Diacritics" next="caron"/>
             <when state="space" output="​"/>
+        </action>
+        <action id="1">
+            <when state="none" output="1"/>
+            <when state="Diacritics" next="acute"/>
+        </action>
+        <action id="2">
+            <when state="none" output="2"/>
+            <when state="Diacritics" next="grave"/>
+        </action>
+        <action id="3">
+            <when state="none" output="3"/>
+            <when state="Diacritics" next="diaeresis"/>
+        </action>
+        <action id="4">
+            <when state="none" output="4"/>
+            <when state="Diacritics" next="tilde"/>
+        </action>
+        <action id="5">
+            <when state="none" output="5"/>
+            <when state="Diacritics" next="macron"/>
+        </action>
+        <action id="6">
+            <when state="none" output="6"/>
+            <when state="Diacritics" next="circumflex"/>
+        </action>
+        <action id="7">
+            <when state="none" output="7"/>
+            <when state="Diacritics" next="ring"/>
+        </action>
+        <action id="8">
+            <when state="none" output="8"/>
+            <when state="Diacritics" next="dot-above"/>
+        </action>
+        <action id="9">
+            <when state="none" output="9"/>
+            <when state="Diacritics" next="breve"/>
+        </action>
+        <action id="=">
+            <when state="none" output="="/>
+            <when state="Diacritics" next="cedilla"/>
         </action>
         <action id="^">
             <when state="none" next="circumflex"/>
@@ -2087,6 +2137,7 @@
         </action>
         <action id="г">
             <when state="none" output="г"/>
+            <when state="Diacritics" next="dot-below"/>
             <when state="OldCyrillic" output="ѵ"/>
             <when state="acute" output="ѓ"/>
             <when state="space" output="␣"/>
@@ -2104,6 +2155,7 @@
         </action>
         <action id="ж">
             <when state="none" output="ж"/>
+            <when state="Diacritics" next="diaeresis"/>
             <when state="breve" output="ӂ"/>
             <when state="diaeresis" output="ӝ"/>
         </action>
@@ -2122,6 +2174,7 @@
         </action>
         <action id="й">
             <when state="none" output="й"/>
+            <when state="Diacritics" next="breve"/>
             <when state="OldCyrillic" output="ѳ"/>
             <when state="breve" output="й"/>
             <when state="diaeresis" output="ӥ"/>
@@ -2131,6 +2184,7 @@
         <action id="к">
             <when state="none" output="к"/>
             <when state="Copyright" output="®"/>
+            <when state="Diacritics" next="ring"/>
             <when state="acute" output="ќ"/>
         </action>
         <action id="л">
@@ -2138,6 +2192,7 @@
         </action>
         <action id="м">
             <when state="none" output="м"/>
+            <when state="Diacritics" next="caron"/>
             <when state="space" output=" "/>
         </action>
         <action id="н">
@@ -2156,6 +2211,7 @@
         <action id="р">
             <when state="none" output="р"/>
             <when state="Copyright" output="®"/>
+            <when state="Diacritics" next="double-acute"/>
             <when state="space" output=" "/>
         </action>
         <action id="с">
@@ -2166,6 +2222,7 @@
         <action id="т">
             <when state="none" output="т"/>
             <when state="Copyright" output="™"/>
+            <when state="Diacritics" next="tilde"/>
             <when state="space" output=" "/>
         </action>
         <action id="у">
@@ -2193,10 +2250,12 @@
         </action>
         <action id="ш">
             <when state="none" output="ш"/>
+            <when state="Diacritics" next="dot-above"/>
             <when state="OldCyrillic" output="і"/>
         </action>
         <action id="щ">
             <when state="none" output="щ"/>
+            <when state="Diacritics" next="macron"/>
         </action>
         <action id="ъ">
             <when state="none" output="ъ"/>
@@ -2219,16 +2278,19 @@
         </action>
         <action id="я">
             <when state="none" output="я"/>
+            <when state="Diacritics" next="cedilla"/>
             <when state="space" output="​"/>
         </action>
         <action id="ё">
             <when state="none" output="ё"/>
+            <when state="Diacritics" next="grave"/>
             <when state="breve" output="ӗ"/>
             <when state="diaeresis" output="ё"/>
             <when state="grave" output="ѐ"/>
         </action>
         <action id="ё 1">
             <when state="none" output="`"/>
+            <when state="Diacritics" next="grave"/>
             <when state="grave" output="ѐ"/>
         </action>
         <action id="і">
