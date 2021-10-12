@@ -1778,6 +1778,7 @@
             <when state="cedilla" output="ȩ"/>
             <when state="circumflex" output="ê"/>
             <when state="circumflex+dot-below" output="ệ"/>
+            <when state="circumflex+hook-above" output="ể"/>
             <when state="diaeresis" output="ë"/>
             <when state="dot-above" output="ė"/>
             <when state="dot-below" output="ẹ"/>
@@ -1825,6 +1826,7 @@
             <when state="caron" output="ǒ"/>
             <when state="circumflex" output="ô"/>
             <when state="circumflex+dot-below" output="ộ"/>
+            <when state="circumflex+hook-above" output="ổ"/>
             <when state="diaeresis" output="ö"/>
             <when state="diaeresis+macron" output="ȫ"/>
             <when state="dot-above" output="ȯ"/>
@@ -1937,6 +1939,7 @@
             <when state="caron" output="Ǎ"/>
             <when state="circumflex" output="Â"/>
             <when state="circumflex+dot-below" output="Ậ"/>
+            <when state="circumflex+hook-above" output="Ẩ"/>
             <when state="diaeresis" output="Ä"/>
             <when state="diaeresis+macron" output="Ǟ"/>
             <when state="dot-above" output="Ȧ"/>
@@ -1979,6 +1982,7 @@
             <when state="cedilla" output="Ȩ"/>
             <when state="circumflex" output="Ê"/>
             <when state="circumflex+dot-below" output="Ệ"/>
+            <when state="circumflex+hook-above" output="Ể"/>
             <when state="diaeresis" output="Ë"/>
             <when state="dot-above" output="Ė"/>
             <when state="dot-below" output="Ẹ"/>
@@ -2069,6 +2073,7 @@
             <when state="caron" output="Ǒ"/>
             <when state="circumflex" output="Ô"/>
             <when state="circumflex+dot-below" output="Ộ"/>
+            <when state="circumflex+hook-above" output="Ổ"/>
             <when state="diaeresis" output="Ö"/>
             <when state="diaeresis+macron" output="Ȫ"/>
             <when state="dot-above" output="Ȯ"/>
@@ -2225,6 +2230,7 @@
             <when state="caron" output="ǎ"/>
             <when state="circumflex" output="â"/>
             <when state="circumflex+dot-below" output="ậ"/>
+            <when state="circumflex+hook-above" output="ẩ"/>
             <when state="diaeresis" output="ä"/>
             <when state="diaeresis+macron" output="ǟ"/>
             <when state="dot-above" output="ȧ"/>
@@ -2336,6 +2342,7 @@
         </action>
         <action id="j4">
             <when state="none" output="✓"/>
+            <when state="circumflex" next="circumflex+hook-above"/>
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
         </action>
@@ -2513,6 +2520,7 @@
         <when state="cedilla" output="¸"/>
         <when state="circumflex" output="ˆ"/>
         <when state="circumflex+dot-below" output=""/>
+        <when state="circumflex+hook-above" output=""/>
         <when state="diaeresis" output="¨"/>
         <when state="diaeresis+macron" output=""/>
         <when state="dot-above" output="˙"/>
