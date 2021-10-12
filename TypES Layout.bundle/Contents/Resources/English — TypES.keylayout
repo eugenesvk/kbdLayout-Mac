@@ -521,10 +521,10 @@
             <key code="6" action="cedilla"/>
             <key code="7" output="✗"/>
             <key code="8" output="¢"/>
-            <key code="9" action=" 2"/>
+            <key code="9" action="ˇ"/>
             <key code="10" action="`"/>
             <key code="11" output="ẞ"/>
-            <key code="12" action=""/>
+            <key code="12" action="˘"/>
             <key code="13" output="⌃"/>
             <key code="14" action="action"/>
             <key code="15" action="ring"/>
@@ -551,7 +551,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" output="λ"/>
             <key code="38" output="✓"/>
-            <key code="39" action=" 1"/>
+            <key code="39" action="apostrophe4"/>
             <key code="40" output="√"/>
             <key code="41" action="¨"/>
             <key code="42" output="🙂"/>
@@ -1111,7 +1111,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" output="&#x000C;"/>
             <key code="38" output="&#x000A;"/>
-            <key code="39" action="&#x0027;"/>
+            <key code="39" action="apostrophe9"/>
             <key code="40" output="&#x000B;"/>
             <key code="41" output=";"/>
             <key code="42" output="&#x001C;"/>
@@ -1737,30 +1737,14 @@
         </keyMap>
     </keyMapSet>
     <actions>
-        <action id="">
-            <when state="none" next="breve"/>
-            <when state="breve" output="̆"/>
-            <when state="macron" output="᷌"/>
-        </action>
         <action id=" ">
             <when state="none" next="space"/>
-        </action>
-        <action id=" 1">
-            <when state="none" output=""/>
-            <when state="acute" output="́"/>
-        </action>
-        <action id=" 2">
-            <when state="none" next="caron"/>
-            <when state="caron" output="̌"/>
         </action>
         <action id="-">
             <when state="none" output="-"/>
             <when state="Diacritics" next="dot-below"/>
             <when state="breve" next="breve+dot-below"/>
             <when state="space" output="‑"/>
-        </action>
-        <action id="&#x0027;">
-            <when state="none" next="Diacritics"/>
         </action>
         <action id=".">
             <when state="none" output="."/>
@@ -2200,6 +2184,13 @@
         <action id="action">
             <when state="none" output="⇪"/>
         </action>
+        <action id="apostrophe4">
+            <when state="none" output=""/>
+            <when state="acute" output="́"/>
+        </action>
+        <action id="apostrophe9">
+            <when state="none" next="Diacritics"/>
+        </action>
         <action id="b">
             <when state="none" output="b"/>
             <when state="dot-above" output="ḃ"/>
@@ -2421,6 +2412,15 @@
             <when state="none" next="acute"/>
             <when state="macron" next="macron+acute"/>
             <when state="macron+acute" output="᷄"/>
+        </action>
+        <action id="ˇ">
+            <when state="none" next="caron"/>
+            <when state="caron" output="̌"/>
+        </action>
+        <action id="˘">
+            <when state="none" next="breve"/>
+            <when state="breve" output="̆"/>
+            <when state="macron" output="᷌"/>
         </action>
     </actions>
     <terminators>
