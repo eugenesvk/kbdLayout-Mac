@@ -99,7 +99,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="l"/>
             <key code="38" action="j"/>
-            <key code="39" output="&#x0027;"/>
+            <key code="39" action="apostrophe0"/>
             <key code="40" action="k"/>
             <key code="41" action=";"/>
             <key code="42" output="\"/>
@@ -2196,6 +2196,10 @@
         <action id="action">
             <when state="none" output="⇪"/>
         </action>
+        <action id="apostrophe0">
+            <when state="none" output="&#x0027;"/>
+            <when state="Diacritics" next="horn"/>
+        </action>
         <action id="apostrophe4">
             <when state="none" output=""/>
             <when state="acute" output="́"/>
@@ -2464,6 +2468,7 @@
         <when state="dot-below+macron" output=""/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
+        <when state="horn" output=""/>
         <when state="macron" output="¯"/>
         <when state="macron+acute" output=""/>
         <when state="macron+diaeresis" output=""/>
