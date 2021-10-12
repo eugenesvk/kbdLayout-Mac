@@ -2250,6 +2250,7 @@
         </action>
         <action id="Ѵ">
             <when state="none" next="dot-below"/>
+            <when state="dot-below" output="̣"/>
         </action>
         <action id="ѵ">
             <when state="none" output=""/>
