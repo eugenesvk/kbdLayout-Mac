@@ -1746,6 +1746,7 @@
             <when state="none" output="-"/>
             <when state="Diacritics" next="dot-below"/>
             <when state="breve" next="breve+dot-below"/>
+            <when state="horn" next="horn+dot-below"/>
             <when state="space" output="‑"/>
         </action>
         <action id=".">
@@ -1831,6 +1832,7 @@
             <when state="grave" output="ò"/>
             <when state="hook-above" output="ỏ"/>
             <when state="horn" output="ơ"/>
+            <when state="horn+dot-below" output="ợ"/>
             <when state="macron" output="ō"/>
             <when state="macron+acute" output="ṓ"/>
             <when state="macron+grave" output="ṑ"/>
@@ -1854,6 +1856,7 @@
             <when state="grave" output="ù"/>
             <when state="hook-above" output="ủ"/>
             <when state="horn" output="ư"/>
+            <when state="horn+dot-below" output="ự"/>
             <when state="macron" output="ū"/>
             <when state="macron+diaeresis" output="ṻ"/>
             <when state="ogonek" output="ų"/>
@@ -2063,6 +2066,7 @@
             <when state="grave" output="Ò"/>
             <when state="hook-above" output="Ỏ"/>
             <when state="horn" output="Ơ"/>
+            <when state="horn+dot-below" output="Ợ"/>
             <when state="macron" output="Ō"/>
             <when state="macron+acute" output="Ṓ"/>
             <when state="macron+grave" output="Ṑ"/>
@@ -2126,6 +2130,7 @@
             <when state="grave" output="Ù"/>
             <when state="hook-above" output="Ủ"/>
             <when state="horn" output="Ư"/>
+            <when state="horn+dot-below" output="Ự"/>
             <when state="macron" output="Ū"/>
             <when state="macron+diaeresis" output="Ṻ"/>
             <when state="ogonek" output="Ų"/>
@@ -2264,6 +2269,7 @@
             <when state="breve" next="breve+dot-below"/>
             <when state="circumflex" next="circumflex+dot-below"/>
             <when state="dot-below" output="̣"/>
+            <when state="horn" next="horn+dot-below"/>
         </action>
         <action id="double-acute">
             <when state="none" next="double-acute"/>
@@ -2494,6 +2500,7 @@
         <when state="grave" output="`"/>
         <when state="hook-above" output=""/>
         <when state="horn" output=""/>
+        <when state="horn+dot-below" output=""/>
         <when state="macron" output="¯"/>
         <when state="macron+acute" output=""/>
         <when state="macron+diaeresis" output=""/>
