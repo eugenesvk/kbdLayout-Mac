@@ -1829,6 +1829,7 @@
             <when state="macron+acute" output="ṓ"/>
             <when state="macron+grave" output="ṑ"/>
             <when state="ogonek" output="ǫ"/>
+            <when state="ogonek+macron" output="ǭ"/>
             <when state="tilde" output="õ"/>
             <when state="tilde+macron" output="ȭ"/>
         </action>
@@ -2052,6 +2053,7 @@
             <when state="macron+acute" output="Ṓ"/>
             <when state="macron+grave" output="Ṑ"/>
             <when state="ogonek" output="Ǫ"/>
+            <when state="ogonek+macron" output="Ǭ"/>
             <when state="tilde" output="Õ"/>
             <when state="tilde+macron" output="Ȭ"/>
         </action>
