@@ -2249,7 +2249,7 @@
             <when state="none" next="OldCyrillic"/>
         </action>
         <action id="Ѵ">
-            <when state="none" output=""/>
+            <when state="none" next="dot-below"/>
         </action>
         <action id="ѵ">
             <when state="none" output=""/>
@@ -2270,6 +2270,7 @@
         <when state="circumflex" output="ˆ"/>
         <when state="diaeresis" output="¨"/>
         <when state="dot-above" output="˙"/>
+        <when state="dot-below" output=""/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
         <when state="macron" output="¯"/>
