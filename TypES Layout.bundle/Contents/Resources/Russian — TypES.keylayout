@@ -2097,6 +2097,7 @@
         <action id="Ш">
             <when state="none" output="Ш"/>
             <when state="OldCyrillic" output="І"/>
+            <when state="diaeresis" output="Ӛ"/>
         </action>
         <action id="Щ">
             <when state="none" output="Щ"/>
@@ -2252,6 +2253,7 @@
             <when state="none" output="ш"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="OldCyrillic" output="і"/>
+            <when state="diaeresis" output="ӛ"/>
         </action>
         <action id="щ">
             <when state="none" output="щ"/>
