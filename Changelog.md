@@ -25,6 +25,20 @@ All notable changes to this project will be documented in this file
   - __Added__
     + :sparkles: `en` default macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
     + :sparkles: `ru` default `Russian - PC` macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
+    +  :sparkles: `en` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
+        * <kbd>1</kbd>, <kbd>/</kbd> → <kbd>🕱</kbd>`acute` (`´`)
+        * <kbd>2</kbd>, <kbd>\`</kbd>, <kbd>\</kbd> → <kbd>🕱</kbd>`grave` (`` ` ``)
+        * <kbd>3</kbd>, <kbd>;</kbd>  → <kbd>🕱</kbd>`diaeresis` (`¨`)
+        * <kbd>4</kbd>, <kbd>n</kbd>  → <kbd>🕱</kbd>`tilde` (`˜`)
+        * <kbd>5</kbd>, <kbd>o</kbd>  → <kbd>🕱</kbd>`macron` (`¯`)
+        * <kbd>6</kbd>       → <kbd>🕱</kbd>`circumflex` (`ˆ`)
+        * <kbd>7</kbd>, <kbd>r</kbd>  → <kbd>🕱</kbd>`ring` (`˚`)
+        * <kbd>8</kbd>, <kbd>i</kbd>  → <kbd>🕱</kbd>`dot-above` (`˙`)
+        * <kbd>9</kbd>, <kbd>q</kbd>  → <kbd>🕱</kbd>`breve` (`˘`)
+        * <kbd>0</kbd>, <kbd>v</kbd>  → <kbd>🕱</kbd>`caron` (`ˇ`)
+        * <kbd>-</kbd>, <kbd>u</kbd>  → <kbd>🕱</kbd>`dot-below` (`◌̣`)
+        * <kbd>=</kbd>, <kbd>z</kbd>  → <kbd>🕱</kbd>`cedilla` (`¸`)
+        * <kbd>h</kbd>       → <kbd>🕱</kbd>`double-acute`
   - __Changed__
     + `en` <kbd>⌘</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌘</kbd><kbd>⌥</kbd> to regular <kbd>a</kbd>–<kbd>z</kbd> / <kbd>A</kbd>–<kbd>Z</kbd> layers
     + `ru` <kbd>⌘</kbd><kbd>⌥</kbd> to regular <kbd>a</kbd>–<kbd>z</kbd> layer (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>⌥</kbd> was already <kbd>a</kbd>–<kbd>z</kbd>)
