@@ -1830,6 +1830,7 @@
             <when state="double-acute" output="ő"/>
             <when state="grave" output="ò"/>
             <when state="hook-above" output="ỏ"/>
+            <when state="horn" output="ơ"/>
             <when state="macron" output="ō"/>
             <when state="macron+acute" output="ṓ"/>
             <when state="macron+grave" output="ṑ"/>
@@ -1852,6 +1853,7 @@
             <when state="double-acute" output="ű"/>
             <when state="grave" output="ù"/>
             <when state="hook-above" output="ủ"/>
+            <when state="horn" output="ư"/>
             <when state="macron" output="ū"/>
             <when state="macron+diaeresis" output="ṻ"/>
             <when state="ogonek" output="ų"/>
@@ -2060,6 +2062,7 @@
             <when state="double-acute" output="Ő"/>
             <when state="grave" output="Ò"/>
             <when state="hook-above" output="Ỏ"/>
+            <when state="horn" output="Ơ"/>
             <when state="macron" output="Ō"/>
             <when state="macron+acute" output="Ṓ"/>
             <when state="macron+grave" output="Ṑ"/>
@@ -2122,6 +2125,7 @@
             <when state="double-acute" output="Ű"/>
             <when state="grave" output="Ù"/>
             <when state="hook-above" output="Ủ"/>
+            <when state="horn" output="Ư"/>
             <when state="macron" output="Ū"/>
             <when state="macron+diaeresis" output="Ṻ"/>
             <when state="ogonek" output="Ų"/>
@@ -2217,6 +2221,7 @@
         <action id="apostrophe4">
             <when state="none" output=""/>
             <when state="acute" output="́"/>
+            <when state="horn" output="̛"/>
         </action>
         <action id="apostrophe9">
             <when state="none" next="Diacritics"/>
