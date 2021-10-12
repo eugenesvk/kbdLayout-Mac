@@ -39,6 +39,25 @@ All notable changes to this project will be documented in this file
         * <kbd>-</kbd>, <kbd>u</kbd>  → <kbd>🕱</kbd>`dot-below` (`◌̣`)
         * <kbd>=</kbd>, <kbd>z</kbd>  → <kbd>🕱</kbd>`cedilla` (`¸`)
         * <kbd>h</kbd>       → <kbd>🕱</kbd>`double-acute`
+    +  :sparkles: `ru` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
+        * <kbd>1</kbd>, <kbd>.</kbd> → <kbd>🕱</kbd>`acute` (`´`)
+        * <kbd>2</kbd>, <kbd>ё</kbd>, <kbd>\`</kbd> → <kbd>🕱</kbd>`grave` (`` ` ``)
+        * <kbd>3</kbd>, <kbd>ж</kbd>  → <kbd>🕱</kbd>`diaeresis` (`¨`)
+        * <kbd>4</kbd>, <kbd>т</kbd>  → <kbd>🕱</kbd>`tilde` (`˜`)
+        * <kbd>5</kbd>, <kbd>щ</kbd>  → <kbd>🕱</kbd>`macron` (`¯`)
+        * <kbd>6</kbd>       → <kbd>🕱</kbd>`circumflex` (`ˆ`)
+        * <kbd>7</kbd>, <kbd>к</kbd>  → <kbd>🕱</kbd>`ring` (`˚`)
+        * <kbd>8</kbd>, <kbd>ш</kbd>  → <kbd>🕱</kbd>`dot-above` (`˙`)
+        * <kbd>9</kbd>, <kbd>й</kbd>  → <kbd>🕱</kbd>`breve` (`˘`)
+        * <kbd>0</kbd>, <kbd>м</kbd>  → <kbd>🕱</kbd>`caron` (`ˇ`)
+        * <kbd>-</kbd>, <kbd>г</kbd>  → <kbd>🕱</kbd>`dot-below` (`◌̣`)
+        * <kbd>=</kbd>, <kbd>я</kbd>  → <kbd>🕱</kbd>`cedilla` (`¸`)
+        * <kbd>р</kbd>       → <kbd>🕱</kbd>`double-acute`
+    +  :sparkles: `ru` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>ш</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+        * <kbd>␠</kbd> ˙ (stand-alone dot above)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>ш</kbd>  ̇ (combining dot above)
+    +  :sparkles: `ru` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd> ̣ (combining dot below)
   - __Changed__
     + `en` <kbd>⌘</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌘</kbd><kbd>⌥</kbd> to regular <kbd>a</kbd>–<kbd>z</kbd> / <kbd>A</kbd>–<kbd>Z</kbd> layers
     + `ru` <kbd>⌘</kbd><kbd>⌥</kbd> to regular <kbd>a</kbd>–<kbd>z</kbd> layer (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>⌥</kbd> was already <kbd>a</kbd>–<kbd>z</kbd>)
