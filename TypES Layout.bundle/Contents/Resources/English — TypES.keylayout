@@ -2033,7 +2033,6 @@
         </action>
         <action id="B">
             <when state="none" output="B"/>
-            <when state="acute" output="Ḿ"/>
             <when state="dot-above" output="Ḃ"/>
             <when state="dot-below" output="Ḅ"/>
         </action>
@@ -2096,6 +2095,7 @@
         </action>
         <action id="M">
             <when state="none" output="M"/>
+            <when state="acute" output="Ḿ"/>
             <when state="acute-2" output="Ḿ"/>
             <when state="dot-above" output="Ṁ"/>
             <when state="dot-below" output="Ṃ"/>
@@ -2190,7 +2190,6 @@
         </action>
         <action id="b">
             <when state="none" output="b"/>
-            <when state="acute" output="ḿ"/>
             <when state="dot-above" output="ḃ"/>
             <when state="dot-below" output="ḅ"/>
             <when state="space" output=" "/>
@@ -2280,6 +2279,7 @@
         </action>
         <action id="m">
             <when state="none" output="m"/>
+            <when state="acute" output="ḿ"/>
             <when state="acute-2" output="ḿ"/>
             <when state="dot-above" output="ṁ"/>
             <when state="dot-below" output="ṃ"/>
