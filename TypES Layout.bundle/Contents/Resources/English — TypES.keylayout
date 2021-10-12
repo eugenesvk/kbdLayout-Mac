@@ -2282,6 +2282,7 @@
         </action>
         <action id="j">
             <when state="none" output="j"/>
+            <when state="Diacritics" next="hook-above"/>
             <when state="caron" output="ǰ"/>
             <when state="circumflex" output="ĵ"/>
             <when state="space" output="⁠"/>
@@ -2468,6 +2469,7 @@
         <when state="dot-below+macron" output=""/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
+        <when state="hook-above" output=""/>
         <when state="horn" output=""/>
         <when state="macron" output="¯"/>
         <when state="macron+acute" output=""/>
