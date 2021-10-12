@@ -1206,7 +1206,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" output="&#x000C;"/>
             <key code="38" output="&#x000A;"/>
-            <key code="39" output="&#x0027;"/>
+            <key code="39" action="apostrophe10"/>
             <key code="40" output="&#x000B;"/>
             <key code="41" output=";"/>
             <key code="42" output="&#x001C;"/>
@@ -1872,6 +1872,9 @@
             <when state="none" next="grave"/>
             <when state="grave" output="̀"/>
         </action>
+        <action id="apostrophe10">
+            <when state="none" next="Diacritics"/>
+        </action>
         <action id="apostrophe4">
             <when state="none" output="&#x0027;"/>
         </action>
@@ -2256,6 +2259,7 @@
     </actions>
     <terminators>
         <when state="Copyright" output="©"/>
+        <when state="Diacritics" output=""/>
         <when state="OldCyrillic" output="ѣ"/>
         <when state="acute" output="´"/>
         <when state="breve" output="˘"/>
