@@ -1749,9 +1749,8 @@
             <when state="circumflex" output="̂̂"/>
         </action>
         <action id=" 4">
-            <when state="none" next="acute-2"/>
+            <when state="none" output=""/>
             <when state="Macron+Acute" output="᷄"/>
-            <when state="acute-2" output="́"/>
             <when state="macron" next="Macron+Acute"/>
         </action>
         <action id=" 5">
@@ -1786,7 +1785,6 @@
             <when state="Macron+Grave" output="Ṑ"/>
             <when state="Tilde+Macron" output="Ȭ"/>
             <when state="acute" output="Ó"/>
-            <when state="acute-2" output="Ó"/>
             <when state="breve" output="Ŏ"/>
             <when state="caron" output="Ǒ"/>
             <when state="circumflex" output="Ô"/>
@@ -1804,7 +1802,6 @@
             <when state="Macron+Diaeresis" output="Ṻ"/>
             <when state="OldCyrillic" output="Ѵ"/>
             <when state="acute" output="Ú"/>
-            <when state="acute-2" output="Ú"/>
             <when state="breve" output="Ŭ"/>
             <when state="caron" output="Ǔ"/>
             <when state="circumflex" output="Û"/>
@@ -1819,7 +1816,6 @@
         <action id="12">
             <when state="none" output="Y"/>
             <when state="acute" output="Ý"/>
-            <when state="acute-2" output="Ý"/>
             <when state="circumflex" output="Ŷ"/>
             <when state="diaeresis" output="Ÿ"/>
             <when state="dot-above" output="Ẏ"/>
@@ -1835,7 +1831,6 @@
             <when state="Diaeresis+Macron" output="ǟ"/>
             <when state="DotAbove+Macron" output="ǡ"/>
             <when state="acute" output="á"/>
-            <when state="acute-2" output="á"/>
             <when state="breve" output="ă"/>
             <when state="caron" output="ǎ"/>
             <when state="circumflex" output="â"/>
@@ -1855,7 +1850,6 @@
             <when state="Macron+Grave" output="ḕ"/>
             <when state="OldCyrillic" output="ѣ"/>
             <when state="acute" output="é"/>
-            <when state="acute-2" output="é"/>
             <when state="breve" output="ĕ"/>
             <when state="caron" output="ě"/>
             <when state="cedilla" output="ȩ"/>
@@ -1871,7 +1865,6 @@
             <when state="none" output="i"/>
             <when state="OldCyrillic" output="і"/>
             <when state="acute" output="í"/>
-            <when state="acute-2" output="í"/>
             <when state="breve" output="ĭ"/>
             <when state="caron" output="ǐ"/>
             <when state="circumflex" output="î"/>
@@ -1884,7 +1877,6 @@
         <action id="16">
             <when state="none" output="n"/>
             <when state="acute" output="ń"/>
-            <when state="acute-2" output="ń"/>
             <when state="caron" output="ň"/>
             <when state="cedilla" output="ņ"/>
             <when state="dot-above" output="ṅ"/>
@@ -1902,7 +1894,6 @@
             <when state="Macron+Grave" output="ṑ"/>
             <when state="Tilde+Macron" output="ȭ"/>
             <when state="acute" output="ó"/>
-            <when state="acute-2" output="ó"/>
             <when state="breve" output="ŏ"/>
             <when state="caron" output="ǒ"/>
             <when state="circumflex" output="ô"/>
@@ -1920,7 +1911,6 @@
             <when state="Macron+Diaeresis" output="ṻ"/>
             <when state="OldCyrillic" output="ѵ"/>
             <when state="acute" output="ú"/>
-            <when state="acute-2" output="ú"/>
             <when state="breve" output="ŭ"/>
             <when state="caron" output="ǔ"/>
             <when state="circumflex" output="û"/>
@@ -1936,7 +1926,6 @@
         <action id="19">
             <when state="none" output="y"/>
             <when state="acute" output="ý"/>
-            <when state="acute-2" output="ý"/>
             <when state="circumflex" output="ŷ"/>
             <when state="diaeresis" output="ÿ"/>
             <when state="dot-above" output="ẏ"/>
@@ -1948,7 +1937,6 @@
         <action id="5">
             <when state="none" output=" "/>
             <when state="acute" output="´"/>
-            <when state="acute-2" output="´"/>
             <when state="breve" output="˘"/>
             <when state="caron" output="ˇ"/>
             <when state="cedilla" output="¸"/>
@@ -1969,7 +1957,6 @@
             <when state="Diaeresis+Macron" output="Ǟ"/>
             <when state="DotAbove+Macron" output="Ǡ"/>
             <when state="acute" output="Á"/>
-            <when state="acute-2" output="Á"/>
             <when state="breve" output="Ă"/>
             <when state="caron" output="Ǎ"/>
             <when state="circumflex" output="Â"/>
@@ -1989,7 +1976,6 @@
             <when state="Macron+Grave" output="Ḕ"/>
             <when state="OldCyrillic" output="Ѣ"/>
             <when state="acute" output="É"/>
-            <when state="acute-2" output="É"/>
             <when state="breve" output="Ĕ"/>
             <when state="caron" output="Ě"/>
             <when state="cedilla" output="Ȩ"/>
@@ -2005,7 +1991,6 @@
             <when state="none" output="I"/>
             <when state="OldCyrillic" output="І"/>
             <when state="acute" output="Í"/>
-            <when state="acute-2" output="Í"/>
             <when state="breve" output="Ĭ"/>
             <when state="caron" output="Ǐ"/>
             <when state="circumflex" output="Î"/>
@@ -2019,7 +2004,6 @@
         <action id="9">
             <when state="none" output="N"/>
             <when state="acute" output="Ń"/>
-            <when state="acute-2" output="Ń"/>
             <when state="caron" output="Ň"/>
             <when state="cedilla" output="Ņ"/>
             <when state="dot-above" output="Ṅ"/>
@@ -2039,7 +2023,6 @@
         <action id="C">
             <when state="none" output="C"/>
             <when state="acute" output="Ć"/>
-            <when state="acute-2" output="Ć"/>
             <when state="caron" output="Č"/>
             <when state="cedilla" output="Ç"/>
             <when state="circumflex" output="Ĉ"/>
@@ -2059,7 +2042,6 @@
         <action id="G">
             <when state="none" output="G"/>
             <when state="acute" output="Ǵ"/>
-            <when state="acute-2" output="Ǵ"/>
             <when state="breve" output="Ğ"/>
             <when state="caron" output="Ǧ"/>
             <when state="cedilla" output="Ģ"/>
@@ -2089,14 +2071,12 @@
             <when state="none" output="L"/>
             <when state="DotBelow+Macron" output="Ḹ"/>
             <when state="acute" output="Ĺ"/>
-            <when state="acute-2" output="Ĺ"/>
             <when state="cedilla" output="Ļ"/>
             <when state="dot-below" output="Ḷ"/>
         </action>
         <action id="M">
             <when state="none" output="M"/>
             <when state="acute" output="Ḿ"/>
-            <when state="acute-2" output="Ḿ"/>
             <when state="dot-above" output="Ṁ"/>
             <when state="dot-below" output="Ṃ"/>
             <when state="double-acute" output="M̋"/>
@@ -2107,7 +2087,6 @@
         <action id="P">
             <when state="none" output="P"/>
             <when state="acute" output="Ṕ"/>
-            <when state="acute-2" output="Ṕ"/>
             <when state="dot-above" output="Ṗ"/>
         </action>
         <action id="Q">
@@ -2118,7 +2097,6 @@
             <when state="none" output="R"/>
             <when state="DotBelow+Macron" output="Ṝ"/>
             <when state="acute" output="Ŕ"/>
-            <when state="acute-2" output="Ŕ"/>
             <when state="caron" output="Ř"/>
             <when state="cedilla" output="Ŗ"/>
             <when state="dot-above" output="Ṙ"/>
@@ -2130,7 +2108,6 @@
             <when state="Caron+DotAbove" output="Ṧ"/>
             <when state="DotBelow+DotAbove" output="Ṩ"/>
             <when state="acute" output="Ś"/>
-            <when state="acute-2" output="Ś"/>
             <when state="caron" output="Š"/>
             <when state="cedilla" output="Ş"/>
             <when state="circumflex" output="Ŝ"/>
@@ -2153,7 +2130,6 @@
         <action id="W">
             <when state="none" output="W"/>
             <when state="acute" output="Ẃ"/>
-            <when state="acute-2" output="Ẃ"/>
             <when state="circumflex" output="Ŵ"/>
             <when state="diaeresis" output="Ẅ"/>
             <when state="dot-above" output="Ẇ"/>
@@ -2168,7 +2144,6 @@
         <action id="Z">
             <when state="none" output="Z"/>
             <when state="acute" output="Ź"/>
-            <when state="acute-2" output="Ź"/>
             <when state="caron" output="Ž"/>
             <when state="circumflex" output="Ẑ"/>
             <when state="dot-above" output="Ż"/>
@@ -2198,7 +2173,6 @@
             <when state="none" output="c"/>
             <when state="Copyright" output="©"/>
             <when state="acute" output="ć"/>
-            <when state="acute-2" output="ć"/>
             <when state="caron" output="č"/>
             <when state="cedilla" output="ç"/>
             <when state="circumflex" output="ĉ"/>
@@ -2240,7 +2214,6 @@
         <action id="g">
             <when state="none" output="g"/>
             <when state="acute" output="ǵ"/>
-            <when state="acute-2" output="ǵ"/>
             <when state="breve" output="ğ"/>
             <when state="caron" output="ǧ"/>
             <when state="cedilla" output="ģ"/>
@@ -2273,14 +2246,12 @@
             <when state="none" output="l"/>
             <when state="DotBelow+Macron" output="ḹ"/>
             <when state="acute" output="ĺ"/>
-            <when state="acute-2" output="ĺ"/>
             <when state="cedilla" output="ļ"/>
             <when state="dot-below" output="ḷ"/>
         </action>
         <action id="m">
             <when state="none" output="m"/>
             <when state="acute" output="ḿ"/>
-            <when state="acute-2" output="ḿ"/>
             <when state="dot-above" output="ṁ"/>
             <when state="dot-below" output="ṃ"/>
             <when state="double-acute" output="m̋"/>
@@ -2302,7 +2273,6 @@
         <action id="p">
             <when state="none" output="p"/>
             <when state="acute" output="ṕ"/>
-            <when state="acute-2" output="ṕ"/>
             <when state="dot-above" output="ṗ"/>
             <when state="space" output=" "/>
         </action>
@@ -2315,7 +2285,6 @@
             <when state="Copyright" output="®"/>
             <when state="DotBelow+Macron" output="ṝ"/>
             <when state="acute" output="ŕ"/>
-            <when state="acute-2" output="ŕ"/>
             <when state="caron" output="ř"/>
             <when state="cedilla" output="ŗ"/>
             <when state="dot-above" output="ṙ"/>
@@ -2331,7 +2300,6 @@
             <when state="Caron+DotAbove" output="ṧ"/>
             <when state="DotBelow+DotAbove" output="ṩ"/>
             <when state="acute" output="ś"/>
-            <when state="acute-2" output="ś"/>
             <when state="caron" output="š"/>
             <when state="cedilla" output="ş"/>
             <when state="circumflex" output="ŝ"/>
@@ -2356,7 +2324,6 @@
         <action id="w">
             <when state="none" output="w"/>
             <when state="acute" output="ẃ"/>
-            <when state="acute-2" output="ẃ"/>
             <when state="circumflex" output="ŵ"/>
             <when state="diaeresis" output="ẅ"/>
             <when state="dot-above" output="ẇ"/>
@@ -2371,7 +2338,6 @@
         <action id="z">
             <when state="none" output="z"/>
             <when state="acute" output="ź"/>
-            <when state="acute-2" output="ź"/>
             <when state="caron" output="ž"/>
             <when state="circumflex" output="ẑ"/>
             <when state="dot-above" output="ż"/>
@@ -2409,7 +2375,6 @@
         <when state="Macron+Grave" output=""/>
         <when state="Tilde+Macron" output=""/>
         <when state="acute" output="´"/>
-        <when state="acute-2" output="´"/>
         <when state="breve" output="˘"/>
         <when state="caron" output="ˇ"/>
         <when state="cedilla" output="¸"/>
