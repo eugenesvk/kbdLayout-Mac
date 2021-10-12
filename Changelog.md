@@ -69,7 +69,7 @@ All notable changes to this project will be documented in this file
         * <kbd>a</kbd>–<kbd>z</kbd> ȧ–ż (except for <kbd>q</kbd><kbd>u</kbd><kbd>i</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>v</kbd>)
         * (and the same with the Capital letters)
         * <kbd>I</kbd> İ
-        * <kbd>space</kbd> ˙ (stand-alone dot above)
+        * <kbd>␠</kbd> ˙ (stand-alone dot above)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd>  ̇ (combining dot above)
     +  :sparkles: `en` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>a</kbd>–<kbd>z</kbd> ạ–ẓ (except for <kbd>c</kbd><kbd>f</kbd><kbd>g</kbd><kbd>i</kbd><kbd>j</kbd><kbd>p</kbd><kbd>x</kbd>)
@@ -141,7 +141,7 @@ All notable changes to this project will be documented in this file
         * <kbd>y</kbd> ȳ
         * <kbd>g</kbd> ḡ
         * (and the same with the Capital letters)
-        * <kbd>space</kbd> ¯ (stand-alone macron)
+        * <kbd>␠</kbd> ¯ (stand-alone macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>  ̄ (combining macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>q</kbd>  ᷌  (combining macron-breve)
     +  :sparkles: `en` add 🕱 dead sub-key `Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd> or <kbd>`</kbd> — (after <kbd>🕱</kbd>`macron` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
@@ -161,7 +161,7 @@ All notable changes to this project will be documented in this file
         * <kbd>у</kbd> ӯ
         * <kbd>и</kbd> ӣ
         * (and the same with the Capital letters)
-        * <kbd>space</kbd> ¯ (stand-alone macron)
+        * <kbd>␠</kbd> ¯ (stand-alone macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>щ</kbd>  ̄ (combining macron)
 
   [0.3.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.3.0
@@ -181,7 +181,7 @@ All notable changes to this project will be documented in this file
         * <kbd>ы</kbd>, <kbd>с</kbd> symbol for space
         * <kbd>⇧</kbd><kbd>ы</kbd>, <kbd>⇧</kbd><kbd>с</kbd> blank symbol
         * <kbd>-</kbd> non-breaking hyphen
-    + `ru` spaces of various widths, mapped to <kbd>space</kbd> with various modifiers
+    + `ru` spaces of various widths, mapped to <kbd>␠</kbd> with various modifiers
         * <kbd>^</kbd><kbd>⌥</kbd>            	hair
         * <kbd>⌥</kbd><kbd>⌘</kbd>            	thin
         * <kbd>⇧</kbd><kbd>^</kbd>            	punctuation
@@ -192,12 +192,12 @@ All notable changes to this project will be documented in this file
         * <kbd>⌥</kbd>            	no-break
         * <kbd>⇧</kbd><kbd>⌥</kbd>	zero-width
   - __Changed__
-    + `ru` Modifiers with <kbd>^</kbd>: split into 5 additional modifier layers (#10 <kbd>^</kbd>, #11 <kbd>^</kbd><kbd>⇧</kbd>, #12 <kbd>^</kbd><kbd>⌥</kbd>, #13 <kbd>^</kbd><kbd>⌥</kbd><kbd>⇧</kbd>, #14 <kbd>^</kbd><kbd>⌥</kbd><kbd>⌘</kbd>) to allow more assignments, e.g., to <kbd>space</kbd>
+    + `ru` Modifiers with <kbd>^</kbd>: split into 5 additional modifier layers (#10 <kbd>^</kbd>, #11 <kbd>^</kbd><kbd>⇧</kbd>, #12 <kbd>^</kbd><kbd>⌥</kbd>, #13 <kbd>^</kbd><kbd>⌥</kbd><kbd>⇧</kbd>, #14 <kbd>^</kbd><kbd>⌥</kbd><kbd>⌘</kbd>) to allow more assignments, e.g., to <kbd>␠</kbd>
 
 [0.2.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.2.0
 ## [0.2.0]
   - __Added__
-    + :sparkles: `en` <kbd>🕱</kbd>`space` and mapped it to <kbd>^</kbd><kbd>space</kbd> — after a <kbd>🕱</kbd> is pressed, spaces of various widths are mnemonically mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd>`space` and mapped it to <kbd>^</kbd><kbd>␠</kbd> — after a <kbd>🕱</kbd> is pressed, spaces of various widths are mnemonically mapped to:
         * <kbd>j</kbd> word joiner
         * <kbd>z</kbd>, <kbd>0</kbd> zero-width
         * <kbd>h</kbd> hair
@@ -211,7 +211,7 @@ All notable changes to this project will be documented in this file
         * <kbd>s</kbd> symbol for space
         * <kbd>⇧</kbd><kbd>s</kbd> blank symbol
         * <kbd>-</kbd> non-breaking hyphen
-    + `en` spaces of various widths, mapped to <kbd>space</kbd> with various modifiers
+    + `en` spaces of various widths, mapped to <kbd>␠</kbd> with various modifiers
         * <kbd>^</kbd><kbd>⌥</kbd>            	hair
         * <kbd>⌥</kbd><kbd>⌘</kbd>            	thin
         * <kbd>⇧</kbd><kbd>^</kbd>            	punctuation
@@ -222,7 +222,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⌥</kbd>            	no-break
         * <kbd>⇧</kbd><kbd>⌥</kbd>	zero-width
   - __Changed__
-    + `en` Modifiers with <kbd>^</kbd>: split into 5 additional modifier layers (#9 <kbd>^</kbd>, #10 <kbd>^</kbd><kbd>⇧</kbd>, #11 <kbd>^</kbd><kbd>⌥</kbd>, #12 <kbd>^</kbd><kbd>⌥</kbd><kbd>⇧</kbd>, #13 <kbd>^</kbd><kbd>⌥</kbd><kbd>⌘</kbd>) to allow more assignments, e.g., to <kbd>space</kbd>
+    + `en` Modifiers with <kbd>^</kbd>: split into 5 additional modifier layers (#9 <kbd>^</kbd>, #10 <kbd>^</kbd><kbd>⇧</kbd>, #11 <kbd>^</kbd><kbd>⌥</kbd>, #12 <kbd>^</kbd><kbd>⌥</kbd><kbd>⇧</kbd>, #13 <kbd>^</kbd><kbd>⌥</kbd><kbd>⌘</kbd>) to allow more assignments, e.g., to <kbd>␠</kbd>
 
 [0.1.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.1.0
 ## [0.1.0]
