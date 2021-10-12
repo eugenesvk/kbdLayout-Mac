@@ -1749,7 +1749,7 @@
             <when state="circumflex" output="̂̂"/>
         </action>
         <action id=" 4">
-            <when state="none" output=""/>
+            <when state="none" next="acute"/>
             <when state="Macron+Acute" output="᷄"/>
             <when state="macron" next="Macron+Acute"/>
         </action>
