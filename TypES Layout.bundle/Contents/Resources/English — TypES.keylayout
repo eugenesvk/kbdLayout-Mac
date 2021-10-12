@@ -517,7 +517,7 @@
             <key code="2" output="⌀"/>
             <key code="3" output="℉"/>
             <key code="4" action="double-acute"/>
-            <key code="5" output="⌘"/>
+            <key code="5" action="g4"/>
             <key code="6" action="cedilla"/>
             <key code="7" output="✗"/>
             <key code="8" output="¢"/>
@@ -1781,6 +1781,7 @@
             <when state="macron" output="ē"/>
             <when state="macron+acute" output="ḗ"/>
             <when state="macron+grave" output="ḕ"/>
+            <when state="ogonek" output="ę"/>
         </action>
         <action id="15">
             <when state="none" output="i"/>
@@ -1794,6 +1795,7 @@
             <when state="double-acute" output="i̋"/>
             <when state="grave" output="ì"/>
             <when state="macron" output="ī"/>
+            <when state="ogonek" output="į"/>
             <when state="tilde" output="ĩ"/>
         </action>
         <action id="16">
@@ -1826,6 +1828,7 @@
             <when state="macron" output="ō"/>
             <when state="macron+acute" output="ṓ"/>
             <when state="macron+grave" output="ṑ"/>
+            <when state="ogonek" output="ǫ"/>
             <when state="tilde" output="õ"/>
             <when state="tilde+macron" output="ȭ"/>
         </action>
@@ -1844,6 +1847,7 @@
             <when state="grave" output="ù"/>
             <when state="macron" output="ū"/>
             <when state="macron+diaeresis" output="ṻ"/>
+            <when state="ogonek" output="ų"/>
             <when state="ring" output="ů"/>
             <when state="space" output="␣"/>
             <when state="tilde" output="ũ"/>
@@ -1916,6 +1920,7 @@
             <when state="double-acute" output="A̋"/>
             <when state="grave" output="À"/>
             <when state="macron" output="Ā"/>
+            <when state="ogonek" output="Ą"/>
             <when state="ring" output="Å"/>
             <when state="tilde" output="Ã"/>
         </action>
@@ -1956,6 +1961,7 @@
             <when state="macron" output="Ē"/>
             <when state="macron+acute" output="Ḗ"/>
             <when state="macron+grave" output="Ḕ"/>
+            <when state="ogonek" output="Ę"/>
         </action>
         <action id="F">
             <when state="none" output="F"/>
@@ -1991,6 +1997,7 @@
             <when state="double-acute" output="I̋"/>
             <when state="grave" output="Ì"/>
             <when state="macron" output="Ī"/>
+            <when state="ogonek" output="Į"/>
             <when state="tilde" output="Ĩ"/>
         </action>
         <action id="J">
@@ -2044,6 +2051,7 @@
             <when state="macron" output="Ō"/>
             <when state="macron+acute" output="Ṓ"/>
             <when state="macron+grave" output="Ṑ"/>
+            <when state="ogonek" output="Ǫ"/>
             <when state="tilde" output="Õ"/>
             <when state="tilde+macron" output="Ȭ"/>
         </action>
@@ -2102,6 +2110,7 @@
             <when state="grave" output="Ù"/>
             <when state="macron" output="Ū"/>
             <when state="macron+diaeresis" output="Ṻ"/>
+            <when state="ogonek" output="Ų"/>
             <when state="ring" output="Ů"/>
             <when state="tilde" output="Ũ"/>
         </action>
@@ -2178,6 +2187,7 @@
             <when state="double-acute" output="a̋"/>
             <when state="grave" output="à"/>
             <when state="macron" output="ā"/>
+            <when state="ogonek" output="ą"/>
             <when state="ring" output="å"/>
             <when state="tilde" output="ã"/>
         </action>
@@ -2249,6 +2259,10 @@
             <when state="circumflex" output="ĝ"/>
             <when state="dot-above" output="ġ"/>
             <when state="macron" output="ḡ"/>
+        </action>
+        <action id="g4">
+            <when state="none" output="⌘"/>
+            <when state="ogonek" output="̨"/>
         </action>
         <action id="h">
             <when state="none" output="h"/>
@@ -2351,6 +2365,7 @@
             <when state="double-acute" output="˝"/>
             <when state="grave" output="`"/>
             <when state="macron" output="¯"/>
+            <when state="ogonek" output="˛"/>
             <when state="ring" output="˚"/>
             <when state="space" output=" "/>
             <when state="tilde" output="˜"/>
