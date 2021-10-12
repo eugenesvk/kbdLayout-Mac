@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file
 
-[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.4.0...HEAD
+[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.5.0...HEAD
 ## [Unreleased]
   <!-- - __Added__ -->
     <!-- + :sparkles: ??? -->
@@ -22,6 +22,8 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
 
+  [0.5.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.5.0
+## [0.5.0]
   - __Added__
     +  :sparkles: `en` add 🕱 dead key `dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — after dead key is pressed, the following keys are mapped to:
         * <kbd>a</kbd>–<kbd>z</kbd> ȧ–ż (except for <kbd>q</kbd><kbd>u</kbd><kbd>i</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>v</kbd>)
