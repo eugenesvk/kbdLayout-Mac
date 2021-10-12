@@ -66,6 +66,8 @@ All notable changes to this project will be documented in this file
         * <kbd>e</kbd> ệ
         * <kbd>o</kbd> ộ
         * (and the same with the Capital letters)
+  - __Fixed__
+    + :beetle: removed duplicate acute-2, restored acute
 
   [0.4.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.4.0
 ## [0.4.0]
