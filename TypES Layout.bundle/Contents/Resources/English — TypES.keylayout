@@ -1306,7 +1306,7 @@
             <key code="11" output="∫"/>
             <key code="12" output="œ"/>
             <key code="13" output="∑"/>
-            <key code="14" output="´"/>
+            <key code="14" action="´"/>
             <key code="15" output="®"/>
             <key code="16" output="¥"/>
             <key code="17" output="†"/>
@@ -1324,9 +1324,9 @@
             <key code="29" output="º"/>
             <key code="30" output="‘"/>
             <key code="31" output="ø"/>
-            <key code="32" output="¨"/>
+            <key code="32" action="¨"/>
             <key code="33" output="“"/>
-            <key code="34" output="^"/>
+            <key code="34" action="^"/>
             <key code="35" output="π"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="¬"/>
@@ -1337,12 +1337,12 @@
             <key code="42" output="«"/>
             <key code="43" output="≤"/>
             <key code="44" output="÷"/>
-            <key code="45" output="~"/>
+            <key code="45" action="~"/>
             <key code="46" output="µ"/>
             <key code="47" output="≥"/>
             <key code="48" output="⇥"/>
             <key code="49" output=" "/>
-            <key code="50" output="§"/>
+            <key code="50" action="§"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
