@@ -1936,6 +1936,7 @@
             <when state="acute" output="Á"/>
             <when state="breve" output="Ă"/>
             <when state="breve+dot-below" output="Ặ"/>
+            <when state="breve+hook-above" output="Ẳ"/>
             <when state="caron" output="Ǎ"/>
             <when state="circumflex" output="Â"/>
             <when state="circumflex+dot-below" output="Ậ"/>
@@ -2227,6 +2228,7 @@
             <when state="acute" output="á"/>
             <when state="breve" output="ă"/>
             <when state="breve+dot-below" output="ặ"/>
+            <when state="breve+hook-above" output="ẳ"/>
             <when state="caron" output="ǎ"/>
             <when state="circumflex" output="â"/>
             <when state="circumflex+dot-below" output="ậ"/>
@@ -2342,6 +2344,7 @@
         </action>
         <action id="j4">
             <when state="none" output="✓"/>
+            <when state="breve" next="breve+hook-above"/>
             <when state="circumflex" next="circumflex+hook-above"/>
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
@@ -2515,6 +2518,7 @@
         <when state="acute+dot-above" output=""/>
         <when state="breve" output="˘"/>
         <when state="breve+dot-below" output=""/>
+        <when state="breve+hook-above" output=""/>
         <when state="caron" output="ˇ"/>
         <when state="caron+dot-above" output=""/>
         <when state="cedilla" output="¸"/>
