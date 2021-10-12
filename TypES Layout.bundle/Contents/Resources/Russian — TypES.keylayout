@@ -1939,7 +1939,7 @@
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="І">
-            <when state="none" output=""/>
+            <when state="none" next="dot-above"/>
             <when state="diaeresis" output="Ї"/>
         </action>
         <action id="А">
@@ -2267,6 +2267,7 @@
         <when state="cedilla" output="¸"/>
         <when state="circumflex" output="ˆ"/>
         <when state="diaeresis" output="¨"/>
+        <when state="dot-above" output="˙"/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
         <when state="macron" output="¯"/>
