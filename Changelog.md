@@ -46,51 +46,51 @@ All notable changes to this project will be documented in this file
   [0.5.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.5.0
 ## [0.5.0]
   - __Added__
-    +  :sparkles: `en` add 🕱 dead key `dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>a</kbd>–<kbd>z</kbd> ȧ–ż (except for <kbd>q</kbd><kbd>u</kbd><kbd>i</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>v</kbd>)
         * (and the same with the Capital letters)
         * <kbd>I</kbd> İ
         * <kbd>space</kbd> ˙ (stand-alone dot above)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd>  ̇ (combining dot above)
-    +  :sparkles: `en` add 🕱 dead key `dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>a</kbd>–<kbd>z</kbd> ạ–ẓ (except for <kbd>c</kbd><kbd>f</kbd><kbd>g</kbd><kbd>i</kbd><kbd>j</kbd><kbd>p</kbd><kbd>x</kbd>)
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> ̣ (combining dot below)
-    +  :sparkles: `en` add 🕱 dead key `DotBelow+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after `dot-below` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd> `DotBelow+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`dot-below` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>l</kbd> ḹ
         * <kbd>r</kbd> ṝ
         * (and the same with the Capital letters)
-    +  :sparkles: `en` add 🕱 dead key `DotBelow+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after `dot-below` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd> `DotBelow+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after <kbd>🕱</kbd>`dot-below` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>s</kbd> ṩ
         * (and the same with the Capital letters)
-    +  :sparkles: `en` add 🕱 dead key `DotAbove+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after `dot-above` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd> `DotAbove+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`dot-above` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>a</kbd> ǡ
         * <kbd>o</kbd> ȱ
         * (and the same with the Capital letters)
-    +  :sparkles: `en` add 🕱 dead key `Tilde+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after `tilde` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd> `Tilde+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`tilde` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>o</kbd> ȭ
         * (and the same with the Capital letters)
-    +  :sparkles: `en` add 🕱 dead key `Diaeresis+Macron'` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after `diaeresis` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd> `Diaeresis+Macron'` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`diaeresis` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>a</kbd> ǟ
         * <kbd>o</kbd> ȫ
         * <kbd>u</kbd> ǖ
         * (and the same with the Capital letters)
-    +  :sparkles: `en` add 🕱 dead key `Breve+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — (after `breve` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd> `Breve+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — (after <kbd>🕱</kbd>`breve` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>a</kbd> ặ
         * (and the same with the Capital letters)
-    +  :sparkles: `en` add 🕱 dead key `Acute+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after `acute` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd> `Acute+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after <kbd>🕱</kbd>`acute` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>s</kbd> ṥ
         * (and the same with the Capital letters)
-    +  :sparkles: `en` add 🕱 dead key `Caron+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after `caron` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd> `Caron+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after <kbd>🕱</kbd>`caron` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>s</kbd> ṧ
         * (and the same with the Capital letters)
-    +  :sparkles: `en` add 🕱 dead key `Circumflex+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — (after `circumflex` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd> `Circumflex+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — (after <kbd>🕱</kbd>`circumflex` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>a</kbd> ậ
         * <kbd>e</kbd> ệ
         * <kbd>o</kbd> ộ
         * (and the same with the Capital letters)
   - __Fixed__
-    + :beetle: removed duplicate acute-2, restored acute
+    + :beetle: removed duplicate `acute-2`, restored `acute`
 
   [0.4.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.4.0
 ## [0.4.0]
@@ -103,17 +103,17 @@ All notable changes to this project will be documented in this file
         * <kbd>с</kbd> ©
         * <kbd>к</kbd><kbd>р</kbd> ®
         * <kbd>е</kbd><kbd>т</kbd> ™
-    +  :sparkles: `en` add 🕱 dead key `OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>o</kbd> — after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>o</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>q</kbd> ѳ
         * <kbd>e</kbd> ѣ
         * <kbd>u</kbd> ѵ
         * <kbd>i</kbd> і
-    +  :sparkles: `ru` add 🕱 dead key `OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>щ</kbd> — after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `ru` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>щ</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>й</kbd> ѳ
         * <kbd>у</kbd> ѣ
         * <kbd>г</kbd> ѵ
         * <kbd>ш</kbd> і
-    +  :sparkles: `en` add 🕱 dead key `macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>a</kbd> ā
         * <kbd>e</kbd> ē
         * <kbd>i</kbd> ī
@@ -125,19 +125,19 @@ All notable changes to this project will be documented in this file
         * <kbd>space</kbd> ¯ (stand-alone macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>  ̄ (combining macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>q</kbd>  ᷌  (combining macron-breve)
-    +  :sparkles: `en` add 🕱 dead sub-key `Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd> or <kbd>`</kbd> — (after `macron` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` add 🕱 dead sub-key `Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd> or <kbd>`</kbd> — (after <kbd>🕱</kbd>`macron` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>e</kbd> ḕ
         * <kbd>o</kbd> ṑ
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd>  ᷆ (combining Macron-Grave)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷅ (combining Grave-Macron)
-    +  :sparkles: `en` add 🕱 dead sub-key `Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> — (after `macron` dead key is pressed) after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `en` add 🕱 dead sub-key `Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> — (after <kbd>🕱</kbd>`macron` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>e</kbd> ḗ
         * <kbd>o</kbd> ṓ
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ᷄ (combining Macron-Acute)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷇ (combining Acute-Macron)
-    +  :sparkles: `ru` add 🕱 dead key `macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>щ</kbd> — after dead key is pressed, the following keys are mapped to:
+    +  :sparkles: `ru` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>щ</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>й</kbd> ӣ
         * <kbd>у</kbd> ӯ
         * <kbd>и</kbd> ӣ
@@ -178,7 +178,7 @@ All notable changes to this project will be documented in this file
 [0.2.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.2.0
 ## [0.2.0]
   - __Added__
-    + :sparkles: `en` 🕱 dead key `space` and mapped it to <kbd>^</kbd><kbd>space</kbd> — after a dead key is pressed, spaces of various widths are mnemonically mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd>`space` and mapped it to <kbd>^</kbd><kbd>space</kbd> — after a <kbd>🕱</kbd> is pressed, spaces of various widths are mnemonically mapped to:
         * <kbd>j</kbd> word joiner
         * <kbd>z</kbd>, <kbd>0</kbd> zero-width
         * <kbd>h</kbd> hair
