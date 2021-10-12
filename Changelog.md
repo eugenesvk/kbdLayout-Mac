@@ -22,6 +22,13 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
 
+  - __Added__
+    + :sparkles: `en` default macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
+    + :sparkles: `ru` default `Russian - PC` macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
+  - __Changed__
+    + `en` <kbd>⌘</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌘</kbd><kbd>⌥</kbd> to regular <kbd>a</kbd>–<kbd>z</kbd> / <kbd>A</kbd>–<kbd>Z</kbd> layers
+    + `ru` <kbd>⌘</kbd><kbd>⌥</kbd> to regular <kbd>a</kbd>–<kbd>z</kbd> layer (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>⌥</kbd> was already <kbd>a</kbd>–<kbd>z</kbd>)
+
   [0.5.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.5.0
 ## [0.5.0]
   - __Added__
