@@ -1773,6 +1773,7 @@
         <action id="-">
             <when state="none" output="-"/>
             <when state="Diacritics" next="dot-below"/>
+            <when state="Math" next="math-"/>
             <when state="breve" next="breve+dot-below"/>
             <when state="horn" next="horn+dot-below"/>
             <when state="space" output="‑"/>
