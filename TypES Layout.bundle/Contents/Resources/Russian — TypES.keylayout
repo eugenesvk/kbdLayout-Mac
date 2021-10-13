@@ -2068,6 +2068,7 @@
             <when state="double-acute" output="˝"/>
             <when state="grave" output="`"/>
             <when state="greek-dialytika-tonos" output="΅"/>
+            <when state="greek-tonos" output="΄"/>
             <when state="macron" output="¯"/>
             <when state="ring" output="˚"/>
             <when state="space" output=" "/>
@@ -2277,10 +2278,12 @@
         <action id="М">
             <when state="none" output="М"/>
             <when state="Greek" output="Ω"/>
+            <when state="greek-tonos" output="Ώ"/>
         </action>
         <action id="Н">
             <when state="none" output="Н"/>
             <when state="Greek" output="Υ"/>
+            <when state="greek-tonos" output="Ύ"/>
         </action>
         <action id="О">
             <when state="none" output="О"/>
@@ -2294,6 +2297,7 @@
         <action id="Р">
             <when state="none" output="Р"/>
             <when state="Greek" output="Η"/>
+            <when state="greek-tonos" output="Ή"/>
         </action>
         <action id="С">
             <when state="none" output="С"/>
@@ -2311,11 +2315,13 @@
             <when state="breve" output="Ў"/>
             <when state="diaeresis" output="Ӱ"/>
             <when state="double-acute" output="Ӳ"/>
+            <when state="greek-tonos" output="Έ"/>
             <when state="macron" output="Ӯ"/>
         </action>
         <action id="Ф">
             <when state="none" output="Ф"/>
             <when state="Greek" output="Α"/>
+            <when state="greek-tonos" output="Ά"/>
         </action>
         <action id="Х">
             <when state="none" output="Х"/>
@@ -2335,10 +2341,12 @@
             <when state="Greek" output="Ι"/>
             <when state="OldCyrillic" output="І"/>
             <when state="diaeresis" output="Ӛ"/>
+            <when state="greek-tonos" output="Ί"/>
         </action>
         <action id="Щ">
             <when state="none" output="Щ"/>
             <when state="Greek" output="Ο"/>
+            <when state="greek-tonos" output="Ό"/>
         </action>
         <action id="Ъ">
             <when state="none" output="Ъ"/>
@@ -2451,12 +2459,14 @@
             <when state="none" output="м"/>
             <when state="Diacritics" next="caron"/>
             <when state="Greek" output="ω"/>
+            <when state="greek-tonos" output="ώ"/>
             <when state="space" output=" "/>
         </action>
         <action id="н">
             <when state="none" output="н"/>
             <when state="Greek" output="υ"/>
             <when state="greek-dialytika-tonos" output="ΰ"/>
+            <when state="greek-tonos" output="ύ"/>
             <when state="space" output=" "/>
         </action>
         <action id="о">
@@ -2475,6 +2485,7 @@
             <when state="Copyright" output="®"/>
             <when state="Diacritics" next="double-acute"/>
             <when state="Greek" output="η"/>
+            <when state="greek-tonos" output="ή"/>
             <when state="space" output=" "/>
         </action>
         <action id="с">
@@ -2497,12 +2508,14 @@
             <when state="breve" output="ў"/>
             <when state="diaeresis" output="ÿ"/>
             <when state="double-acute" output="ӳ"/>
+            <when state="greek-tonos" output="έ"/>
             <when state="macron" output="ӯ"/>
             <when state="space" output="␣"/>
         </action>
         <action id="ф">
             <when state="none" output="ф"/>
             <when state="Greek" output="α"/>
+            <when state="greek-tonos" output="ά"/>
             <when state="space" output=" "/>
         </action>
         <action id="х">
@@ -2525,11 +2538,13 @@
             <when state="OldCyrillic" output="і"/>
             <when state="diaeresis" output="ӛ"/>
             <when state="greek-dialytika-tonos" output="ΐ"/>
+            <when state="greek-tonos" output="ί"/>
         </action>
         <action id="щ">
             <when state="none" output="щ"/>
             <when state="Diacritics" next="macron"/>
             <when state="Greek" output="ο"/>
+            <when state="greek-tonos" output="ό"/>
         </action>
         <action id="ъ">
             <when state="none" output="ъ"/>
