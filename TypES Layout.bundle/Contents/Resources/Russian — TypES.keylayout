@@ -2064,6 +2064,7 @@
             <when state="cedilla" output="¸"/>
             <when state="circumflex" output="ˆ"/>
             <when state="diaeresis" output="¨"/>
+            <when state="diaeresis-greek" output="¨"/>
             <when state="dot-above" output="˙"/>
             <when state="double-acute" output="˝"/>
             <when state="grave" output="`"/>
@@ -2284,6 +2285,7 @@
         <action id="Н">
             <when state="none" output="Н"/>
             <when state="Greek" output="Υ"/>
+            <when state="diaeresis-greek" output="Ϋ"/>
             <when state="greek-tonos" output="Ύ"/>
         </action>
         <action id="О">
@@ -2342,6 +2344,7 @@
             <when state="Greek" output="Ι"/>
             <when state="OldCyrillic" output="І"/>
             <when state="diaeresis" output="Ӛ"/>
+            <when state="diaeresis-greek" output="Ϊ"/>
             <when state="greek-tonos" output="Ί"/>
         </action>
         <action id="Щ">
@@ -2466,6 +2469,7 @@
         <action id="н">
             <when state="none" output="н"/>
             <when state="Greek" output="υ"/>
+            <when state="diaeresis-greek" output="ϋ"/>
             <when state="greek-dialytika-tonos" output="ΰ"/>
             <when state="greek-tonos" output="ύ"/>
             <when state="space" output=" "/>
@@ -2538,6 +2542,7 @@
             <when state="Greek" output="ι"/>
             <when state="OldCyrillic" output="і"/>
             <when state="diaeresis" output="ӛ"/>
+            <when state="diaeresis-greek" output="ϊ"/>
             <when state="greek-dialytika-tonos" output="ΐ"/>
             <when state="greek-tonos" output="ί"/>
         </action>
