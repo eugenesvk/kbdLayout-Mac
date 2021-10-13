@@ -3012,7 +3012,13 @@
         <when state="macron+acute" output=""/>
         <when state="macron+diaeresis" output=""/>
         <when state="macron+grave" output=""/>
+        <when state="math-" output="-"/>
         <when state="math/" output="/"/>
+        <when state="math=" output="="/>
+        <when state="mathO" output="∘"/>
+        <when state="math_" output="_"/>
+        <when state="math|" output="｜"/>
+        <when state="math‹" output="〈"/>
         <when state="ogonek" output="˛"/>
         <when state="ogonek+macron" output=""/>
         <when state="ring" output="˚"/>
