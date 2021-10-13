@@ -23,7 +23,7 @@ All notable changes to this project will be documented in this file
     <!-- vulnerabilities -->
 
   - __Added__
-    + :sparkles: `en` default macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
+    + :sparkles: `en` default `U.S.` macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
     + :sparkles: `ru` default `Russian - PC` macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
     + :sparkles: `en` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
         * <kbd>1</kbd>, <kbd>/</kbd> → <kbd>🕱</kbd>`acute` (`´`)
@@ -38,7 +38,10 @@ All notable changes to this project will be documented in this file
         * <kbd>0</kbd>, <kbd>v</kbd>  → <kbd>🕱</kbd>`caron` (`ˇ`)
         * <kbd>-</kbd>, <kbd>u</kbd>  → <kbd>🕱</kbd>`dot-below` (`◌̣`)
         * <kbd>=</kbd>, <kbd>z</kbd>  → <kbd>🕱</kbd>`cedilla` (`¸`)
-        * <kbd>h</kbd>       → <kbd>🕱</kbd>`double-acute`
+        * ,     <kbd>h</kbd> → <kbd>🕱</kbd>`double-acute`
+        * ,     <kbd>\'</kbd> → <kbd>🕱</kbd>`horn`
+        * ,     <kbd>j</kbd> → <kbd>🕱</kbd>`hook-above`
+        * ,     <kbd>g</kbd> → <kbd>🕱</kbd>`ogonek` (`˛`)
     + :sparkles: `ru` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
         * <kbd>1</kbd>, <kbd>.</kbd> → <kbd>🕱</kbd>`acute` (`´`)
         * <kbd>2</kbd>, <kbd>ё</kbd>, <kbd>\`</kbd> → <kbd>🕱</kbd>`grave` (`` ` ``)
@@ -52,15 +55,71 @@ All notable changes to this project will be documented in this file
         * <kbd>0</kbd>, <kbd>м</kbd>  → <kbd>🕱</kbd>`caron` (`ˇ`)
         * <kbd>-</kbd>, <kbd>г</kbd>  → <kbd>🕱</kbd>`dot-below` (`◌̣`)
         * <kbd>=</kbd>, <kbd>я</kbd>  → <kbd>🕱</kbd>`cedilla` (`¸`)
-        * <kbd>р</kbd>       → <kbd>🕱</kbd>`double-acute`
-    + :sparkles: `ru` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>ш</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+        * ,     <kbd>р</kbd> → <kbd>🕱</kbd>`double-acute`
+    + :sparkles: `ru` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>ш</kbd>, pressing it enables the following:
         * <kbd>␠</kbd> ˙ (stand-alone dot above)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>ш</kbd>  ̇ (combining dot above)
-    + :sparkles: `ru` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `ru` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd>, pressing it enables the following:
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd> ̣ (combining dot below)
+    + `en` map <kbd>🕱</kbd>`breve+dot-below` to <kbd>-</kbd> (in <kbd>🕱</kbd>`breve`)
+    + :sparkles: `en` <kbd>🕱</kbd>`ogonek` and mapped it to <kbd>g</kbd> (in <kbd>🕱</kbd>`Diacritic`), pressing it enables the following:
+        * <kbd>a</kbd> ą
+        * <kbd>e</kbd> ę
+        * <kbd>i</kbd> į
+        * <kbd>o</kbd> ǫ
+        * <kbd>u</kbd> ų
+        * (and the same with the Capital letters)
+        * <kbd>␠</kbd> ˛ (stand-alone ogonek)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>g</kbd>  ̨ (combining ogonek)
+    + :sparkles: `en` <kbd>🕱</kbd>`ogonek+macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`ogonek`), pressing it enables the following:
+        * <kbd>o</kbd> ǭ
+        * (and the same with the Capital letters)
+    + :sparkles: `en` <kbd>🕱</kbd>`horn` and mapped it to <kbd>\'</kbd> (in <kbd>🕱</kbd>`Diacritic`), pressing it enables the following:
+        * <kbd>o</kbd> ơ
+        * <kbd>u</kbd> ư
+        * (and the same with the Capital letters)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd>  ̛ (combining horn)
+    + :sparkles: `en` <kbd>🕱</kbd>`hook-above` and mapped it to <kbd>j</kbd> (in <kbd>🕱</kbd>`Diacritic`), pressing it enables the following:
+        * <kbd>a</kbd> ả
+        * <kbd>e</kbd> ẻ
+        * <kbd>i</kbd> ỉ
+        * <kbd>o</kbd> ỏ
+        * <kbd>u</kbd> ủ
+        * <kbd>y</kbd> ỷ
+        * (and the same with the Capital letters)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> ̉ (combining hook above)
+    + :sparkles: `en` <kbd>🕱</kbd>`horn+dot-below` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> or <kbd>-</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+        * <kbd>o</kbd> ợ
+        * <kbd>u</kbd> ự
+        * (and the same with the Capital letters)
+    + :sparkles: `en` <kbd>🕱</kbd>`horn+hook-above` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+        * <kbd>o</kbd> ở
+        * <kbd>u</kbd> ử
+        * (and the same with the Capital letters)
+    + :sparkles: `en` <kbd>🕱</kbd>`horn+tilde` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>n</kbd> or <kbd>4</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+        * <kbd>o</kbd> ỡ
+        * <kbd>u</kbd> ữ
+        *  (and the same with the Capital letters)
+    + :sparkles: `en` <kbd>🕱</kbd>`horn+acute` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> or <kbd>1</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+        * <kbd>o</kbd> ớ
+        * <kbd>u</kbd> ứ
+        * (and the same with the Capital letters)
+    + :sparkles: `en` <kbd>🕱</kbd>`horn+grave` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd> or <kbd>2</kbd> or <kbd>\`</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+        * <kbd>o</kbd> ờ
+        * <kbd>u</kbd> ừ
+        * (and the same with the Capital letters)
+    + :sparkles: `en` <kbd>🕱</kbd>`circumflex+hook-above` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> (in <kbd>🕱</kbd>`circumflex`), pressing it enables the following:
+        * <kbd>a</kbd> ẩ
+        * <kbd>e</kbd> ể
+        * <kbd>o</kbd> ổ
+        * (and the same with the Capital letters)
+    + :sparkles: `en` <kbd>🕱</kbd>`breve+hook-above` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> (in <kbd>🕱</kbd>`breve`), pressing it enables the following:
+        * <kbd>a</kbd> ẳ
+        *  (and the same with the Capital letters)
   - __Changed__
     + `en` <kbd>⌘</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌘</kbd><kbd>⌥</kbd> to regular <kbd>a</kbd>–<kbd>z</kbd> / <kbd>A</kbd>–<kbd>Z</kbd> layers
     + `ru` <kbd>⌘</kbd><kbd>⌥</kbd> to regular <kbd>a</kbd>–<kbd>z</kbd> layer (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>⌥</kbd> was already <kbd>a</kbd>–<kbd>z</kbd>)
+    + `ru` `en` <kbd>^</kbd><kbd>⌥</kbd><kbd>⇥</kbd> to insert `⇥`
 
   [0.5.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.5.0
 ## [0.5.0]
