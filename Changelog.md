@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file
 
-[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.6.0...HEAD
+[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.7.0...HEAD
 ## [Unreleased]
   <!-- - __Added__ -->
     <!-- + :sparkles: ??? -->
@@ -22,6 +22,8 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
 
+  [0.7.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.7.0
+## [0.7.0]
   - __Added__
     + :sparkles: `en` `Greek` macOS layers (base, <kbd>⇧</kbd>, <kbd>⌥</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd>), <kbd>🕱</kbd>`Greek` (mapped to <kbd>^</kbd><kbd>g</kbd>), and (in <kbd>🕱</kbd>`Greek`):
         * <kbd>🕱</kbd>`greek-tonos` (mapped to <kbd>;</kbd>)
