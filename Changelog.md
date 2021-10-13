@@ -89,7 +89,7 @@ All notable changes to this project will be documented in this file
     + :sparkles: `en` <kbd>🕱</kbd> `Tilde+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`tilde`), pressing it enables the following:
         * <kbd>o</kbd> ȭ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Diaeresis+Macron'` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`diaeresis`), pressing it enables the following:
+    + :sparkles: `en` <kbd>🕱</kbd> `Diaeresis+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`diaeresis`), pressing it enables the following:
         * <kbd>a</kbd> ǟ
         * <kbd>o</kbd> ȫ
         * <kbd>u</kbd> ǖ
