@@ -2241,6 +2241,7 @@
         </action>
         <action id="Ж">
             <when state="none" output="Ж"/>
+            <when state="Greek" next="diaeresis-greek"/>
             <when state="breve" output="Ӂ"/>
             <when state="diaeresis" output="Ӝ"/>
         </action>
@@ -2785,6 +2786,7 @@
         <when state="cedilla" output="¸"/>
         <when state="circumflex" output="ˆ"/>
         <when state="diaeresis" output="¨"/>
+        <when state="diaeresis-greek" output="¨"/>
         <when state="dot-above" output="˙"/>
         <when state="dot-below" output=""/>
         <when state="double-acute" output="˝"/>
