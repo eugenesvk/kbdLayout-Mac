@@ -1870,6 +1870,7 @@
             <when state="none" output="o"/>
             <when state="Diacritics" next="macron"/>
             <when state="Greek" output="ο"/>
+            <when state="Math" next="mathO"/>
             <when state="acute" output="ó"/>
             <when state="breve" output="ŏ"/>
             <when state="caron" output="ǒ"/>
