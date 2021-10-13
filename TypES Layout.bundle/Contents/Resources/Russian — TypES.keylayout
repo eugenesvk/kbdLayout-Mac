@@ -2407,6 +2407,7 @@
         <action id="ж">
             <when state="none" output="ж"/>
             <when state="Diacritics" next="diaeresis"/>
+            <when state="Greek" next="greek-tonos"/>
             <when state="breve" output="ӂ"/>
             <when state="diaeresis" output="ӝ"/>
         </action>
@@ -2774,6 +2775,7 @@
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
         <when state="greek-dialytika-tonos" output="΅"/>
+        <when state="greek-tonos" output="΄"/>
         <when state="macron" output="¯"/>
         <when state="ring" output="˚"/>
         <when state="space" output=" "/>
