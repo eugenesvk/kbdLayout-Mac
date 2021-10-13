@@ -1785,6 +1785,7 @@
         <action id="/">
             <when state="none" output="/"/>
             <when state="Diacritics" next="acute"/>
+            <when state="Math" next="math/"/>
             <when state="horn" next="horn+acute"/>
             <when state="macron" next="macron+acute"/>
         </action>
@@ -2992,6 +2993,7 @@
         <when state="macron+acute" output=""/>
         <when state="macron+diaeresis" output=""/>
         <when state="macron+grave" output=""/>
+        <when state="math/" output="/"/>
         <when state="ogonek" output="˛"/>
         <when state="ogonek+macron" output=""/>
         <when state="ring" output="˚"/>
