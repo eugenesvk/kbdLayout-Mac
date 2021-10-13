@@ -26,7 +26,11 @@ All notable changes to this project will be documented in this file
     + :sparkles: `en` `Greek` macOS layers (base, <kbd>⇧</kbd>, <kbd>⌥</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd>), <kbd>🕱</kbd>`Greek` (mapped to <kbd>^</kbd><kbd>g</kbd>), and (in <kbd>🕱</kbd>`Greek`):
         * <kbd>🕱</kbd>`greek-tonos` (mapped to <kbd>;</kbd>)
         * <kbd>🕱</kbd>`diaeresis-greek` (mapped to <kbd>⇧</kbd><kbd>;</kbd>)
-        * <kbd>🕱</kbd>`greek-dialytika-tonos` (mapped to <kbd>⇧</kbd><kbd>w</kbd>)
+        * <kbd>🕱</kbd>`greek-dialytika-tonos` (mapped to <kbd>⇧</kbd><kbd>w</kbd> / <kbd>⌥</kbd><kbd>;</kbd>)
+    + :sparkles: `ru` `Greek` macOS layers (base, <kbd>⇧</kbd>, <kbd>⌥</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd>), <kbd>🕱</kbd>`Greek` (mapped to <kbd>^</kbd><kbd>п</kbd>), and (in <kbd>🕱</kbd>`Greek`):
+        * <kbd>🕱</kbd>`greek-tonos` (mapped to <kbd>ж</kbd>)
+        * <kbd>🕱</kbd>`diaeresis-greek` (mapped to <kbd>⇧</kbd><kbd>ж</kbd>)
+        * <kbd>🕱</kbd>`greek-dialytika-tonos` (mapped to <kbd>⇧</kbd><kbd>ц</kbd> / <kbd>⌥</kbd><kbd>ж</kbd>)
 
   [0.6.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.6.0
 ## [0.6.0]
