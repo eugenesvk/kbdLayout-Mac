@@ -444,7 +444,7 @@
             <key code="38" output="„"/>
             <key code="39" output="’"/>
             <key code="40" output="“"/>
-            <key code="41" output="‘"/>
+            <key code="41" action="‘"/>
             <key code="42" output="÷"/>
             <key code="43" output="«"/>
             <key code="44" output="÷"/>
@@ -2218,6 +2218,7 @@
         </action>
         <action id="W">
             <when state="none" output="W"/>
+            <when state="Greek" next="greek-dialytika-tonos"/>
             <when state="acute" output="Ẃ"/>
             <when state="circumflex" output="Ŵ"/>
             <when state="diaeresis" output="Ẅ"/>
@@ -2589,6 +2590,10 @@
             <when state="breve" output="̆"/>
             <when state="macron" output="᷌"/>
         </action>
+        <action id="‘">
+            <when state="none" output="‘"/>
+            <when state="Greek" next="greek-dialytika-tonos"/>
+        </action>
     </actions>
     <terminators>
         <when state="Copyright" output="©"/>
@@ -2616,6 +2621,7 @@
         <when state="dot-below+macron" output=""/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
+        <when state="greek-dialytika-tonos" output="΅"/>
         <when state="greek-tonos" output="΄"/>
         <when state="hook-above" output=""/>
         <when state="horn" output=""/>
