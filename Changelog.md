@@ -65,13 +65,13 @@ All notable changes to this project will be documented in this file
   [0.5.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.5.0
 ## [0.5.0]
   - __Added__
-    + :sparkles: `en` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd>, pressing it enables the following:
         * <kbd>a</kbd>–<kbd>z</kbd> ȧ–ż (except for <kbd>q</kbd><kbd>u</kbd><kbd>i</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>v</kbd>)
         * (and the same with the Capital letters)
         * <kbd>I</kbd> İ
         * <kbd>␠</kbd> ˙ (stand-alone dot above)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd>  ̇ (combining dot above)
-    + :sparkles: `en` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd>, pressing it enables the following:
         * <kbd>a</kbd>–<kbd>z</kbd> ạ–ẓ (except for <kbd>c</kbd><kbd>f</kbd><kbd>g</kbd><kbd>i</kbd><kbd>j</kbd><kbd>p</kbd><kbd>x</kbd>)
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> ̣ (combining dot below)
@@ -86,24 +86,24 @@ All notable changes to this project will be documented in this file
         * <kbd>a</kbd> ǡ
         * <kbd>o</kbd> ȱ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Tilde+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`tilde` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd> `Tilde+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`tilde`), pressing it enables the following:
         * <kbd>o</kbd> ȭ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Diaeresis+Macron'` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`diaeresis` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd> `Diaeresis+Macron'` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`diaeresis`), pressing it enables the following:
         * <kbd>a</kbd> ǟ
         * <kbd>o</kbd> ȫ
         * <kbd>u</kbd> ǖ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Breve+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — (after <kbd>🕱</kbd>`breve` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd> `Breve+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> (in <kbd>🕱</kbd>`breve`), pressing it enables the following:
         * <kbd>a</kbd> ặ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Acute+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after <kbd>🕱</kbd>`acute` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd> `Acute+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> (in <kbd>🕱</kbd>`acute`), pressing it enables the following:
         * <kbd>s</kbd> ṥ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Caron+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after <kbd>🕱</kbd>`caron` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd> `Caron+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> (in <kbd>🕱</kbd>`caron`), pressing it enables the following:
         * <kbd>s</kbd> ṧ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Circumflex+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> — (after <kbd>🕱</kbd>`circumflex` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd> `Circumflex+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> (in <kbd>🕱</kbd>`circumflex`), pressing it enables the following:
         * <kbd>a</kbd> ậ
         * <kbd>e</kbd> ệ
         * <kbd>o</kbd> ộ
@@ -122,17 +122,17 @@ All notable changes to this project will be documented in this file
         * <kbd>с</kbd> ©
         * <kbd>к</kbd><kbd>р</kbd> ®
         * <kbd>е</kbd><kbd>т</kbd> ™
-    + :sparkles: `en` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>o</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>o</kbd>, pressing it enables the following:
         * <kbd>q</kbd> ѳ
         * <kbd>e</kbd> ѣ
         * <kbd>u</kbd> ѵ
         * <kbd>i</kbd> і
-    + :sparkles: `ru` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>щ</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `ru` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>щ</kbd>, pressing it enables the following:
         * <kbd>й</kbd> ѳ
         * <kbd>у</kbd> ѣ
         * <kbd>г</kbd> ѵ
         * <kbd>ш</kbd> і
-    + :sparkles: `en` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>, pressing it enables the following:
         * <kbd>a</kbd> ā
         * <kbd>e</kbd> ē
         * <kbd>i</kbd> ī
@@ -144,19 +144,19 @@ All notable changes to this project will be documented in this file
         * <kbd>␠</kbd> ¯ (stand-alone macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>  ̄ (combining macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>q</kbd>  ᷌  (combining macron-breve)
-    + :sparkles: `en` add 🕱 dead sub-key `Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd> or <kbd>`</kbd> — (after <kbd>🕱</kbd>`macron` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` add 🕱 dead sub-key `Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd> or <kbd>`</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
         * <kbd>e</kbd> ḕ
         * <kbd>o</kbd> ṑ
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd>  ᷆ (combining Macron-Grave)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷅ (combining Grave-Macron)
-    + :sparkles: `en` add 🕱 dead sub-key `Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> — (after <kbd>🕱</kbd>`macron` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `en` add 🕱 dead sub-key `Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
         * <kbd>e</kbd> ḗ
         * <kbd>o</kbd> ṓ
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ᷄ (combining Macron-Acute)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷇ (combining Acute-Macron)
-    + :sparkles: `ru` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>щ</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + :sparkles: `ru` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>щ</kbd>, pressing it enables the following:
         * <kbd>й</kbd> ӣ
         * <kbd>у</kbd> ӯ
         * <kbd>и</kbd> ӣ
