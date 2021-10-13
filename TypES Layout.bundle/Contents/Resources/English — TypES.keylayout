@@ -110,7 +110,7 @@
             <key code="47" action="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="space"/>
-            <key code="50" action="\"/>
+            <key code="50" action="`0"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -433,10 +433,10 @@
             <key code="27" action="—"/>
             <key code="28" action="∞"/>
             <key code="29" action="→"/>
-            <key code="30" action="]"/>
+            <key code="30" action="]3"/>
             <key code="31" action="OldCyrillic"/>
             <key code="32" action="action 2"/>
-            <key code="33" action="["/>
+            <key code="33" action="[3"/>
             <key code="34" action="action 1"/>
             <key code="35" action="′"/>
             <key code="36" output="&#x000D;"/>
@@ -549,10 +549,10 @@
             <key code="27" action="–"/>
             <key code="28" action="·"/>
             <key code="29" action="›"/>
-            <key code="30" action="}"/>
+            <key code="30" action="}4"/>
             <key code="31" action="macron"/>
             <key code="32" action="dot-below"/>
-            <key code="33" action="{"/>
+            <key code="33" action="{4"/>
             <key code="34" action="dot-above"/>
             <key code="35" output="″"/>
             <key code="36" output="&#x000D;"/>
@@ -2273,15 +2273,11 @@
             <when state="dot-above" output="Ż"/>
             <when state="dot-below" output="Ẓ"/>
         </action>
-        <action id="[">
+        <action id="[3">
             <when state="none" output="["/>
             <when state="Greek" output="«"/>
         </action>
-        <action id="\">
-            <when state="none" output="\"/>
-            <when state="Diacritics" next="grave"/>
-        </action>
-        <action id="]">
+        <action id="]3">
             <when state="none" output="]"/>
             <when state="Greek" output="»"/>
         </action>
@@ -2307,6 +2303,10 @@
             <when state="Diacritics" next="grave"/>
             <when state="horn" next="horn+grave"/>
             <when state="macron" next="macron+grave"/>
+        </action>
+        <action id="`0">
+            <when state="none" output="\"/>
+            <when state="Diacritics" next="grave"/>
         </action>
         <action id="a">
             <when state="none" output="a"/>
@@ -2613,11 +2613,11 @@
             <when state="dot-below" output="ẓ"/>
             <when state="space" output="​"/>
         </action>
-        <action id="{">
+        <action id="{4">
             <when state="none" output="{"/>
             <when state="Greek" output="{"/>
         </action>
-        <action id="}">
+        <action id="}4">
             <when state="none" output="}"/>
             <when state="Greek" output="}"/>
         </action>
