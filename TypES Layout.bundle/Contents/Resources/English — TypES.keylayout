@@ -1805,6 +1805,7 @@
             <when state="caron" output="ǐ"/>
             <when state="circumflex" output="î"/>
             <when state="diaeresis" output="ï"/>
+            <when state="diaeresis-greek" output="ϊ"/>
             <when state="double-acute" output="i̋"/>
             <when state="grave" output="ì"/>
             <when state="greek-tonos" output="ί"/>
@@ -1893,6 +1894,7 @@
             <when state="acute" output="ý"/>
             <when state="circumflex" output="ŷ"/>
             <when state="diaeresis" output="ÿ"/>
+            <when state="diaeresis-greek" output="ϋ"/>
             <when state="dot-above" output="ẏ"/>
             <when state="dot-below" output="ỵ"/>
             <when state="grave" output="ỳ"/>
@@ -2055,6 +2057,7 @@
             <when state="caron" output="Ǐ"/>
             <when state="circumflex" output="Î"/>
             <when state="diaeresis" output="Ï"/>
+            <when state="diaeresis-greek" output="Ϊ"/>
             <when state="dot-above" output="İ"/>
             <when state="double-acute" output="I̋"/>
             <when state="grave" output="Ì"/>
@@ -2234,6 +2237,7 @@
             <when state="acute" output="Ý"/>
             <when state="circumflex" output="Ŷ"/>
             <when state="diaeresis" output="Ÿ"/>
+            <when state="diaeresis-greek" output="Ϋ"/>
             <when state="dot-above" output="Ẏ"/>
             <when state="dot-below" output="Ỵ"/>
             <when state="grave" output="Ỳ"/>
@@ -2499,6 +2503,7 @@
             <when state="cedilla" output="¸"/>
             <when state="circumflex" output="ˆ"/>
             <when state="diaeresis" output="¨"/>
+            <when state="diaeresis-greek" output="¨"/>
             <when state="dot-above" output="˙"/>
             <when state="double-acute" output="˝"/>
             <when state="grave" output="`"/>
