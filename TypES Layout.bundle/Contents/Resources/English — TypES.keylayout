@@ -2346,7 +2346,7 @@
             <when state="Greek" output="­"/>
         </action>
         <action id="action 3">
-            <when state="none" output=""/>
+            <when state="none" next="Math"/>
             <when state="Greek" output="™"/>
         </action>
         <action id="apostrophe0">
@@ -2886,6 +2886,7 @@
         <when state="Copyright" output="©"/>
         <when state="Diacritics" output=""/>
         <when state="Greek" output="ε"/>
+        <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
         <when state="acute" output="´"/>
         <when state="acute+dot-above" output=""/>
