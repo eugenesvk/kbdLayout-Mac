@@ -2700,6 +2700,7 @@
         </action>
         <action id="|">
             <when state="none" output="|"/>
+            <when state="Math" next="math|"/>
             <when state="math/" output="∤"/>
         </action>
         <action id="}1">
