@@ -452,7 +452,7 @@
             <key code="38" action="„"/>
             <key code="39" action="’"/>
             <key code="40" action="“"/>
-            <key code="41" output="‘"/>
+            <key code="41" action="‘"/>
             <key code="42" action="÷"/>
             <key code="43" action="«"/>
             <key code="44" action="/"/>
@@ -2320,6 +2320,7 @@
         </action>
         <action id="Ц">
             <when state="none" output="Ц"/>
+            <when state="Greek" next="greek-dialytika-tonos"/>
         </action>
         <action id="Ч">
             <when state="none" output="Ч"/>
@@ -2606,6 +2607,10 @@
             <when state="none" output="—"/>
             <when state="Greek" output="±"/>
         </action>
+        <action id="‘">
+            <when state="none" output="‘"/>
+            <when state="Greek" next="greek-dialytika-tonos"/>
+        </action>
         <action id="’">
             <when state="none" output="’"/>
             <when state="Greek" output="&#x0027;"/>
@@ -2763,6 +2768,7 @@
         <when state="dot-below" output=""/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
+        <when state="greek-dialytika-tonos" output="΅"/>
         <when state="macron" output="¯"/>
         <when state="ring" output="˚"/>
         <when state="space" output=" "/>
