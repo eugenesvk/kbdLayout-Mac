@@ -217,7 +217,7 @@
             <key code="38" action="J"/>
             <key code="39" output="&#x0022;"/>
             <key code="40" action="K"/>
-            <key code="41" output=":"/>
+            <key code="41" action=":"/>
             <key code="42" output="|"/>
             <key code="43" output="&#x003C;"/>
             <key code="44" output="?"/>
@@ -232,6 +232,7 @@
             <key code="53" output="&#x001B;"/>
             <key code="55" output=""/>
             <key code="56" output=""/>
+            <key code="58" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="*"/>
@@ -1934,6 +1935,10 @@
             <when state="none" output="9"/>
             <when state="Diacritics" next="breve"/>
         </action>
+        <action id=":">
+            <when state="none" output=":"/>
+            <when state="Greek" next="diaeresis-greek"/>
+        </action>
         <action id=";">
             <when state="none" output=";"/>
             <when state="Diacritics" next="diaeresis"/>
@@ -2598,6 +2603,7 @@
         <when state="circumflex+hook-above" output=""/>
         <when state="diaeresis" output="¨"/>
         <when state="diaeresis+macron" output=""/>
+        <when state="diaeresis-greek" output="¨"/>
         <when state="dot-above" output="˙"/>
         <when state="dot-above+macron" output=""/>
         <when state="dot-below" output=""/>
