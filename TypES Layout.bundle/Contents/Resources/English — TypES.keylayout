@@ -1932,6 +1932,7 @@
         <action id=";">
             <when state="none" output=";"/>
             <when state="Diacritics" next="diaeresis"/>
+            <when state="Greek" next="greek-tonos"/>
             <when state="macron" next="macron+diaeresis"/>
         </action>
         <action id="=">
@@ -2588,6 +2589,7 @@
         <when state="dot-below+macron" output=""/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
+        <when state="greek-tonos" output="΄"/>
         <when state="hook-above" output=""/>
         <when state="horn" output=""/>
         <when state="horn+acute" output=""/>
