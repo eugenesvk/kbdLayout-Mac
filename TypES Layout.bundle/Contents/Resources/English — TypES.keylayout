@@ -1808,6 +1808,7 @@
             <when state="diaeresis-greek" output="ϊ"/>
             <when state="double-acute" output="i̋"/>
             <when state="grave" output="ì"/>
+            <when state="greek-dialytika-tonos" output="ΐ"/>
             <when state="greek-tonos" output="ί"/>
             <when state="hook-above" output="ỉ"/>
             <when state="macron" output="ī"/>
@@ -1898,6 +1899,7 @@
             <when state="dot-above" output="ẏ"/>
             <when state="dot-below" output="ỵ"/>
             <when state="grave" output="ỳ"/>
+            <when state="greek-dialytika-tonos" output="ΰ"/>
             <when state="greek-tonos" output="ύ"/>
             <when state="hook-above" output="ỷ"/>
             <when state="macron" output="ȳ"/>
@@ -2508,6 +2510,7 @@
             <when state="dot-above" output="˙"/>
             <when state="double-acute" output="˝"/>
             <when state="grave" output="`"/>
+            <when state="greek-dialytika-tonos" output="΅"/>
             <when state="greek-tonos" output="΄"/>
             <when state="macron" output="¯"/>
             <when state="ogonek" output="˛"/>
