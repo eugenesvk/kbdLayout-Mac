@@ -103,7 +103,7 @@
             <key code="40" action="k"/>
             <key code="41" action=";"/>
             <key code="42" action="\0"/>
-            <key code="43" output=","/>
+            <key code="43" action=","/>
             <key code="44" action="/"/>
             <key code="45" action="16"/>
             <key code="46" action="m"/>
@@ -1769,6 +1769,10 @@
         <action id="+">
             <when state="none" output="+"/>
             <when state="Math" output="≝"/>
+        </action>
+        <action id=",">
+            <when state="none" output=","/>
+            <when state="Math" next="math‹"/>
         </action>
         <action id="-">
             <when state="none" output="-"/>
