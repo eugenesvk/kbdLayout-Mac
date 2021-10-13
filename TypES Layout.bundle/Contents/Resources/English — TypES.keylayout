@@ -230,6 +230,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="55" output=""/>
             <key code="56" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
@@ -1786,6 +1787,7 @@
             <when state="dot-below" output="ẹ"/>
             <when state="double-acute" output="e̋"/>
             <when state="grave" output="è"/>
+            <when state="greek-tonos" output="έ"/>
             <when state="hook-above" output="ẻ"/>
             <when state="macron" output="ē"/>
             <when state="macron+acute" output="ḗ"/>
@@ -1804,6 +1806,7 @@
             <when state="diaeresis" output="ï"/>
             <when state="double-acute" output="i̋"/>
             <when state="grave" output="ì"/>
+            <when state="greek-tonos" output="ί"/>
             <when state="hook-above" output="ỉ"/>
             <when state="macron" output="ī"/>
             <when state="ogonek" output="į"/>
@@ -1839,6 +1842,7 @@
             <when state="dot-below" output="ọ"/>
             <when state="double-acute" output="ő"/>
             <when state="grave" output="ò"/>
+            <when state="greek-tonos" output="ό"/>
             <when state="hook-above" output="ỏ"/>
             <when state="horn" output="ơ"/>
             <when state="horn+acute" output="ớ"/>
@@ -1891,6 +1895,7 @@
             <when state="dot-above" output="ẏ"/>
             <when state="dot-below" output="ỵ"/>
             <when state="grave" output="ỳ"/>
+            <when state="greek-tonos" output="ύ"/>
             <when state="hook-above" output="ỷ"/>
             <when state="macron" output="ȳ"/>
             <when state="tilde" output="ỹ"/>
@@ -1957,6 +1962,7 @@
             <when state="dot-below" output="Ạ"/>
             <when state="double-acute" output="A̋"/>
             <when state="grave" output="À"/>
+            <when state="greek-tonos" output="Ά"/>
             <when state="hook-above" output="Ả"/>
             <when state="macron" output="Ā"/>
             <when state="ogonek" output="Ą"/>
@@ -2002,6 +2008,7 @@
             <when state="dot-below" output="Ẹ"/>
             <when state="double-acute" output="E̋"/>
             <when state="grave" output="È"/>
+            <when state="greek-tonos" output="Έ"/>
             <when state="hook-above" output="Ẻ"/>
             <when state="macron" output="Ē"/>
             <when state="macron+acute" output="Ḗ"/>
@@ -2032,6 +2039,7 @@
             <when state="circumflex" output="Ĥ"/>
             <when state="dot-above" output="Ḣ"/>
             <when state="dot-below" output="Ḥ"/>
+            <when state="greek-tonos" output="Ή"/>
         </action>
         <action id="I">
             <when state="none" output="I"/>
@@ -2045,6 +2053,7 @@
             <when state="dot-above" output="İ"/>
             <when state="double-acute" output="I̋"/>
             <when state="grave" output="Ì"/>
+            <when state="greek-tonos" output="Ί"/>
             <when state="hook-above" output="Ỉ"/>
             <when state="macron" output="Ī"/>
             <when state="ogonek" output="Į"/>
@@ -2105,6 +2114,7 @@
             <when state="dot-below" output="Ọ"/>
             <when state="double-acute" output="Ő"/>
             <when state="grave" output="Ò"/>
+            <when state="greek-tonos" output="Ό"/>
             <when state="hook-above" output="Ỏ"/>
             <when state="horn" output="Ơ"/>
             <when state="horn+acute" output="Ớ"/>
@@ -2195,6 +2205,7 @@
             <when state="none" output="V"/>
             <when state="Greek" output="Ω"/>
             <when state="dot-below" output="Ṿ"/>
+            <when state="greek-tonos" output="Ώ"/>
             <when state="tilde" output="Ṽ"/>
         </action>
         <action id="W">
@@ -2221,6 +2232,7 @@
             <when state="dot-above" output="Ẏ"/>
             <when state="dot-below" output="Ỵ"/>
             <when state="grave" output="Ỳ"/>
+            <when state="greek-tonos" output="Ύ"/>
             <when state="hook-above" output="Ỷ"/>
             <when state="macron" output="Ȳ"/>
             <when state="tilde" output="Ỹ"/>
@@ -2273,6 +2285,7 @@
             <when state="dot-below" output="ạ"/>
             <when state="double-acute" output="a̋"/>
             <when state="grave" output="à"/>
+            <when state="greek-tonos" output="ά"/>
             <when state="hook-above" output="ả"/>
             <when state="macron" output="ā"/>
             <when state="ogonek" output="ą"/>
@@ -2375,6 +2388,7 @@
             <when state="circumflex" output="ĥ"/>
             <when state="dot-above" output="ḣ"/>
             <when state="dot-below" output="ḥ"/>
+            <when state="greek-tonos" output="ή"/>
             <when state="space" output=" "/>
         </action>
         <action id="j">
@@ -2483,6 +2497,7 @@
             <when state="dot-above" output="˙"/>
             <when state="double-acute" output="˝"/>
             <when state="grave" output="`"/>
+            <when state="greek-tonos" output="΄"/>
             <when state="macron" output="¯"/>
             <when state="ogonek" output="˛"/>
             <when state="ring" output="˚"/>
@@ -2504,6 +2519,7 @@
             <when state="Diacritics" next="caron"/>
             <when state="Greek" output="ω"/>
             <when state="dot-below" output="ṿ"/>
+            <when state="greek-tonos" output="ώ"/>
             <when state="tilde" output="ṽ"/>
         </action>
         <action id="w">
