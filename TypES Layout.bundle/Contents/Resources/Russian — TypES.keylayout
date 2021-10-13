@@ -811,6 +811,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="55" output=""/>
             <key code="58" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
@@ -1361,6 +1362,7 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="56" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
@@ -2065,6 +2067,7 @@
             <when state="dot-above" output="˙"/>
             <when state="double-acute" output="˝"/>
             <when state="grave" output="`"/>
+            <when state="greek-dialytika-tonos" output="΅"/>
             <when state="macron" output="¯"/>
             <when state="ring" output="˚"/>
             <when state="space" output=" "/>
@@ -2452,6 +2455,7 @@
         <action id="н">
             <when state="none" output="н"/>
             <when state="Greek" output="υ"/>
+            <when state="greek-dialytika-tonos" output="ΰ"/>
             <when state="space" output=" "/>
         </action>
         <action id="о">
@@ -2519,6 +2523,7 @@
             <when state="Greek" output="ι"/>
             <when state="OldCyrillic" output="і"/>
             <when state="diaeresis" output="ӛ"/>
+            <when state="greek-dialytika-tonos" output="ΐ"/>
         </action>
         <action id="щ">
             <when state="none" output="щ"/>
