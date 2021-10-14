@@ -206,7 +206,7 @@
             <key code="25" action="("/>
             <key code="26" output="&#x0026;"/>
             <key code="27" action="_"/>
-            <key code="28" output="*"/>
+            <key code="28" action="*"/>
             <key code="29" action=")"/>
             <key code="30" action="}1"/>
             <key code="31" action="O"/>
@@ -1771,9 +1771,14 @@
             <when state="math/" output="∅"/>
             <when state="math_" output="⊇"/>
         </action>
+        <action id="*">
+            <when state="none" output="*"/>
+            <when state="mathO" output="⊛"/>
+        </action>
         <action id="+">
             <when state="none" output="+"/>
             <when state="Math" output="≝"/>
+            <when state="mathO" output="⊕"/>
         </action>
         <action id=",">
             <when state="none" output=","/>
@@ -1786,12 +1791,14 @@
             <when state="Math" next="math-"/>
             <when state="breve" next="breve+dot-below"/>
             <when state="horn" next="horn+dot-below"/>
+            <when state="mathO" output="⊖"/>
             <when state="space" output="‑"/>
         </action>
         <action id=".">
             <when state="none" output="."/>
             <when state="Math" output="〉"/>
             <when state="math-" output="→"/>
+            <when state="mathO" output="⊙"/>
             <when state="math_" output="≥"/>
             <when state="space" output=" "/>
         </action>
@@ -1806,6 +1813,7 @@
             <when state="Math" next="math/"/>
             <when state="horn" next="horn+acute"/>
             <when state="macron" next="macron+acute"/>
+            <when state="mathO" output="⊘"/>
         </action>
         <action id="0">
             <when state="none" output="0"/>
@@ -1992,6 +2000,7 @@
             <when state="none" output="8"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Math" output="∗"/>
+            <when state="mathO" output="⊛"/>
         </action>
         <action id="9">
             <when state="none" output="9"/>
@@ -2014,6 +2023,7 @@
             <when state="none" output="="/>
             <when state="Diacritics" next="cedilla"/>
             <when state="Math" next="math="/>
+            <when state="mathO" output="⊕"/>
         </action>
         <action id="?⇧">
             <when state="none" output="?"/>
@@ -2697,6 +2707,7 @@
             <when state="Math" output="·"/>
             <when state="diaeresis" output="ẍ"/>
             <when state="dot-above" output="ẋ"/>
+            <when state="mathO" output="⊗"/>
         </action>
         <action id="z">
             <when state="none" output="z"/>
@@ -2970,6 +2981,7 @@
         <action id="∞">
             <when state="none" output="∞"/>
             <when state="Greek" output="•"/>
+            <when state="mathO" output="⊗"/>
         </action>
         <action id="≈">
             <when state="none" output="≈"/>
