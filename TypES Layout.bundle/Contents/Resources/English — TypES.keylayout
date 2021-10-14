@@ -203,7 +203,7 @@
             <key code="22" output="^"/>
             <key code="23" output="%"/>
             <key code="24" action="+"/>
-            <key code="25" output="("/>
+            <key code="25" action="("/>
             <key code="26" output="&#x0026;"/>
             <key code="27" action="_"/>
             <key code="28" output="*"/>
@@ -1762,9 +1762,14 @@
             <when state="none" output="$"/>
             <when state="Greek" output="£"/>
         </action>
+        <action id="(">
+            <when state="none" output="("/>
+            <when state="math_" output="⊆"/>
+        </action>
         <action id=")">
             <when state="none" output=")"/>
             <when state="math/" output="∅"/>
+            <when state="math_" output="⊇"/>
         </action>
         <action id="+">
             <when state="none" output="+"/>
@@ -1773,6 +1778,7 @@
         <action id=",">
             <when state="none" output=","/>
             <when state="Math" next="math‹"/>
+            <when state="math_" output="≤"/>
         </action>
         <action id="-">
             <when state="none" output="-"/>
@@ -1785,11 +1791,13 @@
         <action id=".">
             <when state="none" output="."/>
             <when state="Math" output="〉"/>
+            <when state="math_" output="≥"/>
             <when state="space" output=" "/>
         </action>
         <action id=".⇧">
             <when state="none" output="&#x003E;"/>
             <when state="Math" output="≥"/>
+            <when state="math_" output="≥"/>
         </action>
         <action id="/">
             <when state="none" output="/"/>
@@ -1803,6 +1811,7 @@
             <when state="Diacritics" next="caron"/>
             <when state="Math" output="⊃"/>
             <when state="math/" output="∅"/>
+            <when state="math_" output="⊇"/>
             <when state="space" output="​"/>
         </action>
         <action id="1">
@@ -1986,6 +1995,7 @@
             <when state="none" output="9"/>
             <when state="Diacritics" next="breve"/>
             <when state="Math" output="⊂"/>
+            <when state="math_" output="⊆"/>
         </action>
         <action id=":">
             <when state="none" output=":"/>
@@ -2327,6 +2337,7 @@
             <when state="none" output="\"/>
             <when state="Math" output="∨"/>
             <when state="math/" output="∧"/>
+            <when state="math_" output="⟂"/>
         </action>
         <action id="]0">
             <when state="none" output="]"/>
@@ -2555,6 +2566,7 @@
         <action id="lt">
             <when state="none" output="&#x003C;"/>
             <when state="Math" output="≤"/>
+            <when state="math_" output="≤"/>
         </action>
         <action id="m">
             <when state="none" output="m"/>
@@ -2706,6 +2718,7 @@
             <when state="none" output="|"/>
             <when state="Math" next="math|"/>
             <when state="math/" output="∤"/>
+            <when state="math_" output="⟂"/>
         </action>
         <action id="}1">
             <when state="none" output="}"/>
