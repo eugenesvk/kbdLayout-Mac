@@ -22,6 +22,108 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
 
+  - __Added__
+    + :sparkles: `en` <kbd>␈</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
+    + :sparkles: `en` <kbd>🕱</kbd>`Math` and mapped it to <kbd>⌥</kbd><kbd>t</kbd>, pressing it enables the following:
+        * <kbd>e</kbd> ∃
+        * <kbd>i</kbd> ∩
+        * <kbd>n</kbd> ℕ
+        * <kbd>u</kbd> ∪
+        * <kbd>6</kbd> ⇑
+        * <kbd>8</kbd> ∗
+        * <kbd>9</kbd> ⊂
+        * <kbd>0</kbd> ⊃
+        * <kbd>⌥</kbd><kbd>0</kbd> ⇝
+        * <kbd>⇧</kbd><kbd>=</kbd> ≝
+        * <kbd>⌥</kbd><kbd>=</kbd> ≡
+        * <kbd>a</kbd> ∀
+        * <kbd>⌥</kbd><kbd>a</kbd> ≅
+        * <kbd>\'</kbd> ∈
+        * <kbd>b</kbd> ∵
+        * <kbd>c</kbd> ℂ
+        * <kbd>d</kbd> ∇
+        * <kbd>q</kbd> ℚ
+        * <kbd>r</kbd> ℝ
+        * <kbd>t</kbd> ∴
+        * <kbd>v</kbd> ⇓
+        * <kbd>x</kbd> ·
+        * <kbd>z</kbd> ℤ
+        * <kbd>⇧</kbd><kbd>z</kbd> ≈
+        * <kbd>[</kbd> ⌊
+        * <kbd>]</kbd> ⌋
+        * <kbd>⇧</kbd><kbd>[</kbd> ⌈
+        * <kbd>⇧</kbd><kbd>]</kbd> ⌉
+        * <kbd>;</kbd> …
+        * <kbd>.</kbd> 〉
+        * <kbd>⌥</kbd><kbd>.</kbd> ．
+        * <kbd>⇧</kbd><kbd>/</kbd> ．
+        * <kbd>⇧</kbd><kbd>,</kbd> ≤
+        * <kbd>⇧</kbd><kbd>.</kbd> ≥
+        * <kbd>\</kbd> ∨
+        * <kbd>§</kbd>, <kbd>`</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>z</kbd>)
+    + :sparkles: `en` <kbd>🕱</kbd>`math/` and mapped it to <kbd>/</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>e</kbd> ∄
+        * <kbd>i</kbd> ⫛
+        * <kbd>\'</kbd> ∉
+        * <kbd>0</kbd> ∅
+        * (same with <kbd>⇧</kbd>)
+        * <kbd>\</kbd> ∧
+        * <kbd>⇧</kbd><kbd>\</kbd> ∤
+    + :sparkles: `en` <kbd>🕱</kbd>`mathO` and mapped it to <kbd>o</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>.</kbd> ⊙
+        * <kbd>/</kbd> ⊘
+        * <kbd>-</kbd> ⊖
+        * <kbd>=</kbd>, <kbd>⇧</kbd><kbd>=</kbd> ⊕
+        * <kbd>8</kbd>, <kbd>⇧</kbd><kbd>8</kbd> ⊛
+        * <kbd>x</kbd>, <kbd>⌥</kbd><kbd>8</kbd> ⊗
+    + :sparkles: `en` <kbd>🕱</kbd>`math-` and mapped it to <kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>§</kbd>, <kbd>\`</kbd> ⇀ (keys left of <kbd>1</kbd>/<kbd>z</kbd>)
+        * <kbd>.</kbd> →
+        * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟶
+    + :sparkles: `en` <kbd>🕱</kbd>`math=` and mapped it to <kbd>=</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟹
+        * <kbd>=</kbd> ≡
+        * <kbd>/</kbd> ≠
+        * <kbd>\</kbd> ⤇
+        * <kbd>⌥</kbd><kbd>\</kbd> ⟾
+        * <kbd>,</kbd> ⇐
+        * <kbd>.</kbd> ⇒
+    + :sparkles: `en` <kbd>🕱</kbd>`math_` and mapped it to <kbd>⇧</kbd><kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>9</kbd> ⊆
+        * <kbd>0</kbd> ⊇
+        * <kbd>\</kbd> ⟂
+        * <kbd>,</kbd> ≤
+        * <kbd>.</kbd> ≥
+        * (same with ⇧)
+    + :sparkles: `en` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>\</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>.</kbd> ↦
+        * <kbd>⌥</kbd><kbd>0</kbd> ⟼
+        * <kbd>0</kbd>, <kbd>⇧</kbd><kbd>0</kbd> ⤇
+        * <kbd>-</kbd> ⊦
+        * <kbd>⇧</kbd><kbd>-</kbd> ⊥
+        * <kbd>=</kbd> ⊧
+        * <kbd>⌥</kbd><kbd>=</kbd> ⟾
+        * <kbd>⇧</kbd><kbd>=</kbd> ⊩
+        * <kbd>[</kbd> ⟦
+        * <kbd>]</kbd> ⟧
+        * <kbd>⇧</kbd><kbd>.</kbd> ▷
+        * <kbd>\</kbd>, <kbd>⇧</kbd><kbd>\</kbd> ‖
+    + :sparkles: `en` <kbd>🕱</kbd>`math‹` and mapped it to <kbd>,</kbd> or <kbd>⇧</kbd><kbd>,</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>⌥</kbd><kbd>9</kbd> ⟵
+        * <kbd>0</kbd> ↔
+        * <kbd>⌥</kbd><kbd>0</kbd> ⟷
+        * <kbd>-</kbd> ←
+        * <kbd>⌥</kbd><kbd>-</kbd> ⟵
+        * <kbd>=</kbd> ⇐
+        * <kbd>⌥</kbd><kbd>=</kbd> ⟸
+        * <kbd>⇧</kbd><kbd>0</kbd> ⇔
+        * <kbd>⇧</kbd><kbd>-</kbd> ≤
+        * <kbd>⇧</kbd><kbd>=</kbd> ⇔
+        * <kbd>\</kbd>, <kbd>⇧</kbd><kbd>\</kbd> ◁
+        * <kbd>,</kbd> ←
+        * <kbd>.</kbd>, <kbd>⇧</kbd><kbd>.</kbd> ◇
+        * <kbd>⌥</kbd><kbd>.</kbd> ⟺
+
   [0.7.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.7.0
 ## [0.7.0]
   - __Added__
