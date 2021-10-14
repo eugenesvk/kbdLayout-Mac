@@ -1791,6 +1791,7 @@
         <action id=".">
             <when state="none" output="."/>
             <when state="Math" output="〉"/>
+            <when state="math-" output="→"/>
             <when state="math_" output="≥"/>
             <when state="space" output=" "/>
         </action>
@@ -1810,6 +1811,7 @@
             <when state="none" output="0"/>
             <when state="Diacritics" next="caron"/>
             <when state="Math" output="⊃"/>
+            <when state="math-" output="⟶"/>
             <when state="math/" output="∅"/>
             <when state="math_" output="⊇"/>
             <when state="space" output="​"/>
@@ -2374,11 +2376,13 @@
             <when state="Math" output="¬"/>
             <when state="horn" next="horn+grave"/>
             <when state="macron" next="macron+grave"/>
+            <when state="math-" output="⇀"/>
         </action>
         <action id="`0">
             <when state="none" output="\"/>
             <when state="Diacritics" next="grave"/>
             <when state="Math" output="¬"/>
+            <when state="math-" output="⇀"/>
         </action>
         <action id="a">
             <when state="none" output="a"/>
@@ -2941,6 +2945,7 @@
             <when state="none" output="→"/>
             <when state="Greek" output="°"/>
             <when state="Math" output="⇝"/>
+            <when state="math-" output="⟶"/>
         </action>
         <action id="↓">
             <when state="none" output="↓"/>
