@@ -2092,6 +2092,7 @@
         <action id="|">
             <when state="none" output="|"/>
             <when state="Greek" output="|"/>
+            <when state="Math" next="math|"/>
             <when state="math/" output="∤"/>
         </action>
         <action id="}">
