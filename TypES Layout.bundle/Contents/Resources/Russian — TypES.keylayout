@@ -1914,11 +1914,13 @@
         <action id="*">
             <when state="none" output="*"/>
             <when state="Greek" output="*"/>
+            <when state="mathO" output="⊛"/>
         </action>
         <action id="+">
             <when state="none" output="+"/>
             <when state="Greek" output="+"/>
             <when state="Math" output="≝"/>
+            <when state="mathO" output="⊕"/>
         </action>
         <action id=",">
             <when state="none" output=","/>
@@ -1929,6 +1931,7 @@
             <when state="none" output="-"/>
             <when state="Diacritics" next="dot-below"/>
             <when state="Math" next="math-"/>
+            <when state="mathO" output="⊖"/>
             <when state="space" output="‑"/>
         </action>
         <action id=".">
@@ -1937,6 +1940,7 @@
             <when state="Greek" output="/"/>
             <when state="Math" next="math/"/>
             <when state="math=" output="≠"/>
+            <when state="mathO" output="⊘"/>
             <when state="space" output=" "/>
         </action>
         <action id="/">
@@ -1985,6 +1989,7 @@
             <when state="none" output="8"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Math" output="∗"/>
+            <when state="mathO" output="⊛"/>
         </action>
         <action id="9">
             <when state="none" output="9"/>
@@ -2004,6 +2009,7 @@
             <when state="Diacritics" next="cedilla"/>
             <when state="Math" next="math="/>
             <when state="math=" output="≡"/>
+            <when state="mathO" output="⊕"/>
         </action>
         <action id="&#x003E;">
             <when state="none" output="&#x003E;"/>
@@ -2593,6 +2599,7 @@
             <when state="Greek" output="χ"/>
             <when state="Math" output="·"/>
             <when state="diaeresis" output="ӵ"/>
+            <when state="mathO" output="⊗"/>
         </action>
         <action id="ш">
             <when state="none" output="ш"/>
@@ -2642,6 +2649,7 @@
             <when state="Math" output="〉"/>
             <when state="math-" output="→"/>
             <when state="math=" output="⇒"/>
+            <when state="mathO" output="⊙"/>
         </action>
         <action id="я">
             <when state="none" output="я"/>
@@ -2817,6 +2825,7 @@
         <action id="∞">
             <when state="none" output="∞"/>
             <when state="Greek" output="•"/>
+            <when state="mathO" output="⊗"/>
         </action>
         <action id="≈">
             <when state="none" output="≈"/>
