@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file
 
-[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/0.9.0...HEAD
+[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/1.0.0...HEAD
 ## [Unreleased]
   <!-- - __Added__ -->
    <!-- + :sparkles: ??? -->
@@ -22,6 +22,8 @@ All notable changes to this project will be documented in this file
    <!-- + :lock: ??? -->
    <!-- vulnerabilities -->
 
+  [1.0.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.0.0
+## [1.0.0]
   - __Added__
     + :sparkles: `ru` `Russian — Math` layout
     + :sparkles: `en` <kbd>🕱</kbd>`Typographical` and mapped it to <kbd>⌥</kbd><kbd>u</kbd>, pressing it enables the following:
