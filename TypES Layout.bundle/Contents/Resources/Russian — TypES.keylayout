@@ -1928,6 +1928,7 @@
         <action id="-">
             <when state="none" output="-"/>
             <when state="Diacritics" next="dot-below"/>
+            <when state="Math" next="math-"/>
             <when state="space" output="‑"/>
         </action>
         <action id=".">
