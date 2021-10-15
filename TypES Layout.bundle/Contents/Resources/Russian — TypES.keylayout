@@ -2908,8 +2908,8 @@
     </actions>
     <terminators>
         <when state="Copyright" output="©"/>
-        <when state="Greek" output="α"/>
         <when state="Diacritics" output="◌"/>
+        <when state="Greek" output="ε"/>
         <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
         <when state="acute" output="´"/>
