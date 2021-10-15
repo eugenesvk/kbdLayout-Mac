@@ -1912,6 +1912,7 @@
             <when state="Greek" output=")"/>
             <when state="math/" output="∅"/>
             <when state="math_" output="⊇"/>
+            <when state="math|" output="⤇"/>
             <when state="math‹" output="⇔"/>
         </action>
         <action id="*">
@@ -1924,6 +1925,7 @@
             <when state="Greek" output="+"/>
             <when state="Math" output="≝"/>
             <when state="mathO" output="⊕"/>
+            <when state="math|" output="⊩"/>
             <when state="math‹" output="⇔"/>
         </action>
         <action id=",">
@@ -1936,6 +1938,7 @@
             <when state="Diacritics" next="dot-below"/>
             <when state="Math" next="math-"/>
             <when state="mathO" output="⊖"/>
+            <when state="math|" output="⊦"/>
             <when state="math‹" output="←"/>
             <when state="space" output="‑"/>
         </action>
@@ -1960,6 +1963,7 @@
             <when state="math/" output="∅"/>
             <when state="math=" output="⟹"/>
             <when state="math_" output="⊇"/>
+            <when state="math|" output="⤇"/>
             <when state="math‹" output="↔"/>
             <when state="space" output="​"/>
         </action>
@@ -2018,6 +2022,7 @@
             <when state="Math" next="math="/>
             <when state="math=" output="≡"/>
             <when state="mathO" output="⊕"/>
+            <when state="math|" output="⊧"/>
             <when state="math‹" output="⇐"/>
         </action>
         <action id="&#x003E;">
@@ -2049,6 +2054,7 @@
             <when state="math/" output="∧"/>
             <when state="math=" output="⤇"/>
             <when state="math_" output="⟂"/>
+            <when state="math|" output="‖"/>
             <when state="math‹" output="◁"/>
         </action>
         <action id="]">
@@ -2064,6 +2070,7 @@
             <when state="none" output="_"/>
             <when state="Greek" output="_"/>
             <when state="Math" next="math_"/>
+            <when state="math|" output="⊥"/>
             <when state="math‹" output="≤"/>
         </action>
         <action id="`">
@@ -2128,6 +2135,7 @@
             <when state="Math" next="math|"/>
             <when state="math/" output="∤"/>
             <when state="math_" output="⟂"/>
+            <when state="math|" output="‖"/>
             <when state="math‹" output="◁"/>
         </action>
         <action id="}">
@@ -2434,6 +2442,7 @@
             <when state="Greek" output="&#x003E;"/>
             <when state="Math" output="≥"/>
             <when state="math_" output="≥"/>
+            <when state="math|" output="▷"/>
             <when state="math‹" output="◇"/>
         </action>
         <action id="Я">
@@ -2609,6 +2618,7 @@
             <when state="none" output="х"/>
             <when state="Greek" output="["/>
             <when state="Math" output="⌊"/>
+            <when state="math|" output="⟦"/>
         </action>
         <action id="ц">
             <when state="none" output="ц"/>
@@ -2644,6 +2654,7 @@
             <when state="none" output="ъ"/>
             <when state="Greek" output="]"/>
             <when state="Math" output="⌋"/>
+            <when state="math|" output="⟧"/>
         </action>
         <action id="ы">
             <when state="none" output="ы"/>
@@ -2671,6 +2682,7 @@
             <when state="math=" output="⇒"/>
             <when state="mathO" output="⊙"/>
             <when state="math_" output="≥"/>
+            <when state="math|" output="↦"/>
             <when state="math‹" output="◇"/>
         </action>
         <action id="я">
@@ -2821,6 +2833,7 @@
             <when state="Math" output="⇝"/>
             <when state="math-" output="⟶"/>
             <when state="math=" output="⟹"/>
+            <when state="math|" output="⟼"/>
             <when state="math‹" output="⟷"/>
         </action>
         <action id="↓">
@@ -2861,6 +2874,7 @@
             <when state="none" output="≠"/>
             <when state="Greek" output="½"/>
             <when state="Math" output="≡"/>
+            <when state="math|" output="⟾"/>
             <when state="math‹" output="⟸"/>
         </action>
         <action id="⌃">
