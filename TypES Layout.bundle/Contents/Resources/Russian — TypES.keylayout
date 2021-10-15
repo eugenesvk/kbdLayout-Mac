@@ -1946,6 +1946,7 @@
             <when state="none" output="0"/>
             <when state="Diacritics" next="caron"/>
             <when state="Math" output="⊃"/>
+            <when state="math-" output="⟶"/>
             <when state="math/" output="∅"/>
             <when state="space" output="​"/>
         </action>
@@ -2633,6 +2634,7 @@
             <when state="none" output="ю"/>
             <when state="Greek" output="."/>
             <when state="Math" output="〉"/>
+            <when state="math-" output="→"/>
         </action>
         <action id="я">
             <when state="none" output="я"/>
@@ -2649,6 +2651,7 @@
             <when state="breve" output="ӗ"/>
             <when state="diaeresis" output="ё"/>
             <when state="grave" output="ѐ"/>
+            <when state="math-" output="⇀"/>
         </action>
         <action id="ё 1">
             <when state="none" output="`"/>
@@ -2656,6 +2659,7 @@
             <when state="Greek" output="`"/>
             <when state="Math" output="¬"/>
             <when state="grave" output="ѐ"/>
+            <when state="math-" output="⇀"/>
         </action>
         <action id="і">
             <when state="none" output=""/>
@@ -2776,6 +2780,7 @@
             <when state="none" output="→"/>
             <when state="Greek" output="°"/>
             <when state="Math" output="⇝"/>
+            <when state="math-" output="⟶"/>
         </action>
         <action id="↓">
             <when state="none" output="↓"/>
