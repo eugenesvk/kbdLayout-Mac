@@ -2031,6 +2031,7 @@
         <action id="_">
             <when state="none" output="_"/>
             <when state="Greek" output="_"/>
+            <when state="Math" next="math_"/>
         </action>
         <action id="`">
             <when state="none" next="grave"/>
