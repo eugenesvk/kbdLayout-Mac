@@ -2588,6 +2588,7 @@
             <when state="none" output="щ"/>
             <when state="Diacritics" next="macron"/>
             <when state="Greek" output="ο"/>
+            <when state="Math" next="mathO"/>
             <when state="greek-tonos" output="ό"/>
         </action>
         <action id="ъ">
