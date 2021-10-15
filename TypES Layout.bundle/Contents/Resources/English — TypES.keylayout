@@ -111,7 +111,7 @@
             <key code="48" output="&#x0009;"/>
             <key code="49" action="space"/>
             <key code="50" action="`0"/>
-            <key code="51" output="&#x0008;"/>
+            <key code="51" action="Backspace"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
             <key code="55" output=""/>
@@ -2079,6 +2079,16 @@
             <when state="Greek" output="Β"/>
             <when state="dot-above" output="Ḃ"/>
             <when state="dot-below" output="Ḅ"/>
+        </action>
+        <action id="Backspace">
+            <when state="none" output="&#x0008;"/>
+            <when state="math-" next="Math"/>
+            <when state="math/" next="Math"/>
+            <when state="math=" next="Math"/>
+            <when state="mathO" next="Math"/>
+            <when state="math_" next="Math"/>
+            <when state="math|" next="Math"/>
+            <when state="math‹" next="Math"/>
         </action>
         <action id="C">
             <when state="none" output="C"/>
