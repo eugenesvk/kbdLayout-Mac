@@ -1824,6 +1824,7 @@
             <when state="none" output="/"/>
             <when state="Diacritics" next="acute"/>
             <when state="Math" next="math/"/>
+            <when state="acute" output="́"/>
             <when state="horn" next="horn+acute"/>
             <when state="macron" next="macron+acute"/>
             <when state="math=" output="≠"/>
@@ -2477,6 +2478,7 @@
             <when state="none" output="&#x0027;"/>
             <when state="Diacritics" next="horn"/>
             <when state="Math" output="∈"/>
+            <when state="acute" output="́"/>
             <when state="math/" output="∉"/>
         </action>
         <action id="apostrophe1">
@@ -2852,6 +2854,7 @@
         <action id="´">
             <when state="none" next="acute"/>
             <when state="Greek" output="?"/>
+            <when state="acute" output="́"/>
             <when state="macron" next="macron+acute"/>
             <when state="macron+acute" output="᷄"/>
         </action>
