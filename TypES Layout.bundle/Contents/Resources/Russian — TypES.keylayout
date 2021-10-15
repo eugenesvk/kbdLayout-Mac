@@ -1999,6 +1999,7 @@
         <action id="=">
             <when state="none" output="="/>
             <when state="Diacritics" next="cedilla"/>
+            <when state="Math" next="math="/>
         </action>
         <action id="&#x003E;">
             <when state="none" output="&#x003E;"/>
