@@ -22,6 +22,13 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
 
+  - __Added__
+    + `ru` combining diacritics to each invoking key+number without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via 3⃣ or ж⃣ you can insert a ̈ combining diaeresis via 3⃣, but not ж⃣ since it produces 'ӝ' (the previous keybind of ⌥⇧ж⃣ continues to work)
+    + `en` combining diacritics to each invoking key+number without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via 3⃣ or ;⃣ you can insert a ̈ combining diaeresis via 3⃣ or ;⃣  since both are free of any letters with diaeresis (the previous keybind of ⌥⇧;⃣ continues to work)
+    + `en` `ru` ́ (combining acute) to <kbd>/</kbd> (in addition to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd>), and <kbd>\'</kbd> or <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd> (in <kbd>🕱</kbd>`acute`)
+        * <kbd>/</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ́ (combining acute)
+        * <kbd>\'</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd> ́ (combining acute)
+
   [0.9.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.9.0
 ## [0.9.0]
   - __Added__
