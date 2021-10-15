@@ -428,7 +428,7 @@
             <key code="14" action="€"/>
             <key code="15" action="◊"/>
             <key code="16" action="ѣ"/>
-            <key code="17" action="action"/>
+            <key code="17" action="е⌥"/>
             <key code="18" action="¹"/>
             <key code="19" action="²"/>
             <key code="20" action="³"/>
@@ -2028,10 +2028,6 @@
             <when state="none" output="`"/>
             <when state="Greek" output="`"/>
         </action>
-        <action id="action">
-            <when state="none" output=""/>
-            <when state="Greek" output="™"/>
-        </action>
         <action id="apostrophe10">
             <when state="none" next="Diacritics"/>
         </action>
@@ -2416,6 +2412,10 @@
             <when state="grave" output="ѐ"/>
             <when state="space" output=" "/>
         </action>
+        <action id="е⌥">
+            <when state="none" next="Math"/>
+            <when state="Greek" output="™"/>
+        </action>
         <action id="ж">
             <when state="none" output="ж"/>
             <when state="Diacritics" next="diaeresis"/>
@@ -2784,6 +2784,7 @@
         <when state="Copyright" output="©"/>
         <when state="Diacritics" output=""/>
         <when state="Greek" output="α"/>
+        <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
         <when state="acute" output="´"/>
         <when state="breve" output="˘"/>
