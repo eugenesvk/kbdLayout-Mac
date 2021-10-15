@@ -1236,12 +1236,12 @@
             <key code="38" output="&#x000A;"/>
             <key code="39" action="apostrophe10"/>
             <key code="40" output="&#x000B;"/>
-            <key code="41" output=";"/>
+            <key code="41" action=";^"/>
             <key code="42" output="&#x001C;"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
             <key code="45" output="&#x000E;"/>
-            <key code="46" output="&#x000D;"/>
+            <key code="46" action="m^"/>
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action=" "/>
@@ -2028,6 +2028,9 @@
             <when state="none" output=";"/>
             <when state="Greek" output="$"/>
         </action>
+        <action id=";^">
+            <when state="none" next="Diacritics"/>
+        </action>
         <action id="=">
             <when state="none" output="="/>
             <when state="Diacritics" next="cedilla"/>
@@ -2114,6 +2117,9 @@
         </action>
         <action id="g10">
             <when state="none" next="Greek"/>
+        </action>
+        <action id="m^">
+            <when state="none" next="Math"/>
         </action>
         <action id="ring">
             <when state="none" next="ring"/>
@@ -2734,7 +2740,7 @@
             <when state="math-" output="⇀"/>
         </action>
         <action id="і">
-            <when state="none" output=""/>
+            <when state="none" next="Diacritics"/>
             <when state="Greek" output="†"/>
             <when state="diaeresis" output="ï"/>
         </action>

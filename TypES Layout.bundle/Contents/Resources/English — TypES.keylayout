@@ -1130,12 +1130,12 @@
             <key code="38" output="&#x000A;"/>
             <key code="39" action="apostrophe9"/>
             <key code="40" output="&#x000B;"/>
-            <key code="41" output=";"/>
+            <key code="41" action=";^"/>
             <key code="42" output="&#x001C;"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
             <key code="45" output="&#x000E;"/>
-            <key code="46" output="&#x000D;"/>
+            <key code="46" action="m^"/>
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action=" "/>
@@ -2050,6 +2050,9 @@
             <when state="diaeresis" output="̈"/>
             <when state="macron" next="macron+diaeresis"/>
         </action>
+        <action id=";^">
+            <when state="none" next="Diacritics"/>
+        </action>
         <action id="=">
             <when state="none" output="="/>
             <when state="Diacritics" next="cedilla"/>
@@ -2479,7 +2482,7 @@
             <when state="Greek" output="Έ"/>
         </action>
         <action id="action 1">
-            <when state="none" output=""/>
+            <when state="none" next="Diacritics"/>
             <when state="Greek" output="†"/>
         </action>
         <action id="action 2">
@@ -2649,6 +2652,9 @@
             <when state="dot-below" output="ṃ"/>
             <when state="double-acute" output="m̋"/>
             <when state="space" output=" "/>
+        </action>
+        <action id="m^">
+            <when state="none" next="Math"/>
         </action>
         <action id="macron">
             <when state="none" next="macron"/>
