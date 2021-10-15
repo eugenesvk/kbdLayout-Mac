@@ -1933,6 +1933,7 @@
             <when state="none" output="."/>
             <when state="Diacritics" next="acute"/>
             <when state="Greek" output="/"/>
+            <when state="Math" next="math/"/>
             <when state="space" output=" "/>
         </action>
         <action id="/">
