@@ -22,6 +22,108 @@ All notable changes to this project will be documented in this file
     <!-- + :lock: ??? -->
     <!-- vulnerabilities -->
 
+  - __Added__
+    + :sparkles: `ru` <kbd>␈</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
+    + :sparkles: `ru` <kbd>🕱</kbd>`Math` and mapped it to <kbd>⌥</kbd><kbd>е</kbd>, pressing it enables the following:
+        * <kbd>у</kbd> ∃
+        * <kbd>ш</kbd> ∩
+        * <kbd>т</kbd> ℕ
+        * <kbd>г</kbd> ∪
+        * <kbd>6</kbd> ⇑
+        * <kbd>8</kbd> ∗
+        * <kbd>9</kbd> ⊂
+        * <kbd>0</kbd> ⊃
+        * <kbd>⌥</kbd><kbd>0</kbd> ⇝
+        * <kbd>⇧</kbd><kbd>=</kbd> ≝
+        * <kbd>⌥</kbd><kbd>=</kbd> ≡
+        * <kbd>ф</kbd> ∀
+        * <kbd>⌥</kbd><kbd>ф</kbd> ≅
+        * <kbd>э</kbd> ∈
+        * <kbd>и</kbd> ∵
+        * <kbd>с</kbd> ℂ
+        * <kbd>в</kbd> ∇
+        * <kbd>й</kbd> ℚ
+        * <kbd>к</kbd> ℝ
+        * <kbd>е</kbd> ∴
+        * <kbd>м</kbd> ⇓
+        * <kbd>ч</kbd> ·
+        * <kbd>я</kbd> ℤ
+        * <kbd>⇧</kbd><kbd>я</kbd> ≈
+        * <kbd>х</kbd> ⌊
+        * <kbd>ъ</kbd> ⌋
+        * <kbd>⇧</kbd><kbd>х</kbd> ⌈
+        * <kbd>⇧</kbd><kbd>ъ</kbd> ⌉
+        * <kbd>ж</kbd> …
+        * <kbd>ю</kbd> 〉
+        * <kbd>⌥</kbd><kbd>ю</kbd> ．
+        * <kbd>⇧</kbd><kbd>.</kbd> ．
+        * <kbd>⇧</kbd><kbd>б</kbd> ≤
+        * <kbd>⇧</kbd><kbd>ю</kbd> ≥
+        * <kbd>\</kbd> ∨
+        * <kbd>ё</kbd>, <kbd>`</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>я</kbd>)
+    + :sparkles: `ru` <kbd>🕱</kbd>`math/` and mapped it to <kbd>.</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>у</kbd> ∄
+        * <kbd>ш</kbd> ⫛
+        * <kbd>э</kbd> ∉
+        * <kbd>0</kbd> ∅
+        * (same with <kbd>⇧</kbd>)
+        * <kbd>\</kbd> ∧
+        * <kbd>⇧</kbd><kbd>\</kbd> ∤
+    + :sparkles: `ru` <kbd>🕱</kbd>`mathO` and mapped it to <kbd>щ</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>ю</kbd> ⊙
+        * <kbd>.</kbd> ⊘
+        * <kbd>-</kbd> ⊖
+        * <kbd>=</kbd>, <kbd>⇧</kbd><kbd>=</kbd> ⊕
+        * <kbd>8</kbd>, <kbd>⇧</kbd><kbd>8</kbd> ⊛
+        * <kbd>ч</kbd>, <kbd>⌥</kbd><kbd>8</kbd> ⊗
+    + :sparkles: `ru` <kbd>🕱</kbd>`math-` and mapped it to <kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>></kbd>, <kbd>]</kbd> ⇀ (keys left of <kbd>1</kbd>/<kbd>я</kbd>)
+        * <kbd>ю</kbd> →
+        * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟶
+    + :sparkles: `ru` <kbd>🕱</kbd>`math=` and mapped it to <kbd>=</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟹
+        * <kbd>=</kbd> ≡
+        * <kbd>.</kbd> ≠
+        * <kbd>\</kbd> ⤇
+        * <kbd>⌥</kbd><kbd>\</kbd> ⟾
+        * <kbd>б</kbd> ⇐
+        * <kbd>ю</kbd> ⇒
+    + :sparkles: `ru` <kbd>🕱</kbd>`math_` and mapped it to <kbd>⇧</kbd><kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>9</kbd> ⊆
+        * <kbd>0</kbd> ⊇
+        * <kbd>\</kbd> ⟂
+        * <kbd>б</kbd> ≤
+        * <kbd>ю</kbd> ≥
+        * (same with ⇧)
+    + :sparkles: `ru` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>\</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>ю</kbd> ↦
+        * <kbd>⌥</kbd><kbd>0</kbd> ⟼
+        * <kbd>0</kbd>, <kbd>⇧</kbd><kbd>0</kbd> ⤇
+        * <kbd>-</kbd> ⊦
+        * <kbd>⇧</kbd><kbd>-</kbd> ⊥
+        * <kbd>=</kbd> ⊧
+        * <kbd>⌥</kbd><kbd>=</kbd> ⟾
+        * <kbd>⇧</kbd><kbd>=</kbd> ⊩
+        * <kbd>х</kbd> ⟦
+        * <kbd>ъ</kbd> ⟧
+        * <kbd>⇧</kbd><kbd>ю</kbd> ▷
+        * <kbd>\</kbd>, <kbd>⇧</kbd><kbd>\</kbd> ‖
+    + :sparkles: `ru` <kbd>🕱</kbd>`math‹` and mapped it to <kbd>б</kbd> or <kbd>⇧</kbd><kbd>б</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+        * <kbd>⌥</kbd><kbd>9</kbd> ⟵
+        * <kbd>0</kbd> ↔
+        * <kbd>⌥</kbd><kbd>0</kbd> ⟷
+        * <kbd>-</kbd> ←
+        * <kbd>⌥</kbd><kbd>-</kbd> ⟵
+        * <kbd>=</kbd> ⇐
+        * <kbd>⌥</kbd><kbd>=</kbd> ⟸
+        * <kbd>⇧</kbd><kbd>0</kbd> ⇔
+        * <kbd>⇧</kbd><kbd>-</kbd> ≤
+        * <kbd>⇧</kbd><kbd>=</kbd> ⇔
+        * <kbd>\</kbd>, <kbd>⇧</kbd><kbd>\</kbd> ◁
+        * <kbd>б</kbd> ←
+        * <kbd>ю</kbd>, <kbd>⇧</kbd><kbd>ю</kbd> ◇
+        * <kbd>⌥</kbd><kbd>ю</kbd> ⟺
+
   [0.8.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.8.0
 ## [0.8.0]
   - __Added__
