@@ -3064,44 +3064,44 @@
     </actions>
     <terminators>
         <when state="Copyright" output="©"/>
-        <when state="Diacritics" output=""/>
+        <when state="Diacritics" output="◌"/>
         <when state="Greek" output="ε"/>
         <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
         <when state="acute" output="´"/>
-        <when state="acute+dot-above" output=""/>
+        <when state="acute+dot-above" output="◌́̇"/>
         <when state="breve" output="˘"/>
-        <when state="breve+dot-below" output=""/>
-        <when state="breve+hook-above" output=""/>
+        <when state="breve+dot-below" output="◌̣̆"/>
+        <when state="breve+hook-above" output="◌̆̉"/>
         <when state="caron" output="ˇ"/>
-        <when state="caron+dot-above" output=""/>
+        <when state="caron+dot-above" output="◌̌̇"/>
         <when state="cedilla" output="¸"/>
         <when state="circumflex" output="ˆ"/>
-        <when state="circumflex+dot-below" output=""/>
-        <when state="circumflex+hook-above" output=""/>
+        <when state="circumflex+dot-below" output="◌̣̂"/>
+        <when state="circumflex+hook-above" output="◌̂̉"/>
         <when state="diaeresis" output="¨"/>
-        <when state="diaeresis+macron" output=""/>
+        <when state="diaeresis+macron" output="◌̈̄"/>
         <when state="diaeresis-greek" output="¨"/>
         <when state="dot-above" output="˙"/>
-        <when state="dot-above+macron" output=""/>
-        <when state="dot-below" output=""/>
-        <when state="dot-below+dot-above" output=""/>
-        <when state="dot-below+macron" output=""/>
+        <when state="dot-above+macron" output="◌̇̄"/>
+        <when state="dot-below" output="◌̣"/>
+        <when state="dot-below+dot-above" output="◌̣̇"/>
+        <when state="dot-below+macron" output="◌̣̄"/>
         <when state="double-acute" output="˝"/>
         <when state="grave" output="`"/>
         <when state="greek-dialytika-tonos" output="΅"/>
         <when state="greek-tonos" output="΄"/>
-        <when state="hook-above" output=""/>
-        <when state="horn" output=""/>
-        <when state="horn+acute" output=""/>
-        <when state="horn+dot-below" output=""/>
-        <when state="horn+grave" output=""/>
-        <when state="horn+hook-above" output=""/>
-        <when state="horn+tilde" output=""/>
+        <when state="hook-above" output="◌̉"/>
+        <when state="horn" output="◌̛"/>
+        <when state="horn+acute" output="◌̛́"/>
+        <when state="horn+dot-below" output="◌̛̣"/>
+        <when state="horn+grave" output="◌̛̀"/>
+        <when state="horn+hook-above" output="◌̛̉"/>
+        <when state="horn+tilde" output="◌̛̃"/>
         <when state="macron" output="¯"/>
-        <when state="macron+acute" output=""/>
-        <when state="macron+diaeresis" output=""/>
-        <when state="macron+grave" output=""/>
+        <when state="macron+acute" output="◌̄́"/>
+        <when state="macron+diaeresis" output="◌̄̈"/>
+        <when state="macron+grave" output="◌̄̀"/>
         <when state="math-" output="-"/>
         <when state="math/" output="/"/>
         <when state="math=" output="="/>
@@ -3110,10 +3110,10 @@
         <when state="math|" output="｜"/>
         <when state="math‹" output="〈"/>
         <when state="ogonek" output="˛"/>
-        <when state="ogonek+macron" output=""/>
+        <when state="ogonek+macron" output="◌̨̄"/>
         <when state="ring" output="˚"/>
         <when state="space" output=" "/>
         <when state="tilde" output="˜"/>
-        <when state="tilde+macron" output=""/>
+        <when state="tilde+macron" output="◌̃̄"/>
     </terminators>
 </keyboard>
