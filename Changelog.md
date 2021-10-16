@@ -29,6 +29,11 @@ All notable changes to this project will be documented in this file
         * <kbd>/</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ́ (combining acute)
         * <kbd>\'</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd> ́ (combining acute)
     + `en` `ru` map <kbd>🕱</kbd>`Math` to <kbd>^</kbd><kbd>m</kbd>/<kbd>ь</kbd> and <kbd>🕱</kbd>`Diacritic` to <kbd>^</kbd><kbd>;</kbd><kbd>ж</kbd>
+    + `en` `§`, `±` to <kbd>§</kbd>, <kbd>⇧</kbd><kbd>§</kbd> (in <kbd>🕱</kbd>`Greek`)
+  - __Changed__
+    + `en` `ru` <kbd>🕱</kbd>`Greek` 
+        * copied `ω` to <kbd>w</kbd>, moved `ς` to <kbd>q</kbd>
+        * copied `Ω` to <kbd>⇧</kbd><kbd>w</kbd>, moved <kbd>🕱</kbd>`greek-dialytika-tonos` to <kbd>⇧</kbd><kbd>q</kbd>
 
   [0.9.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.9.0
 ## [0.9.0]
