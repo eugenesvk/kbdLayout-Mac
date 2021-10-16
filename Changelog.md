@@ -34,10 +34,13 @@ All notable changes to this project will be documented in this file
         * <kbd>⌥</kbd><kbd>6</kbd> ⇑
         * <kbd>⌥</kbd><kbd>v</kbd> ⇓
     + `en` `ru` map non-breaking hyphen `‑` to <kbd>⇧</kbd><kbd>^</kbd><kbd>-</kbd>
+    + `en` `ru` map symbol for backspace `␈` to <kbd>^</kbd><kbd>⌥</kbd><kbd>␈</kbd>
+    + `en` `ru` map combining enclosing keycap    ⃣    to <kbd>k</kbd> / <kbd>л</kbd> (in <kbd>🕱</kbd>`Diacritics`)
   - __Changed__
     + `en` `ru` <kbd>🕱</kbd>`Greek` :
         * copied `ω` to <kbd>w</kbd>, moved `ς` to <kbd>q</kbd>
         * copied `Ω` to <kbd>⇧</kbd><kbd>w</kbd>, moved <kbd>🕱</kbd>`greek-dialytika-tonos` to <kbd>⇧</kbd><kbd>q</kbd>
+    + `en` `ru` `🙂` to `¦` at <kbd>⇧</kbd><kbd>⌥</kbd><kbd>\</kbd> / <kbd>ё</kbd>
 
   [0.9.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.9.0
 ## [0.9.0]
