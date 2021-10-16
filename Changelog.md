@@ -179,7 +179,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>,</kbd> ≤
         * <kbd>⇧</kbd><kbd>.</kbd> ≥
         * <kbd>\</kbd> ∨
-        * <kbd>§</kbd>, <kbd>`</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>z</kbd>)
+        * <kbd>§</kbd>, <kbd>\`</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>z</kbd>)
     + :sparkles: `en` <kbd>🕱</kbd>`math/` and mapped it to <kbd>/</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>e</kbd> ∄
         * <kbd>i</kbd> ⫛
@@ -438,11 +438,11 @@ All notable changes to this project will be documented in this file
         * <kbd>␠</kbd> ¯ (stand-alone macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>  ̄ (combining macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>q</kbd>  ᷌  (combining macron-breve)
-    + :sparkles: `en` add 🕱 dead sub-key `Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd> or <kbd>`</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
+    + :sparkles: `en` add 🕱 dead sub-key `Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd> or <kbd>\`</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
         * <kbd>e</kbd> ḕ
         * <kbd>o</kbd> ṑ
         * (and the same with the Capital letters)
-        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>`</kbd>  ᷆ (combining Macron-Grave)
+        * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd>  ᷆ (combining Macron-Grave)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷅ (combining Grave-Macron)
     + :sparkles: `en` add 🕱 dead sub-key `Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
         * <kbd>e</kbd> ḗ
