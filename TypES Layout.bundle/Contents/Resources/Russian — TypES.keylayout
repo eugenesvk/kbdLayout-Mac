@@ -1978,6 +1978,7 @@
         <action id="2">
             <when state="none" output="2"/>
             <when state="Diacritics" next="grave"/>
+            <when state="acute" output="̋"/>
             <when state="grave" output="̀"/>
         </action>
         <action id="3">
