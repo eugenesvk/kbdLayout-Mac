@@ -563,7 +563,7 @@
             <key code="39" action="apostrophe4"/>
             <key code="40" action="√"/>
             <key code="41" action="¨"/>
-            <key code="42" action="🙂"/>
+            <key code="42" action="\⇧⌥"/>
             <key code="43" output="„"/>
             <key code="44" action="´"/>
             <key code="45" action="~"/>
@@ -2404,6 +2404,10 @@
             <when state="math|" output="‖"/>
             <when state="math‹" output="◁"/>
         </action>
+        <action id="\⇧⌥">
+            <when state="none" output="¦"/>
+            <when state="Greek" output="Ζ"/>
+        </action>
         <action id="]0">
             <when state="none" output="]"/>
             <when state="Math" output="⌋"/>
@@ -3099,10 +3103,6 @@
         <action id="◊">
             <when state="none" output="◊"/>
             <when state="Greek" output="®"/>
-        </action>
-        <action id="🙂">
-            <when state="none" output="🙂"/>
-            <when state="Greek" output="Ζ"/>
         </action>
     </actions>
     <terminators>
