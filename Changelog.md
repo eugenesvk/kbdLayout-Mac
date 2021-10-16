@@ -23,6 +23,20 @@ All notable changes to this project will be documented in this file
     <!-- vulnerabilities -->
 
   - __Added__
+    + :sparkles: `en` `ru` diacritics <kbd>🕱</kbd>s to <kbd>^</kbd><kbd>§</kbd>–<kbd>=</kbd>:
+        * <kbd>^</kbd><kbd>§</kbd> → <kbd>🕱</kbd>`grave`
+        * <kbd>^</kbd><kbd>1</kbd> → <kbd>🕱</kbd>`acute`
+        * <kbd>^</kbd><kbd>2</kbd> → <kbd>🕱</kbd>`grave`
+        * <kbd>^</kbd><kbd>3</kbd> → <kbd>🕱</kbd>`diaeresis`
+        * <kbd>^</kbd><kbd>4</kbd> → <kbd>🕱</kbd>`tilde`
+        * <kbd>^</kbd><kbd>5</kbd> → <kbd>🕱</kbd>`macron`
+        * <kbd>^</kbd><kbd>6</kbd> → <kbd>🕱</kbd>`circumflex`
+        * <kbd>^</kbd><kbd>7</kbd> → <kbd>🕱</kbd>`ring`
+        * <kbd>^</kbd><kbd>8</kbd> → <kbd>🕱</kbd>`dot-above`
+        * <kbd>^</kbd><kbd>9</kbd> → <kbd>🕱</kbd>`breve`
+        * <kbd>^</kbd><kbd>0</kbd> → <kbd>🕱</kbd>`caron`
+        * <kbd>^</kbd><kbd>-</kbd> → <kbd>🕱</kbd>`dot-below`
+        * <kbd>^</kbd><kbd>=</kbd> → <kbd>🕱</kbd>`cedilla`
     + `ru` combining diacritics to each invoking key+number without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>ж</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd>, but not <kbd>ж</kbd> since it produces `ӝ` (the previous keybind of ⌥⇧<kbd>ж</kbd> continues to work)
     + `en` combining diacritics to each invoking key+number without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>;</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd> or <kbd>;</kbd>  since both are free of any letters with diaeresis (the previous keybind of ⌥⇧<kbd>;</kbd> continues to work)
     + `en` `ru`   ̋ (combining double acute) to <kbd>2</kbd> (in <kbd>🕱</kbd>`acute`)
