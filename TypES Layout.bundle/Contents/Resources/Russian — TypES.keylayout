@@ -2564,6 +2564,7 @@
         </action>
         <action id="л">
             <when state="none" output="л"/>
+            <when state="Diacritics" output="⃣"/>
             <when state="Greek" output="κ"/>
         </action>
         <action id="м">

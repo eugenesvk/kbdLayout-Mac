@@ -2628,6 +2628,7 @@
         </action>
         <action id="k">
             <when state="none" output="k"/>
+            <when state="Diacritics" output="⃣"/>
             <when state="Greek" output="κ"/>
             <when state="caron" output="ǩ"/>
             <when state="cedilla" output="ķ"/>
