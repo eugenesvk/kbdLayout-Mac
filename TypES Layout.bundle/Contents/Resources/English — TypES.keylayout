@@ -188,7 +188,7 @@
             <key code="7" action="X"/>
             <key code="8" action="C"/>
             <key code="9" action="V"/>
-            <key code="10" output="~"/>
+            <key code="10" action="±⇧"/>
             <key code="11" action="B"/>
             <key code="12" action="Q"/>
             <key code="13" action="W"/>
@@ -2278,6 +2278,7 @@
         </action>
         <action id="Q">
             <when state="none" output="Q"/>
+            <when state="Greek" next="greek-dialytika-tonos"/>
             <when state="OldCyrillic" output="Ѳ"/>
         </action>
         <action id="R">
@@ -2347,7 +2348,7 @@
         </action>
         <action id="W">
             <when state="none" output="W"/>
-            <when state="Greek" next="greek-dialytika-tonos"/>
+            <when state="Greek" output="Ω"/>
             <when state="acute" output="Ẃ"/>
             <when state="circumflex" output="Ŵ"/>
             <when state="diaeresis" output="Ẅ"/>
@@ -2438,6 +2439,7 @@
         <action id="` 2">
             <when state="none" output="`"/>
             <when state="Diacritics" next="grave"/>
+            <when state="Greek" output="§"/>
             <when state="Math" output="¬"/>
             <when state="grave" output="̀"/>
             <when state="horn" next="horn+grave"/>
@@ -2681,6 +2683,7 @@
         <action id="q">
             <when state="none" output="q"/>
             <when state="Diacritics" next="breve"/>
+            <when state="Greek" output="ς"/>
             <when state="Math" output="ℚ"/>
             <when state="OldCyrillic" output="ѳ"/>
             <when state="breve" output="̆"/>
@@ -2761,7 +2764,7 @@
         </action>
         <action id="w">
             <when state="none" output="w"/>
-            <when state="Greek" output="ς"/>
+            <when state="Greek" output="ω"/>
             <when state="acute" output="ẃ"/>
             <when state="circumflex" output="ŵ"/>
             <when state="diaeresis" output="ẅ"/>
@@ -2872,6 +2875,10 @@
         <action id="±">
             <when state="none" output="±"/>
             <when state="Greek" output="+"/>
+        </action>
+        <action id="±⇧">
+            <when state="none" output="~"/>
+            <when state="Greek" output="±"/>
         </action>
         <action id="²">
             <when state="none" output="²"/>
