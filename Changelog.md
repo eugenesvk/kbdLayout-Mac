@@ -29,9 +29,12 @@ All notable changes to this project will be documented in this file
         * <kbd>/</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ́ (combining acute)
         * <kbd>\'</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd> ́ (combining acute)
     + `en` `ru` map <kbd>🕱</kbd>`Math` to <kbd>^</kbd><kbd>m</kbd>/<kbd>ь</kbd> and <kbd>🕱</kbd>`Diacritic` to <kbd>^</kbd><kbd>;</kbd><kbd>ж</kbd>
-    + `en` `§`, `±` to <kbd>§</kbd>, <kbd>⇧</kbd><kbd>§</kbd> (in <kbd>🕱</kbd>`Greek`)
+    + `en` <kbd>🕱</kbd>`Greek`: `§`, `±` to <kbd>§</kbd>, <kbd>⇧</kbd><kbd>§</kbd>
+    + `en` `ru` some duplicate <kbd>⌥</kbd><kbd>Key</kbd> symbols (in <kbd>🕱</kbd>`Math` )
+        * <kbd>⌥</kbd><kbd>6</kbd> ⇑
+        * <kbd>⌥</kbd><kbd>v</kbd> ⇓
   - __Changed__
-    + `en` `ru` <kbd>🕱</kbd>`Greek` 
+    + `en` `ru` <kbd>🕱</kbd>`Greek` :
         * copied `ω` to <kbd>w</kbd>, moved `ς` to <kbd>q</kbd>
         * copied `Ω` to <kbd>⇧</kbd><kbd>w</kbd>, moved <kbd>🕱</kbd>`greek-dialytika-tonos` to <kbd>⇧</kbd><kbd>q</kbd>
 
