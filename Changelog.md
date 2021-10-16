@@ -33,6 +33,7 @@ All notable changes to this project will be documented in this file
     + `en` `ru` some duplicate <kbd>⌥</kbd><kbd>Key</kbd> symbols (in <kbd>🕱</kbd>`Math` )
         * <kbd>⌥</kbd><kbd>6</kbd> ⇑
         * <kbd>⌥</kbd><kbd>v</kbd> ⇓
+    + `en` `ru` map non-breaking hyphen `‑` to <kbd>⇧</kbd><kbd>^</kbd><kbd>-</kbd>
   - __Changed__
     + `en` `ru` <kbd>🕱</kbd>`Greek` :
         * copied `ω` to <kbd>w</kbd>, moved `ς` to <kbd>q</kbd>
