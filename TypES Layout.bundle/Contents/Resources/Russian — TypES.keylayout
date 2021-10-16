@@ -2855,6 +2855,7 @@
         <action id="↑">
             <when state="none" output="↑"/>
             <when state="Greek" output="¶"/>
+            <when state="Math" output="⇑"/>
         </action>
         <action id="→">
             <when state="none" output="→"/>
@@ -2868,6 +2869,7 @@
         <action id="↓">
             <when state="none" output="↓"/>
             <when state="Greek" output="±"/>
+            <when state="Math" output="⇓"/>
         </action>
         <action id="⇧">
             <when state="none" output="⇧"/>
