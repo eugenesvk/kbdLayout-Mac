@@ -75,7 +75,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>б</kbd> ≤
         * <kbd>⇧</kbd><kbd>ю</kbd> ≥
         * <kbd>\</kbd> ∨
-        * <kbd>ё</kbd>, <kbd>`</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>я</kbd>)
+        * <kbd>></kbd>, <kbd>]</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>я</kbd>)
     + :sparkles: `ru` <kbd>🕱</kbd>`math/` and mapped it to <kbd>.</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>у</kbd> ∄
         * <kbd>ш</kbd> ⫛
@@ -279,7 +279,7 @@ All notable changes to this project will be documented in this file
         * ,     <kbd>g</kbd> → <kbd>🕱</kbd>`ogonek` (`˛`)
     + :sparkles: `ru` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
         * <kbd>1</kbd>, <kbd>.</kbd> → <kbd>🕱</kbd>`acute` (`´`)
-        * <kbd>2</kbd>, <kbd>ё</kbd>, <kbd>\`</kbd> → <kbd>🕱</kbd>`grave` (`` ` ``)
+        * <kbd>2</kbd>, <kbd>></kbd>, <kbd>]</kbd> → <kbd>🕱</kbd>`grave` (`` ` ``)
         * <kbd>3</kbd>, <kbd>ж</kbd>  → <kbd>🕱</kbd>`diaeresis` (`¨`)
         * <kbd>4</kbd>, <kbd>т</kbd>  → <kbd>🕱</kbd>`tilde` (`˜`)
         * <kbd>5</kbd>, <kbd>щ</kbd>  → <kbd>🕱</kbd>`macron` (`¯`)
