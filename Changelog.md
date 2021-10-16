@@ -28,7 +28,7 @@ All notable changes to this project will be documented in this file
     + `en` `ru` ́ (combining acute) to <kbd>/</kbd> (in addition to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd>), and <kbd>\'</kbd> or <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd> (in <kbd>🕱</kbd>`acute`)
         * <kbd>/</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ́ (combining acute)
         * <kbd>\'</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd> ́ (combining acute)
-    + `en` `ru` map <kbd>🕱</kbd>`Math` to <kbd>^</kbd><kbd>m</kbd>/<kbd>ь</kbd> and <kbd>🕱</kbd>`Diacritic` to <kbd>^</kbd><kbd>;</kbd><kbd>ж</kbd>
+    + `en` `ru` map <kbd>🕱</kbd>`Math` to <kbd>^</kbd><kbd>m</kbd>/<kbd>ь</kbd> and <kbd>🕱</kbd>`Diacritics` to <kbd>^</kbd><kbd>;</kbd><kbd>ж</kbd>
     + `en` <kbd>🕱</kbd>`Greek`: `§`, `±` to <kbd>§</kbd>, <kbd>⇧</kbd><kbd>§</kbd>
     + `en` `ru` some duplicate <kbd>⌥</kbd><kbd>Key</kbd> symbols (in <kbd>🕱</kbd>`Math` )
         * <kbd>⌥</kbd><kbd>6</kbd> ⇑
@@ -304,7 +304,7 @@ All notable changes to this project will be documented in this file
     + :sparkles: `ru` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd>, pressing it enables the following:
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd> ̣ (combining dot below)
     + `en` map <kbd>🕱</kbd>`breve+dot-below` to <kbd>-</kbd> (in <kbd>🕱</kbd>`breve`)
-    + :sparkles: `en` <kbd>🕱</kbd>`ogonek` and mapped it to <kbd>g</kbd> (in <kbd>🕱</kbd>`Diacritic`), pressing it enables the following:
+    + :sparkles: `en` <kbd>🕱</kbd>`ogonek` and mapped it to <kbd>g</kbd> (in <kbd>🕱</kbd>`Diacritics`), pressing it enables the following:
         * <kbd>a</kbd> ą
         * <kbd>e</kbd> ę
         * <kbd>i</kbd> į
@@ -316,12 +316,12 @@ All notable changes to this project will be documented in this file
     + :sparkles: `en` <kbd>🕱</kbd>`ogonek+macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`ogonek`), pressing it enables the following:
         * <kbd>o</kbd> ǭ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd>`horn` and mapped it to <kbd>\'</kbd> (in <kbd>🕱</kbd>`Diacritic`), pressing it enables the following:
+    + :sparkles: `en` <kbd>🕱</kbd>`horn` and mapped it to <kbd>\'</kbd> (in <kbd>🕱</kbd>`Diacritics`), pressing it enables the following:
         * <kbd>o</kbd> ơ
         * <kbd>u</kbd> ư
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd>  ̛ (combining horn)
-    + :sparkles: `en` <kbd>🕱</kbd>`hook-above` and mapped it to <kbd>j</kbd> (in <kbd>🕱</kbd>`Diacritic`), pressing it enables the following:
+    + :sparkles: `en` <kbd>🕱</kbd>`hook-above` and mapped it to <kbd>j</kbd> (in <kbd>🕱</kbd>`Diacritics`), pressing it enables the following:
         * <kbd>a</kbd> ả
         * <kbd>e</kbd> ẻ
         * <kbd>i</kbd> ỉ
