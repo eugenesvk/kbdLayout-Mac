@@ -25,6 +25,7 @@ All notable changes to this project will be documented in this file
   - __Added__
     + `ru` combining diacritics to each invoking key+number without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>ж</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd>, but not <kbd>ж</kbd> since it produces `ӝ` (the previous keybind of ⌥⇧<kbd>ж</kbd> continues to work)
     + `en` combining diacritics to each invoking key+number without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>;</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd> or <kbd>;</kbd>  since both are free of any letters with diaeresis (the previous keybind of ⌥⇧<kbd>;</kbd> continues to work)
+    + `en` `ru`   ̋ (combining double acute) to <kbd>2</kbd> (in <kbd>🕱</kbd>`acute`)
     + `en` `ru` ́ (combining acute) to <kbd>/</kbd> (in addition to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd>), and <kbd>\'</kbd> or <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd> (in <kbd>🕱</kbd>`acute`)
         * <kbd>/</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ́ (combining acute)
         * <kbd>\'</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd> ́ (combining acute)
