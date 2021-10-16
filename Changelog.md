@@ -81,7 +81,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>.</kbd> ．
         * <kbd>⇧</kbd><kbd>б</kbd> ≤
         * <kbd>⇧</kbd><kbd>ю</kbd> ≥
-        * <kbd>\</kbd> ∨
+        * <kbd>ё</kbd> ∨
         * <kbd>></kbd>, <kbd>]</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>я</kbd>)
     + :sparkles: `ru` <kbd>🕱</kbd>`math/` and mapped it to <kbd>.</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>у</kbd> ∄
@@ -89,8 +89,8 @@ All notable changes to this project will be documented in this file
         * <kbd>э</kbd> ∉
         * <kbd>0</kbd> ∅
         * (same with <kbd>⇧</kbd>)
-        * <kbd>\</kbd> ∧
-        * <kbd>⇧</kbd><kbd>\</kbd> ∤
+        * <kbd>ё</kbd> ∧
+        * <kbd>⇧</kbd><kbd>ё</kbd> ∤
     + :sparkles: `ru` <kbd>🕱</kbd>`mathO` and mapped it to <kbd>щ</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>ю</kbd> ⊙
         * <kbd>.</kbd> ⊘
@@ -106,18 +106,18 @@ All notable changes to this project will be documented in this file
         * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟹
         * <kbd>=</kbd> ≡
         * <kbd>.</kbd> ≠
-        * <kbd>\</kbd> ⤇
-        * <kbd>⌥</kbd><kbd>\</kbd> ⟾
+        * <kbd>ё</kbd> ⤇
+        * <kbd>⌥</kbd><kbd>ё</kbd> ⟾
         * <kbd>б</kbd> ⇐
         * <kbd>ю</kbd> ⇒
     + :sparkles: `ru` <kbd>🕱</kbd>`math_` and mapped it to <kbd>⇧</kbd><kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>9</kbd> ⊆
         * <kbd>0</kbd> ⊇
-        * <kbd>\</kbd> ⟂
+        * <kbd>ё</kbd> ⟂
         * <kbd>б</kbd> ≤
         * <kbd>ю</kbd> ≥
         * (same with ⇧)
-    + :sparkles: `ru` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>\</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + :sparkles: `ru` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>ё</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>ю</kbd> ↦
         * <kbd>⌥</kbd><kbd>0</kbd> ⟼
         * <kbd>0</kbd>, <kbd>⇧</kbd><kbd>0</kbd> ⤇
@@ -129,7 +129,7 @@ All notable changes to this project will be documented in this file
         * <kbd>х</kbd> ⟦
         * <kbd>ъ</kbd> ⟧
         * <kbd>⇧</kbd><kbd>ю</kbd> ▷
-        * <kbd>\</kbd>, <kbd>⇧</kbd><kbd>\</kbd> ‖
+        * <kbd>ё</kbd>, <kbd>⇧</kbd><kbd>ё</kbd> ‖
     + :sparkles: `ru` <kbd>🕱</kbd>`math‹` and mapped it to <kbd>б</kbd> or <kbd>⇧</kbd><kbd>б</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>⌥</kbd><kbd>9</kbd> ⟵
         * <kbd>0</kbd> ↔
@@ -141,7 +141,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>0</kbd> ⇔
         * <kbd>⇧</kbd><kbd>-</kbd> ≤
         * <kbd>⇧</kbd><kbd>=</kbd> ⇔
-        * <kbd>\</kbd>, <kbd>⇧</kbd><kbd>\</kbd> ◁
+        * <kbd>ё</kbd>, <kbd>⇧</kbd><kbd>ё</kbd> ◁
         * <kbd>б</kbd> ←
         * <kbd>ю</kbd>, <kbd>⇧</kbd><kbd>ю</kbd> ◇
         * <kbd>⌥</kbd><kbd>ю</kbd> ⟺
