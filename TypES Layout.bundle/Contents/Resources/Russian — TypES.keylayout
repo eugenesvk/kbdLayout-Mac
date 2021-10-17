@@ -2547,6 +2547,7 @@
         </action>
         <action id="д">
             <when state="none" output="д"/>
+            <when state="Copyright" output="🄯"/>
             <when state="Greek" output="λ"/>
         </action>
         <action id="е">
@@ -2573,6 +2574,7 @@
         </action>
         <action id="з">
             <when state="none" output="з"/>
+            <when state="Copyright" output="℗"/>
             <when state="Greek" output="π"/>
             <when state="diaeresis" output="ӟ"/>
             <when state="space" output=" "/>
@@ -2609,6 +2611,7 @@
         </action>
         <action id="л">
             <when state="none" output="л"/>
+            <when state="Copyright" output="🄯"/>
             <when state="Diacritics" output="⃣"/>
             <when state="Greek" output="κ"/>
         </action>
@@ -2631,6 +2634,7 @@
         </action>
         <action id="о">
             <when state="none" output="о"/>
+            <when state="Copyright" output="(ɔ)"/>
             <when state="Greek" output="ξ"/>
             <when state="diaeresis" output="ӧ"/>
             <when state="space" output="⁠"/>
@@ -2717,6 +2721,7 @@
         </action>
         <action id="щ">
             <when state="none" output="щ"/>
+            <when state="Copyright" output="(ɔ)"/>
             <when state="Diacritics" next="macron"/>
             <when state="Greek" output="ο"/>
             <when state="Math" next="mathO"/>
@@ -2731,6 +2736,7 @@
         </action>
         <action id="ы">
             <when state="none" output="ы"/>
+            <when state="Copyright" output="℠"/>
             <when state="Greek" output="σ"/>
             <when state="diaeresis" output="ӹ"/>
             <when state="space" output="␠"/>
