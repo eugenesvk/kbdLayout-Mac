@@ -1584,6 +1584,7 @@
             <key code="51" output="⌫"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="57" output=""/>
             <key code="65" output=","/>
             <key code="66" output="*"/>
             <key code="67" output="*"/>

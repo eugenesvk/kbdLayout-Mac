@@ -937,6 +937,7 @@
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
             <!-- gap, 54 through 64 -->
+            <key code="57" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
