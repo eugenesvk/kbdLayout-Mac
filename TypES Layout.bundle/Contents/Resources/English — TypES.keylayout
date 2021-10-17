@@ -1927,6 +1927,7 @@
         </action>
         <action id="17">
             <when state="none" output="o"/>
+            <when state="Copyright" output="(ɔ)"/>
             <when state="Diacritics" next="macron"/>
             <when state="Greek" output="ο"/>
             <when state="Math" next="mathO"/>
@@ -2684,6 +2685,7 @@
         </action>
         <action id="l">
             <when state="none" output="l"/>
+            <when state="Copyright" output="🄯"/>
             <when state="Greek" output="λ"/>
             <when state="acute" output="ĺ"/>
             <when state="cedilla" output="ļ"/>
@@ -2724,6 +2726,7 @@
         </action>
         <action id="p">
             <when state="none" output="p"/>
+            <when state="Copyright" output="℗"/>
             <when state="Greek" output="π"/>
             <when state="acute" output="ṕ"/>
             <when state="dot-above" output="ṗ"/>
@@ -2758,6 +2761,7 @@
         </action>
         <action id="s">
             <when state="none" output="s"/>
+            <when state="Copyright" output="℠"/>
             <when state="Greek" output="σ"/>
             <when state="acute" output="ś"/>
             <when state="acute+dot-above" output="ṥ"/>
