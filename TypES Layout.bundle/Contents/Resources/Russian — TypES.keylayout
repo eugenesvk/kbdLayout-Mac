@@ -2803,7 +2803,7 @@
             <when state="none" output=""/>
         </action>
         <action id="ѣ">
-            <when state="none" output=""/>
+            <when state="none" output="¥"/>
             <when state="Greek" output="¥"/>
         </action>
         <action id="Ѳ">
