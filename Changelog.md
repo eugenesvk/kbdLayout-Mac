@@ -132,8 +132,8 @@ All notable changes to this project will be documented in this file
         * <kbd>ы</kbd> ℠
         * <kbd>з</kbd> ℗
     + `ru` yen ¥ to <kbd>⌥</kbd><kbd>н</kbd>
-    + `en` `ru` map `⇤` to <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd><kbd><kbd>⇥</kbd>
-    + `en` `ru` map `⌫` to <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd><kbd><kbd>␈</kbd>
+    + `en` `ru` map `⇤` to <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd><kbd>⇥</kbd>
+    + `en` `ru` map `⌫` to <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd><kbd>⌫</kbd>
     + `ru` combining diacritics to each invoking key+number without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>ж</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd>, but not <kbd>ж</kbd> since it produces `ӝ` (the previous keybind of ⌥⇧<kbd>ж</kbd> continues to work)
     + `en` combining diacritics to each invoking key+number without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>;</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd> or <kbd>;</kbd>  since both are free of any letters with diaeresis (the previous keybind of ⌥⇧<kbd>;</kbd> continues to work)
     + `en` `ru`   ̋ (combining double acute) to <kbd>2</kbd> (in <kbd>🕱</kbd>`acute`)
@@ -146,7 +146,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⌥</kbd><kbd>6</kbd> ⇑
         * <kbd>⌥</kbd><kbd>v</kbd> ⇓
     + `en` `ru` map non-breaking hyphen `‑` to <kbd>⇧</kbd><kbd>^</kbd><kbd>-</kbd>
-    + `en` `ru` map symbol for backspace `␈` to <kbd>^</kbd><kbd>⌥</kbd><kbd>␈</kbd>
+    + `en` `ru` map symbol for backspace `␈` to <kbd>^</kbd><kbd>⌥</kbd><kbd>⌫</kbd>
     + `en` `ru` map combining enclosing keycap    ⃣    to <kbd>k</kbd> / <kbd>л</kbd> (in <kbd>🕱</kbd>`Diacritics`)
   - __Changed__
     + `en` `ru` <kbd>🕱</kbd>`Greek` :
@@ -157,7 +157,7 @@ All notable changes to this project will be documented in this file
   [0.9.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.9.0
 ## [0.9.0]
   - __Added__
-    + :sparkles: `ru` <kbd>␈</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
+    + :sparkles: `ru` <kbd>⌫</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
     + :sparkles: `ru` <kbd>🕱</kbd>`Math` and mapped it to <kbd>⌥</kbd><kbd>е</kbd>, pressing it enables the following:
         * <kbd>у</kbd> ∃
         * <kbd>ш</kbd> ∩
@@ -261,7 +261,7 @@ All notable changes to this project will be documented in this file
   [0.8.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.8.0
 ## [0.8.0]
   - __Added__
-    + :sparkles: `en` <kbd>␈</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
+    + :sparkles: `en` <kbd>⌫</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
     + :sparkles: `en` <kbd>🕱</kbd>`Math` and mapped it to <kbd>⌥</kbd><kbd>t</kbd>, pressing it enables the following:
         * <kbd>e</kbd> ∃
         * <kbd>i</kbd> ∩
