@@ -215,6 +215,24 @@ description continued
 
 [^2]:<kbd>⌥</kbd>=<kbd>Alt</kbd>, <kbd>⇧</kbd>=<kbd>Shift</kbd>; multiple keys in the `mbo` column should be typed sequentially; multiple lines — alternative keybind
 
+
+### Additional tips
+
+#### Insert English <kbd>⇧</kbd><kbd>1</kbd>–<kbd>0</kbd> symbols in the Russian layout
+
+Russian layout has somehwat different <kbd>⇧</kbd><kbd>1</kbd>–<kbd>0</kbd> symbols:<br>
+<kbd>2</kbd><kbd>3</kbd><kbd>4</kbd><kbd>6</kbd><kbd>7</kbd><br>
+`"`⁠`№`⁠`;`⁠`:`⁠`?` `Russian — TypES`<br>
+`@`⁠`#`⁠`$`⁠`^`⁠`&` `English — TypES`<br>
+which in the system layout is resolved by mapping <kbd>⌥</kbd><kbd>1</kbd>–<kbd>0</kbd> to the symbols from the English layout. However, these `TypES` layouts have identical <kbd>⌥</kbd> layers, so there are two alternatives to enter the English symbols with the number keys:
+
+  1. Use <kbd>^</kbd><kbd>⌥</kbd> that copies the <kbd>⌥</kbd> layer of the `Russian - PC` layout  
+  2. Use `Karabiner-Elements` to remap <kbd>right⇧</kbd> to insert English characters in the Russian layout (unfortunately, `Ukelele` can't differentiate between left and right keys):
+    + copy this [config file][1] to `~/.config/karabiner/assets/complex_modifications`
+    + in `Karabiner-Elements`→`Complex modifications`→`Add rule` add the rule named `"  Ru RShift+1–4,6–7 to En: r⇧1–4,6–7 ⟶ ⌃⌥1–4,6–7 (in 'Russian — TypES' mapped to en⇧)"` under the group `es-8) ruR⇧≈enL⇧`
+
+[1]: ./helper/es-8)%20ru-RShift=en-LShift.json
+
 ## Known issues
 
 ## Credits
