@@ -2537,7 +2537,7 @@
             <when state="Greek" output="†"/>
         </action>
         <action id="action 2">
-            <when state="none" output=""/>
+            <when state="none" next="Typographical"/>
             <when state="Greek" output="­"/>
         </action>
         <action id="action 3">
@@ -3162,6 +3162,7 @@
         <when state="Greek" output="ε"/>
         <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
+        <when state="Typographical" output="❧"/>
         <when state="acute" output="´"/>
         <when state="acute+dot-above" output="◌́̇"/>
         <when state="breve" output="˘"/>
