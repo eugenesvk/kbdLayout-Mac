@@ -175,6 +175,48 @@
 #### <kbd>🕱</kbd> `space`
 See the __Spaces__ table above
 
+#### <kbd>🕱</kbd> `Diacritics`
+
+  Combining diacritics can be inserted once inside a given diacritic <kbd>🕱</kbd> by pressing either the:
+
+  1. invoking number: <kbd>u</kbd>, <kbd>^</kbd><kbd>6</kbd>, <kbd>6</kbd> insert û
+  2. same key combo: <kbd>u</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>:</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>:</kbd> to insert ü
+  3. same key (if this key doesn't support this specific diacritic): <kbd>u</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>:</kbd>, <kbd>;</kbd> to insert ü (since __;__ doesn't support __;̈__)
+
+|Mod + Row|<kbd>§</kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>|
+|-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|<kbd>^</kbd> + <kbd>§</kbd> to <kbd>=</kbd>            	|            ◌̀|            ◌́|          ◌̀|          ◌̈|            ◌̃|            ◌̄|            ◌̂|            ◌̊|            ◌̇  |            ◌̆|            ◌̌|             ◌̣|         ◌̧|
+|<kbd>⌥</kbd><kbd>⇧</kbd> + <kbd>§</kbd> to <kbd>=</kbd>	|            ◌̀|             |           |           |             |             |            ◌̂|             |               |             |             |              |          |
+|                                                       	|<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>|<kbd></kbd>|<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>    |<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>|
+|<kbd>⌥</kbd><kbd>⇧</kbd> + <kbd>q</kbd> to <kbd>]</kbd>	|             |<kbd>q</kbd>◌̆|           |           |<kbd>r</kbd>◌̊|             |             |<kbd>u</kbd>◌̣|<kbd>i</kbd>◌̇  |<kbd>o</kbd>◌̄|             |              |          |
+|<kbd>⌥</kbd><kbd>⇧</kbd> + <kbd>a</kbd> to <kbd>\</kbd>	|             |             |           |           |             |<kbd>g</kbd>◌̨|<kbd>h</kbd>◌̋|<kbd>j</kbd>◌̉|<kbd>k</kbd>   ⃣|             |<kbd>;</kbd>◌̈|<kbd>\'</kbd>◌̛|          |
+|<kbd>⌥</kbd><kbd>⇧</kbd> + <kbd>z</kbd> to <kbd>/</kbd>	|<kbd>`</kbd>◌̀|<kbd>z</kbd>◌̧|           |           |<kbd>v</kbd>◌̌|             |<kbd>n</kbd>◌̃|             |               |             |<kbd>/</kbd>◌́|
+
+ 
+<details>
+<summary>List of 🕱 names</summary>
+
+◌̀ `grave`
+◌́ `acute`
+◌̈ `diaeresis`
+◌̃ `tilde`
+◌̄ `macron`
+◌̂ `circumflex`
+◌̊ `ring`
+◌̇ `dot-above`
+◌̆ `breve`
+◌̌ `caron`
+◌̣ `dot-below`
+◌̧ `cedilla`
+
+◌̨ `ogonek`
+◌̋ `double-acute`
+◌̉ `hook-above`
+◌̛ `horn`
+
+</details>
+
+
 #### <kbd>🕱</kbd>`Math` (<kbd>🕱</kbd>π)
   Two ways to enter:
 
@@ -346,23 +388,6 @@ See the __Spaces__ table above
   • multiple keys in the `mbo` column should be typed sequentially <br>
   • multiple lines represent alternative keybinds
 
-<!-- ◌̀ `grave` -->
-<!-- ◌́ `acute` -->
-<!-- ◌̈ `diaeresis` -->
-<!-- ◌̃ `tilde` -->
-<!-- ◌̄ `macron` -->
-<!-- ◌̂ `circumflex` -->
-<!-- ◌̊ `ring` -->
-<!-- ◌̇ `dot-above` -->
-<!-- ◌̆ `breve` -->
-<!-- ◌̌ `caron` -->
-<!-- ◌̣ `dot-below` -->
-<!-- ◌̧ `cedilla` -->
-
-<!-- ◌̋ `double-acute` -->
-<!-- ◌̉ `hook-above` -->
-<!-- ◌̛ `horn` -->
-<!-- ◌̨ `ogonek` -->
 
 
 <!-- ◌̈ `diaeresis-greek` -->
