@@ -251,6 +251,35 @@ See the __Spaces__ table above
   <kbd>i</kbd> і І  
 
 
+#### <kbd>🕱</kbd>`Typographical`
+
+  |Mod|<kbd>§</kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>|<kbd>⌫</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |        ⁠            	| ⏏|‽ | |№|¤| |‸|‽|⁂| |⁀|⹀| |  |
+  |<kbd>⇧</kbd>        ⁠	|   | | | | | |⎀| | | | |⸗| |  |
+  |<kbd>⌥</kbd>         	| | | | | | |⇞| | |↖|↘| | |⌦|
+
+  <kbd>⌥</kbd><kbd>⇧</kbd><kbd>6</kbd> ⁁
+
+  |Mod|<kbd>q</kbd>|<kbd>w</kbd>|<kbd>e</kbd>|<kbd>r</kbd>|<kbd>t</kbd>|<kbd>y</kbd>|<kbd>u</kbd>|<kbd>i</kbd>|<kbd>o</kbd>|<kbd>p</kbd>|<kbd>\[</kbd>|<kbd>\]</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |       ⁠             	| ⎋| |℮|⌑|†| | |☞| |‴| | |
+  |<kbd>⇧</kbd>        ⁠	|   | | | |‡| | | | |⁗| | |
+
+  |Mod|<kbd>a</kbd>|<kbd>s</kbd>|<kbd>d</kbd>|<kbd>f</kbd>|<kbd>g</kbd>|<kbd>h</kbd>|<kbd>j</kbd>|<kbd>k</kbd>|<kbd>l</kbd>|<kbd>;</kbd>|<kbd>\'</kbd>|<kbd>\\</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |        ⁠            	| |💀|º|❧|♀| | | | | | |↩|
+  |<kbd>⇧</kbd>        ⁠	|   |☠ |ª| |♂| | | | | | |↵|
+  |<kbd>⌥</kbd>         	| |🕱 | | |⚥| | | | | | |⏎|
+
+  <kbd>^</kbd><kbd>\\</kbd> ⌤
+
+  |Mod|<kbd>\`</kbd>|<kbd>z</kbd>|<kbd>x</kbd>|<kbd>c</kbd>|<kbd>v</kbd>|<kbd>b</kbd>|<kbd>n</kbd>|<kbd>m</kbd>|<kbd>,</kbd>|<kbd>.</kbd>|<kbd>/</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |    ⁠       	 |  | | |⌧| | | | |⟨ |⟩|⁒|
+  |<kbd>⌥</kbd>	|   | | |  |⇟| | | | | | |
+
+
 #### <kbd>🕱</kbd>`Math` (<kbd>🕱</kbd>π)
   Two ways to enter:
 
