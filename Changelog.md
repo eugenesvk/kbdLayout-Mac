@@ -28,85 +28,85 @@ All notable changes to this project will be documented in this file
         * <kbd>,</kbd> ⟩     Right Angle bracket
         * <kbd>8</kbd> ⁂    Asterism
         * <kbd>6</kbd> ‸     Caret
-        * ⌥<kbd>6</kbd> ⁁   Caret insertion point
-        * ⇧<kbd>6</kbd> ⎀   Insertion symbol
+        * <kbd>⌥</kbd><kbd>6</kbd> ⁁   Caret insertion point
+        * <kbd>⇧</kbd><kbd>6</kbd> ⎀   Insertion symbol
         * <kbd>/</kbd> ⁒     Commercial minus sign
         * <kbd>4</kbd> ¤     Currency sign
         * <kbd>t</kbd> †     Dagger
-        * ⇧<kbd>t</kbd> ‡   Double Dagger
+        * <kbd>⇧</kbd><kbd>t</kbd> ‡   Double Dagger
         * <kbd>-</kbd> ⹀     Double hyphen
-        * ⇧<kbd>-</kbd> ⸗   Double hyphen
+        * <kbd>⇧</kbd><kbd>-</kbd> ⸗   Double hyphen
         * <kbd>e</kbd> ℮     Estimated sign
         * <kbd>a</kbd>     Apple logo
         * <kbd>d</kbd> º     Masculine ordinal indicator
-        * ⇧<kbd>d</kbd> ª   Feminine ordinal indicator
+        * <kbd>⇧</kbd><kbd>d</kbd> ª   Feminine ordinal indicator
         * <kbd>f</kbd> ❧     Fleuron
         * <kbd>g</kbd> ♀     Gender symbol
-        * ⇧<kbd>g</kbd> ♂   Gender symbol
-        * ⌥<kbd>g</kbd> ⚥   Gender symbol
+        * <kbd>⇧</kbd><kbd>g</kbd> ♂   Gender symbol
+        * <kbd>⌥</kbd><kbd>g</kbd> ⚥   Gender symbol
         * <kbd>i</kbd> ☞     Index
         * <kbd>1</kbd>, <kbd>7</kbd> ‽ Interrobang
         * <kbd>3</kbd> №    Numero sign
         * <kbd>r</kbd> ⌑    Square lozenge
         * <kbd>p</kbd> ‴    Triple prime
-        * ⇧<kbd>p</kbd> ⁗  Quadruple prime
+        * <kbd>⇧</kbd><kbd>p</kbd> ⁗  Quadruple prime
         * <kbd>0</kbd> ⁀    Tie	
         * <kbd>s</kbd> 🕱    Skull
         * __Mac symbols__
         * <kbd>⌥</kbd><kbd>⌫</kbd> ⌦ Forward Delete
         * <kbd>q</kbd> ⎋    Escape, Esc
-        * ⌥<kbd>6</kbd> ⇞   Page Up, PgUp
-        * ⌥<kbd>v</kbd> ⇟   Page Down, PgDn
-        * ⌥<kbd>9</kbd> ↖   Home
-        * ⌥<kbd>0</kbd> ↘   End
+        * <kbd>⌥</kbd><kbd>6</kbd> ⇞   Page Up, PgUp
+        * <kbd>⌥</kbd><kbd>v</kbd> ⇟   Page Down, PgDn
+        * <kbd>⌥</kbd><kbd>9</kbd> ↖   Home
+        * <kbd>⌥</kbd><kbd>0</kbd> ↘   End
         * <kbd>c</kbd> ⌧    Clear
         * <kbd>\`</kbd> ⏏   Eject
-        *   <kbd>\</kbd> ↩ Return, Carriage Return
-        * ⇧<kbd>\</kbd> ↵ Return, Carriage Return
-        * ⌥<kbd>\</kbd> ⏎  Return, Carriage Return
-        * ^<kbd>\</kbd> ⌤  Enter
+        * <kbd>\</kbd> ↩ Return, Carriage Return
+        * <kbd>⇧</kbd><kbd>\</kbd> ↵ Return, Carriage Return
+        * <kbd>⌥</kbd><kbd>\</kbd> ⏎  Return, Carriage Return
+        * <kbd>^</kbd><kbd>\</kbd> ⌤  Enter
     + :sparkles: `ru` <kbd>🕱</kbd>`Typographical` and mapped it to <kbd>⌥</kbd><kbd>г</kbd>, pressing it enables the following:
         * <kbd>б</kbd> ⟨   Left Angle bracket
         * <kbd>ю</kbd> ⟩   Right Angle bracket
         * <kbd>8</kbd> ⁂  Asterism
         * <kbd>6</kbd> ‸   Caret
-        * ⌥<kbd>6</kbd> ⁁  Caret insertion point
-        * ⇧<kbd>6</kbd> ⎀  Insertion symbol
+        * <kbd>⌥</kbd><kbd>6</kbd> ⁁  Caret insertion point
+        * <kbd>⇧</kbd><kbd>6</kbd> ⎀  Insertion symbol
         * <kbd>/</kbd> ⁒   Commercial minus sign
         * <kbd>4</kbd> ¤   Currency sign
         * <kbd>е</kbd> †   Dagger
-        * ⇧<kbd>е</kbd> ‡  Double Dagger
+        * <kbd>⇧</kbd><kbd>е</kbd> ‡  Double Dagger
         * <kbd>-</kbd> ⹀   Double hyphen
-        * ⇧<kbd>-</kbd> ⸗  Double hyphen
+        * <kbd>⇧</kbd><kbd>-</kbd> ⸗  Double hyphen
         * <kbd>у</kbd> ℮   Estimated sign
         * <kbd>ф</kbd>    Apple logo
         * <kbd>в</kbd> º   Masculine ordinal indicator
-        * ⇧<kbd>в</kbd> ª  Feminine ordinal indicator
+        * <kbd>⇧</kbd><kbd>в</kbd> ª  Feminine ordinal indicator
         * <kbd>а</kbd> ❧   Fleuron
         * <kbd>п</kbd> ♀   Gender symbol
-        * ⇧<kbd>п</kbd> ♂  Gender symbol
-        * ⌥<kbd>п</kbd> ⚥  Gender symbol
+        * <kbd>⇧</kbd><kbd>п</kbd> ♂  Gender symbol
+        * <kbd>⌥</kbd><kbd>п</kbd> ⚥  Gender symbol
         * <kbd>ш</kbd> ☞	Index
         * <kbd>1</kbd>, <kbd>7</kbd> ‽ Interrobang
         * <kbd>3</kbd> №  Numero sign
         * <kbd>к</kbd> ⌑  Square lozenge
         * <kbd>з</kbd> ‴  Triple prime
-        * ⇧<kbd>з</kbd> ⁗ Quadruple prime
+        * <kbd>⇧</kbd><kbd>з</kbd> ⁗ Quadruple prime
         * <kbd>0</kbd> ⁀  Tie	
         * <kbd>ы</kbd> 🕱  skull
         * __Mac symbols__
         * <kbd>⌥</kbd><kbd>⌫</kbd> ⌦	Forward Delete
-        * <kbd>й</kbd> ⎋  	Escape, Esc
-        * ⌥<kbd>6</kbd> ⇞ 	Page Up, PgUp
-        * ⌥<kbd>м</kbd> ⇟ 	Page Down, PgDn
-        * ⌥<kbd>9</kbd> ↖ 	Home
-        * ⌥<kbd>0</kbd> ↘ 	End
-        * <kbd>с</kbd> ⌧  	Clear
-        * <kbd>></kbd> ⏏  	Eject
-        *   <kbd>ё</kbd> ↩	Return, Carriage Return
-        * ⇧<kbd>ё</kbd> ↵ 	Return, Carriage Return
-        * ⌥<kbd>ё</kbd> ⏎ 	Return, Carriage Return
-        * ^<kbd>ё</kbd> ⌤ 	Enter
+        * <kbd>й</kbd> ⎋            	Escape, Esc
+        * <kbd>⌥</kbd><kbd>6</kbd> ⇞	Page Up, PgUp
+        * <kbd>⌥</kbd><kbd>м</kbd> ⇟	Page Down, PgDn
+        * <kbd>⌥</kbd><kbd>9</kbd> ↖	Home
+        * <kbd>⌥</kbd><kbd>0</kbd> ↘	End
+        * <kbd>с</kbd> ⌧            	Clear
+        * <kbd>></kbd> ⏏            	Eject
+        * <kbd>ё</kbd> ↩            	Return, Carriage Return
+        * <kbd>⇧</kbd><kbd>ё</kbd> ↵	Return, Carriage Return
+        * <kbd>⌥</kbd><kbd>ё</kbd> ⏎	Return, Carriage Return
+        * <kbd>^</kbd><kbd>ё</kbd> ⌤	Enter
     + :sparkles: `en` `ru` diacritics <kbd>🕱</kbd>s to <kbd>^</kbd><kbd>§</kbd>–<kbd>=</kbd>:
         * <kbd>^</kbd><kbd>§</kbd> → <kbd>🕱</kbd>`grave`
         * <kbd>^</kbd><kbd>1</kbd> → <kbd>🕱</kbd>`acute`
@@ -134,8 +134,8 @@ All notable changes to this project will be documented in this file
     + `ru` yen ¥ to <kbd>⌥</kbd><kbd>н</kbd>
     + `en` `ru` map `⇤` to <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd><kbd>⇥</kbd>
     + `en` `ru` map `⌫` to <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd><kbd>⌫</kbd>
-    + `ru` combining diacritics to each invoking key+number (and <kbd>^</kbd>+key+number) without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>ж</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd>, but not <kbd>ж</kbd> since it produces `ӝ` (the previous keybind of ⌥⇧<kbd>ж</kbd> continues to work)
-    + `en` combining diacritics to each invoking key+number (and <kbd>^</kbd>+key+number) without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>;</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd> or <kbd>;</kbd>  since both are free of any letters with diaeresis (the previous keybind of ⌥⇧<kbd>;</kbd> continues to work)
+    + `ru` combining diacritics to each invoking key+number (and <kbd>^</kbd>+key+number) without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>ж</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd>, but not <kbd>ж</kbd> since it produces `ӝ` (the previous keybind of <kbd>⌥</kbd><kbd>⇧</kbd><kbd>ж</kbd> continues to work)
+    + `en` combining diacritics to each invoking key+number (and <kbd>^</kbd>+key+number) without modifiers if they're free: for example, entering the <kbd>🕱</kbd>`diaeresis` via <kbd>3</kbd> or <kbd>;</kbd> you can insert a ̈ combining diaeresis via <kbd>3</kbd> or <kbd>;</kbd>  since both are free of any letters with diaeresis (the previous keybind of <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> continues to work)
     + `en` `ru`   ̋ (combining double acute) to <kbd>2</kbd> (in <kbd>🕱</kbd>`acute`)
     + `en` `ru` ́ (combining acute) to <kbd>/</kbd> (in addition to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd>), and <kbd>\'</kbd> or <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd> (in <kbd>🕱</kbd>`acute`)
         * <kbd>/</kbd>, <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ́ (combining acute)
@@ -228,7 +228,7 @@ All notable changes to this project will be documented in this file
         * <kbd>ё</kbd> ⟂
         * <kbd>б</kbd> ≤
         * <kbd>ю</kbd> ≥
-        * (same with ⇧)
+        * (same with <kbd>⇧</kbd>)
     + :sparkles: `ru` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>ё</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>ю</kbd> ↦
         * <kbd>⌥</kbd><kbd>0</kbd> ⟼
@@ -332,7 +332,7 @@ All notable changes to this project will be documented in this file
         * <kbd>\</kbd> ⟂
         * <kbd>,</kbd> ≤
         * <kbd>.</kbd> ≥
-        * (same with ⇧)
+        * (same with <kbd>⇧</kbd>)
     + :sparkles: `en` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>\</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>.</kbd> ↦
         * <kbd>⌥</kbd><kbd>0</kbd> ⟼
