@@ -52,34 +52,6 @@ How to find how to insert a symbol?
 
 
 ### Details on various keybinds
-<details>
-<summary>Full list of various __spaces__ and how to enter them</summary>
-  Two ways to enter:
-
-  1. with the modifier(s) in the `Co` `m` `b` `o` columns + <kbd>␠</kbd> for a given space symbol <br>
-    (`¦` are included to indicate space width)
-  2. by entering <kbd>🕱</kbd>`space` via <kbd>^</kbd><kbd>␠</kbd> and pressing a single key in the <kbd>🕱</kbd>+ column <br>
-    (Russian equivalent of the English keys work, but not the other way around)
-
-  | Key	| Name           	| U+…  	|1:|     Co   	|     m      	|      b     	|     o      	|2:|           <kbd>🕱</kbd>+               	| Set[^1]    	|
-  | :--	| :----------    	| :----	|| :---------:	| :---------:	| :---------:	| :---------:	|| :---------------------------------------	| ----------:	|
-  |¦ ¦ 	| no-break       	| 20A0 	||            	|            	|<kbd>⌥</kbd>	|            	||<kbd>␠</kbd>                             	|   3        	|
-  |¦⁠¦ 	| word joiner    	| 2060 	||            	|            	|            	|            	||<kbd>j</kbd>                             	|   0        	|
-  |¦​¦ 	| zero-width     	| 200B 	||<kbd>⇧</kbd>	|            	|<kbd>⌥</kbd>	|            	||<kbd>z</kbd>, <kbd>0</kbd>               	|   4        	|
-  |¦ ¦ 	| hair           	| 200A 	||            	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|            	||<kbd>h</kbd>,       <kbd>в</kbd>         	| __11 (12)__	|
-  |¦ ¦ 	| thin           	| 2009 	||            	|            	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>t</kbd>                             	|   6        	|
-  |¦ ¦ 	| narrow no-break	| 202F 	||            	|            	|            	|            	||<kbd>b</kbd>                             	|   0        	|
-  |¦ ¦ 	| punctuation    	| 2008 	||<kbd>⇧</kbd>	|<kbd>^</kbd>	|            	|            	||<kbd>p</kbd>, <kbd>.</kbd>, <kbd>п</kbd> 	| __10 (11)__	|
-  |¦ ¦ 	| figure         	| 2007 	||<kbd>⇧</kbd>	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|            	||<kbd>f</kbd>,       <kbd>ф</kbd>         	| __12 (13)__	|
-  |¦ ¦ 	| en             	| 2002 	||<kbd>⇧</kbd>	|            	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>n</kbd>,       <kbd>н</kbd>         	|   8        	|
-  |¦ ¦ 	| em             	| 2003 	||            	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>m</kbd>,       <kbd>м</kbd>         	| __13 (14)__	|
-  | ␣  	| open box       	| 2423 	||            	|            	|            	|            	||<kbd>u</kbd>,       <kbd>у</kbd>         	|   0        	|
-  | ␠  	| symbol for     	| 2420 	||            	|            	|            	|            	||<kbd>s</kbd>,       <kbd>с</kbd>         	|   0        	|
-  | ‑  	| no-break hyphen	| 2011 	||            	|            	|            	|            	||<kbd>s</kbd>                             	|   0        	|
-
-</details>
-[^1]: Modifier set (Russian in parentheses if different); numbers in __bold__ were converted from set `7` that included all modifiers containing <kbd>^</kbd><br>
-
  
 <details>
 <summary>Full list of various __Math__ symbols and how to enter them</summary>

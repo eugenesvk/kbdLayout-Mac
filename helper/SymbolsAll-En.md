@@ -146,6 +146,28 @@
 
 </details><br>
 
+##### __Spaces__
+  Two ways to enter:
+
+  1. with the modifier(s) in the `Co` `m` `b` `o` columns + <kbd>␠</kbd> for a given space symbol <br>
+    (`¦` are included to indicate space width)
+  2. by entering <kbd>🕱</kbd>`space` via <kbd>^</kbd><kbd>␠</kbd> and pressing a single key in the <kbd>🕱</kbd>+ column
+
+  | Key	| Name           	| U+…  	|1:|     Co   	|     m      	|      b     	|     o      	|2:|      <kbd>🕱</kbd>+      	|
+  | :--	| :----------    	| :----	|| :---------:	| :---------:	| :---------:	| :---------:	|| :-------------------------	|
+  |¦ ¦ 	| no-break       	| 20A0 	||            	|            	|<kbd>⌥</kbd>	|            	||<kbd>␠</kbd>               	|
+  |¦⁠¦ 	| word joiner    	| 2060 	||            	|            	|            	|            	||<kbd>j</kbd>               	|
+  |¦​¦ 	| zero-width     	| 200B 	||<kbd>⇧</kbd>	|            	|<kbd>⌥</kbd>	|            	||<kbd>z</kbd>, <kbd>0</kbd> 	|
+  |¦ ¦ 	| hair           	| 200A 	||            	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|            	||<kbd>h</kbd>               	|
+  |¦ ¦ 	| thin           	| 2009 	||            	|            	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>t</kbd>               	|
+  |¦ ¦ 	| narrow no-break	| 202F 	||            	|            	|            	|            	||<kbd>b</kbd>               	|
+  |¦ ¦ 	| punctuation    	| 2008 	||<kbd>⇧</kbd>	|<kbd>^</kbd>	|            	|            	||<kbd>p</kbd>, <kbd>.</kbd> 	|
+  |¦ ¦ 	| figure         	| 2007 	||<kbd>⇧</kbd>	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|            	||<kbd>f</kbd>               	|
+  |¦ ¦ 	| en             	| 2002 	||<kbd>⇧</kbd>	|            	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>n</kbd>               	|
+  |¦ ¦ 	| em             	| 2003 	||            	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>m</kbd>               	|
+  | ␣  	| open box       	| 2423 	||            	|            	|            	|            	||<kbd>u</kbd>               	|
+  | ␠  	| symbol for     	| 2420 	||            	|            	|            	|            	||<kbd>s</kbd>               	|
+  | ‑  	| no-break hyphen	| 2011 	||            	|            	|            	|            	||<kbd>s</kbd>               	|
 
 
 ### English — TypES: 🕱 dead keys

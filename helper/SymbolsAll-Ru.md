@@ -148,6 +148,28 @@
 
 </details><br>
 
+##### __Spaces__
+  Two ways to enter:
+
+  1. with the modifier(s) in the `Co` `m` `b` `o` columns + <kbd>␠</kbd> for a given space symbol <br>
+    (`¦` are included to indicate space width)
+  2. by entering <kbd>🕱</kbd>`space` via <kbd>^</kbd><kbd>␠</kbd> and pressing a single key in the <kbd>🕱</kbd>+ column
+
+  | Key	| Name           	| U+…  	|1:|     Co   	|     m      	|      b     	|     o      	|2:|           <kbd>🕱</kbd>+               	|
+  | :--	| :----------    	| :----	|| :---------:	| :---------:	| :---------:	| :---------:	|| :---------------------------------------	|
+  |¦ ¦ 	| no-break       	| 20A0 	||            	|            	|<kbd>⌥</kbd>	|            	||<kbd>␠</kbd>                             	|
+  |¦⁠¦ 	| word joiner    	| 2060 	||            	|            	|            	|            	||<kbd>о</kbd>                             	|
+  |¦​¦ 	| zero-width     	| 200B 	||<kbd>⇧</kbd>	|            	|<kbd>⌥</kbd>	|            	||<kbd>я</kbd>, <kbd>0</kbd>               	|
+  |¦ ¦ 	| hair           	| 200A 	||            	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|            	||<kbd>р</kbd>, <kbd>в</kbd>               	|
+  |¦ ¦ 	| thin           	| 2009 	||            	|            	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>е</kbd>                             	|
+  |¦ ¦ 	| narrow no-break	| 202F 	||            	|            	|            	|            	||<kbd>и</kbd>                             	|
+  |¦ ¦ 	| punctuation    	| 2008 	||<kbd>⇧</kbd>	|<kbd>^</kbd>	|            	|            	||<kbd>з</kbd>, <kbd>ю</kbd>, <kbd>п</kbd> 	|
+  |¦ ¦ 	| figure         	| 2007 	||<kbd>⇧</kbd>	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|            	||<kbd>а</kbd>, <kbd>ф</kbd>               	|
+  |¦ ¦ 	| en             	| 2002 	||<kbd>⇧</kbd>	|            	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>т</kbd>, <kbd>н</kbd>               	|
+  |¦ ¦ 	| em             	| 2003 	||            	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>ь</kbd>, <kbd>м</kbd>               	|
+  | ␣  	| open box       	| 2423 	||            	|            	|            	|            	||<kbd>г</kbd>, <kbd>у</kbd>               	|
+  | ␠  	| symbol for     	| 2420 	||            	|            	|            	|            	||<kbd>ы</kbd>, <kbd>с</kbd>               	|
+  | ‑  	| no-break hyphen	| 2011 	||            	|            	|            	|            	||<kbd>ы</kbd>                             	|
 
 ### Russian — TypES: 🕱 dead keys
 
