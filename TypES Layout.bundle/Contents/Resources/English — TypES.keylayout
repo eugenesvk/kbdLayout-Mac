@@ -3214,7 +3214,7 @@
         <when state="Greek" output="ε"/>
         <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
-        <when state="Typographical" output="❧"/>
+        <when state="Typographical" output="⎀"/>
         <when state="acute" output="´"/>
         <when state="acute+dot-above" output="◌́̇"/>
         <when state="breve" output="˘"/>
