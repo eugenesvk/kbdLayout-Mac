@@ -1947,6 +1947,7 @@
         </action>
         <action id="-^">
             <when state="none" next="dot-below"/>
+            <when state="dot-below" output="̣"/>
         </action>
         <action id=".">
             <when state="none" output="."/>
@@ -1979,6 +1980,7 @@
         </action>
         <action id="0^">
             <when state="none" next="caron"/>
+            <when state="caron" output="̌"/>
         </action>
         <action id="1">
             <when state="none" output="1"/>
@@ -1991,6 +1993,7 @@
         </action>
         <action id="1^">
             <when state="none" next="acute"/>
+            <when state="acute" output="́"/>
         </action>
         <action id="2">
             <when state="none" output="2"/>
@@ -2000,6 +2003,8 @@
         </action>
         <action id="2^">
             <when state="none" next="grave"/>
+            <when state="acute" output="̋"/>
+            <when state="grave" output="̀"/>
         </action>
         <action id="3">
             <when state="none" output="3"/>
@@ -2009,6 +2014,7 @@
         </action>
         <action id="3^">
             <when state="none" next="diaeresis"/>
+            <when state="diaeresis" output="̈"/>
         </action>
         <action id="4">
             <when state="none" output="4"/>
@@ -2018,6 +2024,7 @@
         </action>
         <action id="4^">
             <when state="none" next="tilde"/>
+            <when state="tilde" output="̃"/>
         </action>
         <action id="5">
             <when state="none" output="5"/>
@@ -2026,6 +2033,7 @@
         </action>
         <action id="5^">
             <when state="none" next="macron"/>
+            <when state="macron" output="̄"/>
         </action>
         <action id="6">
             <when state="none" output="6"/>
@@ -2036,6 +2044,7 @@
         </action>
         <action id="6^">
             <when state="none" next="circumflex"/>
+            <when state="circumflex" output="̂"/>
         </action>
         <action id="7">
             <when state="none" output="7"/>
@@ -2045,6 +2054,7 @@
         </action>
         <action id="7^">
             <when state="none" next="ring"/>
+            <when state="ring" output="̊"/>
         </action>
         <action id="8">
             <when state="none" output="8"/>
@@ -2056,6 +2066,7 @@
         </action>
         <action id="8^">
             <when state="none" next="dot-above"/>
+            <when state="dot-above" output="̇"/>
         </action>
         <action id="9">
             <when state="none" output="9"/>
@@ -2066,6 +2077,7 @@
         </action>
         <action id="9^">
             <when state="none" next="breve"/>
+            <when state="breve" output="̆"/>
         </action>
         <action id=":">
             <when state="none" output=":"/>
@@ -2091,6 +2103,7 @@
         </action>
         <action id="=^">
             <when state="none" next="cedilla"/>
+            <when state="cedilla" output="̧"/>
         </action>
         <action id="&#x003E;">
             <when state="none" output="&#x003E;"/>
@@ -2838,6 +2851,7 @@
         </action>
         <action id="ё^">
             <when state="none" next="grave"/>
+            <when state="grave" output="̀"/>
         </action>
         <action id="і">
             <when state="none" next="Diacritics"/>
