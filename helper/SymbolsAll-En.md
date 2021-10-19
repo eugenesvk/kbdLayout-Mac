@@ -234,6 +234,16 @@ See the __Spaces__ table above
 </details>
 
 
+#### <kbd>🕱</kbd>`Copyright`
+  <kbd>r</kbd> ®  
+  <kbd>t</kbd> ™  
+  <kbd>o</kbd> (ɔ)  
+  <kbd>p</kbd> ℗  
+  <kbd>s</kbd> ℠  
+  <kbd>l</kbd> 🄯  
+  <kbd>c</kbd> ©  
+
+
 #### <kbd>🕱</kbd>`Math` (<kbd>🕱</kbd>π)
   Two ways to enter:
 
