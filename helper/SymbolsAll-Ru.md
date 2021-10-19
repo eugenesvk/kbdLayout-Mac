@@ -176,6 +176,43 @@
 #### <kbd>🕱</kbd>`space`
 See the __Spaces__ table above
 
+#### <kbd>🕱</kbd>`Diacritics`
+
+  Combining diacritics can be inserted once inside a given diacritic <kbd>🕱</kbd> by pressing either the:
+
+  1. invoking number: <kbd>и</kbd>, <kbd>^</kbd><kbd>5</kbd>, <kbd>5</kbd> insert ӣ
+  2. same key combo: <kbd>и</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>щ</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>щ</kbd> to insert ӣ
+  3. same key (if this key doesn't support this specific diacritic): <kbd>и</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>щ</kbd>, <kbd>щ</kbd> to insert ӣ (since __щ__ doesn't support __щ̄__)
+
+  |Row|<kbd>></kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |<kbd>></kbd>–<kbd>=</kbd>	|            ◌̀|            ◌́|◌̀|◌̈|            ◌̃|◌̄|            ◌̂|            ◌̊|            ◌̇  |            ◌̆|            ◌̌|◌̣|◌̧|
+  |<kbd>й</kbd>–<kbd>ъ</kbd>	|             |<kbd>й</kbd>◌̆| | |<kbd>к</kbd>◌̊| |             |<kbd>г</kbd>◌̣|<kbd>ш</kbd>◌̇  |<kbd>щ</kbd>◌̄|             | | |
+  |<kbd>ф</kbd>–<kbd>ё</kbd>	|             |             | | |             | |<kbd>р</kbd>◌̋|             |<kbd>л</kbd>   ⃣|             |<kbd>ж</kbd>◌̈| | |
+  |<kbd>я</kbd>–<kbd>/</kbd>	|<kbd>]</kbd>◌̀|<kbd>я</kbd>◌̧| | |<kbd>м</kbd>◌̌| |<kbd>т</kbd>◌̃|             |               |             |<kbd>/</kbd>◌́|
+
+  |    Diacritic              	| Symbols    |
+  | :-------------------------	| :--------- |
+  |   __Regular__             	|     |
+  | ◌̀ `grave`                	| Ѐѐ Ѝѝ  `  ̀ |
+  | ◌́ `acute`                	| Ѓѓ Ќќ  ´ ́ |
+  | ◌̈ `diaeresis`            	| Ӓӓ Ёё Ӝӝ Ӟӟ Ӥӥ Ӧӧ Ӭӭ Ӱÿ Ӵӵ Ӹӹ Ӛӛ Їï ¨ ̈ |
+  | ◌̄ `macron`               	| Ӣӣ Ӯӯ ¯ ̄  |
+  | ◌̆ `breve`                	| Ӑӑ Ӗӗ Ӂӂ Йй Ўў ˘ ̆  |
+
+  ◌̃ `tilde`
+  ◌̂ `circumflex`
+  ◌̊ `ring`
+  ◌̇ `dot-above`
+  ◌̆ `breve`
+  ◌̌ `caron`
+  ◌̣ `dot-below`
+  ◌̧ `cedilla`
+
+  ◌̋ `double-acute`
+  ⃣   Combining Enclosing Keycap
+
+
 #### <kbd>🕱</kbd>`Math` (<kbd>🕱</kbd>π)
   Two ways to enter:
 
