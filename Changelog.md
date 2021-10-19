@@ -28,7 +28,7 @@ All notable changes to this project will be documented in this file
         * <kbd>,</kbd> ⟩     Right Angle bracket
         * <kbd>8</kbd> ⁂    Asterism
         * <kbd>6</kbd> ‸     Caret
-        * <kbd>⌥</kbd><kbd>6</kbd> ⁁   Caret insertion point
+        * <kbd>⇧</kbd><kbd>⌥</kbd><kbd>6</kbd> ⁁  Caret insertion point
         * <kbd>⇧</kbd><kbd>6</kbd> ⎀   Insertion symbol
         * <kbd>/</kbd> ⁒     Commercial minus sign
         * <kbd>4</kbd> ¤     Currency sign
@@ -37,7 +37,6 @@ All notable changes to this project will be documented in this file
         * <kbd>-</kbd> ⹀     Double hyphen
         * <kbd>⇧</kbd><kbd>-</kbd> ⸗   Double hyphen
         * <kbd>e</kbd> ℮     Estimated sign
-        * <kbd>a</kbd>     Apple logo
         * <kbd>d</kbd> º     Masculine ordinal indicator
         * <kbd>⇧</kbd><kbd>d</kbd> ª   Feminine ordinal indicator
         * <kbd>f</kbd> ❧     Fleuron
@@ -53,6 +52,7 @@ All notable changes to this project will be documented in this file
         * <kbd>0</kbd> ⁀    Tie	
         * <kbd>s</kbd> 🕱    Skull
         * __Mac symbols__
+        * <kbd>a</kbd>     Apple logo
         * <kbd>⌥</kbd><kbd>⌫</kbd> ⌦ Forward Delete
         * <kbd>q</kbd> ⎋    Escape, Esc
         * <kbd>⌥</kbd><kbd>6</kbd> ⇞   Page Up, PgUp
@@ -70,7 +70,7 @@ All notable changes to this project will be documented in this file
         * <kbd>ю</kbd> ⟩   Right Angle bracket
         * <kbd>8</kbd> ⁂  Asterism
         * <kbd>6</kbd> ‸   Caret
-        * <kbd>⌥</kbd><kbd>6</kbd> ⁁  Caret insertion point
+        * <kbd>⇧</kbd><kbd>⌥</kbd><kbd>6</kbd> ⁁  Caret insertion point
         * <kbd>⇧</kbd><kbd>6</kbd> ⎀  Insertion symbol
         * <kbd>/</kbd> ⁒   Commercial minus sign
         * <kbd>4</kbd> ¤   Currency sign
@@ -79,7 +79,6 @@ All notable changes to this project will be documented in this file
         * <kbd>-</kbd> ⹀   Double hyphen
         * <kbd>⇧</kbd><kbd>-</kbd> ⸗  Double hyphen
         * <kbd>у</kbd> ℮   Estimated sign
-        * <kbd>ф</kbd>    Apple logo
         * <kbd>в</kbd> º   Masculine ordinal indicator
         * <kbd>⇧</kbd><kbd>в</kbd> ª  Feminine ordinal indicator
         * <kbd>а</kbd> ❧   Fleuron
@@ -95,6 +94,7 @@ All notable changes to this project will be documented in this file
         * <kbd>0</kbd> ⁀  Tie	
         * <kbd>ы</kbd> 🕱  skull
         * __Mac symbols__
+        * <kbd>ф</kbd>    Apple logo
         * <kbd>⌥</kbd><kbd>⌫</kbd> ⌦	Forward Delete
         * <kbd>й</kbd> ⎋            	Escape, Esc
         * <kbd>⌥</kbd><kbd>6</kbd> ⇞	Page Up, PgUp
