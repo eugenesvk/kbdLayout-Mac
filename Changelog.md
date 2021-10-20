@@ -152,6 +152,7 @@ All notable changes to this project will be documented in this file
     + `en` `ru` map combining enclosing keycap    ⃣    to <kbd>k</kbd> / <kbd>л</kbd> (in <kbd>🕱</kbd>`Diacritics`)
   - __Changed__
     + `en` `ru` <kbd>🕱</kbd>`Greek` :
+        * `π` at <kbd>⇧</kbd><kbd>g</kbd> to map 🕱`Greek` (`π` is available as a terminator for <kbd>🕱</kbd>`Math`)
         * copied `ω` to <kbd>w</kbd>, moved `ς` to <kbd>q</kbd>
         * copied `Ω` to <kbd>⇧</kbd><kbd>w</kbd>, moved <kbd>🕱</kbd>`greek-dialytika-tonos` to <kbd>⇧</kbd><kbd>q</kbd>
     + `en` `ru` `🙂` to `¦` at <kbd>⇧</kbd><kbd>⌥</kbd><kbd>\</kbd> / <kbd>ё</kbd>
