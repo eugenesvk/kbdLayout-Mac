@@ -230,6 +230,20 @@ See the __Spaces__ table above
   ⃣   Combining Enclosing Keycap
 
 
+#### <kbd>🕱</kbd>`Copyright`
+  <kbd>к</kbd> ®  
+  <kbd>е</kbd> ™  
+  <kbd>щ</kbd> (ɔ)  
+  <kbd>з</kbd> ℗  
+  <kbd>ы</kbd> ℠  
+  <kbd>п</kbd> ®  
+  <kbd>о</kbd> (ɔ)  
+  <kbd>л</kbd> 🄯  
+  <kbd>д</kbd> 🄯  
+  <kbd>с</kbd> ©  
+  <kbd>т</kbd> ™  
+
+
 #### <kbd>🕱</kbd>`Math` (<kbd>🕱</kbd>π)
   Two ways to enter:
 
