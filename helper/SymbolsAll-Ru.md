@@ -251,6 +251,35 @@ See the __Spaces__ table above
   <kbd>ш</kbd> і І  
 
 
+#### <kbd>🕱</kbd>`Typographical`
+
+  |Mod|<kbd>></kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>|<kbd>⌫</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |        ⁠            	| ⏏|‽ | |№|¤| |‸|‽|⁂| |⁀|⹀| |  |
+  |<kbd>⇧</kbd>        ⁠	|   | | | | | |⎀| | | | |⸗| |  |
+  |<kbd>⌥</kbd>         	| | | | | | |⇞| | |↖|↘| | |⌦|
+
+  <kbd>⌥</kbd><kbd>⇧</kbd><kbd>6</kbd> ⁁
+
+  |Mod|<kbd>й</kbd>|<kbd>ц</kbd>|<kbd>у</kbd>|<kbd>к</kbd>|<kbd>е</kbd>|<kbd>н</kbd>|<kbd>г</kbd>|<kbd>ш</kbd>|<kbd>щ</kbd>|<kbd>з</kbd>|<kbd>х</kbd>|<kbd>ъ</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |       ⁠             	| ⎋| |℮|⌑|†| | |☞| |‴| | |
+  |<kbd>⇧</kbd>        ⁠	|   | | | |‡| | | | |⁗| | |
+
+  |Mod|<kbd>ф</kbd>|<kbd>ы</kbd>|<kbd>в</kbd>|<kbd>а</kbd>|<kbd>п</kbd>|<kbd>р</kbd>|<kbd>о</kbd>|<kbd>л</kbd>|<kbd>д</kbd>|<kbd>ж</kbd>|<kbd>э</kbd>|<kbd>ё</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |        ⁠            	| |💀|º|❧|♀| | | | | | |↩|
+  |<kbd>⇧</kbd>        ⁠	|   |☠ |ª| |♂| | | | | | |↵|
+  |<kbd>⌥</kbd>         	| |🕱 | | |⚥| | | | | | |⏎|
+
+  <kbd>^</kbd><kbd>\\</kbd> ⌤
+
+  |Mod|<kbd>]</kbd>|<kbd>я</kbd>|<kbd>ч</kbd>|<kbd>с</kbd>|<kbd>м</kbd>|<kbd>и</kbd>|<kbd>т</kbd>|<kbd>ь</kbd>|<kbd>б</kbd>|<kbd>ю</kbd>|<kbd>/</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |    ⁠       	 |  | | |⌧| | | | |⟨ |⟩|⁒|
+  |<kbd>⌥</kbd>	|   | | |  |⇟| | | | | | |
+
+
 #### <kbd>🕱</kbd>`Math` (<kbd>🕱</kbd>π)
   Two ways to enter:
 
