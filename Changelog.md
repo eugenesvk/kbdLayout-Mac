@@ -50,7 +50,9 @@ All notable changes to this project will be documented in this file
         * <kbd>p</kbd> ‴    Triple prime
         * <kbd>⇧</kbd><kbd>p</kbd> ⁗  Quadruple prime
         * <kbd>0</kbd> ⁀    Tie	
-        * <kbd>s</kbd> 🕱    Skull
+        * <kbd>s</kbd> 💀   Skull
+        * <kbd>⇧</kbd><kbd>s</kbd> ☠    Skull and Crossbones
+        * <kbd>⌥</kbd><kbd>s</kbd> 🕱    Black Skull And Crossbones
         * __Mac symbols__
         * <kbd>a</kbd>     Apple logo
         * <kbd>⌥</kbd><kbd>⌫</kbd> ⌦ Forward Delete
@@ -153,6 +155,8 @@ All notable changes to this project will be documented in this file
         * copied `ω` to <kbd>w</kbd>, moved `ς` to <kbd>q</kbd>
         * copied `Ω` to <kbd>⇧</kbd><kbd>w</kbd>, moved <kbd>🕱</kbd>`greek-dialytika-tonos` to <kbd>⇧</kbd><kbd>q</kbd>
     + `en` `ru` `🙂` to `¦` at <kbd>⇧</kbd><kbd>⌥</kbd><kbd>\</kbd> / <kbd>ё</kbd>
+  - __Removed__
+    + `en`: "fake" double acute characters comprised of combining double acute (a̋e̋i̋m̋), left only single-character ones (őű)
 
   [0.9.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.9.0
 ## [0.9.0]
