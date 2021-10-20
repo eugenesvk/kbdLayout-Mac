@@ -188,10 +188,11 @@
   | ␠  	| symbol for     	| 2420 	||            	|            	|            	|            	||<kbd>ы</kbd>, <kbd>с</kbd>               	|
   | ‑  	| no-break hyphen	| 2011 	||            	|            	|            	|            	||<kbd>ы</kbd>                             	|
 
+
 ### Russian — TypES: 🕱 dead keys
 
 #### <kbd>🕱</kbd>`space`
-See the __Spaces__ table above
+  See the __Spaces__ table above
 
 #### <kbd>🕱</kbd>`Diacritics`
 
