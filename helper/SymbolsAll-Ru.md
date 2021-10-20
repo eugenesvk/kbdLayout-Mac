@@ -244,6 +244,13 @@ See the __Spaces__ table above
   <kbd>т</kbd> ™  
 
 
+#### <kbd>🕱</kbd>`OldCyrillic`
+  <kbd>й</kbd> ѳ Ѳ  
+  <kbd>у</kbd> ѣ Ѣ  
+  <kbd>г</kbd> ѵ Ѵ  
+  <kbd>ш</kbd> і І  
+
+
 #### <kbd>🕱</kbd>`Math` (<kbd>🕱</kbd>π)
   Two ways to enter:
 
