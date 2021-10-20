@@ -194,6 +194,7 @@
 #### <kbd>🕱</kbd>`space`
   See the __Spaces__ table above
 
+
 #### <kbd>🕱</kbd>`Diacritics`
 
   Combining diacritics can be inserted once inside a given diacritic <kbd>🕱</kbd> by pressing either the:
