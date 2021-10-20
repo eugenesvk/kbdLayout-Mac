@@ -1887,7 +1887,6 @@
             <when state="diaeresis" output="ë"/>
             <when state="dot-above" output="ė"/>
             <when state="dot-below" output="ẹ"/>
-            <when state="double-acute" output="e̋"/>
             <when state="grave" output="è"/>
             <when state="greek-tonos" output="έ"/>
             <when state="hook-above" output="ẻ"/>
@@ -1911,7 +1910,6 @@
             <when state="diaeresis" output="ï"/>
             <when state="diaeresis-greek" output="ϊ"/>
             <when state="dot-above" output="̇"/>
-            <when state="double-acute" output="i̋"/>
             <when state="grave" output="ì"/>
             <when state="greek-dialytika-tonos" output="ΐ"/>
             <when state="greek-tonos" output="ί"/>
@@ -2154,7 +2152,6 @@
             <when state="dot-above" output="Ȧ"/>
             <when state="dot-above+macron" output="Ǡ"/>
             <when state="dot-below" output="Ạ"/>
-            <when state="double-acute" output="A̋"/>
             <when state="grave" output="À"/>
             <when state="greek-tonos" output="Ά"/>
             <when state="hook-above" output="Ả"/>
@@ -2215,7 +2212,6 @@
             <when state="diaeresis" output="Ë"/>
             <when state="dot-above" output="Ė"/>
             <when state="dot-below" output="Ẹ"/>
-            <when state="double-acute" output="E̋"/>
             <when state="grave" output="È"/>
             <when state="greek-tonos" output="Έ"/>
             <when state="hook-above" output="Ẻ"/>
@@ -2263,7 +2259,6 @@
             <when state="diaeresis" output="Ï"/>
             <when state="diaeresis-greek" output="Ϊ"/>
             <when state="dot-above" output="İ"/>
-            <when state="double-acute" output="I̋"/>
             <when state="grave" output="Ì"/>
             <when state="greek-tonos" output="Ί"/>
             <when state="hook-above" output="Ỉ"/>
@@ -2298,7 +2293,6 @@
             <when state="acute" output="Ḿ"/>
             <when state="dot-above" output="Ṁ"/>
             <when state="dot-below" output="Ṃ"/>
-            <when state="double-acute" output="M̋"/>
         </action>
         <action id="N">
             <when state="none" output="N"/>
@@ -2567,7 +2561,6 @@
             <when state="dot-above" output="ȧ"/>
             <when state="dot-above+macron" output="ǡ"/>
             <when state="dot-below" output="ạ"/>
-            <when state="double-acute" output="a̋"/>
             <when state="grave" output="à"/>
             <when state="greek-tonos" output="ά"/>
             <when state="hook-above" output="ả"/>
@@ -2755,7 +2748,6 @@
             <when state="acute" output="ḿ"/>
             <when state="dot-above" output="ṁ"/>
             <when state="dot-below" output="ṃ"/>
-            <when state="double-acute" output="m̋"/>
             <when state="space" output=" "/>
         </action>
         <action id="m^">
