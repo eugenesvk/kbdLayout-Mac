@@ -189,7 +189,7 @@
 
 ### English — TypES: 🕱 dead keys
 
-#### <kbd>🕱</kbd> `space`
+#### <kbd>🕱</kbd>`space`
   See the __Spaces__ table above
 
 
