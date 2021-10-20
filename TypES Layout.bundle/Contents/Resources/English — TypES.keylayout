@@ -3059,7 +3059,7 @@
             <when state="Greek" output="·"/>
         </action>
         <action id="π">
-            <when state="none" output="π"/>
+            <when state="none" next="Greek"/>
             <when state="Greek" output="©"/>
             <when state="Typographical" output="⚥"/>
         </action>
