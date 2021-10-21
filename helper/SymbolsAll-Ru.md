@@ -282,8 +282,9 @@
   |<kbd>⌥</kbd>	|   | | |  |⇟| | | | | | |
 
 
-#### <kbd>🕱</kbd>`Math` (<kbd>🕱</kbd>π)
-  Two ways to enter:
+#### <kbd>🕱</kbd>`Math`
+
+  Two ways to enter <kbd>🕱</kbd>π:
 
   1. (in `Russian — Math`) with the key combination from the `C` `o` `mbo` columns
   2. (in `Russian — TypES`) by entering the <kbd>🕱</kbd>`Math` or <kbd>🕱</kbd>`Greek` and pressing the key combination from the `🕱` `C` `o` `mbo` columns<br>
@@ -456,7 +457,7 @@
 
 #### <kbd>🕱</kbd>`Greek` (<kbd>🕱</kbd>ε)
 
-  This is a copy of the `Greek` macOS layer (base, <kbd>⇧</kbd>, <kbd>⌥</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd>), including Greek diacritics (<kbd>🕱</kbd>`greek-tonos`, <kbd>🕱</kbd>`diaeresis-greek`, <kbd>🕱</kbd>`greek-dialytika-tonos`)
+  <kbd>🕱</kbd>ε is a copy of the `Greek` macOS layer (base, <kbd>⇧</kbd>, <kbd>⌥</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd>), including Greek diacritics (<kbd>🕱</kbd>`greek-tonos`, <kbd>🕱</kbd>`diaeresis-greek`, <kbd>🕱</kbd>`greek-dialytika-tonos`)
 
   |Mod|<kbd>></kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>|
   |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
