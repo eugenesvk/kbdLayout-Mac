@@ -8,6 +8,18 @@ title: "TypES Layout"
 <link rel=stylesheet type=text/css href=css/bootstrap.min.css media=screen>
 <link rel=stylesheet type=text/css href=css/kb.css>
 
+# Table of contents
+- [Combined Option, (Shift)-Option, and Control layers](#combined-option-shift-option-and-control-layers)
+    - [English](#english-types-shift-shift-option-and-control) / [Russian](#russian-types-shift-shift-option-and-control) <kbd>⇧</kbd> | <kbd>⌥</kbd> | <kbd>⇧</kbd><kbd>⌥</kbd> | <kbd>^</kbd> 
+- [Separate Option, Shift-Option, and Control layers](#separate-option-shift-option-and-control-layers)
+    - [English](#english-types-option) / [Russian](#russian-types-option) <kbd>⌥</kbd>
+    - [English](#english-types-shift-option) / [Russian](#russian-types-shift-option) <kbd>⇧</kbd><kbd>⌥</kbd> 
+    - [English](#english-types-control) / [Russian](#russian-types-control) <kbd>^</kbd> 
+- [Combined (Shift)-Control-Option layers](#combined-shift-control-option-layers)
+    - [English](#english-types-shift-control-option) / [Russian](#russian-types-shift-control-option) <kbd>^</kbd><kbd>⌥</kbd> | <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
+- [Dead keys](#dead-key-layers)
+    - [Greek](#greek-shift-and-shift-option)
+
 [List of all symbols](../helper/SymbolsAll_Names.md) with Unicode numbers and names (but without key combos)
 
 
