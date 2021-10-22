@@ -5,7 +5,7 @@ New layout with lowercase labels
 Select keys __by row__ English layout
 ```
 1st key row (§-0-=), then to select the end (not all lines have a trailing comma)
-    "[§0-9\-\=←]\\n
+\\n[§0-9\-\=←]"
 ("|",)$
 2nd key row (q-p[] and ⇥q-p[])
 \\n[qwertyuiop\[\]]"
