@@ -8,6 +8,7 @@ title: "TypES Layout"
 <link rel=stylesheet type=text/css href=css/bootstrap.min.css media=screen>
 <link rel=stylesheet type=text/css href=css/kb.css>
 
+[List of all symbols](../helper/SymbolsAll_Names.md) with Unicode numbers and names (but without key combos)
 
 
 #### Combined Option, (Shift)-Option, and Control layers
