@@ -1,5 +1,11 @@
 Regexes to parse `keyboard-layout.json`
 
+Math
+```
+(?>=\t\|[^<\n])*<br>(?=.*\t\|)
+  \t\|[^<\n]*<br>(?=.*\t\|)
+```
+
 <!-- json -->
 New layout with lowercase labels
 Select keys __by row__ English layout
