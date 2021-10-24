@@ -26,6 +26,15 @@
 		<key>TISIntendedLanguage</key>
 		<string>en-US</string>
 	</dict>
+	<key>KLInfo_Russian — Math</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<true/>
+		<key>TISInputSourceID</key>
+		<string>org.sil.ukelele.keyboardlayout.t.russian—math</string>
+		<key>TISIntendedLanguage</key>
+		<string>ru-Cyrl-RU</string>
+	</dict>
 	<key>KLInfo_Russian — TypES</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
