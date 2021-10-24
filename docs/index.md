@@ -119,7 +119,7 @@ title: "TypES Layout"
 
 #### <kbd>🕱</kbd> Dead key layers
 
-##### 🇬🇷 <kbd>🕱</kbd> Greek: Shift and (Shift)-Option
+##### 🇬🇷 <kbd>🕱</kbd>`Greek`: Shift and (Shift)-Option
 
 <div id=keyboard tabindex=0 style="display: inline-flex;">
   <div id=keyboard-bg ng-attr-style="height:{{kbHeight}}px; width:{{kbWidth}}px; background-color:{{keyboard.meta.backcolor}}; border-radius: {{keyboard.meta.radii || '6px'}}; {{keyboard.meta.background.style}}" style="height:275.994px;width:742.5px;background-color:#dbdbdb;border-radius:6px 6px 12px 12px / 18px 18px 12px 12px">
@@ -127,7 +127,7 @@ title: "TypES Layout"
   </div>
 </div>
 
-##### 🇬🇷 <kbd>🕱</kbd> Greek diacritics
+##### 🇬🇷 <kbd>🕱</kbd>`Greek` diacritics
 
 Top Left — Diaeresis; Top Right — Dialytika Tonos; Bottom Left — Tonos
 
