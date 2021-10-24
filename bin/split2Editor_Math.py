@@ -107,7 +107,7 @@ layout_title_pre = """
   {
     "backcolor": "#dbdbdb",
     "name": "TypES — """
-layout_title_post = """ ⇧¦⌥",
+layout_title_post = """ ⌥¦⇧⌥",
     "author": "github.com/eugenesvk/kbdLayout-Mac",
     "radii": "6px 6px 12px 12px / 18px 18px 12px 12px",
     "css": ""
