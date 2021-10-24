@@ -36,7 +36,8 @@ with easier access to various †ypogr⎀phical, mathem∀tiℂal, and Grεεk s
 - Open `System Preferences` → `Keyboard` → `Input Sources` → `+` to add:
     + `English — TypES`
     + `Russian — TypES`
-    + `English — Math` (though it is also embedded in the English/Russian layouts)
+    + `English — Math` (though it is also embedded in the English layout)
+    + `Russian — Math` (though it is also embedded in the Russian layout)
 
 ## Usage
 
@@ -137,10 +138,11 @@ For macOS `10.9` and later[^5]:
   - Backup then open `~/Library/Preferences/com.apple.HIToolbox.plist`
   - Remove the input source you want to disable from the `AppleEnabledInputSources` dictionary
   - Remove the `AppleDefaultAsciiInputSource` key if it exists
-  - Restart
+  - Reboot
 [^5]: from this [stackexchange comment](https://apple.stackexchange.com/questions/44921/how-to-remove-or-disable-a-default-keyboard-layout#60521)
 
-☞ Backspace <kbd>⌫</kbd> within dead keys inside <kbd>🕱</kbd>`Math` (e.g., <kbd>🕱</kbd>`math-`) returns to <kbd>🕱</kbd>`Math` instead of returning to the main layer, allowing for some error correction, for example:
+#### ☞ tip
+Backspace <kbd>⌫</kbd> within dead keys inside <kbd>🕱</kbd>`Math` (e.g., <kbd>🕱</kbd>`math-`) returns to <kbd>🕱</kbd>`Math` instead of returning to the main layer, allowing for some error correction, for example:
 
   - <kbd>⌥</kbd><kbd>t</kbd> Enter <kbd>🕱</kbd>`Math`
   - <kbd>-</kbd>     Mistakenly enter <kbd>🕱</kbd>`math-`

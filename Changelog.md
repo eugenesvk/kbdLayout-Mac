@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file
     <!-- vulnerabilities -->
 
   - __Added__
+    + :sparkles: `ru` `Russian — Math` layout
     + :sparkles: `en` <kbd>🕱</kbd>`Typographical` and mapped it to <kbd>⌥</kbd><kbd>u</kbd>, pressing it enables the following:
         * <kbd>,</kbd> ⟨     Left Angle bracket
         * <kbd>,</kbd> ⟩     Right Angle bracket
