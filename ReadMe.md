@@ -141,6 +141,24 @@ For macOS `10.9` and later[^5]:
   - Reboot
 [^5]: from this [stackexchange comment](https://apple.stackexchange.com/questions/44921/how-to-remove-or-disable-a-default-keyboard-layout#60521)
 
+#### Show a freely positioned 3-color layout indicator
+
+To free up a crammed menu bar you can hide the default language layout indicator and place a simplified 3-color indicator in any position on the screen, including the menu bar area not accessible to regular icons (e.g. left of the  Menu indicator). You can also show indicators for selected layouts only (e.g, hiding it for your default layout)
+
+For example, the settings file below places the following indicators in the top-right corner of a screen:<br>
+Russian — TypES <img src="./img/ShowyEdge Russian — TypES.png" alt="ShowyEdge Indicator Russian — TypES" width="25"/>
+, English — Math  <img src="./img/ShowyEdge English — Math.png" alt="ShowyEdge Indicator English — Math" width="25"/>
+, Russian — Math <img src="./img/ShowyEdge Russian — Math.png" alt="ShowyEdge Indicator Russian — Math" width="25"/>
+and nothing for the English — TypES
+
+To get it on your computer:
+
+  - Install [ShowyEdge](https://showyedge.pqrs.org)
+  - Backup `~/Library/Preferences/org.pqrs.ShowyEdge.plist`
+  - Copy this [settings file](./helper/ShowyEdge/org.pqrs.ShowyEdge.plist) to `~/Library/Preferences/`
+  - Reboot
+  - Open ShowyEdge and adjust the colors/position
+
 #### ☞ tip
 Backspace <kbd>⌫</kbd> within dead keys inside <kbd>🕱</kbd>`Math` (e.g., <kbd>🕱</kbd>`math-`) returns to <kbd>🕱</kbd>`Math` instead of returning to the main layer, allowing for some error correction, for example:
 
