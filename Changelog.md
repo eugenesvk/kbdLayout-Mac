@@ -64,10 +64,10 @@ All notable changes to this project will be documented in this file
         * <kbd>⌥</kbd><kbd>0</kbd> ↘   End
         * <kbd>c</kbd> ⌧    Clear
         * <kbd>\`</kbd> ⏏   Eject
-        * <kbd>\</kbd> ↩ Return, Carriage Return
-        * <kbd>⇧</kbd><kbd>\</kbd> ↵ Return, Carriage Return
-        * <kbd>⌥</kbd><kbd>\</kbd> ⏎  Return, Carriage Return
-        * <kbd>^</kbd><kbd>\</kbd> ⌤  Enter
+        * <kbd>\\</kbd> ↩ Return, Carriage Return
+        * <kbd>⇧</kbd><kbd>\\</kbd> ↵ Return, Carriage Return
+        * <kbd>⌥</kbd><kbd>\\</kbd> ⏎  Return, Carriage Return
+        * <kbd>^</kbd><kbd>\\</kbd> ⌤  Enter
     + :sparkles: `ru` <kbd>🕱</kbd>`Typographical` and mapped it to <kbd>⌥</kbd><kbd>г</kbd>, pressing it enables the following:
         * <kbd>б</kbd> ⟨   Left Angle bracket
         * <kbd>ю</kbd> ⟩   Right Angle bracket
@@ -206,7 +206,7 @@ All notable changes to this project will be documented in this file
         * `π` at <kbd>⇧</kbd><kbd>g</kbd> to map 🕱`Greek` (`π` is available as a terminator for <kbd>🕱</kbd>`Math`)
         * copied `ω` to <kbd>w</kbd>, moved `ς` to <kbd>q</kbd>
         * copied `Ω` to <kbd>⇧</kbd><kbd>w</kbd>, moved <kbd>🕱</kbd>`greek-dialytika-tonos` to <kbd>⇧</kbd><kbd>q</kbd>
-    + `en` `ru` `🙂` to `¦` at <kbd>⇧</kbd><kbd>⌥</kbd><kbd>\</kbd> / <kbd>ё</kbd>
+    + `en` `ru` `🙂` to `¦` at <kbd>⇧</kbd><kbd>⌥</kbd><kbd>\\</kbd> / <kbd>ё</kbd>
   - __Removed__
     + `en`: "fake" double acute characters comprised of combining double acute (a̋e̋i̋m̋), left only single-character ones (őű)
 
@@ -353,7 +353,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>/</kbd> ．
         * <kbd>⇧</kbd><kbd>,</kbd> ≤
         * <kbd>⇧</kbd><kbd>.</kbd> ≥
-        * <kbd>\</kbd> ∨
+        * <kbd>\\</kbd> ∨
         * <kbd>§</kbd>, <kbd>\`</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>z</kbd>)
     + :sparkles: `en` <kbd>🕱</kbd>`math/` and mapped it to <kbd>/</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>e</kbd> ∄
@@ -361,8 +361,8 @@ All notable changes to this project will be documented in this file
         * <kbd>\'</kbd> ∉
         * <kbd>0</kbd> ∅
         * (same with <kbd>⇧</kbd>)
-        * <kbd>\</kbd> ∧
-        * <kbd>⇧</kbd><kbd>\</kbd> ∤
+        * <kbd>\\</kbd> ∧
+        * <kbd>⇧</kbd><kbd>\\</kbd> ∤
     + :sparkles: `en` <kbd>🕱</kbd>`mathO` and mapped it to <kbd>o</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>.</kbd> ⊙
         * <kbd>/</kbd> ⊘
@@ -378,18 +378,18 @@ All notable changes to this project will be documented in this file
         * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟹
         * <kbd>=</kbd> ≡
         * <kbd>/</kbd> ≠
-        * <kbd>\</kbd> ⤇
-        * <kbd>⌥</kbd><kbd>\</kbd> ⟾
+        * <kbd>\\</kbd> ⤇
+        * <kbd>⌥</kbd><kbd>\\</kbd> ⟾
         * <kbd>,</kbd> ⇐
         * <kbd>.</kbd> ⇒
     + :sparkles: `en` <kbd>🕱</kbd>`math_` and mapped it to <kbd>⇧</kbd><kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>9</kbd> ⊆
         * <kbd>0</kbd> ⊇
-        * <kbd>\</kbd> ⟂
+        * <kbd>\\</kbd> ⟂
         * <kbd>,</kbd> ≤
         * <kbd>.</kbd> ≥
         * (same with <kbd>⇧</kbd>)
-    + :sparkles: `en` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>\</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + :sparkles: `en` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>\\</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>.</kbd> ↦
         * <kbd>⌥</kbd><kbd>0</kbd> ⟼
         * <kbd>0</kbd>, <kbd>⇧</kbd><kbd>0</kbd> ⤇
@@ -401,7 +401,7 @@ All notable changes to this project will be documented in this file
         * <kbd>[</kbd> ⟦
         * <kbd>]</kbd> ⟧
         * <kbd>⇧</kbd><kbd>.</kbd> ▷
-        * <kbd>\</kbd>, <kbd>⇧</kbd><kbd>\</kbd> ‖
+        * <kbd>\\</kbd>, <kbd>⇧</kbd><kbd>\\</kbd> ‖
     + :sparkles: `en` <kbd>🕱</kbd>`math‹` and mapped it to <kbd>,</kbd> or <kbd>⇧</kbd><kbd>,</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>⌥</kbd><kbd>9</kbd> ⟵
         * <kbd>0</kbd> ↔
@@ -413,7 +413,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>0</kbd> ⇔
         * <kbd>⇧</kbd><kbd>-</kbd> ≤
         * <kbd>⇧</kbd><kbd>=</kbd> ⇔
-        * <kbd>\</kbd>, <kbd>⇧</kbd><kbd>\</kbd> ◁
+        * <kbd>\\</kbd>, <kbd>⇧</kbd><kbd>\\</kbd> ◁
         * <kbd>,</kbd> ←
         * <kbd>.</kbd>, <kbd>⇧</kbd><kbd>.</kbd> ◇
         * <kbd>⌥</kbd><kbd>.</kbd> ⟺
@@ -437,7 +437,7 @@ All notable changes to this project will be documented in this file
     + :sparkles: `ru` default `Russian - PC` macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
     + :sparkles: `en` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
         * <kbd>1</kbd>, <kbd>/</kbd> → <kbd>🕱</kbd>`acute` (`´`)
-        * <kbd>2</kbd>, <kbd>\`</kbd>, <kbd>\</kbd> → <kbd>🕱</kbd>`grave` (`` ` ``)
+        * <kbd>2</kbd>, <kbd>\`</kbd>, <kbd>\\</kbd> → <kbd>🕱</kbd>`grave` (`` ` ``)
         * <kbd>3</kbd>, <kbd>;</kbd>  → <kbd>🕱</kbd>`diaeresis` (`¨`)
         * <kbd>4</kbd>, <kbd>n</kbd>  → <kbd>🕱</kbd>`tilde` (`˜`)
         * <kbd>5</kbd>, <kbd>o</kbd>  → <kbd>🕱</kbd>`macron` (`¯`)
