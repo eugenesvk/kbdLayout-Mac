@@ -124,12 +124,12 @@ All notable changes to this project will be documented in this file
         * <kbd>^</kbd><kbd>0</kbd> → <kbd>🕱</kbd>`caron`
         * <kbd>^</kbd><kbd>-</kbd> → <kbd>🕱</kbd>`dot-below`
         * <kbd>^</kbd><kbd>=</kbd> → <kbd>🕱</kbd>`cedilla`
-    + `en` more 🕱⃣'Copyright' symbols
+    + `en` more <kbd>🕱</kbd>'Copyright' symbols
         * <kbd>o</kbd> (ɔ)
         * <kbd>l</kbd> 🄯 (U+01F12F)
         * <kbd>s</kbd> ℠
         * <kbd>p</kbd> ℗
-    + `ru` more 🕱⃣'Copyright' symbols
+    + `ru` more <kbd>🕱</kbd>'Copyright' symbols
         * <kbd>щ</kbd>, <kbd>о</kbd> (ɔ)
         * <kbd>д</kbd>л</kbd> 🄯 (U+01F12F)
         * <kbd>ы</kbd> ℠
