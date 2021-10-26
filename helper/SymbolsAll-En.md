@@ -79,6 +79,30 @@
       Ζ Χ Ψ Ω Β Ν Μ              ⇧
    `  §   ç ±   ‘ ’ « »  /        ⌥
    Μ      Χ Ά   Ό Ύ   ώ  ?       ⇧⌥
+
+  Old Cyrillic
+   § 1 2 3 4 5 6 7 8 9 0 - = 
+                     ҁ       r
+                     Ҁ       ⇧
+
+   q w e r t y u i o p [ ] 
+   ѳ ѡ ѣ ѯ є   ѵ і   ꙁ     r
+   Ѳ Ѡ Ѣ Ѯ Є   Ѵ І   Ꙁ     ⇧
+                 ї   ꙃ     ⌥
+                 Ї   Ꙃ     ⇧⌥
+
+   a s d f g h j k l ; ' \ 
+     ꙑ   ѧ     ꙋ     ꙉ ѥ   r
+     Ꙑ   Ѧ     Ꙋ     Ꙉ Ѥ   ⇧
+         ѩ                 ⌥
+         Ѩ                 ⇧⌥
+
+   ` z x c v b n m , . / 
+     ѫ   ѱ         ѣ ꙗ   r
+     Ѫ   Ѱ         Ѣ Ꙗ   ⇧
+     ѭ                   ⌥
+     Ѭ                   ⇧⌥
+
 -->
 
 
@@ -287,10 +311,32 @@
 
 
 #### <kbd>🕱</kbd>`OldCyrillic`
-  <kbd>q</kbd> ѳ Ѳ  
-  <kbd>e</kbd> ѣ Ѣ  
-  <kbd>u</kbd> ѵ Ѵ  
-  <kbd>i</kbd> і І  
+
+  |Mod|<kbd>§</kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |            	| | | | | | | | | |ҁ| | | |
+  |<kbd>⇧</kbd>	| | | | | | | | | |Ҁ| | | |
+
+  |Mod|<kbd>q</kbd>|<kbd>w</kbd>|<kbd>e</kbd>|<kbd>r</kbd>|<kbd>t</kbd>|<kbd>y</kbd>|<kbd>u</kbd>|<kbd>i</kbd>|<kbd>o</kbd>|<kbd>p</kbd>|<kbd>\[</kbd>|<kbd>\]</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |                        	|ѳ|ѡ|ѣ|ѯ|є| |ѵ|і| |ꙁ| | |
+  |<kbd>⇧</kbd>            	|Ѳ|Ѡ|Ѣ|Ѯ|Є| |Ѵ|І| |Ꙁ| | |
+  |<kbd>⌥</kbd>            	| | | | | | | |ї| |ꙃ| | |
+  |<kbd>⇧</kbd><kbd>⌥</kbd>	| | | | | | | |Ї| |Ꙃ| | |
+
+  |Mod|<kbd>a</kbd>|<kbd>s</kbd>|<kbd>d</kbd>|<kbd>f</kbd>|<kbd>g</kbd>|<kbd>h</kbd>|<kbd>j</kbd>|<kbd>k</kbd>|<kbd>l</kbd>|<kbd>;</kbd>|<kbd>\'</kbd>|<kbd>\\</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |                        	| |ꙑ| |ѧ| | |ꙋ| | |ꙉ|ѥ| |
+  |<kbd>⇧</kbd>            	| |Ꙑ| |Ѧ| | |Ꙋ| | |Ꙉ|Ѥ| |
+  |<kbd>⌥</kbd>            	| | | |ѩ| | | | | | | | |
+  |<kbd>⇧</kbd><kbd>⌥</kbd>	| | | |Ѩ| | | | | | | | |
+
+  |Mod|<kbd>\`</kbd>|<kbd>z</kbd>|<kbd>x</kbd>|<kbd>c</kbd>|<kbd>v</kbd>|<kbd>b</kbd>|<kbd>n</kbd>|<kbd>m</kbd>|<kbd>,</kbd>|<kbd>.</kbd>|<kbd>/</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |                        	| |ѫ| |ѱ| | | | |ѣ|ꙗ| |
+  |<kbd>⇧</kbd>            	| |Ѫ| |Ѱ| | | | |Ѣ|Ꙗ| |
+  |<kbd>⌥</kbd>            	| |ѭ| | | | | | | | | |
+  |<kbd>⇧</kbd><kbd>⌥</kbd>	| |Ѭ| | | | | | | | | |
 
 
 #### <kbd>🕱</kbd>`Typographical`
