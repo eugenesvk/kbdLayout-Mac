@@ -134,6 +134,56 @@ All notable changes to this project will be documented in this file
         * <kbd>д</kbd>л</kbd> 🄯 (U+01F12F)
         * <kbd>ы</kbd> ℠
         * <kbd>з</kbd> ℗
+    + :sparkles: `en` more symbols to <kbd>🕱</kbd>`OldCyrillic`:
+        * <kbd>9</kbd> ҁ
+        * <kbd>⌥</kbd><kbd>i</kbd> ї
+        * <kbd>r</kbd> ѯ
+        * <kbd>t</kbd> є
+        * <kbd>p</kbd> ꙁ
+        * <kbd>⌥</kbd><kbd>p</kbd> ꙃ
+        * <kbd>;</kbd> ꙉ
+        * <kbd>j</kbd> ꙋ
+        * <kbd>w</kbd> ѡ
+        * <kbd>s</kbd> ꙑ
+        * <kbd>.</kbd> ꙗ
+        * <kbd>'</kbd> ѥ
+        * <kbd>z</kbd> ѫ
+        * <kbd>⌥</kbd><kbd>z</kbd> ѭ
+        * <kbd>f</kbd> ѧ
+        * <kbd>⌥</kbd><kbd>f</kbd> ѩ
+        * <kbd>c</kbd> ѱ
+        * <kbd>,</kbd> ѣ
+        * Previously mapped symbols:
+        * <kbd>q</kbd> ѳ
+        * <kbd>e</kbd> ѣ
+        * <kbd>u</kbd> ѵ
+        * <kbd>i</kbd> і
+        * (and the same with the Capital letters)
+    + :sparkles: `ru` more symbols to <kbd>🕱</kbd>`OldCyrillic`:
+        * <kbd>9</kbd> ҁ
+        * <kbd>⌥</kbd><kbd>ш</kbd> ї
+        * <kbd>к</kbd> ѯ
+        * <kbd>е</kbd> є
+        * <kbd>з</kbd> ꙁ
+        * <kbd>⌥</kbd><kbd>з</kbd> ꙃ
+        * <kbd>ж</kbd> ꙉ
+        * <kbd>о</kbd> ꙋ
+        * <kbd>ц</kbd> ѡ
+        * <kbd>ы</kbd> ꙑ
+        * <kbd>ю</kbd> ꙗ
+        * <kbd>э</kbd> ѥ
+        * <kbd>я</kbd> ѫ
+        * <kbd>⌥</kbd><kbd>я</kbd> ѭ
+        * <kbd>а</kbd> ѧ
+        * <kbd>⌥</kbd><kbd>а</kbd> ѩ
+        * <kbd>с</kbd> ѱ
+        * <kbd>б</kbd> ѣ
+        * Previously mapped symbols:
+        * <kbd>й</kbd> ѳ
+        * <kbd>у</kbd> ѣ
+        * <kbd>г</kbd> ѵ
+        * <kbd>ш</kbd> і
+        * (and the same with the Capital letters)
     + `ru` yen ¥ to <kbd>⌥</kbd><kbd>н</kbd>
     + `en` `ru` map `⇤` to <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd><kbd>⇥</kbd>
     + `en` `ru` map `⌫` to <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd><kbd>⌫</kbd>
