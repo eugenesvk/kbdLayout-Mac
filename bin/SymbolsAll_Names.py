@@ -88,7 +88,28 @@ Spaces:  ⁠​       ␣␠‑
 Typographical: ⟨ ⟩ ⁂ ‸ ⁁ ⎀ ⁒ ¤ † ‡ ⹀ ⸗ ℮ º ª ❧ ♀ ♂ ⚥ ☞ ‽ № ⌑ ‴ ⁗ ⁀ 🕱 💀 ☠
  ⌦ ⎋ ⇞ ⇟ ↖ ↘ ⌧ ⏏ ↩ ↵ ⏎ ⌤
 
-OldCyrillic: ѳѲ ѣѢ ѵѴ іІ
+  Old Cyrillic
+   § 1 2 3 4 5 6 7 8 9 0 - = 
+                     ҁ       r
+                     Ҁ       ⇧
+
+   q w e r t y u i o p [ ] 
+   ѳ ѡ ѣ ѯ є   ѵ і   ꙁ     r
+   Ѳ Ѡ Ѣ Ѯ Є   Ѵ І   Ꙁ     ⇧
+                 ї   ꙃ     ⌥
+                 Ї   Ꙃ     ⇧⌥
+
+   a s d f g h j k l ; ' \ 
+     ꙑ   ѧ     ꙋ     ꙉ ѥ   r
+     Ꙑ   Ѧ     Ꙋ     Ꙉ Ѥ   ⇧
+         ѩ                 ⌥
+         Ѩ                 ⇧⌥
+
+   ` z x c v b n m , . / 
+     ѫ   ѱ         ѣ ꙗ   r
+     Ѫ   Ѱ         Ѣ Ꙗ   ⇧
+     ѭ                   ⌥
+     Ѭ                   ⇧⌥
 
 Copyright: ® ™ (ɔ) ℗ ℠ 🄯 ©
 

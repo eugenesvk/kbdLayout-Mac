@@ -362,14 +362,36 @@
 | ό | `u+03cc` | `&#972;` | Greek Small Letter Omicron With Tonos |
 | ύ | `u+03cd` | `&#973;` | Greek Small Letter Upsilon With Tonos |
 | ώ | `u+03ce` | `&#974;` | Greek Small Letter Omega With Tonos |
+| Є | `u+0404` | `&#1028;` | Cyrillic Capital Letter Ukrainian Ie |
 | І | `u+0406` | `&#1030;` | Cyrillic Capital Letter Byelorussian-Ukrainian I |
+| Ї | `u+0407` | `&#1031;` | Cyrillic Capital Letter Yi |
+| є | `u+0454` | `&#1108;` | Cyrillic Small Letter Ukrainian Ie |
 | і | `u+0456` | `&#1110;` | Cyrillic Small Letter Byelorussian-Ukrainian I |
+| ї | `u+0457` | `&#1111;` | Cyrillic Small Letter Yi |
+| Ѡ | `u+0460` | `&#1120;` | Cyrillic Capital Letter Omega |
+| ѡ | `u+0461` | `&#1121;` | Cyrillic Small Letter Omega |
 | Ѣ | `u+0462` | `&#1122;` | Cyrillic Capital Letter Yat |
 | ѣ | `u+0463` | `&#1123;` | Cyrillic Small Letter Yat |
+| Ѥ | `u+0464` | `&#1124;` | Cyrillic Capital Letter Iotified E |
+| ѥ | `u+0465` | `&#1125;` | Cyrillic Small Letter Iotified E |
+| Ѧ | `u+0466` | `&#1126;` | Cyrillic Capital Letter Little Yus |
+| ѧ | `u+0467` | `&#1127;` | Cyrillic Small Letter Little Yus |
+| Ѩ | `u+0468` | `&#1128;` | Cyrillic Capital Letter Iotified Little Yus |
+| ѩ | `u+0469` | `&#1129;` | Cyrillic Small Letter Iotified Little Yus |
+| Ѫ | `u+046a` | `&#1130;` | Cyrillic Capital Letter Big Yus |
+| ѫ | `u+046b` | `&#1131;` | Cyrillic Small Letter Big Yus |
+| Ѭ | `u+046c` | `&#1132;` | Cyrillic Capital Letter Iotified Big Yus |
+| ѭ | `u+046d` | `&#1133;` | Cyrillic Small Letter Iotified Big Yus |
+| Ѯ | `u+046e` | `&#1134;` | Cyrillic Capital Letter Ksi |
+| ѯ | `u+046f` | `&#1135;` | Cyrillic Small Letter Ksi |
+| Ѱ | `u+0470` | `&#1136;` | Cyrillic Capital Letter Psi |
+| ѱ | `u+0471` | `&#1137;` | Cyrillic Small Letter Psi |
 | Ѳ | `u+0472` | `&#1138;` | Cyrillic Capital Letter Fita |
 | ѳ | `u+0473` | `&#1139;` | Cyrillic Small Letter Fita |
 | Ѵ | `u+0474` | `&#1140;` | Cyrillic Capital Letter Izhitsa |
 | ѵ | `u+0475` | `&#1141;` | Cyrillic Small Letter Izhitsa |
+| Ҁ | `u+0480` | `&#1152;` | Cyrillic Capital Letter Koppa |
+| ҁ | `u+0481` | `&#1153;` | Cyrillic Small Letter Koppa |
 | ᷄ | `u+1dc4` | `&#7620;` | Combining Macron-Acute |
 | ᷅ | `u+1dc5` | `&#7621;` | Combining Grave-Macron |
 | ᷆ | `u+1dc6` | `&#7622;` | Combining Macron-Grave |
@@ -709,6 +731,18 @@
 | ⹀ | `u+2e40` | `&#11840;` | Double Hyphen |
 | 〈 | `u+3008` | `&#12296;` | Left Angle Bracket |
 | 〉 | `u+3009` | `&#12297;` | Right Angle Bracket |
+| Ꙁ | `u+a640` | `&#42560;` | Cyrillic Capital Letter Zemlya |
+| ꙁ | `u+a641` | `&#42561;` | Cyrillic Small Letter Zemlya |
+| Ꙃ | `u+a642` | `&#42562;` | Cyrillic Capital Letter Dzelo |
+| ꙃ | `u+a643` | `&#42563;` | Cyrillic Small Letter Dzelo |
+| Ꙉ | `u+a648` | `&#42568;` | Cyrillic Capital Letter Djerv |
+| ꙉ | `u+a649` | `&#42569;` | Cyrillic Small Letter Djerv |
+| Ꙋ | `u+a64a` | `&#42570;` | Cyrillic Capital Letter Monograph Uk |
+| ꙋ | `u+a64b` | `&#42571;` | Cyrillic Small Letter Monograph Uk |
+| Ꙑ | `u+a650` | `&#42576;` | Cyrillic Capital Letter Yeru With Back Yer |
+| ꙑ | `u+a651` | `&#42577;` | Cyrillic Small Letter Yeru With Back Yer |
+| Ꙗ | `u+a656` | `&#42582;` | Cyrillic Capital Letter Iotified A |
+| ꙗ | `u+a657` | `&#42583;` | Cyrillic Small Letter Iotified A |
 | ﬁ | `u+fb01` | `&#64257;` | Latin Small Ligature Fi |
 | ﬂ | `u+fb02` | `&#64258;` | Latin Small Ligature Fl |
 | ． | `u+ff0e` | `&#65294;` | Fullwidth Full Stop |
