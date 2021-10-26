@@ -135,7 +135,7 @@
 
   </details><br>
 
-  
+
   |Mod|<kbd>⇥</kbd>|<kbd>й</kbd>|<kbd>ц</kbd>|<kbd>у</kbd>|<kbd>к</kbd>|<kbd>е</kbd>|<kbd>н</kbd>|<kbd>г</kbd>|<kbd>ш</kbd>|<kbd>щ</kbd>|<kbd>з</kbd>|<kbd>х</kbd>|<kbd>ъ</kbd>|
   |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
   |<kbd>⇧</kbd>        ⁠               	|   |  | |  | |  | |  | |  | | | |
@@ -183,7 +183,7 @@
 
   </details><br>
 
-  
+
   |Mod|<kbd>]</kbd>|<kbd>я</kbd>|<kbd>ч</kbd>|<kbd>с</kbd>|<kbd>м</kbd>|<kbd>и</kbd>|<kbd>т</kbd>|<kbd>ь</kbd>|<kbd>б</kbd>|<kbd>ю</kbd>|<kbd>/</kbd>|
   |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
   |<kbd>⇧</kbd>        ⁠               	|  ~| | |  | | | |  | | |,|
