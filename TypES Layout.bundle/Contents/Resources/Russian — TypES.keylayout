@@ -563,7 +563,7 @@
             <key code="32" action="Ѵ"/>
             <key code="33" action="{"/>
             <key code="34" action="І"/>
-            <key code="35" output="″"/>
+            <key code="35" action="″"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="λ"/>
             <key code="38" action="✓"/>
@@ -1906,6 +1906,7 @@
         <action id="(">
             <when state="none" output="("/>
             <when state="Greek" output="("/>
+            <when state="OldCyrillic" output="Ҁ"/>
             <when state="math_" output="⊆"/>
         </action>
         <action id=")">
@@ -2072,6 +2073,7 @@
             <when state="none" output="9"/>
             <when state="Diacritics" next="breve"/>
             <when state="Math" output="⊂"/>
+            <when state="OldCyrillic" output="ҁ"/>
             <when state="breve" output="̆"/>
             <when state="math_" output="⊆"/>
         </action>
@@ -2187,6 +2189,7 @@
         </action>
         <action id="cedilla">
             <when state="none" next="cedilla"/>
+            <when state="OldCyrillic" output="Ѭ"/>
             <when state="cedilla" output="̧"/>
         </action>
         <action id="double-acute">
@@ -2258,6 +2261,7 @@
         <action id="£">
             <when state="none" output="£"/>
             <when state="Greek" output="≠"/>
+            <when state="OldCyrillic" output="ѩ"/>
         </action>
         <action id="§">
             <when state="none" output="§"/>
@@ -2342,6 +2346,7 @@
         <action id="Ω">
             <when state="none" output="Ω"/>
             <when state="Greek" output="§"/>
+            <when state="OldCyrillic" output="ѭ"/>
         </action>
         <action id="λ">
             <when state="none" output="λ"/>
@@ -2368,12 +2373,14 @@
         <action id="І">
             <when state="none" next="dot-above"/>
             <when state="Greek" output="Ν"/>
+            <when state="OldCyrillic" output="Ї"/>
             <when state="diaeresis" output="Ї"/>
             <when state="dot-above" output="̇"/>
         </action>
         <action id="А">
             <when state="none" output="А"/>
             <when state="Greek" output="Φ"/>
+            <when state="OldCyrillic" output="Ѧ"/>
             <when state="breve" output="Ӑ"/>
             <when state="diaeresis" output="Ӓ"/>
         </action>
@@ -2401,6 +2408,7 @@
         <action id="Е">
             <when state="none" output="Е"/>
             <when state="Greek" output="Τ"/>
+            <when state="OldCyrillic" output="Є"/>
             <when state="Typographical" output="‡"/>
             <when state="breve" output="Ӗ"/>
             <when state="diaeresis" output="Ё"/>
@@ -2409,12 +2417,14 @@
         <action id="Ж">
             <when state="none" output="Ж"/>
             <when state="Greek" next="diaeresis-greek"/>
+            <when state="OldCyrillic" output="Ꙉ"/>
             <when state="breve" output="Ӂ"/>
             <when state="diaeresis" output="Ӝ"/>
         </action>
         <action id="З">
             <when state="none" output="З"/>
             <when state="Greek" output="Π"/>
+            <when state="OldCyrillic" output="Ꙁ"/>
             <when state="Typographical" output="⁗"/>
             <when state="diaeresis" output="Ӟ"/>
         </action>
@@ -2438,6 +2448,7 @@
         <action id="К">
             <when state="none" output="К"/>
             <when state="Greek" output="Ρ"/>
+            <when state="OldCyrillic" output="Ѯ"/>
             <when state="acute" output="Ќ"/>
         </action>
         <action id="Л">
@@ -2458,6 +2469,7 @@
         <action id="О">
             <when state="none" output="О"/>
             <when state="Greek" output="Ξ"/>
+            <when state="OldCyrillic" output="Ꙋ"/>
             <when state="diaeresis" output="Ӧ"/>
         </action>
         <action id="П">
@@ -2473,6 +2485,7 @@
         <action id="С">
             <when state="none" output="С"/>
             <when state="Greek" output="Ψ"/>
+            <when state="OldCyrillic" output="Ѱ"/>
             <when state="space" output="␢"/>
         </action>
         <action id="Т">
@@ -2503,6 +2516,7 @@
         <action id="Ц">
             <when state="none" output="Ц"/>
             <when state="Greek" output="Ω"/>
+            <when state="OldCyrillic" output="Ѡ"/>
         </action>
         <action id="Ч">
             <when state="none" output="Ч"/>
@@ -2531,6 +2545,7 @@
         <action id="Ы">
             <when state="none" output="Ы"/>
             <when state="Greek" output="Σ"/>
+            <when state="OldCyrillic" output="Ꙑ"/>
             <when state="Typographical" output="☠"/>
             <when state="diaeresis" output="Ӹ"/>
             <when state="space" output="␢"/>
@@ -2538,10 +2553,12 @@
         <action id="Ь">
             <when state="none" output="Ь"/>
             <when state="Greek" output="Μ"/>
+            <when state="OldCyrillic" output="Ѣ"/>
         </action>
         <action id="Э">
             <when state="none" output="Э"/>
             <when state="Greek" output="&#x0022;"/>
+            <when state="OldCyrillic" output="Ѥ"/>
             <when state="diaeresis" output="Ӭ"/>
             <when state="math/" output="∉"/>
         </action>
@@ -2549,6 +2566,7 @@
             <when state="none" output="Ю"/>
             <when state="Greek" output="&#x003E;"/>
             <when state="Math" output="≥"/>
+            <when state="OldCyrillic" output="Ꙗ"/>
             <when state="math_" output="≥"/>
             <when state="math|" output="▷"/>
             <when state="math‹" output="◇"/>
@@ -2556,10 +2574,12 @@
         <action id="Я">
             <when state="none" output="Я"/>
             <when state="Greek" output="Ζ"/>
+            <when state="OldCyrillic" output="Ѫ"/>
         </action>
         <action id="а">
             <when state="none" output="а"/>
             <when state="Greek" output="φ"/>
+            <when state="OldCyrillic" output="ѧ"/>
             <when state="Typographical" output="❧"/>
             <when state="breve" output="ӑ"/>
             <when state="diaeresis" output="ӓ"/>
@@ -2601,6 +2621,7 @@
             <when state="Copyright" output="™"/>
             <when state="Greek" output="τ"/>
             <when state="Math" output="∴"/>
+            <when state="OldCyrillic" output="є"/>
             <when state="Typographical" output="†"/>
             <when state="breve" output="ӗ"/>
             <when state="diaeresis" output="ё"/>
@@ -2616,6 +2637,7 @@
             <when state="Diacritics" next="diaeresis"/>
             <when state="Greek" next="greek-tonos"/>
             <when state="Math" output="…"/>
+            <when state="OldCyrillic" output="ꙉ"/>
             <when state="breve" output="ӂ"/>
             <when state="diaeresis" output="ӝ"/>
         </action>
@@ -2623,6 +2645,7 @@
             <when state="none" output="з"/>
             <when state="Copyright" output="℗"/>
             <when state="Greek" output="π"/>
+            <when state="OldCyrillic" output="ꙁ"/>
             <when state="Typographical" output="‴"/>
             <when state="diaeresis" output="ӟ"/>
             <when state="space" output=" "/>
@@ -2655,6 +2678,7 @@
             <when state="Diacritics" next="ring"/>
             <when state="Greek" output="ρ"/>
             <when state="Math" output="ℝ"/>
+            <when state="OldCyrillic" output="ѯ"/>
             <when state="Typographical" output="⌑"/>
             <when state="acute" output="ќ"/>
             <when state="ring" output="̊"/>
@@ -2686,6 +2710,7 @@
             <when state="none" output="о"/>
             <when state="Copyright" output="(ɔ)"/>
             <when state="Greek" output="ξ"/>
+            <when state="OldCyrillic" output="ꙋ"/>
             <when state="diaeresis" output="ӧ"/>
             <when state="space" output="⁠"/>
         </action>
@@ -2709,6 +2734,7 @@
             <when state="Copyright" output="©"/>
             <when state="Greek" output="ψ"/>
             <when state="Math" output="ℂ"/>
+            <when state="OldCyrillic" output="ѱ"/>
             <when state="Typographical" output="⌧"/>
             <when state="space" output="␠"/>
         </action>
@@ -2752,6 +2778,7 @@
         <action id="ц">
             <when state="none" output="ц"/>
             <when state="Greek" output="ω"/>
+            <when state="OldCyrillic" output="ѡ"/>
         </action>
         <action id="ч">
             <when state="none" output="ч"/>
@@ -2793,6 +2820,7 @@
             <when state="none" output="ы"/>
             <when state="Copyright" output="℠"/>
             <when state="Greek" output="σ"/>
+            <when state="OldCyrillic" output="ꙑ"/>
             <when state="Typographical" output="💀"/>
             <when state="diaeresis" output="ӹ"/>
             <when state="space" output="␠"/>
@@ -2800,12 +2828,14 @@
         <action id="ь">
             <when state="none" output="ь"/>
             <when state="Greek" output="μ"/>
+            <when state="OldCyrillic" output="ѣ"/>
             <when state="space" output=" "/>
         </action>
         <action id="э">
             <when state="none" output="э"/>
             <when state="Greek" output="&#x0027;"/>
             <when state="Math" output="∈"/>
+            <when state="OldCyrillic" output="ѥ"/>
             <when state="acute" output="́"/>
             <when state="diaeresis" output="ӭ"/>
             <when state="math/" output="∉"/>
@@ -2814,6 +2844,7 @@
             <when state="none" output="ю"/>
             <when state="Greek" output="."/>
             <when state="Math" output="〉"/>
+            <when state="OldCyrillic" output="ꙗ"/>
             <when state="Typographical" output="⟩"/>
             <when state="math-" output="→"/>
             <when state="math=" output="⇒"/>
@@ -2827,6 +2858,7 @@
             <when state="Diacritics" next="cedilla"/>
             <when state="Greek" output="ζ"/>
             <when state="Math" output="ℤ"/>
+            <when state="OldCyrillic" output="ѫ"/>
             <when state="cedilla" output="̧"/>
             <when state="space" output="​"/>
         </action>
@@ -2856,6 +2888,7 @@
         <action id="і">
             <when state="none" next="Diacritics"/>
             <when state="Greek" output="†"/>
+            <when state="OldCyrillic" output="ї"/>
             <when state="diaeresis" output="ï"/>
         </action>
         <action id="Ѣ">
@@ -2927,6 +2960,11 @@
         <action id="′">
             <when state="none" output="′"/>
             <when state="Greek" output="≈"/>
+            <when state="OldCyrillic" output="ꙃ"/>
+        </action>
+        <action id="″">
+            <when state="none" output="″"/>
+            <when state="OldCyrillic" output="Ꙃ"/>
         </action>
         <action id="‹">
             <when state="none" output="‹"/>
@@ -2952,6 +2990,7 @@
         <action id="℉">
             <when state="none" output="℉"/>
             <when state="Greek" output="Π"/>
+            <when state="OldCyrillic" output="Ѩ"/>
         </action>
         <action id="№">
             <when state="none" output="№"/>
