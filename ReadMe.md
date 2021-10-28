@@ -14,7 +14,7 @@ with easier access to various †ypogr⎀phical, mathem∀tiℂal, and Grεεk s
   - Copyright (® ™ ©), Old Cyrillic (ѳ ѣ ѵ), and an extra Typographical layers († ⎀ ⁂ and Mac  ⎋ ⇞⇟)
 [^1]: <kbd>⇧</kbd> is <kbd>Shift</kbd>, <kbd>^</kbd> is <kbd>Control</kbd>, <kbd>⌥</kbd> is <kbd>Option</kbd> or <kbd>Alt</kbd>, <kbd>🕱</kbd> is a dead key, <kbd>◌</kbd> is a diacritic dead key
 
-... which all combine into the following layout (all non-<kbd>🕱</kbd> layers in a selectable [html are here](https://eugenesvk.github.io/kbdLayout-Mac/)):
+... which all combine into the following layout (all layers in a selectable [html are here](https://eugenesvk.github.io/kbdLayout-Mac/)):
 
   |    | Modifier key legend	| Example of <kbd>6</kbd> |
   | :- | :-----------------:	| :---------------------: |
