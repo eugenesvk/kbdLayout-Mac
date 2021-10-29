@@ -3,9 +3,10 @@
 # Table of contents
 - [English — TypES: Main layers](#english--types-main-layers)
     - [Spaces](#spaces)
+    - [Diacritics](#diacritics)
 - [English — TypES: 🕱 dead keys](#english-types-dead-keys)
     - [<kbd>🕱</kbd>`space`](#space)
-    - [<kbd>🕱</kbd>`Diacritics`](#diacritics)
+    - [<kbd>🕱</kbd>`Diacritics`](#diacritics_1)
     - [<kbd>🕱</kbd>`Copyright`](#copyright)
     - [<kbd>🕱</kbd>`OldCyrillic`](#oldcyrillic)
     - [<kbd>🕱</kbd>`Typographical`](#typographical)
@@ -231,60 +232,65 @@
   | ␠  	| symbol for     	| 2420 	||             	|            	|            	|            	||<kbd>s</kbd>               	|
   | ‑  	| no-break hyphen	| 2011 	||             	|            	|            	|            	||<kbd>s</kbd>               	|
 
+##### __Diacritics__
 
-### English — TypES: 🕱 dead keys
+  Two ways to enter:
 
-#### <kbd>🕱</kbd>`space`
-  See the __Spaces__ table above
-
-
-#### <kbd>🕱</kbd>`Diacritics`
+  1. with the key combos listed in the main layers above and provided in the table below
+  2. by entering <kbd>🕱</kbd>`Diacritics` via <kbd>^</kbd><kbd>;</kbd>/<kbd>\'</kbd> and pressing a single key in the [<kbd>🕱</kbd>`Diacritics`](#diacritics_1) section below
 
   Combining diacritics can be inserted once inside a given diacritic <kbd>🕱</kbd> by pressing either the:
 
   1. invoking number: <kbd>u</kbd>, <kbd>^</kbd><kbd>6</kbd>, <kbd>6</kbd> insert û
-  2. same key combo: <kbd>u</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>:</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>:</kbd> to insert ü
-  3. same key (if this key doesn't support this specific diacritic): <kbd>u</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>:</kbd>, <kbd>;</kbd> to insert ü (since __;__ doesn't support __;̈__)
+  2. same key combo: <kbd>u</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>;</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>;</kbd> to insert ü
+  3. same key (if this key doesn't support this specific diacritic): <kbd>u</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>;</kbd>, <kbd>;</kbd> to insert ü (since __;__ doesn't support __;̈__)
 
-  |Mod + Row|<kbd>§</kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>|
+  |Mod|<kbd>§</kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>
   |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-  |<kbd>^</kbd> + <kbd>§</kbd> to <kbd>=</kbd>            	|            ◌̀|            ◌́|          ◌̀|          ◌̈|            ◌̃|            ◌̄|            ◌̂|            ◌̊|            ◌̇  |            ◌̆|            ◌̌|             ◌̣|         ◌̧|
-  |<kbd>⌥</kbd><kbd>⇧</kbd> + <kbd>§</kbd> to <kbd>=</kbd>	|            ◌̀|             |           |           |             |             |            ◌̂|             |               |             |             |              |          |
-  |                                                       	|<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>|<kbd></kbd>|<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>    |<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>  |<kbd></kbd>|
-  |<kbd>⌥</kbd><kbd>⇧</kbd> + <kbd>q</kbd> to <kbd>]</kbd>	|             |<kbd>q</kbd>◌̆|           |           |<kbd>r</kbd>◌̊|             |             |<kbd>u</kbd>◌̣|<kbd>i</kbd>◌̇  |<kbd>o</kbd>◌̄|             |              |          |
-  |<kbd>⌥</kbd><kbd>⇧</kbd> + <kbd>a</kbd> to <kbd>\</kbd>	|             |             |           |           |             |<kbd>g</kbd>◌̨|<kbd>h</kbd>◌̋|<kbd>j</kbd>◌̉|<kbd>k</kbd>   ⃣|             |<kbd>;</kbd>◌̈|<kbd>\'</kbd>◌̛|          |
-  |<kbd>⌥</kbd><kbd>⇧</kbd> + <kbd>z</kbd> to <kbd>/</kbd>	|<kbd>`</kbd>◌̀|<kbd>z</kbd>◌̧|           |           |<kbd>v</kbd>◌̌|             |<kbd>n</kbd>◌̃|             |               |             |<kbd>/</kbd>◌́|
+  |<kbd>^</kbd>            	|◌̀|◌́|◌̀|◌̈|◌̃|◌̄|◌̂|◌̊|◌̇|◌̆|◌̌|◌̣|◌̧|
+  |<kbd>⌥</kbd><kbd>⇧</kbd>	|◌̀| | | | | |◌̂| | | | | | |
+
+  |Mod|<kbd>q</kbd>|<kbd>w</kbd>|<kbd>e</kbd>|<kbd>r</kbd>|<kbd>t</kbd>|<kbd>y</kbd>|<kbd>u</kbd>|<kbd>i</kbd>|<kbd>o</kbd>|<kbd>p</kbd>|<kbd>\[</kbd>|<kbd>\]</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |<kbd>⌥</kbd><kbd>⇧</kbd>	|◌̆| | |◌̊| | |◌̣|◌̇|◌̄| | | |
+
+
+  |Mod|<kbd>a</kbd>|<kbd>s</kbd>|<kbd>d</kbd>|<kbd>f</kbd>|<kbd>g</kbd>|<kbd>h</kbd>|<kbd>j</kbd>|<kbd>k</kbd>|<kbd>l</kbd>|<kbd>;</kbd>|<kbd>\'</kbd>|<kbd>\\</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |<kbd>⌥</kbd><kbd>⇧</kbd>	| | | | | |◌̋| | | |◌̈| | |
+
+  |Mod|<kbd>\`</kbd>|<kbd>z</kbd>|<kbd>x</kbd>|<kbd>c</kbd>|<kbd>v</kbd>|<kbd>b</kbd>|<kbd>n</kbd>|<kbd>m</kbd>|<kbd>,</kbd>|<kbd>.</kbd>|<kbd>/</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |<kbd>⌥</kbd><kbd>⇧</kbd>	|◌̀|◌̧| | |◌̌| |◌̃| | | |◌́|
 
   |    Diacritic               	| Symbols    |
   | :------------------------- 	| :--------- |
   |   __Regular__              	|     |
-  | ◌̀ `grave`                 	| Àà èÈ ìÌ òÒ ùÙ ǹǸ Ẁẁ ỳỲ  `  ̀ |
-  | ◌́ `acute`                 	| Áá éÉ íÍ óÓ úÚ ýÝ Ćć Ĺĺ ńŃ Ŕŕ Śś Źź Ǵǵ Ḿḿ Ṕṕ Ẃẃ  ´ ́ |
-  | ◌̈ `diaeresis`             	| Ää ëË ïÏ öÖ üÜ ÿŸ Ẅẅ Ẍẍ ¨ ̈ |
-  | ◌̃ `tilde`                 	| Ãã ñÑ õÕ ĩĨ ũŨ Ṽṽ ỹỸ  ˜ ̃ |
-  | ◌̄ `macron`                	| āĀ ēĒ īĪ ōŌ ūŪ ȳȲ ḡḠ ¯ ̄  <kbd>⌥</kbd><kbd>⇧</kbd><kbd>q</kbd> ᷌   |
-  | ◌̂ `circumflex`            	| Ââ êÊ îÎ ôÔ ûÛ Ĉĉ Ĝĝ Ĥĥ Ĵĵ Ŝŝ Ŵŵ ŷŶ Ẑẑ  ˆ ̂ |
-  | ◌̊ `ring`                  	| Åå ůŮ ˚ ̊ |
-  | ◌̇ `dot-above`             	| Ȧȧ Ċċ ėĖ Ġġ ȯȮ Ḃḃ Ḋḋ Ḟḟ Ḣḣ İ  Ṁṁ ṅṄ Ṗṗ Ṙṙ Ṡṡ Ṫṫ Ẇẇ Ẋẋ ẏẎ Żż  ˙  ̇ |
-  | ◌̆ `breve`                 	| Ăă ĕĔ Ğğ ĭĬ ŏŎ ŭŬ ˘ ̆  <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷋ |
-  | ◌̌ `caron`                 	| Čč Ďď ěĚ ňŇ Řř Šš Ťť Žž Ǎǎ ǐǏ ǰ  ǒǑ ǔǓ Ǧǧ Ǩǩ Ȟȟ ˇ ̌   |
-  | ◌̣ `dot-below`             	| Ḅḅ Ḍḍ Ḥḥ Ḳḳ Ḷḷ Ṃṃ ṇṆ Ṛṛ Ṣṣ Ṭṭ Ṿṿ Ẉẉ Ẓẓ Ạạ ẹẸ ọỌ ụỤ ỵỴ  ̣  ̣ |
-  | ◌̧ `cedilla`               	| Çç Ģģ Ķķ Ļļ ņŅ Ŗŗ Şş Ţţ ȩȨ Ḑḑ Ḩḩ  ̧ ¸ |
-  | ◌̨ `ogonek`                	| ąĄ ęĘ įĮ ǫǪ ųŲ ˛  ̨  |
-  | ◌̋ `double-acute`          	| Őő Űű ˝ ̋ |
-  | ◌̉ `hook-above`            	| ảẢ ẻẺ ỉỈ ỏỎ ủỦ ỷỶ ̉  |
-  | ◌̛ `horn`                  	| ơƠ ưƯ  ̛  |
+  | ◌̀ `grave`                 	| Àà èÈ ìÌ òÒ ùÙ ǹǸ Ẁẁ ỳỲ  ` ◌̀ |
+  | ◌́ `acute`                 	| Áá éÉ íÍ óÓ úÚ ýÝ Ćć Ĺĺ ńŃ Ŕŕ Śś Źź Ǵǵ Ḿḿ Ṕṕ Ẃẃ  ´ ◌́ |
+  | ◌̈ `diaeresis`             	| Ää ëË ïÏ öÖ üÜ ÿŸ Ẅẅ Ẍẍ ¨ ◌̈ |
+  | ◌̃ `tilde`                 	| Ãã ñÑ õÕ ĩĨ ũŨ Ṽṽ ỹỸ  ˜ ◌̃ |
+  | ◌̄ `macron`                	| āĀ ēĒ īĪ ōŌ ūŪ ȳȲ ḡḠ ¯ ◌̄ <kbd>⌥</kbd><kbd>⇧</kbd><kbd>q</kbd>◌᷌   |
+  | ◌̂ `circumflex`            	| Ââ êÊ îÎ ôÔ ûÛ Ĉĉ Ĝĝ Ĥĥ Ĵĵ Ŝŝ Ŵŵ ŷŶ Ẑẑ  ˆ ◌̂ |
+  | ◌̊ `ring`                  	| Åå ůŮ ˚ ◌̊ |
+  | ◌̇ `dot-above`             	| Ȧȧ Ėė Ȯȯ Ẏẏ İ Ḃḃ Ċċ Ḋḋ Ḟḟ Ġġ Ḣḣ Ṁṁ Ṅṅ Ṗṗ Ṙṙ Ṡṡ Ṫṫ Ẇẇ Ẋẋ Żż ˙ ◌̇  |
+  | ◌̆ `breve`                 	| Ăă ĕĔ Ğğ ĭĬ ŏŎ ŭŬ ˘ ◌̆  <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>◌᷋ |
+  | ◌̌ `caron`                 	| Čč Ďď ěĚ ňŇ Řř Šš Ťť Žž Ǎǎ ǐǏ ǰ  ǒǑ ǔǓ Ǧǧ Ǩǩ Ȟȟ ˇ ◌̌   |
+  | ◌̣ `dot-below`             	| Ạạ Ẹẹ Ọọ Ụụ Ỵỵ Ḅḅ Ḍḍ Ḥḥ Ḳḳ Ḷḷ Ṃṃ Ṇṇ Ṛṛ Ṣṣ Ṭṭ Ṿṿ Ẉẉ Ẓẓ ◌̣ |
+  | ◌̧ `cedilla`               	| Çç Ģģ Ķķ Ļļ ņŅ Ŗŗ Şş Ţţ ȩȨ Ḑḑ Ḩḩ ¸ ◌̧ |
+  | ◌̨ `ogonek`                	| ąĄ ęĘ įĮ ǫǪ ųŲ ˛ ◌̨ |
+  | ◌̋ `double-acute`          	| Őő Űű ˝ ◌̋ |
+  | ◌̉ `hook-above`            	| ảẢ ẻẺ ỉỈ ỏỎ ủỦ ỷỶ ◌̉ |
+  | ◌̛ `horn`                  	| ơƠ ưƯ ◌̛ |
   |   __Combo__                	|     |
   | ◌́̇ `acute+dot-above`      	| ṥṤ |
   | ◌̈̄ `diaeresis+macron`     	| ǟǞ ȫȪ ǖǕ |
   | ◌̃̄ `tilde+macron`         	| ȭȬ |
-  | ◌̄̀ `macron+grave`         	| ḕḔ ṑṐ ᷆  ᷅  |
-  | ◌̄́ `macron+acute`         	| ḗḖ ṓṒ ᷄  ᷇  |
+  | ◌̄̀ `macron+grave`         	| ḕḔ ṑṐ ◌᷆ ◌᷅ |
+  | ◌̄́ `macron+acute`         	| ḗḖ ṓṒ ◌᷄ ◌᷇ |
   | ◌̣̂ `circumflex+dot-below` 	| ậẬ ệỆ ộỘ |
   | ◌̂̉ `circumflex+hook-above`	| ẩẨ ểỂ ổỔ |
-  | ◌̇ `dot-above`             	| Ȧȧ Ėė Ȯȯ Ẏẏ İ Żż Ḃḃ Ċċ Ḋḋ Ḟḟ Ġġ Ḣḣ Ṁṁ Ṅṅ Ṗṗ Ṙṙ Ṡṡ Ṫṫ Ẇẇ Ẋẋ ˙  ̇  |
   | ◌̇̄ `dot-above+macron`     	| ǡǠ ȱȰ |
-  | ◌̣̣ `dot-below`            	| Ạạ Ẹẹ Ọọ Ụụ Ỵỵ Ḅḅ Ḍḍ Ḥḥ Ḳḳ Ḷḷ Ṃṃ Ṇṇ Ṛṛ Ṣṣ Ṭṭ Ṿṿ Ẉẉ Ẓẓ  ̣  |
   | ◌̣̄ `dot-below+macron`     	| ḹḸ ṝṜ |
   | ◌̣̇ `dot-below+dot-above`  	| ṩṨ |
   | ◌̆̉ `breve+hook-above`     	| ẳẲ |
@@ -298,6 +304,78 @@
   | ◌̛̀ `horn+grave`           	| ờỜ ừỪ |
 
   ⃣   Combining Enclosing Keycap
+
+### English — TypES: 🕱 dead keys
+
+#### <kbd>🕱</kbd>`space`
+  See the [Spaces](#spaces) table above
+
+
+#### <kbd>🕱</kbd>`Diacritics`
+
+  See also [Diacritics](#diacritics) section above re. how to enter diacritics without a <kbd>🕱</kbd>
+
+  |Mod|<kbd>§</kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |	|◌̀|◌́|◌̀|◌̈|◌̃|◌̄|◌̂|◌̊|◌̇|◌̆|◌̌|◌̣|◌̧|
+
+  |Mod|<kbd>q</kbd>|<kbd>w</kbd>|<kbd>e</kbd>|<kbd>r</kbd>|<kbd>t</kbd>|<kbd>y</kbd>|<kbd>u</kbd>|<kbd>i</kbd>|<kbd>o</kbd>|<kbd>p</kbd>|<kbd>\[</kbd>|<kbd>\]</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |	|◌̆| | |◌̊| | |◌̣|◌̇|◌̄| | | |
+
+  |Mod|<kbd>a</kbd>|<kbd>s</kbd>|<kbd>d</kbd>|<kbd>f</kbd>|<kbd>g</kbd>|<kbd>h</kbd>|<kbd>j</kbd>|<kbd>k</kbd>|<kbd>l</kbd>|<kbd>;</kbd>|<kbd>\'</kbd>|<kbd>\\</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |	| | | | |◌̨|◌̋|◌̉| ⃣| |◌̈|◌̛| |
+
+  |Mod|<kbd>\`</kbd>|<kbd>z</kbd>|<kbd>x</kbd>|<kbd>c</kbd>|<kbd>v</kbd>|<kbd>b</kbd>|<kbd>n</kbd>|<kbd>m</kbd>|<kbd>,</kbd>|<kbd>.</kbd>|<kbd>/</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |	|◌̀|◌̧| | |◌̌| |◌̃| | | |◌́|
+
+  <details>
+  <summary>List of 🕱 names</summary>
+
+  ◌̀ `grave`
+  ◌́ `acute`
+  ◌̈ `diaeresis`
+  ◌̃ `tilde`
+  ◌̄ `macron`
+  ◌̂ `circumflex`
+  ◌̊ `ring`
+  ◌̇ `dot-above`
+  ◌̆ `breve`
+  ◌̌ `caron`
+  ◌̣ `dot-below`
+  ◌̧ `cedilla`
+
+  ◌̨ `ogonek`
+  ◌̋ `double-acute`
+  ◌̉ `hook-above`
+  ◌̛ `horn`
+
+  (not shown in the table above, available within the first listed diacritic key)
+  ◌́̇ `acute+dot-above`
+  ◌̈̄ `diaeresis+macron`
+  ◌̃̄ `tilde+macron`
+  ◌̄̀ `macron+grave`
+  ◌̄́ `macron+acute`
+  ◌̣̂ `circumflex+dot-below`
+  ◌̂̉ `circumflex+hook-above`
+  ◌̇̄ `dot-above+macron`
+  ◌̣̄ `dot-below+macron`
+  ◌̣̇ `dot-below+dot-above`
+  ◌̆̉ `breve+hook-above`
+  ◌̣̆ `breve+dot-below`
+  ◌̌̇ `caron+dot-above`
+  ◌̨̄ `ogonek+macron`
+  ◌̛̣ `horn+dot-below`
+  ◌̛̉ `horn+hook-above`
+  ◌̛̃ `horn+tilde`
+  ◌̛́ `horn+acute`
+  ◌̛̀ `horn+grave`
+
+  ⃣   Combining Enclosing Keycap
+
+  </details><br>
 
 
 #### <kbd>🕱</kbd>`Copyright`

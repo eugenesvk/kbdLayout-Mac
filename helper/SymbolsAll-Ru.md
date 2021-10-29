@@ -3,9 +3,10 @@
 # Table of contents
 - [Russian — TypES: Main layers](#russian--types-main-layers)
     - [Spaces](#spaces)
+    - [Diacritics](#diacritics)
 - [Russian — TypES: 🕱 dead keys](#russian-types-dead-keys)
     - [<kbd>🕱</kbd>`space`](#space)
-    - [<kbd>🕱</kbd>`Diacritics`](#diacritics)
+    - [<kbd>🕱</kbd>`Diacritics`](#diacritics_1)
     - [<kbd>🕱</kbd>`Copyright`](#copyright)
     - [<kbd>🕱</kbd>`OldCyrillic`](#oldcyrillic)
     - [<kbd>🕱</kbd>`Typographical`](#typographical)
@@ -232,14 +233,12 @@
   | ␠  	| symbol for     	| 2420 	||             	|            	|            	|            	||<kbd>ы</kbd>, <kbd>с</kbd>               	|
   | ‑  	| no-break hyphen	| 2011 	||             	|            	|            	|            	||<kbd>ы</kbd>                             	|
 
+##### __Diacritics__
 
-### Russian — TypES: 🕱 dead keys
+  Two ways to enter:
 
-#### <kbd>🕱</kbd>`space`
-  See the __Spaces__ table above
-
-
-#### <kbd>🕱</kbd>`Diacritics`
+  1. with the key combos listed in the main layers above and provided in the table below
+  2. by entering <kbd>🕱</kbd>`Diacritics` via <kbd>^</kbd><kbd>ж</kbd>/<kbd>э</kbd> and pressing a single key in the [<kbd>🕱</kbd>`Diacritics`](#diacritics_1) section below
 
   Combining diacritics can be inserted once inside a given diacritic <kbd>🕱</kbd> by pressing either the:
 
@@ -247,12 +246,22 @@
   2. same key combo: <kbd>и</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>щ</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>щ</kbd> to insert ӣ
   3. same key (if this key doesn't support this specific diacritic): <kbd>и</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd><kbd>щ</kbd>, <kbd>щ</kbd> to insert ӣ (since __щ__ doesn't support __щ̄__)
 
-  |Row|<kbd>></kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>|
+  |Mod|<kbd>></kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>
   |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-  |<kbd>></kbd>–<kbd>=</kbd>	|            ◌̀|            ◌́|◌̀|◌̈|            ◌̃|◌̄|            ◌̂|            ◌̊|            ◌̇  |            ◌̆|            ◌̌|◌̣|◌̧|
-  |<kbd>й</kbd>–<kbd>ъ</kbd>	|             |<kbd>й</kbd>◌̆| | |<kbd>к</kbd>◌̊| |             |<kbd>г</kbd>◌̣|<kbd>ш</kbd>◌̇  |<kbd>щ</kbd>◌̄|             | | |
-  |<kbd>ф</kbd>–<kbd>ё</kbd>	|             |             | | |             | |<kbd>р</kbd>◌̋|             |<kbd>л</kbd>   ⃣|             |<kbd>ж</kbd>◌̈| | |
-  |<kbd>я</kbd>–<kbd>/</kbd>	|<kbd>]</kbd>◌̀|<kbd>я</kbd>◌̧| | |<kbd>м</kbd>◌̌| |<kbd>т</kbd>◌̃|             |               |             |<kbd>/</kbd>◌́|
+  |<kbd>^</kbd>            	|◌̀|◌́|◌̀|◌̈|◌̃|◌̄|◌̂|◌̊|◌̇|◌̆|◌̌|◌̣|◌̧|
+  |<kbd>⌥</kbd><kbd>⇧</kbd>	|◌̀| | | | | |◌̂| | | | | | |
+
+  |Mod|<kbd>й</kbd>|<kbd>ц</kbd>|<kbd>у</kbd>|<kbd>к</kbd>|<kbd>е</kbd>|<kbd>н</kbd>|<kbd>г</kbd>|<kbd>ш</kbd>|<kbd>щ</kbd>|<kbd>з</kbd>|<kbd>х</kbd>|<kbd>ъ</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |<kbd>⌥</kbd><kbd>⇧</kbd>	|◌̆| | |◌̊| | |◌̣|◌̇|◌̄| | | |
+
+  |Mod|<kbd>ф</kbd>|<kbd>ы</kbd>|<kbd>в</kbd>|<kbd>а</kbd>|<kbd>п</kbd>|<kbd>р</kbd>|<kbd>о</kbd>|<kbd>л</kbd>|<kbd>д</kbd>|<kbd>ж</kbd>|<kbd>э</kbd>|<kbd>ё</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |<kbd>⌥</kbd><kbd>⇧</kbd>	| | | | | |◌̋| | | |◌̈| | |
+
+  |Mod|<kbd>]</kbd>|<kbd>я</kbd>|<kbd>ч</kbd>|<kbd>с</kbd>|<kbd>м</kbd>|<kbd>и</kbd>|<kbd>т</kbd>|<kbd>ь</kbd>|<kbd>б</kbd>|<kbd>ю</kbd>|<kbd>/</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |<kbd>⌥</kbd><kbd>⇧</kbd>	|◌̀|◌̧| | |◌̌| |◌̃| | | |◌́|
 
   |    Diacritic              	| Symbols    |
   | :-------------------------	| :--------- |
@@ -272,9 +281,56 @@
   ◌̣ `dot-below`
   ◌̧ `cedilla`
 
+  ◌̋ `double-acute`   
+  ⃣    Combining Enclosing Keycap
+
+### Russian — TypES: 🕱 dead keys
+
+#### <kbd>🕱</kbd>`space`
+  See the [Spaces](#spaces) table above
+
+
+#### <kbd>🕱</kbd>`Diacritics`
+
+  See also [Diacritics](#diacritics) section above re. how to enter diacritics without a <kbd>🕱</kbd>
+
+  |Mod|<kbd>></kbd>|<kbd>1</kbd>|<kbd>2</kbd>|<kbd>3</kbd>|<kbd>4</kbd>|<kbd>5</kbd>|<kbd>6</kbd>|<kbd>7</kbd>|<kbd>8</kbd>|<kbd>9</kbd>|<kbd>0</kbd>|<kbd>-</kbd>|<kbd>=</kbd>
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |	|◌̀|◌́|◌̀|◌̈|◌̃|◌̄|◌̂|◌̊|◌̇|◌̆|◌̌|◌̣|◌̧|
+
+  |Mod|<kbd>й</kbd>|<kbd>ц</kbd>|<kbd>у</kbd>|<kbd>к</kbd>|<kbd>е</kbd>|<kbd>н</kbd>|<kbd>г</kbd>|<kbd>ш</kbd>|<kbd>щ</kbd>|<kbd>з</kbd>|<kbd>х</kbd>|<kbd>ъ</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |	|◌̆| | |◌̊| | |◌̣|◌̇|◌̄| | | |
+
+  |Mod|<kbd>ф</kbd>|<kbd>ы</kbd>|<kbd>в</kbd>|<kbd>а</kbd>|<kbd>п</kbd>|<kbd>р</kbd>|<kbd>о</kbd>|<kbd>л</kbd>|<kbd>д</kbd>|<kbd>ж</kbd>|<kbd>э</kbd>|<kbd>ё</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |	| | | | | |◌̋| | ⃣| |◌̈| | |
+
+  |Mod|<kbd>]</kbd>|<kbd>я</kbd>|<kbd>ч</kbd>|<kbd>с</kbd>|<kbd>м</kbd>|<kbd>и</kbd>|<kbd>т</kbd>|<kbd>ь</kbd>|<kbd>б</kbd>|<kbd>ю</kbd>|<kbd>/</kbd>|
+  |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+  |	|◌̀|◌̧| | |◌̌| |◌̃| | | |◌́|
+
+  <details>
+  <summary>List of 🕱 names</summary>
+
+  ◌̀ `grave`
+  ◌́ `acute`
+  ◌̈ `diaeresis`
+  ◌̃ `tilde`
+  ◌̄ `macron`
+  ◌̂ `circumflex`
+  ◌̊ `ring`
+  ◌̇ `dot-above`
+  ◌̆ `breve`
+  ◌̌ `caron`
+  ◌̣ `dot-below`
+  ◌̧ `cedilla`
+
   ◌̋ `double-acute`
+
   ⃣   Combining Enclosing Keycap
 
+  </details><br>
 
 #### <kbd>🕱</kbd>`Copyright`
   <kbd>к</kbd> ®  
