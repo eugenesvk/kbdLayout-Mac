@@ -114,6 +114,13 @@ Combining diacritics can be inserted once inside a given diacritic <kbd>🕱</kb
 
 ### Additional tips
 
+#### Poor man's cheat sheets: show system notification with key-symbol pairs for selected <kbd>🕱</kbd>s
+
+Given the challenge of remembering all the key combos, you may want to add helpful notifications via [Karabiner-Elements](https://karabiner-elements.pqrs.org) whenever you press a <kbd>🕱</kbd> (<kbd>🕱</kbd>`Diacritics`, <kbd>🕱</kbd>`Copyright`, and <kbd>🕱</kbd>`space` are the only ones small enough to fit there), e.g. <img src="./img/CheatSheet_Diacritics.png" alt="Cheat Sheet example: 🕱'Diacritics'" width="300"/>
+
+  - copy this [config file](./helper/karabiner-elements/🕱⃣CheatSheet.json) to `~/.config/karabiner/assets/complex_modifications`
+  - in `Karabiner-Elements`→`Complex modifications`→`Add rule`→`Enable all` the rules in the `🕱⃣ Cheat Sheets` group
+
 #### Insert English <kbd>⇧</kbd><kbd>1</kbd>–<kbd>0</kbd> symbols in the Russian layout
 
 Russian layout has somehwat different <kbd>⇧</kbd><kbd>1</kbd>–<kbd>0</kbd> symbols —
