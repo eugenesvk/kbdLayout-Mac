@@ -231,7 +231,7 @@
   |¦ ¦ 	| em             	| 2003 	||             	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>ь</kbd>, <kbd>м</kbd>               	|
   | ␣  	| open box       	| 2423 	||             	|            	|            	|            	||<kbd>г</kbd>, <kbd>у</kbd>               	|
   | ␠  	| symbol for     	| 2420 	||             	|            	|            	|            	||<kbd>ы</kbd>, <kbd>с</kbd>               	|
-  | ‑  	| no-break hyphen	| 2011 	||             	|            	|            	|            	||<kbd>ы</kbd>                             	|
+  | ‑  	| no-break hyphen	| 2011 	||             	|            	|            	|            	||<kbd>-</kbd>                             	|
 
 ##### __Diacritics__
 
@@ -338,7 +338,7 @@
   <kbd>щ</kbd> (ɔ)  
   <kbd>з</kbd> ℗  
   <kbd>ы</kbd> ℠  
-  <kbd>п</kbd> ®  
+  <kbd>р</kbd> ®  
   <kbd>о</kbd> (ɔ)  
   <kbd>л</kbd> 🄯  
   <kbd>д</kbd> 🄯  

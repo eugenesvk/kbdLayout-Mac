@@ -230,7 +230,7 @@
   |¦ ¦ 	| em             	| 2003 	||             	|<kbd>^</kbd>	|<kbd>⌥</kbd>	|<kbd>⌘</kbd>	||<kbd>m</kbd>               	|
   | ␣  	| open box       	| 2423 	||             	|            	|            	|            	||<kbd>u</kbd>               	|
   | ␠  	| symbol for     	| 2420 	||             	|            	|            	|            	||<kbd>s</kbd>               	|
-  | ‑  	| no-break hyphen	| 2011 	||             	|            	|            	|            	||<kbd>s</kbd>               	|
+  | ‑  	| no-break hyphen	| 2011 	||             	|            	|            	|            	||<kbd>-</kbd>               	|
 
 ##### __Diacritics__
 
