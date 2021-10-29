@@ -6,7 +6,7 @@
     - [Diacritics](#diacritics)
 - [English — TypES: 🕱 dead keys](#english-types-dead-keys)
     - [<kbd>🕱</kbd>`space`](#space)
-    - [<kbd>🕱</kbd>`Diacritics`](#diacritics_1)
+    - [<kbd>🕱</kbd>`Diacritics`](#diacritics-1)
     - [<kbd>🕱</kbd>`Copyright`](#copyright)
     - [<kbd>🕱</kbd>`OldCyrillic`](#oldcyrillic)
     - [<kbd>🕱</kbd>`Typographical`](#typographical)
@@ -237,7 +237,7 @@
   Two ways to enter:
 
   1. with the key combos listed in the main layers above and provided in the table below
-  2. by entering <kbd>🕱</kbd>`Diacritics` via <kbd>^</kbd><kbd>;</kbd>/<kbd>\'</kbd> and pressing a single key in the [<kbd>🕱</kbd>`Diacritics`](#diacritics_1) section below
+  2. by entering <kbd>🕱</kbd>`Diacritics` via <kbd>^</kbd><kbd>;</kbd>/<kbd>\'</kbd> and pressing a single key in the [<kbd>🕱</kbd>`Diacritics`](#diacritics-1) section below
 
   Combining diacritics can be inserted once inside a given diacritic <kbd>🕱</kbd> by pressing either the:
 
