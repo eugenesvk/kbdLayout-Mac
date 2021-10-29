@@ -1,7 +1,7 @@
 # Russian — TypES
 
 # Table of contents
-- [Russian — TypES: Main layers](#russian-types-main-layers)
+- [Russian — TypES: Main layers](#russian--types-main-layers)
     - [Spaces](#spaces)
 - [Russian — TypES: 🕱 dead keys](#russian-types-dead-keys)
     - [<kbd>🕱</kbd>`space`](#space)

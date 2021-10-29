@@ -1,7 +1,7 @@
 # English — TypES
 
 # Table of contents
-- [English — TypES: Main layers](#english-types-main-layers)
+- [English — TypES: Main layers](#english--types-main-layers)
     - [Spaces](#spaces)
 - [English — TypES: 🕱 dead keys](#english-types-dead-keys)
     - [<kbd>🕱</kbd>`space`](#space)
