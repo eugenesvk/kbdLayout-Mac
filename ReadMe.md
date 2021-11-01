@@ -121,6 +121,8 @@ Given the challenge of remembering all the key combos, you may want to add helpf
   - copy this [config file](./helper/karabiner-elements/🕱⃣CheatSheet.json) to `~/.config/karabiner/assets/complex_modifications`
   - in `Karabiner-Elements`→`Complex modifications`→`Add rule`→`Enable all` the rules in the `🕱⃣ Cheat Sheets` group
 
+To avoid spamming the __Notification Center__ with these notification messages you can uncheck `Show in Notification Center` in `System Preferences`→`Notification`→`Script Editor`
+
 #### Insert English <kbd>⇧</kbd><kbd>1</kbd>–<kbd>0</kbd> symbols in the Russian layout
 
 Russian layout has somehwat different <kbd>⇧</kbd><kbd>1</kbd>–<kbd>0</kbd> symbols —
