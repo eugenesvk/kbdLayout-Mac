@@ -22,6 +22,9 @@ All notable changes to this project will be documented in this file
    <!-- + :lock: ??? -->
    <!-- vulnerabilities -->
 
+  - __Changed__
+    + ru: update `🇷🇺R⇧≈🇺🇸L⇧` helper rule to include <kbd>§</kbd> (type `~`)
+
   [1.0.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.0.0
 ## [1.0.0]
   - __Added__
