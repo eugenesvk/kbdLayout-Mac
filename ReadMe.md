@@ -137,7 +137,7 @@ Russian layout has somehwat different <kbd>⇧</kbd><kbd>1</kbd>–<kbd>0</kbd> 
   1. Use <kbd>^</kbd><kbd>⌥</kbd> that copies the <kbd>⌥</kbd> layer of the `Russian - PC` layout  
   2. Use [Karabiner-Elements](https://karabiner-elements.pqrs.org) to remap <kbd>right⇧</kbd> to insert English characters in the Russian layout (unfortunately, keyboard layouts can't differentiate between left and right keys):
       + copy this [config file](./helper/karabiner-elements/ru-RShift=en-LShift.json) to `~/.config/karabiner/assets/complex_modifications`
-      + in `Karabiner-Elements`→`Complex modifications`→`Add rule` add the rule named `"  Ru RShift+1–4,6–7 to En: r⇧1–4,6–7 ⟶ ⌃⌥1–4,6–7 (in 'Russian — TypES' mapped to en⇧)"` under the group `ruR⇧≈enL⇧`
+      + in `Karabiner-Elements`→`Complex modifications`→`Add rule` add the rule named ``  Ru RShift+§,1–4,6–7 to En: 🇷🇺‍R⇧≈‍🇺🇸L⇧; r⇧1–4,6–7 ⟶ ⌃⌥1–4,6–7 (@'Russian — TypES' mapped to en⇧) r⇧§ ⟶ ⇧` `` under the group `ruR⇧≈enL⇧`
 
 #### Delete the default keyboard layout
 
