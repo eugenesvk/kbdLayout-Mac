@@ -1,34 +1,24 @@
-{
-"title": "ruR⇧≈enL⇧", "rules" : [
-  {"description" 	: "  Ru RShift+§,1–4,6–7 to En: 🇷🇺R⇧≈🇺🇸L⇧; r⇧1–4,6–7 ⟶ ⌃⌥1–4,6–7 (@'Russian — TypES' mapped to en⇧) r⇧§ ⟶ ⇧`",
-   "manipulators"	: [
- {               	"type":"basic","conditions":[{"type":"input_source_if","input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$"}]}],
- "from"          	:{"key_code":"non_us_backslash"      ,"modifiers":{"mandatory":["right_shift"],"optional":[]}},
- "to"            	:{"key_code":"grave_accent_and_tilde","modifiers":[             "left_shift"]} },
-   {"type"       	: "basic",
-    "from"       	: {"key_code":"1"	, "modifiers": {"mandatory":["right_shift"], "optional":[]}},
-    "to"         	: {"key_code":"1"	, "modifiers": ["left_control","left_option"]},
-    "conditions" 	: [{"type":"input_source_if", "input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$" }] }]},
-   {"type"       	: "basic",
-    "from"       	: {"key_code":"2"	, "modifiers": {"mandatory":["right_shift"], "optional":[]}},
-    "to"         	: {"key_code":"2"	, "modifiers": ["left_control","left_option"]},
-    "conditions" 	: [{"type":"input_source_if", "input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$" }] }]},
-   {"type"       	: "basic",
-    "from"       	: {"key_code":"3"	, "modifiers": {"mandatory":["right_shift"], "optional":[]}},
-    "to"         	: {"key_code":"3"	, "modifiers": ["left_control","left_option"]},
-    "conditions" 	: [{"type":"input_source_if", "input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$" }] }]},
-   {"type"       	: "basic",
-    "from"       	: {"key_code":"4"	, "modifiers": {"mandatory":["right_shift"], "optional":[]}},
-    "to"         	: {"key_code":"4"	, "modifiers": ["left_control","left_option"]},
-    "conditions" 	: [{"type":"input_source_if", "input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$" }] }]},
-   {"type"       	: "basic",
-    "from"       	: {"key_code":"6"	, "modifiers": {"mandatory":["right_shift"], "optional":[]}},
-    "to"         	: {"key_code":"6"	, "modifiers": ["left_control","left_option"]},
-    "conditions" 	: [{"type":"input_source_if", "input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$" }] }]},
-   {"type"       	: "basic"        	,
-    "from"       	: {"key_code":"7"	, "modifiers": {"mandatory":["right_shift"], "optional":[]}},
-    "to"         	: {"key_code":"7"	, "modifiers": ["left_control","left_option"]},
-    "conditions" 	: [{"type":"input_source_if", "input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$" }] }]}
-  ]}
-
+{"title": "ruR⇧≈enL⇧", "rules" : [
+{      	"description":"  Ru RShift+§,1–4,6–7 to En: 🇷🇺R⇧≈🇺🇸L⇧; r⇧1–4,6–7 ⟶ ⌃⌥1–4,6–7 (@'Russian — TypES' mapped to en⇧) r⇧§ ⟶ ⇧`","manipulators":[
+ {     	"type":"basic","conditions":[{"type":"input_source_if","input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$"}]}],
+ "from"	:{"key_code":"non_us_backslash"      ,"modifiers":{"mandatory":["right_shift"],"optional":[]}},
+ "to"  	:{"key_code":"grave_accent_and_tilde","modifiers":[             "left_shift"]} },
+ {     	"type":"basic","conditions":[{"type":"input_source_if","input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$"}]}],
+ "from"	:{"key_code":"1","modifiers":{"mandatory":["right_shift"],"optional":[]}},
+ "to"  	:{"key_code":"1","modifiers":["left_control","left_option"]} },
+ {     	"type":"basic","conditions":[{"type":"input_source_if","input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$"}]}],
+ "from"	:{"key_code":"2","modifiers":{"mandatory":["right_shift"],"optional":[]}},
+ "to"  	:{"key_code":"2","modifiers":["left_control","left_option"]} },
+ {     	"type":"basic","conditions":[{"type":"input_source_if","input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$"}]}],
+ "from"	:{"key_code":"3","modifiers":{"mandatory":["right_shift"],"optional":[]}},
+ "to"  	:{"key_code":"3","modifiers":["left_control","left_option"]} },
+ {     	"type":"basic","conditions":[{"type":"input_source_if","input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$"}]}],
+ "from"	:{"key_code":"4","modifiers":{"mandatory":["right_shift"],"optional":[]}},
+ "to"  	:{"key_code":"4","modifiers":["left_control","left_option"]} },
+ {     	"type":"basic","conditions":[{"type":"input_source_if","input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$"}]}],
+ "from"	:{"key_code":"6","modifiers":{"mandatory":["right_shift"],"optional":[]}},
+ "to"  	:{"key_code":"6","modifiers":["left_control","left_option"]} },
+ {     	"type":"basic","conditions":[{"type":"input_source_if","input_sources":[{"input_source_id":"^org\\.sil\\.ukelele\\.keyboardlayout\\.t\\.russian—types$"}]}],
+ "from"	:{"key_code":"7","modifiers":{"mandatory":["right_shift"],"optional":[]}},
+ "to"  	:{"key_code":"7","modifiers":["left_control","left_option"]} }  ]}
 ]}
