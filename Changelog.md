@@ -22,8 +22,46 @@ All notable changes to this project will be documented in this file
    <!-- + :lock: ??? -->
    <!-- vulnerabilities -->
 
+  - __Added__
+    + `en` `ru` <kbd>🕱</kbd>`Typographical`: modifier key labels to match their physical position
+        * <kbd>§</kbd> ⎋
+        * <kbd>q</kbd> ⭾
+        * <kbd>a</kbd> ⇪
+        * <kbd>`</kbd> ⇧
+        * <kbd>⎇</kbd><kbd>`</kbd> 🌐
+        * <kbd>z</kbd> ⎈
+        * <kbd>⎇</kbd><kbd>z</kbd> ⌃
+        * <kbd>x</kbd> ⎇
+        * <kbd>⎇</kbd><kbd>x</kbd> ⌥
+        * <kbd>c</kbd> ◆
+        * <kbd>h</kbd> ✱
+        * <kbd>⎇</kbd><kbd>c</kbd> ⌘
+    + `en` `ru` <kbd>🕱</kbd>`Typographical`: F1–12 key labels on the numbers row
+        * <kbd>1</kbd>–<kbd>5</kbd> 🔅 🔆 🎛 ▦ 💡
+        * <kbd>7</kbd>–<kbd>=</kbd> ◀◀ ▶⏸ ▶▶ 🔇 🔉 🔊
+    + `en` `ru` <kbd>🕱</kbd>`Typographical`: alternative symbols for common punctuation
+        * <kbd>`</kbd> ˋ
+        * <kbd>\</kbd> ⧵
+        * <kbd>⎇</kbd><kbd>\</kbd> ＼
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>\</kbd> ﹨
+        * <kbd>⎇</kbd><kbd>,</kbd> ⸴
+        * <kbd>⎇</kbd><kbd>.</kbd> ．
+        * <kbd>⎇</kbd><kbd>/</kbd> ⁄
+        * <kbd>⎇</kbd><kbd>;</kbd> ︔
+        * <kbd>⎇</kbd><kbd>7</kbd> ﹖
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>/</kbd> ﹖
+    + `en` `ru` <kbd>🕱</kbd>`Typographical`: various other symbols
+        * <kbd>⎇</kbd><kbd>b</kbd>⌨
+        * <kbd>⎇</kbd><kbd>n</kbd>🔢
+        * <kbd>⎇</kbd><kbd>m</kbd>🖰
   - __Changed__
-    + ru: update `🇷🇺R⇧≈🇺🇸L⇧` helper rule to include <kbd>§</kbd> (type `~`)
+    + `ru` update `🇷🇺R⇧≈🇺🇸L⇧` helper rule to include <kbd>§</kbd> (type `~`)
+    + `en` `ru` <kbd>🕱</kbd>`Typographical`: move various symbols around
+        * move ⏏ from <kbd>§</kbd> to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>§</kbd>
+        * move ↵/↩/⏎/⌤ to from <kbd>\</kbd> to <kbd>]</kbd>
+        * copy ⇟/⇞ to <kbd>⎇</kbd><kbd>j</kbd>/<kbd>k</kbd>
+        * move  from <kbd>a</kbd> to <kbd>⎇</kbd><kbd>a</kbd>
+        * move ⌧ from <kbd>c</kbd> to <kbd>b</kbd>
 
   [1.0.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.0.0
 ## [1.0.0]
