@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 
-# label1   	= r" § 1 2 3 4 5 6 7 8 9 0 - = ← "
-# label1_ru	= r" > 1 2 3 4 5 6 7 8 9 0 - = ← "
-# labelQ = r" → q w e r t y u i o p [ ] "
-# labelQ_ru	= r" → й ц у к е н г ш щ з х ъ "
-label1    = r" § 1 2 3 4 5 6 7 8 9 0 - = "
-label1_ru	= r" > 1 2 3 4 5 6 7 8 9 0 - = "
-labelQ   	= r" q w e r t y u i o p [ ] "
-labelQ_ru	= r" й ц у к е н г ш щ з х ъ "
-labelA   	= r" a s d f g h j k l ; ' \ "
-labelA_ru	= r" ф ы в а п р о л д ж э ё "
-labelZ   	= r" ` z x c v b n m , . / "
-labelZ_ru	= r" ] я ч с м и т ь б ю / "
+# label1   	= R" § 1 2 3 4 5 6 7 8 9 0 - = ← "
+# label1_ru	= R" > 1 2 3 4 5 6 7 8 9 0 - = ← "
+# labelQ = R" → q w e r t y u i o p [ ] "
+# labelQ_ru	= R" → й ц у к е н г ш щ з х ъ "
+label1    = R" § 1 2 3 4 5 6 7 8 9 0 - = "
+label1_ru	= R" > 1 2 3 4 5 6 7 8 9 0 - = "
+labelQ   	= R" q w e r t y u i o p [ ] "
+labelQ_ru	= R" й ц у к е н г ш щ з х ъ "
+labelA   	= R" a s d f g h j k l ; ' \ "
+labelA_ru	= R" ф ы в а п р о л д ж э ё "
+labelZ   	= R" ` z x c v b n m , . / "
+labelZ_ru	= R" ] я ч с м и т ь б ю / "
 labels   	= [\
   label1.replace(' ',''),
   labelQ.replace(' ',''),

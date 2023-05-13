@@ -4,7 +4,7 @@ import os
 import unicodedata
 
 # paste all the characters that the layouts support here, duplicates are fine
-allChars =r"""
+allChars =R"""
 <!-- ` 1 2 3 4 5  6 7 8 9 0 - = ⌫       -->
 <!-- ~ ! @ # $ %  ^ & * ( ) _ +    ⇧    -->
 <!-- ` ¹ ² ³ $ ‰  ↑ § ∞ ← → — ≠      ⌥  -->
