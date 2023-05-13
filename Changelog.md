@@ -23,6 +23,28 @@ All notable changes to this project will be documented in this file
    <!-- vulnerabilities -->
 
   - __Added__
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`Brackets` and mapped it to <kbd>⌥</kbd><kbd>d</kbd>, pressing it enables various brackets <kbd>🕱</kbd> that terminate with the opening bracket and close the bracket on another tap of the same key (also works with <kbd>⎇</kbd> being held):
+        * <kbd>d</kbd> )                                   	() parenthesis
+        * <kbd>f</kbd> <kbd>🕱</kbd>`Brackets-[`            	[] square bracket
+        * <kbd>j</kbd> <kbd>🕱</kbd>`Brackets-{`            	{} brace
+        * <kbd>k</kbd> <kbd>🕱</kbd>`Brackets-"`            	"" regular double quote
+        * <kbd>l</kbd> <kbd>🕱</kbd>`Brackets-'`            	'' regular single quote
+        * <kbd>r</kbd> <kbd>🕱</kbd>`Brackets-‹`            	‹› single angle quote (single chevrons)
+        * <kbd>t</kbd> <kbd>🕱</kbd>`Brackets-«`            	«» double angle quote (double chevrons)
+        * <kbd>n</kbd> <kbd>🕱</kbd>`Brackets-【`            	【】 black lenticular bracket
+        * <kbd>m</kbd> <kbd>🕱</kbd>`Brackets-「`            	「」 corner bracket
+        * <kbd>o</kbd> <kbd>🕱</kbd>`Brackets-〔`            	〔〕 tortoise shell bracket
+        * <kbd>,</kbd> <kbd>🕱</kbd>`Brackets-〈`            	〈〉 angle bracket or math ⟨⟩
+        * <kbd>.</kbd> <kbd>🕱</kbd>`Brackets-⟪`            	⟪⟫ double angle bracket
+        * <kbd>⇧</kbd><kbd>,</kbd> <kbd>🕱</kbd>`Brackets-⟪`	⟪⟫ double angle bracket
+        * <kbd>g</kbd> <kbd>🕱</kbd>`Brackets-‘`            	‘’ curly single quote
+        * <kbd>h</kbd> <kbd>🕱</kbd>`Brackets-“`            	“” double curly quote
+        * <kbd>y</kbd> <kbd>🕱</kbd>`Brackets-\`            	`'' emacs quote
+        * <kbd>;</kbd> <kbd>🕱</kbd>`Brackets-="`           	="" string assignment
+        * <kbd>z</kbd> <kbd>🕱</kbd>`Brackets-⸨`            	⸨⸩ Double Parenthesis
+        * <kbd>p</kbd>                                     	␌ formfeed
+
+        * <kbd></kbd> ⎋
     + `en` `ru` <kbd>🕱</kbd>`Typographical`: modifier key labels to match their physical position
         * <kbd>§</kbd> ⎋
         * <kbd>q</kbd> ⭾
@@ -62,6 +84,8 @@ All notable changes to this project will be documented in this file
         * copy ⇟/⇞ to <kbd>⎇</kbd><kbd>j</kbd>/<kbd>k</kbd>
         * move  from <kbd>a</kbd> to <kbd>⎇</kbd><kbd>a</kbd>
         * move ⌧ from <kbd>c</kbd> to <kbd>b</kbd>
+    + `en` `ru` move various symbols around
+        * move ° from <kbd>d</kbd> to <kbd>🕱</kbd>`Typographical`: <kbd>⎇</kbd><kbd>d</kbd> to free up for <kbd>🕱</kbd>`Brackets`
 
   [1.0.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.0.0
 ## [1.0.0]
