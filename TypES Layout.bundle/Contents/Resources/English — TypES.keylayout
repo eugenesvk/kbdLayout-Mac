@@ -198,8 +198,8 @@
             <key code="17" action="T"/>
             <key code="18" output="!"/>
             <key code="19" output="@"/>
-            <key code="20" output="#"/>
-            <key code="21" output="$"/>
+            <key code="20" action="3⇧"/>
+            <key code="21" action="4⇧"/>
             <key code="22" action="^⇧"/>
             <key code="23" output="%"/>
             <key code="24" action="+"/>
@@ -406,23 +406,23 @@
         </keyMap>
         <keyMap index="3">
             <key code="0" action="≈"/>
-            <key code="1" action="§ 2"/>
+            <key code="1" action="s⎇"/>
             <key code="2" action="°"/>
             <key code="3" action="£"/>
             <key code="4" action="₽"/>
             <key code="5" action="π"/>
             <key code="6" action="Ω"/>
-            <key code="7" output="×"/>
+            <key code="7" action="×"/>
             <key code="8" action="©"/>
             <key code="9" action="↓"/>
-            <key code="10" output="`"/>
-            <key code="11" output="ß"/>
+            <key code="10" action="§⎇"/>
+            <key code="11" action="b⎇"/>
             <key code="12" action="⎋"/>
             <key code="13" action="∑"/>
             <key code="14" action="€"/>
             <key code="15" action="◊"/>
             <key code="16" action="¥"/>
-            <key code="17" action="action 3"/>
+            <key code="17" action="t⎇"/>
             <key code="18" action="¹"/>
             <key code="19" action="²"/>
             <key code="20" action="³"/>
@@ -437,9 +437,9 @@
             <key code="29" action="→"/>
             <key code="30" action="]3"/>
             <key code="31" action="OldCyrillic"/>
-            <key code="32" action="action 2"/>
+            <key code="32" action="u⎇"/>
             <key code="33" action="[3"/>
-            <key code="34" action="action 1"/>
+            <key code="34" action="i⎇"/>
             <key code="35" action="′"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="”"/>
@@ -463,6 +463,7 @@
             <key code="56" output=""/>
             <key code="57" output=""/>
             <key code="58" output=""/>
+            <key code="59" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
@@ -1119,7 +1120,7 @@
             <key code="27" action="-^"/>
             <key code="28" action="8^"/>
             <key code="29" action="0^"/>
-            <key code="30" output="&#x001D;"/>
+            <key code="30" action="]⎈"/>
             <key code="31" action="o^"/>
             <key code="32" action="u^"/>
             <key code="33" output="&#x001B;"/>
@@ -1765,6 +1766,7 @@
         <action id="$">
             <when state="none" output="$"/>
             <when state="Greek" output="£"/>
+            <when state="Typographical" output="▦"/>
         </action>
         <action id="(">
             <when state="none" output="("/>
@@ -2055,6 +2057,10 @@
             <when state="none" next="diaeresis"/>
             <when state="diaeresis" output="̈"/>
         </action>
+        <action id="3⇧">
+            <when state="none" output="#"/>
+            <when state="Typographical" output="☰ "/>
+        </action>
         <action id="4">
             <when state="none" output="4"/>
             <when state="Diacritics" next="tilde"/>
@@ -2065,6 +2071,10 @@
         <action id="4^">
             <when state="none" next="tilde"/>
             <when state="tilde" output="̃"/>
+        </action>
+        <action id="4⇧">
+            <when state="none" output="$"/>
+            <when state="Typographical" output="𝌆"/>
         </action>
         <action id="5">
             <when state="none" output="5"/>
@@ -2516,7 +2526,7 @@
         <action id="\0">
             <when state="none" output="\"/>
             <when state="Math" output="∨"/>
-            <when state="Typographical" output="↩"/>
+            <when state="Typographical" output="⧵"/>
             <when state="math/" output="∧"/>
             <when state="math=" output="⤇"/>
             <when state="math_" output="⟂"/>
@@ -2525,20 +2535,26 @@
         </action>
         <action id="\^">
             <when state="none" output="&#x001C;"/>
-            <when state="Typographical" output="⌤"/>
         </action>
         <action id="\⇧⌥">
             <when state="none" output="¦"/>
             <when state="Greek" output="Ζ"/>
+            <when state="Typographical" output="﹨"/>
         </action>
         <action id="]0">
             <when state="none" output="]"/>
             <when state="Math" output="⌋"/>
+            <when state="Typographical" output="↩"/>
             <when state="math|" output="⟧"/>
         </action>
         <action id="]3">
             <when state="none" output="]"/>
             <when state="Greek" output="»"/>
+            <when state="Typographical" output="⏎"/>
+        </action>
+        <action id="]⎈">
+            <when state="none" output="&#x001D;"/>
+            <when state="Typographical" output="⌤"/>
         </action>
         <action id="^">
             <when state="none" next="circumflex"/>
@@ -2560,6 +2576,7 @@
         <action id="`">
             <when state="none" next="grave"/>
             <when state="Greek" output="Μ"/>
+            <when state="Typographical" output="⏏"/>
             <when state="grave" output="̀"/>
             <when state="horn" next="horn+grave"/>
             <when state="macron" next="macron+grave"/>
@@ -2568,13 +2585,14 @@
         <action id="` 1">
             <when state="none" output="`"/>
             <when state="Greek" output="`"/>
+            <when state="Typographical" output="🌐"/>
         </action>
         <action id="` 2">
             <when state="none" output="`"/>
             <when state="Diacritics" next="grave"/>
             <when state="Greek" output="§"/>
             <when state="Math" output="¬"/>
-            <when state="Typographical" output="⏏"/>
+            <when state="Typographical" output="⎋"/>
             <when state="grave" output="̀"/>
             <when state="horn" next="horn+grave"/>
             <when state="macron" next="macron+grave"/>
@@ -2584,6 +2602,7 @@
             <when state="none" output="\"/>
             <when state="Diacritics" next="grave"/>
             <when state="Math" output="¬"/>
+            <when state="Typographical" output="⇧"/>
             <when state="grave" output="̀"/>
             <when state="horn" next="horn+grave"/>
             <when state="math-" output="⇀"/>
@@ -2596,7 +2615,7 @@
             <when state="none" output="a"/>
             <when state="Greek" output="α"/>
             <when state="Math" output="∀"/>
-            <when state="Typographical" output=""/>
+            <when state="Typographical" output="⇪"/>
             <when state="acute" output="á"/>
             <when state="breve" output="ă"/>
             <when state="breve+dot-below" output="ặ"/>
@@ -2621,19 +2640,6 @@
         <action id="action">
             <when state="none" output="⇪"/>
             <when state="Greek" output="Έ"/>
-        </action>
-        <action id="action 1">
-            <when state="none" next="Diacritics"/>
-            <when state="Greek" output="†"/>
-            <when state="OldCyrillic" output="ї"/>
-        </action>
-        <action id="action 2">
-            <when state="none" next="Typographical"/>
-            <when state="Greek" output="­"/>
-        </action>
-        <action id="action 3">
-            <when state="none" next="Math"/>
-            <when state="Greek" output="™"/>
         </action>
         <action id="apostrophe0">
             <when state="none" output="&#x0027;"/>
@@ -2662,9 +2668,14 @@
             <when state="none" output="b"/>
             <when state="Greek" output="β"/>
             <when state="Math" output="∵"/>
+            <when state="Typographical" output="⌧"/>
             <when state="dot-above" output="ḃ"/>
             <when state="dot-below" output="ḅ"/>
             <when state="space" output=" "/>
+        </action>
+        <action id="b⎇">
+            <when state="none" output="ß"/>
+            <when state="Typographical" output="⌨"/>
         </action>
         <action id="c">
             <when state="none" output="c"/>
@@ -2672,7 +2683,7 @@
             <when state="Greek" output="ψ"/>
             <when state="Math" output="ℂ"/>
             <when state="OldCyrillic" output="ѱ"/>
-            <when state="Typographical" output="⌧"/>
+            <when state="Typographical" output="◆"/>
             <when state="acute" output="ć"/>
             <when state="caron" output="č"/>
             <when state="cedilla" output="ç"/>
@@ -2750,6 +2761,7 @@
             <when state="none" output="h"/>
             <when state="Diacritics" next="double-acute"/>
             <when state="Greek" output="η"/>
+            <when state="Typographical" output="✱"/>
             <when state="caron" output="ȟ"/>
             <when state="cedilla" output="ḩ"/>
             <when state="circumflex" output="ĥ"/>
@@ -2763,6 +2775,12 @@
             <when state="none" output="&#x0009;"/>
             <when state="caron" next="caron+dot-above"/>
             <when state="dot-below" next="dot-below+dot-above"/>
+        </action>
+        <action id="i⎇">
+            <when state="none" next="Diacritics"/>
+            <when state="Greek" output="†"/>
+            <when state="OldCyrillic" output="ї"/>
+            <when state="Typographical" output="↖"/>
         </action>
         <action id="j">
             <when state="none" output="j"/>
@@ -2860,7 +2878,7 @@
             <when state="Greek" output="ς"/>
             <when state="Math" output="ℚ"/>
             <when state="OldCyrillic" output="ѳ"/>
-            <when state="Typographical" output="⎋"/>
+            <when state="Typographical" output="⭾"/>
             <when state="breve" output="̆"/>
         </action>
         <action id="r">
@@ -2921,6 +2939,11 @@
             <when state="space" output=" "/>
             <when state="tilde" output="˜"/>
         </action>
+        <action id="s⎇">
+            <when state="none" output="§"/>
+            <when state="Greek" output="ß"/>
+            <when state="Typographical" output="🕱"/>
+        </action>
         <action id="t">
             <when state="none" output="t"/>
             <when state="Copyright" output="™"/>
@@ -2934,16 +2957,26 @@
             <when state="dot-below" output="ṭ"/>
             <when state="space" output=" "/>
         </action>
+        <action id="t⎇">
+            <when state="none" next="Math"/>
+            <when state="Greek" output="™"/>
+        </action>
         <action id="u^">
             <when state="none" output="&#x0015;"/>
             <when state="breve" next="breve+dot-below"/>
             <when state="circumflex" next="circumflex+dot-below"/>
+        </action>
+        <action id="u⎇">
+            <when state="none" next="Typographical"/>
+            <when state="Greek" output="­"/>
+            <when state="Typographical" output="↘"/>
         </action>
         <action id="v">
             <when state="none" output="v"/>
             <when state="Diacritics" next="caron"/>
             <when state="Greek" output="ω"/>
             <when state="Math" output="⇓"/>
+            <when state="Typographical" output="꣺"/>
             <when state="caron" output="̌"/>
             <when state="dot-below" output="ṿ"/>
             <when state="greek-tonos" output="ώ"/>
@@ -2964,6 +2997,7 @@
             <when state="none" output="x"/>
             <when state="Greek" output="χ"/>
             <when state="Math" output="·"/>
+            <when state="Typographical" output="⎇"/>
             <when state="diaeresis" output="ẍ"/>
             <when state="dot-above" output="ẋ"/>
             <when state="mathO" output="⊗"/>
@@ -2974,6 +3008,7 @@
             <when state="Greek" output="ζ"/>
             <when state="Math" output="ℤ"/>
             <when state="OldCyrillic" output="ѫ"/>
+            <when state="Typographical" output="⎈"/>
             <when state="acute" output="ź"/>
             <when state="caron" output="ž"/>
             <when state="cedilla" output="̧"/>
@@ -2993,7 +3028,6 @@
         <action id="|">
             <when state="none" output="|"/>
             <when state="Math" next="math|"/>
-            <when state="Typographical" output="↵"/>
             <when state="math/" output="∤"/>
             <when state="math_" output="⟂"/>
             <when state="math|" output="‖"/>
@@ -3002,6 +3036,7 @@
         <action id="}1">
             <when state="none" output="}"/>
             <when state="Math" output="⌉"/>
+            <when state="Typographical" output="↵"/>
         </action>
         <action id="}4">
             <when state="none" output="}"/>
@@ -3042,15 +3077,15 @@
         <action id="§ 1">
             <when state="none" output="§"/>
             <when state="Greek" output="°"/>
-        </action>
-        <action id="§ 2">
-            <when state="none" output="§"/>
-            <when state="Greek" output="ß"/>
-            <when state="Typographical" output="🕱"/>
+            <when state="Typographical" output="◀◀"/>
         </action>
         <action id="§^">
             <when state="none" next="grave"/>
             <when state="grave" output="̀"/>
+        </action>
+        <action id="§⎇">
+            <when state="none" output="ˋ"/>
+            <when state="Typographical" output="ˋ"/>
         </action>
         <action id="¨">
             <when state="none" next="diaeresis"/>
@@ -3061,10 +3096,12 @@
         <action id="©">
             <when state="none" next="Copyright"/>
             <when state="Greek" output="ç"/>
+            <when state="Typographical" output="⌘"/>
         </action>
         <action id="«">
             <when state="none" output="«"/>
             <when state="Greek" output="«"/>
+            <when state="Typographical" output="⸴"/>
         </action>
         <action id="°">
             <when state="none" output="°"/>
@@ -3081,14 +3118,17 @@
         <action id="²">
             <when state="none" output="²"/>
             <when state="Greek" output="²"/>
+            <when state="Typographical" output="🔆"/>
         </action>
         <action id="³">
             <when state="none" output="³"/>
             <when state="Greek" output="³"/>
+            <when state="Typographical" output="🎛"/>
         </action>
         <action id="´">
             <when state="none" next="acute"/>
             <when state="Greek" output="?"/>
+            <when state="Typographical" output="﹖"/>
             <when state="acute" output="́"/>
             <when state="horn" next="horn+acute"/>
             <when state="macron" next="macron+acute"/>
@@ -3097,6 +3137,7 @@
         <action id="¶">
             <when state="none" output="¶"/>
             <when state="Greek" output="‘"/>
+            <when state="Typographical" output="🔢"/>
         </action>
         <action id="·">
             <when state="none" output="·"/>
@@ -3108,11 +3149,13 @@
         <action id="¹">
             <when state="none" output="¹"/>
             <when state="Greek" output="¹"/>
+            <when state="Typographical" output="🔅"/>
         </action>
         <action id="»">
             <when state="none" output="»"/>
             <when state="Greek" output="»"/>
             <when state="Math" output="．"/>
+            <when state="Typographical" output="．"/>
             <when state="math‹" output="⟺"/>
         </action>
         <action id="¼">
@@ -3124,15 +3167,20 @@
             <when state="Greek" output="ί"/>
             <when state="macron" next="macron+grave"/>
         </action>
+        <action id="×">
+            <when state="none" output="×"/>
+            <when state="Typographical" output="⌥"/>
+        </action>
         <action id="÷">
             <when state="none" output="÷"/>
             <when state="Greek" output="¦"/>
-            <when state="Typographical" output="⏎"/>
+            <when state="Typographical" output="＼"/>
             <when state="math=" output="⟾"/>
         </action>
         <action id="÷ 1">
             <when state="none" output="÷"/>
             <when state="Greek" output="/"/>
+            <when state="Typographical" output="⁄"/>
         </action>
         <action id="ˇ">
             <when state="none" next="caron"/>
@@ -3149,6 +3197,7 @@
             <when state="none" output="Ω"/>
             <when state="Greek" output="§"/>
             <when state="OldCyrillic" output="ѭ"/>
+            <when state="Typographical" output="⌃"/>
         </action>
         <action id="λ">
             <when state="none" output="λ"/>
@@ -3168,11 +3217,13 @@
         <action id="—">
             <when state="none" output="—"/>
             <when state="Greek" output="±"/>
+            <when state="Typographical" output="🔉"/>
             <when state="math‹" output="⟵"/>
         </action>
         <action id="‘">
             <when state="none" output="‘"/>
             <when state="Greek" next="greek-dialytika-tonos"/>
+            <when state="Typographical" output="︔"/>
         </action>
         <action id="’">
             <when state="none" output="’"/>
@@ -3181,6 +3232,7 @@
         <action id="“">
             <when state="none" output="“"/>
             <when state="Greek" output="≥"/>
+            <when state="Typographical" output="⇞"/>
         </action>
         <action id="“ 1">
             <when state="none" output="“"/>
@@ -3193,6 +3245,7 @@
         <action id="„">
             <when state="none" output="„"/>
             <when state="Greek" output="≤"/>
+            <when state="Typographical" output="⇟"/>
         </action>
         <action id="•">
             <when state="none" output="•"/>
@@ -3201,6 +3254,7 @@
         <action id="‰">
             <when state="none" output="‰"/>
             <when state="Greek" output="§"/>
+            <when state="Typographical" output="💡"/>
         </action>
         <action id="‱">
             <when state="none" output="‱"/>
@@ -3248,7 +3302,7 @@
         <action id="←">
             <when state="none" output="←"/>
             <when state="Greek" output="“"/>
-            <when state="Typographical" output="↖"/>
+            <when state="Typographical" output="▶▶"/>
             <when state="math‹" output="⟵"/>
         </action>
         <action id="↑">
@@ -3261,7 +3315,7 @@
             <when state="none" output="→"/>
             <when state="Greek" output="°"/>
             <when state="Math" output="⇝"/>
-            <when state="Typographical" output="↘"/>
+            <when state="Typographical" output="🔇"/>
             <when state="math-" output="⟶"/>
             <when state="math=" output="⟹"/>
             <when state="math|" output="⟼"/>
@@ -3284,6 +3338,7 @@
         <action id="−">
             <when state="none" output="−"/>
             <when state="Greek" output="’"/>
+            <when state="Typographical" output="🖰"/>
         </action>
         <action id="√">
             <when state="none" output="√"/>
@@ -3292,17 +3347,20 @@
         <action id="∞">
             <when state="none" output="∞"/>
             <when state="Greek" output="•"/>
+            <when state="Typographical" output="▶⏸"/>
             <when state="mathO" output="⊗"/>
         </action>
         <action id="≈">
             <when state="none" output="≈"/>
             <when state="Greek" output="…"/>
             <when state="Math" output="≅"/>
+            <when state="Typographical" output=""/>
         </action>
         <action id="≠">
             <when state="none" output="≠"/>
             <when state="Greek" output="½"/>
             <when state="Math" output="≡"/>
+            <when state="Typographical" output="🔊"/>
             <when state="math|" output="⟾"/>
             <when state="math‹" output="⟸"/>
         </action>
