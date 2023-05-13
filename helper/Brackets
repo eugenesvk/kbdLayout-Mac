@@ -1,0 +1,20 @@
+☰⟪
+ d	Brackets-()   	() parenthesis
+ f	Brackets-[]   	[] square bracket
+ j	Brackets-{}   	{} brace
+ k	Brackets-""   	"" regular double quote
+ l	Brackets-''   	'' regular single quote
+ r	Brackets-‹›   	‹› single angle quote (single chevrons)
+ t	Brackets-«»   	«» double angle quote (double chevrons)
+ n	Brackets-【】   	【】 black lenticular bracket
+ m	Brackets-「」   	「」 corner bracket
+ o	Brackets-〔〕   	〔〕 tortoise shell bracket
+ ,	Brackets-〈〉   	〈〉 angle bracket or math ⟨⟩
+ .	Brackets-⟪⟫   	⟪⟫ double angle bracket
+ <	Brackets-⟪⟫   	⟪⟫ double angle bracket
+ g	Brackets-‘’   	‘’ curly single quote
+ h	Brackets-“”   	“” double curly quote
+ y	Brackets-`'   	`' emacs quote
+ ;	Brackets-=""  	="" string assignment
+ z	Brackets-⸨⸩   	⸨⸩ Double Parenthesis
+ p	Brackets-u+000	␌ formfeed
