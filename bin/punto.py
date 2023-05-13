@@ -23,14 +23,14 @@ labels_ru	= [\
   labelA_ru.replace(' ',''),
   labelZ_ru.replace(' ','')]
 
-EN   	 = '`qwertyuiop[]' + "asdfghjkl;'"   + """zxcvbnm,./"""
-RU   	 = 'ёйцукенгшщзхъ' + "фывапролджэ"   + """ячсмитьбю."""
-EN   	+= '~QWERTYUIOP{}' + 'ASDFGHJKL:"'   + """ZXCVBNM<>?""" + """!@#$%^&"""
-RU   	+= 'ЁЙЦУКЕНГШЩЗХЪ' + 'ФЫВАПРОЛДЖЭ'   + """ЯЧСМИТЬБЮ,""" + """!"№;%:?"""
-ENmac	 = '§qwertyuiop[]' + "asdfghjkl;'\\" + """`zxcvbnm,./"""
-RUmac	 = '>йцукенгшщзхъ' + "фывапролджэё"  + """]ячсмитьбю/"""
-ENmac += '±QWERTYUIOP{}' + 'ASDFGHJKL:"|'  + """ZXCVBNM<>?!@#$%^&"""
-RUmac += '<ЙЦУКЕНГШЩЗХЪ' + 'ФЫВАПРОЛДЖЭЁ'  + """ЯЧСМИТЬБЮ,!"№;%:?"""
+EN   	 = R'`qwertyuiop[]' + R"asdfghjkl;'"   + R'zxcvbnm,./'
+RU   	 = R'ёйцукенгшщзхъ' + R'фывапролджэ'   + R'ячсмитьбю.'
+EN   	+= R'~QWERTYUIOP{}' + R'ASDFGHJKL:"'   + R'ZXCVBNM<>?' + R'!@#$%^&'
+RU   	+= R'ЁЙЦУКЕНГШЩЗХЪ' + R'ФЫВАПРОЛДЖЭ'   + R'ЯЧСМИТЬБЮ,' + R'!"№;%:?'
+ENmac	 = R'§qwertyuiop[]' + R"asdfghjkl;'\"  + R'`zxcvbnm,./'
+RUmac	 = R'>йцукенгшщзхъ' + R'фывапролджэё'  + R']ячсмитьбю/'
+ENmac += R'±QWERTYUIOP{}' + R'ASDFGHJKL:"|'  + R'ZXCVBNM<>?!@#$%^&'
+RUmac += R'<ЙЦУКЕНГШЩЗХЪ' + R'ФЫВАПРОЛДЖЭЁ'  + R'ЯЧСМИТЬБЮ,!"№;%:?'
 
 EN_RU      	= str.maketrans(EN, RU)
 RU_EN      	= str.maketrans(RU, EN)

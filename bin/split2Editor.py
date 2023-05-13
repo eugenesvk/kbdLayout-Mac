@@ -6,16 +6,16 @@ import unicodedata
 
 dbg = 0
 
-ENmac  = '§qwertyuiop[]' + "asdfghjkl;'\\" + """`zxcvbnm,./"""
-RUmac  = '>йцукенгшщзхъ' + "фывапролджэё"  + """]ячсмитьбю/"""
-ENmac += '±QWERTYUIOP{}' + 'ASDFGHJKL:"|'  + """ZXCVBNM<>?!@#$%^&"""
-RUmac += '<ЙЦУКЕНГШЩЗХЪ' + 'ФЫВАПРОЛДЖЭЁ'  + """ЯЧСМИТЬБЮ,!"№;%:?"""
+ENmac  = R'§qwertyuiop[]' + R"asdfghjkl;'\" + R'`zxcvbnm,./'
+RUmac  = R'>йцукенгшщзхъ' + R'фывапролджэё' + R']ячсмитьбю/'
+ENmac += R'±QWERTYUIOP{}' + R'ASDFGHJKL:"|' + R'ZXCVBNM<>?!@#$%^&'
+RUmac += R'<ЙЦУКЕНГШЩЗХЪ' + R'ФЫВАПРОЛДЖЭЁ' + R'ЯЧСМИТЬБЮ,!"№;%:?'
 ENmac_RUmac = str.maketrans(ENmac, RUmac)
 RUmac_ENmac = str.maketrans(RUmac, ENmac)
 
 mods   	= ['⇧','⌥','⇧⌥','r','label','^','◌','']
 sep    	= ' ' # no-break space
-escape 	= ['\\','"']
+escape 	= [R'\','"']
 label_h	= 'label'
 
 def prefillDic(labels):
@@ -107,7 +107,7 @@ def bufferEditorConfig(outDic, layerName, language, mods_out, fileOutMod, labels
         oCh = outDic[char][mod]
         if mod == 'label' and language == 'Russian' and translate_labels:
           oCh = outDic[char][mod].translate(ENmac_RUmac)
-        buffer	+= ('\\' if oCh in escape else '') +oCh+ (r'\n' if idx!=len(mods_out)-1 else '')
+        buffer	+= (R'\' if oCh in escape else '') +oCh+ (r'\n' if idx!=len(mods_out)-1 else '')
       buffer  	+= '"' + (',' if char != label[-1] else '') + '\n'
     buffer    	+= '],\n'
   buffer      	+= last_label
@@ -125,12 +125,12 @@ def save2File(buffer, filePath):
 
 
 def main() -> int:
-  label1    	= r" § 1 2 3 4 5 6 7 8 9 0 - = ← ".replace(' ','')
-  label1s   	= r" § 1 2 3 4 5 6 7 8 9 0 - = ".replace(' ','')
-  labelQ    	= r" → q w e r t y u i o p [ ] ".replace(' ','')
-  labelQs   	=   r" q w e r t y u i o p [ ] ".replace(' ','')
-  labelA    	= r" a s d f g h j k l ; ' \ ".replace(' ','')
-  labelZ    	= r" ` z x c v b n m , . / ".replace(' ','')
+  label1    	= R" § 1 2 3 4 5 6 7 8 9 0 - = ← ".replace(' ','')
+  label1s   	= R" § 1 2 3 4 5 6 7 8 9 0 - = ".replace(' ','')
+  labelQ    	= R" → q w e r t y u i o p [ ] ".replace(' ','')
+  labelQs   	=   R" q w e r t y u i o p [ ] ".replace(' ','')
+  labelA    	= R" a s d f g h j k l ; ' \ ".replace(' ','')
+  labelZ    	= R" ` z x c v b n m , . / ".replace(' ','')
   label1_ru 	= [ch.translate(ENmac_RUmac) for ch in label1]
   label1s_ru	= [ch.translate(ENmac_RUmac) for ch in label1s]
   labelQ_ru 	= [ch.translate(ENmac_RUmac) for ch in labelQ]
