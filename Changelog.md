@@ -23,6 +23,30 @@ All notable changes to this project will be documented in this file
    <!-- vulnerabilities -->
 
   - __Added__
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`fs` and mapped it to <kbd>⌥</kbd><kbd>\</kbd>, pressing it enables replacement for various illegal filesystem symbols (also works with <kbd>⎇</kbd> being held):
+        * <kbd>a</kbd> ∗
+        * <kbd>s</kbd> ⸮
+        * <kbd>d</kbd> ⧸
+        * <kbd>f</kbd> ⧵
+        * <kbd>g</kbd> ¦
+        * <kbd>h</kbd> ˆ
+        * <kbd>j</kbd> „
+        * <kbd>k</kbd> “
+        * <kbd>l</kbd> ”
+        * <kbd>;</kbd> ꞉
+        * <kbd>'</kbd> ”
+        * <kbd>\</kbd> ⧵
+        * <kbd>6</kbd> ˆ
+        * <kbd>7</kbd> ⸮
+        * <kbd>⇧</kbd><kbd>/</kbd> ⸮
+        * <kbd>8</kbd> ∗
+        * <kbd>]</kbd> ¦
+        * <kbd>x</kbd> ∗
+        * <kbd>,</kbd> ‹
+        * <kbd>⇧</kbd><kbd>,</kbd> ‹
+        * <kbd>⇧</kbd><kbd>.</kbd> ›
+        * <kbd>.</kbd> ．
+        * <kbd>/</kbd> ⧸
     + :sparkles: `en` `ru` <kbd>🕱</kbd>`Brackets` and mapped it to <kbd>⌥</kbd><kbd>d</kbd>, pressing it enables various brackets <kbd>🕱</kbd> that terminate with the opening bracket and close the bracket on another tap of the same key (also works with <kbd>⎇</kbd> being held):
         * <kbd>d</kbd> )                                   	() parenthesis
         * <kbd>f</kbd> <kbd>🕱</kbd>`Brackets-[`            	[] square bracket
