@@ -74,9 +74,9 @@
             <key code="11" action="b"/>
             <key code="12" action="q"/>
             <key code="13" action="w"/>
-            <key code="14" action="14"/>
+            <key code="14" action="e"/>
             <key code="15" action="r"/>
-            <key code="16" action="19"/>
+            <key code="16" action="y"/>
             <key code="17" action="t"/>
             <key code="18" action="1"/>
             <key code="19" action="2"/>
@@ -91,10 +91,10 @@
             <key code="28" action="8"/>
             <key code="29" action="0"/>
             <key code="30" action="]0"/>
-            <key code="31" action="17"/>
-            <key code="32" action="18"/>
+            <key code="31" action="o"/>
+            <key code="32" action="u"/>
             <key code="33" action="[0"/>
-            <key code="34" action="15"/>
+            <key code="34" action="i"/>
             <key code="35" action="p"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="l"/>
@@ -105,7 +105,7 @@
             <key code="42" action="\0"/>
             <key code="43" action=","/>
             <key code="44" action="/"/>
-            <key code="45" action="16"/>
+            <key code="45" action="n"/>
             <key code="46" action="m"/>
             <key code="47" action="."/>
             <key code="48" output="&#x0009;"/>
@@ -764,9 +764,9 @@
             <key code="11" action="b"/>
             <key code="12" action="q"/>
             <key code="13" action="w"/>
-            <key code="14" action="14"/>
+            <key code="14" action="e"/>
             <key code="15" action="r"/>
-            <key code="16" action="19"/>
+            <key code="16" action="y"/>
             <key code="17" action="t"/>
             <key code="18" output="1"/>
             <key code="19" output="2"/>
@@ -781,10 +781,10 @@
             <key code="28" output="8"/>
             <key code="29" action="0"/>
             <key code="30" output="]"/>
-            <key code="31" action="17"/>
-            <key code="32" action="18"/>
+            <key code="31" action="o"/>
+            <key code="32" action="u"/>
             <key code="33" output="["/>
-            <key code="34" action="15"/>
+            <key code="34" action="i"/>
             <key code="35" action="p"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="l"/>
@@ -795,7 +795,7 @@
             <key code="42" output="\"/>
             <key code="43" output=","/>
             <key code="44" action="/"/>
-            <key code="45" action="16"/>
+            <key code="45" action="n"/>
             <key code="46" action="m"/>
             <key code="47" action="."/>
             <key code="48" output="&#x0009;"/>
@@ -1899,7 +1899,7 @@
         <action id="1 2">
             <when state="none" next="double-acute"/>
         </action>
-        <action id="14">
+        <action id="e">
             <when state="none" output="e"/>
             <when state="Greek" output="ε"/>
             <when state="Math" output="∃"/>
@@ -1924,7 +1924,7 @@
             <when state="math/" output="∄"/>
             <when state="ogonek" output="ę"/>
         </action>
-        <action id="15">
+        <action id="i">
             <when state="none" output="i"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Greek" output="ι"/>
@@ -1948,7 +1948,7 @@
             <when state="ogonek" output="į"/>
             <when state="tilde" output="ĩ"/>
         </action>
-        <action id="16">
+        <action id="n">
             <when state="none" output="n"/>
             <when state="Brackets" next="Brackets-【"/>
             <when state="Brackets-【" output="】"/>
@@ -1965,7 +1965,7 @@
             <when state="space" output=" "/>
             <when state="tilde" output="ñ"/>
         </action>
-        <action id="17">
+        <action id="o">
             <when state="none" output="o"/>
             <when state="Brackets" next="Brackets-〔"/>
             <when state="Brackets-〔" output="〕"/>
@@ -2002,7 +2002,7 @@
             <when state="tilde" output="õ"/>
             <when state="tilde+macron" output="ȭ"/>
         </action>
-        <action id="18">
+        <action id="u">
             <when state="none" output="u"/>
             <when state="Diacritics" next="dot-below"/>
             <when state="Greek" output="θ"/>
@@ -2031,7 +2031,7 @@
             <when state="space" output="␣"/>
             <when state="tilde" output="ũ"/>
         </action>
-        <action id="19">
+        <action id="y">
             <when state="none" output="y"/>
             <when state="Brackets" next="Brackets-emacs"/>
             <when state="Brackets-emacs" output="&#x0027;"/>
