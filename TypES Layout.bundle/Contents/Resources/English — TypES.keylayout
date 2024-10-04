@@ -537,7 +537,7 @@
             <key code="12" action="˘"/>
             <key code="13" action="⌃"/>
             <key code="14" action="action"/>
-            <key code="15" action="ring"/>
+            <key code="15" action="r⇧⎇"/>
             <key code="16" output=""/>
             <key code="17" output="℃"/>
             <key code="18" action="¡"/>
@@ -553,14 +553,14 @@
             <key code="28" action="·"/>
             <key code="29" action="›"/>
             <key code="30" action="}4"/>
-            <key code="31" action="macron"/>
+            <key code="31" action="o⇧⎇"/>
             <key code="32" action="u⇧⎇"/>
             <key code="33" action="{4"/>
             <key code="34" action="i⇧⎇"/>
             <key code="35" action="″"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="λ"/>
-            <key code="38" action="j4"/>
+            <key code="38" action="j⇧⎇"/>
             <key code="39" action="apostrophe4"/>
             <key code="40" action="√"/>
             <key code="41" action="¨"/>
@@ -2751,7 +2751,7 @@
             <when state="horn" next="horn+hook-above"/>
             <when state="space" output="⁠"/>
         </action>
-        <action id="j4">
+        <action id="j⇧⎇">
             <when state="none" output="✓"/>
             <when state="Greek" output="§"/>
             <when state="breve" next="breve+hook-above"/>
@@ -2809,7 +2809,7 @@
         <action id="m^">
             <when state="none" next="Math"/>
         </action>
-        <action id="macron">
+        <action id="o⇧⎇">
             <when state="none" next="macron"/>
             <when state="Greek" output="Τ"/>
             <when state="acute" output="᷇"/>
@@ -2922,7 +2922,7 @@
             <when state="dot-below+macron" output="ṝ"/>
             <when state="ring" output="̊"/>
         </action>
-        <action id="ring">
+        <action id="r⇧⎇">
             <when state="none" next="ring"/>
             <when state="Greek" output="Δ"/>
             <when state="ring" output="̊"/>
