@@ -2146,6 +2146,14 @@
             <when state="none" output="&#x0008;"/>
             <when state="Typographical" output="⌦"/>
         </action>
+        <action id="OldCyrillic">
+            <when state="none" next="OldCyrillic"/>
+            <when state="Brackets" next="Brackets-〔"/>
+            <when state="Brackets-〔" output="〕"/>
+            <when state="Diacritics" next="macron"/>
+            <when state="Greek" output="œ"/>
+            <when state="macron" output="̄"/>
+        </action>
         <action id="[">
             <when state="none" output="["/>
             <when state="Brackets-⟪" output="⟫"/>
@@ -2724,6 +2732,13 @@
             <when state="dot-below" output="̣"/>
             <when state="space" output="␣"/>
         </action>
+        <action id="г⎇">
+            <when state="none" next="Typographical"/>
+            <when state="Diacritics" next="dot-below"/>
+            <when state="Greek" output="­"/>
+            <when state="Typographical" output="↘"/>
+            <when state="dot-below" output="̣"/>
+        </action>
         <action id="д">
             <when state="none" output="д"/>
             <when state="Brackets" next="Brackets-apostrophe"/>
@@ -2948,6 +2963,15 @@
             <when state="greek-tonos" output="ί"/>
             <when state="math/" output="⫛"/>
         </action>
+        <action id="ш⎇">
+            <when state="none" next="Diacritics"/>
+            <when state="Diacritics" next="dot-above"/>
+            <when state="Greek" output="†"/>
+            <when state="OldCyrillic" output="ї"/>
+            <when state="Typographical" output="↖"/>
+            <when state="diaeresis" output="ï"/>
+            <when state="dot-above" output="̇"/>
+        </action>
         <action id="щ">
             <when state="none" output="щ"/>
             <when state="Brackets" next="Brackets-〔"/>
@@ -3048,15 +3072,6 @@
             <when state="none" next="grave"/>
             <when state="grave" output="̀"/>
         </action>
-        <action id="ш⎇">
-            <when state="none" next="Diacritics"/>
-            <when state="Diacritics" next="dot-above"/>
-            <when state="Greek" output="†"/>
-            <when state="OldCyrillic" output="ї"/>
-            <when state="Typographical" output="↖"/>
-            <when state="diaeresis" output="ï"/>
-            <when state="dot-above" output="̇"/>
-        </action>
         <action id="Ѣ">
             <when state="none" output=""/>
         </action>
@@ -3071,24 +3086,9 @@
             <when state="Greek" output="Τ"/>
             <when state="macron" output="̄"/>
         </action>
-        <action id="OldCyrillic">
-            <when state="none" next="OldCyrillic"/>
-            <when state="Brackets" next="Brackets-〔"/>
-            <when state="Brackets-〔" output="〕"/>
-            <when state="Diacritics" next="macron"/>
-            <when state="Greek" output="œ"/>
-            <when state="macron" output="̄"/>
-        </action>
         <action id="Ѵ">
             <when state="none" next="dot-below"/>
             <when state="Greek" output="Ξ"/>
-            <when state="dot-below" output="̣"/>
-        </action>
-        <action id="г⎇">
-            <when state="none" next="Typographical"/>
-            <when state="Diacritics" next="dot-below"/>
-            <when state="Greek" output="­"/>
-            <when state="Typographical" output="↘"/>
             <when state="dot-below" output="̣"/>
         </action>
         <action id="–">
