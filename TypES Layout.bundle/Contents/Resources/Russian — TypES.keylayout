@@ -178,6 +178,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="1">
+            <!--⇧-->
             <key code="0" action="Ф"/>
             <key code="1" action="Ы"/>
             <key code="2" action="В"/>
@@ -296,6 +297,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="2">
+            <!--⇪-->
             <key code="0" action="Ф"/>
             <key code="1" action="Ы"/>
             <key code="2" action="В"/>
@@ -408,6 +410,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="3">
+            <!--⎇-->
             <key code="0" action="2←1 a⎇"/>
             <key code="1" action="2←2 s⎇"/>
             <key code="2" action="2←3 d⎇"/>
@@ -525,6 +528,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="4">
+            <!--⇧⎇-->
             <key code="0" action="⌥"/>
             <key code="1" action="⇧"/>
             <key code="2" output="⌀"/>
@@ -642,6 +646,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="5">
+            <!--⇪⎇-->
             <key code="0" output="Å"/>
             <key code="1" output="Í"/>
             <key code="2" output="Î"/>
@@ -754,6 +759,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="6">
+            <!--⎇⌘-->
             <key code="0" output="a"/>
             <key code="1" output="s"/>
             <key code="2" output="d"/>
@@ -863,6 +869,9 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="7">
+            <!--↑⇧⎈-->
+            <!-- ⇧⎈-->
+            <!--⎈⎇-->
             <key code="0" output="&#x0001;"/>
             <key code="1" output="&#x0013;"/>
             <key code="2" output="&#x0004;"/>
@@ -975,6 +984,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="8">
+            <!--⇧⎇⌘-->
             <key code="0" output="a"/>
             <key code="1" output="s"/>
             <key code="2" output="d"/>
@@ -1083,6 +1093,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="9">
+            <!--↑⇧↑⎇↑⌘ ⎈-->
             <key code="0" output="&#x0001;"/>
             <key code="1" output="&#x0013;"/>
             <key code="2" output="&#x0004;"/>
@@ -1196,6 +1207,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="10">
+            <!--⇧↑⎇↑⌘ ⎈-->
             <key code="0" output="&#x0001;"/>
             <key code="1" output="&#x0013;"/>
             <key code="2" output="&#x0004;"/>
@@ -1309,6 +1321,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="11">
+            <!--↑⇧⎇↑⌘ ⎈-->
             <key code="0" output="d"/>
             <key code="1" output="z"/>
             <key code="2" output="ћ"/>
@@ -1418,6 +1431,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="12">
+            <!--⇧⎇↑⌘ ⎈-->
             <key code="0" output="d"/>
             <key code="1" output="Z"/>
             <key code="2" output="Ћ"/>
@@ -1528,6 +1542,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="13">
+            <!--↑⇧⎇⌘ ⎈-->
             <key code="0" output="&#x0001;"/>
             <key code="1" output="&#x0013;"/>
             <key code="2" output="&#x0004;"/>
