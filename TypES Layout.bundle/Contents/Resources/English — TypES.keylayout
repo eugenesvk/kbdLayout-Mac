@@ -1927,6 +1927,10 @@
             <when state="Greek" output="§"/>
             <when state="Typographical" output="💡"/>
         </action>
+        <action id="0→1 6⇧">
+            <when state="none" output="^"/>
+            <when state="Typographical" output="⎀"/>
+        </action>
         <action id="0→1 6⎇">
             <when state="none" output="↑"/>
             <when state="Greek" output="¶"/>
@@ -2764,10 +2768,6 @@
             <when state="Greek" output="^"/>
             <when state="Typographical" output="⁁"/>
             <when state="circumflex" output="̂"/>
-        </action>
-        <action id="0→1 6⇧">
-            <when state="none" output="^"/>
-            <when state="Typographical" output="⎀"/>
         </action>
         <action id="_">
             <when state="none" output="_"/>
