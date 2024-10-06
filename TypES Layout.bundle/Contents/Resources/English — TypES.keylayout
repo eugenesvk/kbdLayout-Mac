@@ -874,11 +874,11 @@
             <!-- ⇧⎈-->
             <!--⎈⎇-->
             <key code="0" output="&#x0001;"/>
-            <key code="1" output="&#x0013;"/>
-            <key code="2" output="&#x0004;"/>
+            <key code="1" output="&#x0004;"/>
+            <key code="2" output="&#x0013;"/>
             <key code="3" output="&#x0006;"/>
             <key code="4" output="&#x0008;"/>
-            <key code="5" output="&#x0007;"/>
+            <key code="5" output="&#x007F;"/>
             <key code="6" output="&#x001A;"/>
             <key code="7" output="&#x0018;"/>
             <key code="8" output="&#x0003;"/>
@@ -907,14 +907,14 @@
             <key code="31" output="&#x000F;"/>
             <key code="32" output="&#x0015;"/>
             <key code="33" output="&#x001B;"/>
-            <key code="34" output="&#x0009;"/>
+            <key code="34" output="&#x000A;"/>
             <key code="35" output="&#x0010;"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output="&#x000C;"/>
-            <key code="38" output="&#x000A;"/>
+            <key code="37" output="&#x0001;"/>
+            <key code="38" output="&#x000C;"/>
             <key code="39" output="&#x0027;"/>
             <key code="40" output="&#x000B;"/>
-            <key code="41" output=";"/>
+            <key code="41" output="&#x0004;"/>
             <key code="42" output="&#x001C;"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
@@ -928,6 +928,8 @@
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
             <key code="55" output=""/>
+            <key code="56" output=""/>
+            <key code="58" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
@@ -1102,11 +1104,11 @@
         <keyMap index="9">
             <!--↑⇧↑⎇↑⌘ ⎈-->
             <key code="0" output="&#x0001;"/>
-            <key code="1" output="&#x0013;"/>
-            <key code="2" output="&#x0004;"/>
+            <key code="1" output="&#x0004;"/>
+            <key code="2" output="&#x0013;"/>
             <key code="3" output="&#x0006;"/>
             <key code="4" output="&#x0008;"/>
-            <key code="5" action="g^"/>
+            <key code="5" output="&#x007F;"/>
             <key code="6" output="&#x001A;"/>
             <key code="7" output="&#x0018;"/>
             <key code="8" output="&#x0003;"/>
@@ -1138,11 +1140,11 @@
             <key code="34" action="i^"/>
             <key code="35" output="&#x0010;"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output="&#x000C;"/>
+            <key code="37" output="&#x0001;"/>
             <key code="38" action="j^"/>
             <key code="39" action="apostrophe9"/>
             <key code="40" output="&#x000B;"/>
-            <key code="41" action=";^"/>
+            <key code="41" output="&#x0004;"/>
             <key code="42" action="\^"/>
             <key code="43" output=","/>
             <key code="44" action="/^"/>
@@ -1159,6 +1161,7 @@
             <key code="56" output=""/>
             <key code="57" output=""/>
             <key code="58" output=""/>
+            <key code="59" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
@@ -1218,12 +1221,12 @@
         </keyMap>
         <keyMap index="10">
             <!--⇧↑⎇↑⌘ ⎈-->
-            <key code="0" output="&#x0001;"/>
-            <key code="1" output="&#x0013;"/>
-            <key code="2" output="&#x0004;"/>
+            <key code="0" output="&#x0004;"/>
+            <key code="1" output="&#x0004;"/>
+            <key code="2" output="&#x0013;"/>
             <key code="3" output="&#x0006;"/>
             <key code="4" output="&#x0008;"/>
-            <key code="5" output="&#x0007;"/>
+            <key code="5" output="&#x007F;"/>
             <key code="6" output="&#x001A;"/>
             <key code="7" output="&#x0018;"/>
             <key code="8" output="&#x0003;"/>
@@ -1252,14 +1255,14 @@
             <key code="31" output="&#x000F;"/>
             <key code="32" output="&#x0015;"/>
             <key code="33" output="&#x001B;"/>
-            <key code="34" output="&#x0009;"/>
+            <key code="34" output="&#x000A;"/>
             <key code="35" output="&#x0010;"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output="&#x000C;"/>
-            <key code="38" output="&#x000A;"/>
-            <key code="39" output="&#x0027;"/>
+            <key code="37" output="&#x0001;"/>
+            <key code="38" output="&#x000C;"/>
+            <key code="39" action="2→6 apostrophe ⇧⎈"/>
             <key code="40" output="&#x000B;"/>
-            <key code="41" output=";"/>
+            <key code="41" output="&#x0004;"/>
             <key code="42" output="&#x001C;"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
@@ -1272,6 +1275,8 @@
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="55" output=""/>
+            <key code="56" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="65" output="."/>
             <key code="66" output="&#x001D;"/>
@@ -1777,6 +1782,9 @@
     <actions>
         <action id=" ">
             <when state="none" next="space"/>
+        </action>
+        <action id="2→6 apostrophe ⇧⎈">
+            <when state="none" next="double-acute"/>
         </action>
         <action id="(">
             <when state="none" output="("/>
@@ -3018,7 +3026,7 @@
             <when state="tilde" output="ĩ"/>
         </action>
         <action id="i^">
-            <when state="none" output="&#x0009;"/>
+            <when state="none" output="&#x000A;"/>
             <when state="caron" next="caron+dot-above"/>
             <when state="dot-below" next="dot-below+dot-above"/>
         </action>
@@ -3048,7 +3056,7 @@
             <when state="space" output="⁠"/>
         </action>
         <action id="j^">
-            <when state="none" output="&#x000A;"/>
+            <when state="none" output="&#x000C;"/>
             <when state="breve" next="breve+hook-above"/>
             <when state="circumflex" next="circumflex+hook-above"/>
         </action>
