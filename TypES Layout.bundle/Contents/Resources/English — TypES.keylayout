@@ -201,7 +201,7 @@
             <key code="19" output="@"/>
             <key code="20" action="3⇧"/>
             <key code="21" action="4⇧"/>
-            <key code="22" action="^⇧"/>
+            <key code="22" action="0→1 6⇧"/>
             <key code="23" output="%"/>
             <key code="24" action="+"/>
             <key code="25" action="("/>
@@ -2765,7 +2765,7 @@
             <when state="Typographical" output="⁁"/>
             <when state="circumflex" output="̂"/>
         </action>
-        <action id="^⇧">
+        <action id="0→1 6⇧">
             <when state="none" output="^"/>
             <when state="Typographical" output="⎀"/>
         </action>
