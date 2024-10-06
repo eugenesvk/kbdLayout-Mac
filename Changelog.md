@@ -22,6 +22,9 @@ All notable changes to this project will be documented in this file
    <!-- + :lock: ??? -->
    <!-- vulnerabilities -->
 
+  - __Added__
+    + `en` `ru` use <kbd>␠</kbd> as bracket chord terminator for all bracket types
+
   [1.1.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.1.0
 ## [1.1.0]
   - __Added__
