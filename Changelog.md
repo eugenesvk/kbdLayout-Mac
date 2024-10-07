@@ -25,7 +25,8 @@ All notable changes to this project will be documented in this file
   - __Added__
     + `en` `ru` use <kbd>⎇</kbd><kbd>␠</kbd> as bracket chord terminator for all bracket types
     + `en` `ru` make <kbd>⎇</kbd> insert combining symbol even if precombined exists (in <kbd>🕱</kbd>`Diacritic`)
-    + `ru` add some missing diacritic actions from `en`
+    + `ru` some missing diacritic actions from `en`
+    + `en` `ru` <kbd>🕱</kbd>`space` to <kbd>␠</kbd> in <kbd>🕱</kbd>`Typographical`
   - __Changed__
     + `en` `ru` rename to align action names between `en` and `ru`
     + `en` `ru` rename some actions to reflect the key combo they're assigned to
