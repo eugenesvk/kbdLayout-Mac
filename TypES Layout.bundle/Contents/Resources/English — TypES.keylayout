@@ -3268,6 +3268,7 @@
             <when state="Brackets-「" output="「"/>
             <when state="Brackets-【" output="【"/>
             <when state="Brackets-〔" output="〔"/>
+            <when state="Typographical" next="space"/>
             <when state="acute" output="´"/>
             <when state="breve" output="˘"/>
             <when state="caron" output="ˇ"/>
