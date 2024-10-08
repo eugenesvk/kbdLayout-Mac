@@ -318,7 +318,7 @@ All notable changes to this project will be documented in this file
     + `en` `ru` map combining enclosing keycap    ⃣    to <kbd>k</kbd> / <kbd>л</kbd> (in <kbd>🕱</kbd>`Diacritics`)
   - __Changed__
     + `en` `ru` <kbd>🕱</kbd>`Greek` :
-        * `π` at <kbd>⇧</kbd><kbd>g</kbd> to map 🕱`Greek` (`π` is available as a terminator for <kbd>🕱</kbd>`Math`)
+        * `π` at <kbd>⇧</kbd><kbd>g</kbd> to map <kbd>🕱</kbd>`Greek` (`π` is available as a terminator for <kbd>🕱</kbd>`Math`)
         * copied `ω` to <kbd>w</kbd>, moved `ς` to <kbd>q</kbd>
         * copied `Ω` to <kbd>⇧</kbd><kbd>w</kbd>, moved <kbd>🕱</kbd>`greek-dialytika-tonos` to <kbd>⇧</kbd><kbd>q</kbd>
     + `en` `ru` `🙂` to `¦` at <kbd>⇧</kbd><kbd>⌥</kbd><kbd>\\</kbd> / <kbd>ё</kbd>
@@ -728,13 +728,13 @@ All notable changes to this project will be documented in this file
         * <kbd>␠</kbd> ¯ (stand-alone macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>  ̄ (combining macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>q</kbd>  ᷌  (combining macron-breve)
-    + :sparkles: `en` add 🕱 dead sub-key `Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd> or <kbd>\`</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
+    + :sparkles: `en` add <kbd>🕱</kbd>`Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd> or <kbd>\`</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
         * <kbd>e</kbd> ḕ
         * <kbd>o</kbd> ṑ
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd>  ᷆ (combining Macron-Grave)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷅ (combining Grave-Macron)
-    + :sparkles: `en` add 🕱 dead sub-key `Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
+    + :sparkles: `en` add <kbd>🕱</kbd>`Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
         * <kbd>e</kbd> ḗ
         * <kbd>o</kbd> ṓ
         * (and the same with the Capital letters)
