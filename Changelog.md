@@ -27,9 +27,17 @@ All notable changes to this project will be documented in this file
     + `en` `ru` make <kbd>⎇</kbd> insert combining symbol even if precombined exists (in <kbd>🕱</kbd>`Diacritic`)
     + `ru` some missing diacritic actions from `en`
     + `en` `ru` <kbd>🕱</kbd>`space` to <kbd>␠</kbd> in <kbd>🕱</kbd>`Typographical`
+    + `en` add <kbd>🕱</kbd>`ligature_f` in <kbd>🕱</kbd>`Typographical`
+    + `en` `ru` cycling <kbd>🕱</kbd>`equal1≠`, <kbd>🕱</kbd>`equal2≈`, <kbd>🕱</kbd>`equal3±` to insert various equal/plus symbols
+      - <kbd>=</kbd> progresses to the next <kbd>🕱</kbd>
+      - <kbd>␈</kbd>returns to the previous <kbd>🕱</kbd>
   - __Changed__
     + `en` `ru` rename to align action names between `en` and `ru`
     + `en` `ru` rename some actions to reflect the key combo they're assigned to
+    + `en` <kbd>🕱</kbd>`Typographical` to insert `⎀` since now <kbd>␠</kbd> is a separate <kbd>🕱</kbd>
+  - __Removed__
+    + `en` `ru` <kbd>🕱</kbd>s from the <kbd>⎈</kbd> layer to not interfere with `DefaultKeyBinding.dict`
+
 
   [1.1.1]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.1.1
 ## [1.1.1]
