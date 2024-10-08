@@ -3080,6 +3080,7 @@
             <when state="Greek" output="θ"/>
             <when state="Math" output="∪"/>
             <when state="OldCyrillic" output="ѵ"/>
+            <when state="Typographical" output="⎀"/>
             <when state="acute" output="ѓ"/>
             <when state="dot-below" output="̣"/>
             <when state="space" output="␣"/>

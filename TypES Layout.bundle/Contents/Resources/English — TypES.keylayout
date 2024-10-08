@@ -3526,6 +3526,7 @@
             <when state="Greek" output="θ"/>
             <when state="Math" output="∪"/>
             <when state="OldCyrillic" output="ѵ"/>
+            <when state="Typographical" output="⎀"/>
             <when state="acute" output="ú"/>
             <when state="breve" output="ŭ"/>
             <when state="caron" output="ǔ"/>
