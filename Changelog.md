@@ -31,6 +31,9 @@ All notable changes to this project will be documented in this file
     + `en` `ru` cycling <kbd>🕱</kbd>`equal1≠`, <kbd>🕱</kbd>`equal2≈`, <kbd>🕱</kbd>`equal3±` to insert various equal/plus symbols
       - <kbd>=</kbd> progresses to the next <kbd>🕱</kbd>
       - <kbd>␈</kbd>returns to the previous <kbd>🕱</kbd>
+    + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
+      - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
+      - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
   - __Changed__
     + `en` `ru` rename to align action names between `en` and `ru`
     + `en` `ru` rename some actions to reflect the key combo they're assigned to
