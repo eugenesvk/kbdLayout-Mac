@@ -2240,16 +2240,21 @@
             <when state="math‹" output="⇔"/>
         </action>
         <action id="0→7 =⎇">
-            <when state="none" output="≠"/>
+            <when state="none" next="equal1≠"/>
             <when state="Greek" output="½"/>
             <when state="Math" output="≡"/>
             <when state="Typographical" output="🔊"/>
+            <when state="equal1≠" next="equal2≈"/>
+            <when state="equal2≈" next="equal3±"/>
+            <when state="equal3±" next="equal1≠"/>
             <when state="math|" output="⟾"/>
             <when state="math‹" output="⟸"/>
         </action>
         <action id="0→8 ␈⎇">
             <when state="none" output="&#x0008;"/>
             <when state="Typographical" output="⌦"/>
+            <when state="equal2≈" next="equal1≠"/>
+            <when state="equal3±" next="equal2≈"/>
         </action>
         <action id="1">
             <when state="none" output="1"/>
@@ -2612,6 +2617,9 @@
             <when state="Diacritics" next="cedilla"/>
             <when state="Math" next="math="/>
             <when state="cedilla" output="̧"/>
+            <when state="equal1≠" next="equal2≈"/>
+            <when state="equal2≈" next="equal3±"/>
+            <when state="equal3±" next="equal1≠"/>
             <when state="math=" output="≡"/>
             <when state="mathO" output="⊕"/>
             <when state="math|" output="⊧"/>
@@ -2628,6 +2636,8 @@
         </action>
         <action id="Backspace">
             <when state="none" output="&#x0008;"/>
+            <when state="equal2≈" next="equal1≠"/>
+            <when state="equal3±" next="equal2≈"/>
             <when state="math-" next="Math"/>
             <when state="math/" next="Math"/>
             <when state="math=" next="Math"/>
@@ -3632,6 +3642,9 @@
         <when state="dot-below+dot-above" output="◌̣̇"/>
         <when state="dot-below+macron" output="◌̣̄"/>
         <when state="double-acute" output="˝"/>
+        <when state="equal1≠" output="≠"/>
+        <when state="equal2≈" output="≈"/>
+        <when state="equal3±" output="±"/>
         <when state="fs" output="⧵"/>
         <when state="grave" output="`"/>
         <when state="greek-dialytika-tonos" output="΅"/>
