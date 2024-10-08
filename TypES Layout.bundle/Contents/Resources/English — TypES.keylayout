@@ -2111,6 +2111,7 @@
             <when state="Brackets-[" output="]"/>
             <when state="Greek" output="≠"/>
             <when state="OldCyrillic" output="ѩ"/>
+            <when state="Typographical" next="ligature_f"/>
             <when state="fs" output="⧵"/>
         </action>
         <action id="2←5 g⎇">
@@ -3020,6 +3021,7 @@
             <when state="greek-dialytika-tonos" output="ΐ"/>
             <when state="greek-tonos" output="ί"/>
             <when state="hook-above" output="ỉ"/>
+            <when state="ligature_f" output="ﬁ"/>
             <when state="macron" output="ī"/>
             <when state="math/" output="⫛"/>
             <when state="ogonek" output="į"/>
@@ -3090,6 +3092,7 @@
             <when state="dot-below" output="ḷ"/>
             <when state="dot-below+macron" output="ḹ"/>
             <when state="fs" output="”"/>
+            <when state="ligature_f" output="ﬂ"/>
         </action>
         <action id="lt">
             <when state="none" output="&#x003C;"/>
@@ -3657,6 +3660,7 @@
         <when state="horn+grave" output="◌̛̀"/>
         <when state="horn+hook-above" output="◌̛̉"/>
         <when state="horn+tilde" output="◌̛̃"/>
+        <when state="ligature_f" output="f"/>
         <when state="macron" output="¯"/>
         <when state="macron+acute" output="◌̄́"/>
         <when state="macron+diaeresis" output="◌̄̈"/>
