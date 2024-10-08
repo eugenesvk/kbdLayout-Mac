@@ -3255,6 +3255,7 @@
             <when state="none" output="п"/>
             <when state="Brackets" next="Brackets-‘"/>
             <when state="Brackets-‘" output="’"/>
+            <when state="Diacritics" next="ogonek"/>
             <when state="Greek" output="γ"/>
             <when state="Typographical" output="♀"/>
             <when state="fs" output="¦"/>
@@ -3434,6 +3435,7 @@
         </action>
         <action id="э">
             <when state="none" output="э"/>
+            <when state="Diacritics" next="horn"/>
             <when state="Greek" output="&#x0027;"/>
             <when state="Math" output="∈"/>
             <when state="OldCyrillic" output="ѥ"/>
