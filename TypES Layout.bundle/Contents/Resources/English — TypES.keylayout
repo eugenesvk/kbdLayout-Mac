@@ -1503,7 +1503,7 @@
         </keyMap>
         <keyMap index="11">
             <!--↑⇧⎇↑⌘ ⎈-->
-            <key code="0" output="å"/>
+            <key code="0" action="2←1 a⎇⎈"/>
             <key code="1" output="ß"/>
             <key code="2" output="∂"/>
             <key code="3" output="ƒ"/>
@@ -2046,9 +2046,12 @@
             <when state="circumflex" next="circumflex+dot-below"/>
             <when state="dot-below" output="̣"/>
             <when state="horn" next="horn+dot-below"/>
+            <when state="math=" output="≡"/>
             <when state="mathO" output="⊖"/>
             <when state="math|" output="⊦"/>
+            <when state="math±🗘" output="∓"/>
             <when state="math‹" output="←"/>
+            <when state="math∓🗘" output="±"/>
             <when state="space" output="‑"/>
         </action>
         <action id="-^">
@@ -2093,8 +2096,11 @@
             <when state="fs" output="⁄"/>
             <when state="horn" next="horn+acute"/>
             <when state="macron" next="macron+acute"/>
-            <when state="math=" output="≠"/>
+            <when state="math=" next="math≠"/>
             <when state="mathO" output="⊘"/>
+            <when state="math≄" next="math="/>
+            <when state="math≉" next="math≄"/>
+            <when state="math≠" next="math≉"/>
         </action>
         <action id="/^">
             <when state="none" output="/"/>
@@ -2108,15 +2114,26 @@
             <when state="caron" output="̌"/>
             <when state="math-" output="⟶"/>
             <when state="math/" output="∅"/>
-            <when state="math=" output="⟹"/>
+            <when state="math=" next="math⟹"/>
             <when state="math_" output="⊇"/>
             <when state="math|" output="⤇"/>
             <when state="math‹" output="↔"/>
+            <when state="math⇒" output="⇒"/>
+            <when state="math≥" output="⇒"/>
+            <when state="math≽" output="⇒"/>
+            <when state="math⋝" output="⇒"/>
+            <when state="math⋟" output="⇒"/>
+            <when state="math⟹" next="math⥱"/>
+            <when state="math⥱" next="math="/>
+            <when state="math⪴" output="⇒"/>
             <when state="space" output="​"/>
         </action>
         <action id="00 §⎇">
             <when state="none" output="ˋ"/>
             <when state="Typographical" output="ˋ"/>
+            <when state="math=" next="math⩳"/>
+            <when state="math⋍" next="math="/>
+            <when state="math⩳" next="math⋍"/>
         </action>
         <action id="0^">
             <when state="none" next="caron"/>
@@ -2298,6 +2315,7 @@
             <when state="grave" output="̀"/>
             <when state="horn" next="horn+grave"/>
             <when state="macron" next="macron+grave"/>
+            <when state="math=" output="⩵"/>
         </action>
         <action id="2^">
             <when state="none" next="grave"/>
@@ -2311,6 +2329,10 @@
             <when state="Math" output="≅"/>
             <when state="Typographical" output=""/>
             <when state="fs" output="∗"/>
+        </action>
+        <action id="2←1 a⎇⎈">
+            <when state="none" output="å"/>
+            <when state="math=" output="≌"/>
         </action>
         <action id="2←2 s⎇">
             <when state="none" output="§"/>
@@ -2410,6 +2432,7 @@
             <when state="Diacritics" next="diaeresis"/>
             <when state="Typographical" output="№"/>
             <when state="diaeresis" output="̈"/>
+            <when state="math=" output="⩶"/>
         </action>
         <action id="3^">
             <when state="none" next="diaeresis"/>
@@ -3036,6 +3059,12 @@
             <when state="horn" next="horn+grave"/>
             <when state="macron" next="macron+grave"/>
             <when state="math-" output="⇀"/>
+            <when state="math=" next="math⩳"/>
+            <when state="math⋍" next="math="/>
+            <when state="math⋕" output="⧤"/>
+            <when state="math⧣" output="⧤"/>
+            <when state="math⧤" output="⧤"/>
+            <when state="math⩳" next="math⋍"/>
         </action>
         <action id="`0">
             <when state="none" output="\"/>
@@ -3280,6 +3309,7 @@
             <when state="fs" output="„"/>
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
+            <when state="math=" output="͇"/>
             <when state="space" output="⁠"/>
         </action>
         <action id="j^">
@@ -3355,6 +3385,9 @@
             <when state="dot-below" output="ṇ"/>
             <when state="grave" output="ǹ"/>
             <when state="horn" next="horn+tilde"/>
+            <when state="math≄" output="≠"/>
+            <when state="math≉" output="≠"/>
+            <when state="math≠" output="≠"/>
             <when state="space" output=" "/>
             <when state="tilde" output="ñ"/>
         </action>
@@ -3572,6 +3605,10 @@
             <when state="circumflex" next="circumflex+dot-below"/>
             <when state="dot-below" output="̣"/>
             <when state="horn" next="horn+dot-below"/>
+            <when state="mathO" output="⊖"/>
+            <when state="math|" output="⊦"/>
+            <when state="math‹" output="←"/>
+            <when state="space" output="‑"/>
         </action>
         <action id="v">
             <when state="none" output="v"/>
