@@ -17,7 +17,7 @@
             <modifier keys="anyShift? caps? command"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="1">
-            <modifier keys="anyShift caps?"/>
+            <modifier keys="shift caps?"/>
         </keyMapSelect>
         <keyMapSelect mapIndex="2">
             <modifier keys="caps"/>
@@ -190,7 +190,7 @@
             <key code="127" output=""/>
         </keyMap>
         <keyMap index="1">
-            <!--⇧-->
+            <!--‹⇧-->
             <key code="0" action="A"/>
             <key code="1" action="S"/>
             <key code="2" action="D"/>
