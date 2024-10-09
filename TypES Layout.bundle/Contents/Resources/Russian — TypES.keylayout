@@ -2622,6 +2622,7 @@
             <when state="none" output="«"/>
             <when state="Brackets" next="Brackets-〈"/>
             <when state="Brackets-〈" output="〉"/>
+            <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="«"/>
             <when state="Typographical" output="⸴"/>
             <when state="fs" output="‹"/>
