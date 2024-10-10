@@ -2833,8 +2833,12 @@
             <when state="math|" next="Math"/>
             <when state="math±re" next="math≈re"/>
             <when state="math‹" next="Math"/>
+            <when state="math←re" next="math⟵re"/>
+            <when state="math→re" next="math⟶re"/>
             <when state="math⇐" next="math="/>
+            <when state="math⇐re" next="math←re"/>
             <when state="math⇒" next="math="/>
+            <when state="math⇒re" next="math→re"/>
             <when state="math∓re" next="math±re"/>
             <when state="math≃" next="math≈"/>
             <when state="math≄" next="math≉"/>
@@ -2859,8 +2863,12 @@
             <when state="math⋝" next="math≥"/>
             <when state="math⋞" next="math≼"/>
             <when state="math⋟" next="math≽"/>
+            <when state="math⟵re" next="math⟸re"/>
+            <when state="math⟶re" next="math⟹re"/>
             <when state="math⟸" next="math="/>
+            <when state="math⟸re" next="math⇐re"/>
             <when state="math⟹" next="math="/>
+            <when state="math⟹re" next="math⇒re"/>
             <when state="math⥱" next="math⟹"/>
             <when state="math⧣" next="math⋕"/>
             <when state="math⧤" next="math⧣"/>
@@ -2980,6 +2988,14 @@
             <when state="greek-dialytika-tonos" output="΅"/>
             <when state="greek-tonos" output="΄"/>
             <when state="macron" output="¯"/>
+            <when state="math←re" output="←"/>
+            <when state="math→re" output="→"/>
+            <when state="math⇐re" output="⇐"/>
+            <when state="math⇒re" output="⇒"/>
+            <when state="math⟵re" output="⟵"/>
+            <when state="math⟶re" output="⟶"/>
+            <when state="math⟸re" output="⟸"/>
+            <when state="math⟹re" output="⟹"/>
             <when state="ogonek" output="˛"/>
             <when state="ring" output="˚"/>
             <when state="space" output=" "/>
@@ -3404,9 +3420,12 @@
             <when state="Brackets-apostrophe" output="&#x0027;"/>
             <when state="Copyright" output="🄯"/>
             <when state="Greek" output="λ"/>
+            <when state="Math" next="math⇐re"/>
             <when state="fs" output="”"/>
             <when state="math=" output="⋕"/>
+            <when state="math←re" next="math⇐re"/>
             <when state="math⇐" output="≼"/>
+            <when state="math⇐re" next="math⟸re"/>
             <when state="math⇒" output="≼"/>
             <when state="math≃" output="≌"/>
             <when state="math≈" output="≌"/>
@@ -3421,7 +3440,9 @@
             <when state="math⋝" output="≼"/>
             <when state="math⋞" output="≼"/>
             <when state="math⋟" output="≼"/>
+            <when state="math⟵re" next="math←re"/>
             <when state="math⟸" output="⟸"/>
+            <when state="math⟸re" next="math⟵re"/>
             <when state="math⧣" output="⋕"/>
             <when state="math⧤" output="⋕"/>
             <when state="math⩰" output="≌"/>
@@ -3463,15 +3484,17 @@
             <when state="Brackets-=str" output="&#x0022;"/>
             <when state="Diacritics" next="diaeresis"/>
             <when state="Greek" next="greek-tonos"/>
-            <when state="Math" output="…"/>
+            <when state="Math" next="math⇒re"/>
             <when state="OldCyrillic" output="ꙉ"/>
             <when state="breve" output="ӂ"/>
             <when state="diaeresis" output="ӝ"/>
             <when state="fs" output="꞉"/>
             <when state="macron" next="macron+diaeresis"/>
             <when state="math=" next="math≕"/>
+            <when state="math→re" next="math⇒re"/>
             <when state="math⇐" output="≽"/>
             <when state="math⇒" output="≽"/>
+            <when state="math⇒re" next="math⟹re"/>
             <when state="math≔" next="math⩴"/>
             <when state="math≕" next="math≔"/>
             <when state="math≤" output="≽"/>
@@ -3482,7 +3505,9 @@
             <when state="math⋝" output="≽"/>
             <when state="math⋞" output="≽"/>
             <when state="math⋟" output="≽"/>
+            <when state="math⟶re" next="math→re"/>
             <when state="math⟹" output="⟹"/>
+            <when state="math⟹re" next="math⟶re"/>
             <when state="math⥱" output="⟹"/>
             <when state="math⩴" next="math="/>
             <when state="math⪳" output="≽"/>
@@ -3588,6 +3613,7 @@
             <when state="Copyright" output="🄯"/>
             <when state="Diacritics" output="⃣"/>
             <when state="Greek" output="κ"/>
+            <when state="Math" output="⇑"/>
             <when state="fs" output="“"/>
             <when state="math=" output="⁼"/>
             <when state="math⇐" output="⪴"/>
@@ -3637,6 +3663,7 @@
             <when state="Copyright" output="(ɔ)"/>
             <when state="Diacritics" next="hook-above"/>
             <when state="Greek" output="ξ"/>
+            <when state="Math" output="⇓"/>
             <when state="OldCyrillic" output="ꙋ"/>
             <when state="breve" next="breve+hook-above"/>
             <when state="diaeresis" output="ӧ"/>
@@ -3917,6 +3944,7 @@
             <when state="Brackets" next="Brackets-「"/>
             <when state="Brackets-「" output="」"/>
             <when state="Greek" output="μ"/>
+            <when state="Math" output="…"/>
             <when state="OldCyrillic" output="ѣ"/>
             <when state="math≃" output="≊"/>
             <when state="math≈" output="≊"/>
@@ -4180,8 +4208,12 @@
         <when state="math|" output="｜"/>
         <when state="math±re" output="±"/>
         <when state="math‹" output="〈"/>
+        <when state="math←re" output="←"/>
+        <when state="math→re" output="→"/>
         <when state="math⇐" output="⇐"/>
+        <when state="math⇐re" output="⇐"/>
         <when state="math⇒" output="⇒"/>
+        <when state="math⇒re" output="⇒"/>
         <when state="math∓re" output="∓"/>
         <when state="math≃" output="≃"/>
         <when state="math≄" output="≄"/>
@@ -4208,8 +4240,12 @@
         <when state="math⋝" output="⋝"/>
         <when state="math⋞" output="⋞"/>
         <when state="math⋟" output="⋟"/>
+        <when state="math⟵re" output="⟵"/>
+        <when state="math⟶re" output="⟶"/>
         <when state="math⟸" output="⟸"/>
+        <when state="math⟸re" output="⟸"/>
         <when state="math⟹" output="⟹"/>
+        <when state="math⟹re" output="⟹"/>
         <when state="math⥱" output="⥱"/>
         <when state="math⧣" output="⧣"/>
         <when state="math⧤" output="⧤"/>
