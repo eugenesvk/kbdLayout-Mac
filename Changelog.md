@@ -28,9 +28,6 @@ All notable changes to this project will be documented in this file
     + `ru` some missing diacritic actions from `en`
     + `en` `ru` <kbd>🕱</kbd>`space` to <kbd>␠</kbd> in <kbd>🕱</kbd>`Typographical`
     + `en` add <kbd>🕱</kbd>`ligature_f` in <kbd>🕱</kbd>`Typographical`
-    + `en` `ru` cycling <kbd>🕱</kbd>`equal1≠`, <kbd>🕱</kbd>`equal2≈`, <kbd>🕱</kbd>`equal3±` to insert various equal/plus symbols
-      - <kbd>=</kbd> progresses to the next <kbd>🕱</kbd>
-      - <kbd>␈</kbd>returns to the previous <kbd>🕱</kbd>
     + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
@@ -38,6 +35,10 @@ All notable changes to this project will be documented in this file
     + `en` `ru` rename to align action names between `en` and `ru`
     + `en` `ru` rename some actions to reflect the key combo they're assigned to
     + `en` <kbd>🕱</kbd>`Typographical` to insert `⎀` since now <kbd>␠</kbd> is a separate <kbd>🕱</kbd>
+    + `ru` to align with `en` re. some diacritics
+    + `ru` to align with `en` re. some brackets
+    + `en` to align with `ru` re. <kbd>‹⇧</kbd> layer
+    + `en` to align with `ru` re. some Math
   - __Removed__
     + `en` `ru` <kbd>🕱</kbd>s from the <kbd>⎈</kbd> layer to not interfere with `DefaultKeyBinding.dict`
 
