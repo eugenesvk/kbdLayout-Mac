@@ -31,6 +31,35 @@ All notable changes to this project will be documented in this file
     + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅` and mapped it to <kbd>s</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various set ordering/comparison symbols (negation with <kbd>⇧</kbd> being held):
+        * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
+        * <kbd>l</kbd> <kbd>🕱</kbd>`math∅≷`
+        * <kbd>,</kbd> <kbd>🕱</kbd>`math∅≷`
+        * <kbd>⇧</kbd><kbd>l</kbd> <kbd>🕱</kbd>`math∅≸`
+        * <kbd>⇧</kbd><kbd>,</kbd> <kbd>🕱</kbd>`math∅≸`
+        * <kbd>.</kbd> <kbd>🕱</kbd>`math∅≸`
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅≷` (negation where exists with <kbd>⇧</kbd> or <kbd>⎇</kbd> being held):
+        * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
+        * <kbd>q</kbd> ⊰ <kbd>w</kbd> ⊱
+        * <kbd>e</kbd> ⋞ <kbd>r</kbd> ⋟
+        * <kbd>a</kbd> ≾ <kbd>s</kbd> ≿
+        * <kbd>d</kbd> ≺ <kbd>f</kbd> ≻
+        * <kbd>c</kbd> ≼ <kbd>v</kbd> ≽
+        * <kbd>u</kbd> ⋚ <kbd>i</kbd> ⋛
+        * <kbd>o</kbd> ⋘ <kbd>p</kbd> ⋙
+        * <kbd>j</kbd> ≶ <kbd>k</kbd> ≷
+        * <kbd>l</kbd> ⋜ <kbd>;</kbd> ⋝
+        * <kbd>m</kbd> ≲ <kbd>,</kbd> ≳
+        * <kbd>.</kbd> ⋖ <kbd>/</kbd> ⋗
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅≸`:
+        * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
+        * <kbd>a</kbd> ⋨ <kbd>s</kbd> ⋩
+        * <kbd>d</kbd> ⊀ <kbd>f</kbd>⊁
+        * <kbd>c</kbd> ⋠ <kbd>v</kbd> ⋡
+        * <kbd>j</kbd> ≸ <kbd>k</kbd> ≹
+        * <kbd>l</kbd> ≰ <kbd>;</kbd> ≱
+        * <kbd>m</kbd> ≴ <kbd>,</kbd> ≵
+        * <kbd>⎇</kbd><kbd>m</kbd> ⋦ <kbd>⎇</kbd><kbd>,</kbd> ⋧
   - __Changed__
     + `en` `ru` rename to align action names between `en` and `ru`
     + `en` `ru` rename some actions to reflect the key combo they're assigned to
