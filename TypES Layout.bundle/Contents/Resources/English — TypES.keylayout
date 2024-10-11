@@ -2135,13 +2135,6 @@
         <action id=" ">
             <when state="none" next="space"/>
         </action>
-        <action id="0→2 7‹⇧">
-            <when state="none" output="&#x0026;"/>
-            <when state="num_Roman" output="ⅶ"/>
-            <when state="num_roman" output="Ⅶ"/>
-            <when state="num⁵sup" output="₇"/>
-            <when state="num₅sub" output="⁷"/>
-        </action>
         <action id=",">
             <when state="none" output=","/>
             <when state="Brackets" next="Brackets-〈"/>
@@ -2389,6 +2382,13 @@
             <when state="fs" output="ˆ"/>
             <when state="num_Roman" output="ↅ"/>
             <when state="num_roman" output="ↅ"/>
+        </action>
+        <action id="0→2 7‹⇧">
+            <when state="none" output="&#x0026;"/>
+            <when state="num_Roman" output="ⅶ"/>
+            <when state="num_roman" output="Ⅶ"/>
+            <when state="num⁵sup" output="₇"/>
+            <when state="num₅sub" output="⁷"/>
         </action>
         <action id="0→2 7⎇">
             <when state="none" output="§"/>
