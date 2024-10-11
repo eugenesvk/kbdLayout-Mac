@@ -63,24 +63,24 @@
     </modifierMap>
     <keyMapSet id="16c">
         <keyMap index="0">
-            <key code="0" action="ф"/>
-            <key code="1" action="ы"/>
-            <key code="2" action="в"/>
-            <key code="3" action="а"/>
-            <key code="4" action="р"/>
-            <key code="5" action="п"/>
-            <key code="6" action="я"/>
-            <key code="7" action="ч"/>
-            <key code="8" action="с"/>
-            <key code="9" action="м"/>
+            <key code="0" action="2←1 a"/>
+            <key code="1" action="2←2 s"/>
+            <key code="2" action="2←3 d"/>
+            <key code="3" action="2←4 f"/>
+            <key code="4" action="2→1 h"/>
+            <key code="5" action="2←5 g"/>
+            <key code="6" action="3←1 z"/>
+            <key code="7" action="3←2 x"/>
+            <key code="8" action="3←3 c"/>
+            <key code="9" action="3←4 v"/>
             <key code="10" action="ё"/>
-            <key code="11" action="и"/>
-            <key code="12" action="й"/>
-            <key code="13" action="ц"/>
-            <key code="14" action="у"/>
-            <key code="15" action="к"/>
-            <key code="16" action="н"/>
-            <key code="17" action="е"/>
+            <key code="11" action="3←5 b"/>
+            <key code="12" action="1←1 q"/>
+            <key code="13" action="1←2 w"/>
+            <key code="14" action="1←3 e"/>
+            <key code="15" action="1←4 r"/>
+            <key code="16" action="1→1 y"/>
+            <key code="17" action="1←5 t"/>
             <key code="18" action="1"/>
             <key code="19" action="2"/>
             <key code="20" action="3"/>
@@ -93,24 +93,24 @@
             <key code="27" action="-"/>
             <key code="28" action="8"/>
             <key code="29" action="0"/>
-            <key code="30" action="ъ"/>
-            <key code="31" action="щ"/>
-            <key code="32" action="г"/>
-            <key code="33" action="х"/>
-            <key code="34" action="ш"/>
-            <key code="35" action="з"/>
+            <key code="30" action="1→7 ]"/>
+            <key code="31" action="1→4 o"/>
+            <key code="32" action="1→2 u"/>
+            <key code="33" action="1→6 ["/>
+            <key code="34" action="1→3 i"/>
+            <key code="35" action="1→5 p"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="д"/>
-            <key code="38" action="о"/>
-            <key code="39" action="э"/>
-            <key code="40" action="л"/>
-            <key code="41" action="ж"/>
-            <key code="42" action="\"/>
-            <key code="43" action="б"/>
-            <key code="44" action="."/>
-            <key code="45" action="т"/>
-            <key code="46" action="ь"/>
-            <key code="47" action="ю"/>
+            <key code="38" action="2→2 j"/>
+            <key code="39" action="2→5 apostrophe"/>
+            <key code="40" action="2→3 k"/>
+            <key code="41" action="2→4 ;"/>
+            <key code="42" action="2→7 \"/>
+            <key code="43" action="3→3 ,"/>
+            <key code="44" action="3→5 /"/>
+            <key code="45" action="3→1 n"/>
+            <key code="46" action="3→2 m"/>
+            <key code="47" action="3→4 ."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="space"/>
             <key code="50" action="ё 1"/>
@@ -221,7 +221,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="2→4 l⇧"/>
             <key code="38" action="2→2 j⇧"/>
-            <key code="39" action="Э"/>
+            <key code="39" action="2→5 apostrophe"/>
             <key code="40" action="2→3 k⇧"/>
             <key code="41" action="2→5 ;⇧"/>
             <key code="42" action="|"/>
@@ -340,7 +340,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="2→4 l⇧"/>
             <key code="38" action="2→2 j⇧"/>
-            <key code="39" action="Э"/>
+            <key code="39" action="2→5 apostrophe"/>
             <key code="40" action="2→3 k⇧"/>
             <key code="41" action="2→5 ;⇧"/>
             <key code="42" output="\"/>
@@ -1698,7 +1698,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="2→4 l⇧"/>
             <key code="38" action="2→2 j⇧"/>
-            <key code="39" action="Э"/>
+            <key code="39" action="2→5 apostrophe"/>
             <key code="40" action="2→3 k⇧"/>
             <key code="41" action="2→5 ;⇧"/>
             <key code="42" action="|"/>
@@ -1935,7 +1935,7 @@
             <when state="circumflex" next="circumflex+dot-below"/>
             <when state="dot-below" output="̣"/>
         </action>
-        <action id=".">
+        <action id="3→5 /">
             <when state="none" output="."/>
             <when state="Diacritics" next="acute"/>
             <when state="Greek" output="/"/>
@@ -3041,7 +3041,7 @@
             <when state="Greek" output="œ"/>
             <when state="macron" output="̄"/>
         </action>
-        <action id="\">
+        <action id="2→7 \">
             <when state="none" output="\"/>
             <when state="Greek" output="\"/>
             <when state="Math" output="∨"/>
@@ -3244,14 +3244,14 @@
             <when state="Math" output="≈"/>
             <when state="grave" output="Ѐ"/>
         </action>
-        <action id="Э">
+        <action id="2→5 apostrophe">
             <when state="none" output="Э"/>
             <when state="Greek" output="&#x0022;"/>
             <when state="OldCyrillic" output="Ѥ"/>
             <when state="diaeresis" output="Ӭ"/>
             <when state="math/" output="∉"/>
         </action>
-        <action id="а">
+        <action id="2←4 f">
             <when state="none" output="а"/>
             <when state="Brackets" next="Brackets-["/>
             <when state="Brackets-[" output="]"/>
@@ -3283,7 +3283,7 @@
             <when state="math⪴" output="≥"/>
             <when state="space" output=" "/>
         </action>
-        <action id="б">
+        <action id="3→3 ,">
             <when state="none" output="б"/>
             <when state="Brackets" next="Brackets-〈"/>
             <when state="Brackets-〈" output="〉"/>
@@ -3305,7 +3305,7 @@
             <when state="math⋞" next="math⪳"/>
             <when state="math⪳" next="math="/>
         </action>
-        <action id="в">
+        <action id="2←3 d">
             <when state="none" output="в"/>
             <when state="Brackets" output=")"/>
             <when state="Greek" output="δ"/>
@@ -3335,7 +3335,7 @@
             <when state="math⪴" output="≤"/>
             <when state="space" output=" "/>
         </action>
-        <action id="г">
+        <action id="1→2 u">
             <when state="none" output="г"/>
             <when state="Diacritics" next="dot-below"/>
             <when state="Greek" output="θ"/>
@@ -3415,7 +3415,7 @@
             <when state="math⪴" output="≼"/>
             <when state="math⭀" output="⟸"/>
         </action>
-        <action id="е">
+        <action id="1←5 t">
             <when state="none" output="е"/>
             <when state="Brackets" next="Brackets-«"/>
             <when state="Brackets-«" output="»"/>
@@ -3444,7 +3444,7 @@
             <when state="math⩳" next="math⋍"/>
             <when state="space" output=" "/>
         </action>
-        <action id="ж">
+        <action id="2→4 ;">
             <when state="none" output="ж"/>
             <when state="Brackets" next="Brackets-=str"/>
             <when state="Brackets-=str" output="&#x0022;"/>
@@ -3485,7 +3485,7 @@
             <when state="math⪳" output="≽"/>
             <when state="math⪴" output="≽"/>
         </action>
-        <action id="з">
+        <action id="1→5 p">
             <when state="none" output="з"/>
             <when state="Brackets" output="␌"/>
             <when state="Copyright" output="℗"/>
@@ -3520,7 +3520,7 @@
             <when state="math⪴" output="⋟"/>
             <when state="space" output=" "/>
         </action>
-        <action id="и">
+        <action id="3←5 b">
             <when state="none" output="и"/>
             <when state="Greek" output="β"/>
             <when state="Math" output="∵"/>
@@ -3534,7 +3534,7 @@
             <when state="math∅⊄" output="⋭"/>
             <when state="space" output=" "/>
         </action>
-        <action id="й">
+        <action id="1←1 q">
             <when state="none" output="й"/>
             <when state="Diacritics" next="breve"/>
             <when state="Greek" output="ς"/>
@@ -3553,7 +3553,7 @@
             <when state="math≌" output="⩰"/>
             <when state="math⩰" output="⩰"/>
         </action>
-        <action id="к">
+        <action id="1←4 r">
             <when state="none" output="к"/>
             <when state="Brackets" next="Brackets-‹"/>
             <when state="Brackets-‹" output="›"/>
@@ -3589,7 +3589,7 @@
             <when state="Greek" output="Δ"/>
             <when state="ring" output="̊"/>
         </action>
-        <action id="л">
+        <action id="2→3 k">
             <when state="none" output="л"/>
             <when state="Brackets" next="Brackets-quote"/>
             <when state="Brackets-quote" output="&#x0022;"/>
@@ -3622,7 +3622,7 @@
             <when state="math⪳" output="⪴"/>
             <when state="math⪴" output="⪴"/>
         </action>
-        <action id="м">
+        <action id="3←4 v">
             <when state="none" output="м"/>
             <when state="Diacritics" next="caron"/>
             <when state="Greek" output="ω"/>
@@ -3639,7 +3639,7 @@
             <when state="math≝" output="≜"/>
             <when state="space" output=" "/>
         </action>
-        <action id="н">
+        <action id="1→1 y">
             <when state="none" output="н"/>
             <when state="Brackets" next="Brackets-emacs"/>
             <when state="Brackets-emacs" output="&#x0027;"/>
@@ -3650,7 +3650,7 @@
             <when state="math=" output="󠀽"/>
             <when state="space" output=" "/>
         </action>
-        <action id="о">
+        <action id="2→2 j">
             <when state="none" output="о"/>
             <when state="Brackets" next="Brackets-{"/>
             <when state="Brackets-{" output="}"/>
@@ -3702,7 +3702,7 @@
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
         </action>
-        <action id="п">
+        <action id="2←5 g">
             <when state="none" output="п"/>
             <when state="Brackets" next="Brackets-‘"/>
             <when state="Brackets-‘" output="’"/>
@@ -3721,7 +3721,7 @@
         <action id="п^">
             <when state="none" next="Greek"/>
         </action>
-        <action id="р">
+        <action id="2→1 h">
             <when state="none" output="р"/>
             <when state="Brackets" next="Brackets-“"/>
             <when state="Brackets-“" output="”"/>
@@ -3741,7 +3741,7 @@
             <when state="Greek" output="≠"/>
             <when state="double-acute" output="̋"/>
         </action>
-        <action id="с">
+        <action id="3←3 c">
             <when state="none" output="с"/>
             <when state="Copyright" output="©"/>
             <when state="Greek" output="ψ"/>
@@ -3755,7 +3755,7 @@
             <when state="math∅⊄" output="⋢"/>
             <when state="space" output="␠"/>
         </action>
-        <action id="т">
+        <action id="3→1 n">
             <when state="none" output="т"/>
             <when state="Brackets" next="Brackets-【"/>
             <when state="Brackets-【" output="】"/>
@@ -3772,7 +3772,7 @@
             <when state="space" output=" "/>
             <when state="tilde" output="̃"/>
         </action>
-        <action id="у">
+        <action id="1←3 e">
             <when state="none" output="у"/>
             <when state="Greek" output="ε"/>
             <when state="Math" output="∃"/>
@@ -3801,7 +3801,7 @@
             <when state="math⪴" output="⋜"/>
             <when state="space" output="␣"/>
         </action>
-        <action id="ф">
+        <action id="2←1 a">
             <when state="none" output="ф"/>
             <when state="Greek" output="α"/>
             <when state="Math" output="∀"/>
@@ -3826,19 +3826,19 @@
             <when state="math⯹" output="⩮"/>
             <when state="space" output=" "/>
         </action>
-        <action id="х">
+        <action id="1→6 [">
             <when state="none" output="х"/>
             <when state="Greek" output="["/>
             <when state="Math" output="⌊"/>
             <when state="math|" output="⟦"/>
         </action>
-        <action id="ц">
+        <action id="1←2 w">
             <when state="none" output="ц"/>
             <when state="Greek" output="ω"/>
             <when state="OldCyrillic" output="ѡ"/>
             <when state="math∅≷" output="⊱"/>
         </action>
-        <action id="ч">
+        <action id="3←2 x">
             <when state="none" output="ч"/>
             <when state="Greek" output="χ"/>
             <when state="Math" output="·"/>
@@ -3851,7 +3851,7 @@
             <when state="math⧣" next="math⧤"/>
             <when state="math⧤" next="math="/>
         </action>
-        <action id="ш">
+        <action id="1→3 i">
             <when state="none" output="ш"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Greek" output="ι"/>
@@ -3890,7 +3890,7 @@
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
         </action>
-        <action id="щ">
+        <action id="1→4 o">
             <when state="none" output="щ"/>
             <when state="Brackets" next="Brackets-〔"/>
             <when state="Brackets-〔" output="〕"/>
@@ -3940,7 +3940,7 @@
             <when state="ogonek" next="ogonek+macron"/>
             <when state="tilde" next="tilde+macron"/>
         </action>
-        <action id="ъ">
+        <action id="1→7 ]">
             <when state="none" output="ъ"/>
             <when state="Greek" output="]"/>
             <when state="Math" output="⌋"/>
@@ -3948,7 +3948,7 @@
             <when state="fs" output="¦"/>
             <when state="math|" output="⟧"/>
         </action>
-        <action id="ы">
+        <action id="2←2 s">
             <when state="none" output="ы"/>
             <when state="Copyright" output="℠"/>
             <when state="Greek" output="σ"/>
@@ -3965,7 +3965,7 @@
             <when state="math⯹" output="≛"/>
             <when state="space" output="␠"/>
         </action>
-        <action id="ь">
+        <action id="3→2 m">
             <when state="none" output="ь"/>
             <when state="Brackets" next="Brackets-「"/>
             <when state="Brackets-「" output="」"/>
@@ -3985,7 +3985,7 @@
             <when state="math⩰" output="≊"/>
             <when state="space" output=" "/>
         </action>
-        <action id="э">
+        <action id="2→5 apostrophe">
             <when state="none" output="э"/>
             <when state="Diacritics" next="horn"/>
             <when state="Greek" output="&#x0027;"/>
@@ -3997,7 +3997,7 @@
             <when state="horn" output="̛"/>
             <when state="math/" output="∉"/>
         </action>
-        <action id="ю">
+        <action id="3→4 .">
             <when state="none" output="ю"/>
             <when state="Brackets" next="Brackets-⟪"/>
             <when state="Brackets-〈" output="〉"/>
@@ -4028,7 +4028,7 @@
             <when state="math⋯" output="…"/>
             <when state="math⪴" next="math="/>
         </action>
-        <action id="я">
+        <action id="3←1 z">
             <when state="none" output="я"/>
             <when state="Brackets" next="Brackets-⸨"/>
             <when state="Brackets-⸨" output="⸩"/>
