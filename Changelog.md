@@ -31,14 +31,14 @@ All notable changes to this project will be documented in this file
     + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
-    + :sparkles: `en` <kbd>🕱</kbd>`math⊹` and mapped it to <kbd>p</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various relations symbols:
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⊹` and mapped it to <kbd>p</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various relations symbols:
         * <kbd>p</kbd> ⊹
         * <kbd>l</kbd> ⊷
         * <kbd>;</kbd> ⊶
         * <kbd>,</kbd> ⊸
         * <kbd>␠</kbd> ⊹
         * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
-    + :sparkles: `en` <kbd>🕱</kbd>`math...` and mapped it to <kbd>m</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various punctuations symbols, in each sub-layer:
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math...` and mapped it to <kbd>m</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various punctuations symbols, in each sub-layer:
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>m</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
@@ -46,18 +46,18 @@ All notable changes to this project will be documented in this file
         * <kbd>.</kbd>  …
         * <kbd>k</kbd>  ⋯
         * <kbd>l</kbd>  ⋮
-    + :sparkles: `en` <kbd>🕱</kbd>`math⊾` and mapped it to <kbd>7</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various angle/triangle symbols:
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⊾` and mapped it to <kbd>7</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various angle/triangle symbols:
         * <kbd>␠</kbd> ⊾
         * <kbd>7</kbd> ⊿
             - <kbd>␠</kbd> ⊿
             -  <kbd>7</kbd> ⊾ (cycles back)
-    + :sparkles: `en` <kbd>🕱</kbd>`math∅⊻` and mapped it to <kbd>o</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols:
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅⊻` and mapped it to <kbd>o</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols:
         * <kbd>t</kbd> ⊺
         * <kbd>u</kbd> ⊽
         * <kbd>j</kbd> ⊻
         * <kbd>k</kbd> ⊼
         * <kbd>␈</kbd> kbd>🕱</kbd>`math∅`
-    + :sparkles: `en` <kbd>🕱</kbd>`math∅⊂` and mapped it to <kbd>;</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols (negation with <kbd>⇧</kbd> being held or in a separate layer (mapped to <kbd>⇧</kbd><kbd>;</kbd>, <kbd>/</kbd>) on the same keys):
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅⊂` and mapped it to <kbd>;</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols (negation with <kbd>⇧</kbd> being held or in a separate layer (mapped to <kbd>⇧</kbd><kbd>;</kbd>, <kbd>/</kbd>) on the same keys):
         * <kbd>e</kbd> ⋤ <kbd>r</kbd> ⋥
         * <kbd>d</kbd> ⊏  <kbd>f</kbd> ⊐
         * <kbd>c</kbd> ⊑  <kbd>v</kbd> ⊒
