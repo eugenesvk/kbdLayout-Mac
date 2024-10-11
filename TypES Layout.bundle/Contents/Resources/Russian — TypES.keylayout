@@ -195,7 +195,7 @@
             <key code="7" action="3←2 x⇧"/>
             <key code="8" action="3←3 c⇧"/>
             <key code="9" action="3←4 v⇧"/>
-            <key code="10" action="Ё"/>
+            <key code="10" action="00 §⇧"/>
             <key code="11" action="3←5 b⇧"/>
             <key code="12" action="1←1 q⇧"/>
             <key code="13" action="1←2 w⇧"/>
@@ -314,7 +314,7 @@
             <key code="7" action="3←2 x⇧"/>
             <key code="8" action="3←3 c⇧"/>
             <key code="9" action="3←4 v⇧"/>
-            <key code="10" action="Ё"/>
+            <key code="10" action="00 §⇧"/>
             <key code="11" action="3←5 b⇧"/>
             <key code="12" action="1←1 q⇧"/>
             <key code="13" action="1←2 w⇧"/>
@@ -1672,7 +1672,7 @@
             <key code="7" action="3←2 x⇧"/>
             <key code="8" action="3←3 c⇧"/>
             <key code="9" action="3←4 v⇧"/>
-            <key code="10" action="Ё"/>
+            <key code="10" action="00 §⇧"/>
             <key code="11" action="3←5 b⇧"/>
             <key code="12" action="1←1 q⇧"/>
             <key code="13" action="1←2 w⇧"/>
@@ -3347,7 +3347,7 @@
             <when state="none" output="λ"/>
             <when state="Greek" output="·"/>
         </action>
-        <action id="Ё">
+        <action id="00 §⇧">
             <when state="none" output="Ё"/>
             <when state="Greek" output="±"/>
             <when state="breve" output="Ӗ"/>
