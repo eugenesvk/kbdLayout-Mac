@@ -2862,6 +2862,7 @@
             <when state="math∅≸" next="math∅"/>
             <when state="math∅⊂" next="math∅"/>
             <when state="math∅⊄" next="math∅"/>
+            <when state="math∅⊻" next="math∅"/>
             <when state="math∓re" next="math±re"/>
             <when state="math≃" next="math≈"/>
             <when state="math≄" next="math≉"/>
@@ -3447,6 +3448,7 @@
             <when state="math=" output="⩷"/>
             <when state="math∅≷" output="⋚"/>
             <when state="math∅⊂" output="⋐"/>
+            <when state="math∅⊻" output="⊽"/>
             <when state="math≑" output="⩷"/>
             <when state="math⩦" output="⩷"/>
             <when state="math⩷" output="⩷"/>
@@ -3523,6 +3525,7 @@
             <when state="diaeresis" output="ё"/>
             <when state="grave" output="ѐ"/>
             <when state="math=" next="math⩳"/>
+            <when state="math∅⊻" output="⊺"/>
             <when state="math≃" output="≃"/>
             <when state="math≄" output="≄"/>
             <when state="math≈" output="≃"/>
@@ -3695,6 +3698,7 @@
             <when state="math∅≷" output="≷"/>
             <when state="math∅≸" output="≹"/>
             <when state="math∅⊂" output="⋓"/>
+            <when state="math∅⊻" output="⊼"/>
             <when state="math≑" output="≑"/>
             <when state="math≤" output="⪴"/>
             <when state="math≥" output="⪴"/>
@@ -3757,6 +3761,7 @@
             <when state="math∅≷" output="≶"/>
             <when state="math∅≸" output="≸"/>
             <when state="math∅⊂" output="⋒"/>
+            <when state="math∅⊻" output="⊻"/>
             <when state="math≑" output="⩦"/>
             <when state="math≤" output="⪳"/>
             <when state="math≥" output="⪳"/>
@@ -3985,6 +3990,7 @@
             <when state="macron" output="̄"/>
             <when state="math⇐" output="⋞"/>
             <when state="math⇒" output="⋞"/>
+            <when state="math∅" next="math∅⊻"/>
             <when state="math∅≷" output="⋘"/>
             <when state="math∅⊂" output="⊊"/>
             <when state="math∅⊄" output="⊊"/>
@@ -4334,6 +4340,7 @@
         <when state="math∅≸" output="≸"/>
         <when state="math∅⊂" output="⊂"/>
         <when state="math∅⊄" output="⊄"/>
+        <when state="math∅⊻" output="⊻"/>
         <when state="math∓re" output="∓"/>
         <when state="math≃" output="≃"/>
         <when state="math≄" output="≄"/>
