@@ -100,17 +100,17 @@
             <key code="34" action="1→3 i"/>
             <key code="35" action="1→5 p"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" action="l"/>
-            <key code="38" action="j"/>
-            <key code="39" action="apostrophe0"/>
-            <key code="40" action="k"/>
-            <key code="41" action=";"/>
+            <key code="37" action="2→4 l"/>
+            <key code="38" action="2→2 j"/>
+            <key code="39" action="2→6 apostrophe"/>
+            <key code="40" action="2→3 k"/>
+            <key code="41" action="2→5 ;"/>
             <key code="42" action="\0"/>
-            <key code="43" action=","/>
-            <key code="44" action="/"/>
-            <key code="45" action="n"/>
-            <key code="46" action="m"/>
-            <key code="47" action="."/>
+            <key code="43" action="3→3 ,"/>
+            <key code="44" action="3→5 /"/>
+            <key code="45" action="3→1 n"/>
+            <key code="46" action="3→2 m"/>
+            <key code="47" action="3→4 ."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="space"/>
             <key code="50" action="`0"/>
@@ -233,7 +233,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="2→4 l⇧"/>
             <key code="38" action="2→2 j⇧"/>
-            <key code="39" action="apostrophe1"/>
+            <key code="39" action="2→6 apostrophe⇧"/>
             <key code="40" action="2→3 k⇧"/>
             <key code="41" action="2→5 ;⇧"/>
             <key code="42" action="|"/>
@@ -886,17 +886,17 @@
             <key code="34" action="1→3 i"/>
             <key code="35" action="1→5 p"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" action="l"/>
-            <key code="38" action="j"/>
+            <key code="37" action="2→4 l"/>
+            <key code="38" action="2→2 j"/>
             <key code="39" output="&#x0027;"/>
-            <key code="40" action="k"/>
-            <key code="41" action=";"/>
+            <key code="40" action="2→3 k"/>
+            <key code="41" action="2→5 ;"/>
             <key code="42" output="\"/>
             <key code="43" output=","/>
-            <key code="44" action="/"/>
-            <key code="45" action="n"/>
-            <key code="46" action="m"/>
-            <key code="47" action="."/>
+            <key code="44" action="3→5 /"/>
+            <key code="45" action="3→1 n"/>
+            <key code="46" action="3→2 m"/>
+            <key code="47" action="3→4 ."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output=" "/>
             <key code="50" output="\"/>
@@ -1938,7 +1938,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="2→4 l⇧"/>
             <key code="38" action="2→2 j⇧"/>
-            <key code="39" action="apostrophe1"/>
+            <key code="39" action="2→6 apostrophe⇧"/>
             <key code="40" action="2→3 k⇧"/>
             <key code="41" action="2→5 ;⇧"/>
             <key code="42" action="|"/>
@@ -2135,7 +2135,7 @@
         <action id=" ">
             <when state="none" next="space"/>
         </action>
-        <action id=",">
+        <action id="3→3 ,">
             <when state="none" output=","/>
             <when state="Brackets" next="Brackets-〈"/>
             <when state="Brackets-〈" output="〉"/>
@@ -2173,7 +2173,7 @@
             <when state="circumflex" next="circumflex+dot-below"/>
             <when state="dot-below" output="̣"/>
         </action>
-        <action id=".">
+        <action id="3→4 .">
             <when state="none" output="."/>
             <when state="Brackets" next="Brackets-⟪"/>
             <when state="Brackets-〈" output="〉"/>
@@ -2209,7 +2209,7 @@
             <when state="num₅sub" output="₉"/>
             <when state="space" output=" "/>
         </action>
-        <action id="/">
+        <action id="3→5 /">
             <when state="none" output="/"/>
             <when state="Diacritics" next="acute"/>
             <when state="Math" next="math/"/>
@@ -4250,7 +4250,7 @@
             <when state="none" next="breve"/>
             <when state="breve" output="̆"/>
         </action>
-        <action id=";">
+        <action id="2→5 ;">
             <when state="none" output=";"/>
             <when state="Brackets" next="Brackets-=str"/>
             <when state="Brackets-=str" output="&#x0022;"/>
@@ -4458,7 +4458,7 @@
             <when state="none" output="⇪"/>
             <when state="Greek" output="Έ"/>
         </action>
-        <action id="apostrophe0">
+        <action id="2→6 apostrophe">
             <when state="none" output="&#x0027;"/>
             <when state="Diacritics" next="horn"/>
             <when state="Math" output="∈"/>
@@ -4468,7 +4468,7 @@
             <when state="horn" output="̛"/>
             <when state="math/" output="∉"/>
         </action>
-        <action id="apostrophe1">
+        <action id="2→6 apostrophe⇧">
             <when state="none" output="&#x0022;"/>
             <when state="OldCyrillic" output="Ѥ"/>
             <when state="math/" output="∉"/>
@@ -4515,7 +4515,7 @@
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
         </action>
-        <action id="j">
+        <action id="2→2 j">
             <when state="none" output="j"/>
             <when state="Brackets" next="Brackets-{"/>
             <when state="Brackets-{" output="}"/>
@@ -4574,7 +4574,7 @@
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
         </action>
-        <action id="k">
+        <action id="2→3 k">
             <when state="none" output="k"/>
             <when state="Brackets" next="Brackets-quote"/>
             <when state="Brackets-quote" output="&#x0022;"/>
@@ -4621,7 +4621,7 @@
             <when state="num⁵sup" output="⁵"/>
             <when state="num₅sub" output="₅"/>
         </action>
-        <action id="l">
+        <action id="2→4 l">
             <when state="none" output="l"/>
             <when state="Brackets" next="Brackets-apostrophe"/>
             <when state="Brackets-apostrophe" output="&#x0027;"/>
@@ -4678,7 +4678,7 @@
             <when state="num⁵sup" output="⁶"/>
             <when state="num₅sub" output="₆"/>
         </action>
-        <action id="m">
+        <action id="3→2 m">
             <when state="none" output="m"/>
             <when state="Brackets" next="Brackets-「"/>
             <when state="Brackets-「" output="」"/>
@@ -4710,7 +4710,7 @@
         <action id="m^">
             <when state="none" next="Math"/>
         </action>
-        <action id="n">
+        <action id="3→1 n">
             <when state="none" output="n"/>
             <when state="Brackets" next="Brackets-【"/>
             <when state="Brackets-【" output="】"/>
