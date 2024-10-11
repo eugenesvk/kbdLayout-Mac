@@ -2072,14 +2072,6 @@
             <when state="math≠" next="math≉"/>
             <when state="space" output=" "/>
         </action>
-        <action id="3→4 .⇧">
-            <when state="none" output=","/>
-            <when state="Greek" output="?"/>
-            <when state="Math" output="．"/>
-            <when state="fs" output="⸮"/>
-            <when state="math∅⊂" output="⊉"/>
-            <when state="math∅⊄" output="⊋"/>
-        </action>
         <action id="0">
             <when state="none" output="0"/>
             <when state="Diacritics" next="caron"/>
@@ -2499,6 +2491,17 @@
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="«"/>
         </action>
+        <action id="1→6 [⇧">
+            <when state="none" output="Х"/>
+            <when state="Greek" output="{"/>
+            <when state="Math" output="⌈"/>
+        </action>
+        <action id="1→7 [⇧">
+            <when state="none" output="Ъ"/>
+            <when state="Greek" output="}"/>
+            <when state="Math" output="⌉"/>
+            <when state="Typographical" output="↵"/>
+        </action>
         <action id="1→7 ]">
             <when state="none" output="]"/>
             <when state="Greek" output="»"/>
@@ -2858,6 +2861,14 @@
             <when state="math≼" next="math⋞"/>
             <when state="math⋜" next="math≼"/>
             <when state="math⋞" next="math⪳"/>
+        </action>
+        <action id="3→4 .⇧">
+            <when state="none" output=","/>
+            <when state="Greek" output="?"/>
+            <when state="Math" output="．"/>
+            <when state="fs" output="⸮"/>
+            <when state="math∅⊂" output="⊉"/>
+            <when state="math∅⊄" output="⊋"/>
         </action>
         <action id="3→4 .⎇">
             <when state="none" output="»"/>
@@ -3348,17 +3359,6 @@
             <when state="Greek" output="~"/>
             <when state="Math" output="≈"/>
             <when state="grave" output="Ѐ"/>
-        </action>
-        <action id="1→6 [⇧">
-            <when state="none" output="Х"/>
-            <when state="Greek" output="{"/>
-            <when state="Math" output="⌈"/>
-        </action>
-        <action id="1→7 [⇧">
-            <when state="none" output="Ъ"/>
-            <when state="Greek" output="}"/>
-            <when state="Math" output="⌉"/>
-            <when state="Typographical" output="↵"/>
         </action>
         <action id="Э">
             <when state="none" output="Э"/>
