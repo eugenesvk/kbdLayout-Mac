@@ -2094,6 +2094,13 @@
             <when state="math⪴" output="⇒"/>
             <when state="space" output="​"/>
         </action>
+        <action id="00 §⇧">
+            <when state="none" output="Ё"/>
+            <when state="Greek" output="±"/>
+            <when state="breve" output="Ӗ"/>
+            <when state="diaeresis" output="Ё"/>
+            <when state="grave" output="Ѐ"/>
+        </action>
         <action id="00 §⎇">
             <when state="none" output="`"/>
             <when state="Typographical" output="ˋ"/>
@@ -3346,13 +3353,6 @@
         <action id="λ">
             <when state="none" output="λ"/>
             <when state="Greek" output="·"/>
-        </action>
-        <action id="00 §⇧">
-            <when state="none" output="Ё"/>
-            <when state="Greek" output="±"/>
-            <when state="breve" output="Ӗ"/>
-            <when state="diaeresis" output="Ё"/>
-            <when state="grave" output="Ѐ"/>
         </action>
         <action id="Ё 1">
             <when state="none" output="~"/>
