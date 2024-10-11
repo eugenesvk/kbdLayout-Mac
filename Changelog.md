@@ -31,6 +31,13 @@ All notable changes to this project will be documented in this file
     + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
+    + :sparkles: `en` <kbd>🕱</kbd>`math√` and other root layers (cycled) and mapped it to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>p</kbd> and <kbd>y</kbd>in <kbd>🕱</kbd>`Math`. In each sub-layer:
+        * - ␠⃣ inserts the symbol
+        * - k⃣ y⃣  moves to the next layer
+        * - ␈⃣moves to the previous layer
+        * - 2⃣ √
+        * - 3⃣ ∛
+        * - 4⃣ ∜
     + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⊹` and mapped it to <kbd>p</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various relations symbols:
         * <kbd>p</kbd> ⊹
         * <kbd>l</kbd> ⊷
