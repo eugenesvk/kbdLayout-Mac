@@ -1282,7 +1282,7 @@
             <key code="35" output="&#x0010;"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="&#x0001;"/>
-            <key code="38" action="j^"/>
+            <key code="38" action="2→2 j⎈"/>
             <key code="39" action="apostrophe9"/>
             <key code="40" output="&#x000B;"/>
             <key code="41" output="&#x0004;"/>
@@ -4543,7 +4543,7 @@
             <when state="math≉" next="math≄"/>
             <when state="math≠" next="math≉"/>
         </action>
-        <action id=";^">
+        <action id="2→5 ;⎈">
             <when state="none" next="Diacritics"/>
         </action>
         <action id="Backspace">
@@ -4729,7 +4729,7 @@
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
         </action>
-        <action id="j^">
+        <action id="2→2 j⎈">
             <when state="none" output="&#x000C;"/>
             <when state="breve" next="breve+hook-above"/>
             <when state="circumflex" next="circumflex+hook-above"/>
