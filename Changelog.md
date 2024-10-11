@@ -57,6 +57,20 @@ All notable changes to this project will be documented in this file
         * <kbd>j</kbd> ⊻
         * <kbd>k</kbd> ⊼
         * <kbd>␈</kbd> kbd>🕱</kbd>`math∅`
+    + :sparkles: `en` <kbd>🕱</kbd>`math∅⊂` and mapped it to <kbd>;</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols (negation with <kbd>⇧</kbd> being held or in a separate layer (mapped to <kbd>⇧</kbd><kbd>;</kbd>, <kbd>/</kbd>) on the same keys):
+        * <kbd>e</kbd> ⋤ <kbd>r</kbd> ⋥
+        * <kbd>d</kbd> ⊏  <kbd>f</kbd> ⊐
+        * <kbd>c</kbd> ⊑  <kbd>v</kbd> ⊒
+        * <kbd>u</kbd> ⋐  <kbd>i</kbd> ⋑
+        * <kbd>j</kbd> ⋒  <kbd>k</kbd> ⋓
+        * <kbd>m</kbd> ⋔
+        * <kbd>8</kbd> ⊌  <kbd>9</kbd> ⊍  <kbd>=</kbd> ⊎
+        * <kbd>o</kbd> ⊊  <kbd>p</kbd> ⊋
+        * <kbd>l</kbd> ⊂  <kbd>;</kbd> ⊃
+        * <kbd>.</kbd> ⊆  <kbd>/</kbd> ⊇
+        * <kbd>g</kbd> ⊳  <kbd>h</kbd> ⊲
+        * <kbd>b</kbd> ⊵  <kbd>n</kbd> ⊴
+        * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
     + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅` and mapped it to <kbd>s</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various set ordering/comparison symbols (negation with <kbd>⇧</kbd> being held):
         * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
         * <kbd>l</kbd> <kbd>🕱</kbd>`math∅≷`
@@ -64,6 +78,10 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>l</kbd> <kbd>🕱</kbd>`math∅≸`
         * <kbd>⇧</kbd><kbd>,</kbd> <kbd>🕱</kbd>`math∅≸`
         * <kbd>.</kbd> <kbd>🕱</kbd>`math∅≸`
+        * <kbd>o</kbd> <kbd>🕱</kbd>`math∅⊻`
+        * <kbd>;</kbd> <kbd>🕱</kbd>`math∅⊂`
+        * <kbd>⇧</kbd><kbd>;</kbd> <kbd>🕱</kbd>`math∅⊄`
+        * <kbd>/</kbd> <kbd>🕱</kbd>`math∅⊂`
     + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅≷` (negation where exists with <kbd>⇧</kbd> or <kbd>⎇</kbd> being held):
         * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
         * <kbd>q</kbd> ⊰ <kbd>w</kbd> ⊱
