@@ -226,13 +226,13 @@
             <key code="38" action="2→2 j⇧"/>
             <key code="39" action="Э"/>
             <key code="40" action="2→3 k⇧"/>
-            <key code="41" action="2→5 &#x0004;⇧"/>
+            <key code="41" action="2→5 ;⇧"/>
             <key code="42" action="|"/>
-            <key code="43" action="3→1 ⇧,"/>
+            <key code="43" action="3→1 ,⇧"/>
             <key code="44" action=".⇧"/>
-            <key code="45" action="3→1 ⇧n"/>
-            <key code="46" action="3→1 ⇧m"/>
-            <key code="47" action="3→1 ⇧."/>
+            <key code="45" action="3→1 n⇧"/>
+            <key code="46" action="3→1 m⇧"/>
+            <key code="47" action="3→1 .⇧"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="space"/>
             <key code="50" action="Ё 1"/>
@@ -345,13 +345,13 @@
             <key code="38" action="2→2 j⇧"/>
             <key code="39" action="Э"/>
             <key code="40" action="2→3 k⇧"/>
-            <key code="41" action="2→5 &#x0004;⇧"/>
+            <key code="41" action="2→5 ;⇧"/>
             <key code="42" output="\"/>
-            <key code="43" action="3→1 ⇧,"/>
+            <key code="43" action="3→1 ,⇧"/>
             <key code="44" output="."/>
-            <key code="45" action="3→1 ⇧n"/>
-            <key code="46" action="3→1 ⇧m"/>
-            <key code="47" action="3→1 ⇧."/>
+            <key code="45" action="3→1 n⇧"/>
+            <key code="46" action="3→1 m⇧"/>
+            <key code="47" action="3→1 .⇧"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="space"/>
             <key code="50" output="Ё"/>
@@ -1703,13 +1703,13 @@
             <key code="38" action="2→2 j⇧"/>
             <key code="39" action="Э"/>
             <key code="40" action="2→3 k⇧"/>
-            <key code="41" action="2→5 &#x0004;⇧"/>
+            <key code="41" action="2→5 ;⇧"/>
             <key code="42" action="|"/>
-            <key code="43" action="3→1 ⇧,"/>
+            <key code="43" action="3→1 ,⇧"/>
             <key code="44" action=".⇧"/>
-            <key code="45" action="3→1 ⇧n"/>
-            <key code="46" action="3→1 ⇧m"/>
-            <key code="47" action="3→1 ⇧."/>
+            <key code="45" action="3→1 n⇧"/>
+            <key code="46" action="3→1 m⇧"/>
+            <key code="47" action="3→1 .⇧"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="space"/>
             <key code="50" action="Ё 1"/>
@@ -2667,7 +2667,7 @@
             <when state="Greek" output="¬"/>
             <when state="fs" output="”"/>
         </action>
-        <action id="2→5 &#x0004;⇧">
+        <action id="2→5 ;⇧">
             <when state="none" output="Ж"/>
             <when state="Greek" next="diaeresis-greek"/>
             <when state="OldCyrillic" output="Ꙉ"/>
@@ -2799,7 +2799,7 @@
             <when state="Typographical" output="🔢"/>
             <when state="tilde" output="̃"/>
         </action>
-        <action id="3→1 ⇧,">
+        <action id="3→1 ,⇧">
             <when state="none" output="Б"/>
             <when state="Brackets" next="Brackets-⟪"/>
             <when state="Brackets-⟪" output="⟫"/>
@@ -2810,7 +2810,7 @@
             <when state="math∅" next="math∅≸"/>
             <when state="math∅≷" output="≵"/>
         </action>
-        <action id="3→1 ⇧.">
+        <action id="3→1 .⇧">
             <when state="none" output="Ю"/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="&#x003E;"/>
@@ -2823,13 +2823,13 @@
             <when state="math∅⊂" output="⊈"/>
             <when state="math∅⊄" output="⊊"/>
         </action>
-        <action id="3→1 ⇧m">
+        <action id="3→1 m⇧">
             <when state="none" output="Ь"/>
             <when state="Greek" output="Μ"/>
             <when state="OldCyrillic" output="Ѣ"/>
             <when state="math∅≷" output="≴"/>
         </action>
-        <action id="3→1 ⇧n">
+        <action id="3→1 n⇧">
             <when state="none" output="Т"/>
             <when state="Greek" output="Ν"/>
             <when state="math∅⊂" output="⋬"/>
