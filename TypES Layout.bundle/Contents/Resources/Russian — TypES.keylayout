@@ -2170,6 +2170,20 @@
             <when state="math⧤" output="⧤"/>
             <when state="math⩳" next="math⋍"/>
         </action>
+        <action id="00 § 1">
+            <when state="none" output="`"/>
+            <when state="Diacritics" next="grave"/>
+            <when state="Greek" output="`"/>
+            <when state="Math" output="¬"/>
+            <when state="Typographical" output="⇧"/>
+            <when state="grave" output="ѐ"/>
+            <when state="horn" next="horn+grave"/>
+            <when state="math-" output="⇀"/>
+        </action>
+        <action id="00 §^">
+            <when state="none" next="grave"/>
+            <when state="grave" output="̀"/>
+        </action>
         <action id="00 §⇧">
             <when state="none" output="Ё"/>
             <when state="Greek" output="±"/>
@@ -2201,12 +2215,20 @@
             <when state="num_roman" output="ⅰ"/>
             <when state="num₅sub" output="₁"/>
         </action>
+        <action id="0←1 1^">
+            <when state="none" next="acute"/>
+            <when state="acute" output="́"/>
+            <when state="macron" next="macron+acute"/>
+        </action>
         <action id="0←1 1⇧">
             <when state="none" output="!"/>
             <when state="Greek" output="!"/>
             <when state="num_Roman" output="ⅰ"/>
             <when state="num_roman" output="Ⅰ"/>
             <when state="num⁵sup" output="₁"/>
+        </action>
+        <action id="0←1 1⇧⎈">
+            <when state="none" next="double-acute"/>
         </action>
         <action id="0←1 1⎇">
             <when state="none" output="¹"/>
@@ -2746,14 +2768,6 @@
             <when state="math⭀" next="math⟸"/>
             <when state="math⯹" next="math⩮"/>
             <when state="num⁵sup" next="num₅sub"/>
-        </action>
-        <action id="0←1 1⇧⎈">
-            <when state="none" next="double-acute"/>
-        </action>
-        <action id="0←1 1^">
-            <when state="none" next="acute"/>
-            <when state="acute" output="́"/>
-            <when state="macron" next="macron+acute"/>
         </action>
         <action id="1←1 q">
             <when state="none" output="й"/>
@@ -4640,20 +4654,6 @@
             <when state="macron+grave" output="᷅"/>
             <when state="ogonek" next="ogonek+macron"/>
             <when state="tilde" next="tilde+macron"/>
-        </action>
-        <action id="00 § 1">
-            <when state="none" output="`"/>
-            <when state="Diacritics" next="grave"/>
-            <when state="Greek" output="`"/>
-            <when state="Math" output="¬"/>
-            <when state="Typographical" output="⇧"/>
-            <when state="grave" output="ѐ"/>
-            <when state="horn" next="horn+grave"/>
-            <when state="math-" output="⇀"/>
-        </action>
-        <action id="00 §^">
-            <when state="none" next="grave"/>
-            <when state="grave" output="̀"/>
         </action>
         <action id="Ѣ">
             <when state="none" output=""/>
