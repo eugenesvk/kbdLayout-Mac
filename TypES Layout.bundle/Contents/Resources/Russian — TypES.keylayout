@@ -73,7 +73,7 @@
             <key code="7" action="3←2 x"/>
             <key code="8" action="3←3 c"/>
             <key code="9" action="3←4 v"/>
-            <key code="10" action="ё"/>
+            <key code="10" action="00 §"/>
             <key code="11" action="3←5 b"/>
             <key code="12" action="1←1 q"/>
             <key code="13" action="1←2 w"/>
@@ -81,18 +81,18 @@
             <key code="15" action="1←4 r"/>
             <key code="16" action="1→1 y"/>
             <key code="17" action="1←5 t"/>
-            <key code="18" action="1"/>
-            <key code="19" action="2"/>
-            <key code="20" action="3"/>
-            <key code="21" action="4"/>
-            <key code="22" action="6"/>
-            <key code="23" action="5"/>
-            <key code="24" action="="/>
-            <key code="25" action="9"/>
-            <key code="26" action="7"/>
-            <key code="27" action="-"/>
-            <key code="28" action="8"/>
-            <key code="29" action="0"/>
+            <key code="18" action="0←1 1"/>
+            <key code="19" action="0←2 2"/>
+            <key code="20" action="0←3 3"/>
+            <key code="21" action="0←4 4"/>
+            <key code="22" action="0→1 6"/>
+            <key code="23" action="0←5 5"/>
+            <key code="24" action="0→7 ="/>
+            <key code="25" action="0→4 9"/>
+            <key code="26" action="0→2 7"/>
+            <key code="27" action="0→6 -"/>
+            <key code="28" action="0→3 8"/>
+            <key code="29" action="0→5 0"/>
             <key code="30" action="1→7 ]"/>
             <key code="31" action="1→4 o"/>
             <key code="32" action="1→2 u"/>
@@ -2145,7 +2145,7 @@
             <when state="none" output="&#x003C;"/>
             <when state="fs" output="‹"/>
         </action>
-        <action id="-">
+        <action id="0→6 -">
             <when state="none" output="-"/>
             <when state="Diacritics" next="dot-below"/>
             <when state="Math" next="math-"/>
@@ -2172,7 +2172,7 @@
             <when state="circumflex" next="circumflex+dot-below"/>
             <when state="dot-below" output="̣"/>
         </action>
-        <action id="0">
+        <action id="0→5 0">
             <when state="none" output="0"/>
             <when state="Diacritics" next="caron"/>
             <when state="Math" output="⊃"/>
@@ -2508,7 +2508,7 @@
             <when state="math⯹" next="math⩮"/>
             <when state="num⁵sup" next="num₅sub"/>
         </action>
-        <action id="1">
+        <action id="0←1 1">
             <when state="none" output="1"/>
             <when state="Diacritics" next="acute"/>
             <when state="Typographical" output="‽"/>
@@ -2978,7 +2978,7 @@
             <when state="Typographical" output="⏎"/>
             <when state="fs" output="¦"/>
         </action>
-        <action id="2">
+        <action id="0←2 2">
             <when state="none" output="2"/>
             <when state="Diacritics" next="grave"/>
             <when state="acute" output="̋"/>
@@ -3531,7 +3531,7 @@
             <when state="fs" output="⧵"/>
             <when state="math=" output="⟾"/>
         </action>
-        <action id="3">
+        <action id="0←3 3">
             <when state="none" output="3"/>
             <when state="Diacritics" next="diaeresis"/>
             <when state="Typographical" output="№"/>
@@ -3975,7 +3975,7 @@
             <when state="math≉" next="math≄"/>
             <when state="math≠" next="math≉"/>
         </action>
-        <action id="4">
+        <action id="0←4 4">
             <when state="none" output="4"/>
             <when state="Diacritics" next="tilde"/>
             <when state="Typographical" output="¤"/>
@@ -3996,7 +3996,7 @@
             <when state="none" next="tilde"/>
             <when state="tilde" output="̃"/>
         </action>
-        <action id="5">
+        <action id="0←5 5">
             <when state="none" output="5"/>
             <when state="Diacritics" next="macron"/>
             <when state="diaeresis" next="diaeresis+macron"/>
@@ -4024,7 +4024,7 @@
             <when state="ogonek" next="ogonek+macron"/>
             <when state="tilde" next="tilde+macron"/>
         </action>
-        <action id="6">
+        <action id="0→1 6">
             <when state="none" output="6"/>
             <when state="Diacritics" next="circumflex"/>
             <when state="Math" output="⇑"/>
@@ -4042,7 +4042,7 @@
             <when state="none" next="circumflex"/>
             <when state="circumflex" output="̂"/>
         </action>
-        <action id="7">
+        <action id="0→2 7">
             <when state="none" output="7"/>
             <when state="Diacritics" next="ring"/>
             <when state="Math" next="math⊾"/>
@@ -4062,7 +4062,7 @@
             <when state="none" next="ring"/>
             <when state="ring" output="̊"/>
         </action>
-        <action id="8">
+        <action id="0→3 8">
             <when state="none" output="8"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Math" output="∗"/>
@@ -4093,7 +4093,7 @@
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
         </action>
-        <action id="9">
+        <action id="0→4 9">
             <when state="none" output="9"/>
             <when state="Diacritics" next="breve"/>
             <when state="Math" output="⊂"/>
@@ -4123,7 +4123,7 @@
         <action id=";^">
             <when state="none" next="Diacritics"/>
         </action>
-        <action id="=">
+        <action id="0→7 =">
             <when state="none" output="="/>
             <when state="Diacritics" next="cedilla"/>
             <when state="Math" next="math="/>
@@ -4622,7 +4622,7 @@
             <when state="ogonek" next="ogonek+macron"/>
             <when state="tilde" next="tilde+macron"/>
         </action>
-        <action id="ё">
+        <action id="00 §">
             <when state="none" output="ё"/>
             <when state="Diacritics" next="grave"/>
             <when state="Greek" output="§"/>
