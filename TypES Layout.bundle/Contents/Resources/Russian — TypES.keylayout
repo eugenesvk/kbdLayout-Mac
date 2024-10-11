@@ -102,7 +102,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="2→4 l"/>
             <key code="38" action="2→2 j"/>
-            <key code="39" action="2→5 apostrophe"/>
+            <key code="39" action="2→6 apostrophe"/>
             <key code="40" action="2→3 k"/>
             <key code="41" action="2→5 ;"/>
             <key code="42" action="2→7 \"/>
@@ -364,7 +364,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="2→4 l⇧"/>
             <key code="38" action="2→2 j⇧"/>
-            <key code="39" action="2→5 apostrophe"/>
+            <key code="39" action="2→6 apostrophe"/>
             <key code="40" action="2→3 k⇧"/>
             <key code="41" action="2→5 ;⇧"/>
             <key code="42" output="\"/>
@@ -1938,7 +1938,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="2→4 l⇧"/>
             <key code="38" action="2→2 j⇧"/>
-            <key code="39" action="2→5 apostrophe"/>
+            <key code="39" action="2→6 apostrophe"/>
             <key code="40" action="2→3 k⇧"/>
             <key code="41" action="2→5 ;⇧"/>
             <key code="42" action="|"/>
@@ -3834,7 +3834,7 @@
             <when state="math≕" next="math≔"/>
             <when state="math⩴" next="math="/>
         </action>
-        <action id="2→5 apostrophe">
+        <action id="2→6 apostrophe">
             <when state="none" output="э"/>
             <when state="Diacritics" next="horn"/>
             <when state="Greek" output="&#x0027;"/>
