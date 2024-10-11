@@ -2135,34 +2135,6 @@
         <action id=" ">
             <when state="none" next="space"/>
         </action>
-        <action id="3→3 ,">
-            <when state="none" output=","/>
-            <when state="Brackets" next="Brackets-〈"/>
-            <when state="Brackets-〈" output="〉"/>
-            <when state="Brackets-⟪" output="⟫"/>
-            <when state="Math" next="math‹"/>
-            <when state="Typographical" output="⟨"/>
-            <when state="fs" output="‹"/>
-            <when state="math=" next="math⇐"/>
-            <when state="math_" output="≤"/>
-            <when state="math‹" output="←"/>
-            <when state="math⅚" output="⅝"/>
-            <when state="math⅞" output="⅞"/>
-            <when state="math⅟" output="⅛"/>
-            <when state="math⇐" next="math≤"/>
-            <when state="math∅" next="math∅≷"/>
-            <when state="math∅≷" output="≳"/>
-            <when state="math∅≸" output="≵"/>
-            <when state="math≤" next="math⋜"/>
-            <when state="math≼" next="math⋞"/>
-            <when state="math⋜" next="math≼"/>
-            <when state="math⋞" next="math⪳"/>
-            <when state="math⪳" next="math="/>
-            <when state="num_Roman" output="Ⅷ"/>
-            <when state="num_roman" output="ⅷ"/>
-            <when state="num⁵sup" output="⁸"/>
-            <when state="num₅sub" output="₈"/>
-        </action>
         <action id=",⇧⎇">
             <when state="none" output="„"/>
             <when state="fs" output="‹"/>
@@ -2172,68 +2144,6 @@
             <when state="breve" next="breve+dot-below"/>
             <when state="circumflex" next="circumflex+dot-below"/>
             <when state="dot-below" output="̣"/>
-        </action>
-        <action id="3→4 .">
-            <when state="none" output="."/>
-            <when state="Brackets" next="Brackets-⟪"/>
-            <when state="Brackets-〈" output="〉"/>
-            <when state="Brackets-⟪" output="⟫"/>
-            <when state="Math" output="〉"/>
-            <when state="OldCyrillic" output="ꙗ"/>
-            <when state="Typographical" output="⟩"/>
-            <when state="fs" output="．"/>
-            <when state="math-" output="→"/>
-            <when state="math=" next="math⇒"/>
-            <when state="mathO" output="⊙"/>
-            <when state="math_" output="≥"/>
-            <when state="math|" output="↦"/>
-            <when state="math…" output="…"/>
-            <when state="math‹" output="◇"/>
-            <when state="math⅟" output="⅑"/>
-            <when state="math⇒" next="math≥"/>
-            <when state="math∅" next="math∅≸"/>
-            <when state="math∅≷" output="⋖"/>
-            <when state="math∅⊂" output="⊆"/>
-            <when state="math∅⊄" output="⊈"/>
-            <when state="math≥" next="math⋝"/>
-            <when state="math≽" next="math⋟"/>
-            <when state="math⊹" output="⊸"/>
-            <when state="math⋝" next="math≽"/>
-            <when state="math⋟" next="math⪴"/>
-            <when state="math⋮" output="…"/>
-            <when state="math⋯" output="…"/>
-            <when state="math⪴" next="math="/>
-            <when state="num_Roman" output="Ⅸ"/>
-            <when state="num_roman" output="ⅸ"/>
-            <when state="num⁵sup" output="⁹"/>
-            <when state="num₅sub" output="₉"/>
-            <when state="space" output=" "/>
-        </action>
-        <action id="3→5 /">
-            <when state="none" output="/"/>
-            <when state="Diacritics" next="acute"/>
-            <when state="Math" next="math/"/>
-            <when state="Typographical" output="⁒"/>
-            <when state="acute" output="́"/>
-            <when state="fs" output="⁄"/>
-            <when state="horn" next="horn+acute"/>
-            <when state="macron" next="macron+acute"/>
-            <when state="math=" next="math≠"/>
-            <when state="mathO" output="⊘"/>
-            <when state="math⁄" next="math↉"/>
-            <when state="math⅟" output="⅒"/>
-            <when state="math↉" output="↉"/>
-            <when state="math∅" next="math∅⊄"/>
-            <when state="math∅≷" output="⋗"/>
-            <when state="math∅⊂" output="⊇"/>
-            <when state="math∅⊄" output="⊉"/>
-            <when state="math≄" next="math="/>
-            <when state="math≉" next="math≄"/>
-            <when state="math≠" next="math≉"/>
-            <when state="num_Roman" output="Ⅹ"/>
-            <when state="num_roman" output="ⅹ"/>
-            <when state="num⁵sup" output="⁰"/>
-            <when state="num₅sub" output="₀"/>
         </action>
         <action id="/^">
             <when state="none" output="/"/>
@@ -3793,6 +3703,52 @@
             <when state="double-acute" output="̋"/>
             <when state="fs" output="ˆ"/>
         </action>
+        <action id="2→2 j">
+            <when state="none" output="j"/>
+            <when state="Brackets" next="Brackets-{"/>
+            <when state="Brackets-{" output="}"/>
+            <when state="Diacritics" next="hook-above"/>
+            <when state="Greek" output="ξ"/>
+            <when state="Math" output="⇓"/>
+            <when state="OldCyrillic" output="ꙋ"/>
+            <when state="breve" next="breve+hook-above"/>
+            <when state="caron" output="ǰ"/>
+            <when state="circumflex" output="ĵ"/>
+            <when state="fs" output="„"/>
+            <when state="hook-above" output="̉"/>
+            <when state="horn" next="horn+hook-above"/>
+            <when state="math=" output="₌"/>
+            <when state="math¾" output="¾"/>
+            <when state="math…" output="…"/>
+            <when state="math⁄" next="math⅘"/>
+            <when state="math⅟" output="¼"/>
+            <when state="math⇐" output="⪳"/>
+            <when state="math⇒" output="⪳"/>
+            <when state="math∅≷" output="≶"/>
+            <when state="math∅≸" output="≸"/>
+            <when state="math∅⊂" output="⋒"/>
+            <when state="math∅⊻" output="⊻"/>
+            <when state="math≑" output="⩦"/>
+            <when state="math≤" output="⪳"/>
+            <when state="math≥" output="⪳"/>
+            <when state="math≼" output="⪳"/>
+            <when state="math≽" output="⪳"/>
+            <when state="math⋜" output="⪳"/>
+            <when state="math⋝" output="⪳"/>
+            <when state="math⋞" output="⪳"/>
+            <when state="math⋟" output="⪳"/>
+            <when state="math⋮" output="…"/>
+            <when state="math⋯" output="…"/>
+            <when state="math⩦" output="⩦"/>
+            <when state="math⩷" output="⩦"/>
+            <when state="math⪳" output="⪳"/>
+            <when state="math⪴" output="⪳"/>
+            <when state="num_Roman" output="Ⅳ"/>
+            <when state="num_roman" output="ⅳ"/>
+            <when state="num⁵sup" output="⁴"/>
+            <when state="num₅sub" output="₄"/>
+            <when state="space" output="⁠"/>
+        </action>
         <action id="2→2 j⇧">
             <when state="none" output="J"/>
             <when state="Greek" output="Ξ"/>
@@ -3817,6 +3773,53 @@
             <when state="math=" output="͇"/>
             <when state="space" output="⁠"/>
         </action>
+        <action id="2→3 k">
+            <when state="none" output="k"/>
+            <when state="Brackets" next="Brackets-quote"/>
+            <when state="Brackets-quote" output="&#x0022;"/>
+            <when state="Diacritics" output="⃣"/>
+            <when state="Greek" output="κ"/>
+            <when state="Math" output="⇑"/>
+            <when state="caron" output="ǩ"/>
+            <when state="cedilla" output="ķ"/>
+            <when state="dot-below" output="ḳ"/>
+            <when state="fs" output="“"/>
+            <when state="math=" output="⁼"/>
+            <when state="math¾" output="⅗"/>
+            <when state="math…" output="⋯"/>
+            <when state="math⁄" next="math⅚"/>
+            <when state="math⅔" output="⅖"/>
+            <when state="math⅘" output="⅘"/>
+            <when state="math⅟" output="⅕"/>
+            <when state="math⇐" output="⪴"/>
+            <when state="math⇒" output="⪴"/>
+            <when state="math∅≷" output="≷"/>
+            <when state="math∅≸" output="≹"/>
+            <when state="math∅⊂" output="⋓"/>
+            <when state="math∅⊻" output="⊼"/>
+            <when state="math√" next="math∛"/>
+            <when state="math∛" next="math∜"/>
+            <when state="math∜" next="math√"/>
+            <when state="math≑" output="≑"/>
+            <when state="math≤" output="⪴"/>
+            <when state="math≥" output="⪴"/>
+            <when state="math≼" output="⪴"/>
+            <when state="math≽" output="⪴"/>
+            <when state="math⋜" output="⪴"/>
+            <when state="math⋝" output="⪴"/>
+            <when state="math⋞" output="⪴"/>
+            <when state="math⋟" output="⪴"/>
+            <when state="math⋮" output="⋯"/>
+            <when state="math⋯" output="⋯"/>
+            <when state="math⩦" output="≑"/>
+            <when state="math⩷" output="≑"/>
+            <when state="math⪳" output="⪴"/>
+            <when state="math⪴" output="⪴"/>
+            <when state="num_Roman" output="Ⅴ"/>
+            <when state="num_roman" output="ⅴ"/>
+            <when state="num⁵sup" output="⁵"/>
+            <when state="num₅sub" output="₅"/>
+        </action>
         <action id="2→3 k⇧">
             <when state="none" output="K"/>
             <when state="Greek" output="Κ"/>
@@ -3837,6 +3840,63 @@
             <when state="Typographical" output="⇞"/>
             <when state="fs" output="“"/>
             <when state="math=" output="͌"/>
+        </action>
+        <action id="2→4 l">
+            <when state="none" output="l"/>
+            <when state="Brackets" next="Brackets-apostrophe"/>
+            <when state="Brackets-apostrophe" output="&#x0027;"/>
+            <when state="Copyright" output="🄯"/>
+            <when state="Greek" output="λ"/>
+            <when state="Math" next="math⇐re"/>
+            <when state="acute" output="ĺ"/>
+            <when state="cedilla" output="ļ"/>
+            <when state="dot-below" output="ḷ"/>
+            <when state="dot-below+macron" output="ḹ"/>
+            <when state="fs" output="”"/>
+            <when state="ligature_f" output="ﬂ"/>
+            <when state="math=" output="⋕"/>
+            <when state="math¾" output="⅜"/>
+            <when state="math…" output="⋮"/>
+            <when state="math⅚" output="⅚"/>
+            <when state="math⅟" output="⅙"/>
+            <when state="math←re" next="math⇐re"/>
+            <when state="math⇐" output="≼"/>
+            <when state="math⇐re" next="math⟸re"/>
+            <when state="math⇒" output="≼"/>
+            <when state="math∅" next="math∅≷"/>
+            <when state="math∅≷" output="⋜"/>
+            <when state="math∅≸" output="≰"/>
+            <when state="math∅⊂" output="⊂"/>
+            <when state="math∅⊄" output="⊄"/>
+            <when state="math≃" output="≌"/>
+            <when state="math≈" output="≌"/>
+            <when state="math≊" output="≌"/>
+            <when state="math≌" output="≌"/>
+            <when state="math≤" output="≼"/>
+            <when state="math≥" output="≼"/>
+            <when state="math≼" output="≼"/>
+            <when state="math≽" output="≼"/>
+            <when state="math⊹" output="⊷"/>
+            <when state="math⋕" output="⋕"/>
+            <when state="math⋜" output="≼"/>
+            <when state="math⋝" output="≼"/>
+            <when state="math⋞" output="≼"/>
+            <when state="math⋟" output="≼"/>
+            <when state="math⋮" output="⋮"/>
+            <when state="math⋯" output="⋮"/>
+            <when state="math⟵re" next="math←re"/>
+            <when state="math⟸" output="⟸"/>
+            <when state="math⟸re" next="math⟵re"/>
+            <when state="math⧣" output="⋕"/>
+            <when state="math⧤" output="⋕"/>
+            <when state="math⩰" output="≌"/>
+            <when state="math⪳" output="≼"/>
+            <when state="math⪴" output="≼"/>
+            <when state="math⭀" output="⟸"/>
+            <when state="num_Roman" output="Ⅵ"/>
+            <when state="num_roman" output="ⅵ"/>
+            <when state="num⁵sup" output="⁶"/>
+            <when state="num₅sub" output="₆"/>
         </action>
         <action id="2→4 l⇧">
             <when state="none" output="L"/>
@@ -3859,6 +3919,46 @@
             <when state="Brackets-apostrophe" output="&#x0027;"/>
             <when state="Greek" output="¬"/>
             <when state="fs" output="”"/>
+        </action>
+        <action id="2→5 ;">
+            <when state="none" output=";"/>
+            <when state="Brackets" next="Brackets-=str"/>
+            <when state="Brackets-=str" output="&#x0022;"/>
+            <when state="Diacritics" next="diaeresis"/>
+            <when state="Greek" next="greek-tonos"/>
+            <when state="Math" next="math⇒re"/>
+            <when state="OldCyrillic" output="ꙉ"/>
+            <when state="diaeresis" output="̈"/>
+            <when state="fs" output="꞉"/>
+            <when state="macron" next="macron+diaeresis"/>
+            <when state="math=" next="math≕"/>
+            <when state="math→re" next="math⇒re"/>
+            <when state="math⇐" output="≽"/>
+            <when state="math⇒" output="≽"/>
+            <when state="math⇒re" next="math⟹re"/>
+            <when state="math∅" next="math∅⊂"/>
+            <when state="math∅≷" output="⋝"/>
+            <when state="math∅≸" output="≱"/>
+            <when state="math∅⊂" output="⊃"/>
+            <when state="math∅⊄" output="⊅"/>
+            <when state="math≔" next="math⩴"/>
+            <when state="math≕" next="math≔"/>
+            <when state="math≤" output="≽"/>
+            <when state="math≥" output="≽"/>
+            <when state="math≼" output="≽"/>
+            <when state="math≽" output="≽"/>
+            <when state="math⊹" output="⊶"/>
+            <when state="math⋜" output="≽"/>
+            <when state="math⋝" output="≽"/>
+            <when state="math⋞" output="≽"/>
+            <when state="math⋟" output="≽"/>
+            <when state="math⟶re" next="math→re"/>
+            <when state="math⟹" output="⟹"/>
+            <when state="math⟹re" next="math⟶re"/>
+            <when state="math⥱" output="⟹"/>
+            <when state="math⩴" next="math="/>
+            <when state="math⪳" output="≽"/>
+            <when state="math⪴" output="≽"/>
         </action>
         <action id="2→5 ;⇧">
             <when state="none" output=":"/>
@@ -3884,8 +3984,23 @@
             <when state="math≕" next="math≔"/>
             <when state="math⩴" next="math="/>
         </action>
+        <action id="2→6 apostrophe">
+            <when state="none" output="&#x0027;"/>
+            <when state="Diacritics" next="horn"/>
+            <when state="Math" output="∈"/>
+            <when state="OldCyrillic" output="ѥ"/>
+            <when state="acute" output="́"/>
+            <when state="fs" output="”"/>
+            <when state="horn" output="̛"/>
+            <when state="math/" output="∉"/>
+        </action>
         <action id="2→6 apostrophe ⇧⎈">
             <when state="none" next="double-acute"/>
+        </action>
+        <action id="2→6 apostrophe⇧">
+            <when state="none" output="&#x0022;"/>
+            <when state="OldCyrillic" output="Ѥ"/>
+            <when state="math/" output="∉"/>
         </action>
         <action id="2→6 apostrophe⎇">
             <when state="none" output="’"/>
@@ -4082,6 +4197,33 @@
             <when state="none" output="ß"/>
             <when state="Typographical" output="⌨"/>
         </action>
+        <action id="3→1 n">
+            <when state="none" output="n"/>
+            <when state="Brackets" next="Brackets-【"/>
+            <when state="Brackets-【" output="】"/>
+            <when state="Diacritics" next="tilde"/>
+            <when state="Greek" output="ν"/>
+            <when state="Math" output="ℕ"/>
+            <when state="Typographical" output="¶"/>
+            <when state="acute" output="ń"/>
+            <when state="caron" output="ň"/>
+            <when state="cedilla" output="ņ"/>
+            <when state="dot-above" output="ṅ"/>
+            <when state="dot-below" output="ṇ"/>
+            <when state="grave" output="ǹ"/>
+            <when state="horn" next="horn+tilde"/>
+            <when state="math∅⊂" output="⊴"/>
+            <when state="math∅⊄" output="⋬"/>
+            <when state="math≄" output="≠"/>
+            <when state="math≉" output="≠"/>
+            <when state="math≠" output="≠"/>
+            <when state="num_Roman" next="num₅sub"/>
+            <when state="num_roman" next="num_Roman"/>
+            <when state="num⁵sup" next="num_roman"/>
+            <when state="num₅sub" next="num⁵sup"/>
+            <when state="space" output=" "/>
+            <when state="tilde" output="ñ"/>
+        </action>
         <action id="3→1 n⇧">
             <when state="none" output="N"/>
             <when state="Greek" output="Ν"/>
@@ -4108,6 +4250,35 @@
             <when state="num₅sub" next="num⁵sup"/>
             <when state="tilde" output="̃"/>
         </action>
+        <action id="3→2 m">
+            <when state="none" output="m"/>
+            <when state="Brackets" next="Brackets-「"/>
+            <when state="Brackets-「" output="」"/>
+            <when state="Greek" output="μ"/>
+            <when state="Math" next="math…"/>
+            <when state="OldCyrillic" output="ѣ"/>
+            <when state="acute" output="ḿ"/>
+            <when state="dot-above" output="ṁ"/>
+            <when state="dot-below" output="ṃ"/>
+            <when state="math…" next="math⋯"/>
+            <when state="math⁄" next="math⅞"/>
+            <when state="math⅟" output="⅐"/>
+            <when state="math∅≷" output="≲"/>
+            <when state="math∅≸" output="≴"/>
+            <when state="math∅⊂" output="⋔"/>
+            <when state="math≃" output="≊"/>
+            <when state="math≈" output="≊"/>
+            <when state="math≊" output="≊"/>
+            <when state="math≌" output="≊"/>
+            <when state="math⋮" next="math…"/>
+            <when state="math⋯" next="math⋮"/>
+            <when state="math⩰" output="≊"/>
+            <when state="num_Roman" output="Ⅶ"/>
+            <when state="num_roman" output="ⅶ"/>
+            <when state="num⁵sup" output="⁷"/>
+            <when state="num₅sub" output="₇"/>
+            <when state="space" output=" "/>
+        </action>
         <action id="3→2 m⇧">
             <when state="none" output="M"/>
             <when state="Greek" output="Μ"/>
@@ -4129,6 +4300,34 @@
             <when state="Typographical" output="🖰"/>
             <when state="math∅≷" output="⋦"/>
             <when state="math∅≸" output="⋦"/>
+        </action>
+        <action id="3→3 ,">
+            <when state="none" output=","/>
+            <when state="Brackets" next="Brackets-〈"/>
+            <when state="Brackets-〈" output="〉"/>
+            <when state="Brackets-⟪" output="⟫"/>
+            <when state="Math" next="math‹"/>
+            <when state="Typographical" output="⟨"/>
+            <when state="fs" output="‹"/>
+            <when state="math=" next="math⇐"/>
+            <when state="math_" output="≤"/>
+            <when state="math‹" output="←"/>
+            <when state="math⅚" output="⅝"/>
+            <when state="math⅞" output="⅞"/>
+            <when state="math⅟" output="⅛"/>
+            <when state="math⇐" next="math≤"/>
+            <when state="math∅" next="math∅≷"/>
+            <when state="math∅≷" output="≳"/>
+            <when state="math∅≸" output="≵"/>
+            <when state="math≤" next="math⋜"/>
+            <when state="math≼" next="math⋞"/>
+            <when state="math⋜" next="math≼"/>
+            <when state="math⋞" next="math⪳"/>
+            <when state="math⪳" next="math="/>
+            <when state="num_Roman" output="Ⅷ"/>
+            <when state="num_roman" output="ⅷ"/>
+            <when state="num⁵sup" output="⁸"/>
+            <when state="num₅sub" output="₈"/>
         </action>
         <action id="3→3 ,⇧">
             <when state="none" output="&#x003C;"/>
@@ -4159,6 +4358,42 @@
             <when state="math≼" next="math⋞"/>
             <when state="math⋜" next="math≼"/>
             <when state="math⋞" next="math⪳"/>
+        </action>
+        <action id="3→4 .">
+            <when state="none" output="."/>
+            <when state="Brackets" next="Brackets-⟪"/>
+            <when state="Brackets-〈" output="〉"/>
+            <when state="Brackets-⟪" output="⟫"/>
+            <when state="Math" output="〉"/>
+            <when state="OldCyrillic" output="ꙗ"/>
+            <when state="Typographical" output="⟩"/>
+            <when state="fs" output="．"/>
+            <when state="math-" output="→"/>
+            <when state="math=" next="math⇒"/>
+            <when state="mathO" output="⊙"/>
+            <when state="math_" output="≥"/>
+            <when state="math|" output="↦"/>
+            <when state="math…" output="…"/>
+            <when state="math‹" output="◇"/>
+            <when state="math⅟" output="⅑"/>
+            <when state="math⇒" next="math≥"/>
+            <when state="math∅" next="math∅≸"/>
+            <when state="math∅≷" output="⋖"/>
+            <when state="math∅⊂" output="⊆"/>
+            <when state="math∅⊄" output="⊈"/>
+            <when state="math≥" next="math⋝"/>
+            <when state="math≽" next="math⋟"/>
+            <when state="math⊹" output="⊸"/>
+            <when state="math⋝" next="math≽"/>
+            <when state="math⋟" next="math⪴"/>
+            <when state="math⋮" output="…"/>
+            <when state="math⋯" output="…"/>
+            <when state="math⪴" next="math="/>
+            <when state="num_Roman" output="Ⅸ"/>
+            <when state="num_roman" output="ⅸ"/>
+            <when state="num⁵sup" output="⁹"/>
+            <when state="num₅sub" output="₉"/>
+            <when state="space" output=" "/>
         </action>
         <action id="3→4 .⇧">
             <when state="none" output="&#x003E;"/>
@@ -4194,6 +4429,32 @@
             <when state="math⋝" next="math≽"/>
             <when state="math⋟" next="math⪴"/>
             <when state="math⪴" next="math="/>
+        </action>
+        <action id="3→5 /">
+            <when state="none" output="/"/>
+            <when state="Diacritics" next="acute"/>
+            <when state="Math" next="math/"/>
+            <when state="Typographical" output="⁒"/>
+            <when state="acute" output="́"/>
+            <when state="fs" output="⁄"/>
+            <when state="horn" next="horn+acute"/>
+            <when state="macron" next="macron+acute"/>
+            <when state="math=" next="math≠"/>
+            <when state="mathO" output="⊘"/>
+            <when state="math⁄" next="math↉"/>
+            <when state="math⅟" output="⅒"/>
+            <when state="math↉" output="↉"/>
+            <when state="math∅" next="math∅⊄"/>
+            <when state="math∅≷" output="⋗"/>
+            <when state="math∅⊂" output="⊇"/>
+            <when state="math∅⊄" output="⊉"/>
+            <when state="math≄" next="math="/>
+            <when state="math≉" next="math≄"/>
+            <when state="math≠" next="math≉"/>
+            <when state="num_Roman" output="Ⅹ"/>
+            <when state="num_roman" output="ⅹ"/>
+            <when state="num⁵sup" output="⁰"/>
+            <when state="num₅sub" output="₀"/>
         </action>
         <action id="3→5 /⇧">
             <when state="none" output="?"/>
@@ -4249,46 +4510,6 @@
         <action id="9^">
             <when state="none" next="breve"/>
             <when state="breve" output="̆"/>
-        </action>
-        <action id="2→5 ;">
-            <when state="none" output=";"/>
-            <when state="Brackets" next="Brackets-=str"/>
-            <when state="Brackets-=str" output="&#x0022;"/>
-            <when state="Diacritics" next="diaeresis"/>
-            <when state="Greek" next="greek-tonos"/>
-            <when state="Math" next="math⇒re"/>
-            <when state="OldCyrillic" output="ꙉ"/>
-            <when state="diaeresis" output="̈"/>
-            <when state="fs" output="꞉"/>
-            <when state="macron" next="macron+diaeresis"/>
-            <when state="math=" next="math≕"/>
-            <when state="math→re" next="math⇒re"/>
-            <when state="math⇐" output="≽"/>
-            <when state="math⇒" output="≽"/>
-            <when state="math⇒re" next="math⟹re"/>
-            <when state="math∅" next="math∅⊂"/>
-            <when state="math∅≷" output="⋝"/>
-            <when state="math∅≸" output="≱"/>
-            <when state="math∅⊂" output="⊃"/>
-            <when state="math∅⊄" output="⊅"/>
-            <when state="math≔" next="math⩴"/>
-            <when state="math≕" next="math≔"/>
-            <when state="math≤" output="≽"/>
-            <when state="math≥" output="≽"/>
-            <when state="math≼" output="≽"/>
-            <when state="math≽" output="≽"/>
-            <when state="math⊹" output="⊶"/>
-            <when state="math⋜" output="≽"/>
-            <when state="math⋝" output="≽"/>
-            <when state="math⋞" output="≽"/>
-            <when state="math⋟" output="≽"/>
-            <when state="math⟶re" next="math→re"/>
-            <when state="math⟹" output="⟹"/>
-            <when state="math⟹re" next="math⟶re"/>
-            <when state="math⥱" output="⟹"/>
-            <when state="math⩴" next="math="/>
-            <when state="math⪳" output="≽"/>
-            <when state="math⪴" output="≽"/>
         </action>
         <action id=";^">
             <when state="none" next="Diacritics"/>
@@ -4458,21 +4679,6 @@
             <when state="none" output="⇪"/>
             <when state="Greek" output="Έ"/>
         </action>
-        <action id="2→6 apostrophe">
-            <when state="none" output="&#x0027;"/>
-            <when state="Diacritics" next="horn"/>
-            <when state="Math" output="∈"/>
-            <when state="OldCyrillic" output="ѥ"/>
-            <when state="acute" output="́"/>
-            <when state="fs" output="”"/>
-            <when state="horn" output="̛"/>
-            <when state="math/" output="∉"/>
-        </action>
-        <action id="2→6 apostrophe⇧">
-            <when state="none" output="&#x0022;"/>
-            <when state="OldCyrillic" output="Ѥ"/>
-            <when state="math/" output="∉"/>
-        </action>
         <action id="apostrophe4">
             <when state="none" output=""/>
             <when state="Greek" output="&#x0022;"/>
@@ -4515,52 +4721,6 @@
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
         </action>
-        <action id="2→2 j">
-            <when state="none" output="j"/>
-            <when state="Brackets" next="Brackets-{"/>
-            <when state="Brackets-{" output="}"/>
-            <when state="Diacritics" next="hook-above"/>
-            <when state="Greek" output="ξ"/>
-            <when state="Math" output="⇓"/>
-            <when state="OldCyrillic" output="ꙋ"/>
-            <when state="breve" next="breve+hook-above"/>
-            <when state="caron" output="ǰ"/>
-            <when state="circumflex" output="ĵ"/>
-            <when state="fs" output="„"/>
-            <when state="hook-above" output="̉"/>
-            <when state="horn" next="horn+hook-above"/>
-            <when state="math=" output="₌"/>
-            <when state="math¾" output="¾"/>
-            <when state="math…" output="…"/>
-            <when state="math⁄" next="math⅘"/>
-            <when state="math⅟" output="¼"/>
-            <when state="math⇐" output="⪳"/>
-            <when state="math⇒" output="⪳"/>
-            <when state="math∅≷" output="≶"/>
-            <when state="math∅≸" output="≸"/>
-            <when state="math∅⊂" output="⋒"/>
-            <when state="math∅⊻" output="⊻"/>
-            <when state="math≑" output="⩦"/>
-            <when state="math≤" output="⪳"/>
-            <when state="math≥" output="⪳"/>
-            <when state="math≼" output="⪳"/>
-            <when state="math≽" output="⪳"/>
-            <when state="math⋜" output="⪳"/>
-            <when state="math⋝" output="⪳"/>
-            <when state="math⋞" output="⪳"/>
-            <when state="math⋟" output="⪳"/>
-            <when state="math⋮" output="…"/>
-            <when state="math⋯" output="…"/>
-            <when state="math⩦" output="⩦"/>
-            <when state="math⩷" output="⩦"/>
-            <when state="math⪳" output="⪳"/>
-            <when state="math⪴" output="⪳"/>
-            <when state="num_Roman" output="Ⅳ"/>
-            <when state="num_roman" output="ⅳ"/>
-            <when state="num⁵sup" output="⁴"/>
-            <when state="num₅sub" output="₄"/>
-            <when state="space" output="⁠"/>
-        </action>
         <action id="j^">
             <when state="none" output="&#x000C;"/>
             <when state="breve" next="breve+hook-above"/>
@@ -4574,168 +4734,8 @@
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
         </action>
-        <action id="2→3 k">
-            <when state="none" output="k"/>
-            <when state="Brackets" next="Brackets-quote"/>
-            <when state="Brackets-quote" output="&#x0022;"/>
-            <when state="Diacritics" output="⃣"/>
-            <when state="Greek" output="κ"/>
-            <when state="Math" output="⇑"/>
-            <when state="caron" output="ǩ"/>
-            <when state="cedilla" output="ķ"/>
-            <when state="dot-below" output="ḳ"/>
-            <when state="fs" output="“"/>
-            <when state="math=" output="⁼"/>
-            <when state="math¾" output="⅗"/>
-            <when state="math…" output="⋯"/>
-            <when state="math⁄" next="math⅚"/>
-            <when state="math⅔" output="⅖"/>
-            <when state="math⅘" output="⅘"/>
-            <when state="math⅟" output="⅕"/>
-            <when state="math⇐" output="⪴"/>
-            <when state="math⇒" output="⪴"/>
-            <when state="math∅≷" output="≷"/>
-            <when state="math∅≸" output="≹"/>
-            <when state="math∅⊂" output="⋓"/>
-            <when state="math∅⊻" output="⊼"/>
-            <when state="math√" next="math∛"/>
-            <when state="math∛" next="math∜"/>
-            <when state="math∜" next="math√"/>
-            <when state="math≑" output="≑"/>
-            <when state="math≤" output="⪴"/>
-            <when state="math≥" output="⪴"/>
-            <when state="math≼" output="⪴"/>
-            <when state="math≽" output="⪴"/>
-            <when state="math⋜" output="⪴"/>
-            <when state="math⋝" output="⪴"/>
-            <when state="math⋞" output="⪴"/>
-            <when state="math⋟" output="⪴"/>
-            <when state="math⋮" output="⋯"/>
-            <when state="math⋯" output="⋯"/>
-            <when state="math⩦" output="≑"/>
-            <when state="math⩷" output="≑"/>
-            <when state="math⪳" output="⪴"/>
-            <when state="math⪴" output="⪴"/>
-            <when state="num_Roman" output="Ⅴ"/>
-            <when state="num_roman" output="ⅴ"/>
-            <when state="num⁵sup" output="⁵"/>
-            <when state="num₅sub" output="₅"/>
-        </action>
-        <action id="2→4 l">
-            <when state="none" output="l"/>
-            <when state="Brackets" next="Brackets-apostrophe"/>
-            <when state="Brackets-apostrophe" output="&#x0027;"/>
-            <when state="Copyright" output="🄯"/>
-            <when state="Greek" output="λ"/>
-            <when state="Math" next="math⇐re"/>
-            <when state="acute" output="ĺ"/>
-            <when state="cedilla" output="ļ"/>
-            <when state="dot-below" output="ḷ"/>
-            <when state="dot-below+macron" output="ḹ"/>
-            <when state="fs" output="”"/>
-            <when state="ligature_f" output="ﬂ"/>
-            <when state="math=" output="⋕"/>
-            <when state="math¾" output="⅜"/>
-            <when state="math…" output="⋮"/>
-            <when state="math⅚" output="⅚"/>
-            <when state="math⅟" output="⅙"/>
-            <when state="math←re" next="math⇐re"/>
-            <when state="math⇐" output="≼"/>
-            <when state="math⇐re" next="math⟸re"/>
-            <when state="math⇒" output="≼"/>
-            <when state="math∅" next="math∅≷"/>
-            <when state="math∅≷" output="⋜"/>
-            <when state="math∅≸" output="≰"/>
-            <when state="math∅⊂" output="⊂"/>
-            <when state="math∅⊄" output="⊄"/>
-            <when state="math≃" output="≌"/>
-            <when state="math≈" output="≌"/>
-            <when state="math≊" output="≌"/>
-            <when state="math≌" output="≌"/>
-            <when state="math≤" output="≼"/>
-            <when state="math≥" output="≼"/>
-            <when state="math≼" output="≼"/>
-            <when state="math≽" output="≼"/>
-            <when state="math⊹" output="⊷"/>
-            <when state="math⋕" output="⋕"/>
-            <when state="math⋜" output="≼"/>
-            <when state="math⋝" output="≼"/>
-            <when state="math⋞" output="≼"/>
-            <when state="math⋟" output="≼"/>
-            <when state="math⋮" output="⋮"/>
-            <when state="math⋯" output="⋮"/>
-            <when state="math⟵re" next="math←re"/>
-            <when state="math⟸" output="⟸"/>
-            <when state="math⟸re" next="math⟵re"/>
-            <when state="math⧣" output="⋕"/>
-            <when state="math⧤" output="⋕"/>
-            <when state="math⩰" output="≌"/>
-            <when state="math⪳" output="≼"/>
-            <when state="math⪴" output="≼"/>
-            <when state="math⭀" output="⟸"/>
-            <when state="num_Roman" output="Ⅵ"/>
-            <when state="num_roman" output="ⅵ"/>
-            <when state="num⁵sup" output="⁶"/>
-            <when state="num₅sub" output="₆"/>
-        </action>
-        <action id="3→2 m">
-            <when state="none" output="m"/>
-            <when state="Brackets" next="Brackets-「"/>
-            <when state="Brackets-「" output="」"/>
-            <when state="Greek" output="μ"/>
-            <when state="Math" next="math…"/>
-            <when state="OldCyrillic" output="ѣ"/>
-            <when state="acute" output="ḿ"/>
-            <when state="dot-above" output="ṁ"/>
-            <when state="dot-below" output="ṃ"/>
-            <when state="math…" next="math⋯"/>
-            <when state="math⁄" next="math⅞"/>
-            <when state="math⅟" output="⅐"/>
-            <when state="math∅≷" output="≲"/>
-            <when state="math∅≸" output="≴"/>
-            <when state="math∅⊂" output="⋔"/>
-            <when state="math≃" output="≊"/>
-            <when state="math≈" output="≊"/>
-            <when state="math≊" output="≊"/>
-            <when state="math≌" output="≊"/>
-            <when state="math⋮" next="math…"/>
-            <when state="math⋯" next="math⋮"/>
-            <when state="math⩰" output="≊"/>
-            <when state="num_Roman" output="Ⅶ"/>
-            <when state="num_roman" output="ⅶ"/>
-            <when state="num⁵sup" output="⁷"/>
-            <when state="num₅sub" output="₇"/>
-            <when state="space" output=" "/>
-        </action>
         <action id="m^">
             <when state="none" next="Math"/>
-        </action>
-        <action id="3→1 n">
-            <when state="none" output="n"/>
-            <when state="Brackets" next="Brackets-【"/>
-            <when state="Brackets-【" output="】"/>
-            <when state="Diacritics" next="tilde"/>
-            <when state="Greek" output="ν"/>
-            <when state="Math" output="ℕ"/>
-            <when state="Typographical" output="¶"/>
-            <when state="acute" output="ń"/>
-            <when state="caron" output="ň"/>
-            <when state="cedilla" output="ņ"/>
-            <when state="dot-above" output="ṅ"/>
-            <when state="dot-below" output="ṇ"/>
-            <when state="grave" output="ǹ"/>
-            <when state="horn" next="horn+tilde"/>
-            <when state="math∅⊂" output="⊴"/>
-            <when state="math∅⊄" output="⋬"/>
-            <when state="math≄" output="≠"/>
-            <when state="math≉" output="≠"/>
-            <when state="math≠" output="≠"/>
-            <when state="num_Roman" next="num₅sub"/>
-            <when state="num_roman" next="num_Roman"/>
-            <when state="num⁵sup" next="num_roman"/>
-            <when state="num₅sub" next="num⁵sup"/>
-            <when state="space" output=" "/>
-            <when state="tilde" output="ñ"/>
         </action>
         <action id="o^">
             <when state="none" output="&#x000F;"/>
