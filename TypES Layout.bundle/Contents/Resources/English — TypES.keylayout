@@ -2139,12 +2139,6 @@
             <when state="none" output="„"/>
             <when state="fs" output="‹"/>
         </action>
-        <action id="0→6 -⎈">
-            <when state="none" next="dot-below"/>
-            <when state="breve" next="breve+dot-below"/>
-            <when state="circumflex" next="circumflex+dot-below"/>
-            <when state="dot-below" output="̣"/>
-        </action>
         <action id="/^">
             <when state="none" output="/"/>
             <when state="macron" next="macron+acute"/>
@@ -2166,6 +2160,10 @@
             <when state="math⧤" output="⧤"/>
             <when state="math⩳" next="math⋍"/>
         </action>
+        <action id="00 §^">
+            <when state="none" next="grave"/>
+            <when state="grave" output="̀"/>
+        </action>
         <action id="00 §⇧">
             <when state="none" output="~"/>
             <when state="Greek" output="±"/>
@@ -2176,10 +2174,6 @@
             <when state="math=" next="math⩳"/>
             <when state="math⋍" next="math="/>
             <when state="math⩳" next="math⋍"/>
-        </action>
-        <action id="0→5 0⎈">
-            <when state="none" next="caron"/>
-            <when state="caron" output="̌"/>
         </action>
         <action id="0←1 1">
             <when state="none" output="1"/>
@@ -2205,6 +2199,11 @@
             <when state="none" output="¹"/>
             <when state="Greek" output="¹"/>
             <when state="Typographical" output="🔅"/>
+        </action>
+        <action id="0←1 1⎈">
+            <when state="none" next="acute"/>
+            <when state="acute" output="́"/>
+            <when state="macron" next="macron+acute"/>
         </action>
         <action id="0←2 2">
             <when state="none" output="2"/>
@@ -2234,6 +2233,12 @@
             <when state="Greek" output="²"/>
             <when state="Typographical" output="🔆"/>
         </action>
+        <action id="0←2 2⎈">
+            <when state="none" next="grave"/>
+            <when state="acute" output="̋"/>
+            <when state="grave" output="̀"/>
+            <when state="macron" next="macron+grave"/>
+        </action>
         <action id="0←3 3">
             <when state="none" output="3"/>
             <when state="Diacritics" next="diaeresis"/>
@@ -2261,6 +2266,10 @@
             <when state="none" output="³"/>
             <when state="Greek" output="³"/>
             <when state="Typographical" output="🎛"/>
+        </action>
+        <action id="0←3 3⎈">
+            <when state="none" next="diaeresis"/>
+            <when state="diaeresis" output="̈"/>
         </action>
         <action id="0←4 4">
             <when state="none" output="4"/>
@@ -2291,6 +2300,10 @@
             <when state="none" output="$"/>
             <when state="Greek" output="£"/>
             <when state="Typographical" output="▦"/>
+        </action>
+        <action id="0←4 4⎈">
+            <when state="none" next="tilde"/>
+            <when state="tilde" output="̃"/>
         </action>
         <action id="0←5 5">
             <when state="none" output="5"/>
@@ -2325,6 +2338,15 @@
             <when state="num_Roman" output="ↆ"/>
             <when state="num_roman" output="ↆ"/>
         </action>
+        <action id="0←5 5⎈">
+            <when state="none" next="macron"/>
+            <when state="diaeresis" next="diaeresis+macron"/>
+            <when state="dot-above" next="dot-above+macron"/>
+            <when state="dot-below" next="dot-below+macron"/>
+            <when state="macron" output="̄"/>
+            <when state="ogonek" next="ogonek+macron"/>
+            <when state="tilde" next="tilde+macron"/>
+        </action>
         <action id="0→1 6">
             <when state="none" output="6"/>
             <when state="Diacritics" next="circumflex"/>
@@ -2356,6 +2378,10 @@
             <when state="num_Roman" output="ↅ"/>
             <when state="num_roman" output="ↅ"/>
         </action>
+        <action id="0→1 6⎈">
+            <when state="none" next="circumflex"/>
+            <when state="circumflex" output="̂"/>
+        </action>
         <action id="0→2 7">
             <when state="none" output="7"/>
             <when state="Diacritics" next="ring"/>
@@ -2384,6 +2410,10 @@
             <when state="Greek" output="°"/>
             <when state="Typographical" output="◀◀"/>
             <when state="fs" output="⸮"/>
+        </action>
+        <action id="0→2 7⎈">
+            <when state="none" next="ring"/>
+            <when state="ring" output="̊"/>
         </action>
         <action id="0→3 8">
             <when state="none" output="8"/>
@@ -2430,6 +2460,12 @@
             <when state="math⩮" next="math⯹"/>
             <when state="math⯹" next="math≛"/>
         </action>
+        <action id="0→3 8⎈">
+            <when state="none" next="dot-above"/>
+            <when state="caron" next="caron+dot-above"/>
+            <when state="dot-above" output="̇"/>
+            <when state="dot-below" next="dot-below+dot-above"/>
+        </action>
         <action id="0→4 9">
             <when state="none" output="9"/>
             <when state="Diacritics" next="breve"/>
@@ -2473,6 +2509,10 @@
             <when state="math⭀" next="math="/>
             <when state="num⁵sup" output="₉"/>
             <when state="num₅sub" output="⁹"/>
+        </action>
+        <action id="0→4 9⎈">
+            <when state="none" next="breve"/>
+            <when state="breve" output="̆"/>
         </action>
         <action id="0→5 0">
             <when state="none" output="0"/>
@@ -2529,6 +2569,10 @@
             <when state="num⁵sup" output="₀"/>
             <when state="num₅sub" output="⁰"/>
         </action>
+        <action id="0→5 0⎈">
+            <when state="none" next="caron"/>
+            <when state="caron" output="̌"/>
+        </action>
         <action id="0→6 -">
             <when state="none" output="-"/>
             <when state="Diacritics" next="dot-below"/>
@@ -2568,6 +2612,12 @@
             <when state="math±re" output="∓"/>
             <when state="math‹" output="⟵"/>
             <when state="num⁵sup" output="₋"/>
+        </action>
+        <action id="0→6 -⎈">
+            <when state="none" next="dot-below"/>
+            <when state="breve" next="breve+dot-below"/>
+            <when state="circumflex" next="circumflex+dot-below"/>
+            <when state="dot-below" output="̣"/>
         </action>
         <action id="0→7 =">
             <when state="none" output="="/>
@@ -2655,6 +2705,10 @@
             <when state="num⁵sup" output="₌"/>
             <when state="num₅sub" output="⁼"/>
         </action>
+        <action id="0→7 =⎈">
+            <when state="none" next="cedilla"/>
+            <when state="cedilla" output="̧"/>
+        </action>
         <action id="0→8 ␈⎇">
             <when state="none" output="&#x0008;"/>
             <when state="Typographical" output="⌦"/>
@@ -2704,11 +2758,6 @@
         </action>
         <action id="1 2">
             <when state="none" next="double-acute"/>
-        </action>
-        <action id="0←1 1⎈">
-            <when state="none" next="acute"/>
-            <when state="acute" output="́"/>
-            <when state="macron" next="macron+acute"/>
         </action>
         <action id="1←1 q">
             <when state="none" output="q"/>
@@ -3343,12 +3392,6 @@
             <when state="Greek" output="»"/>
             <when state="Typographical" output="⏎"/>
             <when state="fs" output="¦"/>
-        </action>
-        <action id="0←2 2⎈">
-            <when state="none" next="grave"/>
-            <when state="acute" output="̋"/>
-            <when state="grave" output="̀"/>
-            <when state="macron" next="macron+grave"/>
         </action>
         <action id="2←1 a">
             <when state="none" output="a"/>
@@ -4027,10 +4070,6 @@
             <when state="fs" output="⧵"/>
             <when state="math=" output="⟾"/>
         </action>
-        <action id="0←3 3⎈">
-            <when state="none" next="diaeresis"/>
-            <when state="diaeresis" output="̈"/>
-        </action>
         <action id="3←0 `">
             <when state="none" output="\"/>
             <when state="Diacritics" next="grave"/>
@@ -4504,43 +4543,8 @@
             <when state="math≉" next="math≄"/>
             <when state="math≠" next="math≉"/>
         </action>
-        <action id="0←4 4⎈">
-            <when state="none" next="tilde"/>
-            <when state="tilde" output="̃"/>
-        </action>
-        <action id="0←5 5⎈">
-            <when state="none" next="macron"/>
-            <when state="diaeresis" next="diaeresis+macron"/>
-            <when state="dot-above" next="dot-above+macron"/>
-            <when state="dot-below" next="dot-below+macron"/>
-            <when state="macron" output="̄"/>
-            <when state="ogonek" next="ogonek+macron"/>
-            <when state="tilde" next="tilde+macron"/>
-        </action>
-        <action id="0→1 6⎈">
-            <when state="none" next="circumflex"/>
-            <when state="circumflex" output="̂"/>
-        </action>
-        <action id="0→2 7⎈">
-            <when state="none" next="ring"/>
-            <when state="ring" output="̊"/>
-        </action>
-        <action id="0→3 8⎈">
-            <when state="none" next="dot-above"/>
-            <when state="caron" next="caron+dot-above"/>
-            <when state="dot-above" output="̇"/>
-            <when state="dot-below" next="dot-below+dot-above"/>
-        </action>
-        <action id="0→4 9⎈">
-            <when state="none" next="breve"/>
-            <when state="breve" output="̆"/>
-        </action>
         <action id=";^">
             <when state="none" next="Diacritics"/>
-        </action>
-        <action id="0→7 =⎈">
-            <when state="none" next="cedilla"/>
-            <when state="cedilla" output="̧"/>
         </action>
         <action id="Backspace">
             <when state="none" output="&#x0008;"/>
@@ -4885,10 +4889,6 @@
         </action>
         <action id="§">
             <when state="none" next="grave"/>
-        </action>
-        <action id="00 §^">
-            <when state="none" next="grave"/>
-            <when state="grave" output="̀"/>
         </action>
         <action id="¨">
             <when state="none" next="diaeresis"/>
