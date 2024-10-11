@@ -2720,8 +2720,11 @@
         <action id="7">
             <when state="none" output="7"/>
             <when state="Diacritics" next="ring"/>
+            <when state="Math" next="math⊾"/>
             <when state="Typographical" output="‽"/>
             <when state="fs" output="⸮"/>
+            <when state="math⊾" next="math⊿"/>
+            <when state="math⊿" next="math⊾"/>
             <when state="ring" output="̊"/>
         </action>
         <action id="7^">
@@ -2881,6 +2884,8 @@
             <when state="math≥" next="math⇒"/>
             <when state="math≼" next="math⋜"/>
             <when state="math≽" next="math⋝"/>
+            <when state="math⊾" next="Math"/>
+            <when state="math⊿" next="math⊾"/>
             <when state="math⋍" next="math⩳"/>
             <when state="math⋕" next="math="/>
             <when state="math⋜" next="math≤"/>
@@ -3016,6 +3021,8 @@
             <when state="math→re" output="→"/>
             <when state="math⇐re" output="⇐"/>
             <when state="math⇒re" output="⇒"/>
+            <when state="math⊾" output="⊾"/>
+            <when state="math⊿" output="⊿"/>
             <when state="math⟵re" output="⟵"/>
             <when state="math⟶re" output="⟶"/>
             <when state="math⟸re" output="⟸"/>
@@ -4361,6 +4368,8 @@
         <when state="math≥" output="≥"/>
         <when state="math≼" output="≼"/>
         <when state="math≽" output="≽"/>
+        <when state="math⊾" output="⊾"/>
+        <when state="math⊿" output="⊿"/>
         <when state="math⋍" output="⋍"/>
         <when state="math⋕" output="⋕"/>
         <when state="math⋜" output="⋜"/>
