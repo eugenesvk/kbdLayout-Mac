@@ -100,7 +100,7 @@
             <key code="34" action="1→3 i"/>
             <key code="35" action="1→5 p"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" action="д"/>
+            <key code="37" action="2→4 l"/>
             <key code="38" action="2→2 j"/>
             <key code="39" action="2→5 apostrophe"/>
             <key code="40" action="2→3 k"/>
@@ -4541,7 +4541,7 @@
             <when state="math‹" output="←"/>
             <when state="space" output="‑"/>
         </action>
-        <action id="д">
+        <action id="2→4 l">
             <when state="none" output="д"/>
             <when state="Brackets" next="Brackets-apostrophe"/>
             <when state="Brackets-apostrophe" output="&#x0027;"/>
