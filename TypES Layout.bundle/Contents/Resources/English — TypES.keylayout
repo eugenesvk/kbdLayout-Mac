@@ -3251,6 +3251,8 @@
             <when state="Diacritics" next="tilde"/>
             <when state="Greek" output="‘"/>
             <when state="Typographical" output="🔢"/>
+            <when state="num_Roman" next="num₅sub"/>
+            <when state="num_roman" next="num_Roman"/>
             <when state="num⁵sup" next="num_roman"/>
             <when state="num₅sub" next="num⁵sup"/>
             <when state="tilde" output="̃"/>
