@@ -201,7 +201,7 @@
             <key code="7" action="3←2 x⇧"/>
             <key code="8" action="3←3 c⇧"/>
             <key code="9" action="3←4 v⇧"/>
-            <key code="10" action="±⇧"/>
+            <key code="10" action="00 §⇧"/>
             <key code="11" action="3←5 b⇧"/>
             <key code="12" action="1←1 q⇧"/>
             <key code="13" action="1←2 w⇧"/>
@@ -2121,6 +2121,10 @@
             <when state="math⥱" next="math="/>
             <when state="math⪴" output="⇒"/>
             <when state="space" output="​"/>
+        </action>
+        <action id="00 §⇧">
+            <when state="none" output="~"/>
+            <when state="Greek" output="±"/>
         </action>
         <action id="00 §⎇">
             <when state="none" output="ˋ"/>
@@ -4393,10 +4397,6 @@
         <action id="±">
             <when state="none" output="±"/>
             <when state="Greek" output="+"/>
-        </action>
-        <action id="±⇧">
-            <when state="none" output="~"/>
-            <when state="Greek" output="±"/>
         </action>
         <action id="´">
             <when state="none" next="acute"/>
