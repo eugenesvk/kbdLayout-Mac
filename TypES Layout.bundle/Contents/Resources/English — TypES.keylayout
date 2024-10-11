@@ -2329,7 +2329,7 @@
         </action>
         <action id="0←3 3‹⇧">
             <when state="none" output="#"/>
-            <when state="Typographical" output="☰ "/>
+            <when state="Typographical" output="☰"/>
             <when state="num_Roman" output="ⅲ"/>
             <when state="num_roman" output="Ⅲ"/>
             <when state="num⁵sup" output="₃"/>
