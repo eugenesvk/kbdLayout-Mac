@@ -31,14 +31,14 @@ All notable changes to this project will be documented in this file
     + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
-    + :sparkles: `en` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>n</kbd> and within each layer on `1–0` and  `uio`-numpad like number keys:
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>n</kbd> and within each layer on `1–0` and  `uio`-numpad like number keys:
         * n⃣ moves to the next layer
         * ␈⃣moves to the previous layer
-    + :sparkles: `en` <kbd>🕱</kbd>`math⁄` and other fraction layers and mapped it to <kbd>f</kbd> in <kbd>🕱</kbd>`Math`. In each sub-layer  number and `uio`-numpad like number keys enter the <kbd>🕱</kbd>`math⅟`/`⅔`,... numerator, and then complete the denominator part of the fraction. Besides those, in each sub-layer:
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⁄` and other fraction layers and mapped it to <kbd>f</kbd> in <kbd>🕱</kbd>`Math`. In each sub-layer  number and `uio`-numpad like number keys enter the <kbd>🕱</kbd>`math⅟`/`⅔`,... numerator, and then complete the denominator part of the fraction. Besides those, in each sub-layer:
         * ␠⃣ inserts the symbol
         * f⃣ moves to the next layer
         * ␈⃣moves to the previous layer
-    + :sparkles: `en` <kbd>🕱</kbd>`math√` and other root layers (cycled) and mapped it to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>p</kbd> and <kbd>y</kbd>in <kbd>🕱</kbd>`Math`. In each sub-layer:
+    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math√` and other root layers (cycled) and mapped it to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>p</kbd> and <kbd>y</kbd>in <kbd>🕱</kbd>`Math`. In each sub-layer:
         * - ␠⃣ inserts the symbol
         * - k⃣ y⃣  moves to the next layer
         * - ␈⃣moves to the previous layer
