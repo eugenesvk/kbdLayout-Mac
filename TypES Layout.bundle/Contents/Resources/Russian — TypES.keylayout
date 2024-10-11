@@ -2790,15 +2790,6 @@
             <when state="none" output="ß"/>
             <when state="Typographical" output="⌨"/>
         </action>
-        <action id="3→1 n⎇">
-            <when state="none" output="¶"/>
-            <when state="Brackets" next="Brackets-【"/>
-            <when state="Brackets-【" output="】"/>
-            <when state="Diacritics" next="tilde"/>
-            <when state="Greek" output="‘"/>
-            <when state="Typographical" output="🔢"/>
-            <when state="tilde" output="̃"/>
-        </action>
         <action id="3→1 ,⇧">
             <when state="none" output="Б"/>
             <when state="Brackets" next="Brackets-⟪"/>
@@ -2833,6 +2824,15 @@
             <when state="none" output="Т"/>
             <when state="Greek" output="Ν"/>
             <when state="math∅⊂" output="⋬"/>
+        </action>
+        <action id="3→1 n⎇">
+            <when state="none" output="¶"/>
+            <when state="Brackets" next="Brackets-【"/>
+            <when state="Brackets-【" output="】"/>
+            <when state="Diacritics" next="tilde"/>
+            <when state="Greek" output="‘"/>
+            <when state="Typographical" output="🔢"/>
+            <when state="tilde" output="̃"/>
         </action>
         <action id="3→2 m⎇">
             <when state="none" output="−"/>
