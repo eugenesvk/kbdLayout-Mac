@@ -1262,7 +1262,7 @@
             <key code="15" output="&#x0012;"/>
             <key code="16" output="&#x0019;"/>
             <key code="17" output="&#x0014;"/>
-            <key code="18" action="0←1 1^"/>
+            <key code="18" action="0←1 1⎈"/>
             <key code="19" action="0←2 2⎈"/>
             <key code="20" action="0←3 3⎈"/>
             <key code="21" action="0←4 4⎈"/>
@@ -1274,16 +1274,16 @@
             <key code="27" action="0→6 -⎈"/>
             <key code="28" action="0→3 8⎈"/>
             <key code="29" action="0→5 0⎈"/>
-            <key code="30" action="]⎈"/>
-            <key code="31" action="щ^"/>
-            <key code="32" action="г^"/>
+            <key code="30" action="1→7 ]⎈"/>
+            <key code="31" action="1→4 o⎈"/>
+            <key code="32" action="1→2 u⎈"/>
             <key code="33" output="&#x001B;"/>
-            <key code="34" action="ш^"/>
+            <key code="34" action="1→3 i⎈"/>
             <key code="35" output="&#x0010;"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="&#x0001;"/>
             <key code="38" action="2→2 j⎈"/>
-            <key code="39" action="apostrophe10"/>
+            <key code="39" action="2→6 apostrophe⎈"/>
             <key code="40" output="&#x000B;"/>
             <key code="41" output="&#x0004;"/>
             <key code="42" action="2→7 \⎈"/>
@@ -2214,7 +2214,7 @@
             <when state="num_roman" output="ⅰ"/>
             <when state="num₅sub" output="₁"/>
         </action>
-        <action id="0←1 1^">
+        <action id="0←1 1⎈">
             <when state="none" next="acute"/>
             <when state="acute" output="́"/>
             <when state="macron" next="macron+acute"/>
@@ -4409,7 +4409,7 @@
             <when state="Typographical" output="﹨"/>
             <when state="fs" output="¦"/>
         </action>
-        <action id="]⎈">
+        <action id="1→7 ]⎈">
             <when state="none" output="&#x001D;"/>
             <when state="Typographical" output="⌤"/>
         </action>
@@ -4435,7 +4435,7 @@
             <when state="Typographical" output="🌐"/>
             <when state="grave" output="̀"/>
         </action>
-        <action id="apostrophe10">
+        <action id="2→6 apostrophe⎈">
             <when state="none" next="Diacritics"/>
         </action>
         <action id="apostrophe4">
@@ -4595,7 +4595,7 @@
             <when state="none" output="λ"/>
             <when state="Greek" output="·"/>
         </action>
-        <action id="г^">
+        <action id="1→2 u⎈">
             <when state="none" output="&#x0015;"/>
             <when state="breve" next="breve+dot-below"/>
             <when state="circumflex" next="circumflex+dot-below"/>
@@ -4638,7 +4638,7 @@
             <when state="Greek" output="≠"/>
             <when state="double-acute" output="̋"/>
         </action>
-        <action id="ш^">
+        <action id="1→3 i⎈">
             <when state="none" output="&#x000A;"/>
             <when state="caron" next="caron+dot-above"/>
             <when state="dot-below" next="dot-below+dot-above"/>
@@ -4653,7 +4653,7 @@
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
         </action>
-        <action id="щ^">
+        <action id="1→4 o⎈">
             <when state="none" output="&#x000F;"/>
             <when state="diaeresis" next="diaeresis+macron"/>
             <when state="dot-above" next="dot-above+macron"/>
