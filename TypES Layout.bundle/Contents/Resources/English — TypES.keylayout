@@ -220,7 +220,7 @@
             <key code="23" action="0←5 5⇧"/>
             <key code="24" action="0→7 =⇧"/>
             <key code="25" action="0→4 9⇧"/>
-            <key code="26" action="&#x0026;"/>
+            <key code="26" action="0→2 7‹⇧"/>
             <key code="27" action="0→6 -⇧"/>
             <key code="28" action="0→3 8⇧"/>
             <key code="29" action="0→5 0⇧"/>
@@ -2135,7 +2135,7 @@
         <action id=" ">
             <when state="none" next="space"/>
         </action>
-        <action id="&#x0026;">
+        <action id="0→2 7‹⇧">
             <when state="none" output="&#x0026;"/>
             <when state="num_Roman" output="ⅶ"/>
             <when state="num_roman" output="Ⅶ"/>
