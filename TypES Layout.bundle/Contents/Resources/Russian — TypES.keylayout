@@ -113,7 +113,7 @@
             <key code="47" action="3→4 ."/>
             <key code="48" output="&#x0009;"/>
             <key code="49" action="space"/>
-            <key code="50" action="ё 1"/>
+            <key code="50" action="00 § 1"/>
             <key code="51" action="Backspace"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -1235,7 +1235,7 @@
             <key code="7" output="&#x0018;"/>
             <key code="8" output="&#x0003;"/>
             <key code="9" output="&#x0016;"/>
-            <key code="10" action="ё^"/>
+            <key code="10" action="00 §^"/>
             <key code="11" output="&#x0002;"/>
             <key code="12" output="&#x0011;"/>
             <key code="13" output="&#x0017;"/>
@@ -1243,7 +1243,7 @@
             <key code="15" output="&#x0012;"/>
             <key code="16" output="&#x0019;"/>
             <key code="17" output="&#x0014;"/>
-            <key code="18" action="1^"/>
+            <key code="18" action="0←1 1^"/>
             <key code="19" action="2^"/>
             <key code="20" action="3^"/>
             <key code="21" action="4^"/>
@@ -1374,7 +1374,7 @@
             <key code="15" output="&#x0012;"/>
             <key code="16" output="&#x0019;"/>
             <key code="17" output="&#x0014;"/>
-            <key code="18" action="1 2"/>
+            <key code="18" action="0←1 1⇧⎈"/>
             <key code="19" output="2"/>
             <key code="20" output="3"/>
             <key code="21" output="4"/>
@@ -2747,10 +2747,10 @@
             <when state="math⯹" next="math⩮"/>
             <when state="num⁵sup" next="num₅sub"/>
         </action>
-        <action id="1 2">
+        <action id="0←1 1⇧⎈">
             <when state="none" next="double-acute"/>
         </action>
-        <action id="1^">
+        <action id="0←1 1^">
             <when state="none" next="acute"/>
             <when state="acute" output="́"/>
             <when state="macron" next="macron+acute"/>
@@ -4641,7 +4641,7 @@
             <when state="ogonek" next="ogonek+macron"/>
             <when state="tilde" next="tilde+macron"/>
         </action>
-        <action id="ё 1">
+        <action id="00 § 1">
             <when state="none" output="`"/>
             <when state="Diacritics" next="grave"/>
             <when state="Greek" output="`"/>
@@ -4651,7 +4651,7 @@
             <when state="horn" next="horn+grave"/>
             <when state="math-" output="⇀"/>
         </action>
-        <action id="ё^">
+        <action id="00 §^">
             <when state="none" next="grave"/>
             <when state="grave" output="̀"/>
         </action>
