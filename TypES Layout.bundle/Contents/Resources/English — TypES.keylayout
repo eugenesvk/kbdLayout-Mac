@@ -5175,10 +5175,10 @@
         <when state="math⪴" output="⪴"/>
         <when state="math⭀" output="⭀"/>
         <when state="math⯹" output="⯹"/>
-        <when state="num_Roman" output=""/>
+        <when state="num_Roman" output="Ⅳ"/>
         <when state="num_Roman_Ⅰ" output="Ⅰ"/>
         <when state="num_Roman_Ⅱ" output="Ⅱ"/>
-        <when state="num_roman" output=""/>
+        <when state="num_roman" output="ⅳ"/>
         <when state="num_roman_ⅰ" output="ⅰ"/>
         <when state="num_roman_ⅱ" output="ⅱ"/>
         <when state="num⁵sup" output="⁵"/>
