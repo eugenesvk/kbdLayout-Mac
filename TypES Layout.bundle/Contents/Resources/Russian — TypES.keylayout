@@ -221,7 +221,7 @@
             <key code="36" output="&#x000D;"/>
             <key code="37" action="2→4 l⇧"/>
             <key code="38" action="2→2 j⇧"/>
-            <key code="39" action="2→5 apostrophe"/>
+            <key code="39" action="2→5 apostrophe⇧"/>
             <key code="40" action="2→3 k⇧"/>
             <key code="41" action="2→5 ;⇧"/>
             <key code="42" action="|"/>
@@ -444,10 +444,10 @@
             <key code="27" action="0→6 -⎇"/>
             <key code="28" action="0→3 8⎇"/>
             <key code="29" action="0→5 0⎇"/>
-            <key code="30" action="1→7 ]"/>
+            <key code="30" action="1→7 ]⎇"/>
             <key code="31" action="OldCyrillic"/>
             <key code="32" action="1→2 u⎇"/>
-            <key code="33" action="1→6 ["/>
+            <key code="33" action="1→6 [⎇"/>
             <key code="34" action="1→3 i⎇"/>
             <key code="35" action="1→5 p⎇"/>
             <key code="36" output="&#x000D;"/>
@@ -2377,7 +2377,7 @@
             <when state="Greek" output="≈"/>
             <when state="OldCyrillic" output="ꙃ"/>
         </action>
-        <action id="1→6 [">
+        <action id="1→6 [⎇">
             <when state="none" output="["/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="«"/>
@@ -2393,7 +2393,7 @@
             <when state="Math" output="⌉"/>
             <when state="Typographical" output="↵"/>
         </action>
-        <action id="1→7 ]">
+        <action id="1→7 ]⎇">
             <when state="none" output="]"/>
             <when state="Greek" output="»"/>
             <when state="Typographical" output="⏎"/>
@@ -3244,7 +3244,7 @@
             <when state="Math" output="≈"/>
             <when state="grave" output="Ѐ"/>
         </action>
-        <action id="2→5 apostrophe">
+        <action id="2→5 apostrophe⇧">
             <when state="none" output="Э"/>
             <when state="Greek" output="&#x0022;"/>
             <when state="OldCyrillic" output="Ѥ"/>
