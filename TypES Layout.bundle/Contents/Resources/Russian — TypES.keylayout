@@ -1282,11 +1282,11 @@
             <key code="35" output="&#x0010;"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="&#x0001;"/>
-            <key code="38" action="о^"/>
+            <key code="38" action="2→2 j⎈"/>
             <key code="39" action="apostrophe10"/>
             <key code="40" output="&#x000B;"/>
             <key code="41" output="&#x0004;"/>
-            <key code="42" action="\^"/>
+            <key code="42" action="2→7 \⎈"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
             <key code="45" output="&#x000E;"/>
@@ -4400,7 +4400,7 @@
             <when state="Greek" output="œ"/>
             <when state="macron" output="̄"/>
         </action>
-        <action id="\^">
+        <action id="2→7 \⎈">
             <when state="none" output="&#x001C;"/>
         </action>
         <action id="\⇧⌥">
@@ -4617,7 +4617,7 @@
             <when state="Greek" output="Δ"/>
             <when state="ring" output="̊"/>
         </action>
-        <action id="о^">
+        <action id="2→2 j⎈">
             <when state="none" output="&#x000C;"/>
             <when state="breve" next="breve+hook-above"/>
             <when state="circumflex" next="circumflex+hook-above"/>
