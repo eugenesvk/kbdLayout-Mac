@@ -2409,10 +2409,14 @@
             <when state="Brackets" next="Brackets-emacs"/>
             <when state="Brackets-emacs" output="&#x0027;"/>
             <when state="Greek" output="υ"/>
+            <when state="Math" next="math√"/>
             <when state="diaeresis-greek" output="ϋ"/>
             <when state="greek-dialytika-tonos" output="ΰ"/>
             <when state="greek-tonos" output="ύ"/>
             <when state="math=" output="󠀽"/>
+            <when state="math√" next="math∛"/>
+            <when state="math∛" next="math∜"/>
+            <when state="math∜" next="math√"/>
             <when state="space" output=" "/>
         </action>
         <action id="1→1 y⇧">
@@ -2631,6 +2635,9 @@
             <when state="horn" next="horn+grave"/>
             <when state="macron" next="macron+grave"/>
             <when state="math=" output="⩵"/>
+            <when state="math√" output="√"/>
+            <when state="math∛" output="√"/>
+            <when state="math∜" output="√"/>
         </action>
         <action id="2^">
             <when state="none" next="grave"/>
@@ -2948,6 +2955,9 @@
             <when state="math∅≸" output="≹"/>
             <when state="math∅⊂" output="⋓"/>
             <when state="math∅⊻" output="⊼"/>
+            <when state="math√" next="math∛"/>
+            <when state="math∛" next="math∜"/>
+            <when state="math∜" next="math√"/>
             <when state="math≑" output="≑"/>
             <when state="math≤" output="⪴"/>
             <when state="math≥" output="⪴"/>
@@ -3110,6 +3120,9 @@
             <when state="Typographical" output="№"/>
             <when state="diaeresis" output="̈"/>
             <when state="math=" output="⩶"/>
+            <when state="math√" output="∛"/>
+            <when state="math∛" output="∛"/>
+            <when state="math∜" output="∛"/>
         </action>
         <action id="3^">
             <when state="none" next="diaeresis"/>
@@ -3485,6 +3498,9 @@
             <when state="Diacritics" next="tilde"/>
             <when state="Typographical" output="¤"/>
             <when state="horn" next="horn+tilde"/>
+            <when state="math√" output="∜"/>
+            <when state="math∛" output="∜"/>
+            <when state="math∜" output="∜"/>
             <when state="tilde" output="̃"/>
         </action>
         <action id="4^">
@@ -3673,6 +3689,9 @@
             <when state="math∅⊄" next="math∅"/>
             <when state="math∅⊻" next="math∅"/>
             <when state="math∓re" next="math±re"/>
+            <when state="math√" next="Math"/>
+            <when state="math∛" next="math√"/>
+            <when state="math∜" next="math∛"/>
             <when state="math≃" next="math≈"/>
             <when state="math≄" next="math≉"/>
             <when state="math≈" next="math="/>
@@ -3819,6 +3838,9 @@
             <when state="math→re" output="→"/>
             <when state="math⇐re" output="⇐"/>
             <when state="math⇒re" output="⇒"/>
+            <when state="math√" output="√"/>
+            <when state="math∛" output="∛"/>
+            <when state="math∜" output="∜"/>
             <when state="math⊹" output="⊹"/>
             <when state="math⊾" output="⊾"/>
             <when state="math⊿" output="⊿"/>
@@ -4144,8 +4166,11 @@
             <when state="Greek" output="Έ"/>
         </action>
         <action id="√">
-            <when state="none" output="√"/>
+            <when state="none" next="math√"/>
             <when state="Greek" output="°"/>
+            <when state="math√" next="math∛"/>
+            <when state="math∛" next="math∜"/>
+            <when state="math∜" next="math√"/>
         </action>
         <action id="⌃">
             <when state="none" output="⌃"/>
@@ -4262,6 +4287,9 @@
         <when state="math∅⊄" output="⊄"/>
         <when state="math∅⊻" output="⊻"/>
         <when state="math∓re" output="∓"/>
+        <when state="math√" output="√"/>
+        <when state="math∛" output="∛"/>
+        <when state="math∜" output="∜"/>
         <when state="math≃" output="≃"/>
         <when state="math≄" output="≄"/>
         <when state="math≈" output="≈"/>
