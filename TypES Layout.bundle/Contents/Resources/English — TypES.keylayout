@@ -4412,11 +4412,13 @@
             <when state="grave" output="̀"/>
             <when state="horn" next="horn+grave"/>
             <when state="math-" output="⇀"/>
+            <when state="math=" output="≂"/>
         </action>
         <action id="3←0 `⇧">
             <when state="none" output="~"/>
             <when state="Math" output="∝"/>
             <when state="math-" output="∼"/>
+            <when state="math=" output="≂"/>
         </action>
         <action id="3←0 `⎈">
             <when state="none" output="`"/>
