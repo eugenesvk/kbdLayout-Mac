@@ -2249,6 +2249,7 @@
             <when state="math∜" output="√"/>
             <when state="num_Roman" output="Ⅱ"/>
             <when state="num_roman" output="ⅱ"/>
+            <when state="num⁵sup" output="↊"/>
             <when state="num₅sub" output="₂"/>
         </action>
         <action id="0←2 2‹⇧">
@@ -2261,6 +2262,7 @@
             <when state="num_Roman" output="ⅱ"/>
             <when state="num_roman" output="Ⅱ"/>
             <when state="num⁵sup" output="₂"/>
+            <when state="num₅sub" output="↊"/>
         </action>
         <action id="0←2 2⎇">
             <when state="none" output="²"/>
@@ -2287,6 +2289,7 @@
             <when state="math∜" output="∛"/>
             <when state="num_Roman" output="Ⅲ"/>
             <when state="num_roman" output="ⅲ"/>
+            <when state="num⁵sup" output="↋"/>
             <when state="num₅sub" output="₃"/>
         </action>
         <action id="0←3 3‹⇧">
@@ -3118,6 +3121,7 @@
             <when state="num_roman" next="num_roman_ⅱ"/>
             <when state="num_roman_ⅰ" output="ⅻ"/>
             <when state="num_roman_ⅱ" output="ⅻ"/>
+            <when state="num⁵sup" output="↊"/>
             <when state="num₅sub" output="₂"/>
         </action>
         <action id="1→3 i⇧">
@@ -3135,6 +3139,7 @@
             <when state="num_roman_ⅰ" output="Ⅻ"/>
             <when state="num_roman_ⅱ" output="Ⅻ"/>
             <when state="num⁵sup" output="₂"/>
+            <when state="num₅sub" output="↊"/>
         </action>
         <action id="1→3 i⎇">
             <when state="none" next="Diacritics"/>
@@ -3187,6 +3192,7 @@
             <when state="math⭀" output="⭀"/>
             <when state="num_Roman" output="Ⅲ"/>
             <when state="num_roman" output="ⅲ"/>
+            <when state="num⁵sup" output="↋"/>
             <when state="num₅sub" output="₃"/>
         </action>
         <action id="1→4 o⇧">
@@ -3196,6 +3202,7 @@
             <when state="num_Roman" output="ⅲ"/>
             <when state="num_roman" output="Ⅲ"/>
             <when state="num⁵sup" output="₃"/>
+            <when state="num₅sub" output="↋"/>
         </action>
         <action id="1→4 o⎈">
             <when state="none" output="&#x000F;"/>
