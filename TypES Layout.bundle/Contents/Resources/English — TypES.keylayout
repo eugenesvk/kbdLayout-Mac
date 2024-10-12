@@ -4262,7 +4262,7 @@
             <when state="Math" output="∋"/>
             <when state="OldCyrillic" output="Ѥ"/>
             <!-- <when state="diaeresis" output="Ӭ"/> -->
-            <when state="math/" output="∉"/>
+            <when state="math/" output="∌"/>
         </action>
         <action id="2→6 apostrophe⎇">
             <when state="none" output="’"/>
