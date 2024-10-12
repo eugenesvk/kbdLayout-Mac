@@ -4303,6 +4303,7 @@
         <action id="3←0 `⇧">
             <when state="none" output="~"/>
             <when state="Math" output="∝"/>
+            <when state="math-" output="∼"/>
         </action>
         <action id="3←0 `⎈">
             <when state="none" output="`"/>
@@ -4361,6 +4362,7 @@
             <when state="dot-above" output="ẋ"/>
             <!-- <when state="diaeresis" output="ӵ"/> -->
             <when state="fs" output="∗"/>
+            <when state="math-" output="≀"/>
             <when state="math=" next="math⋕"/>
             <when state="mathO" output="⊗"/>
             <when state="math∅≷" next="math∅≸"/>
@@ -4949,6 +4951,7 @@
             <when state="Greek" output="`"/>
             <when state="Typographical" output="🌐"/>
             <when state="grave" output="̀"/>
+            <when state="math-" output="∽"/>
         </action>
         <action id="apostrophe4">
             <when state="none" output=""/>
