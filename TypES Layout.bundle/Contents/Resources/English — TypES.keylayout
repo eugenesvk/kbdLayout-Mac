@@ -2219,6 +2219,7 @@
             <when state="math∜" output="√"/>
             <when state="num_Roman" output="Ⅱ"/>
             <when state="num_roman" output="ⅱ"/>
+            <when state="num⁵sup" output="↊"/>
             <when state="num₅sub" output="₂"/>
         </action>
         <action id="0←2 2‹⇧">
@@ -2226,6 +2227,7 @@
             <when state="num_Roman" output="ⅱ"/>
             <when state="num_roman" output="Ⅱ"/>
             <when state="num⁵sup" output="₂"/>
+            <when state="num₅sub" output="↊"/>
         </action>
         <action id="0←2 2⎇">
             <when state="none" output="²"/>
@@ -2252,6 +2254,7 @@
             <when state="math∜" output="∛"/>
             <when state="num_Roman" output="Ⅲ"/>
             <when state="num_roman" output="ⅲ"/>
+            <when state="num⁵sup" output="↋"/>
             <when state="num₅sub" output="₃"/>
         </action>
         <action id="0←3 3‹⇧">
@@ -2260,6 +2263,7 @@
             <when state="num_Roman" output="ⅲ"/>
             <when state="num_roman" output="Ⅲ"/>
             <when state="num⁵sup" output="₃"/>
+            <when state="num₅sub" output="↋"/>
         </action>
         <action id="0←3 3⎇">
             <when state="none" output="³"/>
@@ -3170,6 +3174,7 @@
             <when state="num_roman" next="num_roman_ⅱ"/>
             <when state="num_roman_ⅰ" output="ⅻ"/>
             <when state="num_roman_ⅱ" output="ⅻ"/>
+            <when state="num⁵sup" output="↊"/>
             <when state="num₅sub" output="₂"/>
             <when state="ogonek" output="į"/>
             <when state="tilde" output="ĩ"/>
@@ -3197,6 +3202,7 @@
             <when state="num_roman_ⅰ" output="Ⅻ"/>
             <when state="num_roman_ⅱ" output="Ⅻ"/>
             <when state="num⁵sup" output="₂"/>
+            <when state="num₅sub" output="↊"/>
             <when state="ogonek" output="Į"/>
             <when state="tilde" output="Ĩ"/>
         </action>
@@ -3273,6 +3279,7 @@
             <when state="math⭀" output="⭀"/>
             <when state="num_Roman" output="Ⅲ"/>
             <when state="num_roman" output="ⅲ"/>
+            <when state="num⁵sup" output="↋"/>
             <when state="num₅sub" output="₃"/>
             <when state="ogonek" output="ǫ"/>
             <when state="ogonek+macron" output="ǭ"/>
@@ -3309,6 +3316,7 @@
             <when state="num_Roman" output="ⅲ"/>
             <when state="num_roman" output="Ⅲ"/>
             <when state="num⁵sup" output="₃"/>
+            <when state="num₅sub" output="↋"/>
             <when state="ogonek" output="Ǫ"/>
             <when state="ogonek+macron" output="Ǭ"/>
             <when state="tilde" output="Õ"/>
