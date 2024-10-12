@@ -4453,6 +4453,7 @@
             <when state="math⋕" output="⧣"/>
             <when state="math⧣" output="⧣"/>
             <when state="math⧤" output="⧣"/>
+            <when state="math⩳" output="≊"/>
             <when state="space" output="​"/>
         </action>
         <action id="3←1 z⇧">
@@ -4465,6 +4466,7 @@
             <when state="dot-above" output="Ż"/>
             <when state="dot-below" output="Ẓ"/>
             <when state="math=" output="⧤"/>
+            <when state="math⩳" output="≇"/>
         </action>
         <action id="3←1 z⎇">
             <when state="none" output="Ω"/>
