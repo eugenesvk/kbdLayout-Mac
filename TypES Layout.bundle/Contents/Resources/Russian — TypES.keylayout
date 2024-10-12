@@ -3834,6 +3834,7 @@
             <when state="math⩴" output="⩴"/>
             <when state="num_Roman" output="ↅ"/>
             <when state="num_roman" output="ↅ"/>
+            <when state="ogonek" output="̨"/>
             <when state="space" output=" "/>
         </action>
         <action id="2←5 g⇧">
