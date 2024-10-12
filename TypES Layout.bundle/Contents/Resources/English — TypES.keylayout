@@ -601,7 +601,7 @@
             <key code="11" output="ẞ"/>
             <key code="12" action="˘"/>
             <key code="13" action="⌃"/>
-            <key code="14" action="action"/>
+            <key code="14" action="1←3 e⇧⎇"/>
             <key code="15" action="r⇧⎇"/>
             <key code="16" output=""/>
             <key code="17" output="℃"/>
@@ -4778,7 +4778,7 @@
             <when state="Typographical" output="🌐"/>
             <when state="grave" output="̀"/>
         </action>
-        <action id="action">
+        <action id="1←3 e⇧⎇">
             <when state="none" output="⇪"/>
             <when state="Greek" output="Έ"/>
         </action>
