@@ -3144,6 +3144,7 @@
             <when state="horn+tilde" output="ữ"/>
             <when state="macron" output="ū"/>
             <when state="macron+diaeresis" output="ṻ"/>
+            <when state="math-" output="∺"/>
             <when state="math=" output="⩷"/>
             <when state="math_" output="⊔"/>
             <when state="math⁄" next="math⅟"/>
@@ -3235,6 +3236,7 @@
             <when state="hook-above" output="ỉ"/>
             <when state="ligature_f" output="ﬁ"/>
             <when state="macron" output="ī"/>
+            <when state="math-" output="∸"/>
             <when state="math/" output="⫛"/>
             <when state="math=" next="math⩦"/>
             <when state="math_" output="⊓"/>
@@ -4003,6 +4005,7 @@
             <when state="cur$re" output="₭"/>
             <when state="dot-below" output="ḳ"/>
             <when state="fs" output="“"/>
+            <when state="math-" output="∻"/>
             <when state="math=" output="⁼"/>
             <when state="math¾" output="⅗"/>
             <when state="math…" output="⋯"/>
@@ -4163,6 +4166,7 @@
             <!-- <when state="diaeresis" output="ӝ"/> -->
             <when state="fs" output="꞉"/>
             <when state="macron" next="macron+diaeresis"/>
+            <when state="math-" output="∹"/>
             <when state="math=" next="math≕"/>
             <when state="math→re" next="math⇒re"/>
             <when state="math⇐" output="≽"/>
