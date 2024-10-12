@@ -587,7 +587,7 @@
         </keyMap>
         <keyMap index="4">
             <!--⇧⎇-->
-            <key code="0" action="⌥"/>
+            <key code="0" action="2←1 a⇧⌥"/>
             <key code="1" action="⇧"/>
             <key code="2" output="⌀"/>
             <key code="3" action="℉"/>
@@ -600,7 +600,7 @@
             <key code="10" action="00 §⇧⎇"/>
             <key code="11" output="ẞ"/>
             <key code="12" action="˘"/>
-            <key code="13" action="⌃"/>
+            <key code="13" action="1←2 w⇧⎇"/>
             <key code="14" action="1←3 e⇧⎇"/>
             <key code="15" action="r⇧⎇"/>
             <key code="16" output=""/>
@@ -5423,11 +5423,11 @@
             <when state="math∛" next="math∜"/>
             <when state="math∜" next="math√"/>
         </action>
-        <action id="⌃">
+        <action id="1←2 w⇧⎇">
             <when state="none" output="⌃"/>
             <when state="Greek" output="Β"/>
         </action>
-        <action id="⌥">
+        <action id="2←1 a⇧⌥">
             <when state="none" output="⌥"/>
             <when state="Greek" output="ά"/>
             <when state="Math" output="≆"/>
