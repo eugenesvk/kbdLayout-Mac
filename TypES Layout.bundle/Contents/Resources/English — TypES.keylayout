@@ -3453,6 +3453,7 @@
         <action id="1→5 p⇧">
             <when state="none" output="P"/>
             <when state="Greek" output="Π"/>
+            <when state="Math" output="∥"/>
             <when state="OldCyrillic" output="Ꙁ"/>
             <when state="Typographical" output="⁗"/>
             <when state="acute" output="Ṕ"/>
