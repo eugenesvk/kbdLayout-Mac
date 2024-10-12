@@ -3868,6 +3868,7 @@
             <when state="Copyright" output="®"/>
             <when state="Diacritics" next="double-acute"/>
             <when state="Greek" output="η"/>
+            <when state="Typographical" output="✱"/>
             <!-- <when state="caron" output="ȟ"/> -->
             <!-- <when state="cedilla" output="ḩ"/> -->
             <!-- <when state="circumflex" output="ĥ"/> -->
