@@ -611,7 +611,7 @@
             <key code="21" action="¼"/>
             <key code="22" action="^"/>
             <key code="23" action="‱"/>
-            <key code="24" action="± 1"/>
+            <key code="24" action="0→7 =⇧⎇"/>
             <key code="25" action="‹"/>
             <key code="26" output="¿"/>
             <key code="27" action="–"/>
@@ -2884,7 +2884,13 @@
             <when state="none" output="ц"/>
             <when state="Greek" output="ω"/>
             <when state="OldCyrillic" output="ѡ"/>
+            <!-- <when state="acute" output="ẃ"/> -->
+            <!-- <when state="circumflex" output="ŵ"/> -->
             <when state="cur$re" output="₩"/>
+            <!-- <when state="diaeresis" output="ẅ"/> -->
+            <!-- <when state="dot-above" output="ẇ"/> -->
+            <!-- <when state="dot-below" output="ẉ"/> -->
+            <!-- <when state="grave" output="ẁ"/> -->
             <when state="math∅≷" output="⊱"/>
             <when state="num_Roman" output="ↇ"/>
             <when state="num_roman" output="ↇ"/>
@@ -2893,6 +2899,12 @@
             <when state="none" output="Ц"/>
             <when state="Greek" output="Ω"/>
             <when state="OldCyrillic" output="Ѡ"/>
+            <!-- <when state="acute" output="Ẃ"/> -->
+            <!-- <when state="circumflex" output="Ŵ"/> -->
+            <!-- <when state="diaeresis" output="Ẅ"/> -->
+            <!-- <when state="dot-above" output="Ẇ"/> -->
+            <!-- <when state="dot-below" output="Ẉ"/> -->
+            <!-- <when state="grave" output="Ẁ"/> -->
         </action>
         <action id="1←2 w⎇">
             <when state="none" output="∑"/>
@@ -2905,11 +2917,26 @@
             <when state="OldCyrillic" output="ѣ"/>
             <when state="Typographical" output="℮"/>
             <when state="breve" output="ў"/>
+            <!-- <when state="acute" output="é"/> -->
+            <!-- <when state="breve" output="ĕ"/> -->
+            <!-- <when state="caron" output="ě"/> -->
+            <!-- <when state="cedilla" output="ȩ"/> -->
+            <!-- <when state="circumflex" output="ê"/> -->
+            <!-- <when state="circumflex+dot-below" output="ệ"/> -->
+            <!-- <when state="circumflex+hook-above" output="ể"/> -->
             <when state="cur$re" output="€"/>
             <when state="diaeresis" output="ÿ"/>
             <when state="double-acute" output="ӳ"/>
+            <!-- <when state="diaeresis" output="ë"/> -->
+            <!-- <when state="dot-above" output="ė"/> -->
+            <!-- <when state="dot-below" output="ẹ"/> -->
+            <!-- <when state="grave" output="è"/> -->
             <when state="greek-tonos" output="έ"/>
             <when state="macron" output="ӯ"/>
+            <!-- <when state="hook-above" output="ẻ"/> -->
+            <!-- <when state="macron" output="ē"/> -->
+            <!-- <when state="macron+acute" output="ḗ"/> -->
+            <!-- <when state="macron+grave" output="ḕ"/> -->
             <when state="math/" output="∄"/>
             <when state="math⇐" output="⋜"/>
             <when state="math⇒" output="⋜"/>
@@ -2928,6 +2955,7 @@
             <when state="math⪴" output="⋜"/>
             <when state="num_Roman" output="ↂ"/>
             <when state="num_roman" output="ↂ"/>
+            <!-- <when state="ogonek" output="ę"/> -->
             <when state="space" output="␣"/>
         </action>
         <action id="1←3 e⇧">
@@ -2937,9 +2965,25 @@
             <when state="breve" output="Ў"/>
             <when state="diaeresis" output="Ӱ"/>
             <when state="double-acute" output="Ӳ"/>
+            <!-- <when state="acute" output="É"/> -->
+            <!-- <when state="breve" output="Ĕ"/> -->
+            <!-- <when state="caron" output="Ě"/> -->
+            <!-- <when state="cedilla" output="Ȩ"/> -->
+            <!-- <when state="circumflex" output="Ê"/> -->
+            <!-- <when state="circumflex+dot-below" output="Ệ"/> -->
+            <!-- <when state="circumflex+hook-above" output="Ể"/> -->
+            <!-- <when state="diaeresis" output="Ë"/> -->
+            <!-- <when state="dot-above" output="Ė"/> -->
+            <!-- <when state="dot-below" output="Ẹ"/> -->
+            <!-- <when state="grave" output="È"/> -->
             <when state="greek-tonos" output="Έ"/>
             <when state="macron" output="Ӯ"/>
+            <!-- <when state="hook-above" output="Ẻ"/> -->
+            <!-- <when state="macron" output="Ē"/> -->
+            <!-- <when state="macron+acute" output="Ḗ"/> -->
+            <!-- <when state="macron+grave" output="Ḕ"/> -->
             <when state="math/" output="∄"/>
+            <!-- <when state="ogonek" output="Ę"/> -->
         </action>
         <action id="1←3 e⎇">
             <when state="none" output="€"/>
@@ -2956,7 +3000,13 @@
             <when state="OldCyrillic" output="ѯ"/>
             <when state="Typographical" output="⌑"/>
             <when state="acute" output="ќ"/>
+            <!-- <when state="acute" output="ŕ"/> -->
+            <!-- <when state="caron" output="ř"/> -->
+            <!-- <when state="cedilla" output="ŗ"/> -->
             <when state="cur$re" output="₹"/>
+            <!-- <when state="dot-above" output="ṙ"/> -->
+            <!-- <when state="dot-below" output="ṛ"/> -->
+            <!-- <when state="dot-below+macron" output="ṝ"/> -->
             <when state="math=" output="≗"/>
             <when state="math⇐" output="⋝"/>
             <when state="math⇒" output="⋝"/>
@@ -2984,6 +3034,12 @@
             <when state="Greek" output="Ρ"/>
             <when state="OldCyrillic" output="Ѯ"/>
             <when state="acute" output="Ќ"/>
+            <!-- <when state="acute" output="Ŕ"/> -->
+            <!-- <when state="caron" output="Ř"/> -->
+            <!-- <when state="cedilla" output="Ŗ"/> -->
+            <!-- <when state="dot-above" output="Ṙ"/> -->
+            <!-- <when state="dot-below" output="Ṛ"/> -->
+            <!-- <when state="dot-below+macron" output="Ṝ"/> -->
         </action>
         <action id="1←4 r⎇">
             <when state="none" output="◊"/>
@@ -3054,23 +3110,43 @@
             <when state="Brackets-emacs" output="&#x0027;"/>
             <when state="Greek" output="υ"/>
             <when state="Math" next="math√"/>
+            <!-- <when state="acute" output="ý"/> -->
+            <!-- <when state="circumflex" output="ŷ"/> -->
             <when state="cur$re" output="¥"/>
+            <!-- <when state="diaeresis" output="ÿ"/> -->
             <when state="diaeresis-greek" output="ϋ"/>
+            <!-- <when state="dot-above" output="ẏ"/> -->
+            <!-- <when state="dot-below" output="ỵ"/> -->
+            <!-- <when state="grave" output="ỳ"/> -->
             <when state="greek-dialytika-tonos" output="ΰ"/>
             <when state="greek-tonos" output="ύ"/>
+            <!-- <when state="hook-above" output="ỷ"/> -->
+            <!-- <when state="macron" output="ȳ"/> -->
             <when state="math=" output="󠀽"/>
             <when state="math√" next="math∛"/>
             <when state="math∛" next="math∜"/>
             <when state="math∜" next="math√"/>
             <when state="space" output=" "/>
+            <!-- <when state="num_Roman" output="Ⅾ"/> -->
+            <!-- <when state="num_roman" output="ⅾ"/> -->
+            <!-- <when state="tilde" output="ỹ"/> -->
         </action>
         <action id="1→1 y⇧">
             <when state="none" output="Н"/>
             <when state="Greek" output="Υ"/>
+            <!-- <when state="acute" output="Ý"/> -->
+            <!-- <when state="circumflex" output="Ŷ"/> -->
+            <!-- <when state="diaeresis" output="Ÿ"/> -->
             <when state="diaeresis-greek" output="Ϋ"/>
+            <!-- <when state="dot-above" output="Ẏ"/> -->
+            <!-- <when state="dot-below" output="Ỵ"/> -->
+            <!-- <when state="grave" output="Ỳ"/> -->
             <when state="greek-tonos" output="Ύ"/>
+            <!-- <when state="hook-above" output="Ỷ"/> -->
+            <!-- <when state="macron" output="Ȳ"/> -->
             <when state="num_Roman" output="ⅾ"/>
             <when state="num_roman" output="Ⅾ"/>
+            <!-- <when state="tilde" output="Ỹ"/> -->
         </action>
         <action id="1→1 y⎇">
             <when state="none" output="¥"/>
@@ -3086,8 +3162,26 @@
             <when state="OldCyrillic" output="ѵ"/>
             <when state="Typographical" output="⎀"/>
             <when state="acute" output="ѓ"/>
+            <!-- <when state="acute" output="ú"/> -->
+            <!-- <when state="breve" output="ŭ"/> -->
+            <!-- <when state="caron" output="ǔ"/> -->
+            <!-- <when state="circumflex" output="û"/> -->
             <when state="cur$re" output="₴"/>
             <when state="dot-below" output="̣"/>
+            <!-- <when state="diaeresis" output="ü"/> -->
+            <!-- <when state="diaeresis+macron" output="ǖ"/> -->
+            <!-- <when state="dot-below" output="ụ"/> -->
+            <!-- <when state="double-acute" output="ű"/> -->
+            <!-- <when state="grave" output="ù"/> -->
+            <!-- <when state="hook-above" output="ủ"/> -->
+            <!-- <when state="horn" output="ư"/> -->
+            <!-- <when state="horn+acute" output="ứ"/> -->
+            <!-- <when state="horn+dot-below" output="ự"/> -->
+            <!-- <when state="horn+grave" output="ừ"/> -->
+            <!-- <when state="horn+hook-above" output="ử"/> -->
+            <!-- <when state="horn+tilde" output="ữ"/> -->
+            <!-- <when state="macron" output="ū"/> -->
+            <!-- <when state="macron+diaeresis" output="ṻ"/> -->
             <when state="math=" output="⩷"/>
             <when state="math⁄" next="math⅟"/>
             <when state="math⅟" output="⅟"/>
@@ -3102,19 +3196,43 @@
             <when state="num_roman" next="num_roman_ⅰ"/>
             <when state="num_roman_ⅰ" output="ⅺ"/>
             <when state="num₅sub" output="₁"/>
+            <!-- <when state="ogonek" output="ų"/> -->
+            <!-- <when state="ring" output="ů"/> -->
             <when state="space" output="␣"/>
+            <!-- <when state="tilde" output="ũ"/> -->
         </action>
         <action id="1→2 u⇧">
             <when state="none" output="Г"/>
             <when state="Greek" output="Θ"/>
             <when state="OldCyrillic" output="Ѵ"/>
             <when state="acute" output="Ѓ"/>
+            <!-- <when state="acute" output="Ú"/> -->
+            <!-- <when state="breve" output="Ŭ"/> -->
+            <!-- <when state="caron" output="Ǔ"/> -->
+            <!-- <when state="circumflex" output="Û"/> -->
+            <!-- <when state="diaeresis" output="Ü"/> -->
+            <!-- <when state="diaeresis+macron" output="Ǖ"/> -->
+            <!-- <when state="dot-below" output="Ụ"/> -->
+            <!-- <when state="double-acute" output="Ű"/> -->
+            <!-- <when state="grave" output="Ù"/> -->
+            <!-- <when state="hook-above" output="Ủ"/> -->
+            <!-- <when state="horn" output="Ư"/> -->
+            <!-- <when state="horn+acute" output="Ứ"/> -->
+            <!-- <when state="horn+dot-below" output="Ự"/> -->
+            <!-- <when state="horn+grave" output="Ừ"/> -->
+            <!-- <when state="horn+hook-above" output="Ử"/> -->
+            <!-- <when state="horn+tilde" output="Ữ"/> -->
+            <!-- <when state="macron" output="Ū"/> -->
+            <!-- <when state="macron+diaeresis" output="Ṻ"/> -->
             <when state="math=" output="⩴"/>
             <when state="num_Roman" output="ⅰ"/>
             <when state="num_Roman_Ⅰ" output="ⅺ"/>
             <when state="num_roman" output="Ⅰ"/>
             <when state="num_roman_ⅰ" output="Ⅺ"/>
             <when state="num⁵sup" output="₁"/>
+            <!-- <when state="ogonek" output="Ų"/> -->
+            <!-- <when state="ring" output="Ů"/> -->
+            <!-- <when state="tilde" output="Ũ"/> -->
         </action>
         <action id="1→2 u⎇">
             <when state="none" next="Typographical"/>
@@ -3135,13 +3253,22 @@
             <when state="Math" output="∩"/>
             <when state="OldCyrillic" output="і"/>
             <when state="Typographical" output="☞"/>
+            <!-- <when state="acute" output="í"/> -->
+            <!-- <when state="breve" output="ĭ"/> -->
+            <!-- <when state="caron" output="ǐ"/> -->
+            <!-- <when state="circumflex" output="î"/> -->
             <when state="cur$re" output="₨"/>
             <when state="diaeresis" output="ӛ"/>
             <when state="diaeresis-greek" output="ϊ"/>
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
+            <!-- <when state="grave" output="ì"/> -->
             <when state="greek-dialytika-tonos" output="ΐ"/>
             <when state="greek-tonos" output="ί"/>
+            <!-- <when state="greek-tonos" output="ί"/> -->
+            <!-- <when state="hook-above" output="ỉ"/> -->
+            <!-- <when state="ligature_f" output="ﬁ"/> -->
+            <!-- <when state="macron" output="ī"/> -->
             <when state="math/" output="⫛"/>
             <when state="math=" next="math⩦"/>
             <when state="math⁄" next="math⅔"/>
@@ -3162,14 +3289,25 @@
             <when state="num_roman_ⅱ" output="ⅻ"/>
             <when state="num⁵sup" output="↊"/>
             <when state="num₅sub" output="₂"/>
+            <!-- <when state="ogonek" output="į"/> -->
+            <!-- <when state="tilde" output="ĩ"/> -->
         </action>
         <action id="1→3 i⇧">
             <when state="none" output="Ш"/>
             <when state="Greek" output="Ι"/>
             <when state="OldCyrillic" output="І"/>
             <when state="diaeresis" output="Ӛ"/>
+            <!-- <when state="acute" output="Í"/> -->
+            <!-- <when state="breve" output="Ĭ"/> -->
+            <!-- <when state="caron" output="Ǐ"/> -->
+            <!-- <when state="circumflex" output="Î"/> -->
+            <!-- <when state="diaeresis" output="Ï"/> -->
             <when state="diaeresis-greek" output="Ϊ"/>
+            <!-- <when state="dot-above" output="İ"/> -->
+            <!-- <when state="grave" output="Ì"/> -->
             <when state="greek-tonos" output="Ί"/>
+            <!-- <when state="hook-above" output="Ỉ"/> -->
+            <!-- <when state="macron" output="Ī"/> -->
             <when state="math/" output="⫛"/>
             <when state="num_Roman" output="ⅱ"/>
             <when state="num_Roman_Ⅰ" output="ⅻ"/>
@@ -3179,6 +3317,8 @@
             <when state="num_roman_ⅱ" output="Ⅻ"/>
             <when state="num⁵sup" output="₂"/>
             <when state="num₅sub" output="↊"/>
+            <!-- <when state="ogonek" output="Į"/> -->
+            <!-- <when state="tilde" output="Ĩ"/> -->
         </action>
         <action id="1→3 i⎇">
             <when state="none" next="Diacritics"/>
@@ -3206,9 +3346,32 @@
             <when state="Diacritics" next="macron"/>
             <when state="Greek" output="ο"/>
             <when state="Math" next="mathO"/>
+            <!-- <when state="acute" output="ó"/> -->
+            <!-- <when state="breve" output="ŏ"/> -->
+            <!-- <when state="caron" output="ǒ"/> -->
+            <!-- <when state="circumflex" output="ô"/> -->
+            <!-- <when state="circumflex+dot-below" output="ộ"/> -->
+            <!-- <when state="circumflex+hook-above" output="ổ"/> -->
             <when state="cur$re" output="₺"/>
+            <!-- <when state="diaeresis" output="ö"/> -->
+            <!-- <when state="diaeresis+macron" output="ȫ"/> -->
+            <!-- <when state="dot-above" output="ȯ"/> -->
+            <!-- <when state="dot-above+macron" output="ȱ"/> -->
+            <!-- <when state="dot-below" output="ọ"/> -->
+            <!-- <when state="double-acute" output="ő"/> -->
+            <!-- <when state="grave" output="ò"/> -->
             <when state="greek-tonos" output="ό"/>
             <when state="macron" output="̄"/>
+            <!-- <when state="hook-above" output="ỏ"/> -->
+            <!-- <when state="horn" output="ơ"/> -->
+            <!-- <when state="horn+acute" output="ớ"/> -->
+            <!-- <when state="horn+dot-below" output="ợ"/> -->
+            <!-- <when state="horn+grave" output="ờ"/> -->
+            <!-- <when state="horn+hook-above" output="ở"/> -->
+            <!-- <when state="horn+tilde" output="ỡ"/> -->
+            <!-- <when state="macron" output="ō"/> -->
+            <!-- <when state="macron+acute" output="ṓ"/> -->
+            <!-- <when state="macron+grave" output="ṑ"/> -->
             <when state="math⁄" next="math¾"/>
             <when state="math⅔" output="⅔"/>
             <when state="math⅟" output="⅓"/>
@@ -3234,15 +3397,46 @@
             <when state="num_roman" output="ⅲ"/>
             <when state="num⁵sup" output="↋"/>
             <when state="num₅sub" output="₃"/>
+            <!-- <when state="ogonek" output="ǫ"/> -->
+            <!-- <when state="ogonek+macron" output="ǭ"/> -->
+            <!-- <when state="tilde" output="õ"/> -->
+            <!-- <when state="tilde+macron" output="ȭ"/> -->
         </action>
         <action id="1→4 o⇧">
             <when state="none" output="Щ"/>
             <when state="Greek" output="Ο"/>
+            <!-- <when state="acute" output="Ó"/> -->
+            <!-- <when state="breve" output="Ŏ"/> -->
+            <!-- <when state="caron" output="Ǒ"/> -->
+            <!-- <when state="circumflex" output="Ô"/> -->
+            <!-- <when state="circumflex+dot-below" output="Ộ"/> -->
+            <!-- <when state="circumflex+hook-above" output="Ổ"/> -->
+            <!-- <when state="diaeresis" output="Ö"/> -->
+            <!-- <when state="diaeresis+macron" output="Ȫ"/> -->
+            <!-- <when state="dot-above" output="Ȯ"/> -->
+            <!-- <when state="dot-above+macron" output="Ȱ"/> -->
+            <!-- <when state="dot-below" output="Ọ"/> -->
+            <!-- <when state="double-acute" output="Ő"/> -->
+            <!-- <when state="grave" output="Ò"/> -->
             <when state="greek-tonos" output="Ό"/>
+            <!-- <when state="hook-above" output="Ỏ"/> -->
+            <!-- <when state="horn" output="Ơ"/> -->
+            <!-- <when state="horn+acute" output="Ớ"/> -->
+            <!-- <when state="horn+dot-below" output="Ợ"/> -->
+            <!-- <when state="horn+grave" output="Ờ"/> -->
+            <!-- <when state="horn+hook-above" output="Ở"/> -->
+            <!-- <when state="horn+tilde" output="Ỡ"/> -->
+            <!-- <when state="macron" output="Ō"/> -->
+            <!-- <when state="macron+acute" output="Ṓ"/> -->
+            <!-- <when state="macron+grave" output="Ṑ"/> -->
             <when state="num_Roman" output="ⅲ"/>
             <when state="num_roman" output="Ⅲ"/>
             <when state="num⁵sup" output="₃"/>
             <when state="num₅sub" output="↋"/>
+            <!-- <when state="ogonek" output="Ǫ"/> -->
+            <!-- <when state="ogonek+macron" output="Ǭ"/> -->
+            <!-- <when state="tilde" output="Õ"/> -->
+            <!-- <when state="tilde+macron" output="Ȭ"/> -->
         </action>
         <action id="1→4 o⎈">
             <when state="none" output="&#x000F;"/>
@@ -3258,6 +3452,7 @@
             <when state="Math" next="math⊹"/>
             <when state="OldCyrillic" output="ꙁ"/>
             <when state="Typographical" output="‴"/>
+            <!-- <when state="acute" output="ṕ"/> -->
             <when state="cur$re" output="£"/>
             <when state="diaeresis" output="ӟ"/>
             <when state="math=" output="⩱"/>
@@ -3350,9 +3545,25 @@
             <when state="Greek" output="α"/>
             <when state="Math" output="∀"/>
             <when state="Typographical" output="⇪"/>
+            <!-- <when state="acute" output="á"/> -->
+            <!-- <when state="breve" output="ă"/> -->
+            <!-- <when state="breve+dot-below" output="ặ"/> -->
+            <!-- <when state="breve+hook-above" output="ẳ"/> -->
+            <!-- <when state="caron" output="ǎ"/> -->
+            <!-- <when state="circumflex" output="â"/> -->
+            <!-- <when state="circumflex+dot-below" output="ậ"/> -->
+            <!-- <when state="circumflex+hook-above" output="ẩ"/> -->
             <when state="cur$re" output="₳"/>
+            <!-- <when state="diaeresis" output="ä"/> -->
+            <!-- <when state="diaeresis+macron" output="ǟ"/> -->
+            <!-- <when state="dot-above" output="ȧ"/> -->
+            <!-- <when state="dot-above+macron" output="ǡ"/> -->
+            <!-- <when state="dot-below" output="ạ"/> -->
             <when state="fs" output="∗"/>
+            <!-- <when state="grave" output="à"/> -->
             <when state="greek-tonos" output="ά"/>
+            <!-- <when state="hook-above" output="ả"/> -->
+            <!-- <when state="macron" output="ā"/> -->
             <when state="math=" next="math≈"/>
             <when state="math∅≷" output="≾"/>
             <when state="math∅≸" output="⋨"/>
@@ -3371,13 +3582,35 @@
             <when state="math⯹" output="⩮"/>
             <when state="num_Roman" output="ↀ"/>
             <when state="num_roman" output="ↀ"/>
+            <!-- <when state="ogonek" output="ą"/> -->
+            <!-- <when state="ring" output="å"/> -->
             <when state="space" output=" "/>
+            <!-- <when state="tilde" output="ã"/> -->
         </action>
         <action id="2←1 a⇧">
             <when state="none" output="Ф"/>
             <when state="Greek" output="Α"/>
+            <!-- <when state="acute" output="Á"/> -->
+            <!-- <when state="breve" output="Ă"/> -->
+            <!-- <when state="breve+dot-below" output="Ặ"/> -->
+            <!-- <when state="breve+hook-above" output="Ẳ"/> -->
+            <!-- <when state="caron" output="Ǎ"/> -->
+            <!-- <when state="circumflex" output="Â"/> -->
+            <!-- <when state="circumflex+dot-below" output="Ậ"/> -->
+            <!-- <when state="circumflex+hook-above" output="Ẩ"/> -->
+            <!-- <when state="diaeresis" output="Ä"/> -->
+            <!-- <when state="diaeresis+macron" output="Ǟ"/> -->
+            <!-- <when state="dot-above" output="Ȧ"/> -->
+            <!-- <when state="dot-above+macron" output="Ǡ"/> -->
+            <!-- <when state="dot-below" output="Ạ"/> -->
+            <!-- <when state="grave" output="À"/> -->
             <when state="greek-tonos" output="Ά"/>
+            <!-- <when state="hook-above" output="Ả"/> -->
+            <!-- <when state="macron" output="Ā"/> -->
             <when state="math=" output="≃"/>
+            <!-- <when state="ogonek" output="Ą"/> -->
+            <!-- <when state="ring" output="Å"/> -->
+            <!-- <when state="tilde" output="Ã"/> -->
         </action>
         <action id="2←1 a⎇">
             <when state="none" output="≈"/>
@@ -3402,8 +3635,17 @@
             <when state="Math" next="math∅"/>
             <when state="OldCyrillic" output="ꙑ"/>
             <when state="Typographical" output="💀"/>
+            <!-- <when state="acute" output="ś"/> -->
+            <!-- <when state="acute+dot-above" output="ṥ"/> -->
+            <!-- <when state="caron" output="š"/> -->
+            <!-- <when state="caron+dot-above" output="ṧ"/> -->
+            <!-- <when state="cedilla" output="ş"/> -->
+            <!-- <when state="circumflex" output="ŝ"/> -->
             <when state="cur$re" output="₱"/>
             <when state="diaeresis" output="ӹ"/>
+            <!-- <when state="dot-above" output="ṡ"/> -->
+            <!-- <when state="dot-below" output="ṣ"/> -->
+            <!-- <when state="dot-below+dot-above" output="ṩ"/> -->
             <when state="fs" output="⸮"/>
             <when state="math=" output="≛"/>
             <when state="math∅≷" output="≿"/>
@@ -3418,8 +3660,17 @@
             <when state="Greek" output="Σ"/>
             <when state="OldCyrillic" output="Ꙑ"/>
             <when state="Typographical" output="☠"/>
+            <!-- <when state="acute" output="Ś"/> -->
+            <!-- <when state="acute+dot-above" output="Ṥ"/> -->
+            <!-- <when state="caron" output="Š"/> -->
+            <!-- <when state="caron+dot-above" output="Ṧ"/> -->
+            <!-- <when state="cedilla" output="Ş"/> -->
+            <!-- <when state="circumflex" output="Ŝ"/> -->
             <when state="cur$re" output="₷"/>
             <when state="diaeresis" output="Ӹ"/>
+            <!-- <when state="dot-above" output="Ṡ"/> -->
+            <!-- <when state="dot-below" output="Ṣ"/> -->
+            <!-- <when state="dot-below+dot-above" output="Ṩ"/> -->
             <when state="space" output="␢"/>
         </action>
         <action id="2←2 s⎇">
@@ -3434,7 +3685,11 @@
             <when state="Greek" output="δ"/>
             <when state="Math" output="∇"/>
             <when state="Typographical" output="º"/>
+            <!-- <when state="caron" output="ď"/> -->
+            <!-- <when state="cedilla" output="ḑ"/> -->
             <when state="cur$re" output="$"/>
+            <!-- <when state="dot-above" output="ḋ"/> -->
+            <!-- <when state="dot-below" output="ḍ"/> -->
             <when state="fs" output="⁄"/>
             <when state="math=" next="math≝"/>
             <when state="math⇐" output="≤"/>
@@ -3467,7 +3722,11 @@
             <when state="none" output="В"/>
             <when state="Greek" output="Δ"/>
             <when state="Typographical" output="ª"/>
+            <!-- <when state="caron" output="Ď"/> -->
+            <!-- <when state="cedilla" output="Ḑ"/> -->
             <when state="cur$re" output="₫"/>
+            <!-- <when state="dot-above" output="Ḋ"/> -->
+            <!-- <when state="dot-below" output="Ḍ"/> -->
             <when state="math=" output="≜"/>
             <when state="num_Roman" output="ⅾ"/>
             <when state="num_roman" output="Ⅾ"/>
@@ -3548,6 +3807,7 @@
             <when state="Brackets-[" output="]"/>
             <when state="Greek" output="≠"/>
             <when state="OldCyrillic" output="ѩ"/>
+            <!-- <when state="Typographical" next="ligature_f"/> -->
             <when state="fs" output="⧵"/>
         </action>
         <action id="2←5 g">
@@ -3557,8 +3817,15 @@
             <when state="Diacritics" next="ogonek"/>
             <when state="Greek" output="γ"/>
             <when state="Typographical" output="♀"/>
+            <!-- <when state="acute" output="ǵ"/> -->
+            <!-- <when state="breve" output="ğ"/> -->
+            <!-- <when state="caron" output="ǧ"/> -->
+            <!-- <when state="cedilla" output="ģ"/> -->
+            <!-- <when state="circumflex" output="ĝ"/> -->
             <when state="cur$re" output="₰"/>
+            <!-- <when state="dot-above" output="ġ"/> -->
             <when state="fs" output="¦"/>
+            <!-- <when state="macron" output="ḡ"/> -->
             <when state="math=" output="≑"/>
             <when state="math∅⊂" output="⊳"/>
             <when state="math∅⊄" output="⋫"/>
@@ -3573,7 +3840,14 @@
             <when state="none" output="П"/>
             <when state="Greek" output="Γ"/>
             <when state="Typographical" output="♂"/>
+            <!-- <when state="acute" output="Ǵ"/> -->
+            <!-- <when state="breve" output="Ğ"/> -->
+            <!-- <when state="caron" output="Ǧ"/> -->
+            <!-- <when state="cedilla" output="Ģ"/> -->
+            <!-- <when state="circumflex" output="Ĝ"/> -->
             <when state="cur$re" output="₲"/>
+            <!-- <when state="dot-above" output="Ġ"/> -->
+            <!-- <when state="macron" output="Ḡ"/> -->
             <when state="math=" output="⩷"/>
             <when state="math∅⊂" output="⋫"/>
         </action>
@@ -3594,7 +3868,12 @@
             <when state="Copyright" output="®"/>
             <when state="Diacritics" next="double-acute"/>
             <when state="Greek" output="η"/>
+            <!-- <when state="caron" output="ȟ"/> -->
+            <!-- <when state="cedilla" output="ḩ"/> -->
+            <!-- <when state="circumflex" output="ĥ"/> -->
             <when state="cur$re" output="₽"/>
+            <!-- <when state="dot-above" output="ḣ"/> -->
+            <!-- <when state="dot-below" output="ḥ"/> -->
             <when state="double-acute" output="̋"/>
             <when state="fs" output="ˆ"/>
             <when state="greek-tonos" output="ή"/>
@@ -3608,6 +3887,11 @@
         <action id="2→1 h⇧">
             <when state="none" output="Р"/>
             <when state="Greek" output="Η"/>
+            <!-- <when state="caron" output="Ȟ"/> -->
+            <!-- <when state="cedilla" output="Ḩ"/> -->
+            <!-- <when state="circumflex" output="Ĥ"/> -->
+            <!-- <when state="dot-above" output="Ḣ"/> -->
+            <!-- <when state="dot-below" output="Ḥ"/> -->
             <when state="greek-tonos" output="Ή"/>
             <when state="math∅⊂" output="⋪"/>
             <when state="num_Roman" output="Ↄ"/>
@@ -3632,6 +3916,8 @@
             <when state="Math" output="⇓"/>
             <when state="OldCyrillic" output="ꙋ"/>
             <when state="breve" next="breve+hook-above"/>
+            <!-- <when state="caron" output="ǰ"/> -->
+            <!-- <when state="circumflex" output="ĵ"/> -->
             <when state="cur$re" output="₪"/>
             <when state="diaeresis" output="ӧ"/>
             <when state="fs" output="„"/>
@@ -3706,7 +3992,10 @@
             <when state="Diacritics" output="⃣"/>
             <when state="Greek" output="κ"/>
             <when state="Math" output="⇑"/>
+            <!-- <when state="caron" output="ǩ"/> -->
+            <!-- <when state="cedilla" output="ķ"/> -->
             <when state="cur$re" output="₭"/>
+            <!-- <when state="dot-below" output="ḳ"/> -->
             <when state="fs" output="“"/>
             <when state="math=" output="⁼"/>
             <when state="math¾" output="⅗"/>
@@ -3747,6 +4036,9 @@
         <action id="2→3 k⇧">
             <when state="none" output="Л"/>
             <when state="Greek" output="Κ"/>
+            <!-- <when state="caron" output="Ǩ"/> -->
+            <!-- <when state="cedilla" output="Ķ"/> -->
+            <!-- <when state="dot-below" output="Ḳ"/> -->
             <when state="math∅≷" output="≹"/>
             <when state="num_Roman" output="ⅴ"/>
             <when state="num_roman" output="Ⅴ"/>
@@ -3769,8 +4061,13 @@
             <when state="Copyright" output="🄯"/>
             <when state="Greek" output="λ"/>
             <when state="Math" next="math⇐re"/>
+            <!-- <when state="acute" output="ĺ"/> -->
+            <!-- <when state="cedilla" output="ļ"/> -->
             <when state="cur$re" output="₤"/>
+            <!-- <when state="dot-below" output="ḷ"/> -->
+            <!-- <when state="dot-below+macron" output="ḹ"/> -->
             <when state="fs" output="”"/>
+            <!-- <when state="ligature_f" output="ﬂ"/> -->
             <when state="math=" output="⋕"/>
             <when state="math¾" output="⅜"/>
             <when state="math…" output="⋮"/>
@@ -3818,7 +4115,11 @@
         <action id="2→4 l⇧">
             <when state="none" output="Д"/>
             <when state="Greek" output="Λ"/>
+            <!-- <when state="acute" output="Ĺ"/> -->
+            <!-- <when state="cedilla" output="Ļ"/> -->
             <when state="cur$re" output="₾"/>
+            <!-- <when state="dot-below" output="Ḷ"/> -->
+            <!-- <when state="dot-below+macron" output="Ḹ"/> -->
             <when state="math∅" next="math∅≸"/>
             <when state="math∅≷" output="≰"/>
             <when state="math∅⊂" output="⊄"/>
@@ -3979,8 +4280,13 @@
             <when state="Math" output="ℤ"/>
             <when state="OldCyrillic" output="ѫ"/>
             <when state="Typographical" output="⎈"/>
+            <!-- <when state="acute" output="ź"/> -->
+            <!-- <when state="caron" output="ž"/> -->
             <when state="cedilla" output="̧"/>
+            <!-- <when state="circumflex" output="ẑ"/> -->
             <when state="cur$re" output="₢"/>
+            <!-- <when state="dot-above" output="ż"/> -->
+            <!-- <when state="dot-below" output="ẓ"/> -->
             <when state="math=" output="⧣"/>
             <when state="math⋕" output="⧣"/>
             <when state="math⧣" output="⧣"/>
@@ -3991,6 +4297,11 @@
             <when state="none" output="Я"/>
             <when state="Greek" output="Ζ"/>
             <when state="OldCyrillic" output="Ѫ"/>
+            <!-- <when state="acute" output="Ź"/> -->
+            <!-- <when state="caron" output="Ž"/> -->
+            <!-- <when state="circumflex" output="Ẑ"/> -->
+            <!-- <when state="dot-above" output="Ż"/> -->
+            <!-- <when state="dot-below" output="Ẓ"/> -->
             <when state="math=" output="⧤"/>
         </action>
         <action id="3←1 z⎇">
@@ -4010,6 +4321,8 @@
             <when state="Typographical" output="⎇"/>
             <when state="cur$re" output="₵"/>
             <when state="diaeresis" output="ӵ"/>
+            <!-- <when state="diaeresis" output="ẍ"/> -->
+            <!-- <when state="dot-above" output="ẋ"/> -->
             <when state="fs" output="∗"/>
             <when state="math=" next="math⋕"/>
             <when state="mathO" output="⊗"/>
@@ -4021,6 +4334,8 @@
             <when state="none" output="Ч"/>
             <when state="Greek" output="Χ"/>
             <when state="diaeresis" output="Ӵ"/>
+            <!-- <when state="diaeresis" output="Ẍ"/> -->
+            <!-- <when state="dot-above" output="Ẋ"/> -->
         </action>
         <action id="3←2 x⎇">
             <when state="none" output="×"/>
@@ -4037,7 +4352,12 @@
             <when state="Math" output="ℂ"/>
             <when state="OldCyrillic" output="ѱ"/>
             <when state="Typographical" output="◆"/>
+            <!-- <when state="acute" output="ć"/> -->
+            <!-- <when state="caron" output="č"/> -->
+            <!-- <when state="cedilla" output="ç"/> -->
+            <!-- <when state="circumflex" output="ĉ"/> -->
             <when state="cur$re" output="₠"/>
+            <!-- <when state="dot-above" output="ċ"/> -->
             <when state="math=" output="⊜"/>
             <when state="math∅≷" output="≼"/>
             <when state="math∅≸" output="⋠"/>
@@ -4051,7 +4371,12 @@
             <when state="none" output="С"/>
             <when state="Greek" output="Ψ"/>
             <when state="OldCyrillic" output="Ѱ"/>
+            <!-- <when state="acute" output="Ć"/> -->
+            <!-- <when state="caron" output="Č"/> -->
+            <!-- <when state="cedilla" output="Ç"/> -->
+            <!-- <when state="circumflex" output="Ĉ"/> -->
             <when state="cur$re" output="₵"/>
+            <!-- <when state="dot-above" output="Ċ"/> -->
             <when state="math∅⊂" output="⋢"/>
             <when state="math∅⊄" output="⋤"/>
             <when state="num_Roman" output="Ↄ"/>
@@ -4072,6 +4397,7 @@
             <when state="Typographical" output="꣺"/>
             <when state="caron" output="̌"/>
             <when state="cur$re" output="₻"/>
+            <!-- <when state="dot-below" output="ṿ"/> -->
             <when state="greek-tonos" output="ώ"/>
             <when state="math=" output="≜"/>
             <when state="math∅≷" output="≽"/>
@@ -4083,15 +4409,18 @@
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="ↄ"/>
             <when state="space" output=" "/>
+            <!-- <when state="tilde" output="ṽ"/> -->
         </action>
         <action id="3←4 v⇧">
             <when state="none" output="М"/>
             <when state="Greek" output="Ω"/>
+            <!-- <when state="dot-below" output="Ṿ"/> -->
             <when state="greek-tonos" output="Ώ"/>
             <when state="math∅⊂" output="⋣"/>
             <when state="math∅⊄" output="⋥"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
+            <!-- <when state="tilde" output="Ṽ"/> -->
         </action>
         <action id="3←4 v⎇">
             <when state="none" output="↓"/>
@@ -4112,6 +4441,8 @@
             <when state="diaeresis" output="ӥ"/>
             <when state="grave" output="ѝ"/>
             <when state="macron" output="ӣ"/>
+            <!-- <when state="dot-above" output="ḃ"/> -->
+            <!-- <when state="dot-below" output="ḅ"/> -->
             <when state="math=" output="⪮"/>
             <when state="math∅⊂" output="⊵"/>
             <when state="math∅⊄" output="⋭"/>
@@ -4126,6 +4457,8 @@
             <when state="diaeresis" output="Ӥ"/>
             <when state="grave" output="Ѝ"/>
             <when state="macron" output="Ӣ"/>
+            <!-- <when state="dot-above" output="Ḃ"/> -->
+            <!-- <when state="dot-below" output="Ḅ"/> -->
             <when state="math∅⊂" output="⋭"/>
         </action>
         <action id="3←5 b⎇">
@@ -4141,7 +4474,13 @@
             <when state="Greek" output="ν"/>
             <when state="Math" output="ℕ"/>
             <when state="Typographical" output="¶"/>
+            <!-- <when state="acute" output="ń"/> -->
+            <!-- <when state="caron" output="ň"/> -->
+            <!-- <when state="cedilla" output="ņ"/> -->
             <when state="cur$re" output="₦"/>
+            <!-- <when state="dot-above" output="ṅ"/> -->
+            <!-- <when state="dot-below" output="ṇ"/> -->
+            <!-- <when state="grave" output="ǹ"/> -->
             <when state="horn" next="horn+tilde"/>
             <when state="math∅⊂" output="⊴"/>
             <when state="math∅⊄" output="⋬"/>
@@ -4158,9 +4497,16 @@
         <action id="3→1 n⇧">
             <when state="none" output="Т"/>
             <when state="Greek" output="Ν"/>
+            <!-- <when state="acute" output="Ń"/> -->
+            <!-- <when state="caron" output="Ň"/> -->
+            <!-- <when state="cedilla" output="Ņ"/> -->
             <when state="cur$re" output="₻"/>
+            <!-- <when state="dot-above" output="Ṅ"/> -->
+            <!-- <when state="dot-below" output="Ṇ"/> -->
+            <!-- <when state="grave" output="Ǹ"/> -->
             <when state="math∅⊂" output="⋬"/>
             <when state="num⁵sup" next="num_Roman"/>
+            <!-- <when state="tilde" output="Ñ"/> -->
         </action>
         <action id="3→1 n⎇">
             <when state="none" next="num₅sub"/>
@@ -4325,6 +4671,7 @@
             <when state="num_roman" output="ⅸ"/>
             <when state="num⁵sup" output="⁹"/>
             <when state="num₅sub" output="₉"/>
+            <when state="space" output=" "/>
         </action>
         <action id="3→4 .⇧">
             <when state="none" output="Ю"/>
@@ -4407,6 +4754,7 @@
             <when state="Diacritics" next="acute"/>
             <when state="Greek" output="/"/>
             <when state="Typographical" output="⁄"/>
+            <when state="acute" output="́"/>
             <when state="fs" output="⁄"/>
             <when state="math=" next="math≠"/>
             <when state="math∅⊂" output="⊋"/>
@@ -4670,7 +5018,7 @@
             <when state="none" output="¢"/>
             <when state="Greek" output="Χ"/>
         </action>
-        <action id="±">
+        <action id="0→7 =⇧⎇">
             <when state="none" next="grave"/>
             <when state="Typographical" output="⏏"/>
             <when state="grave" output="̀"/>
@@ -4712,6 +5060,7 @@
             <when state="none" next="breve"/>
             <when state="Greek" output="―"/>
             <when state="breve" output="̆"/>
+            <when state="macron" output="᷌"/>
         </action>
         <action id="λ">
             <when state="none" output="λ"/>
@@ -4945,6 +5294,7 @@
         <when state="horn+grave" output="◌̛̀"/>
         <when state="horn+hook-above" output="◌̛̉"/>
         <when state="horn+tilde" output="◌̛̃"/>
+        <!-- <when state="ligature_f" output="f"/> -->
         <when state="macron" output="¯"/>
         <when state="macron+acute" output="◌̄́"/>
         <when state="macron+diaeresis" output="◌̄̈"/>
