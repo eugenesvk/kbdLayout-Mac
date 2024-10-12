@@ -2841,6 +2841,7 @@
         <action id="1←2 w">
             <when state="none" output="w"/>
             <when state="Greek" output="ω"/>
+            <when state="Math" output="∇"/>
             <when state="OldCyrillic" output="ѡ"/>
             <when state="acute" output="ẃ"/>
             <when state="circumflex" output="ŵ"/>
@@ -2857,6 +2858,7 @@
         <action id="1←2 w⇧">
             <when state="none" output="W"/>
             <when state="Greek" output="Ω"/>
+            <when state="Math" output="∆"/>
             <when state="OldCyrillic" output="Ѡ"/>
             <when state="acute" output="Ẃ"/>
             <when state="circumflex" output="Ŵ"/>
@@ -2917,6 +2919,7 @@
         <action id="1←3 e⇧">
             <when state="none" output="E"/>
             <when state="Greek" output="Ε"/>
+            <when state="Math" output="∄"/>
             <when state="OldCyrillic" output="Ѣ"/>
             <when state="acute" output="É"/>
             <when state="breve" output="Ĕ"/>
@@ -3696,6 +3699,7 @@
         <action id="2←3 d⇧">
             <when state="none" output="D"/>
             <when state="Greek" output="Δ"/>
+            <when state="Math" output="∇"/>
             <when state="Typographical" output="ª"/>
             <when state="caron" output="Ď"/>
             <when state="cedilla" output="Ḑ"/>
