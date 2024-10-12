@@ -3166,6 +3166,7 @@
         <action id="1→2 u⇧">
             <when state="none" output="U"/>
             <when state="Greek" output="Θ"/>
+            <when state="Math" output="⊔"/>
             <when state="OldCyrillic" output="Ѵ"/>
             <when state="acute" output="Ú"/>
             <when state="breve" output="Ŭ"/>
@@ -3258,6 +3259,7 @@
         <action id="1→3 i⇧">
             <when state="none" output="I"/>
             <when state="Greek" output="Ι"/>
+            <when state="Math" output="⊓"/>
             <when state="OldCyrillic" output="І"/>
             <when state="acute" output="Í"/>
             <when state="breve" output="Ĭ"/>
