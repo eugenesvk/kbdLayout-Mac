@@ -597,7 +597,7 @@
             <key code="7" output="✗"/>
             <key code="8" action="¢"/>
             <key code="9" action="ˇ"/>
-            <key code="10" action="`"/>
+            <key code="10" action="00 §⇧⎇"/>
             <key code="11" output="ẞ"/>
             <key code="12" action="˘"/>
             <key code="13" action="⌃"/>
@@ -637,7 +637,7 @@
             <key code="47" action="3→4 .⇧⎇"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output="​"/>
-            <key code="50" action="`"/>
+            <key code="50" action="00 §⇧⎇"/>
             <key code="51" output="&#x0008;"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -1556,7 +1556,7 @@
             <key code="47" output="≥"/>
             <key code="48" output="⇥"/>
             <key code="49" output=" "/>
-            <key code="50" action="`"/>
+            <key code="50" action="00 §⇧⎇"/>
             <key code="51" output="␈"/>
             <key code="52" output="&#x0003;"/>
             <key code="53" output="&#x001B;"/>
@@ -2076,7 +2076,7 @@
         </keyMap>
         <keyMap index="3" baseMapSet="16c" baseIndex="3">
             <key code="93" output="\"/>
-            <key code="94" action="`"/>
+            <key code="94" action="00 §⇧⎇"/>
             <key code="95" output=","/>
             <key code="102" action="space"/>
             <key code="104" action="space"/>
@@ -4762,7 +4762,7 @@
             <when state="Typographical" output="⁁"/>
             <when state="circumflex" output="̂"/>
         </action>
-        <action id="`">
+        <action id="00 §⇧⎇">
             <when state="none" next="grave"/>
             <when state="Greek" output="Μ"/>
             <when state="Typographical" output="⏏"/>
