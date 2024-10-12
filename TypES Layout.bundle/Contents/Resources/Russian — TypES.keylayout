@@ -592,7 +592,7 @@
             <key code="2" output="⌀"/>
             <key code="3" action="℉"/>
             <key code="4" action="р⇧⎇"/>
-            <key code="5" action="⌘"/>
+            <key code="5" action="2←5 g⇧⎇"/>
             <key code="6" action="cedilla"/>
             <key code="7" output="✗"/>
             <key code="8" action="¢"/>
@@ -5207,7 +5207,7 @@
             <when state="none" output="⌃"/>
             <when state="Greek" output="Β"/>
         </action>
-        <action id="⌘">
+        <action id="2←5 g⇧⎇">
             <when state="none" output="⌘"/>
             <when state="Greek" output="Ϊ"/>
         </action>
