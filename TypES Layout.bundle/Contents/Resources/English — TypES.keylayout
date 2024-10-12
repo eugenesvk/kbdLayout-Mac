@@ -617,10 +617,10 @@
             <key code="27" action="–"/>
             <key code="28" action="·"/>
             <key code="29" action="›"/>
-            <key code="30" action="}4"/>
+            <key code="30" action="1→7 ]⇧⎇"/>
             <key code="31" action="o⇧⎇"/>
             <key code="32" action="u⇧⎇"/>
-            <key code="33" action="{4"/>
+            <key code="33" action="1→6 [⇧⎇"/>
             <key code="34" action="i⇧⎇"/>
             <key code="35" action="″"/>
             <key code="36" output="&#x000D;"/>
@@ -634,7 +634,7 @@
             <key code="44" action="´"/>
             <key code="45" action="~"/>
             <key code="46" action="•"/>
-            <key code="47" action="“ 1"/>
+            <key code="47" action="3→4 .⇧⎇"/>
             <key code="48" output="&#x0009;"/>
             <key code="49" output="​"/>
             <key code="50" action="`"/>
@@ -4929,7 +4929,7 @@
             <when state="math‹" output="←"/>
             <when state="space" output="‑"/>
         </action>
-        <action id="{4">
+        <action id="1→6 [⇧⎇">
             <when state="none" output="{"/>
             <when state="Greek" output="{"/>
         </action>
@@ -4942,7 +4942,7 @@
             <when state="math|" output="‖"/>
             <when state="math‹" output="◁"/>
         </action>
-        <action id="}4">
+        <action id="1→7 ]⇧⎇">
             <when state="none" output="}"/>
             <when state="Greek" output="}"/>
         </action>
@@ -5027,7 +5027,7 @@
             <when state="breve" next="breve+dot-below"/>
             <when state="circumflex" next="circumflex+dot-below"/>
         </action>
-        <action id="“ 1">
+        <action id="3→4 .⇧⎇">
             <when state="none" output="“"/>
             <when state="Greek" output="ώ"/>
             <when state="fs" output="›"/>
