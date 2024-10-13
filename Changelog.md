@@ -183,7 +183,7 @@ All notable changes to this project will be documented in this file
         * (<kbd>⇧</kbd>)<kbd>`</kbd> ≂
         * <kbd>⇧</kbd><kbd>`</kbd> ≋
         * <kbd>⇧</kbd><kbd>-</kbd>kbd> ≢
-        * <kbd>e</kbd> <kbd>⎇</kbd>= ≣
+        * <kbd>e</kbd> <kbd>⎇</kbd><kbd>=</kbd> ≣
         * <kbd>n</kbd> ≏
         * <kbd>m</kbd> ≞
         * <kbd>7</kbd> ≟
@@ -271,28 +271,28 @@ All notable changes to this project will be documented in this file
     + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>n</kbd> and within each layer on `1–0` and  `uio`-numpad like number keys:
+    + ✨ `en` `ru` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>n</kbd> and within each layer on `1–0` and  `uio`-numpad like number keys:
         * <kbd>n</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⁄` and other fraction layers and mapped it to <kbd>f</kbd> in <kbd>🕱</kbd>`Math`. In each sub-layer  number and `uio`-numpad like number keys enter the <kbd>🕱</kbd>`math⅟`/`⅔`,... numerator, and then complete the denominator part of the fraction. Besides those, in each sub-layer:
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math⁄` and other fraction layers and mapped it to <kbd>f</kbd> in <kbd>🕱</kbd>`Math`. In each sub-layer  number and `uio`-numpad like number keys enter the <kbd>🕱</kbd>`math⅟`/`⅔`,... numerator, and then complete the denominator part of the fraction. Besides those, in each sub-layer:
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>f</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math√` and other root layers (cycled) and mapped it to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>p</kbd> and <kbd>y</kbd>in <kbd>🕱</kbd>`Math`. In each sub-layer:
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math√` and other root layers (cycled) and mapped it to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>p</kbd> and <kbd>y</kbd>in <kbd>🕱</kbd>`Math`. In each sub-layer:
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>k</kbd> <kbd>y</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
         * <kbd>2</kbd> moves> √
         * <kbd>3</kbd> ∛
         * 4⃣ ∜
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⊹` and mapped it to <kbd>p</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various relations symbols:
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math⊹` and mapped it to <kbd>p</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various relations symbols:
         * <kbd>p</kbd> ⊹
         * <kbd>l</kbd> ⊷
         * <kbd>;</kbd> ⊶
         * <kbd>,</kbd> ⊸
         * <kbd>␠</kbd> ⊹
         * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math...` and mapped it to <kbd>m</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various punctuations symbols, in each sub-layer:
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math...` and mapped it to <kbd>m</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various punctuations symbols, in each sub-layer:
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>m</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
@@ -300,18 +300,18 @@ All notable changes to this project will be documented in this file
         * <kbd>.</kbd> …
         * <kbd>k</kbd> ⋯
         * <kbd>l</kbd> ⋮
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⊾` and mapped it to <kbd>7</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various angle/triangle symbols:
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math⊾` and mapped it to <kbd>7</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various angle/triangle symbols:
         * <kbd>␠</kbd> ⊾
         * <kbd>7</kbd> ⊿
             - <kbd>␠</kbd> ⊿
             -  <kbd>7</kbd> ⊾ (cycles back)
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅⊻` and mapped it to <kbd>o</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols:
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅⊻` and mapped it to <kbd>o</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols:
         * <kbd>t</kbd> ⊺
         * <kbd>u</kbd> ⊽
         * <kbd>j</kbd> ⊻
         * <kbd>k</kbd> ⊼
         * <kbd>␈</kbd> kbd>🕱</kbd>`math∅`
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅⊂` and mapped it to <kbd>;</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols (negation with <kbd>⇧</kbd> being held or in a separate layer (mapped to <kbd>⇧</kbd><kbd>;</kbd>, <kbd>/</kbd>) on the same keys):
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅⊂` and mapped it to <kbd>;</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols (negation with <kbd>⇧</kbd> being held or in a separate layer (mapped to <kbd>⇧</kbd><kbd>;</kbd>, <kbd>/</kbd>) on the same keys):
         * <kbd>e</kbd> ⋤ <kbd>r</kbd> ⋥
         * <kbd>d</kbd> ⊏  <kbd>f</kbd> ⊐
         * <kbd>c</kbd> ⊑  <kbd>v</kbd> ⊒
@@ -325,7 +325,7 @@ All notable changes to this project will be documented in this file
         * <kbd>g</kbd> ⊳  <kbd>h</kbd> ⊲
         * <kbd>b</kbd> ⊵  <kbd>n</kbd> ⊴
         * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅` and mapped it to <kbd>s</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various set ordering/comparison symbols (negation with <kbd>⇧</kbd> being held):
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅` and mapped it to <kbd>s</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various set ordering/comparison symbols (negation with <kbd>⇧</kbd> being held):
         * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
         * <kbd>l</kbd> <kbd>🕱</kbd>`math∅≷`
         * <kbd>,</kbd> <kbd>🕱</kbd>`math∅≷`
@@ -336,7 +336,7 @@ All notable changes to this project will be documented in this file
         * <kbd>;</kbd> <kbd>🕱</kbd>`math∅⊂`
         * <kbd>⇧</kbd><kbd>;</kbd> <kbd>🕱</kbd>`math∅⊄`
         * <kbd>/</kbd> <kbd>🕱</kbd>`math∅⊂`
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅≷` (negation where exists with <kbd>⇧</kbd> or <kbd>⎇</kbd> being held):
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅≷` (negation where exists with <kbd>⇧</kbd> or <kbd>⎇</kbd> being held):
         * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
         * <kbd>q</kbd> ⊰ <kbd>w</kbd> ⊱
         * <kbd>e</kbd> ⋞ <kbd>r</kbd> ⋟
@@ -349,7 +349,7 @@ All notable changes to this project will be documented in this file
         * <kbd>l</kbd> ⋜ <kbd>;</kbd> ⋝
         * <kbd>m</kbd> ≲ <kbd>,</kbd> ≳
         * <kbd>.</kbd> ⋖ <kbd>/</kbd> ⋗
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`math∅≸`:
+    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅≸`:
         * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
         * <kbd>a</kbd> ⋨ <kbd>s</kbd> ⋩
         * <kbd>d</kbd> ⊀ <kbd>f</kbd>⊁
@@ -379,7 +379,7 @@ All notable changes to this project will be documented in this file
   [1.1.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.1.0
 ## [1.1.0]
   - __Added__
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`fs` and mapped it to <kbd>⌥</kbd><kbd>\</kbd>, pressing it enables replacement for various illegal filesystem symbols (also works with <kbd>⎇</kbd> being held):
+    + ✨ `en` `ru` <kbd>🕱</kbd>`fs` and mapped it to <kbd>⌥</kbd><kbd>\</kbd>, pressing it enables replacement for various illegal filesystem symbols (also works with <kbd>⎇</kbd> being held):
         * <kbd>a</kbd> ∗
         * <kbd>s</kbd> ⸮
         * <kbd>d</kbd> ⧸
@@ -403,7 +403,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>.</kbd> ›
         * <kbd>.</kbd> ．
         * <kbd>/</kbd> ⧸
-    + :sparkles: `en` `ru` <kbd>🕱</kbd>`Brackets` and mapped it to <kbd>⌥</kbd><kbd>d</kbd>, pressing it enables various brackets <kbd>🕱</kbd> that terminate with the opening bracket and close the bracket on another tap of the same key (also works with <kbd>⎇</kbd> being held):
+    + ✨ `en` `ru` <kbd>🕱</kbd>`Brackets` and mapped it to <kbd>⌥</kbd><kbd>d</kbd>, pressing it enables various brackets <kbd>🕱</kbd> that terminate with the opening bracket and close the bracket on another tap of the same key (also works with <kbd>⎇</kbd> being held):
         * <kbd>d</kbd> )                                   	() parenthesis
         * <kbd>f</kbd> <kbd>🕱</kbd>`Brackets-[`            	[] square bracket
         * <kbd>j</kbd> <kbd>🕱</kbd>`Brackets-{`            	{} brace
@@ -470,8 +470,8 @@ All notable changes to this project will be documented in this file
   [1.0.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.0.0
 ## [1.0.0]
   - __Added__
-    + :sparkles: `ru` `Russian — Math` layout
-    + :sparkles: `en` <kbd>🕱</kbd>`Typographical` and mapped it to <kbd>⌥</kbd><kbd>u</kbd>, pressing it enables the following:
+    + ✨ `ru` `Russian — Math` layout
+    + ✨ `en` <kbd>🕱</kbd>`Typographical` and mapped it to <kbd>⌥</kbd><kbd>u</kbd>, pressing it enables the following:
         * <kbd>,</kbd> ⟨     Left Angle bracket
         * <kbd>,</kbd> ⟩     Right Angle bracket
         * <kbd>8</kbd> ⁂    Asterism
@@ -515,7 +515,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>\\</kbd> ↵ Return, Carriage Return
         * <kbd>⌥</kbd><kbd>\\</kbd> ⏎  Return, Carriage Return
         * <kbd>^</kbd><kbd>\\</kbd> ⌤  Enter
-    + :sparkles: `ru` <kbd>🕱</kbd>`Typographical` and mapped it to <kbd>⌥</kbd><kbd>г</kbd>, pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`Typographical` and mapped it to <kbd>⌥</kbd><kbd>г</kbd>, pressing it enables the following:
         * <kbd>б</kbd> ⟨   Left Angle bracket
         * <kbd>ю</kbd> ⟩   Right Angle bracket
         * <kbd>8</kbd> ⁂  Asterism
@@ -557,7 +557,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>ё</kbd> ↵	Return, Carriage Return
         * <kbd>⌥</kbd><kbd>ё</kbd> ⏎	Return, Carriage Return
         * <kbd>^</kbd><kbd>ё</kbd> ⌤	Enter
-    + :sparkles: `en` `ru` diacritics <kbd>🕱</kbd>s to <kbd>^</kbd><kbd>§</kbd>–<kbd>=</kbd>:
+    + ✨ `en` `ru` diacritics <kbd>🕱</kbd>s to <kbd>^</kbd><kbd>§</kbd>–<kbd>=</kbd>:
         * <kbd>^</kbd><kbd>§</kbd> → <kbd>🕱</kbd>`grave`
         * <kbd>^</kbd><kbd>1</kbd> → <kbd>🕱</kbd>`acute`
         * <kbd>^</kbd><kbd>2</kbd> → <kbd>🕱</kbd>`grave`
@@ -581,7 +581,7 @@ All notable changes to this project will be documented in this file
         * <kbd>д</kbd>л</kbd> 🄯 (U+01F12F)
         * <kbd>ы</kbd> ℠
         * <kbd>з</kbd> ℗
-    + :sparkles: `en` more symbols to <kbd>🕱</kbd>`OldCyrillic`:
+    + ✨ `en` more symbols to <kbd>🕱</kbd>`OldCyrillic`:
         * <kbd>9</kbd> ҁ
         * <kbd>⌥</kbd><kbd>i</kbd> ї
         * <kbd>r</kbd> ѯ
@@ -606,7 +606,7 @@ All notable changes to this project will be documented in this file
         * <kbd>u</kbd> ѵ
         * <kbd>i</kbd> і
         * (and the same with the Capital letters)
-    + :sparkles: `ru` more symbols to <kbd>🕱</kbd>`OldCyrillic`:
+    + ✨ `ru` more symbols to <kbd>🕱</kbd>`OldCyrillic`:
         * <kbd>9</kbd> ҁ
         * <kbd>⌥</kbd><kbd>ш</kbd> ї
         * <kbd>к</kbd> ѯ
@@ -660,8 +660,8 @@ All notable changes to this project will be documented in this file
   [0.9.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.9.0
 ## [0.9.0]
   - __Added__
-    + :sparkles: `ru` <kbd>⌫</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
-    + :sparkles: `ru` <kbd>🕱</kbd>`Math` and mapped it to <kbd>⌥</kbd><kbd>е</kbd>, pressing it enables the following:
+    + ✨ `ru` <kbd>⌫</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
+    + ✨ `ru` <kbd>🕱</kbd>`Math` and mapped it to <kbd>⌥</kbd><kbd>е</kbd>, pressing it enables the following:
         * <kbd>у</kbd> ∃
         * <kbd>ш</kbd> ∩
         * <kbd>т</kbd> ℕ
@@ -698,7 +698,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>ю</kbd> ≥
         * <kbd>ё</kbd> ∨
         * <kbd>></kbd>, <kbd>]</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>я</kbd>)
-    + :sparkles: `ru` <kbd>🕱</kbd>`math/` and mapped it to <kbd>.</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`math/` and mapped it to <kbd>.</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>у</kbd> ∄
         * <kbd>ш</kbd> ⫛
         * <kbd>э</kbd> ∉
@@ -706,18 +706,18 @@ All notable changes to this project will be documented in this file
         * (same with <kbd>⇧</kbd>)
         * <kbd>ё</kbd> ∧
         * <kbd>⇧</kbd><kbd>ё</kbd> ∤
-    + :sparkles: `ru` <kbd>🕱</kbd>`mathO` and mapped it to <kbd>щ</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`mathO` and mapped it to <kbd>щ</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>ю</kbd> ⊙
         * <kbd>.</kbd> ⊘
         * <kbd>-</kbd> ⊖
         * <kbd>=</kbd>, <kbd>⇧</kbd><kbd>=</kbd> ⊕
         * <kbd>8</kbd>, <kbd>⇧</kbd><kbd>8</kbd> ⊛
         * <kbd>ч</kbd>, <kbd>⌥</kbd><kbd>8</kbd> ⊗
-    + :sparkles: `ru` <kbd>🕱</kbd>`math-` and mapped it to <kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`math-` and mapped it to <kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>></kbd>, <kbd>]</kbd> ⇀ (keys left of <kbd>1</kbd>/<kbd>я</kbd>)
         * <kbd>ю</kbd> →
         * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟶
-    + :sparkles: `ru` <kbd>🕱</kbd>`math=` and mapped it to <kbd>=</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`math=` and mapped it to <kbd>=</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟹
         * <kbd>=</kbd> ≡
         * <kbd>.</kbd> ≠
@@ -725,14 +725,14 @@ All notable changes to this project will be documented in this file
         * <kbd>⌥</kbd><kbd>ё</kbd> ⟾
         * <kbd>б</kbd> ⇐
         * <kbd>ю</kbd> ⇒
-    + :sparkles: `ru` <kbd>🕱</kbd>`math_` and mapped it to <kbd>⇧</kbd><kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`math_` and mapped it to <kbd>⇧</kbd><kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>9</kbd> ⊆
         * <kbd>0</kbd> ⊇
         * <kbd>ё</kbd> ⟂
         * <kbd>б</kbd> ≤
         * <kbd>ю</kbd> ≥
         * (same with <kbd>⇧</kbd>)
-    + :sparkles: `ru` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>ё</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>ё</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>ю</kbd> ↦
         * <kbd>⌥</kbd><kbd>0</kbd> ⟼
         * <kbd>0</kbd>, <kbd>⇧</kbd><kbd>0</kbd> ⤇
@@ -745,7 +745,7 @@ All notable changes to this project will be documented in this file
         * <kbd>ъ</kbd> ⟧
         * <kbd>⇧</kbd><kbd>ю</kbd> ▷
         * <kbd>ё</kbd>, <kbd>⇧</kbd><kbd>ё</kbd> ‖
-    + :sparkles: `ru` <kbd>🕱</kbd>`math‹` and mapped it to <kbd>б</kbd> or <kbd>⇧</kbd><kbd>б</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`math‹` and mapped it to <kbd>б</kbd> or <kbd>⇧</kbd><kbd>б</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>⌥</kbd><kbd>9</kbd> ⟵
         * <kbd>0</kbd> ↔
         * <kbd>⌥</kbd><kbd>0</kbd> ⟷
@@ -764,8 +764,8 @@ All notable changes to this project will be documented in this file
   [0.8.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.8.0
 ## [0.8.0]
   - __Added__
-    + :sparkles: `en` <kbd>⌫</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
-    + :sparkles: `en` <kbd>🕱</kbd>`Math` and mapped it to <kbd>⌥</kbd><kbd>t</kbd>, pressing it enables the following:
+    + ✨ `en` <kbd>⌫</kbd> within `Math`-enclosed <kbd>🕱</kbd>s now returns to <kbd>🕱</kbd>`Math` instead of exiting to the base layer
+    + ✨ `en` <kbd>🕱</kbd>`Math` and mapped it to <kbd>⌥</kbd><kbd>t</kbd>, pressing it enables the following:
         * <kbd>e</kbd> ∃
         * <kbd>i</kbd> ∩
         * <kbd>n</kbd> ℕ
@@ -802,7 +802,7 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>.</kbd> ≥
         * <kbd>\\</kbd> ∨
         * <kbd>§</kbd>, <kbd>\`</kbd> ¬ (keys left of <kbd>1</kbd>/<kbd>z</kbd>)
-    + :sparkles: `en` <kbd>🕱</kbd>`math/` and mapped it to <kbd>/</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`math/` and mapped it to <kbd>/</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>e</kbd> ∄
         * <kbd>i</kbd> ⫛
         * <kbd>\'</kbd> ∉
@@ -810,18 +810,18 @@ All notable changes to this project will be documented in this file
         * (same with <kbd>⇧</kbd>)
         * <kbd>\\</kbd> ∧
         * <kbd>⇧</kbd><kbd>\\</kbd> ∤
-    + :sparkles: `en` <kbd>🕱</kbd>`mathO` and mapped it to <kbd>o</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`mathO` and mapped it to <kbd>o</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>.</kbd> ⊙
         * <kbd>/</kbd> ⊘
         * <kbd>-</kbd> ⊖
         * <kbd>=</kbd>, <kbd>⇧</kbd><kbd>=</kbd> ⊕
         * <kbd>8</kbd>, <kbd>⇧</kbd><kbd>8</kbd> ⊛
         * <kbd>x</kbd>, <kbd>⌥</kbd><kbd>8</kbd> ⊗
-    + :sparkles: `en` <kbd>🕱</kbd>`math-` and mapped it to <kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`math-` and mapped it to <kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>§</kbd>, <kbd>\`</kbd> ⇀ (keys left of <kbd>1</kbd>/<kbd>z</kbd>)
         * <kbd>.</kbd> →
         * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟶
-    + :sparkles: `en` <kbd>🕱</kbd>`math=` and mapped it to <kbd>=</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`math=` and mapped it to <kbd>=</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>0</kbd>, <kbd>⌥</kbd><kbd>0</kbd> ⟹
         * <kbd>=</kbd> ≡
         * <kbd>/</kbd> ≠
@@ -829,14 +829,14 @@ All notable changes to this project will be documented in this file
         * <kbd>⌥</kbd><kbd>\\</kbd> ⟾
         * <kbd>,</kbd> ⇐
         * <kbd>.</kbd> ⇒
-    + :sparkles: `en` <kbd>🕱</kbd>`math_` and mapped it to <kbd>⇧</kbd><kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`math_` and mapped it to <kbd>⇧</kbd><kbd>-</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>9</kbd> ⊆
         * <kbd>0</kbd> ⊇
         * <kbd>\\</kbd> ⟂
         * <kbd>,</kbd> ≤
         * <kbd>.</kbd> ≥
         * (same with <kbd>⇧</kbd>)
-    + :sparkles: `en` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>\\</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`math|` and mapped it to <kbd>⇧</kbd><kbd>\\</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>.</kbd> ↦
         * <kbd>⌥</kbd><kbd>0</kbd> ⟼
         * <kbd>0</kbd>, <kbd>⇧</kbd><kbd>0</kbd> ⤇
@@ -849,7 +849,7 @@ All notable changes to this project will be documented in this file
         * <kbd>]</kbd> ⟧
         * <kbd>⇧</kbd><kbd>.</kbd> ▷
         * <kbd>\\</kbd>, <kbd>⇧</kbd><kbd>\\</kbd> ‖
-    + :sparkles: `en` <kbd>🕱</kbd>`math‹` and mapped it to <kbd>,</kbd> or <kbd>⇧</kbd><kbd>,</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`math‹` and mapped it to <kbd>,</kbd> or <kbd>⇧</kbd><kbd>,</kbd> (in <kbd>🕱</kbd>`Math`), pressing it enables the following:
         * <kbd>⌥</kbd><kbd>9</kbd> ⟵
         * <kbd>0</kbd> ↔
         * <kbd>⌥</kbd><kbd>0</kbd> ⟷
@@ -868,11 +868,11 @@ All notable changes to this project will be documented in this file
   [0.7.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.7.0
 ## [0.7.0]
   - __Added__
-    + :sparkles: `en` `Greek` macOS layers (base, <kbd>⇧</kbd>, <kbd>⌥</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd>), <kbd>🕱</kbd>`Greek` (mapped to <kbd>^</kbd><kbd>g</kbd>), and (in <kbd>🕱</kbd>`Greek`):
+    + ✨ `en` `Greek` macOS layers (base, <kbd>⇧</kbd>, <kbd>⌥</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd>), <kbd>🕱</kbd>`Greek` (mapped to <kbd>^</kbd><kbd>g</kbd>), and (in <kbd>🕱</kbd>`Greek`):
         * <kbd>🕱</kbd>`greek-tonos` (mapped to <kbd>;</kbd>)
         * <kbd>🕱</kbd>`diaeresis-greek` (mapped to <kbd>⇧</kbd><kbd>;</kbd>)
         * <kbd>🕱</kbd>`greek-dialytika-tonos` (mapped to <kbd>⇧</kbd><kbd>w</kbd> / <kbd>⌥</kbd><kbd>;</kbd>)
-    + :sparkles: `ru` `Greek` macOS layers (base, <kbd>⇧</kbd>, <kbd>⌥</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd>), <kbd>🕱</kbd>`Greek` (mapped to <kbd>^</kbd><kbd>п</kbd>), and (in <kbd>🕱</kbd>`Greek`):
+    + ✨ `ru` `Greek` macOS layers (base, <kbd>⇧</kbd>, <kbd>⌥</kbd>, <kbd>⇧</kbd><kbd>⌥</kbd>), <kbd>🕱</kbd>`Greek` (mapped to <kbd>^</kbd><kbd>п</kbd>), and (in <kbd>🕱</kbd>`Greek`):
         * <kbd>🕱</kbd>`greek-tonos` (mapped to <kbd>ж</kbd>)
         * <kbd>🕱</kbd>`diaeresis-greek` (mapped to <kbd>⇧</kbd><kbd>ж</kbd>)
         * <kbd>🕱</kbd>`greek-dialytika-tonos` (mapped to <kbd>⇧</kbd><kbd>ц</kbd> / <kbd>⌥</kbd><kbd>ж</kbd>)
@@ -880,9 +880,9 @@ All notable changes to this project will be documented in this file
   [0.6.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.6.0
 ## [0.6.0]
   - __Added__
-    + :sparkles: `en` default `U.S.` macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
-    + :sparkles: `ru` default `Russian - PC` macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
-    + :sparkles: `en` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
+    + ✨ `en` default `U.S.` macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
+    + ✨ `ru` default `Russian - PC` macOS layers <kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>⌥</kbd> to <kbd>^</kbd><kbd>⌥</kbd> / <kbd>⇧</kbd><kbd>^</kbd><kbd>⌥</kbd>
+    + ✨ `en` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
         * <kbd>1</kbd>, <kbd>/</kbd> → <kbd>🕱</kbd>`acute` (`´`)
         * <kbd>2</kbd>, <kbd>\`</kbd>, <kbd>\\</kbd> → <kbd>🕱</kbd>`grave` (`` ` ``)
         * <kbd>3</kbd>, <kbd>;</kbd>  → <kbd>🕱</kbd>`diaeresis` (`¨`)
@@ -899,7 +899,7 @@ All notable changes to this project will be documented in this file
         * ,     <kbd>\'</kbd> → <kbd>🕱</kbd>`horn`
         * ,     <kbd>j</kbd> → <kbd>🕱</kbd>`hook-above`
         * ,     <kbd>g</kbd> → <kbd>🕱</kbd>`ogonek` (`˛`)
-    + :sparkles: `ru` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
+    + ✨ `ru` <kbd>🕱</kbd>`Diacritics` and mapped it to <kbd>^</kbd><kbd>\'</kbd> — after this <kbd>🕱</kbd> is pressed, the following keys are mapped to the following diacritic <kbd>🕱</kbd>s:
         * <kbd>1</kbd>, <kbd>.</kbd> → <kbd>🕱</kbd>`acute` (`´`)
         * <kbd>2</kbd>, <kbd>></kbd>, <kbd>]</kbd> → <kbd>🕱</kbd>`grave` (`` ` ``)
         * <kbd>3</kbd>, <kbd>ж</kbd>  → <kbd>🕱</kbd>`diaeresis` (`¨`)
@@ -913,13 +913,13 @@ All notable changes to this project will be documented in this file
         * <kbd>-</kbd>, <kbd>г</kbd>  → <kbd>🕱</kbd>`dot-below` (`◌̣`)
         * <kbd>=</kbd>, <kbd>я</kbd>  → <kbd>🕱</kbd>`cedilla` (`¸`)
         * ,     <kbd>р</kbd> → <kbd>🕱</kbd>`double-acute`
-    + :sparkles: `ru` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>ш</kbd>, pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>ш</kbd>, pressing it enables the following:
         * <kbd>␠</kbd> ˙ (stand-alone dot above)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>ш</kbd>  ̇ (combining dot above)
-    + :sparkles: `ru` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd>, pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd>, pressing it enables the following:
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>г</kbd> ̣ (combining dot below)
     + `en` map <kbd>🕱</kbd>`breve+dot-below` to <kbd>-</kbd> (in <kbd>🕱</kbd>`breve`)
-    + :sparkles: `en` <kbd>🕱</kbd>`ogonek` and mapped it to <kbd>g</kbd> (in <kbd>🕱</kbd>`Diacritics`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`ogonek` and mapped it to <kbd>g</kbd> (in <kbd>🕱</kbd>`Diacritics`), pressing it enables the following:
         * <kbd>a</kbd> ą
         * <kbd>e</kbd> ę
         * <kbd>i</kbd> į
@@ -928,15 +928,15 @@ All notable changes to this project will be documented in this file
         * (and the same with the Capital letters)
         * <kbd>␠</kbd> ˛ (stand-alone ogonek)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>g</kbd>  ̨ (combining ogonek)
-    + :sparkles: `en` <kbd>🕱</kbd>`ogonek+macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`ogonek`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`ogonek+macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`ogonek`), pressing it enables the following:
         * <kbd>o</kbd> ǭ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd>`horn` and mapped it to <kbd>\'</kbd> (in <kbd>🕱</kbd>`Diacritics`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`horn` and mapped it to <kbd>\'</kbd> (in <kbd>🕱</kbd>`Diacritics`), pressing it enables the following:
         * <kbd>o</kbd> ơ
         * <kbd>u</kbd> ư
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\'</kbd>  ̛ (combining horn)
-    + :sparkles: `en` <kbd>🕱</kbd>`hook-above` and mapped it to <kbd>j</kbd> (in <kbd>🕱</kbd>`Diacritics`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`hook-above` and mapped it to <kbd>j</kbd> (in <kbd>🕱</kbd>`Diacritics`), pressing it enables the following:
         * <kbd>a</kbd> ả
         * <kbd>e</kbd> ẻ
         * <kbd>i</kbd> ỉ
@@ -945,32 +945,32 @@ All notable changes to this project will be documented in this file
         * <kbd>y</kbd> ỷ
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> ̉ (combining hook above)
-    + :sparkles: `en` <kbd>🕱</kbd>`horn+dot-below` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> or <kbd>-</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`horn+dot-below` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> or <kbd>-</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
         * <kbd>o</kbd> ợ
         * <kbd>u</kbd> ự
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd>`horn+hook-above` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`horn+hook-above` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
         * <kbd>o</kbd> ở
         * <kbd>u</kbd> ử
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd>`horn+tilde` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>n</kbd> or <kbd>4</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`horn+tilde` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>n</kbd> or <kbd>4</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
         * <kbd>o</kbd> ỡ
         * <kbd>u</kbd> ữ
         *  (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd>`horn+acute` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> or <kbd>1</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`horn+acute` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> or <kbd>1</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
         * <kbd>o</kbd> ớ
         * <kbd>u</kbd> ứ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd>`horn+grave` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd> or <kbd>2</kbd> or <kbd>\`</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`horn+grave` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd> or <kbd>2</kbd> or <kbd>\`</kbd> (in <kbd>🕱</kbd>`horn`), pressing it enables the following:
         * <kbd>o</kbd> ờ
         * <kbd>u</kbd> ừ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd>`circumflex+hook-above` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> (in <kbd>🕱</kbd>`circumflex`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`circumflex+hook-above` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> (in <kbd>🕱</kbd>`circumflex`), pressing it enables the following:
         * <kbd>a</kbd> ẩ
         * <kbd>e</kbd> ể
         * <kbd>o</kbd> ổ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd>`breve+hook-above` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> (in <kbd>🕱</kbd>`breve`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`breve+hook-above` and mapped to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>j</kbd> (in <kbd>🕱</kbd>`breve`), pressing it enables the following:
         * <kbd>a</kbd> ẳ
         *  (and the same with the Capital letters)
   - __Changed__
@@ -981,45 +981,45 @@ All notable changes to this project will be documented in this file
   [0.5.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.5.0
 ## [0.5.0]
   - __Added__
-    + :sparkles: `en` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd>, pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`dot-above` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd>, pressing it enables the following:
         * <kbd>a</kbd>–<kbd>z</kbd> ȧ–ż (except for <kbd>q</kbd><kbd>u</kbd><kbd>i</kbd><kbd>j</kbd><kbd>k</kbd><kbd>l</kbd><kbd>v</kbd>)
         * (and the same with the Capital letters)
         * <kbd>I</kbd> İ
         * <kbd>␠</kbd> ˙ (stand-alone dot above)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd>  ̇ (combining dot above)
-    + :sparkles: `en` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd>, pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`dot-below` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd>, pressing it enables the following:
         * <kbd>a</kbd>–<kbd>z</kbd> ạ–ẓ (except for <kbd>c</kbd><kbd>f</kbd><kbd>g</kbd><kbd>i</kbd><kbd>j</kbd><kbd>p</kbd><kbd>x</kbd>)
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> ̣ (combining dot below)
-    + :sparkles: `en` <kbd>🕱</kbd> `DotBelow+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`dot-below` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + ✨ `en` <kbd>🕱</kbd> `DotBelow+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`dot-below` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>l</kbd> ḹ
         * <kbd>r</kbd> ṝ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `DotBelow+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after <kbd>🕱</kbd>`dot-below` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + ✨ `en` <kbd>🕱</kbd> `DotBelow+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> — (after <kbd>🕱</kbd>`dot-below` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>s</kbd> ṩ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `DotAbove+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`dot-above` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
+    + ✨ `en` <kbd>🕱</kbd> `DotAbove+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> — (after <kbd>🕱</kbd>`dot-above` is pressed) after this <kbd>🕱</kbd> is pressed, the following keys are mapped to:
         * <kbd>a</kbd> ǡ
         * <kbd>o</kbd> ȱ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Tilde+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`tilde`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd> `Tilde+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`tilde`), pressing it enables the following:
         * <kbd>o</kbd> ȭ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Diaeresis+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`diaeresis`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd> `Diaeresis+Macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> (in <kbd>🕱</kbd>`diaeresis`), pressing it enables the following:
         * <kbd>a</kbd> ǟ
         * <kbd>o</kbd> ȫ
         * <kbd>u</kbd> ǖ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Breve+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> (in <kbd>🕱</kbd>`breve`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd> `Breve+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> (in <kbd>🕱</kbd>`breve`), pressing it enables the following:
         * <kbd>a</kbd> ặ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Acute+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> (in <kbd>🕱</kbd>`acute`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd> `Acute+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> (in <kbd>🕱</kbd>`acute`), pressing it enables the following:
         * <kbd>s</kbd> ṥ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Caron+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> (in <kbd>🕱</kbd>`caron`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd> `Caron+DotAbove` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>i</kbd> (in <kbd>🕱</kbd>`caron`), pressing it enables the following:
         * <kbd>s</kbd> ṧ
         * (and the same with the Capital letters)
-    + :sparkles: `en` <kbd>🕱</kbd> `Circumflex+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> (in <kbd>🕱</kbd>`circumflex`), pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd> `Circumflex+DotBelow` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>u</kbd> (in <kbd>🕱</kbd>`circumflex`), pressing it enables the following:
         * <kbd>a</kbd> ậ
         * <kbd>e</kbd> ệ
         * <kbd>o</kbd> ộ
@@ -1030,25 +1030,25 @@ All notable changes to this project will be documented in this file
   [0.4.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.4.0
 ## [0.4.0]
   - __Added__
-    + :sparkles: `en` <kbd>🕱</kbd>`Copyright` and mapped it to <kbd>⌥</kbd><kbd>c</kbd>, pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`Copyright` and mapped it to <kbd>⌥</kbd><kbd>c</kbd>, pressing it enables the following:
         * <kbd>c</kbd> ©
         * <kbd>r</kbd> ®
         * <kbd>t</kbd> ™
-    + :sparkles: `ru` <kbd>🕱</kbd>`Copyright` and mapped it to <kbd>⌥</kbd><kbd>с</kbd>, pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`Copyright` and mapped it to <kbd>⌥</kbd><kbd>с</kbd>, pressing it enables the following:
         * <kbd>с</kbd> ©
         * <kbd>к</kbd><kbd>р</kbd> ®
         * <kbd>е</kbd><kbd>т</kbd> ™
-    + :sparkles: `en` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>o</kbd>, pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>o</kbd>, pressing it enables the following:
         * <kbd>q</kbd> ѳ
         * <kbd>e</kbd> ѣ
         * <kbd>u</kbd> ѵ
         * <kbd>i</kbd> і
-    + :sparkles: `ru` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>щ</kbd>, pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`OldCyrillic` and mapped it to <kbd>⌥</kbd><kbd>щ</kbd>, pressing it enables the following:
         * <kbd>й</kbd> ѳ
         * <kbd>у</kbd> ѣ
         * <kbd>г</kbd> ѵ
         * <kbd>ш</kbd> і
-    + :sparkles: `en` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>, pressing it enables the following:
+    + ✨ `en` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>, pressing it enables the following:
         * <kbd>a</kbd> ā
         * <kbd>e</kbd> ē
         * <kbd>i</kbd> ī
@@ -1060,19 +1060,19 @@ All notable changes to this project will be documented in this file
         * <kbd>␠</kbd> ¯ (stand-alone macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd>  ̄ (combining macron)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>q</kbd>  ᷌  (combining macron-breve)
-    + :sparkles: `en` add <kbd>🕱</kbd>`Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd> or <kbd>\`</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
+    + ✨ `en` add <kbd>🕱</kbd>`Macron+Grave` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd> or <kbd>\`</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
         * <kbd>e</kbd> ḕ
         * <kbd>o</kbd> ṑ
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>\`</kbd>  ᷆ (combining Macron-Grave)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷅ (combining Grave-Macron)
-    + :sparkles: `en` add <kbd>🕱</kbd>`Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
+    + ✨ `en` add <kbd>🕱</kbd>`Macron+Acute` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>;</kbd> or <kbd>;</kbd> (in <kbd>🕱</kbd>`macron`), pressing it enables the following:
         * <kbd>e</kbd> ḗ
         * <kbd>o</kbd> ṓ
         * (and the same with the Capital letters)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>/</kbd> ᷄ (combining Macron-Acute)
         * <kbd>⌥</kbd><kbd>⇧</kbd><kbd>o</kbd> ᷇ (combining Acute-Macron)
-    + :sparkles: `ru` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>щ</kbd>, pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`macron` and mapped it to <kbd>⌥</kbd><kbd>⇧</kbd><kbd>щ</kbd>, pressing it enables the following:
         * <kbd>й</kbd> ӣ
         * <kbd>у</kbd> ӯ
         * <kbd>и</kbd> ӣ
@@ -1083,7 +1083,7 @@ All notable changes to this project will be documented in this file
   [0.3.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.3.0
 ## [0.3.0]
   - __Added__
-    + :sparkles: `ru` <kbd>🕱</kbd>`space` and mapped it to <kbd>^</kbd><kbd>␠</kbd>, pressing it enables the following:
+    + ✨ `ru` <kbd>🕱</kbd>`space` and mapped it to <kbd>^</kbd><kbd>␠</kbd>, pressing it enables the following:
         * <kbd>о</kbd> word joiner
         * <kbd>я</kbd>, <kbd>0</kbd> zero-width
         * <kbd>р</kbd>, <kbd>в</kbd> hair
@@ -1113,7 +1113,7 @@ All notable changes to this project will be documented in this file
 [0.2.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.2.0
 ## [0.2.0]
   - __Added__
-    + :sparkles: `en` <kbd>🕱</kbd>`space` and mapped it to <kbd>^</kbd><kbd>␠</kbd> — after a <kbd>🕱</kbd> is pressed, spaces of various widths are mnemonically mapped to:
+    + ✨ `en` <kbd>🕱</kbd>`space` and mapped it to <kbd>^</kbd><kbd>␠</kbd> — after a <kbd>🕱</kbd> is pressed, spaces of various widths are mnemonically mapped to:
         * <kbd>j</kbd> word joiner
         * <kbd>z</kbd>, <kbd>0</kbd> zero-width
         * <kbd>h</kbd> hair
@@ -1143,8 +1143,8 @@ All notable changes to this project will be documented in this file
 [0.1.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/0.1.0
 ## [0.1.0]
   - __Added__
-    + :sparkles: original Ilya Birman Typography Layout
-    + :sparkles: Math layout
+    + ✨ original Ilya Birman Typography Layout
+    + ✨ Math layout
   - __Changed__
     + English layout: many various updates to the original layout
     + Russian layout: many various updates to the original layout
