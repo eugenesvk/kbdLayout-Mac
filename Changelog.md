@@ -481,14 +481,22 @@ All notable changes to this project will be documented in this file
         * <kbd>б</kbd> ⊸
         * <kbd>␠</kbd> ⊹
         * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
-    + ✨ `en` `ru` <kbd>🕱</kbd>`math...` and mapped it to <kbd>m</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various punctuations symbols, in each sub-layer:
+    + ✨ `en` <kbd>🕱</kbd>`math...` and mapped it to <kbd>m</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various punctuations symbols, in each sub-layer:
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>m</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
-        * <kbd>j</moves> …
+        * <kbd>j</kbd> …
         * <kbd>.</kbd> …
         * <kbd>k</kbd> ⋯
         * <kbd>l</kbd> ⋮
+    + ✨ `ru` <kbd>🕱</kbd>`math...` and mapped it to <kbd>m</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various punctuations symbols, in each sub-layer:
+        * <kbd>␠</kbd> inserts the symbol
+        * <kbd>ь</kbd> moves to the next layer
+        * <kbd>␈</kbd> moves to the previous layer
+        * <kbd>о</kbd> …
+        * <kbd>ю</kbd> …
+        * <kbd>л</kbd> ⋯
+        * <kbd>д</kbd> ⋮
     + ✨ `en` `ru` <kbd>🕱</kbd>`math⊾` and mapped it to <kbd>7</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various angle/triangle symbols:
         * <kbd>␠</kbd> ⊾
         * <kbd>7</kbd> ⊿
