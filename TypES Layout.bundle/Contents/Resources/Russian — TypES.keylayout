@@ -2267,6 +2267,12 @@
         <action id="0←2 2‹⇧">
             <when state="none" output="&#x0022;"/>
             <when state="Greek" output="@"/>
+            <when state="math|" output="⊯"/>
+            <when state="math∂" output="∯"/>
+            <when state="num_Roman" output="ⅱ"/>
+            <when state="num_roman" output="Ⅱ"/>
+            <when state="num⁵sup" output="₂"/>
+            <when state="num₅sub" output="↊"/>
         </action>
         <action id="0←2 2⇧›">
             <when state="none" output="@"/>
