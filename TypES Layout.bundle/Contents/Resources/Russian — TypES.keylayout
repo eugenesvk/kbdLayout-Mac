@@ -4755,6 +4755,7 @@
             <!-- <when state="grave" output="ǹ"/> -->
             <when state="horn" next="horn+tilde"/>
             <when state="math/" output="∦"/>
+            <when state="math=" output="≏"/>
             <when state="math∅⊂" output="⊴"/>
             <when state="math∅⊄" output="⋬"/>
             <when state="math≄" output="≠"/>
