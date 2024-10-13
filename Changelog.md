@@ -39,11 +39,6 @@ All notable changes to this project will be documented in this file
         * <kbd>о</kbd> ⊾
         * <kbd>д</kbd> ⊿
         * <kbd>ц</kbd> ∿
-    + `en` <kbd>🕱</kbd>`math/`
-        * <kbd>=</kbd> ≠
-        * <kbd>p</kbd> ∦
-        * <kbd>l</kbd> ∣
-        * <kbd>/</kbd> ∤
     + `en` symbols to <kbd>🕱</kbd>`Math`:
         * <kbd><kbd>⇧</kbd></kbd><kbd>p</kbd> ∥
         * <kbd>⇧</kbd><kbd>u</kbd> ⊔
@@ -262,11 +257,19 @@ All notable changes to this project will be documented in this file
         * <kbd>1</kbd> ⊭
         * <kbd>2</kbd> ⊯
         * <kbd>w</kbd> ⊮
+        * <kbd>/</kbd> ∕
+        * <kbd>=</kbd> ≠
+        * <kbd>l</kbd> ∤
+        * <kbd>⇧</kbd><kbd>l</kbd> ∦
     + `ru` symbols to <kbd>🕱</kbd>`math/`, reorder some symbols
         * <kbd>а</kbd> ⊬
         * <kbd>1</kbd> ⊭
         * <kbd>2</kbd> ⊯
         * <kbd>ц</kbd> ⊮
+        * <kbd>.</kbd> ∕
+        * <kbd>=</kbd> ≠
+        * <kbd>д</kbd> ∤
+        * <kbd>⇧</kbd><kbd>д</kbd> ∦
     + `en` symbols to <kbd>🕱</kbd>`math∅`
         * <kbd>\</kbd>kbd> ∖ (same in <kbd>🕱</kbd>`math∅⊂`)
         * <kbd>m</kbd> ∖
@@ -283,10 +286,6 @@ All notable changes to this project will be documented in this file
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>е</kbd> moves to the next layer
         * <kbd>␈</kbd>moves to the previous layer
-    + `en` symbols to <kbd>🕱</kbd>`math/`
-        * <kbd>/</kbd> ∕
-    + `ru` symbols to <kbd>🕱</kbd>`math/`
-        * <kbd>.</kbd> ∕
     + `en` symbols to <kbd>🕱</kbd>`math=`
         * (<kbd>⇧</kbd>)<kbd>`</kbd> ≂
         * <kbd>⇧</kbd><kbd>`</kbd> ≋
