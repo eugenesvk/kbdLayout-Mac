@@ -2724,6 +2724,7 @@
             <when state="Diacritics" next="cedilla"/>
             <when state="Math" next="math="/>
             <when state="cedilla" output="̧"/>
+            <when state="math/" output="≠"/>
             <when state="math=" next="math≠re"/>
             <when state="mathO" output="⊕"/>
             <when state="math|" output="⊧"/>
@@ -3493,6 +3494,7 @@
             <!-- <when state="acute" output="ṕ"/> -->
             <when state="cur$re" output="£"/>
             <when state="diaeresis" output="ӟ"/>
+            <when state="math/" output="∦"/>
             <when state="math=" output="⩱"/>
             <when state="math⇐" output="⋟"/>
             <when state="math⇒" output="⋟"/>
@@ -4132,6 +4134,7 @@
             <!-- <when state="dot-below+macron" output="ḹ"/> -->
             <when state="fs" output="”"/>
             <!-- <when state="ligature_f" output="ﬂ"/> -->
+            <when state="math/" output="∣"/>
             <when state="math=" output="⋕"/>
             <when state="math¾" output="⅜"/>
             <when state="math…" output="⋮"/>
@@ -4814,6 +4817,7 @@
             <when state="fs" output="⁄"/>
             <when state="horn" next="horn+acute"/>
             <when state="macron" next="macron+acute"/>
+            <when state="math/" output="∤"/>
             <when state="math=" next="math≠"/>
             <when state="mathO" output="⊘"/>
             <when state="math…" output="⋰"/>
