@@ -2918,6 +2918,7 @@
             <!-- <when state="grave" output="ẁ"/> -->
             <when state="math∂" output="∯"/>
             <when state="math∅≷" output="⊱"/>
+            <when state="math∡" output="∿"/>
             <when state="num_Roman" output="ↇ"/>
             <when state="num_roman" output="ↇ"/>
         </action>
