@@ -443,13 +443,24 @@ All notable changes to this project will be documented in this file
     + ✨ `ru` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>т</kbd> and within each layer on `1–0` and  `гшщ`-numpad like number keys:
         * <kbd>т</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
-    + ✨ `en` `ru` <kbd>🕱</kbd>`math⁄` and other fraction layers and mapped it to <kbd>f</kbd> in <kbd>🕱</kbd>`Math`. In each sub-layer  number and `uio`-numpad like number keys enter the <kbd>🕱</kbd>`math⅟`/`⅔`,... numerator, and then complete the denominator part of the fraction. Besides those, in each sub-layer:
+    + ✨ `en` <kbd>🕱</kbd>`math⁄` and other fraction layers and mapped it to <kbd>f</kbd> in <kbd>🕱</kbd>`Math`. In each sub-layer  number and `uio`-numpad like number keys enter the <kbd>🕱</kbd>`math⅟`/`⅔`,... numerator, and then complete the denominator part of the fraction. Besides those, in each sub-layer:
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>f</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
-    + ✨ `en` `ru` <kbd>🕱</kbd>`math√` and other root layers (cycled) and mapped it to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>p</kbd> and <kbd>y</kbd>in <kbd>🕱</kbd>`Math`. In each sub-layer:
+    + ✨ `ru` <kbd>🕱</kbd>`math⁄` and other fraction layers and mapped it to <kbd>а</kbd> in <kbd>🕱</kbd>`Math`. In each sub-layer  number and `uio`-numpad like number keys enter the <kbd>🕱</kbd>`math⅟`/`⅔`,... numerator, and then complete the denominator part of the fraction. Besides those, in each sub-layer:
+        * <kbd>␠</kbd> inserts the symbol
+        * <kbd>а</kbd> moves to the next layer
+        * <kbd>␈</kbd> moves to the previous layer
+    + ✨ `en` <kbd>🕱</kbd>`math√` and other root layers (cycled) and mapped it to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>p</kbd> and <kbd>y</kbd>in <kbd>🕱</kbd>`Math`. In each sub-layer:
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>k</kbd> <kbd>y</kbd> moves to the next layer
+        * <kbd>␈</kbd> moves to the previous layer
+        * <kbd>2</kbd> moves> √
+        * <kbd>3</kbd> ∛
+        * <kbd>4</kbd> ∜
+    + ✨ `ru` <kbd>🕱</kbd>`math√` and other root layers (cycled) and mapped it to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>з</kbd> and <kbd>н</kbd>in <kbd>🕱</kbd>`Math`. In each sub-layer:
+        * <kbd>␠</kbd> inserts the symbol
+        * <kbd>л</kbd> <kbd>н</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
         * <kbd>2</kbd> moves> √
         * <kbd>3</kbd> ∛
