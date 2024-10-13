@@ -3145,7 +3145,6 @@
             <when state="greek-tonos" output="ύ"/>
             <when state="hook-above" output="ỷ"/>
             <when state="macron" output="ȳ"/>
-            <when state="math=" output="󠀽"/>
             <when state="mathO" output="⋄"/>
             <when state="math∅∈" output="⋵"/>
             <when state="math∅≷" output="≎"/>
