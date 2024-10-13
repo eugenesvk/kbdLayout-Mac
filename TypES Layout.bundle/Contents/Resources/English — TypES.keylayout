@@ -2914,6 +2914,10 @@
             <when state="grave" output="Ẁ"/>
             <when state="math|" output="⊮"/>
         </action>
+        <action id="1←2 w⇧⎇">
+            <when state="none" output="⌃"/>
+            <when state="Greek" output="Β"/>
+        </action>
         <action id="1←2 w⎇">
             <when state="none" output="∑"/>
             <when state="Greek" output="―"/>
@@ -3681,6 +3685,12 @@
             <when state="ogonek" output="Ą"/>
             <when state="ring" output="Å"/>
             <when state="tilde" output="Ã"/>
+        </action>
+        <action id="2←1 a⇧⌥">
+            <when state="none" output="⌥"/>
+            <when state="Greek" output="ά"/>
+            <when state="Math" output="≆"/>
+            <when state="math=" output="≊"/>
         </action>
         <action id="2←1 a⎇">
             <when state="none" output="≈"/>
@@ -5428,16 +5438,6 @@
             <when state="math√" next="math∛"/>
             <when state="math∛" next="math∜"/>
             <when state="math∜" next="math√"/>
-        </action>
-        <action id="1←2 w⇧⎇">
-            <when state="none" output="⌃"/>
-            <when state="Greek" output="Β"/>
-        </action>
-        <action id="2←1 a⇧⌥">
-            <when state="none" output="⌥"/>
-            <when state="Greek" output="ά"/>
-            <when state="Math" output="≆"/>
-            <when state="math=" output="≊"/>
         </action>
         <action id="␠⎇">
             <when state="none" output=" "/>
