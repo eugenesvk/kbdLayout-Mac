@@ -4995,7 +4995,7 @@
             <when state="horn" next="horn+acute"/>
             <when state="macron" next="macron+acute"/>
             <when state="math-" output="→"/>
-            <when state="math/" output="∤"/>
+            <when state="math/" output="∕"/>
             <when state="math=" next="math≠"/>
             <when state="mathO" output="⊘"/>
             <when state="math…" output="⋰"/>
@@ -5243,6 +5243,7 @@
             <when state="greek-dialytika-tonos" output="΅"/>
             <when state="greek-tonos" output="΄"/>
             <when state="macron" output="¯"/>
+            <when state="math/" output="/"/>
             <when state="math¾" output="¾"/>
             <when state="math…" output="…"/>
             <when state="math⅔" output="⅔"/>
