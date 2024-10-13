@@ -23,11 +23,251 @@ All notable changes to this project will be documented in this file
    <!-- vulnerabilities -->
 
   - __Added__
+    + `en` <kbd>🕱</kbd>`math∢` in <kbd>🕱</kbd>`Math`
+        * <kbd>a</kbd> ∡
+        * <kbd>s</kbd> ∠
+        * <kbd>d</kbd> ∟
+        * <kbd>f</kbd> ∢
+        * <kbd>j</kbd> ⊾
+        * <kbd>l</kbd> ⊿
+        * <kbd>w</kbd> ∿
+    + `en` <kbd>🕱</kbd>`math/`
+        * <kbd>=</kbd> ≠
+        * <kbd>p</kbd> ∦
+        * <kbd>l</kbd> ∣
+        * <kbd>/</kbd> ∤
+    + `en` symbols to <kbd>🕱</kbd>`Math`:
+        * <kbd><kbd>⇧</kbd></kbd><kbd>p</kbd> ∥
+        * <kbd>⇧</kbd><kbd>u</kbd> ⊔
+        * <kbd>⇧</kbd><kbd>i</kbd> ⊓
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>;</kbd> ∷
+        * <kbd>⇧</kbd><kbd>;</kbd> ∶
+        * <kbd>⇧</kbd><kbd>x</kbd> ≀
+        * <kbd>⇧</kbd><kbd>l</kbd> ∣
+        * <kbd>⇧</kbd><kbd>'</kbd> ∋
+        * <kbd>⎇</kbd><kbd>'</kbd> ∊
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>'</kbd> ∍
+        * <kbd>w</kbd> ∇
+        * <kbd>⇧</kbd><kbd>w</kbd> ∆
+        * <kbd>⇧</kbd><kbd>e</kbd> ∄
+        * <kbd>⇧</kbd><kbd>d</kbd> ∇
+    + `ru` symbols to <kbd>🕱</kbd>`Math`:
+        * <kbd><kbd>⇧</kbd></kbd><kbd>з</kbd> ∥
+        * <kbd>⇧</kbd><kbd>г</kbd> ⊔
+        * <kbd>⇧</kbd><kbd>ш</kbd> ⊓
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>ж</kbd> ∷
+        * <kbd>⇧</kbd><kbd>ж</kbd> ∶
+        * <kbd>⇧</kbd><kbd>ч</kbd> ≀
+        * <kbd>⇧</kbd><kbd>д</kbd> ∣
+        * <kbd>⇧</kbd><kbd>э</kbd> ∋
+        * <kbd>⎇</kbd><kbd>э</kbd> ∊
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>э</kbd> ∍
+        * <kbd>ц</kbd> ∇
+        * <kbd>⇧</kbd><kbd>ц</kbd> ∆
+        * <kbd>⇧</kbd><kbd>у</kbd> ∄
+        * <kbd>⇧</kbd><kbd>в</kbd> ∇
+    + `en` symbols to <kbd>🕱</kbd>`Math` and <kbd>🕱</kbd>`math∅≷` with new unequality symbols
+        * ≪≫
+        * ≦≧ ≨≩
+        * ≮≯
+    + `en` symbols to <kbd>🕱</kbd>`math_` mapped to <kbd>⇧</kbd><kbd>-</kbd>kbd>:
+        * (<kbd>⇧</kbd>)<kbd>u</kbd> ⊔
+        * (<kbd>⇧</kbd>)<kbd>i</kbd> ⊓
+    + `en` symbols to <kbd>🕱</kbd>`math-` mapped to <kbd>-</kbd>, reorder arrows:
+        * <kbd>u</kbd> ∺
+        * <kbd>i</kbd> ∸
+        * <kbd>k</kbd> ∻
+        * <kbd>;</kbd> ∹
+        * <kbd>x</kbd> ≀
+        * <kbd>⇧</kbd><kbd>`</kbd> ∼
+        * <kbd>⎇</kbd><kbd>`</kbd> ∽
+        * <kbd>9</kbd> ∈
+        * <kbd>0</kbd> ∋
+        * <kbd>⇧</kbd><kbd>9</kbd> ∉
+        * <kbd>⇧</kbd><kbd>0</kbd> ∌
+        * <kbd>o</kbd> ∊
+        * <kbd>p</kbd> ∍
+    + `en`  more routes on <kbd>s</kbd> at <kbd>🕱</kbd>`math∅`
+    + `en` <kbd>🕱</kbd>`math…`
+        * <kbd>u</kbd> ∷
+        * <kbd>;</kbd> ∶
+        * <kbd>⇧</kbd><kbd>;</kbd> ∷
+    + `en` <kbd>🕱</kbd>`math⋃N-Ary`, mapped to <kbd>u</kbd> and <kbd>⎇</kbd><kbd>n</kbd>, added other logical similar-looking symbols
+        * <kbd>u</kbd> ⋂
+        * <kbd>i</kbd> ⋃
+        * <kbd>o</kbd> or <kbd>⇧</kbd><kbd>0</kbd> or <kbd>⇧</kbd><kbd>.</kbd> ⨃
+        * <kbd>p</kbd> or <kbd>⇧</kbd><kbd>=</kbd> ⨄
+        * <kbd>l</kbd> ⫿
+        * <kbd>d</kbd> ∐
+        * <kbd>f</kbd> ∏
+        * <kbd>s</kbd> ∑
+        * <kbd>w</kbd> or <kbd>⇧</kbd><kbd>s</kbd> ⅀
+        * <kbd>m</kbd> ⋁
+        * <kbd>,</kbd> ⋀
+        * <kbd>j</kbd> ⨆
+        * <kbd>k</kbd> ⨅
+        * <kbd>x</kbd> ⨉
+        * <kbd>8</kbd> or <kbd>⇧</kbd><kbd>x</kbd> ⨂
+        * <kbd>=</kbd> ⨁
+        * <kbd>0</kbd> or <kbd>.</kbd> ⨀
+        * <kbd>t</kbd> ⊺
+        * <kbd>y</kbd> ⊻
+        * <kbd>h</kbd> ⊼
+        * <kbd>n</kbd> ⊽
+    + `en` <kbd>🕱</kbd>`math∅∈` mapped to <kbd>e</kbd> and <kbd>-</kbd>kbd> at <kbd>🕱</kbd>`math∅` and <kbd>9</kbd> at <kbd>🕱</kbd>`math∅⊂`
+        * Relations
+        * <kbd>u</kbd> ⋶ <kbd>i</kbd> ⋽
+        * <kbd>j</kbd> ⋲ <kbd>k</kbd> ⋺
+        * <kbd>m</kbd> ⋸
+        * <kbd>h</kbd> ⋹
+        * <kbd>d</kbd> ⋳ <kbd>f</kbd> ⋻
+        * <kbd>c</kbd> ⋴ <kbd>v</kbd> ⋼
+        * <kbd>q</kbd> ⋷ <kbd>w</kbd> ⋾
+        * <kbd>e</kbd> ⋿
+        * <kbd>y</kbd> ⋵
+        * Set membership
+        * <kbd>l</kbd> ∈ <kbd>;</kbd> ∋
+        * <kbd>9</kbd> ∈ <kbd>0</kbd> ∋
+        * <kbd>o</kbd> ∉ <kbd>p</kbd> ∌
+        * <kbd>x</kbd> ∊ <kbd>c</kbd> ∍
+    + `en` <kbd>🕱</kbd>`mathO` mapped to <kbd>o</kbd> <kbd>🕱</kbd>`Math`
+        * <kbd>r</kbd> ⊚
+        * <kbd>d</kbd> ⊝
+        * <kbd>=</kbd> ⊜
+        * <kbd>[</kbd> ⊟
+        * <kbd>]</kbd> ⊞
+        * <kbd>z</kbd> ⊠
+        * <kbd>,</kbd> ⊡
+        * <kbd>m</kbd> ∙
+        * <kbd>r</kbd> ∘
+        * <kbd>m</kbd> ⋅
+        * <kbd>s</kbd> ⋆
+        * <kbd>y</kbd> ⋄
+        * <kbd>t</kbd> ⋇
+    + `en` <kbd>🕱</kbd>`math⊞` mapped to <kbd>o</kbd> at <kbd>🕱</kbd>`mathO`
+        * <kbd>-</kbd>kbd> ⊟
+        * <kbd>=</kbd> or <kbd>p</kbd> ⊞
+        * <kbd>x</kbd> or <kbd>m</kbd> ⊠
+        * <kbd>.</kbd> or <kbd>d</kbd> ⊡
+    + `en` symbols to <kbd>🕱</kbd>`math|`
+        * <kbd>f</kbd> ⊢
+        * <kbd>d</kbd> ⊣
+        * <kbd>t</kbd> ⊤
+        * <kbd>v</kbd> ⊥
+        * <kbd>1</kbd> or <kbd>u</kbd> ⊨
+        * <kbd>2</kbd> or <kbd>i</kbd> ⊫
+        * <kbd>3</kbd> or <kbd>o</kbd> ⊪
+        * <kbd>w</kbd> ⊩
+        * <kbd>⇧</kbd><kbd>f</kbd> ⊬
+        * <kbd>⇧</kbd><kbd>1</kbd> or <kbd>u</kbd> ⊭
+        * <kbd>⇧</kbd><kbd>2</kbd> or <kbd>i</kbd> ⊯
+        * <kbd>⇧</kbd><kbd>w</kbd> ⊮
+    + `en` symbols to <kbd>🕱</kbd>`math/`, reorder some symbols
+        * <kbd>f</kbd> ⊬
+        * <kbd>1</kbd> ⊭
+        * <kbd>2</kbd> ⊯
+        * <kbd>w</kbd> ⊮
+    + `en` symbols to <kbd>🕱</kbd>`math∅`
+        * <kbd>\</kbd>kbd> ∖ (same in <kbd>🕱</kbd>`math∅⊂`)
+        * <kbd>m</kbd> ∖
+    + `en` symbols to <kbd>🕱</kbd>`Math`
+        * add to <kbd>t</kbd> cycled <kbd>🕱</kbd>` ∵∴∎`
+        * <kbd>␠</kbd> inserts the symbol
+        * <kbd>t</kbd> moves to the next layer
+        * <kbd>␈</kbd>moves to the previous layer
+    + `en` symbols to <kbd>🕱</kbd>`math⊹`
+        * <kbd>i</kbd> ∔
+    + `en` symbols to <kbd>🕱</kbd>`math/`
+        * <kbd>/</kbd> ∕
+    + `en` symbols to <kbd>🕱</kbd>`math=`
+        * (<kbd>⇧</kbd>)<kbd>`</kbd> ≂
+        * <kbd>⇧</kbd><kbd>`</kbd> ≋
+        * <kbd>⇧</kbd><kbd>-</kbd>kbd> ≢
+        * <kbd>e</kbd> <kbd>⎇</kbd>= ≣
+        * <kbd>n</kbd> ≏
+        * <kbd>m</kbd> ≞
+        * <kbd>7</kbd> ≟
+        * <kbd>o</kbd> ≘
+        * <kbd>[</kbd> or <kbd>⇧</kbd><kbd>j</kbd> ≚
+        * <kbd>]</kbd> or <kbd>⇧</kbd><kbd>k</kbd> ≙
+        * <kbd>4</kbd> or <kbd>⇧</kbd><kbd>r</kbd> ≖
+    + `en` symbols to <kbd>🕱</kbd>`math≠`
+        * <kbd>-</kbd>kbd> ≢
+        * <kbd>z</kbd> or <kbd>⇧</kbd><kbd>a</kbd> ≇
+        * <kbd>`</kbd> ≁
+        * <kbd>t</kbd> ≆
+        * <kbd>y</kbd> or <kbd>⇧</kbd>` ≄
+    + `en` symbols to <kbd>🕱</kbd>`math⩳`
+        * <kbd>z</kbd> ≊
+        * <kbd>⇧</kbd><kbd>z</kbd> ≇
+    + `en` symbols to <kbd>🕱</kbd>`math=`
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>a</kbd> ≆
+        * <kbd>e</kbd> or <kbd>⎇</kbd><kbd>=</kbd> ≣
+    + `en` symbols to <kbd>🕱</kbd>`math∅≷`
+        * <kbd>t</kbd> ≍
+        * <kbd>⇧</kbd><kbd>t</kbd> ≭
+        * <kbd>y</kbd> ≎
+    + `en` symbols to <kbd>🕱</kbd>`math∅≸`
+        * <kbd>t</kbd> ≭
+    + `en` symbols to <kbd>🕱</kbd>`math⩦`
+        * <kbd>d</kbd> ≏
+        * <kbd>l</kbd> ≒
+        * <kbd>;</kbd> ≓
+        * <kbd>o</kbd> or <kbd>a</kbd> ≐
+    + `en` symbols to <kbd>🕱</kbd>`math∅≷`
+        * <kbd>b</kbd> ≬
+    + `en` symbols to <kbd>🕱</kbd>`math∅⊻`
+        * <kbd>d</kbd> or <kbd>a</kbd> ∨
+        * <kbd>f</kbd> or <kbd>o</kbd> ∧
+        * <kbd>c</kbd> or <kbd>⇧</kbd><kbd>a</kbd> ⋎
+        * <kbd>v</kbd> or <kbd>⇧</kbd><kbd>o</kbd> ⋏
+    + `en` symbols to <kbd>🕱</kbd>`math⊹`
+        * <kbd>g</kbd> ⋈
+        * <kbd>d</kbd> ⋉
+        * <kbd>f</kbd> ⋊
+        * <kbd>c</kbd> or <kbd>⇧</kbd><kbd>d</kbd> ⋋
+        * <kbd>v</kbd> or <kbd>⇧</kbd><kbd>f</kbd> ⋌
     + `en` `ru` use <kbd>⎇</kbd><kbd>␠</kbd> as bracket chord terminator for all bracket types
     + `en` `ru` make <kbd>⎇</kbd> insert combining symbol even if precombined exists (in <kbd>🕱</kbd>`Diacritic`)
     + `ru` some missing diacritic actions from `en`
     + `en` `ru` <kbd>🕱</kbd>`space` to <kbd>␠</kbd> in <kbd>🕱</kbd>`Typographical`
     + `en` add <kbd>🕱</kbd>`ligature_f` in <kbd>🕱</kbd>`Typographical`
+    + `en` `ru` terminators to Roman numerals layers for visibility when cycling
+    + `en` `ru` missing transitions on <kbd>⎇</kbd>
+    + `en` `ru` reverse numbers to the number sub/sup layers
+    + `en` `ru` <kbd>🕱</kbd>`cur$re` and other currency symbol layers, with a few of them recursively mapped to <kbd>4</kbd>
+    + `ru` numeric keys to match en
+    + `en` `ru` (commented out) items from ru/en to align diffs
+    + `en` `ru` extra ellipsis symbols in 🕱Math
+    + `en` `ru` a few symbols in <kbd>🕱</kbd>`Math`
+    + `en` <kbd>🕱</kbd>`math∂` in <kbd>🕱</kbd>`Math` and map it to <kbd>d</kbd>:
+        * <kbd>c</kbd> ∁
+        * <kbd>d</kbd> ∂
+        * <kbd>u</kbd> or <kbd>1</kbd> ∫
+        * <kbd>i</kbd> or <kbd>2</kbd> ∬
+        * <kbd>o</kbd> or <kbd>3</kbd> ∭
+        * <kbd>q</kbd> or <kbd>⇧</kbd><kbd>1</kbd> ∮
+        * <kbd>w</kbd> or <kbd>⇧</kbd><kbd>2</kbd> ∯
+        * <kbd>e</kbd> or <kbd>⇧</kbd><kbd>3</kbd> ∰
+        * <kbd>l</kbd> or <kbd>9</kbd> ∲
+        * <kbd>;</kbd> or <kbd>0</kbd> ∳
+        * <kbd>/</kbd> or <kbd>-</kbd> ∱
+        * <kbd>d</kbd> moves to the next layer
+        * <kbd>␈</kbd>moves to the previous layer
+    + `ru` <kbd>🕱</kbd>`math∂` in <kbd>🕱</kbd>`Math` and map it to <kbd>в</kbd>:
+        * <kbd>с</kbd> ∁
+        * <kbd>в</kbd> ∂
+        * <kbd>г</kbd> or <kbd>1</kbd> ∫
+        * <kbd>ш</kbd> or <kbd>2</kbd> ∬
+        * <kbd>щ</kbd> or <kbd>3</kbd> ∭
+        * <kbd>й</kbd> or <kbd>⇧</kbd><kbd>1</kbd> ∮
+        * <kbd>ц</kbd> or <kbd>⇧</kbd><kbd>2</kbd> ∯
+        * <kbd>у</kbd> or <kbd>⇧</kbd><kbd>3</kbd> ∰
+        * <kbd>д</kbd> or <kbd>9</kbd> ∲
+        * <kbd>ж</kbd> or <kbd>0</kbd> ∳
+        * <kbd>.</kbd> or <kbd>-</kbd> ∱
+        * <kbd>в</kbd> moves to the next layer
+        * <kbd>␈</kbd>moves to the previous layer    
     + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
@@ -126,6 +366,7 @@ All notable changes to this project will be documented in this file
     + `ru` to align with `en` re. some brackets
     + `en` to align with `ru` re. <kbd>‹⇧</kbd> layer
     + `en` to align with `ru` re. some Math
+    + `en` `ru` ♻️ update labels for sorting to align with physical layout
   - __Removed__
     + `en` `ru` <kbd>🕱</kbd>s from the <kbd>⎈</kbd> layer to not interfere with `DefaultKeyBinding.dict`
 
