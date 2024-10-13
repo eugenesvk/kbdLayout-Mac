@@ -3381,6 +3381,7 @@
             <when state="math∅⊂" output="⋑"/>
             <when state="math≑" next="math⩷"/>
             <when state="math≛" output="⯹"/>
+            <when state="math⊹" output="∔"/>
             <when state="math⋃N-Ary" output="⋂"/>
             <when state="math⩦" next="math≑"/>
             <when state="math⩮" output="⯹"/>
