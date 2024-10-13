@@ -4650,6 +4650,7 @@
             <!-- <when state="macron" output="ӣ"/> -->
             <when state="math=" output="⪮"/>
             <when state="mathO" output="∙"/>
+            <when state="math∅≷" output="≬"/>
             <when state="math∅⊂" output="⊵"/>
             <when state="math∅⊄" output="⋭"/>
             <when state="num_Roman" output="ↆ"/>
