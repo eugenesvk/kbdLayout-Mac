@@ -69,13 +69,22 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>ц</kbd> ∆
         * <kbd>⇧</kbd><kbd>у</kbd> ∄
         * <kbd>⇧</kbd><kbd>в</kbd> ∇
-    + `en` symbols to <kbd>🕱</kbd>`Math` and <kbd>🕱</kbd>`math∅≷` with new unequality symbols
-        * ≪≫
-        * ≦≧ ≨≩
-        * ≮≯
+    + `en` symbols to <kbd>🕱</kbd>`Math` and <kbd>🕱</kbd>`math∅≷` with new inequality symbols
+        * <kbd>o</kbd>≪ <kbd>p</kbd>≫
+        * <kbd>m</kbd>≦ <kbd>,</kbd>≧
+        * <kbd>⇧</kbd><kbd>m</kbd>≨ <kbd>⇧</kbd><kbd>,</kbd>≩
+        * <kbd>⇧</kbd><kbd>.</kbd>≮ <kbd>⇧</kbd><kbd>/</kbd>≯
+    + `ru` symbols to <kbd>🕱</kbd>`Math` and <kbd>🕱</kbd>`math∅≷` with new inequality symbols
+        * <kbd>щ</kbd>≪ <kbd>з</kbd>≫
+        * <kbd>ь</kbd>≦ <kbd>б</kbd>≧
+        * <kbd>⇧</kbd><kbd>ь</kbd>≨ <kbd>⇧</kbd><kbd>б</kbd>≩
+        * <kbd>⇧</kbd><kbd>ю</kbd>≮ <kbd>⇧</kbd><kbd>.</kbd>≯
     + `en` symbols to <kbd>🕱</kbd>`math_` mapped to <kbd>⇧</kbd><kbd>-</kbd>kbd>:
         * (<kbd>⇧</kbd>)<kbd>u</kbd> ⊔
         * (<kbd>⇧</kbd>)<kbd>i</kbd> ⊓
+    + `ru` symbols to <kbd>🕱</kbd>`math_` mapped to <kbd>⇧</kbd><kbd>-</kbd>kbd>:
+        * (<kbd>⇧</kbd>)<kbd>г</kbd> ⊔
+        * (<kbd>⇧</kbd>)<kbd>ш</kbd> ⊓
     + `en` symbols to <kbd>🕱</kbd>`math-` mapped to <kbd>-</kbd>, reorder arrows:
         * <kbd>u</kbd> ∺
         * <kbd>i</kbd> ∸
@@ -319,7 +328,13 @@ All notable changes to this project will be documented in this file
         * <kbd>z</kbd> or <kbd>⇧</kbd><kbd>a</kbd> ≇
         * <kbd>`</kbd> ≁
         * <kbd>t</kbd> ≆
-        * <kbd>y</kbd> or <kbd>⇧</kbd>` ≄
+        * <kbd>y</kbd> or <kbd>⇧</kbd><kbd>`</kbd> ≄
+    + `ru` symbols to <kbd>🕱</kbd>`math≠`
+        * <kbd>-</kbd>kbd> ≢
+        * <kbd>я</kbd> or <kbd>⇧</kbd><kbd>ф</kbd> ≇
+        * <kbd>`</kbd> ≁
+        * <kbd>е</kbd> ≆
+        * <kbd>н</kbd> or <kbd>⇧</kbd><kbd>`</kbd> ≄
     + `en` symbols to <kbd>🕱</kbd>`math⩳`
         * <kbd>z</kbd> ≊
         * <kbd>⇧</kbd><kbd>z</kbd> ≇
@@ -416,11 +431,17 @@ All notable changes to this project will be documented in this file
     + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
-    + ✨ `en` `ru` symbols to <kbd>🕱</kbd>`Math`:
+    + ✨ `en` symbols to <kbd>🕱</kbd>`Math`:
         - <kbd>⇧</kbd><kbd>a</kbd> ≈
         - <kbd>⇧</kbd><kbd>`</kbd> ∝ (from ≈)
-    + ✨ `en` `ru` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>n</kbd> and within each layer on `1–0` and  `uio`-numpad like number keys:
+    + ✨ `ru` symbols to <kbd>🕱</kbd>`Math`:
+        - <kbd>⇧</kbd><kbd>ф</kbd> ≈
+        - <kbd>⇧</kbd><kbd>`</kbd> ∝ (from ≈)
+    + ✨ `en` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>n</kbd> and within each layer on `1–0` and  `uio`-numpad like number keys:
         * <kbd>n</kbd> moves to the next layer
+        * <kbd>␈</kbd> moves to the previous layer
+    + ✨ `ru` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>т</kbd> and within each layer on `1–0` and  `гшщ`-numpad like number keys:
+        * <kbd>т</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
     + ✨ `en` `ru` <kbd>🕱</kbd>`math⁄` and other fraction layers and mapped it to <kbd>f</kbd> in <kbd>🕱</kbd>`Math`. In each sub-layer  number and `uio`-numpad like number keys enter the <kbd>🕱</kbd>`math⅟`/`⅔`,... numerator, and then complete the denominator part of the fraction. Besides those, in each sub-layer:
         * <kbd>␠</kbd> inserts the symbol
