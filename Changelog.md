@@ -502,13 +502,19 @@ All notable changes to this project will be documented in this file
         * <kbd>7</kbd> ⊿
             - <kbd>␠</kbd> ⊿
             -  <kbd>7</kbd> ⊾ (cycles back)
-    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅⊻` and mapped it to <kbd>o</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols:
+    + ✨ `en` <kbd>🕱</kbd>`math∅⊻` and mapped it to <kbd>o</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols:
         * <kbd>t</kbd> ⊺
         * <kbd>u</kbd> ⊽
         * <kbd>j</kbd> ⊻
         * <kbd>k</kbd> ⊼
         * <kbd>␈</kbd> kbd>🕱</kbd>`math∅`
-    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅⊂` and mapped it to <kbd>;</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols (negation with <kbd>⇧</kbd> being held or in a separate layer (mapped to <kbd>⇧</kbd><kbd>;</kbd>, <kbd>/</kbd>) on the same keys):
+    + ✨ `ru` <kbd>🕱</kbd>`math∅⊻` and mapped it to <kbd>щ</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols:
+        * <kbd>е</kbd> ⊺
+        * <kbd>г</kbd> ⊽
+        * <kbd>о</kbd> ⊻
+        * <kbd>л</kbd> ⊼
+        * <kbd>␈</kbd> kbd>🕱</kbd>`math∅`
+    + ✨ `en` <kbd>🕱</kbd>`math∅⊂` and mapped it to <kbd>;</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols (negation with <kbd>⇧</kbd> being held or in a separate layer (mapped to <kbd>⇧</kbd><kbd>;</kbd>, <kbd>/</kbd>) on the same keys):
         * <kbd>e</kbd> ⋤ <kbd>r</kbd> ⋥
         * <kbd>d</kbd> ⊏  <kbd>f</kbd> ⊐
         * <kbd>c</kbd> ⊑  <kbd>v</kbd> ⊒
@@ -522,7 +528,21 @@ All notable changes to this project will be documented in this file
         * <kbd>g</kbd> ⊳  <kbd>h</kbd> ⊲
         * <kbd>b</kbd> ⊵  <kbd>n</kbd> ⊴
         * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
-    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅` and mapped it to <kbd>s</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various set ordering/comparison symbols (negation with <kbd>⇧</kbd> being held):
+    + ✨ `ru` <kbd>🕱</kbd>`math∅⊂` and mapped it to <kbd>ж</kbd> in <kbd>🕱</kbd>`math∅`, pressing it enables various set operator symbols (negation with <kbd>⇧</kbd> being held or in a separate layer (mapped to <kbd>⇧</kbd><kbd>ж</kbd>, <kbd>/</kbd>) on the same keys):
+        * <kbd>у</kbd> ⋤ <kbd>к</kbd> ⋥
+        * <kbd>в</kbd> ⊏  <kbd>а</kbd> ⊐
+        * <kbd>с</kbd> ⊑  <kbd>м</kbd> ⊒
+        * <kbd>г</kbd> ⋐  <kbd>ш</kbd> ⋑
+        * <kbd>о</kbd> ⋒  <kbd>л</kbd> ⋓
+        * <kbd>ь</kbd> ⋔
+        * <kbd>8</kbd> ⊌  <kbd>9</kbd> ⊍  <kbd>=</kbd> ⊎
+        * <kbd>щ</kbd> ⊊  <kbd>з</kbd> ⊋
+        * <kbd>д</kbd> ⊂  <kbd>ж</kbd> ⊃
+        * <kbd>ю</kbd> ⊆  <kbd>.</kbd> ⊇
+        * <kbd>п</kbd> ⊳  <kbd>р</kbd> ⊲
+        * <kbd>и</kbd> ⊵  <kbd>т</kbd> ⊴
+        * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
+    + ✨ `en` <kbd>🕱</kbd>`math∅` and mapped it to <kbd>s</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various set ordering/comparison symbols (negation with <kbd>⇧</kbd> being held):
         * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
         * <kbd>l</kbd> <kbd>🕱</kbd>`math∅≷`
         * <kbd>,</kbd> <kbd>🕱</kbd>`math∅≷`
@@ -533,7 +553,18 @@ All notable changes to this project will be documented in this file
         * <kbd>;</kbd> <kbd>🕱</kbd>`math∅⊂`
         * <kbd>⇧</kbd><kbd>;</kbd> <kbd>🕱</kbd>`math∅⊄`
         * <kbd>/</kbd> <kbd>🕱</kbd>`math∅⊂`
-    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅≷` (negation where exists with <kbd>⇧</kbd> or <kbd>⎇</kbd> being held):
+    + ✨ `ru` <kbd>🕱</kbd>`math∅` and mapped it to <kbd>ы</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various set ordering/comparison symbols (negation with <kbd>⇧</kbd> being held):
+        * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
+        * <kbd>д</kbd> <kbd>🕱</kbd>`math∅≷`
+        * <kbd>б</kbd> <kbd>🕱</kbd>`math∅≷`
+        * <kbd>⇧</kbd><kbd>д</kbd> <kbd>🕱</kbd>`math∅≸`
+        * <kbd>⇧</kbd><kbd>б</kbd> <kbd>🕱</kbd>`math∅≸`
+        * <kbd>ю</kbd> <kbd>🕱</kbd>`math∅≸`
+        * <kbd>щ</kbd> <kbd>🕱</kbd>`math∅⊻`
+        * <kbd>ж</kbd> <kbd>🕱</kbd>`math∅⊂`
+        * <kbd>⇧</kbd><kbd>ж</kbd> <kbd>🕱</kbd>`math∅⊄`
+        * <kbd>/</kbd> <kbd>🕱</kbd>`math∅⊂`
+    + ✨ `en` <kbd>🕱</kbd>`math∅≷` (negation where exists with <kbd>⇧</kbd> or <kbd>⎇</kbd> being held):
         * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
         * <kbd>q</kbd> ⊰ <kbd>w</kbd> ⊱
         * <kbd>e</kbd> ⋞ <kbd>r</kbd> ⋟
@@ -546,7 +577,20 @@ All notable changes to this project will be documented in this file
         * <kbd>l</kbd> ⋜ <kbd>;</kbd> ⋝
         * <kbd>m</kbd> ≲ <kbd>,</kbd> ≳
         * <kbd>.</kbd> ⋖ <kbd>/</kbd> ⋗
-    + ✨ `en` `ru` <kbd>🕱</kbd>`math∅≸`:
+    + ✨ `ru` <kbd>🕱</kbd>`math∅≷` (negation where exists with <kbd>⇧</kbd> or <kbd>⎇</kbd> being held):
+        * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
+        * <kbd>й</kbd> ⊰ <kbd>ц</kbd> ⊱
+        * <kbd>у</kbd> ⋞ <kbd>к</kbd> ⋟
+        * <kbd>ф</kbd> ≾ <kbd>ы</kbd> ≿
+        * <kbd>в</kbd> ≺ <kbd>а</kbd> ≻
+        * <kbd>с</kbd> ≼ <kbd>м</kbd> ≽
+        * <kbd>г</kbd> ⋚ <kbd>ш</kbd> ⋛
+        * <kbd>щ</kbd> ⋘ <kbd>з</kbd> ⋙
+        * <kbd>о</kbd> ≶ <kbd>л</kbd> ≷
+        * <kbd>д</kbd> ⋜ <kbd>ж</kbd> ⋝
+        * <kbd>ь</kbd> ≲ <kbd>б</kbd> ≳
+        * <kbd>ю</kbd> ⋖ <kbd>.</kbd> ⋗
+    + ✨ `en` <kbd>🕱</kbd>`math∅≸`:
         * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
         * <kbd>a</kbd> ⋨ <kbd>s</kbd> ⋩
         * <kbd>d</kbd> ⊀ <kbd>f</kbd>⊁
@@ -555,6 +599,15 @@ All notable changes to this project will be documented in this file
         * <kbd>l</kbd> ≰ <kbd>;</kbd> ≱
         * <kbd>m</kbd> ≴ <kbd>,</kbd> ≵
         * <kbd>⎇</kbd><kbd>m</kbd> ⋦ <kbd>⎇</kbd><kbd>,</kbd> ⋧
+    + ✨ `ru` <kbd>🕱</kbd>`math∅≸`:
+        * <kbd>␈</kbd> <kbd>🕱</kbd>`math∅`
+        * <kbd>ф</kbd> ⋨ <kbd>ы</kbd> ⋩
+        * <kbd>в</kbd> ⊀ <kbd>а</kbd>⊁
+        * <kbd>с</kbd> ⋠ <kbd>м</kbd> ⋡
+        * <kbd>о</kbd> ≸ <kbd>л</kbd> ≹
+        * <kbd>д</kbd> ≰ <kbd>ж</kbd> ≱
+        * <kbd>ь</kbd> ≴ <kbd>б</kbd> ≵
+        * <kbd>⎇</kbd><kbd>ь</kbd> ⋦ <kbd>⎇</kbd><kbd>б</kbd> ⋧
   - __Changed__
     + `en` `ru` rename to align action names between `en` and `ru`
     + `en` `ru` rename some actions to reflect the key combo they're assigned to
@@ -565,7 +618,8 @@ All notable changes to this project will be documented in this file
     + `en` to align with `ru` re. some Math
     + `en` `ru` ♻️ update labels for sorting to align with physical layout
   - __Removed__
-    + `en` `ru` <kbd>🕱</kbd>s from the <kbd>⎈</kbd> layer to not interfere with `DefaultKeyBinding.dict`
+    + `en` <kbd>🕱</kbd><kbd>s</kbd> from the <kbd>⎈</kbd> layer to not interfere with `DefaultKeyBinding.dict`
+    + `ru` <kbd>🕱</kbd><kbd>ы</kbd> from the <kbd>⎈</kbd> layer to not interfere with `DefaultKeyBinding.dict`
 
 
   [1.1.1]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.1.1
