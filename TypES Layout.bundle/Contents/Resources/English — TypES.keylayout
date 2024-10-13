@@ -2684,6 +2684,7 @@
             <when state="none" output="—"/>
             <when state="Greek" output="±"/>
             <when state="Typographical" output="🔉"/>
+            <when state="math=" output="≣"/>
             <when state="math±re" output="∓"/>
             <when state="math‹" output="⟵"/>
             <when state="num⁵sup" output="₋"/>
