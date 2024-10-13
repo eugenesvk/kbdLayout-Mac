@@ -4321,6 +4321,7 @@
         <action id="2→6 apostrophe⇧">
             <when state="none" output="Э"/>
             <when state="Greek" output="&#x0022;"/>
+            <when state="Math" output="∋"/>
             <when state="OldCyrillic" output="Ѥ"/>
             <when state="diaeresis" output="Ӭ"/>
             <when state="math/" output="∉"/>
@@ -4329,6 +4330,7 @@
             <when state="none" output="’"/>
             <when state="Diacritics" next="horn"/>
             <when state="Greek" output="&#x0027;"/>
+            <when state="Math" output="∊"/>
             <when state="fs" output="”"/>
             <when state="horn" output="̛"/>
         </action>
@@ -5045,6 +5047,7 @@
         <action id="apostrophe4">
             <when state="none" output="&#x0027;"/>
             <when state="Greek" output="&#x0022;"/>
+            <when state="Math" output="∍"/>
             <when state="acute" output="́"/>
             <when state="horn" output="̛"/>
         </action>
