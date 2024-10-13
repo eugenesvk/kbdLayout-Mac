@@ -5525,6 +5525,7 @@
         <action id="⌥">
             <when state="none" output="⌥"/>
             <when state="Greek" output="ά"/>
+            <when state="Math" output="≆"/>
             <when state="math=" output="≊"/>
         </action>
         <action id="␠⎇">
