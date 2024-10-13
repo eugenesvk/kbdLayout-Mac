@@ -271,6 +271,9 @@ All notable changes to this project will be documented in this file
     + `ru` cycling <kbd>🕱</kbd>`math≠` and other <kbd>🕱</kbd> to insert various equality/comparison symbols
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
+    + ✨ `en` `ru` symbols to <kbd>🕱</kbd>`Math`:
+        - <kbd>⇧</kbd><kbd>a</kbd> ≈
+        - <kbd>⇧</kbd><kbd>`</kbd> ∝ (from ≈)
     + ✨ `en` `ru` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>n</kbd> and within each layer on `1–0` and  `uio`-numpad like number keys:
         * <kbd>n</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
