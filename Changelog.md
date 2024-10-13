@@ -31,6 +31,14 @@ All notable changes to this project will be documented in this file
         * <kbd>j</kbd> ⊾
         * <kbd>l</kbd> ⊿
         * <kbd>w</kbd> ∿
+    + `ru` <kbd>🕱</kbd>`math∢` in <kbd>🕱</kbd>`Math`
+        * <kbd>ф</kbd> ∡
+        * <kbd>ы</kbd> ∠
+        * <kbd>в</kbd> ∟
+        * <kbd>а</kbd> ∢
+        * <kbd>о</kbd> ⊾
+        * <kbd>д</kbd> ⊿
+        * <kbd>ц</kbd> ∿
     + `en` <kbd>🕱</kbd>`math/`
         * <kbd>=</kbd> ≠
         * <kbd>p</kbd> ∦
@@ -87,11 +95,30 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>0</kbd> ∌
         * <kbd>o</kbd> ∊
         * <kbd>p</kbd> ∍
+    + `ru` symbols to <kbd>🕱</kbd>`math-` mapped to <kbd>-</kbd>, reorder arrows:
+        * <kbd>г</kbd> ∺
+        * <kbd>ш</kbd> ∸
+        * <kbd>л</kbd> ∻
+        * <kbd>ж</kbd> ∹
+        * <kbd>ч</kbd> ≀
+        * <kbd>⇧</kbd><kbd>`</kbd> ∼
+        * <kbd>⎇</kbd><kbd>`</kbd> ∽
+        * <kbd>9</kbd> ∈
+        * <kbd>0</kbd> ∋
+        * <kbd>⇧</kbd><kbd>9</kbd> ∉
+        * <kbd>⇧</kbd><kbd>0</kbd> ∌
+        * <kbd>щ</kbd> ∊
+        * <kbd>з</kbd> ∍
     + `en`  more routes on <kbd>s</kbd> at <kbd>🕱</kbd>`math∅`
+    + `ru`  more routes on <kbd>ы</kbd> at <kbd>🕱</kbd>`math∅`
     + `en` <kbd>🕱</kbd>`math…`
         * <kbd>u</kbd> ∷
         * <kbd>;</kbd> ∶
         * <kbd>⇧</kbd><kbd>;</kbd> ∷
+    + `ru` <kbd>🕱</kbd>`math…`
+        * <kbd>г</kbd> ∷
+        * <kbd>ж</kbd> ∶
+        * <kbd>⇧</kbd><kbd>ж</kbd> ∷
     + `en` <kbd>🕱</kbd>`math⋃N-Ary`, mapped to <kbd>u</kbd> and <kbd>⎇</kbd><kbd>n</kbd>, added other logical similar-looking symbols
         * <kbd>u</kbd> ⋂
         * <kbd>i</kbd> ⋃
@@ -114,6 +141,28 @@ All notable changes to this project will be documented in this file
         * <kbd>y</kbd> ⊻
         * <kbd>h</kbd> ⊼
         * <kbd>n</kbd> ⊽
+    + `ru` <kbd>🕱</kbd>`math⋃N-Ary`, mapped to <kbd>u</kbd> and <kbd>⎇</kbd><kbd>т</kbd>, added other logical similar-looking symbols
+        * <kbd>г</kbd> ⋂
+        * <kbd>ш</kbd> ⋃
+        * <kbd>щ</kbd> or <kbd>⇧</kbd><kbd>0</kbd> or <kbd>⇧</kbd><kbd>ю</kbd> ⨃
+        * <kbd>з</kbd> or <kbd>⇧</kbd><kbd>=</kbd> ⨄
+        * <kbd>д</kbd> ⫿
+        * <kbd>в</kbd> ∐
+        * <kbd>а</kbd> ∏
+        * <kbd>ы</kbd> ∑
+        * <kbd>ц</kbd> or <kbd>⇧</kbd><kbd>ы</kbd> ⅀
+        * <kbd>ь</kbd> ⋁
+        * <kbd>б</kbd> ⋀
+        * <kbd>о</kbd> ⨆
+        * <kbd>л</kbd> ⨅
+        * <kbd>ч</kbd> ⨉
+        * <kbd>8</kbd> or <kbd>⇧</kbd><kbd>ч</kbd> ⨂
+        * <kbd>=</kbd> ⨁
+        * <kbd>0</kbd> or <kbd>ю</kbd> ⨀
+        * <kbd>е</kbd> ⊺
+        * <kbd>н</kbd> ⊻
+        * <kbd>р</kbd> ⊼
+        * <kbd>т</kbd> ⊽
     + `en` <kbd>🕱</kbd>`math∅∈` mapped to <kbd>e</kbd> and <kbd>-</kbd>kbd> at <kbd>🕱</kbd>`math∅` and <kbd>9</kbd> at <kbd>🕱</kbd>`math∅⊂`
         * Relations
         * <kbd>u</kbd> ⋶ <kbd>i</kbd> ⋽
@@ -130,6 +179,22 @@ All notable changes to this project will be documented in this file
         * <kbd>9</kbd> ∈ <kbd>0</kbd> ∋
         * <kbd>o</kbd> ∉ <kbd>p</kbd> ∌
         * <kbd>x</kbd> ∊ <kbd>c</kbd> ∍
+    + `ru` <kbd>🕱</kbd>`math∅∈` mapped to <kbd>у</kbd> and <kbd>-</kbd>kbd> at <kbd>🕱</kbd>`math∅` and <kbd>9</kbd> at <kbd>🕱</kbd>`math∅⊂`
+        * Relations
+        * <kbd>г</kbd> ⋶ <kbd>ш</kbd> ⋽
+        * <kbd>о</kbd> ⋲ <kbd>л</kbd> ⋺
+        * <kbd>ь</kbd> ⋸
+        * <kbd>р</kbd> ⋹
+        * <kbd>в</kbd> ⋳ <kbd>а</kbd> ⋻
+        * <kbd>с</kbd> ⋴ <kbd>м</kbd> ⋼
+        * <kbd>й</kbd> ⋷ <kbd>ц</kbd> ⋾
+        * <kbd>у</kbd> ⋿
+        * <kbd>н</kbd> ⋵
+        * Set membership
+        * <kbd>д</kbd> ∈ <kbd>ж</kbd> ∋
+        * <kbd>9</kbd> ∈ <kbd>0</kbd> ∋
+        * <kbd>o</kbd> ∉ <kbd>з</kbd> ∌
+        * <kbd>ч</kbd> ∊ <kbd>с</kbd> ∍
     + `en` <kbd>🕱</kbd>`mathO` mapped to <kbd>o</kbd> <kbd>🕱</kbd>`Math`
         * <kbd>r</kbd> ⊚
         * <kbd>d</kbd> ⊝
@@ -144,11 +209,29 @@ All notable changes to this project will be documented in this file
         * <kbd>s</kbd> ⋆
         * <kbd>y</kbd> ⋄
         * <kbd>t</kbd> ⋇
+    + `ru` <kbd>🕱</kbd>`mathO` mapped to <kbd>o</kbd> <kbd>🕱</kbd>`Math`
+        * <kbd>в</kbd> ⊝
+        * <kbd>=</kbd> ⊜
+        * <kbd>х</kbd> ⊟
+        * <kbd>ъ</kbd> ⊞
+        * <kbd>я</kbd> ⊠
+        * <kbd>б</kbd> ⊡
+        * <kbd>и</kbd> ∙
+        * <kbd>к</kbd> ∘
+        * <kbd>ь</kbd> ⋅
+        * <kbd>ы</kbd> ⋆
+        * <kbd>н</kbd> ⋄
+        * <kbd>е</kbd> ⋇
     + `en` <kbd>🕱</kbd>`math⊞` mapped to <kbd>o</kbd> at <kbd>🕱</kbd>`mathO`
         * <kbd>-</kbd>kbd> ⊟
         * <kbd>=</kbd> or <kbd>p</kbd> ⊞
         * <kbd>x</kbd> or <kbd>m</kbd> ⊠
         * <kbd>.</kbd> or <kbd>d</kbd> ⊡
+    + `ru` <kbd>🕱</kbd>`math⊞` mapped to <kbd>щ</kbd> at <kbd>🕱</kbd>`mathO`
+        * <kbd>-</kbd>kbd> ⊟
+        * <kbd>=</kbd> or <kbd>з</kbd> ⊞
+        * <kbd>ч</kbd> or <kbd>ь</kbd> ⊠
+        * <kbd>ю</kbd> or <kbd>в</kbd> ⊡
     + `en` symbols to <kbd>🕱</kbd>`math|`
         * <kbd>f</kbd> ⊢
         * <kbd>d</kbd> ⊣
@@ -162,14 +245,35 @@ All notable changes to this project will be documented in this file
         * <kbd>⇧</kbd><kbd>1</kbd> or <kbd>u</kbd> ⊭
         * <kbd>⇧</kbd><kbd>2</kbd> or <kbd>i</kbd> ⊯
         * <kbd>⇧</kbd><kbd>w</kbd> ⊮
+    + `ru` symbols to <kbd>🕱</kbd>`math|`
+        * <kbd>а</kbd> ⊢
+        * <kbd>в</kbd> ⊣
+        * <kbd>е</kbd> ⊤
+        * <kbd>м</kbd> ⊥
+        * <kbd>1</kbd> or <kbd>г</kbd> ⊨
+        * <kbd>2</kbd> or <kbd>ш</kbd> ⊫
+        * <kbd>3</kbd> or <kbd>щ</kbd> ⊪
+        * <kbd>ц</kbd> ⊩
+        * <kbd>⇧</kbd><kbd>а</kbd> ⊬
+        * <kbd>⇧</kbd><kbd>1</kbd> or <kbd>г</kbd> ⊭
+        * <kbd>⇧</kbd><kbd>2</kbd> or <kbd>ш</kbd> ⊯
+        * <kbd>⇧</kbd><kbd>ц</kbd> ⊮
     + `en` symbols to <kbd>🕱</kbd>`math/`, reorder some symbols
         * <kbd>f</kbd> ⊬
         * <kbd>1</kbd> ⊭
         * <kbd>2</kbd> ⊯
         * <kbd>w</kbd> ⊮
+    + `ru` symbols to <kbd>🕱</kbd>`math/`, reorder some symbols
+        * <kbd>а</kbd> ⊬
+        * <kbd>1</kbd> ⊭
+        * <kbd>2</kbd> ⊯
+        * <kbd>ц</kbd> ⊮
     + `en` symbols to <kbd>🕱</kbd>`math∅`
         * <kbd>\</kbd>kbd> ∖ (same in <kbd>🕱</kbd>`math∅⊂`)
         * <kbd>m</kbd> ∖
+    + `ru` symbols to <kbd>🕱</kbd>`math∅`
+        * <kbd>\</kbd>kbd> ∖ (same in <kbd>🕱</kbd>`math∅⊂`)
+        * <kbd>ь</kbd> ∖
     + `en` symbols to <kbd>🕱</kbd>`Math`
         * add to <kbd>t</kbd> cycled <kbd>🕱</kbd>` ∵∴∎`
         * <kbd>␠</kbd> inserts the symbol
@@ -177,8 +281,15 @@ All notable changes to this project will be documented in this file
         * <kbd>␈</kbd>moves to the previous layer
     + `en` symbols to <kbd>🕱</kbd>`math⊹`
         * <kbd>i</kbd> ∔
+    + `ru` symbols to <kbd>🕱</kbd>`Math`
+        * add to <kbd>е</kbd> cycled <kbd>🕱</kbd>`∵`/`∴`/`∎`
+        * <kbd>␠</kbd> inserts the symbol
+        * <kbd>е</kbd> moves to the next layer
+        * <kbd>␈</kbd>moves to the previous layer
     + `en` symbols to <kbd>🕱</kbd>`math/`
         * <kbd>/</kbd> ∕
+    + `ru` symbols to <kbd>🕱</kbd>`math/`
+        * <kbd>.</kbd> ∕
     + `en` symbols to <kbd>🕱</kbd>`math=`
         * (<kbd>⇧</kbd>)<kbd>`</kbd> ≂
         * <kbd>⇧</kbd><kbd>`</kbd> ≋
@@ -191,6 +302,20 @@ All notable changes to this project will be documented in this file
         * <kbd>[</kbd> or <kbd>⇧</kbd><kbd>j</kbd> ≚
         * <kbd>]</kbd> or <kbd>⇧</kbd><kbd>k</kbd> ≙
         * <kbd>4</kbd> or <kbd>⇧</kbd><kbd>r</kbd> ≖
+    + `ru` symbols to <kbd>🕱</kbd>`math=`
+        * (<kbd>⇧</kbd>)<kbd>`</kbd> ≂
+        * <kbd>⇧</kbd><kbd>`</kbd> ≋
+        * <kbd>⇧</kbd><kbd>-</kbd>kbd> ≢
+        * <kbd>у</kbd> <kbd>⎇</kbd><kbd>=</kbd> ≣
+        * <kbd>т</kbd> ≏
+        * <kbd>ь</kbd> ≞
+        * <kbd>7</kbd> ≟
+        * <kbd>щ</kbd> ≘
+        * <kbd>[</kbd> or <kbd>⇧</kbd><kbd>о</kbd> ≚
+        * <kbd>]</kbd> or <kbd>⇧</kbd><kbd>л</kbd> ≙
+        * <kbd>4</kbd> or <kbd>⇧</kbd><kbd>к</kbd> ≖
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>ф</kbd> ≆
+        * <kbd>у</kbd> or <kbd>⎇</kbd><kbd>=</kbd> ≣
     + `en` symbols to <kbd>🕱</kbd>`math≠`
         * <kbd>-</kbd>kbd> ≢
         * <kbd>z</kbd> or <kbd>⇧</kbd><kbd>a</kbd> ≇
@@ -203,12 +328,22 @@ All notable changes to this project will be documented in this file
     + `en` symbols to <kbd>🕱</kbd>`math=`
         * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>a</kbd> ≆
         * <kbd>e</kbd> or <kbd>⎇</kbd><kbd>=</kbd> ≣
+    + `ru` symbols to <kbd>🕱</kbd>`math⩳`
+        * <kbd>я</kbd> ≊
+        * <kbd>⇧</kbd><kbd>я</kbd> ≇
     + `en` symbols to <kbd>🕱</kbd>`math∅≷`
         * <kbd>t</kbd> ≍
         * <kbd>⇧</kbd><kbd>t</kbd> ≭
         * <kbd>y</kbd> ≎
+    + `ru` symbols to <kbd>🕱</kbd>`math∅≷`
+        * <kbd>е</kbd> ≍
+        * <kbd>⇧</kbd><kbd>е</kbd> ≭
+        * <kbd>н</kbd> ≎
+        * <kbd>и</kbd> ≬
     + `en` symbols to <kbd>🕱</kbd>`math∅≸`
         * <kbd>t</kbd> ≭
+    + `ru` symbols to <kbd>🕱</kbd>`math∅≸`
+        * <kbd>е</kbd> ≭
     + `en` symbols to <kbd>🕱</kbd>`math⩦`
         * <kbd>d</kbd> ≏
         * <kbd>l</kbd> ≒
@@ -216,17 +351,33 @@ All notable changes to this project will be documented in this file
         * <kbd>o</kbd> or <kbd>a</kbd> ≐
     + `en` symbols to <kbd>🕱</kbd>`math∅≷`
         * <kbd>b</kbd> ≬
+    + `ru` symbols to <kbd>🕱</kbd>`math⩦`
+        * <kbd>в</kbd> ≏
+        * <kbd>д</kbd> ≒
+        * <kbd>ж</kbd> ≓
+        * <kbd>щ</kbd> or <kbd>ф</kbd> ≐
     + `en` symbols to <kbd>🕱</kbd>`math∅⊻`
         * <kbd>d</kbd> or <kbd>a</kbd> ∨
         * <kbd>f</kbd> or <kbd>o</kbd> ∧
         * <kbd>c</kbd> or <kbd>⇧</kbd><kbd>a</kbd> ⋎
         * <kbd>v</kbd> or <kbd>⇧</kbd><kbd>o</kbd> ⋏
+    + `ru` symbols to <kbd>🕱</kbd>`math∅⊻`
+        * <kbd>в</kbd> or <kbd>ф</kbd> ∨
+        * <kbd>а</kbd> or <kbd>щ</kbd> ∧
+        * <kbd>с</kbd> or <kbd>⇧</kbd><kbd>ф</kbd> ⋎
+        * <kbd>м</kbd> or <kbd>⇧</kbd><kbd>щ</kbd> ⋏
     + `en` symbols to <kbd>🕱</kbd>`math⊹`
         * <kbd>g</kbd> ⋈
         * <kbd>d</kbd> ⋉
         * <kbd>f</kbd> ⋊
         * <kbd>c</kbd> or <kbd>⇧</kbd><kbd>d</kbd> ⋋
         * <kbd>v</kbd> or <kbd>⇧</kbd><kbd>f</kbd> ⋌
+    + `ru` symbols to <kbd>🕱</kbd>`math⊹`
+        * <kbd>п</kbd> ⋈
+        * <kbd>в</kbd> ⋉
+        * <kbd>а</kbd> ⋊
+        * <kbd>с</kbd> or <kbd>⇧</kbd><kbd>в</kbd> ⋋
+        * <kbd>м</kbd> or <kbd>⇧</kbd><kbd>а</kbd> ⋌
     + `en` `ru` use <kbd>⎇</kbd><kbd>␠</kbd> as bracket chord terminator for all bracket types
     + `en` `ru` make <kbd>⎇</kbd> insert combining symbol even if precombined exists (in <kbd>🕱</kbd>`Diacritic`)
     + `ru` some missing diacritic actions from `en`
@@ -293,6 +444,14 @@ All notable changes to this project will be documented in this file
         * <kbd>l</kbd> ⊷
         * <kbd>;</kbd> ⊶
         * <kbd>,</kbd> ⊸
+        * <kbd>␠</kbd> ⊹
+        * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
+    + ✨ `ru` <kbd>🕱</kbd>`math⊹` and mapped it to <kbd>з</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various relations symbols:
+        * <kbd>з</kbd> ⊹
+        * <kbd>ш</kbd> ∔
+        * <kbd>д</kbd> ⊷
+        * <kbd>ж</kbd> ⊶
+        * <kbd>б</kbd> ⊸
         * <kbd>␠</kbd> ⊹
         * <kbd>␈</kbd> <kbd>🕱</kbd>`Math`
     + ✨ `en` `ru` <kbd>🕱</kbd>`math...` and mapped it to <kbd>m</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various punctuations symbols, in each sub-layer:
