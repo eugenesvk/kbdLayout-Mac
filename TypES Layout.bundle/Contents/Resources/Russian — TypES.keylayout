@@ -3144,6 +3144,7 @@
             <when state="diaeresis" output="ё"/>
             <when state="grave" output="ѐ"/>
             <when state="math=" next="math⩳"/>
+            <when state="mathO" output="⋇"/>
             <when state="math|" output="⊤"/>
             <when state="math∅⊻" output="⊺"/>
             <when state="math∎" next="math∴"/>
@@ -3209,6 +3210,7 @@
             <!-- <when state="hook-above" output="ỷ"/> -->
             <!-- <when state="macron" output="ȳ"/> -->
             <when state="math=" output="󠀽"/>
+            <when state="mathO" output="⋄"/>
             <when state="math∅∈" output="⋵"/>
             <when state="math√" next="math∛"/>
             <when state="math∛" next="math∜"/>
@@ -3779,6 +3781,7 @@
             <!-- <when state="dot-below+dot-above" output="ṩ"/> -->
             <when state="fs" output="⸮"/>
             <when state="math=" output="≛"/>
+            <when state="mathO" output="⋆"/>
             <when state="math∅" next="math∅⊂"/>
             <when state="math∅≷" output="≿"/>
             <when state="math∅≸" output="⋩"/>
@@ -4695,6 +4698,7 @@
             <!-- <when state="dot-above" output="ḃ"/> -->
             <!-- <when state="dot-below" output="ḅ"/> -->
             <when state="math=" output="⪮"/>
+            <when state="mathO" output="∙"/>
             <when state="math∅⊂" output="⊵"/>
             <when state="math∅⊄" output="⋭"/>
             <when state="num_Roman" output="ↆ"/>
@@ -4786,7 +4790,7 @@
             <when state="cur$re" output="₥"/>
             <when state="dot-above" output="ṁ"/>
             <when state="dot-below" output="ṃ"/>
-            <when state="mathO" output="∙"/>
+            <when state="mathO" output="⋅"/>
             <when state="math…" next="math⋯"/>
             <when state="math⁄" next="math⅞"/>
             <when state="math⅟" output="⅐"/>
