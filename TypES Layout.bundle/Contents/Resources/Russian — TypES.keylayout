@@ -3219,6 +3219,7 @@
             <when state="math-" output="∺"/>
             <when state="math=" output="⩷"/>
             <when state="math_" output="⊔"/>
+            <when state="math…" output="∷"/>
             <when state="math⁄" next="math⅟"/>
             <when state="math⅟" output="⅟"/>
             <when state="math∂" output="∫"/>
@@ -4238,6 +4239,7 @@
             <when state="macron" next="macron+diaeresis"/>
             <when state="math-" output="∹"/>
             <when state="math=" next="math≕"/>
+            <when state="math…" output="∶"/>
             <when state="math→re" next="math⇒re"/>
             <when state="math⇐" output="≽"/>
             <when state="math⇒" output="≽"/>
@@ -4276,6 +4278,7 @@
             <when state="diaeresis" output="Ӝ"/>
             <when state="fs" output="꞉"/>
             <when state="math=" output="≔"/>
+            <when state="math…" output="∷"/>
             <when state="math∅" next="math∅⊄"/>
             <when state="math∅≷" output="≱"/>
             <when state="math∅⊂" output="⊅"/>
