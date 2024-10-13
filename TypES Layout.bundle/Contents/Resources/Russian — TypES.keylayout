@@ -2732,6 +2732,7 @@
             <when state="Greek" output="_"/>
             <when state="Math" next="math_"/>
             <when state="Typographical" output="⸗"/>
+            <when state="math=" output="≢"/>
             <when state="mathO" output="⊖"/>
             <when state="math|" output="⊥"/>
             <when state="math‹" output="≤"/>
@@ -4491,7 +4492,7 @@
             <when state="Greek" output="~"/>
             <when state="Math" output="∝"/>
             <when state="math-" output="∼"/>
-            <when state="math=" output="≂"/>
+            <when state="math=" output="≋"/>
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="3←0 `⇧⎇">
