@@ -32,19 +32,19 @@ All notable changes to this project will be documented in this file
       - (<kbd>⎇</kbd>)<kbd>X</kbd> progresses to the next 🕱 in a cycle
       - (<kbd>⎇</kbd>)<kbd>␈</kbd> returns to the previous 🕱
     + :sparkles: `en` `ru` <kbd>🕱</kbd>`num_sub` and other numeric layers (subscript, superscript, roman numerals) and mapped it to <kbd>⎇</kbd><kbd>n</kbd> and within each layer on `1–0` and  `uio`-numpad like number keys:
-        * n⃣ moves to the next layer
-        * ␈⃣moves to the previous layer
+        * <kbd>n</kbd> moves to the next layer
+        * <kbd>␈</kbd> moves to the previous layer
     + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⁄` and other fraction layers and mapped it to <kbd>f</kbd> in <kbd>🕱</kbd>`Math`. In each sub-layer  number and `uio`-numpad like number keys enter the <kbd>🕱</kbd>`math⅟`/`⅔`,... numerator, and then complete the denominator part of the fraction. Besides those, in each sub-layer:
-        * ␠⃣ inserts the symbol
-        * f⃣ moves to the next layer
-        * ␈⃣moves to the previous layer
+        * <kbd>␠</kbd> inserts the symbol
+        * <kbd>f</kbd> moves to the next layer
+        * <kbd>␈</kbd> moves to the previous layer
     + :sparkles: `en` `ru` <kbd>🕱</kbd>`math√` and other root layers (cycled) and mapped it to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>p</kbd> and <kbd>y</kbd>in <kbd>🕱</kbd>`Math`. In each sub-layer:
-        * - ␠⃣ inserts the symbol
-        * - k⃣ y⃣  moves to the next layer
-        * - ␈⃣moves to the previous layer
-        * - 2⃣ √
-        * - 3⃣ ∛
-        * - 4⃣ ∜
+        * <kbd>␠</kbd> inserts the symbol
+        * <kbd>k</kbd> <kbd>y</kbd> moves to the next layer
+        * <kbd>␈</kbd> moves to the previous layer
+        * <kbd>2</kbd> moves> √
+        * <kbd>3</kbd> ∛
+        * 4⃣ ∜
     + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⊹` and mapped it to <kbd>p</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various relations symbols:
         * <kbd>p</kbd> ⊹
         * <kbd>l</kbd> ⊷
@@ -56,10 +56,10 @@ All notable changes to this project will be documented in this file
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>m</kbd> moves to the next layer
         * <kbd>␈</kbd> moves to the previous layer
-        * <kbd>j</moves>  …
-        * <kbd>.</kbd>  …
-        * <kbd>k</kbd>  ⋯
-        * <kbd>l</kbd>  ⋮
+        * <kbd>j</moves> …
+        * <kbd>.</kbd> …
+        * <kbd>k</kbd> ⋯
+        * <kbd>l</kbd> ⋮
     + :sparkles: `en` `ru` <kbd>🕱</kbd>`math⊾` and mapped it to <kbd>7</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various angle/triangle symbols:
         * <kbd>␠</kbd> ⊾
         * <kbd>7</kbd> ⊿
