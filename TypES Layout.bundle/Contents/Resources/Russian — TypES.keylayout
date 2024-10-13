@@ -4201,6 +4201,7 @@
         <action id="2→4 l⇧">
             <when state="none" output="Д"/>
             <when state="Greek" output="Λ"/>
+            <when state="Math" output="∣"/>
             <!-- <when state="acute" output="Ĺ"/> -->
             <!-- <when state="cedilla" output="Ļ"/> -->
             <when state="cur$re" output="₾"/>
@@ -4269,6 +4270,7 @@
         <action id="2→5 ;⇧">
             <when state="none" output="Ж"/>
             <when state="Greek" next="diaeresis-greek"/>
+            <when state="Math" output="∶"/>
             <when state="OldCyrillic" output="Ꙉ"/>
             <when state="breve" output="Ӂ"/>
             <when state="diaeresis" output="Ӝ"/>
@@ -4443,6 +4445,7 @@
         <action id="3←2 x⇧">
             <when state="none" output="Ч"/>
             <when state="Greek" output="Χ"/>
+            <when state="Math" output="≀"/>
             <when state="diaeresis" output="Ӵ"/>
             <!-- <when state="diaeresis" output="Ẍ"/> -->
             <!-- <when state="dot-above" output="Ẋ"/> -->
@@ -5175,6 +5178,7 @@
         <action id="ˆ">
             <when state="none" next="diaeresis"/>
             <when state="Greek" output=":"/>
+            <when state="Math" output="∷"/>
             <when state="diaeresis" output="̈"/>
             <when state="fs" output="꞉"/>
             <when state="macron" next="macron+diaeresis"/>
