@@ -2571,6 +2571,7 @@
             <when state="math⅟" output="⅑"/>
             <when state="math⇐" output="⇐"/>
             <when state="math∂" output="∲"/>
+            <when state="math∅≷" output="⋘"/>
             <when state="math∅⊂" output="⊌"/>
             <when state="math≤" output="⇐"/>
             <when state="math≼" output="⇐"/>
@@ -2629,6 +2630,7 @@
             <when state="math↉" output="↉"/>
             <when state="math⇒" output="⇒"/>
             <when state="math∂" output="∳"/>
+            <when state="math∅≷" output="⋙"/>
             <when state="math≥" output="⇒"/>
             <when state="math≽" output="⇒"/>
             <when state="math⋝" output="⇒"/>
@@ -3431,7 +3433,7 @@
             <when state="math⇒" output="⋞"/>
             <when state="math∂" output="∭"/>
             <when state="math∅" next="math∅⊻"/>
-            <when state="math∅≷" output="⋘"/>
+            <when state="math∅≷" output="≪"/>
             <when state="math∅⊂" output="⊊"/>
             <when state="math∅⊄" output="⊊"/>
             <when state="math≤" output="⋞"/>
@@ -3514,7 +3516,7 @@
             <when state="math=" output="⩱"/>
             <when state="math⇐" output="⋟"/>
             <when state="math⇒" output="⋟"/>
-            <when state="math∅≷" output="⋙"/>
+            <when state="math∅≷" output="≫"/>
             <when state="math∅⊂" output="⊋"/>
             <when state="math∅⊄" output="⊋"/>
             <when state="math≃" output="≈"/>
@@ -3903,6 +3905,8 @@
             <when state="fs" output="¦"/>
             <!-- <when state="macron" output="ḡ"/> -->
             <when state="math=" output="≑"/>
+            <when state="math∅≷" output="≳"/>
+            <when state="math∅≸" output="≵"/>
             <when state="math∅⊂" output="⊳"/>
             <when state="math∅⊄" output="⋫"/>
             <when state="math≔" output="⩴"/>
@@ -3926,6 +3930,7 @@
             <!-- <when state="dot-above" output="Ġ"/> -->
             <!-- <when state="macron" output="Ḡ"/> -->
             <when state="math=" output="⩷"/>
+            <when state="math∅≷" output="≵"/>
             <when state="math∅⊂" output="⋫"/>
         </action>
         <action id="2←5 g⇧⎇">
@@ -3960,6 +3965,8 @@
             <when state="fs" output="ˆ"/>
             <when state="greek-tonos" output="ή"/>
             <when state="math=" output="🟰"/>
+            <when state="math∅≷" output="≲"/>
+            <when state="math∅≸" output="≴"/>
             <when state="math∅⊂" output="⊲"/>
             <when state="math∅⊄" output="⋪"/>
             <when state="num_Roman" output="Ⅽ"/>
@@ -3975,6 +3982,7 @@
             <!-- <when state="dot-above" output="Ḣ"/> -->
             <!-- <when state="dot-below" output="Ḥ"/> -->
             <when state="greek-tonos" output="Ή"/>
+            <when state="math∅≷" output="≴"/>
             <when state="math∅⊂" output="⋪"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
@@ -4227,6 +4235,7 @@
             <when state="Brackets" next="Brackets-apostrophe"/>
             <when state="Brackets-apostrophe" output="&#x0027;"/>
             <when state="Greek" output="¬"/>
+            <when state="Math" next="math∅≷"/>
             <when state="cur$re" output="₺"/>
             <when state="fs" output="”"/>
         </action>
@@ -4667,8 +4676,8 @@
             <when state="math…" next="math⋯"/>
             <when state="math⁄" next="math⅞"/>
             <when state="math⅟" output="⅐"/>
-            <when state="math∅≷" output="≲"/>
-            <when state="math∅≸" output="≴"/>
+            <when state="math∅≷" output="≦"/>
+            <when state="math∅≸" output="≨"/>
             <when state="math∅⊂" output="⋔"/>
             <when state="math≃" output="≊"/>
             <when state="math≈" output="≊"/>
@@ -4693,7 +4702,7 @@
             <when state="cur$re" output="₼"/>
             <when state="dot-above" output="Ṁ"/>
             <when state="dot-below" output="Ṃ"/>
-            <when state="math∅≷" output="≴"/>
+            <when state="math∅≷" output="≨"/>
             <when state="num_Roman" output="ⅶ"/>
             <when state="num_roman" output="Ⅶ"/>
             <when state="num⁵sup" output="₇"/>
@@ -4726,8 +4735,8 @@
             <when state="math⅟" output="⅛"/>
             <when state="math⇐" next="math≤"/>
             <when state="math∅" next="math∅≷"/>
-            <when state="math∅≷" output="≳"/>
-            <when state="math∅≸" output="≵"/>
+            <when state="math∅≷" output="≧"/>
+            <when state="math∅≸" output="≩"/>
             <when state="math≤" next="math⋜"/>
             <when state="math≼" next="math⋞"/>
             <when state="math⋜" next="math≼"/>
@@ -4747,7 +4756,7 @@
             <when state="fs" output="‹"/>
             <when state="math_" output="≤"/>
             <when state="math∅" next="math∅≸"/>
-            <when state="math∅≷" output="≵"/>
+            <when state="math∅≷" output="≩"/>
             <when state="num_Roman" output="ⅷ"/>
             <when state="num_roman" output="Ⅷ"/>
             <when state="num⁵sup" output="₈"/>
@@ -4759,6 +4768,7 @@
             <when state="Brackets-〈" output="〉"/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="«"/>
+            <when state="Math" next="math∅≷"/>
             <when state="Typographical" output="⸴"/>
             <when state="fs" output="‹"/>
             <when state="math=" next="math⇐"/>
@@ -4791,6 +4801,7 @@
             <when state="math⇒" next="math≥"/>
             <when state="math∅" next="math∅≸"/>
             <when state="math∅≷" output="⋖"/>
+            <when state="math∅≸" output="⊀"/>
             <when state="math∅⊂" output="⊆"/>
             <when state="math∅⊄" output="⊈"/>
             <when state="math≥" next="math⋝"/>
@@ -4819,6 +4830,7 @@
             <when state="math_" output="≥"/>
             <when state="math|" output="▷"/>
             <when state="math‹" output="◇"/>
+            <when state="math∅≷" output="≮"/>
             <when state="math∅⊂" output="⊈"/>
             <when state="math∅⊄" output="⊊"/>
             <when state="num_Roman" output="ⅸ"/>
@@ -4866,6 +4878,7 @@
             <when state="math∂" output="∱"/>
             <when state="math∅" next="math∅⊄"/>
             <when state="math∅≷" output="⋗"/>
+            <when state="math∅≸" output="⊁"/>
             <when state="math∅⊂" output="⊇"/>
             <when state="math∅⊄" output="⊉"/>
             <when state="math≄" next="math="/>
@@ -4886,6 +4899,7 @@
             <when state="Greek" output="?"/>
             <when state="Math" output="．"/>
             <when state="fs" output="⸮"/>
+            <when state="math∅≷" output="≯"/>
             <when state="math∅⊂" output="⊉"/>
             <when state="math∅⊄" output="⊋"/>
             <when state="num_Roman" output="ⅹ"/>
