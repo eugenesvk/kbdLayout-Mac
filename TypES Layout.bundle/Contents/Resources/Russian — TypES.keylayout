@@ -4484,12 +4484,14 @@
             <when state="grave" output="ѐ"/>
             <when state="horn" next="horn+grave"/>
             <when state="math-" output="⇀"/>
+            <when state="math=" output="≂"/>
         </action>
         <action id="3←0 `⇧">
             <when state="none" output="~"/>
             <when state="Greek" output="~"/>
             <when state="Math" output="∝"/>
             <when state="math-" output="∼"/>
+            <when state="math=" output="≂"/>
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="3←0 `⇧⎇">
