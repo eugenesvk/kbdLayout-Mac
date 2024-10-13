@@ -2720,6 +2720,7 @@
             <when state="math∅" next="math∅∈"/>
             <when state="math∅⊂" output="⊌"/>
             <when state="math∓re" output="±"/>
+            <when state="math≠" output="≢"/>
             <when state="math⊞" output="⊟"/>
             <when state="num_Roman" output="Ⅺ"/>
             <when state="num_roman" output="ⅺ"/>
@@ -3157,7 +3158,7 @@
             <when state="math≉" output="≄"/>
             <when state="math≊" output="≃"/>
             <when state="math≌" output="≃"/>
-            <when state="math≠" output="≄"/>
+            <when state="math≠" output="≆"/>
             <when state="math⋃N-Ary" output="⊺"/>
             <when state="math⋍" next="math="/>
             <when state="math⋕" output="⧤"/>
@@ -3220,6 +3221,7 @@
             <!-- <when state="num_Roman" output="Ⅾ"/> -->
             <!-- <when state="num_roman" output="ⅾ"/> -->
             <!-- <when state="tilde" output="ỹ"/> -->
+            <when state="math≠" output="≄"/>
             <when state="math⋃N-Ary" output="⊻"/>
         </action>
         <action id="1→1 y⇧">
@@ -3742,6 +3744,7 @@
             <!-- <when state="hook-above" output="Ả"/> -->
             <!-- <when state="macron" output="Ā"/> -->
             <when state="math=" output="≃"/>
+            <when state="math≠" output="≆"/>
             <!-- <when state="ogonek" output="Ą"/> -->
             <!-- <when state="ring" output="Å"/> -->
             <!-- <when state="tilde" output="Ã"/> -->
@@ -4486,6 +4489,7 @@
             <when state="horn" next="horn+grave"/>
             <when state="math-" output="⇀"/>
             <when state="math=" output="≂"/>
+            <when state="math≠" output="≁"/>
         </action>
         <action id="3←0 `⇧">
             <when state="none" output="~"/>
@@ -4493,6 +4497,7 @@
             <when state="Math" output="∝"/>
             <when state="math-" output="∼"/>
             <when state="math=" output="≋"/>
+            <when state="math≠" output="≄"/>
             <when state="grave" output="Ѐ"/>
         </action>
         <action id="3←0 `⇧⎇">
@@ -4531,6 +4536,7 @@
             <when state="math=" output="⧣"/>
             <when state="mathO" output="⊠"/>
             <when state="math∅∈" output="∊"/>
+            <when state="math≠" output="≇"/>
             <when state="math⋕" output="⧣"/>
             <when state="math⧣" output="⧣"/>
             <when state="math⧤" output="⧣"/>
