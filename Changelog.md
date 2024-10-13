@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file
 
-[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/1.1.1...HEAD
+[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/1.5.0...HEAD
 ## [Unreleased]
   <!-- - __Added__ -->
    <!-- + :sparkles: ??? -->
@@ -22,6 +22,8 @@ All notable changes to this project will be documented in this file
    <!-- + :lock: ??? -->
    <!-- vulnerabilities -->
 
+  [1.5.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.5.0
+## [1.5.0]
   - __Added__
     + `en` <kbd>🕱</kbd>`math∢` in <kbd>🕱</kbd>`Math`
         * <kbd>a</kbd> ∡
