@@ -3684,6 +3684,7 @@
         <action id="2←1 a⇧">
             <when state="none" output="Ф"/>
             <when state="Greek" output="Α"/>
+            <when state="Math" output="≈"/>
             <!-- <when state="acute" output="Á"/> -->
             <!-- <when state="breve" output="Ă"/> -->
             <!-- <when state="breve+dot-below" output="Ặ"/> -->
@@ -4437,7 +4438,7 @@
         <action id="3←0 `⇧">
             <when state="none" output="~"/>
             <when state="Greek" output="~"/>
-            <when state="Math" output="≈"/>
+            <when state="Math" output="∝"/>
             <when state="math-" output="∼"/>
             <when state="grave" output="Ѐ"/>
         </action>
