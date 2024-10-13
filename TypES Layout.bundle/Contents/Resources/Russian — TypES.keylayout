@@ -3217,6 +3217,7 @@
             <!-- <when state="macron" output="ū"/> -->
             <!-- <when state="macron+diaeresis" output="ṻ"/> -->
             <when state="math=" output="⩷"/>
+            <when state="math_" output="⊔"/>
             <when state="math⁄" next="math⅟"/>
             <when state="math⅟" output="⅟"/>
             <when state="math∂" output="∫"/>
@@ -3261,6 +3262,7 @@
             <!-- <when state="macron" output="Ū"/> -->
             <!-- <when state="macron+diaeresis" output="Ṻ"/> -->
             <when state="math=" output="⩴"/>
+            <when state="math_" output="⊔"/>
             <when state="math∂" output="∮"/>
             <when state="num_Roman" output="ⅰ"/>
             <when state="num_Roman_Ⅰ" output="ⅺ"/>
@@ -3308,6 +3310,7 @@
             <!-- <when state="macron" output="ī"/> -->
             <when state="math/" output="⫛"/>
             <when state="math=" next="math⩦"/>
+            <when state="math_" output="⊓"/>
             <when state="math⁄" next="math⅔"/>
             <when state="math⅟" output="½"/>
             <when state="math∂" output="∬"/>
@@ -3348,6 +3351,7 @@
             <!-- <when state="hook-above" output="Ỉ"/> -->
             <!-- <when state="macron" output="Ī"/> -->
             <when state="math/" output="⫛"/>
+            <when state="math_" output="⊓"/>
             <when state="math∂" output="∯"/>
             <when state="num_Roman" output="ⅱ"/>
             <when state="num_Roman_Ⅰ" output="ⅻ"/>
