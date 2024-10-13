@@ -3012,6 +3012,7 @@
             <!-- <when state="macron+acute" output="ḗ"/> -->
             <!-- <when state="macron+grave" output="ḕ"/> -->
             <when state="math/" output="∄"/>
+            <when state="math=" output="≣"/>
             <when state="math⇐" output="⋜"/>
             <when state="math⇒" output="⋜"/>
             <when state="math∂" output="∰"/>
