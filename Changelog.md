@@ -196,14 +196,13 @@ All notable changes to this project will be documented in this file
         * <kbd>o</kbd> ∉ <kbd>з</kbd> ∌
         * <kbd>ч</kbd> ∊ <kbd>с</kbd> ∍
     + `en` <kbd>🕱</kbd>`mathO` mapped to <kbd>o</kbd> <kbd>🕱</kbd>`Math`
-        * <kbd>r</kbd> ⊚
         * <kbd>d</kbd> ⊝
         * <kbd>=</kbd> ⊜
         * <kbd>[</kbd> ⊟
         * <kbd>]</kbd> ⊞
         * <kbd>z</kbd> ⊠
         * <kbd>,</kbd> ⊡
-        * <kbd>m</kbd> ∙
+        * <kbd>b</kbd> ∙
         * <kbd>r</kbd> ∘
         * <kbd>m</kbd> ⋅
         * <kbd>s</kbd> ⋆
@@ -275,12 +274,10 @@ All notable changes to this project will be documented in this file
         * <kbd>\</kbd>kbd> ∖ (same in <kbd>🕱</kbd>`math∅⊂`)
         * <kbd>ь</kbd> ∖
     + `en` symbols to <kbd>🕱</kbd>`Math`
-        * add to <kbd>t</kbd> cycled <kbd>🕱</kbd>` ∵∴∎`
+        * add to <kbd>t</kbd> cycled <kbd>🕱</kbd>`∵`/`∴`/`∎`
         * <kbd>␠</kbd> inserts the symbol
         * <kbd>t</kbd> moves to the next layer
         * <kbd>␈</kbd>moves to the previous layer
-    + `en` symbols to <kbd>🕱</kbd>`math⊹`
-        * <kbd>i</kbd> ∔
     + `ru` symbols to <kbd>🕱</kbd>`Math`
         * add to <kbd>е</kbd> cycled <kbd>🕱</kbd>`∵`/`∴`/`∎`
         * <kbd>␠</kbd> inserts the symbol
@@ -302,6 +299,8 @@ All notable changes to this project will be documented in this file
         * <kbd>[</kbd> or <kbd>⇧</kbd><kbd>j</kbd> ≚
         * <kbd>]</kbd> or <kbd>⇧</kbd><kbd>k</kbd> ≙
         * <kbd>4</kbd> or <kbd>⇧</kbd><kbd>r</kbd> ≖
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>a</kbd> ≆
+        * <kbd>e</kbd> or <kbd>⎇</kbd><kbd>=</kbd> ≣
     + `ru` symbols to <kbd>🕱</kbd>`math=`
         * (<kbd>⇧</kbd>)<kbd>`</kbd> ≂
         * <kbd>⇧</kbd><kbd>`</kbd> ≋
@@ -325,9 +324,6 @@ All notable changes to this project will be documented in this file
     + `en` symbols to <kbd>🕱</kbd>`math⩳`
         * <kbd>z</kbd> ≊
         * <kbd>⇧</kbd><kbd>z</kbd> ≇
-    + `en` symbols to <kbd>🕱</kbd>`math=`
-        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>a</kbd> ≆
-        * <kbd>e</kbd> or <kbd>⎇</kbd><kbd>=</kbd> ≣
     + `ru` symbols to <kbd>🕱</kbd>`math⩳`
         * <kbd>я</kbd> ≊
         * <kbd>⇧</kbd><kbd>я</kbd> ≇
@@ -335,6 +331,7 @@ All notable changes to this project will be documented in this file
         * <kbd>t</kbd> ≍
         * <kbd>⇧</kbd><kbd>t</kbd> ≭
         * <kbd>y</kbd> ≎
+        * <kbd>b</kbd> ≬
     + `ru` symbols to <kbd>🕱</kbd>`math∅≷`
         * <kbd>е</kbd> ≍
         * <kbd>⇧</kbd><kbd>е</kbd> ≭
@@ -349,8 +346,6 @@ All notable changes to this project will be documented in this file
         * <kbd>l</kbd> ≒
         * <kbd>;</kbd> ≓
         * <kbd>o</kbd> or <kbd>a</kbd> ≐
-    + `en` symbols to <kbd>🕱</kbd>`math∅≷`
-        * <kbd>b</kbd> ≬
     + `ru` symbols to <kbd>🕱</kbd>`math⩦`
         * <kbd>в</kbd> ≏
         * <kbd>д</kbd> ≒
@@ -438,9 +433,10 @@ All notable changes to this project will be documented in this file
         * <kbd>␈</kbd> moves to the previous layer
         * <kbd>2</kbd> moves> √
         * <kbd>3</kbd> ∛
-        * 4⃣ ∜
-    + ✨ `en` `ru` <kbd>🕱</kbd>`math⊹` and mapped it to <kbd>p</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various relations symbols:
+        * <kbd>4</kbd> ∜
+    + ✨ `en` <kbd>🕱</kbd>`math⊹` and mapped it to <kbd>p</kbd> in <kbd>🕱</kbd>`Math`, pressing it enables various relations symbols:
         * <kbd>p</kbd> ⊹
+        * <kbd>i</kbd> ∔
         * <kbd>l</kbd> ⊷
         * <kbd>;</kbd> ⊶
         * <kbd>,</kbd> ⊸
