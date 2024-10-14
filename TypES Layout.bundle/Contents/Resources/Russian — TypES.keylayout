@@ -617,11 +617,11 @@
             <key code="27" action="–"/>
             <key code="28" action="·"/>
             <key code="29" action="›"/>
-            <key code="30" action="}"/>
-            <key code="31" action="щ⇧⎇"/>
-            <key code="32" action="г⇧⎇"/>
-            <key code="33" action="{"/>
-            <key code="34" action="ш⇧⎇"/>
+            <key code="30" action="1→7 ]⇧⎇"/>
+            <key code="31" action="1→4 o⇧⎇"/>
+            <key code="32" action="1→2 u⇧⎇"/>
+            <key code="33" action="1→6 [⇧⎇"/>
+            <key code="34" action="1→3 i⇧⎇"/>
             <key code="35" action="″"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" action="λ"/>
@@ -6380,7 +6380,7 @@
             <when state="space" output=" "/>
             <when state="tilde" output="˜"/>
         </action>
-        <action id="{">
+        <action id="1→6 [⇧⎇">
             <when state="none" output="{"/>
             <when state="Greek" output="{"/>
             <when state="math𝛃" output="𝚹"/>
@@ -6400,7 +6400,7 @@
             <when state="math|" output="‖"/>
             <when state="math‹" output="◁"/>
         </action>
-        <action id="}">
+        <action id="1→7 ]⇧⎇">
             <when state="none" output="}"/>
             <when state="Greek" output="}"/>
         </action>
@@ -6466,7 +6466,7 @@
             <when state="Greek" output="·"/>
             <when state="cur$re" output="₶"/>
         </action>
-        <action id="г⇧⎇">
+        <action id="1→2 u⇧⎇">
             <when state="none" next="dot-below"/>
             <when state="Greek" output="Ξ"/>
             <when state="breve" next="breve+dot-below"/>
@@ -6500,7 +6500,7 @@
             <when state="Greek" output="≠"/>
             <when state="double-acute" output="̋"/>
         </action>
-        <action id="ш⇧⎇">
+        <action id="1→3 i⇧⎇">
             <when state="none" next="dot-above"/>
             <when state="Greek" output="Ν"/>
             <when state="OldCyrillic" output="Ї"/>
@@ -6510,7 +6510,7 @@
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
         </action>
-        <action id="щ⇧⎇">
+        <action id="1→4 o⇧⎇">
             <when state="none" next="macron"/>
             <when state="Greek" output="Τ"/>
             <when state="acute" output="᷇"/>
