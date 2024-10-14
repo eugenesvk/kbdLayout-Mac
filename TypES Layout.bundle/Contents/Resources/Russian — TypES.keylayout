@@ -4382,9 +4382,9 @@
             <when state="OldCyrillic" output="ꙉ"/>
             <when state="breve" output="ӂ"/>
             <when state="cur$re" output="₡"/>
+            <!-- <when state="diaeresis" output="̈"/> -->
             <when state="diaeresis" output="ӝ"/>
             <when state="fs" output="꞉"/>
-            <when state="math-" output="∹"/>
             <when state="macron" next="macron+diaeresis"/>
             <when state="math-" output="⟶"/>
             <when state="math=" next="math≕"/>
