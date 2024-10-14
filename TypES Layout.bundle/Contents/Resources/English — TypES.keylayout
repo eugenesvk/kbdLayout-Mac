@@ -2937,6 +2937,7 @@
             <when state="math𝙗𝙞" output="𝙦"/>
             <when state="math𝚖" output="𝚚"/>
             <when state="math𝛃" output="𝛓"/>
+            <when state="math𝜄" output="𝜍"/>
             <when state="num_Roman" output="ↈ"/>
             <when state="num_roman" output="ↈ"/>
         </action>
@@ -3002,6 +3003,7 @@
             <when state="math𝙗𝙞" output="𝙬"/>
             <when state="math𝚖" output="𝚠"/>
             <when state="math𝛃" output="𝛚"/>
+            <when state="math𝜄" output="𝜔"/>
             <when state="num_Roman" output="ↇ"/>
             <when state="num_roman" output="ↇ"/>
         </action>
@@ -3031,6 +3033,7 @@
             <when state="math𝙗𝙞" output="𝙒"/>
             <when state="math𝚖" output="𝚆"/>
             <when state="math𝛃" output="𝛀"/>
+            <when state="math𝜄" output="𝛺"/>
         </action>
         <action id="1←2 w⇧⎇">
             <when state="none" output="⌃"/>
@@ -3096,6 +3099,7 @@
             <when state="math𝙗𝙞" output="𝙚"/>
             <when state="math𝚖" output="𝚎"/>
             <when state="math𝛃" output="𝛆"/>
+            <when state="math𝜄" output="𝜀"/>
             <when state="num_Roman" output="ↂ"/>
             <when state="num_roman" output="ↂ"/>
             <when state="ogonek" output="ę"/>
@@ -3136,6 +3140,7 @@
             <when state="math𝙗𝙞" output="𝙀"/>
             <when state="math𝚖" output="𝙴"/>
             <when state="math𝛃" output="𝚬"/>
+            <when state="math𝜄" output="𝛦"/>
             <when state="ogonek" output="Ę"/>
         </action>
         <action id="1←3 e⇧⎇">
@@ -3146,6 +3151,7 @@
             <when state="none" output="€"/>
             <when state="Greek" output="€"/>
             <when state="math𝛃" output="𝛜"/>
+            <when state="math𝜄" output="𝜖"/>
         </action>
         <action id="1←4 r">
             <when state="none" output="r"/>
@@ -3197,6 +3203,7 @@
             <when state="math𝙗𝙞" output="𝙧"/>
             <when state="math𝚖" output="𝚛"/>
             <when state="math𝛃" output="𝛒"/>
+            <when state="math𝜄" output="𝜌"/>
             <when state="num_Roman" output="ↁ"/>
             <when state="num_roman" output="ↁ"/>
             <when state="ring" output="̊"/>
@@ -3224,6 +3231,7 @@
             <when state="math𝙗𝙞" output="𝙍"/>
             <when state="math𝚖" output="𝚁"/>
             <when state="math𝛃" output="𝚸"/>
+            <when state="math𝜄" output="𝛲"/>
         </action>
         <action id="1←4 r⎇">
             <when state="none" output="◊"/>
@@ -3233,6 +3241,7 @@
             <when state="Greek" output="®"/>
             <when state="Math" next="math𝗌"/>
             <when state="math𝛃" output="𝛠"/>
+            <when state="math𝜄" output="𝜚"/>
             <when state="ring" output="̊"/>
         </action>
         <action id="1←5 t">
@@ -3286,6 +3295,7 @@
             <when state="math𝙗𝙞" output="𝙩"/>
             <when state="math𝚖" output="𝚝"/>
             <when state="math𝛃" output="𝛕"/>
+            <when state="math𝜄" output="𝜏"/>
             <when state="num_Roman" output="Ⅿ"/>
             <when state="num_roman" output="ⅿ"/>
             <when state="space" output=" "/>
@@ -3315,6 +3325,7 @@
             <when state="math𝙗𝙞" output="𝙏"/>
             <when state="math𝚖" output="𝚃"/>
             <when state="math𝛃" output="𝚻"/>
+            <when state="math𝜄" output="𝛵"/>
             <when state="num_Roman" output="ⅿ"/>
             <when state="num_roman" output="Ⅿ"/>
         </action>
@@ -3369,6 +3380,7 @@
             <when state="math𝙗𝙞" output="𝙮"/>
             <when state="math𝚖" output="𝚢"/>
             <when state="math𝛃" output="𝛎"/>
+            <when state="math𝜄" output="𝜐"/>
             <when state="num_Roman" output="Ⅾ"/>
             <when state="num_roman" output="ⅾ"/>
             <when state="tilde" output="ỹ"/>
@@ -3400,6 +3412,7 @@
             <when state="math𝙗𝙞" output="𝙔"/>
             <when state="math𝚖" output="𝚈"/>
             <when state="math𝛃" output="𝚼"/>
+            <when state="math𝜄" output="𝛶"/>
             <when state="num_Roman" output="ⅾ"/>
             <when state="num_roman" output="Ⅾ"/>
             <when state="tilde" output="Ỹ"/>
@@ -3466,6 +3479,7 @@
             <when state="math𝙗𝙞" output="𝙪"/>
             <when state="math𝚖" output="𝚞"/>
             <when state="math𝛃" output="𝛉"/>
+            <when state="math𝜄" output="𝜃"/>
             <when state="num_Roman" next="num_Roman_Ⅰ"/>
             <when state="num_Roman_Ⅰ" output="Ⅺ"/>
             <when state="num_roman" next="num_roman_ⅰ"/>
@@ -3517,6 +3531,7 @@
             <when state="math𝙗𝙞" output="𝙐"/>
             <when state="math𝚖" output="𝚄"/>
             <when state="math𝛃" output="𝚯"/>
+            <when state="math𝜄" output="𝛩"/>
             <when state="num_Roman" output="ⅰ"/>
             <when state="num_Roman_Ⅰ" output="ⅺ"/>
             <when state="num_roman" output="Ⅰ"/>
@@ -3533,6 +3548,7 @@
             <when state="Typographical" output="↘"/>
             <when state="dot-below" output="̣"/>
             <when state="math𝛃" output="𝛝"/>
+            <when state="math𝜄" output="𝜗"/>
         </action>
         <action id="1→2 u⎈">
             <when state="none" output="&#x0015;"/>
@@ -3595,6 +3611,7 @@
             <when state="math𝙗𝙞" output="𝙞"/>
             <when state="math𝚖" output="𝚒"/>
             <when state="math𝛃" output="𝛊"/>
+            <when state="math𝜄" output="𝜄"/>
             <when state="num_Roman" next="num_Roman_Ⅱ"/>
             <when state="num_Roman_Ⅰ" output="Ⅻ"/>
             <when state="num_Roman_Ⅱ" output="Ⅻ"/>
@@ -3639,6 +3656,7 @@
             <when state="math𝙗𝙞" output="𝙄"/>
             <when state="math𝚖" output="𝙸"/>
             <when state="math𝛃" output="𝚰"/>
+            <when state="math𝜄" output="𝛪"/>
             <when state="num_Roman" output="ⅱ"/>
             <when state="num_Roman_Ⅰ" output="ⅻ"/>
             <when state="num_Roman_Ⅱ" output="ⅻ"/>
@@ -3666,6 +3684,7 @@
             <when state="math𝐛" next="math𝐛𝑖"/>
             <when state="math𝗌" next="math𝘪"/>
             <when state="math𝗯" next="math𝙗𝙞"/>
+            <when state="math𝛃" next="math𝜄"/>
         </action>
         <action id="1→3 i⎈">
             <when state="none" output="&#x000A;"/>
@@ -3749,6 +3768,7 @@
             <when state="math𝙗𝙞" output="𝙤"/>
             <when state="math𝚖" output="𝚘"/>
             <when state="math𝛃" output="𝛐"/>
+            <when state="math𝜄" output="𝜊"/>
             <when state="num_Roman" output="Ⅲ"/>
             <when state="num_roman" output="ⅲ"/>
             <when state="num⁵sup" output="↋"/>
@@ -3801,6 +3821,7 @@
             <when state="math𝙗𝙞" output="𝙊"/>
             <when state="math𝚖" output="𝙾"/>
             <when state="math𝛃" output="𝚶"/>
+            <when state="math𝜄" output="𝛰"/>
             <when state="num_Roman" output="ⅲ"/>
             <when state="num_roman" output="Ⅲ"/>
             <when state="num⁵sup" output="₃"/>
@@ -3872,6 +3893,7 @@
             <when state="math𝙗𝙞" output="𝙥"/>
             <when state="math𝚖" output="𝚙"/>
             <when state="math𝛃" output="𝛑"/>
+            <when state="math𝜄" output="𝜋"/>
             <when state="num⁵sup" output="⁺"/>
             <when state="num₅sub" output="₊"/>
             <when state="space" output=" "/>
@@ -3900,6 +3922,7 @@
             <when state="math𝙗𝙞" output="𝙋"/>
             <when state="math𝚖" output="𝙿"/>
             <when state="math𝛃" output="𝚷"/>
+            <when state="math𝜄" output="𝛱"/>
             <when state="num₅sub" output="⁺"/>
         </action>
         <action id="1→5 p⎇">
@@ -3909,6 +3932,7 @@
             <when state="OldCyrillic" output="ꙃ"/>
             <when state="cur$re" output="₰"/>
             <when state="math𝛃" output="𝛡"/>
+            <when state="math𝜄" output="𝜛"/>
         </action>
         <action id="1→6 [">
             <when state="none" output="["/>
@@ -4021,6 +4045,7 @@
             <when state="math𝙗𝙞" output="𝙖"/>
             <when state="math𝚖" output="𝚊"/>
             <when state="math𝛃" output="𝛂"/>
+            <when state="math𝜄" output="𝛼"/>
             <when state="num_Roman" output="ↀ"/>
             <when state="num_roman" output="ↀ"/>
             <when state="ogonek" output="ą"/>
@@ -4066,6 +4091,7 @@
             <when state="math𝙗𝙞" output="𝘼"/>
             <when state="math𝚖" output="𝙰"/>
             <when state="math𝛃" output="𝚨"/>
+            <when state="math𝜄" output="𝛢"/>
             <when state="ogonek" output="Ą"/>
             <when state="ring" output="Å"/>
             <when state="tilde" output="Ã"/>
@@ -4138,6 +4164,7 @@
             <when state="math𝙗𝙞" output="𝙨"/>
             <when state="math𝚖" output="𝚜"/>
             <when state="math𝛃" output="𝛔"/>
+            <when state="math𝜄" output="𝜎"/>
             <when state="space" output="␠"/>
         </action>
         <action id="2←2 s⇧">
@@ -4171,6 +4198,7 @@
             <when state="math𝙗𝙞" output="𝙎"/>
             <when state="math𝚖" output="𝚂"/>
             <when state="math𝛃" output="𝚺"/>
+            <when state="math𝜄" output="𝛴"/>
             <when state="space" output="␢"/>
         </action>
         <action id="2←2 s⎇">
@@ -4247,6 +4275,7 @@
             <when state="math𝙗𝙞" output="𝙙"/>
             <when state="math𝚖" output="𝚍"/>
             <when state="math𝛃" output="𝛅"/>
+            <when state="math𝜄" output="𝛿"/>
             <when state="num_Roman" output="Ⅾ"/>
             <when state="num_roman" output="ⅾ"/>
             <when state="num⁵sup" output="⁽"/>
@@ -4279,6 +4308,7 @@
             <when state="math𝙗𝙞" output="𝘿"/>
             <when state="math𝚖" output="𝙳"/>
             <when state="math𝛃" output="𝚫"/>
+            <when state="math𝜄" output="𝛥"/>
             <when state="num_Roman" output="ⅾ"/>
             <when state="num_roman" output="Ⅾ"/>
             <when state="num⁵sup" output="₍"/>
@@ -4296,6 +4326,7 @@
             <when state="math≜" next="math="/>
             <when state="math≝" next="math≜"/>
             <when state="math𝛃" output="𝛛"/>
+            <when state="math𝜄" output="𝜕"/>
         </action>
         <action id="2←4 f">
             <when state="none" output="f"/>
@@ -4358,6 +4389,7 @@
             <when state="math𝙗𝙞" output="𝙛"/>
             <when state="math𝚖" output="𝚏"/>
             <when state="math𝛃" output="𝛗"/>
+            <when state="math𝜄" output="𝜑"/>
             <when state="num_Roman" output="Ⅼ"/>
             <when state="num_roman" output="ⅼ"/>
             <when state="num⁵sup" output="⁾"/>
@@ -4386,6 +4418,7 @@
             <when state="math𝙗𝙞" output="𝙁"/>
             <when state="math𝚖" output="𝙵"/>
             <when state="math𝛃" output="𝚽"/>
+            <when state="math𝜄" output="𝛷"/>
             <when state="num_Roman" output="ⅼ"/>
             <when state="num_roman" output="Ⅼ"/>
             <when state="num⁵sup" output="₎"/>
@@ -4401,6 +4434,7 @@
             <when state="Typographical" next="ligature_f"/>
             <when state="fs" output="⧵"/>
             <when state="math𝛃" output="𝛟"/>
+            <when state="math𝜄" output="𝜙"/>
         </action>
         <action id="2←5 g">
             <when state="none" output="g"/>
@@ -4441,6 +4475,7 @@
             <when state="math𝙗𝙞" output="𝙜"/>
             <when state="math𝚖" output="𝚐"/>
             <when state="math𝛃" output="𝛄"/>
+            <when state="math𝜄" output="𝛾"/>
             <when state="num_Roman" output="ↅ"/>
             <when state="num_roman" output="ↅ"/>
             <when state="ogonek" output="̨"/>
@@ -4475,6 +4510,7 @@
             <when state="math𝙗𝙞" output="𝙂"/>
             <when state="math𝚖" output="𝙶"/>
             <when state="math𝛃" output="𝚪"/>
+            <when state="math𝜄" output="𝛤"/>
         </action>
         <action id="2←5 g⇧⎇">
             <when state="none" output="⌘"/>
@@ -4529,6 +4565,7 @@
             <when state="math𝙗𝙞" output="𝙝"/>
             <when state="math𝚖" output="𝚑"/>
             <when state="math𝛃" output="𝛈"/>
+            <when state="math𝜄" output="𝜂"/>
             <when state="num_Roman" output="Ⅽ"/>
             <when state="num_roman" output="ⅽ"/>
             <when state="space" output=" "/>
@@ -4556,6 +4593,7 @@
             <when state="math𝙗𝙞" output="𝙃"/>
             <when state="math𝚖" output="𝙷"/>
             <when state="math𝛃" output="𝚮"/>
+            <when state="math𝜄" output="𝛨"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
         </action>
@@ -4629,6 +4667,7 @@
             <when state="math𝙗𝙞" output="𝙟"/>
             <when state="math𝚖" output="𝚓"/>
             <when state="math𝛃" output="𝛏"/>
+            <when state="math𝜄" output="𝜉"/>
             <when state="num_Roman" output="Ⅳ"/>
             <when state="num_roman" output="ⅳ"/>
             <when state="num⁵sup" output="⁴"/>
@@ -4656,6 +4695,7 @@
             <when state="math𝙗𝙞" output="𝙅"/>
             <when state="math𝚖" output="𝙹"/>
             <when state="math𝛃" output="𝚵"/>
+            <when state="math𝜄" output="𝛯"/>
             <when state="num_Roman" output="ⅳ"/>
             <when state="num_roman" output="Ⅳ"/>
             <when state="num⁵sup" output="₄"/>
@@ -4741,6 +4781,7 @@
             <when state="math𝙗𝙞" output="𝙠"/>
             <when state="math𝚖" output="𝚔"/>
             <when state="math𝛃" output="𝛋"/>
+            <when state="math𝜄" output="𝜅"/>
             <when state="num_Roman" output="Ⅴ"/>
             <when state="num_roman" output="ⅴ"/>
             <when state="num⁵sup" output="⁵"/>
@@ -4768,6 +4809,7 @@
             <when state="math𝙗𝙞" output="𝙆"/>
             <when state="math𝚖" output="𝙺"/>
             <when state="math𝛃" output="𝚱"/>
+            <when state="math𝜄" output="𝛫"/>
             <when state="num_Roman" output="ⅴ"/>
             <when state="num_roman" output="Ⅴ"/>
             <when state="num⁵sup" output="₅"/>
@@ -4782,6 +4824,7 @@
             <when state="fs" output="“"/>
             <when state="math=" output="͌"/>
             <when state="math𝛃" output="𝛞"/>
+            <when state="math𝜄" output="𝜘"/>
         </action>
         <action id="2→4 l">
             <when state="none" output="l"/>
@@ -4859,6 +4902,7 @@
             <when state="math𝙗𝙞" output="𝙡"/>
             <when state="math𝚖" output="𝚕"/>
             <when state="math𝛃" output="𝛌"/>
+            <when state="math𝜄" output="𝜆"/>
             <when state="num_Roman" output="Ⅵ"/>
             <when state="num_roman" output="ⅵ"/>
             <when state="num⁵sup" output="⁶"/>
@@ -4891,6 +4935,7 @@
             <when state="math𝙗𝙞" output="𝙇"/>
             <when state="math𝚖" output="𝙻"/>
             <when state="math𝛃" output="𝚲"/>
+            <when state="math𝜄" output="𝛬"/>
             <when state="num_Roman" output="ⅵ"/>
             <when state="num_roman" output="Ⅵ"/>
             <when state="num⁵sup" output="₆"/>
@@ -5114,6 +5159,7 @@
             <when state="math𝙗𝙞" output="𝙯"/>
             <when state="math𝚖" output="𝚣"/>
             <when state="math𝛃" output="𝛇"/>
+            <when state="math𝜄" output="𝜁"/>
             <when state="space" output="​"/>
         </action>
         <action id="3←1 z⇧">
@@ -5140,6 +5186,7 @@
             <when state="math𝙗𝙞" output="𝙕"/>
             <when state="math𝚖" output="𝚉"/>
             <when state="math𝛃" output="𝚭"/>
+            <when state="math𝜄" output="𝛧"/>
         </action>
         <action id="3←1 z⎇">
             <when state="none" output="Ω"/>
@@ -5185,6 +5232,7 @@
             <when state="math𝙗𝙞" output="𝙭"/>
             <when state="math𝚖" output="𝚡"/>
             <when state="math𝛃" output="𝛘"/>
+            <when state="math𝜄" output="𝜒"/>
         </action>
         <action id="3←2 x⇧">
             <when state="none" output="X"/>
@@ -5209,6 +5257,7 @@
             <when state="math𝙗𝙞" output="𝙓"/>
             <when state="math𝚖" output="𝚇"/>
             <when state="math𝛃" output="𝚾"/>
+            <when state="math𝜄" output="𝛸"/>
         </action>
         <action id="3←2 x⎇">
             <when state="none" output="×"/>
@@ -5256,6 +5305,7 @@
             <when state="math𝙗𝙞" output="𝙘"/>
             <when state="math𝚖" output="𝚌"/>
             <when state="math𝛃" output="𝛙"/>
+            <when state="math𝜄" output="𝜓"/>
             <when state="num_Roman" output="Ⅽ"/>
             <when state="num_roman" output="ⅽ"/>
             <when state="space" output="␠"/>
@@ -5285,6 +5335,7 @@
             <when state="math𝙗𝙞" output="𝘾"/>
             <when state="math𝚖" output="𝙲"/>
             <when state="math𝛃" output="𝚿"/>
+            <when state="math𝜄" output="𝛹"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
             <when state="space" output="␢"/>
@@ -5330,6 +5381,7 @@
             <when state="math𝙗𝙞" output="𝙫"/>
             <when state="math𝚖" output="𝚟"/>
             <when state="math𝛃" output="𝛚"/>
+            <when state="math𝜄" output="𝜔"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="ↄ"/>
             <when state="space" output=" "/>
@@ -5356,6 +5408,7 @@
             <when state="math𝙗𝙞" output="𝙑"/>
             <when state="math𝚖" output="𝚅"/>
             <when state="math𝛃" output="𝛀"/>
+            <when state="math𝜄" output="𝛺"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
             <when state="tilde" output="Ṽ"/>
@@ -5400,6 +5453,7 @@
             <when state="math𝙗𝙞" output="𝙗"/>
             <when state="math𝚖" output="𝚋"/>
             <when state="math𝛃" output="𝛃"/>
+            <when state="math𝜄" output="𝛽"/>
             <when state="num_Roman" output="ↆ"/>
             <when state="num_roman" output="ↆ"/>
             <when state="space" output=" "/>
@@ -5427,6 +5481,7 @@
             <when state="math𝙗𝙞" output="𝘽"/>
             <when state="math𝚖" output="𝙱"/>
             <when state="math𝛃" output="𝚩"/>
+            <when state="math𝜄" output="𝛣"/>
         </action>
         <action id="3←5 b⎇">
             <when state="none" output="ß"/>
@@ -5476,6 +5531,7 @@
             <when state="math𝙗𝙞" output="𝙣"/>
             <when state="math𝚖" output="𝚗"/>
             <when state="math𝛃" output="𝛖"/>
+            <when state="math𝜄" output="𝜈"/>
             <when state="num_Roman" next="num₅sub"/>
             <when state="num_roman" next="num_Roman"/>
             <when state="num⁵sup" next="num_roman"/>
@@ -5508,6 +5564,7 @@
             <when state="math𝙗𝙞" output="𝙉"/>
             <when state="math𝚖" output="𝙽"/>
             <when state="math𝛃" output="𝚴"/>
+            <when state="math𝜄" output="𝛮"/>
             <when state="num⁵sup" next="num_Roman"/>
             <when state="tilde" output="Ñ"/>
         </action>
@@ -5571,6 +5628,7 @@
             <when state="math𝙗𝙞" output="𝙢"/>
             <when state="math𝚖" output="𝚖"/>
             <when state="math𝛃" output="𝛍"/>
+            <when state="math𝜄" output="𝜇"/>
             <when state="num_Roman" output="Ⅶ"/>
             <when state="num_roman" output="ⅶ"/>
             <when state="num⁵sup" output="⁷"/>
@@ -5600,6 +5658,7 @@
             <when state="math𝙗𝙞" output="𝙈"/>
             <when state="math𝚖" output="𝙼"/>
             <when state="math𝛃" output="𝚳"/>
+            <when state="math𝜄" output="𝛭"/>
             <when state="num_Roman" output="ⅶ"/>
             <when state="num_roman" output="Ⅶ"/>
             <when state="num⁵sup" output="₇"/>
@@ -6143,6 +6202,7 @@
             <when state="math|" output="⊦"/>
             <when state="math‹" output="←"/>
             <when state="math𝛃" output="𝚹"/>
+            <when state="math𝜄" output="𝛳"/>
             <when state="space" output="‑"/>
         </action>
         <action id="|">
@@ -6296,6 +6356,7 @@
         <action id="⌀">
             <when state="none" output="⌀"/>
             <when state="math𝛃" output="𝛁"/>
+            <when state="math𝜄" output="𝛻"/>
         </action>
         <action id="␠⎇">
             <when state="none" output=" "/>
@@ -6500,6 +6561,7 @@
         <when state="math𝙗𝙞" output="𝙗"/>
         <when state="math𝚖" output="𝚖"/>
         <when state="math𝛃" output="𝛄"/>
+        <when state="math𝜄" output="𝜄"/>
         <when state="num_Roman" output="Ⅳ"/>
         <when state="num_Roman_Ⅰ" output="Ⅰ"/>
         <when state="num_Roman_Ⅱ" output="Ⅱ"/>
