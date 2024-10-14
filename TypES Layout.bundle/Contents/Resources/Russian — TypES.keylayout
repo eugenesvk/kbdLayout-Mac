@@ -6581,7 +6581,7 @@
         <action id="№">
             <when state="none" output="№"/>
             <when state="Greek" output="#"/>
-            <when state="Typographical" output="☰ "/>
+            <when state="Typographical" output="☰"/>
         </action>
         <action id="⅓">
             <when state="none" output="⅓"/>
