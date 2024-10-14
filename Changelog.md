@@ -22,6 +22,9 @@ All notable changes to this project will be documented in this file
    <!-- + :lock: ??? -->
    <!-- vulnerabilities -->
 
+  - __Added__
+    + `en` greek layer (matching default `en`) to match `ru` for better diff
+
   [1.5.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.5.0
 ## [1.5.0]
   - __Added__
