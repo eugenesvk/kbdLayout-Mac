@@ -4574,6 +4574,7 @@
             <when state="none" output="×"/>
             <when state="Typographical" output="⌥"/>
             <when state="fs" output="∗"/>
+            <when state="math-" output="≀"/>
             <when state="math=" next="math⋕"/>
             <when state="math⋕" next="math⧣"/>
             <when state="math⧤" next="math="/>
