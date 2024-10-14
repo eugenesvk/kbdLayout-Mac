@@ -3737,6 +3737,7 @@
             <when state="math⩦" next="math≑"/>
             <when state="math⩷" next="math="/>
             <when state="math𝐛" next="math𝐛𝑖"/>
+            <when state="math𝑖" output="𝚤"/>
             <when state="math𝗌" next="math𝘪"/>
             <when state="math𝗯" next="math𝙗𝙞"/>
             <when state="math𝛃" next="math𝜄"/>
@@ -4832,6 +4833,7 @@
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
             <when state="math=" output="͇"/>
+            <when state="math𝑖" output="𝚥"/>
             <when state="space" output="⁠"/>
         </action>
         <action id="2→2 j⎈">
