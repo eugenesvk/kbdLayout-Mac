@@ -6383,11 +6383,6 @@
         <action id="1→6 [⇧⎇">
             <when state="none" output="{"/>
             <when state="Greek" output="{"/>
-            <when state="math𝛃" output="𝚹"/>
-            <when state="math𝜄" output="𝛳"/>
-            <when state="math𝜾" output="𝜭"/>
-            <when state="math𝝱" output="𝝧"/>
-            <when state="math𝞲" output="𝞡"/>
             <when state="space" output="‑"/>
         </action>
         <action id="|">
@@ -6477,6 +6472,11 @@
             <when state="mathO" output="⊖"/>
             <when state="math|" output="⊦"/>
             <when state="math‹" output="←"/>
+            <when state="math𝛃" output="𝚹"/>
+            <when state="math𝜄" output="𝛳"/>
+            <when state="math𝜾" output="𝜭"/>
+            <when state="math𝝱" output="𝝧"/>
+            <when state="math𝞲" output="𝞡"/>
             <when state="space" output="‑"/>
         </action>
         <action id="к⇧⎇">
