@@ -4620,6 +4620,7 @@
             <when state="math∅⊄" output="⋤"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
+            <when state="space" output="␢"/>
         </action>
         <action id="3←3 c⎇">
             <when state="none" next="Copyright"/>
