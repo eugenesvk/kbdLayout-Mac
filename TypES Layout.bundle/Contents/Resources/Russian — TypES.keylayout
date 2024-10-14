@@ -1506,10 +1506,10 @@
         </keyMap>
         <keyMap index="11">
             <!--↑⇧⎇↑⌘ ⎈-->
-            <key code="0" action="2←1 a⎇⎈"/>
+            <key code="0" action="2←1 a⎈⎇"/>
             <key code="1" output="z"/>
             <key code="2" output="ћ"/>
-            <key code="3" output="÷"/>
+            <key code="3" action="2←4 f⎈⎇"/>
             <key code="4" output="•"/>
             <key code="5" output="…"/>
             <key code="6" output="ђ"/>
@@ -4245,7 +4245,7 @@
             <when state="math≌" next="math⩰"/>
             <when state="math⩰" next="math="/>
         </action>
-        <action id="2←1 a⎇⎈">
+        <action id="2←1 a⎈⎇">
             <when state="none" output="d"/>
             <when state="math=" output="≌"/>
         </action>
@@ -6445,8 +6445,8 @@
             <when state="macron" next="macron+diaeresis"/>
             <when state="math=" output="⩴"/>
         </action>
-        <action id="ƒ">
-            <when state="none" output="ƒ"/>
+        <action id="2←4 f⎈⎇">
+            <when state="none" output="÷"/>
             <when state="math𝛃" output="𝟋"/>
         </action>
         <action id="ˇ">
