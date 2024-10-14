@@ -2909,6 +2909,7 @@
             <when state="math𝓈𝓫" output="𝓠"/>
             <when state="math𝔣" output="𝔔"/>
             <when state="math𝔣𝖇" output="𝕼"/>
+            <when state="math𝕤" output="ℚ"/>
         </action>
         <action id="1←1 q⎇">
             <when state="none" output="⎋"/>
@@ -3133,6 +3134,7 @@
             <when state="math𝑖" output="𝑅"/>
             <when state="math𝓈𝓫" output="𝓡"/>
             <when state="math𝔣𝖇" output="𝕽"/>
+            <when state="math𝕤" output="ℝ"/>
         </action>
         <action id="1←4 r⎇">
             <when state="none" output="◊"/>
@@ -3731,6 +3733,7 @@
             <when state="math𝓈𝓫" output="𝓟"/>
             <when state="math𝔣" output="𝔓"/>
             <when state="math𝔣𝖇" output="𝕻"/>
+            <when state="math𝕤" output="ℙ"/>
             <when state="num₅sub" output="⁺"/>
         </action>
         <action id="1→5 p⎇">
@@ -4310,6 +4313,7 @@
             <when state="math𝑖" output="𝐻"/>
             <when state="math𝓈𝓫" output="𝓗"/>
             <when state="math𝔣𝖇" output="𝕳"/>
+            <when state="math𝕤" output="ℍ"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
         </action>
@@ -4844,6 +4848,7 @@
             <when state="math𝓈" output="𝒵"/>
             <when state="math𝓈𝓫" output="𝓩"/>
             <when state="math𝔣𝖇" output="𝖅"/>
+            <when state="math𝕤" output="ℤ"/>
         </action>
         <action id="3←1 z⎇">
             <when state="none" output="Ω"/>
@@ -4964,6 +4969,7 @@
             <when state="math𝓈" output="𝒞"/>
             <when state="math𝓈𝓫" output="𝓒"/>
             <when state="math𝔣𝖇" output="𝕮"/>
+            <when state="math𝕤" output="ℂ"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
             <when state="space" output="␢"/>
@@ -5148,6 +5154,7 @@
             <when state="math𝓈𝓫" output="𝓝"/>
             <when state="math𝔣" output="𝔑"/>
             <when state="math𝔣𝖇" output="𝕹"/>
+            <when state="math𝕤" output="ℕ"/>
             <when state="num⁵sup" next="num_Roman"/>
             <when state="tilde" output="Ñ"/>
         </action>
