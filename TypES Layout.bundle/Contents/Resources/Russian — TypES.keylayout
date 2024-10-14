@@ -2196,6 +2196,7 @@
         </action>
         <action id="00 §⇧⎇">
             <when state="none" next="grave"/>
+            <when state="Greek" output="Μ"/>
             <when state="Typographical" output="⏏"/>
             <when state="grave" output="̀"/>
         </action>
