@@ -4539,6 +4539,10 @@
             <when state="math𝝱" output="𝞍"/>
             <when state="math𝞲" output="𝟇"/>
         </action>
+        <action id="2←4 f⎈⎇">
+            <when state="none" output="ƒ"/>
+            <when state="math𝛃" output="𝟋"/>
+        </action>
         <action id="2←5 g">
             <when state="none" output="g"/>
             <when state="Brackets" next="Brackets-‘"/>
@@ -6457,10 +6461,6 @@
             <when state="none" output="½"/>
             <when state="Greek" output="ί"/>
             <when state="macron" next="macron+grave"/>
-        </action>
-        <action id="2←4 f⎈⎇">
-            <when state="none" output="ƒ"/>
-            <when state="math𝛃" output="𝟋"/>
         </action>
         <action id="ˇ">
             <when state="none" next="caron"/>
