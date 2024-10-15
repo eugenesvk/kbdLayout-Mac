@@ -2926,7 +2926,7 @@
             <when state="math_a-z_b" output="𝐪"/>
             <when state="math_a-z_bit" output="𝒒"/>
             <when state="math_a-z_it" output="𝑞"/>
-            <when state="math𝓈" output="𝓆"/>
+            <when state="math_a-z_sans" output="𝓆"/>
             <when state="math_a-z_sansb" output="𝓺"/>
             <when state="math𝔣" output="𝔮"/>
             <when state="math𝔣𝖇" output="𝖖"/>
@@ -2955,7 +2955,7 @@
             <when state="math_a-z_b" output="𝐐"/>
             <when state="math_a-z_bit" output="𝑸"/>
             <when state="math_a-z_it" output="𝑄"/>
-            <when state="math𝓈" output="𝒬"/>
+            <when state="math_a-z_sans" output="𝒬"/>
             <when state="math_a-z_sansb" output="𝓠"/>
             <when state="math𝔣" output="𝔔"/>
             <when state="math𝔣𝖇" output="𝕼"/>
@@ -2995,7 +2995,7 @@
             <when state="math_a-z_b" output="𝐰"/>
             <when state="math_a-z_bit" output="𝒘"/>
             <when state="math_a-z_it" output="𝑤"/>
-            <when state="math𝓈" output="𝓌"/>
+            <when state="math_a-z_sans" output="𝓌"/>
             <when state="math_a-z_sansb" output="𝔀"/>
             <when state="math𝔣" output="𝔴"/>
             <when state="math𝔣𝖇" output="𝖜"/>
@@ -3028,7 +3028,7 @@
             <when state="math_a-z_b" output="𝐖"/>
             <when state="math_a-z_bit" output="𝑾"/>
             <when state="math_a-z_it" output="𝑊"/>
-            <when state="math𝓈" output="𝒲"/>
+            <when state="math_a-z_sans" output="𝒲"/>
             <when state="math_a-z_sansb" output="𝓦"/>
             <when state="math𝔣" output="𝔚"/>
             <when state="math𝔣𝖇" output="𝖂"/>
@@ -3211,7 +3211,7 @@
             <when state="math_a-z_b" output="𝐫"/>
             <when state="math_a-z_bit" output="𝒓"/>
             <when state="math_a-z_it" output="𝑟"/>
-            <when state="math𝓈" output="𝓇"/>
+            <when state="math_a-z_sans" output="𝓇"/>
             <when state="math_a-z_sansb" output="𝓻"/>
             <when state="math𝔣" output="𝔯"/>
             <when state="math𝔣𝖇" output="𝖗"/>
@@ -3312,7 +3312,7 @@
             <when state="math_a-z_b" output="𝐭"/>
             <when state="math_a-z_bit" output="𝒕"/>
             <when state="math_a-z_it" output="𝑡"/>
-            <when state="math𝓈" output="𝓉"/>
+            <when state="math_a-z_sans" output="𝓉"/>
             <when state="math_a-z_sansb" output="𝓽"/>
             <when state="math𝔣" output="𝔱"/>
             <when state="math𝔣𝖇" output="𝖙"/>
@@ -3345,7 +3345,7 @@
             <when state="math_a-z_b" output="𝐓"/>
             <when state="math_a-z_bit" output="𝑻"/>
             <when state="math_a-z_it" output="𝑇"/>
-            <when state="math𝓈" output="𝒯"/>
+            <when state="math_a-z_sans" output="𝒯"/>
             <when state="math_a-z_sansb" output="𝓣"/>
             <when state="math𝔣" output="𝔗"/>
             <when state="math𝔣𝖇" output="𝕿"/>
@@ -3403,7 +3403,7 @@
             <when state="math_a-z_b" output="𝐲"/>
             <when state="math_a-z_bit" output="𝒚"/>
             <when state="math_a-z_it" output="𝑦"/>
-            <when state="math𝓈" output="𝓎"/>
+            <when state="math_a-z_sans" output="𝓎"/>
             <when state="math_a-z_sansb" output="𝔂"/>
             <when state="math𝔣" output="𝔶"/>
             <when state="math𝔣𝖇" output="𝖞"/>
@@ -3438,7 +3438,7 @@
             <when state="math_a-z_b" output="𝐘"/>
             <when state="math_a-z_bit" output="𝒀"/>
             <when state="math_a-z_it" output="𝑌"/>
-            <when state="math𝓈" output="𝒴"/>
+            <when state="math_a-z_sans" output="𝒴"/>
             <when state="math_a-z_sansb" output="𝓨"/>
             <when state="math𝔣" output="𝔜"/>
             <when state="math𝔣𝖇" output="𝖄"/>
@@ -3508,7 +3508,7 @@
             <when state="math_a-z_b" output="𝐮"/>
             <when state="math_a-z_bit" output="𝒖"/>
             <when state="math_a-z_it" output="𝑢"/>
-            <when state="math𝓈" output="𝓊"/>
+            <when state="math_a-z_sans" output="𝓊"/>
             <when state="math_a-z_sansb" output="𝓾"/>
             <when state="math𝔣" output="𝔲"/>
             <when state="math𝔣𝖇" output="𝖚"/>
@@ -3563,7 +3563,7 @@
             <when state="math_a-z_b" output="𝐔"/>
             <when state="math_a-z_bit" output="𝑼"/>
             <when state="math_a-z_it" output="𝑈"/>
-            <when state="math𝓈" output="𝒰"/>
+            <when state="math_a-z_sans" output="𝒰"/>
             <when state="math_a-z_sansb" output="𝓤"/>
             <when state="math𝔣" output="𝔘"/>
             <when state="math𝔣𝖇" output="𝖀"/>
@@ -3649,7 +3649,7 @@
             <when state="math_a-z_b" output="𝐢"/>
             <when state="math_a-z_bit" output="𝒊"/>
             <when state="math_a-z_it" output="𝑖"/>
-            <when state="math𝓈" output="𝒾"/>
+            <when state="math_a-z_sans" output="𝒾"/>
             <when state="math_a-z_sansb" output="𝓲"/>
             <when state="math𝔣" output="𝔦"/>
             <when state="math𝔣𝖇" output="𝖎"/>
@@ -3870,7 +3870,7 @@
             <when state="math_a-z_b" output="𝐎"/>
             <when state="math_a-z_bit" output="𝑶"/>
             <when state="math_a-z_it" output="𝑂"/>
-            <when state="math𝓈" output="𝒪"/>
+            <when state="math_a-z_sans" output="𝒪"/>
             <when state="math_a-z_sansb" output="𝓞"/>
             <when state="math𝔣" output="𝔒"/>
             <when state="math𝔣𝖇" output="𝕺"/>
@@ -3945,7 +3945,7 @@
             <when state="math_a-z_b" output="𝐩"/>
             <when state="math_a-z_bit" output="𝒑"/>
             <when state="math_a-z_it" output="𝑝"/>
-            <when state="math𝓈" output="𝓅"/>
+            <when state="math_a-z_sans" output="𝓅"/>
             <when state="math_a-z_sansb" output="𝓹"/>
             <when state="math𝔣" output="𝔭"/>
             <when state="math𝔣𝖇" output="𝖕"/>
@@ -3977,7 +3977,7 @@
             <when state="math_a-z_b" output="𝐏"/>
             <when state="math_a-z_bit" output="𝑷"/>
             <when state="math_a-z_it" output="𝑃"/>
-            <when state="math𝓈" output="𝒫"/>
+            <when state="math_a-z_sans" output="𝒫"/>
             <when state="math_a-z_sansb" output="𝓟"/>
             <when state="math𝔣" output="𝔓"/>
             <when state="math𝔣𝖇" output="𝕻"/>
@@ -4106,7 +4106,7 @@
             <when state="math_a-z_b" output="𝐚"/>
             <when state="math_a-z_bit" output="𝒂"/>
             <when state="math_a-z_it" output="𝑎"/>
-            <when state="math𝓈" output="𝒶"/>
+            <when state="math_a-z_sans" output="𝒶"/>
             <when state="math_a-z_sansb" output="𝓪"/>
             <when state="math𝔣" output="𝔞"/>
             <when state="math𝔣𝖇" output="𝖆"/>
@@ -4155,7 +4155,7 @@
             <when state="math_a-z_b" output="𝐀"/>
             <when state="math_a-z_bit" output="𝑨"/>
             <when state="math_a-z_it" output="𝐴"/>
-            <when state="math𝓈" output="𝒜"/>
+            <when state="math_a-z_sans" output="𝒜"/>
             <when state="math_a-z_sansb" output="𝓐"/>
             <when state="math𝔣" output="𝔄"/>
             <when state="math𝔣𝖇" output="𝕬"/>
@@ -4231,7 +4231,7 @@
             <when state="math_a-z_b" output="𝐬"/>
             <when state="math_a-z_bit" output="𝒔"/>
             <when state="math_a-z_it" output="𝑠"/>
-            <when state="math𝓈" output="𝓈"/>
+            <when state="math_a-z_sans" output="𝓈"/>
             <when state="math_a-z_sansb" output="𝓼"/>
             <when state="math𝔣" output="𝔰"/>
             <when state="math𝔣𝖇" output="𝖘"/>
@@ -4268,7 +4268,7 @@
             <when state="math_a-z_b" output="𝐒"/>
             <when state="math_a-z_bit" output="𝑺"/>
             <when state="math_a-z_it" output="𝑆"/>
-            <when state="math𝓈" output="𝒮"/>
+            <when state="math_a-z_sans" output="𝒮"/>
             <when state="math_a-z_sansb" output="𝓢"/>
             <when state="math𝔣" output="𝔖"/>
             <when state="math𝔣𝖇" output="𝕾"/>
@@ -4296,7 +4296,7 @@
         <action id="2←2 s⎇">
             <when state="none" output="§"/>
             <when state="Greek" output="ß"/>
-            <when state="Math" next="math𝓈"/>
+            <when state="Math" next="math_a-z_sans"/>
             <when state="Typographical" output="🕱"/>
             <when state="fs" output="⸮"/>
             <when state="math𝛃" next="math𝝱"/>
@@ -4357,7 +4357,7 @@
             <when state="math_a-z_b" output="𝐝"/>
             <when state="math_a-z_bit" output="𝒅"/>
             <when state="math_a-z_it" output="𝑑"/>
-            <when state="math𝓈" output="𝒹"/>
+            <when state="math_a-z_sans" output="𝒹"/>
             <when state="math_a-z_sansb" output="𝓭"/>
             <when state="math𝔣" output="𝔡"/>
             <when state="math𝔣𝖇" output="𝖉"/>
@@ -4393,7 +4393,7 @@
             <when state="math_a-z_b" output="𝐃"/>
             <when state="math_a-z_bit" output="𝑫"/>
             <when state="math_a-z_it" output="𝐷"/>
-            <when state="math𝓈" output="𝒟"/>
+            <when state="math_a-z_sans" output="𝒟"/>
             <when state="math_a-z_sansb" output="𝓓"/>
             <when state="math𝔣" output="𝔇"/>
             <when state="math𝔣𝖇" output="𝕯"/>
@@ -4480,7 +4480,7 @@
             <when state="math_a-z_b" output="𝐟"/>
             <when state="math_a-z_bit" output="𝒇"/>
             <when state="math_a-z_it" output="𝑓"/>
-            <when state="math𝓈" output="𝒻"/>
+            <when state="math_a-z_sans" output="𝒻"/>
             <when state="math_a-z_sansb" output="𝓯"/>
             <when state="math𝔣" output="𝔣"/>
             <when state="math𝔣𝖇" output="𝖋"/>
@@ -4617,7 +4617,7 @@
             <when state="math_a-z_b" output="𝐆"/>
             <when state="math_a-z_bit" output="𝑮"/>
             <when state="math_a-z_it" output="𝐺"/>
-            <when state="math𝓈" output="𝒢"/>
+            <when state="math_a-z_sans" output="𝒢"/>
             <when state="math_a-z_sansb" output="𝓖"/>
             <when state="math𝔣" output="𝔊"/>
             <when state="math𝔣𝖇" output="𝕲"/>
@@ -4675,7 +4675,7 @@
             <when state="math⋃N-Ary" output="⊼"/>
             <when state="math_a-z_b" output="𝐡"/>
             <when state="math_a-z_bit" output="𝒉"/>
-            <when state="math𝓈" output="𝒽"/>
+            <when state="math_a-z_sans" output="𝒽"/>
             <when state="math_a-z_sansb" output="𝓱"/>
             <when state="math𝔣" output="𝔥"/>
             <when state="math𝔣𝖇" output="𝖍"/>
@@ -4783,7 +4783,7 @@
             <when state="math_a-z_b" output="𝐣"/>
             <when state="math_a-z_bit" output="𝒋"/>
             <when state="math_a-z_it" output="𝑗"/>
-            <when state="math𝓈" output="𝒿"/>
+            <when state="math_a-z_sans" output="𝒿"/>
             <when state="math_a-z_sansb" output="𝓳"/>
             <when state="math𝔣" output="𝔧"/>
             <when state="math𝔣𝖇" output="𝖏"/>
@@ -4814,7 +4814,7 @@
             <when state="math_a-z_b" output="𝐉"/>
             <when state="math_a-z_bit" output="𝑱"/>
             <when state="math_a-z_it" output="𝐽"/>
-            <when state="math𝓈" output="𝒥"/>
+            <when state="math_a-z_sans" output="𝒥"/>
             <when state="math_a-z_sansb" output="𝓙"/>
             <when state="math𝔣" output="𝔍"/>
             <when state="math𝔣𝖇" output="𝕵"/>
@@ -4904,7 +4904,7 @@
             <when state="math_a-z_b" output="𝐤"/>
             <when state="math_a-z_bit" output="𝒌"/>
             <when state="math_a-z_it" output="𝑘"/>
-            <when state="math𝓈" output="𝓀"/>
+            <when state="math_a-z_sans" output="𝓀"/>
             <when state="math_a-z_sansb" output="𝓴"/>
             <when state="math𝔣" output="𝔨"/>
             <when state="math𝔣𝖇" output="𝖐"/>
@@ -4935,7 +4935,7 @@
             <when state="math_a-z_b" output="𝐊"/>
             <when state="math_a-z_bit" output="𝑲"/>
             <when state="math_a-z_it" output="𝐾"/>
-            <when state="math𝓈" output="𝒦"/>
+            <when state="math_a-z_sans" output="𝒦"/>
             <when state="math_a-z_sansb" output="𝓚"/>
             <when state="math𝔣" output="𝔎"/>
             <when state="math𝔣𝖇" output="𝕶"/>
@@ -5034,7 +5034,7 @@
             <when state="math_a-z_b" output="𝐥"/>
             <when state="math_a-z_bit" output="𝒍"/>
             <when state="math_a-z_it" output="𝑙"/>
-            <when state="math𝓈" output="𝓁"/>
+            <when state="math_a-z_sans" output="𝓁"/>
             <when state="math_a-z_sansb" output="𝓵"/>
             <when state="math𝔣" output="𝔩"/>
             <when state="math𝔣𝖇" output="𝖑"/>
@@ -5297,7 +5297,7 @@
             <when state="math_a-z_b" output="𝐳"/>
             <when state="math_a-z_bit" output="𝒛"/>
             <when state="math_a-z_it" output="𝑧"/>
-            <when state="math𝓈" output="𝓏"/>
+            <when state="math_a-z_sans" output="𝓏"/>
             <when state="math_a-z_sansb" output="𝔃"/>
             <when state="math𝔣" output="𝔷"/>
             <when state="math𝔣𝖇" output="𝖟"/>
@@ -5328,7 +5328,7 @@
             <when state="math_a-z_b" output="𝐙"/>
             <when state="math_a-z_bit" output="𝒁"/>
             <when state="math_a-z_it" output="𝑍"/>
-            <when state="math𝓈" output="𝒵"/>
+            <when state="math_a-z_sans" output="𝒵"/>
             <when state="math_a-z_sansb" output="𝓩"/>
             <when state="math𝔣𝖇" output="𝖅"/>
             <when state="math𝕤" output="ℤ"/>
@@ -5376,7 +5376,7 @@
             <when state="math_a-z_b" output="𝐱"/>
             <when state="math_a-z_bit" output="𝒙"/>
             <when state="math_a-z_it" output="𝑥"/>
-            <when state="math𝓈" output="𝓍"/>
+            <when state="math_a-z_sans" output="𝓍"/>
             <when state="math_a-z_sansb" output="𝔁"/>
             <when state="math𝔣" output="𝔵"/>
             <when state="math𝔣𝖇" output="𝖝"/>
@@ -5404,7 +5404,7 @@
             <when state="math_a-z_b" output="𝐗"/>
             <when state="math_a-z_bit" output="𝑿"/>
             <when state="math_a-z_it" output="𝑋"/>
-            <when state="math𝓈" output="𝒳"/>
+            <when state="math_a-z_sans" output="𝒳"/>
             <when state="math_a-z_sansb" output="𝓧"/>
             <when state="math𝔣" output="𝔛"/>
             <when state="math𝔣𝖇" output="𝖃"/>
@@ -5455,7 +5455,7 @@
             <when state="math_a-z_b" output="𝐜"/>
             <when state="math_a-z_bit" output="𝒄"/>
             <when state="math_a-z_it" output="𝑐"/>
-            <when state="math𝓈" output="𝒸"/>
+            <when state="math_a-z_sans" output="𝒸"/>
             <when state="math_a-z_sansb" output="𝓬"/>
             <when state="math𝔣" output="𝔠"/>
             <when state="math𝔣𝖇" output="𝖈"/>
@@ -5489,7 +5489,7 @@
             <when state="math_a-z_b" output="𝐂"/>
             <when state="math_a-z_bit" output="𝑪"/>
             <when state="math_a-z_it" output="𝐶"/>
-            <when state="math𝓈" output="𝒞"/>
+            <when state="math_a-z_sans" output="𝒞"/>
             <when state="math_a-z_sansb" output="𝓒"/>
             <when state="math𝔣𝖇" output="𝕮"/>
             <when state="math𝕤" output="ℂ"/>
@@ -5537,7 +5537,7 @@
             <when state="math_a-z_b" output="𝐯"/>
             <when state="math_a-z_bit" output="𝒗"/>
             <when state="math_a-z_it" output="𝑣"/>
-            <when state="math𝓈" output="𝓋"/>
+            <when state="math_a-z_sans" output="𝓋"/>
             <when state="math_a-z_sansb" output="𝓿"/>
             <when state="math𝔣" output="𝔳"/>
             <when state="math𝔣𝖇" output="𝖛"/>
@@ -5567,7 +5567,7 @@
             <when state="math_a-z_b" output="𝐕"/>
             <when state="math_a-z_bit" output="𝑽"/>
             <when state="math_a-z_it" output="𝑉"/>
-            <when state="math𝓈" output="𝒱"/>
+            <when state="math_a-z_sans" output="𝒱"/>
             <when state="math_a-z_sansb" output="𝓥"/>
             <when state="math𝔣" output="𝔙"/>
             <when state="math𝔣𝖇" output="𝖁"/>
@@ -5615,7 +5615,7 @@
             <when state="math_a-z_b" output="𝐛"/>
             <when state="math_a-z_bit" output="𝒃"/>
             <when state="math_a-z_it" output="𝑏"/>
-            <when state="math𝓈" output="𝒷"/>
+            <when state="math_a-z_sans" output="𝒷"/>
             <when state="math_a-z_sansb" output="𝓫"/>
             <when state="math𝔣" output="𝔟"/>
             <when state="math𝔣𝖇" output="𝖇"/>
@@ -5667,7 +5667,7 @@
             <when state="Math" next="math_a-z_b"/>
             <when state="Typographical" output="⌨"/>
             <when state="math_a-z_it" next="math_a-z_bit"/>
-            <when state="math𝓈" next="math_a-z_sansb"/>
+            <when state="math_a-z_sans" next="math_a-z_sansb"/>
             <when state="math𝔣" next="math𝔣𝖇"/>
             <when state="math𝗌" next="math𝗯"/>
             <when state="math𝘪" next="math𝙗𝙞"/>
@@ -5700,7 +5700,7 @@
             <when state="math_a-z_b" output="𝐧"/>
             <when state="math_a-z_bit" output="𝒏"/>
             <when state="math_a-z_it" output="𝑛"/>
-            <when state="math𝓈" output="𝓃"/>
+            <when state="math_a-z_sans" output="𝓃"/>
             <when state="math_a-z_sansb" output="𝓷"/>
             <when state="math𝔣" output="𝔫"/>
             <when state="math𝔣𝖇" output="𝖓"/>
@@ -5736,7 +5736,7 @@
             <when state="math_a-z_b" output="𝐍"/>
             <when state="math_a-z_bit" output="𝑵"/>
             <when state="math_a-z_it" output="𝑁"/>
-            <when state="math𝓈" output="𝒩"/>
+            <when state="math_a-z_sans" output="𝒩"/>
             <when state="math_a-z_sansb" output="𝓝"/>
             <when state="math𝔣" output="𝔑"/>
             <when state="math𝔣𝖇" output="𝕹"/>
@@ -5803,7 +5803,7 @@
             <when state="math_a-z_b" output="𝐦"/>
             <when state="math_a-z_bit" output="𝒎"/>
             <when state="math_a-z_it" output="𝑚"/>
-            <when state="math𝓈" output="𝓂"/>
+            <when state="math_a-z_sans" output="𝓂"/>
             <when state="math_a-z_sansb" output="𝓶"/>
             <when state="math𝔣" output="𝔪"/>
             <when state="math𝔣𝖇" output="𝖒"/>
@@ -6736,7 +6736,7 @@
         <when state="math_a-z_b" output="𝐛"/>
         <when state="math_a-z_bit" output="𝒊"/>
         <when state="math_a-z_it" output="𝑖"/>
-        <when state="math𝓈" output="𝓈"/>
+        <when state="math_a-z_sans" output="𝓈"/>
         <when state="math_a-z_sansb" output="𝓫"/>
         <when state="math𝔣" output="𝔣"/>
         <when state="math𝔣𝖇" output="𝖇"/>
