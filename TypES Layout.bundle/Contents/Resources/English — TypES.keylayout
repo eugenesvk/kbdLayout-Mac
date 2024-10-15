@@ -4285,6 +4285,14 @@
             <when state="math𝞲" output="𝞢"/>
             <when state="space" output="␢"/>
         </action>
+        <action id="2←2 s⇧⎇">
+            <when state="none" output="⌀"/>
+            <when state="math𝛃" output="𝛁"/>
+            <when state="math𝜄" output="𝛻"/>
+            <when state="math𝜾" output="𝜵"/>
+            <when state="math𝝱" output="𝝯"/>
+            <when state="math𝞲" output="𝞩"/>
+        </action>
         <action id="2←2 s⎇">
             <when state="none" output="§"/>
             <when state="Greek" output="ß"/>
@@ -6535,14 +6543,6 @@
             <when state="math√" next="math∛"/>
             <when state="math∛" next="math∜"/>
             <when state="math∜" next="math√"/>
-        </action>
-        <action id="2←2 s⇧⎇">
-            <when state="none" output="⌀"/>
-            <when state="math𝛃" output="𝛁"/>
-            <when state="math𝜄" output="𝛻"/>
-            <when state="math𝜾" output="𝜵"/>
-            <when state="math𝝱" output="𝝯"/>
-            <when state="math𝞲" output="𝞩"/>
         </action>
         <action id="␠⎇">
             <when state="none" output=" "/>
