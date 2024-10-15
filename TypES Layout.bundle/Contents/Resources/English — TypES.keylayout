@@ -2925,7 +2925,7 @@
             <when state="math⩰" output="⩰"/>
             <when state="math𝐛" output="𝐪"/>
             <when state="math𝐛𝑖" output="𝒒"/>
-            <when state="math𝑖" output="𝑞"/>
+            <when state="math_a-z_it" output="𝑞"/>
             <when state="math𝓈" output="𝓆"/>
             <when state="math𝓈𝓫" output="𝓺"/>
             <when state="math𝔣" output="𝔮"/>
@@ -2954,7 +2954,7 @@
             <!-- <when state="macron" output="Ӣ"/> -->
             <when state="math𝐛" output="𝐐"/>
             <when state="math𝐛𝑖" output="𝑸"/>
-            <when state="math𝑖" output="𝑄"/>
+            <when state="math_a-z_it" output="𝑄"/>
             <when state="math𝓈" output="𝒬"/>
             <when state="math𝓈𝓫" output="𝓠"/>
             <when state="math𝔣" output="𝔔"/>
@@ -2994,7 +2994,7 @@
             <when state="math⋃N-Ary" output="⅀"/>
             <when state="math𝐛" output="𝐰"/>
             <when state="math𝐛𝑖" output="𝒘"/>
-            <when state="math𝑖" output="𝑤"/>
+            <when state="math_a-z_it" output="𝑤"/>
             <when state="math𝓈" output="𝓌"/>
             <when state="math𝓈𝓫" output="𝔀"/>
             <when state="math𝔣" output="𝔴"/>
@@ -3027,7 +3027,7 @@
             <when state="math|" output="⊮"/>
             <when state="math𝐛" output="𝐖"/>
             <when state="math𝐛𝑖" output="𝑾"/>
-            <when state="math𝑖" output="𝑊"/>
+            <when state="math_a-z_it" output="𝑊"/>
             <when state="math𝓈" output="𝒲"/>
             <when state="math𝓈𝓫" output="𝓦"/>
             <when state="math𝔣" output="𝔚"/>
@@ -3098,7 +3098,7 @@
             <when state="math⪴" output="⋜"/>
             <when state="math𝐛" output="𝐞"/>
             <when state="math𝐛𝑖" output="𝒆"/>
-            <when state="math𝑖" output="𝑒"/>
+            <when state="math_a-z_it" output="𝑒"/>
             <when state="math𝓈𝓫" output="𝓮"/>
             <when state="math𝔣" output="𝔢"/>
             <when state="math𝔣𝖇" output="𝖊"/>
@@ -3142,7 +3142,7 @@
             <when state="math/" output="∄"/>
             <when state="math𝐛" output="𝐄"/>
             <when state="math𝐛𝑖" output="𝑬"/>
-            <when state="math𝑖" output="𝐸"/>
+            <when state="math_a-z_it" output="𝐸"/>
             <when state="math𝓈𝓫" output="𝓔"/>
             <when state="math𝔣" output="𝔈"/>
             <when state="math𝔣𝖇" output="𝕰"/>
@@ -3210,7 +3210,7 @@
             <when state="math⪴" output="⋝"/>
             <when state="math𝐛" output="𝐫"/>
             <when state="math𝐛𝑖" output="𝒓"/>
-            <when state="math𝑖" output="𝑟"/>
+            <when state="math_a-z_it" output="𝑟"/>
             <when state="math𝓈" output="𝓇"/>
             <when state="math𝓈𝓫" output="𝓻"/>
             <when state="math𝔣" output="𝔯"/>
@@ -3243,7 +3243,7 @@
             <when state="math=" output="≖"/>
             <when state="math𝐛" output="𝐑"/>
             <when state="math𝐛𝑖" output="𝑹"/>
-            <when state="math𝑖" output="𝑅"/>
+            <when state="math_a-z_it" output="𝑅"/>
             <when state="math𝓈𝓫" output="𝓡"/>
             <when state="math𝔣𝖇" output="𝕽"/>
             <when state="math𝕤" output="ℝ"/>
@@ -3311,7 +3311,7 @@
             <when state="math⩳" next="math⋍"/>
             <when state="math𝐛" output="𝐭"/>
             <when state="math𝐛𝑖" output="𝒕"/>
-            <when state="math𝑖" output="𝑡"/>
+            <when state="math_a-z_it" output="𝑡"/>
             <when state="math𝓈" output="𝓉"/>
             <when state="math𝓈𝓫" output="𝓽"/>
             <when state="math𝔣" output="𝔱"/>
@@ -3344,7 +3344,7 @@
             <when state="math∅≷" output="≭"/>
             <when state="math𝐛" output="𝐓"/>
             <when state="math𝐛𝑖" output="𝑻"/>
-            <when state="math𝑖" output="𝑇"/>
+            <when state="math_a-z_it" output="𝑇"/>
             <when state="math𝓈" output="𝒯"/>
             <when state="math𝓈𝓫" output="𝓣"/>
             <when state="math𝔣" output="𝔗"/>
@@ -3402,7 +3402,7 @@
             <when state="math⋃N-Ary" output="⊻"/>
             <when state="math𝐛" output="𝐲"/>
             <when state="math𝐛𝑖" output="𝒚"/>
-            <when state="math𝑖" output="𝑦"/>
+            <when state="math_a-z_it" output="𝑦"/>
             <when state="math𝓈" output="𝓎"/>
             <when state="math𝓈𝓫" output="𝔂"/>
             <when state="math𝔣" output="𝔶"/>
@@ -3437,7 +3437,7 @@
             <when state="macron" output="Ȳ"/>
             <when state="math𝐛" output="𝐘"/>
             <when state="math𝐛𝑖" output="𝒀"/>
-            <when state="math𝑖" output="𝑌"/>
+            <when state="math_a-z_it" output="𝑌"/>
             <when state="math𝓈" output="𝒴"/>
             <when state="math𝓈𝓫" output="𝓨"/>
             <when state="math𝔣" output="𝔜"/>
@@ -3507,7 +3507,7 @@
             <when state="math⩷" output="⩷"/>
             <when state="math𝐛" output="𝐮"/>
             <when state="math𝐛𝑖" output="𝒖"/>
-            <when state="math𝑖" output="𝑢"/>
+            <when state="math_a-z_it" output="𝑢"/>
             <when state="math𝓈" output="𝓊"/>
             <when state="math𝓈𝓫" output="𝓾"/>
             <when state="math𝔣" output="𝔲"/>
@@ -3562,7 +3562,7 @@
             <when state="math∂" output="∮"/>
             <when state="math𝐛" output="𝐔"/>
             <when state="math𝐛𝑖" output="𝑼"/>
-            <when state="math𝑖" output="𝑈"/>
+            <when state="math_a-z_it" output="𝑈"/>
             <when state="math𝓈" output="𝒰"/>
             <when state="math𝓈𝓫" output="𝓤"/>
             <when state="math𝔣" output="𝔘"/>
@@ -3648,7 +3648,7 @@
             <when state="math⯹" output="⯹"/>
             <when state="math𝐛" output="𝐢"/>
             <when state="math𝐛𝑖" output="𝒊"/>
-            <when state="math𝑖" output="𝑖"/>
+            <when state="math_a-z_it" output="𝑖"/>
             <when state="math𝓈" output="𝒾"/>
             <when state="math𝓈𝓫" output="𝓲"/>
             <when state="math𝔣" output="𝔦"/>
@@ -3698,7 +3698,7 @@
             <when state="math∂" output="∯"/>
             <when state="math𝐛" output="𝐈"/>
             <when state="math𝐛𝑖" output="𝑰"/>
-            <when state="math𝑖" output="𝐼"/>
+            <when state="math_a-z_it" output="𝐼"/>
             <when state="math𝓈𝓫" output="𝓘"/>
             <when state="math𝔣𝖇" output="𝕴"/>
             <when state="math𝕤" output="𝕀"/>
@@ -3727,7 +3727,7 @@
             <when state="none" next="Diacritics"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Greek" output="†"/>
-            <when state="Math" next="math𝑖"/>
+            <when state="Math" next="math_a-z_it"/>
             <when state="OldCyrillic" output="ї"/>
             <when state="Typographical" output="↖"/>
             <when state="diaeresis" output="ï"/>
@@ -3737,7 +3737,7 @@
             <when state="math⩦" next="math≑"/>
             <when state="math⩷" next="math="/>
             <when state="math𝐛" next="math𝐛𝑖"/>
-            <when state="math𝑖" output="𝚤"/>
+            <when state="math_a-z_it" output="𝚤"/>
             <when state="math𝗌" next="math𝘪"/>
             <when state="math𝗯" next="math𝙗𝙞"/>
             <when state="math𝛃" next="math𝜄"/>
@@ -3814,7 +3814,7 @@
             <when state="math⭀" output="⭀"/>
             <when state="math𝐛" output="𝐨"/>
             <when state="math𝐛𝑖" output="𝒐"/>
-            <when state="math𝑖" output="𝑜"/>
+            <when state="math_a-z_it" output="𝑜"/>
             <when state="math𝓈𝓫" output="𝓸"/>
             <when state="math𝔣" output="𝔬"/>
             <when state="math𝔣𝖇" output="𝖔"/>
@@ -3869,7 +3869,7 @@
             <when state="math∅⊻" output="⋎"/>
             <when state="math𝐛" output="𝐎"/>
             <when state="math𝐛𝑖" output="𝑶"/>
-            <when state="math𝑖" output="𝑂"/>
+            <when state="math_a-z_it" output="𝑂"/>
             <when state="math𝓈" output="𝒪"/>
             <when state="math𝓈𝓫" output="𝓞"/>
             <when state="math𝔣" output="𝔒"/>
@@ -3944,7 +3944,7 @@
             <when state="math⪴" output="⋟"/>
             <when state="math𝐛" output="𝐩"/>
             <when state="math𝐛𝑖" output="𝒑"/>
-            <when state="math𝑖" output="𝑝"/>
+            <when state="math_a-z_it" output="𝑝"/>
             <when state="math𝓈" output="𝓅"/>
             <when state="math𝓈𝓫" output="𝓹"/>
             <when state="math𝔣" output="𝔭"/>
@@ -3976,7 +3976,7 @@
             <!-- <when state="diaeresis" output="Ӟ"/> -->
             <when state="math𝐛" output="𝐏"/>
             <when state="math𝐛𝑖" output="𝑷"/>
-            <when state="math𝑖" output="𝑃"/>
+            <when state="math_a-z_it" output="𝑃"/>
             <when state="math𝓈" output="𝒫"/>
             <when state="math𝓈𝓫" output="𝓟"/>
             <when state="math𝔣" output="𝔓"/>
@@ -4105,7 +4105,7 @@
             <when state="math⯹" output="⩮"/>
             <when state="math𝐛" output="𝐚"/>
             <when state="math𝐛𝑖" output="𝒂"/>
-            <when state="math𝑖" output="𝑎"/>
+            <when state="math_a-z_it" output="𝑎"/>
             <when state="math𝓈" output="𝒶"/>
             <when state="math𝓈𝓫" output="𝓪"/>
             <when state="math𝔣" output="𝔞"/>
@@ -4154,7 +4154,7 @@
             <when state="math≠" output="≆"/>
             <when state="math𝐛" output="𝐀"/>
             <when state="math𝐛𝑖" output="𝑨"/>
-            <when state="math𝑖" output="𝐴"/>
+            <when state="math_a-z_it" output="𝐴"/>
             <when state="math𝓈" output="𝒜"/>
             <when state="math𝓈𝓫" output="𝓐"/>
             <when state="math𝔣" output="𝔄"/>
@@ -4230,7 +4230,7 @@
             <when state="math⯹" output="≛"/>
             <when state="math𝐛" output="𝐬"/>
             <when state="math𝐛𝑖" output="𝒔"/>
-            <when state="math𝑖" output="𝑠"/>
+            <when state="math_a-z_it" output="𝑠"/>
             <when state="math𝓈" output="𝓈"/>
             <when state="math𝓈𝓫" output="𝓼"/>
             <when state="math𝔣" output="𝔰"/>
@@ -4267,7 +4267,7 @@
             <when state="math⋃N-Ary" output="⅀"/>
             <when state="math𝐛" output="𝐒"/>
             <when state="math𝐛𝑖" output="𝑺"/>
-            <when state="math𝑖" output="𝑆"/>
+            <when state="math_a-z_it" output="𝑆"/>
             <when state="math𝓈" output="𝒮"/>
             <when state="math𝓈𝓫" output="𝓢"/>
             <when state="math𝔣" output="𝔖"/>
@@ -4356,7 +4356,7 @@
             <when state="math⪴" output="≤"/>
             <when state="math𝐛" output="𝐝"/>
             <when state="math𝐛𝑖" output="𝒅"/>
-            <when state="math𝑖" output="𝑑"/>
+            <when state="math_a-z_it" output="𝑑"/>
             <when state="math𝓈" output="𝒹"/>
             <when state="math𝓈𝓫" output="𝓭"/>
             <when state="math𝔣" output="𝔡"/>
@@ -4392,7 +4392,7 @@
             <when state="math⊹" output="⋋"/>
             <when state="math𝐛" output="𝐃"/>
             <when state="math𝐛𝑖" output="𝑫"/>
-            <when state="math𝑖" output="𝐷"/>
+            <when state="math_a-z_it" output="𝐷"/>
             <when state="math𝓈" output="𝒟"/>
             <when state="math𝓈𝓫" output="𝓓"/>
             <when state="math𝔣" output="𝔇"/>
@@ -4479,7 +4479,7 @@
             <when state="math⪴" output="≥"/>
             <when state="math𝐛" output="𝐟"/>
             <when state="math𝐛𝑖" output="𝒇"/>
-            <when state="math𝑖" output="𝑓"/>
+            <when state="math_a-z_it" output="𝑓"/>
             <when state="math𝓈" output="𝒻"/>
             <when state="math𝓈𝓫" output="𝓯"/>
             <when state="math𝔣" output="𝔣"/>
@@ -4512,7 +4512,7 @@
             <when state="math⊹" output="⋌"/>
             <when state="math𝐛" output="𝐅"/>
             <when state="math𝐛𝑖" output="𝑭"/>
-            <when state="math𝑖" output="𝐹"/>
+            <when state="math_a-z_it" output="𝐹"/>
             <when state="math𝓈𝓫" output="𝓕"/>
             <when state="math𝔣" output="𝔉"/>
             <when state="math𝔣𝖇" output="𝕱"/>
@@ -4579,7 +4579,7 @@
             <when state="math⩴" output="⩴"/>
             <when state="math𝐛" output="𝐠"/>
             <when state="math𝐛𝑖" output="𝒈"/>
-            <when state="math𝑖" output="𝑔"/>
+            <when state="math_a-z_it" output="𝑔"/>
             <when state="math𝓈𝓫" output="𝓰"/>
             <when state="math𝔣" output="𝔤"/>
             <when state="math𝔣𝖇" output="𝖌"/>
@@ -4616,7 +4616,7 @@
             <when state="math∅⊂" output="⋫"/>
             <when state="math𝐛" output="𝐆"/>
             <when state="math𝐛𝑖" output="𝑮"/>
-            <when state="math𝑖" output="𝐺"/>
+            <when state="math_a-z_it" output="𝐺"/>
             <when state="math𝓈" output="𝒢"/>
             <when state="math𝓈𝓫" output="𝓖"/>
             <when state="math𝔣" output="𝔊"/>
@@ -4707,7 +4707,7 @@
             <when state="math∅⊂" output="⋪"/>
             <when state="math𝐛" output="𝐇"/>
             <when state="math𝐛𝑖" output="𝑯"/>
-            <when state="math𝑖" output="𝐻"/>
+            <when state="math_a-z_it" output="𝐻"/>
             <when state="math𝓈𝓫" output="𝓗"/>
             <when state="math𝔣𝖇" output="𝕳"/>
             <when state="math𝕤" output="ℍ"/>
@@ -4782,7 +4782,7 @@
             <when state="math⪴" output="⪳"/>
             <when state="math𝐛" output="𝐣"/>
             <when state="math𝐛𝑖" output="𝒋"/>
-            <when state="math𝑖" output="𝑗"/>
+            <when state="math_a-z_it" output="𝑗"/>
             <when state="math𝓈" output="𝒿"/>
             <when state="math𝓈𝓫" output="𝓳"/>
             <when state="math𝔣" output="𝔧"/>
@@ -4813,7 +4813,7 @@
             <when state="math∅≷" output="≸"/>
             <when state="math𝐛" output="𝐉"/>
             <when state="math𝐛𝑖" output="𝑱"/>
-            <when state="math𝑖" output="𝐽"/>
+            <when state="math_a-z_it" output="𝐽"/>
             <when state="math𝓈" output="𝒥"/>
             <when state="math𝓈𝓫" output="𝓙"/>
             <when state="math𝔣" output="𝔍"/>
@@ -4845,7 +4845,7 @@
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
             <when state="math=" output="͇"/>
-            <when state="math𝑖" output="𝚥"/>
+            <when state="math_a-z_it" output="𝚥"/>
             <when state="space" output="⁠"/>
         </action>
         <action id="2→2 j⎈">
@@ -4903,7 +4903,7 @@
             <when state="math⪴" output="⪴"/>
             <when state="math𝐛" output="𝐤"/>
             <when state="math𝐛𝑖" output="𝒌"/>
-            <when state="math𝑖" output="𝑘"/>
+            <when state="math_a-z_it" output="𝑘"/>
             <when state="math𝓈" output="𝓀"/>
             <when state="math𝓈𝓫" output="𝓴"/>
             <when state="math𝔣" output="𝔨"/>
@@ -4934,7 +4934,7 @@
             <when state="math∅≷" output="≹"/>
             <when state="math𝐛" output="𝐊"/>
             <when state="math𝐛𝑖" output="𝑲"/>
-            <when state="math𝑖" output="𝐾"/>
+            <when state="math_a-z_it" output="𝐾"/>
             <when state="math𝓈" output="𝒦"/>
             <when state="math𝓈𝓫" output="𝓚"/>
             <when state="math𝔣" output="𝔎"/>
@@ -5033,7 +5033,7 @@
             <when state="math⭀" output="⟸"/>
             <when state="math𝐛" output="𝐥"/>
             <when state="math𝐛𝑖" output="𝒍"/>
-            <when state="math𝑖" output="𝑙"/>
+            <when state="math_a-z_it" output="𝑙"/>
             <when state="math𝓈" output="𝓁"/>
             <when state="math𝓈𝓫" output="𝓵"/>
             <when state="math𝔣" output="𝔩"/>
@@ -5070,7 +5070,7 @@
             <when state="math∅⊂" output="⊄"/>
             <when state="math𝐛" output="𝐋"/>
             <when state="math𝐛𝑖" output="𝑳"/>
-            <when state="math𝑖" output="𝐿"/>
+            <when state="math_a-z_it" output="𝐿"/>
             <when state="math𝓈𝓫" output="𝓛"/>
             <when state="math𝔣" output="𝔏"/>
             <when state="math𝔣𝖇" output="𝕷"/>
@@ -5296,7 +5296,7 @@
             <when state="math⩳" output="≊"/>
             <when state="math𝐛" output="𝐳"/>
             <when state="math𝐛𝑖" output="𝒛"/>
-            <when state="math𝑖" output="𝑧"/>
+            <when state="math_a-z_it" output="𝑧"/>
             <when state="math𝓈" output="𝓏"/>
             <when state="math𝓈𝓫" output="𝔃"/>
             <when state="math𝔣" output="𝔷"/>
@@ -5327,7 +5327,7 @@
             <when state="math⩳" output="≇"/>
             <when state="math𝐛" output="𝐙"/>
             <when state="math𝐛𝑖" output="𝒁"/>
-            <when state="math𝑖" output="𝑍"/>
+            <when state="math_a-z_it" output="𝑍"/>
             <when state="math𝓈" output="𝒵"/>
             <when state="math𝓈𝓫" output="𝓩"/>
             <when state="math𝔣𝖇" output="𝖅"/>
@@ -5375,7 +5375,7 @@
             <when state="math⧤" next="math="/>
             <when state="math𝐛" output="𝐱"/>
             <when state="math𝐛𝑖" output="𝒙"/>
-            <when state="math𝑖" output="𝑥"/>
+            <when state="math_a-z_it" output="𝑥"/>
             <when state="math𝓈" output="𝓍"/>
             <when state="math𝓈𝓫" output="𝔁"/>
             <when state="math𝔣" output="𝔵"/>
@@ -5403,7 +5403,7 @@
             <when state="math⋃N-Ary" output="⨂"/>
             <when state="math𝐛" output="𝐗"/>
             <when state="math𝐛𝑖" output="𝑿"/>
-            <when state="math𝑖" output="𝑋"/>
+            <when state="math_a-z_it" output="𝑋"/>
             <when state="math𝓈" output="𝒳"/>
             <when state="math𝓈𝓫" output="𝓧"/>
             <when state="math𝔣" output="𝔛"/>
@@ -5454,7 +5454,7 @@
             <when state="math⊹" output="⋋"/>
             <when state="math𝐛" output="𝐜"/>
             <when state="math𝐛𝑖" output="𝒄"/>
-            <when state="math𝑖" output="𝑐"/>
+            <when state="math_a-z_it" output="𝑐"/>
             <when state="math𝓈" output="𝒸"/>
             <when state="math𝓈𝓫" output="𝓬"/>
             <when state="math𝔣" output="𝔠"/>
@@ -5488,7 +5488,7 @@
             <when state="math∅⊄" output="⋤"/>
             <when state="math𝐛" output="𝐂"/>
             <when state="math𝐛𝑖" output="𝑪"/>
-            <when state="math𝑖" output="𝐶"/>
+            <when state="math_a-z_it" output="𝐶"/>
             <when state="math𝓈" output="𝒞"/>
             <when state="math𝓈𝓫" output="𝓒"/>
             <when state="math𝔣𝖇" output="𝕮"/>
@@ -5536,7 +5536,7 @@
             <when state="math⊹" output="⋌"/>
             <when state="math𝐛" output="𝐯"/>
             <when state="math𝐛𝑖" output="𝒗"/>
-            <when state="math𝑖" output="𝑣"/>
+            <when state="math_a-z_it" output="𝑣"/>
             <when state="math𝓈" output="𝓋"/>
             <when state="math𝓈𝓫" output="𝓿"/>
             <when state="math𝔣" output="𝔳"/>
@@ -5566,7 +5566,7 @@
             <when state="math∅⊄" output="⋥"/>
             <when state="math𝐛" output="𝐕"/>
             <when state="math𝐛𝑖" output="𝑽"/>
-            <when state="math𝑖" output="𝑉"/>
+            <when state="math_a-z_it" output="𝑉"/>
             <when state="math𝓈" output="𝒱"/>
             <when state="math𝓈𝓫" output="𝓥"/>
             <when state="math𝔣" output="𝔙"/>
@@ -5614,7 +5614,7 @@
             <when state="math∅⊄" output="⋭"/>
             <when state="math𝐛" output="𝐛"/>
             <when state="math𝐛𝑖" output="𝒃"/>
-            <when state="math𝑖" output="𝑏"/>
+            <when state="math_a-z_it" output="𝑏"/>
             <when state="math𝓈" output="𝒷"/>
             <when state="math𝓈𝓫" output="𝓫"/>
             <when state="math𝔣" output="𝔟"/>
@@ -5646,7 +5646,7 @@
             <when state="math∅⊂" output="⋭"/>
             <when state="math𝐛" output="𝐁"/>
             <when state="math𝐛𝑖" output="𝑩"/>
-            <when state="math𝑖" output="𝐵"/>
+            <when state="math_a-z_it" output="𝐵"/>
             <when state="math𝓈𝓫" output="𝓑"/>
             <when state="math𝔣" output="𝔅"/>
             <when state="math𝔣𝖇" output="𝕭"/>
@@ -5666,7 +5666,7 @@
             <when state="none" output="ß"/>
             <when state="Math" next="math𝐛"/>
             <when state="Typographical" output="⌨"/>
-            <when state="math𝑖" next="math𝐛𝑖"/>
+            <when state="math_a-z_it" next="math𝐛𝑖"/>
             <when state="math𝓈" next="math𝓈𝓫"/>
             <when state="math𝔣" next="math𝔣𝖇"/>
             <when state="math𝗌" next="math𝗯"/>
@@ -5699,7 +5699,7 @@
             <when state="math⋃N-Ary" output="⊽"/>
             <when state="math𝐛" output="𝐧"/>
             <when state="math𝐛𝑖" output="𝒏"/>
-            <when state="math𝑖" output="𝑛"/>
+            <when state="math_a-z_it" output="𝑛"/>
             <when state="math𝓈" output="𝓃"/>
             <when state="math𝓈𝓫" output="𝓷"/>
             <when state="math𝔣" output="𝔫"/>
@@ -5735,7 +5735,7 @@
             <when state="math∅⊂" output="⋬"/>
             <when state="math𝐛" output="𝐍"/>
             <when state="math𝐛𝑖" output="𝑵"/>
-            <when state="math𝑖" output="𝑁"/>
+            <when state="math_a-z_it" output="𝑁"/>
             <when state="math𝓈" output="𝒩"/>
             <when state="math𝓈𝓫" output="𝓝"/>
             <when state="math𝔣" output="𝔑"/>
@@ -5802,7 +5802,7 @@
             <when state="math⩰" output="≊"/>
             <when state="math𝐛" output="𝐦"/>
             <when state="math𝐛𝑖" output="𝒎"/>
-            <when state="math𝑖" output="𝑚"/>
+            <when state="math_a-z_it" output="𝑚"/>
             <when state="math𝓈" output="𝓂"/>
             <when state="math𝓈𝓫" output="𝓶"/>
             <when state="math𝔣" output="𝔪"/>
@@ -5836,7 +5836,7 @@
             <when state="math⋃N-Ary" output="⊽"/>
             <when state="math𝐛" output="𝐌"/>
             <when state="math𝐛𝑖" output="𝑴"/>
-            <when state="math𝑖" output="𝑀"/>
+            <when state="math_a-z_it" output="𝑀"/>
             <when state="math𝓈𝓫" output="𝓜"/>
             <when state="math𝔣" output="𝔐"/>
             <when state="math𝔣𝖇" output="𝕸"/>
@@ -6735,7 +6735,7 @@
         <when state="math⯹" output="⯹"/>
         <when state="math𝐛" output="𝐛"/>
         <when state="math𝐛𝑖" output="𝒊"/>
-        <when state="math𝑖" output="𝑖"/>
+        <when state="math_a-z_it" output="𝑖"/>
         <when state="math𝓈" output="𝓈"/>
         <when state="math𝓈𝓫" output="𝓫"/>
         <when state="math𝔣" output="𝔣"/>
