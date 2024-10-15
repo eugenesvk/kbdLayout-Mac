@@ -2923,7 +2923,7 @@
             <when state="math≊" output="⩰"/>
             <when state="math≌" output="⩰"/>
             <when state="math⩰" output="⩰"/>
-            <when state="math𝐛" output="𝐪"/>
+            <when state="math_a-z_b" output="𝐪"/>
             <when state="math_a-z_bit" output="𝒒"/>
             <when state="math_a-z_it" output="𝑞"/>
             <when state="math𝓈" output="𝓆"/>
@@ -2952,7 +2952,7 @@
             <!-- <when state="diaeresis" output="Ӥ"/> -->
             <!-- <when state="grave" output="Ѝ"/> -->
             <!-- <when state="macron" output="Ӣ"/> -->
-            <when state="math𝐛" output="𝐐"/>
+            <when state="math_a-z_b" output="𝐐"/>
             <when state="math_a-z_bit" output="𝑸"/>
             <when state="math_a-z_it" output="𝑄"/>
             <when state="math𝓈" output="𝒬"/>
@@ -2992,7 +2992,7 @@
             <when state="math∅≷" output="⊱"/>
             <when state="math∡" output="∿"/>
             <when state="math⋃N-Ary" output="⅀"/>
-            <when state="math𝐛" output="𝐰"/>
+            <when state="math_a-z_b" output="𝐰"/>
             <when state="math_a-z_bit" output="𝒘"/>
             <when state="math_a-z_it" output="𝑤"/>
             <when state="math𝓈" output="𝓌"/>
@@ -3025,7 +3025,7 @@
             <when state="dot-below" output="Ẉ"/>
             <when state="grave" output="Ẁ"/>
             <when state="math|" output="⊮"/>
-            <when state="math𝐛" output="𝐖"/>
+            <when state="math_a-z_b" output="𝐖"/>
             <when state="math_a-z_bit" output="𝑾"/>
             <when state="math_a-z_it" output="𝑊"/>
             <when state="math𝓈" output="𝒲"/>
@@ -3096,7 +3096,7 @@
             <when state="math⋟" output="⋜"/>
             <when state="math⪳" output="⋜"/>
             <when state="math⪴" output="⋜"/>
-            <when state="math𝐛" output="𝐞"/>
+            <when state="math_a-z_b" output="𝐞"/>
             <when state="math_a-z_bit" output="𝒆"/>
             <when state="math_a-z_it" output="𝑒"/>
             <when state="math𝓈𝓫" output="𝓮"/>
@@ -3140,7 +3140,7 @@
             <when state="macron+acute" output="Ḗ"/>
             <when state="macron+grave" output="Ḕ"/>
             <when state="math/" output="∄"/>
-            <when state="math𝐛" output="𝐄"/>
+            <when state="math_a-z_b" output="𝐄"/>
             <when state="math_a-z_bit" output="𝑬"/>
             <when state="math_a-z_it" output="𝐸"/>
             <when state="math𝓈𝓫" output="𝓔"/>
@@ -3208,7 +3208,7 @@
             <when state="math⩳" output="⋍"/>
             <when state="math⪳" output="⋝"/>
             <when state="math⪴" output="⋝"/>
-            <when state="math𝐛" output="𝐫"/>
+            <when state="math_a-z_b" output="𝐫"/>
             <when state="math_a-z_bit" output="𝒓"/>
             <when state="math_a-z_it" output="𝑟"/>
             <when state="math𝓈" output="𝓇"/>
@@ -3241,7 +3241,7 @@
             <when state="dot-below" output="Ṛ"/>
             <when state="dot-below+macron" output="Ṝ"/>
             <when state="math=" output="≖"/>
-            <when state="math𝐛" output="𝐑"/>
+            <when state="math_a-z_b" output="𝐑"/>
             <when state="math_a-z_bit" output="𝑹"/>
             <when state="math_a-z_it" output="𝑅"/>
             <when state="math𝓈𝓫" output="𝓡"/>
@@ -3309,7 +3309,7 @@
             <when state="math⧤" output="⧤"/>
             <when state="math⩰" output="≃"/>
             <when state="math⩳" next="math⋍"/>
-            <when state="math𝐛" output="𝐭"/>
+            <when state="math_a-z_b" output="𝐭"/>
             <when state="math_a-z_bit" output="𝒕"/>
             <when state="math_a-z_it" output="𝑡"/>
             <when state="math𝓈" output="𝓉"/>
@@ -3342,7 +3342,7 @@
             <when state="dot-above" output="Ṫ"/>
             <when state="dot-below" output="Ṭ"/>
             <when state="math∅≷" output="≭"/>
-            <when state="math𝐛" output="𝐓"/>
+            <when state="math_a-z_b" output="𝐓"/>
             <when state="math_a-z_bit" output="𝑻"/>
             <when state="math_a-z_it" output="𝑇"/>
             <when state="math𝓈" output="𝒯"/>
@@ -3400,7 +3400,7 @@
             <when state="math∜" next="math√"/>
             <when state="math≠" output="≄"/>
             <when state="math⋃N-Ary" output="⊻"/>
-            <when state="math𝐛" output="𝐲"/>
+            <when state="math_a-z_b" output="𝐲"/>
             <when state="math_a-z_bit" output="𝒚"/>
             <when state="math_a-z_it" output="𝑦"/>
             <when state="math𝓈" output="𝓎"/>
@@ -3435,7 +3435,7 @@
             <when state="greek-tonos" output="Ύ"/>
             <when state="hook-above" output="Ỷ"/>
             <when state="macron" output="Ȳ"/>
-            <when state="math𝐛" output="𝐘"/>
+            <when state="math_a-z_b" output="𝐘"/>
             <when state="math_a-z_bit" output="𝒀"/>
             <when state="math_a-z_it" output="𝑌"/>
             <when state="math𝓈" output="𝒴"/>
@@ -3505,7 +3505,7 @@
             <when state="math⋃N-Ary" output="⋃"/>
             <when state="math⩦" output="⩷"/>
             <when state="math⩷" output="⩷"/>
-            <when state="math𝐛" output="𝐮"/>
+            <when state="math_a-z_b" output="𝐮"/>
             <when state="math_a-z_bit" output="𝒖"/>
             <when state="math_a-z_it" output="𝑢"/>
             <when state="math𝓈" output="𝓊"/>
@@ -3560,7 +3560,7 @@
             <when state="math_" output="⊔"/>
             <when state="math|" output="⊭"/>
             <when state="math∂" output="∮"/>
-            <when state="math𝐛" output="𝐔"/>
+            <when state="math_a-z_b" output="𝐔"/>
             <when state="math_a-z_bit" output="𝑼"/>
             <when state="math_a-z_it" output="𝑈"/>
             <when state="math𝓈" output="𝒰"/>
@@ -3646,7 +3646,7 @@
             <when state="math⩮" output="⯹"/>
             <when state="math⩷" next="math="/>
             <when state="math⯹" output="⯹"/>
-            <when state="math𝐛" output="𝐢"/>
+            <when state="math_a-z_b" output="𝐢"/>
             <when state="math_a-z_bit" output="𝒊"/>
             <when state="math_a-z_it" output="𝑖"/>
             <when state="math𝓈" output="𝒾"/>
@@ -3696,7 +3696,7 @@
             <when state="math_" output="⊓"/>
             <when state="math|" output="⊯"/>
             <when state="math∂" output="∯"/>
-            <when state="math𝐛" output="𝐈"/>
+            <when state="math_a-z_b" output="𝐈"/>
             <when state="math_a-z_bit" output="𝑰"/>
             <when state="math_a-z_it" output="𝐼"/>
             <when state="math𝓈𝓫" output="𝓘"/>
@@ -3736,7 +3736,7 @@
             <when state="math≑" next="math⩷"/>
             <when state="math⩦" next="math≑"/>
             <when state="math⩷" next="math="/>
-            <when state="math𝐛" next="math_a-z_bit"/>
+            <when state="math_a-z_b" next="math_a-z_bit"/>
             <when state="math_a-z_it" output="𝚤"/>
             <when state="math𝗌" next="math𝘪"/>
             <when state="math𝗯" next="math𝙗𝙞"/>
@@ -3812,7 +3812,7 @@
             <when state="math⪳" output="⋞"/>
             <when state="math⪴" output="⋞"/>
             <when state="math⭀" output="⭀"/>
-            <when state="math𝐛" output="𝐨"/>
+            <when state="math_a-z_b" output="𝐨"/>
             <when state="math_a-z_bit" output="𝒐"/>
             <when state="math_a-z_it" output="𝑜"/>
             <when state="math𝓈𝓫" output="𝓸"/>
@@ -3867,7 +3867,7 @@
             <when state="macron+grave" output="Ṑ"/>
             <when state="math∂" output="∰"/>
             <when state="math∅⊻" output="⋎"/>
-            <when state="math𝐛" output="𝐎"/>
+            <when state="math_a-z_b" output="𝐎"/>
             <when state="math_a-z_bit" output="𝑶"/>
             <when state="math_a-z_it" output="𝑂"/>
             <when state="math𝓈" output="𝒪"/>
@@ -3942,7 +3942,7 @@
             <when state="math⩰" output="≈"/>
             <when state="math⪳" output="⋟"/>
             <when state="math⪴" output="⋟"/>
-            <when state="math𝐛" output="𝐩"/>
+            <when state="math_a-z_b" output="𝐩"/>
             <when state="math_a-z_bit" output="𝒑"/>
             <when state="math_a-z_it" output="𝑝"/>
             <when state="math𝓈" output="𝓅"/>
@@ -3974,7 +3974,7 @@
             <when state="cur$re" output="₧"/>
             <when state="dot-above" output="Ṗ"/>
             <!-- <when state="diaeresis" output="Ӟ"/> -->
-            <when state="math𝐛" output="𝐏"/>
+            <when state="math_a-z_b" output="𝐏"/>
             <when state="math_a-z_bit" output="𝑷"/>
             <when state="math_a-z_it" output="𝑃"/>
             <when state="math𝓈" output="𝒫"/>
@@ -4103,7 +4103,7 @@
             <when state="math⩰" next="math="/>
             <when state="math⩳" output="⩳"/>
             <when state="math⯹" output="⩮"/>
-            <when state="math𝐛" output="𝐚"/>
+            <when state="math_a-z_b" output="𝐚"/>
             <when state="math_a-z_bit" output="𝒂"/>
             <when state="math_a-z_it" output="𝑎"/>
             <when state="math𝓈" output="𝒶"/>
@@ -4152,7 +4152,7 @@
             <when state="math=" output="≃"/>
             <when state="math∅⊻" output="⋏"/>
             <when state="math≠" output="≆"/>
-            <when state="math𝐛" output="𝐀"/>
+            <when state="math_a-z_b" output="𝐀"/>
             <when state="math_a-z_bit" output="𝑨"/>
             <when state="math_a-z_it" output="𝐴"/>
             <when state="math𝓈" output="𝒜"/>
@@ -4228,7 +4228,7 @@
             <when state="math⋃N-Ary" output="∑"/>
             <when state="math⩮" output="≛"/>
             <when state="math⯹" output="≛"/>
-            <when state="math𝐛" output="𝐬"/>
+            <when state="math_a-z_b" output="𝐬"/>
             <when state="math_a-z_bit" output="𝒔"/>
             <when state="math_a-z_it" output="𝑠"/>
             <when state="math𝓈" output="𝓈"/>
@@ -4265,7 +4265,7 @@
             <when state="dot-below+dot-above" output="Ṩ"/>
             <!-- <when state="diaeresis" output="Ӹ"/> -->
             <when state="math⋃N-Ary" output="⅀"/>
-            <when state="math𝐛" output="𝐒"/>
+            <when state="math_a-z_b" output="𝐒"/>
             <when state="math_a-z_bit" output="𝑺"/>
             <when state="math_a-z_it" output="𝑆"/>
             <when state="math𝓈" output="𝒮"/>
@@ -4354,7 +4354,7 @@
             <when state="math⩴" output="≕"/>
             <when state="math⪳" output="≤"/>
             <when state="math⪴" output="≤"/>
-            <when state="math𝐛" output="𝐝"/>
+            <when state="math_a-z_b" output="𝐝"/>
             <when state="math_a-z_bit" output="𝒅"/>
             <when state="math_a-z_it" output="𝑑"/>
             <when state="math𝓈" output="𝒹"/>
@@ -4390,7 +4390,7 @@
             <when state="dot-below" output="Ḍ"/>
             <when state="math=" output="≜"/>
             <when state="math⊹" output="⋋"/>
-            <when state="math𝐛" output="𝐃"/>
+            <when state="math_a-z_b" output="𝐃"/>
             <when state="math_a-z_bit" output="𝑫"/>
             <when state="math_a-z_it" output="𝐷"/>
             <when state="math𝓈" output="𝒟"/>
@@ -4477,7 +4477,7 @@
             <when state="math⩴" output="≔"/>
             <when state="math⪳" output="≥"/>
             <when state="math⪴" output="≥"/>
-            <when state="math𝐛" output="𝐟"/>
+            <when state="math_a-z_b" output="𝐟"/>
             <when state="math_a-z_bit" output="𝒇"/>
             <when state="math_a-z_it" output="𝑓"/>
             <when state="math𝓈" output="𝒻"/>
@@ -4510,7 +4510,7 @@
             <!-- <when state="diaeresis" output="Ӓ"/> -->
             <when state="math|" output="⊬"/>
             <when state="math⊹" output="⋌"/>
-            <when state="math𝐛" output="𝐅"/>
+            <when state="math_a-z_b" output="𝐅"/>
             <when state="math_a-z_bit" output="𝑭"/>
             <when state="math_a-z_it" output="𝐹"/>
             <when state="math𝓈𝓫" output="𝓕"/>
@@ -4577,7 +4577,7 @@
             <when state="math⊹" output="⋈"/>
             <when state="math⩦" output="≑"/>
             <when state="math⩴" output="⩴"/>
-            <when state="math𝐛" output="𝐠"/>
+            <when state="math_a-z_b" output="𝐠"/>
             <when state="math_a-z_bit" output="𝒈"/>
             <when state="math_a-z_it" output="𝑔"/>
             <when state="math𝓈𝓫" output="𝓰"/>
@@ -4614,7 +4614,7 @@
             <when state="math=" output="⩷"/>
             <when state="math∅≷" output="≵"/>
             <when state="math∅⊂" output="⋫"/>
-            <when state="math𝐛" output="𝐆"/>
+            <when state="math_a-z_b" output="𝐆"/>
             <when state="math_a-z_bit" output="𝑮"/>
             <when state="math_a-z_it" output="𝐺"/>
             <when state="math𝓈" output="𝒢"/>
@@ -4673,7 +4673,7 @@
             <when state="math∅⊂" output="⊲"/>
             <when state="math∅⊄" output="⋪"/>
             <when state="math⋃N-Ary" output="⊼"/>
-            <when state="math𝐛" output="𝐡"/>
+            <when state="math_a-z_b" output="𝐡"/>
             <when state="math_a-z_bit" output="𝒉"/>
             <when state="math𝓈" output="𝒽"/>
             <when state="math𝓈𝓫" output="𝓱"/>
@@ -4705,7 +4705,7 @@
             <when state="greek-tonos" output="Ή"/>
             <when state="math∅≷" output="≴"/>
             <when state="math∅⊂" output="⋪"/>
-            <when state="math𝐛" output="𝐇"/>
+            <when state="math_a-z_b" output="𝐇"/>
             <when state="math_a-z_bit" output="𝑯"/>
             <when state="math_a-z_it" output="𝐻"/>
             <when state="math𝓈𝓫" output="𝓗"/>
@@ -4780,7 +4780,7 @@
             <when state="math⩷" output="⩦"/>
             <when state="math⪳" output="⪳"/>
             <when state="math⪴" output="⪳"/>
-            <when state="math𝐛" output="𝐣"/>
+            <when state="math_a-z_b" output="𝐣"/>
             <when state="math_a-z_bit" output="𝒋"/>
             <when state="math_a-z_it" output="𝑗"/>
             <when state="math𝓈" output="𝒿"/>
@@ -4811,7 +4811,7 @@
             <when state="circumflex" output="Ĵ"/>
             <when state="math=" output="≚"/>
             <when state="math∅≷" output="≸"/>
-            <when state="math𝐛" output="𝐉"/>
+            <when state="math_a-z_b" output="𝐉"/>
             <when state="math_a-z_bit" output="𝑱"/>
             <when state="math_a-z_it" output="𝐽"/>
             <when state="math𝓈" output="𝒥"/>
@@ -4901,7 +4901,7 @@
             <when state="math⩷" output="≑"/>
             <when state="math⪳" output="⪴"/>
             <when state="math⪴" output="⪴"/>
-            <when state="math𝐛" output="𝐤"/>
+            <when state="math_a-z_b" output="𝐤"/>
             <when state="math_a-z_bit" output="𝒌"/>
             <when state="math_a-z_it" output="𝑘"/>
             <when state="math𝓈" output="𝓀"/>
@@ -4932,7 +4932,7 @@
             <when state="dot-below" output="Ḳ"/>
             <when state="math=" output="≙"/>
             <when state="math∅≷" output="≹"/>
-            <when state="math𝐛" output="𝐊"/>
+            <when state="math_a-z_b" output="𝐊"/>
             <when state="math_a-z_bit" output="𝑲"/>
             <when state="math_a-z_it" output="𝐾"/>
             <when state="math𝓈" output="𝒦"/>
@@ -5031,7 +5031,7 @@
             <when state="math⪳" output="≼"/>
             <when state="math⪴" output="≼"/>
             <when state="math⭀" output="⟸"/>
-            <when state="math𝐛" output="𝐥"/>
+            <when state="math_a-z_b" output="𝐥"/>
             <when state="math_a-z_bit" output="𝒍"/>
             <when state="math_a-z_it" output="𝑙"/>
             <when state="math𝓈" output="𝓁"/>
@@ -5068,7 +5068,7 @@
             <when state="math∅∈" output="∉"/>
             <when state="math∅≷" output="≰"/>
             <when state="math∅⊂" output="⊄"/>
-            <when state="math𝐛" output="𝐋"/>
+            <when state="math_a-z_b" output="𝐋"/>
             <when state="math_a-z_bit" output="𝑳"/>
             <when state="math_a-z_it" output="𝐿"/>
             <when state="math𝓈𝓫" output="𝓛"/>
@@ -5294,7 +5294,7 @@
             <when state="math⧣" output="⧣"/>
             <when state="math⧤" output="⧣"/>
             <when state="math⩳" output="≊"/>
-            <when state="math𝐛" output="𝐳"/>
+            <when state="math_a-z_b" output="𝐳"/>
             <when state="math_a-z_bit" output="𝒛"/>
             <when state="math_a-z_it" output="𝑧"/>
             <when state="math𝓈" output="𝓏"/>
@@ -5325,7 +5325,7 @@
             <when state="dot-below" output="Ẓ"/>
             <when state="math=" output="⧤"/>
             <when state="math⩳" output="≇"/>
-            <when state="math𝐛" output="𝐙"/>
+            <when state="math_a-z_b" output="𝐙"/>
             <when state="math_a-z_bit" output="𝒁"/>
             <when state="math_a-z_it" output="𝑍"/>
             <when state="math𝓈" output="𝒵"/>
@@ -5373,7 +5373,7 @@
             <when state="math⋕" next="math⧣"/>
             <when state="math⧣" next="math⧤"/>
             <when state="math⧤" next="math="/>
-            <when state="math𝐛" output="𝐱"/>
+            <when state="math_a-z_b" output="𝐱"/>
             <when state="math_a-z_bit" output="𝒙"/>
             <when state="math_a-z_it" output="𝑥"/>
             <when state="math𝓈" output="𝓍"/>
@@ -5401,7 +5401,7 @@
             <!-- <when state="diaeresis" output="Ӵ"/> -->
             <when state="mathO" output="⊠"/>
             <when state="math⋃N-Ary" output="⨂"/>
-            <when state="math𝐛" output="𝐗"/>
+            <when state="math_a-z_b" output="𝐗"/>
             <when state="math_a-z_bit" output="𝑿"/>
             <when state="math_a-z_it" output="𝑋"/>
             <when state="math𝓈" output="𝒳"/>
@@ -5452,7 +5452,7 @@
             <when state="math∅⊄" output="⋢"/>
             <when state="math∅⊻" output="⋎"/>
             <when state="math⊹" output="⋋"/>
-            <when state="math𝐛" output="𝐜"/>
+            <when state="math_a-z_b" output="𝐜"/>
             <when state="math_a-z_bit" output="𝒄"/>
             <when state="math_a-z_it" output="𝑐"/>
             <when state="math𝓈" output="𝒸"/>
@@ -5486,7 +5486,7 @@
             <when state="dot-above" output="Ċ"/>
             <when state="math∅⊂" output="⋢"/>
             <when state="math∅⊄" output="⋤"/>
-            <when state="math𝐛" output="𝐂"/>
+            <when state="math_a-z_b" output="𝐂"/>
             <when state="math_a-z_bit" output="𝑪"/>
             <when state="math_a-z_it" output="𝐶"/>
             <when state="math𝓈" output="𝒞"/>
@@ -5534,7 +5534,7 @@
             <when state="math≜" output="≜"/>
             <when state="math≝" output="≜"/>
             <when state="math⊹" output="⋌"/>
-            <when state="math𝐛" output="𝐯"/>
+            <when state="math_a-z_b" output="𝐯"/>
             <when state="math_a-z_bit" output="𝒗"/>
             <when state="math_a-z_it" output="𝑣"/>
             <when state="math𝓈" output="𝓋"/>
@@ -5564,7 +5564,7 @@
             <when state="greek-tonos" output="Ώ"/>
             <when state="math∅⊂" output="⋣"/>
             <when state="math∅⊄" output="⋥"/>
-            <when state="math𝐛" output="𝐕"/>
+            <when state="math_a-z_b" output="𝐕"/>
             <when state="math_a-z_bit" output="𝑽"/>
             <when state="math_a-z_it" output="𝑉"/>
             <when state="math𝓈" output="𝒱"/>
@@ -5612,7 +5612,7 @@
             <when state="math∅≷" output="≬"/>
             <when state="math∅⊂" output="⊵"/>
             <when state="math∅⊄" output="⋭"/>
-            <when state="math𝐛" output="𝐛"/>
+            <when state="math_a-z_b" output="𝐛"/>
             <when state="math_a-z_bit" output="𝒃"/>
             <when state="math_a-z_it" output="𝑏"/>
             <when state="math𝓈" output="𝒷"/>
@@ -5644,7 +5644,7 @@
             <!-- <when state="grave" output="Ѝ"/> -->
             <!-- <when state="macron" output="Ӣ"/> -->
             <when state="math∅⊂" output="⋭"/>
-            <when state="math𝐛" output="𝐁"/>
+            <when state="math_a-z_b" output="𝐁"/>
             <when state="math_a-z_bit" output="𝑩"/>
             <when state="math_a-z_it" output="𝐵"/>
             <when state="math𝓈𝓫" output="𝓑"/>
@@ -5664,7 +5664,7 @@
         </action>
         <action id="3←5 b⎇">
             <when state="none" output="ß"/>
-            <when state="Math" next="math𝐛"/>
+            <when state="Math" next="math_a-z_b"/>
             <when state="Typographical" output="⌨"/>
             <when state="math_a-z_it" next="math_a-z_bit"/>
             <when state="math𝓈" next="math𝓈𝓫"/>
@@ -5697,7 +5697,7 @@
             <when state="math≉" output="≠"/>
             <when state="math≠" output="≠"/>
             <when state="math⋃N-Ary" output="⊽"/>
-            <when state="math𝐛" output="𝐧"/>
+            <when state="math_a-z_b" output="𝐧"/>
             <when state="math_a-z_bit" output="𝒏"/>
             <when state="math_a-z_it" output="𝑛"/>
             <when state="math𝓈" output="𝓃"/>
@@ -5733,7 +5733,7 @@
             <when state="dot-below" output="Ṇ"/>
             <when state="grave" output="Ǹ"/>
             <when state="math∅⊂" output="⋬"/>
-            <when state="math𝐛" output="𝐍"/>
+            <when state="math_a-z_b" output="𝐍"/>
             <when state="math_a-z_bit" output="𝑵"/>
             <when state="math_a-z_it" output="𝑁"/>
             <when state="math𝓈" output="𝒩"/>
@@ -5800,7 +5800,7 @@
             <when state="math⋰" next="math⋱"/>
             <when state="math⋱" next="math…"/>
             <when state="math⩰" output="≊"/>
-            <when state="math𝐛" output="𝐦"/>
+            <when state="math_a-z_b" output="𝐦"/>
             <when state="math_a-z_bit" output="𝒎"/>
             <when state="math_a-z_it" output="𝑚"/>
             <when state="math𝓈" output="𝓂"/>
@@ -5834,7 +5834,7 @@
             <when state="dot-below" output="Ṃ"/>
             <when state="math∅≷" output="≨"/>
             <when state="math⋃N-Ary" output="⊽"/>
-            <when state="math𝐛" output="𝐌"/>
+            <when state="math_a-z_b" output="𝐌"/>
             <when state="math_a-z_bit" output="𝑴"/>
             <when state="math_a-z_it" output="𝑀"/>
             <when state="math𝓈𝓫" output="𝓜"/>
@@ -6733,7 +6733,7 @@
         <when state="math⪴" output="⪴"/>
         <when state="math⭀" output="⭀"/>
         <when state="math⯹" output="⯹"/>
-        <when state="math𝐛" output="𝐛"/>
+        <when state="math_a-z_b" output="𝐛"/>
         <when state="math_a-z_bit" output="𝒊"/>
         <when state="math_a-z_it" output="𝑖"/>
         <when state="math𝓈" output="𝓈"/>
