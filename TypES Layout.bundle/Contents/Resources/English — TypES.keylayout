@@ -589,7 +589,7 @@
             <!--⇧⎇-->
             <key code="0" action="2←1 a⇧⌥"/>
             <key code="1" action="⇧"/>
-            <key code="2" action="⌀"/>
+            <key code="2" action="2←2 s⇧⎇"/>
             <key code="3" action="℉"/>
             <key code="4" action="h⇧⎇"/>
             <key code="5" action="2←5 g⇧⎇"/>
@@ -6536,7 +6536,7 @@
             <when state="math∛" next="math∜"/>
             <when state="math∜" next="math√"/>
         </action>
-        <action id="⌀">
+        <action id="2←2 s⇧⎇">
             <when state="none" output="⌀"/>
             <when state="math𝛃" output="𝛁"/>
             <when state="math𝜄" output="𝛻"/>
