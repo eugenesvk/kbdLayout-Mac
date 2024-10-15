@@ -2200,7 +2200,7 @@
             <when state="math∂" output="∫"/>
             <when state="math_a-z_dbl" output="𝟙"/>
             <when state="math_a-z_sans" output="𝟣"/>
-            <when state="math𝗯" output="𝟭"/>
+            <when state="math_a-z_sansb" output="𝟭"/>
             <when state="math_a-z_mono" output="𝟷"/>
             <when state="math𝛃" output="𝟏"/>
             <when state="num_Roman" output="Ⅰ"/>
@@ -2248,7 +2248,7 @@
             <when state="math∜" output="√"/>
             <when state="math_a-z_dbl" output="𝟚"/>
             <when state="math_a-z_sans" output="𝟤"/>
-            <when state="math𝗯" output="𝟮"/>
+            <when state="math_a-z_sansb" output="𝟮"/>
             <when state="math_a-z_mono" output="𝟸"/>
             <when state="math𝛃" output="𝟐"/>
             <when state="num_Roman" output="Ⅱ"/>
@@ -2293,7 +2293,7 @@
             <when state="math∜" output="∛"/>
             <when state="math_a-z_dbl" output="𝟛"/>
             <when state="math_a-z_sans" output="𝟥"/>
-            <when state="math𝗯" output="𝟯"/>
+            <when state="math_a-z_sansb" output="𝟯"/>
             <when state="math_a-z_mono" output="𝟹"/>
             <when state="math𝛃" output="𝟑"/>
             <when state="num_Roman" output="Ⅲ"/>
@@ -2338,7 +2338,7 @@
             <when state="math∜" output="∜"/>
             <when state="math_a-z_dbl" output="𝟜"/>
             <when state="math_a-z_sans" output="𝟦"/>
-            <when state="math𝗯" output="𝟰"/>
+            <when state="math_a-z_sansb" output="𝟰"/>
             <when state="math_a-z_mono" output="𝟺"/>
             <when state="math𝛃" output="𝟒"/>
             <when state="num_Roman" output="Ⅳ"/>
@@ -2384,7 +2384,7 @@
             <when state="math⅟" output="⅕"/>
             <when state="math_a-z_dbl" output="𝟝"/>
             <when state="math_a-z_sans" output="𝟧"/>
-            <when state="math𝗯" output="𝟱"/>
+            <when state="math_a-z_sansb" output="𝟱"/>
             <when state="math_a-z_mono" output="𝟻"/>
             <when state="math𝛃" output="𝟓"/>
             <when state="num_Roman" output="Ⅴ"/>
@@ -2430,7 +2430,7 @@
             <when state="math⅟" output="⅙"/>
             <when state="math_a-z_dbl" output="𝟞"/>
             <when state="math_a-z_sans" output="𝟨"/>
-            <when state="math𝗯" output="𝟲"/>
+            <when state="math_a-z_sansb" output="𝟲"/>
             <when state="math_a-z_mono" output="𝟼"/>
             <when state="math𝛃" output="𝟔"/>
             <when state="num_Roman" output="Ⅵ"/>
@@ -2477,7 +2477,7 @@
             <when state="math⊿" next="math∡"/>
             <when state="math_a-z_dbl" output="𝟟"/>
             <when state="math_a-z_sans" output="𝟩"/>
-            <when state="math𝗯" output="𝟳"/>
+            <when state="math_a-z_sansb" output="𝟳"/>
             <when state="math_a-z_mono" output="𝟽"/>
             <when state="math𝛃" output="𝟕"/>
             <when state="num_Roman" output="Ⅶ"/>
@@ -2527,7 +2527,7 @@
             <when state="math⯹" next="math≛"/>
             <when state="math_a-z_dbl" output="𝟠"/>
             <when state="math_a-z_sans" output="𝟪"/>
-            <when state="math𝗯" output="𝟴"/>
+            <when state="math_a-z_sansb" output="𝟴"/>
             <when state="math_a-z_mono" output="𝟾"/>
             <when state="math𝛃" output="𝟖"/>
             <when state="num_Roman" output="Ⅷ"/>
@@ -2587,7 +2587,7 @@
             <when state="math⭀" next="math="/>
             <when state="math_a-z_dbl" output="𝟡"/>
             <when state="math_a-z_sans" output="𝟫"/>
-            <when state="math𝗯" output="𝟵"/>
+            <when state="math_a-z_sansb" output="𝟵"/>
             <when state="math_a-z_mono" output="𝟿"/>
             <when state="math𝛃" output="𝟗"/>
             <when state="num_Roman" output="Ⅸ"/>
@@ -2656,7 +2656,7 @@
             <when state="math⪴" output="⇒"/>
             <when state="math_a-z_dbl" output="𝟘"/>
             <when state="math_a-z_sans" output="𝟢"/>
-            <when state="math𝗯" output="𝟬"/>
+            <when state="math_a-z_sansb" output="𝟬"/>
             <when state="math_a-z_mono" output="𝟶"/>
             <when state="math𝛃" output="𝟎"/>
             <when state="num_Roman" output="Ⅹ"/>
@@ -2932,7 +2932,7 @@
             <when state="math_a-z_frakturb" output="𝖖"/>
             <when state="math_a-z_dbl" output="𝕢"/>
             <when state="math_a-z_sans" output="𝗊"/>
-            <when state="math𝗯" output="𝗾"/>
+            <when state="math_a-z_sansb" output="𝗾"/>
             <when state="math𝘪" output="𝘲"/>
             <when state="math𝙗𝙞" output="𝙦"/>
             <when state="math_a-z_mono" output="𝚚"/>
@@ -2961,7 +2961,7 @@
             <when state="math_a-z_frakturb" output="𝕼"/>
             <when state="math_a-z_dbl" output="ℚ"/>
             <when state="math_a-z_sans" output="𝖰"/>
-            <when state="math𝗯" output="𝗤"/>
+            <when state="math_a-z_sansb" output="𝗤"/>
             <when state="math𝘪" output="𝘘"/>
             <when state="math𝙗𝙞" output="𝙌"/>
             <when state="math_a-z_mono" output="𝚀"/>
@@ -3001,7 +3001,7 @@
             <when state="math_a-z_frakturb" output="𝖜"/>
             <when state="math_a-z_dbl" output="𝕨"/>
             <when state="math_a-z_sans" output="𝗐"/>
-            <when state="math𝗯" output="𝘄"/>
+            <when state="math_a-z_sansb" output="𝘄"/>
             <when state="math𝘪" output="𝘸"/>
             <when state="math𝙗𝙞" output="𝙬"/>
             <when state="math_a-z_mono" output="𝚠"/>
@@ -3034,7 +3034,7 @@
             <when state="math_a-z_frakturb" output="𝖂"/>
             <when state="math_a-z_dbl" output="𝕎"/>
             <when state="math_a-z_sans" output="𝖶"/>
-            <when state="math𝗯" output="𝗪"/>
+            <when state="math_a-z_sansb" output="𝗪"/>
             <when state="math𝘪" output="𝘞"/>
             <when state="math𝙗𝙞" output="𝙒"/>
             <when state="math_a-z_mono" output="𝚆"/>
@@ -3104,7 +3104,7 @@
             <when state="math_a-z_frakturb" output="𝖊"/>
             <when state="math_a-z_dbl" output="𝕖"/>
             <when state="math_a-z_sans" output="𝖾"/>
-            <when state="math𝗯" output="𝗲"/>
+            <when state="math_a-z_sansb" output="𝗲"/>
             <when state="math𝘪" output="𝘦"/>
             <when state="math𝙗𝙞" output="𝙚"/>
             <when state="math_a-z_mono" output="𝚎"/>
@@ -3148,7 +3148,7 @@
             <when state="math_a-z_frakturb" output="𝕰"/>
             <when state="math_a-z_dbl" output="𝔼"/>
             <when state="math_a-z_sans" output="𝖤"/>
-            <when state="math𝗯" output="𝗘"/>
+            <when state="math_a-z_sansb" output="𝗘"/>
             <when state="math𝘪" output="𝘌"/>
             <when state="math𝙗𝙞" output="𝙀"/>
             <when state="math_a-z_mono" output="𝙴"/>
@@ -3217,7 +3217,7 @@
             <when state="math_a-z_frakturb" output="𝖗"/>
             <when state="math_a-z_dbl" output="𝕣"/>
             <when state="math_a-z_sans" output="𝗋"/>
-            <when state="math𝗯" output="𝗿"/>
+            <when state="math_a-z_sansb" output="𝗿"/>
             <when state="math𝘪" output="𝘳"/>
             <when state="math𝙗𝙞" output="𝙧"/>
             <when state="math_a-z_mono" output="𝚛"/>
@@ -3248,7 +3248,7 @@
             <when state="math_a-z_frakturb" output="𝕽"/>
             <when state="math_a-z_dbl" output="ℝ"/>
             <when state="math_a-z_sans" output="𝖱"/>
-            <when state="math𝗯" output="𝗥"/>
+            <when state="math_a-z_sansb" output="𝗥"/>
             <when state="math𝘪" output="𝘙"/>
             <when state="math𝙗𝙞" output="𝙍"/>
             <when state="math_a-z_mono" output="𝚁"/>
@@ -3318,7 +3318,7 @@
             <when state="math_a-z_frakturb" output="𝖙"/>
             <when state="math_a-z_dbl" output="𝕥"/>
             <when state="math_a-z_sans" output="𝗍"/>
-            <when state="math𝗯" output="𝘁"/>
+            <when state="math_a-z_sansb" output="𝘁"/>
             <when state="math𝘪" output="𝘵"/>
             <when state="math𝙗𝙞" output="𝙩"/>
             <when state="math_a-z_mono" output="𝚝"/>
@@ -3351,7 +3351,7 @@
             <when state="math_a-z_frakturb" output="𝕿"/>
             <when state="math_a-z_dbl" output="𝕋"/>
             <when state="math_a-z_sans" output="𝖳"/>
-            <when state="math𝗯" output="𝗧"/>
+            <when state="math_a-z_sansb" output="𝗧"/>
             <when state="math𝘪" output="𝘛"/>
             <when state="math𝙗𝙞" output="𝙏"/>
             <when state="math_a-z_mono" output="𝚃"/>
@@ -3409,7 +3409,7 @@
             <when state="math_a-z_frakturb" output="𝖞"/>
             <when state="math_a-z_dbl" output="𝕪"/>
             <when state="math_a-z_sans" output="𝗒"/>
-            <when state="math𝗯" output="𝘆"/>
+            <when state="math_a-z_sansb" output="𝘆"/>
             <when state="math𝘪" output="𝘺"/>
             <when state="math𝙗𝙞" output="𝙮"/>
             <when state="math_a-z_mono" output="𝚢"/>
@@ -3444,7 +3444,7 @@
             <when state="math_a-z_frakturb" output="𝖄"/>
             <when state="math_a-z_dbl" output="𝕐"/>
             <when state="math_a-z_sans" output="𝖸"/>
-            <when state="math𝗯" output="𝗬"/>
+            <when state="math_a-z_sansb" output="𝗬"/>
             <when state="math𝘪" output="𝘠"/>
             <when state="math𝙗𝙞" output="𝙔"/>
             <when state="math_a-z_mono" output="𝚈"/>
@@ -3514,7 +3514,7 @@
             <when state="math_a-z_frakturb" output="𝖚"/>
             <when state="math_a-z_dbl" output="𝕦"/>
             <when state="math_a-z_sans" output="𝗎"/>
-            <when state="math𝗯" output="𝘂"/>
+            <when state="math_a-z_sansb" output="𝘂"/>
             <when state="math𝘪" output="𝘶"/>
             <when state="math𝙗𝙞" output="𝙪"/>
             <when state="math_a-z_mono" output="𝚞"/>
@@ -3569,7 +3569,7 @@
             <when state="math_a-z_frakturb" output="𝖀"/>
             <when state="math_a-z_dbl" output="𝕌"/>
             <when state="math_a-z_sans" output="𝖴"/>
-            <when state="math𝗯" output="𝗨"/>
+            <when state="math_a-z_sansb" output="𝗨"/>
             <when state="math𝘪" output="𝘜"/>
             <when state="math𝙗𝙞" output="𝙐"/>
             <when state="math_a-z_mono" output="𝚄"/>
@@ -3655,7 +3655,7 @@
             <when state="math_a-z_frakturb" output="𝖎"/>
             <when state="math_a-z_dbl" output="𝕚"/>
             <when state="math_a-z_sans" output="𝗂"/>
-            <when state="math𝗯" output="𝗶"/>
+            <when state="math_a-z_sansb" output="𝗶"/>
             <when state="math𝘪" output="𝘪"/>
             <when state="math𝙗𝙞" output="𝙞"/>
             <when state="math_a-z_mono" output="𝚒"/>
@@ -3703,7 +3703,7 @@
             <when state="math_a-z_frakturb" output="𝕴"/>
             <when state="math_a-z_dbl" output="𝕀"/>
             <when state="math_a-z_sans" output="𝖨"/>
-            <when state="math𝗯" output="𝗜"/>
+            <when state="math_a-z_sansb" output="𝗜"/>
             <when state="math𝘪" output="𝘐"/>
             <when state="math𝙗𝙞" output="𝙄"/>
             <when state="math_a-z_mono" output="𝙸"/>
@@ -3739,7 +3739,7 @@
             <when state="math_a-z_b" next="math_a-z_bit"/>
             <when state="math_a-z_it" output="𝚤"/>
             <when state="math_a-z_sans" next="math𝘪"/>
-            <when state="math𝗯" next="math𝙗𝙞"/>
+            <when state="math_a-z_sansb" next="math𝙗𝙞"/>
             <when state="math𝛃" next="math𝜄"/>
             <when state="math𝝱" next="math𝞲"/>
         </action>
@@ -3820,7 +3820,7 @@
             <when state="math_a-z_frakturb" output="𝖔"/>
             <when state="math_a-z_dbl" output="𝕠"/>
             <when state="math_a-z_sans" output="𝗈"/>
-            <when state="math𝗯" output="𝗼"/>
+            <when state="math_a-z_sansb" output="𝗼"/>
             <when state="math𝘪" output="𝘰"/>
             <when state="math𝙗𝙞" output="𝙤"/>
             <when state="math_a-z_mono" output="𝚘"/>
@@ -3876,7 +3876,7 @@
             <when state="math_a-z_frakturb" output="𝕺"/>
             <when state="math_a-z_dbl" output="𝕆"/>
             <when state="math_a-z_sans" output="𝖮"/>
-            <when state="math𝗯" output="𝗢"/>
+            <when state="math_a-z_sansb" output="𝗢"/>
             <when state="math𝘪" output="𝘖"/>
             <when state="math𝙗𝙞" output="𝙊"/>
             <when state="math_a-z_mono" output="𝙾"/>
@@ -3951,7 +3951,7 @@
             <when state="math_a-z_frakturb" output="𝖕"/>
             <when state="math_a-z_dbl" output="𝕡"/>
             <when state="math_a-z_sans" output="𝗉"/>
-            <when state="math𝗯" output="𝗽"/>
+            <when state="math_a-z_sansb" output="𝗽"/>
             <when state="math𝘪" output="𝘱"/>
             <when state="math𝙗𝙞" output="𝙥"/>
             <when state="math_a-z_mono" output="𝚙"/>
@@ -3983,7 +3983,7 @@
             <when state="math_a-z_frakturb" output="𝕻"/>
             <when state="math_a-z_dbl" output="ℙ"/>
             <when state="math_a-z_sans" output="𝖯"/>
-            <when state="math𝗯" output="𝗣"/>
+            <when state="math_a-z_sansb" output="𝗣"/>
             <when state="math𝘪" output="𝘗"/>
             <when state="math𝙗𝙞" output="𝙋"/>
             <when state="math_a-z_mono" output="𝙿"/>
@@ -4112,7 +4112,7 @@
             <when state="math_a-z_frakturb" output="𝖆"/>
             <when state="math_a-z_dbl" output="𝕒"/>
             <when state="math_a-z_sans" output="𝖺"/>
-            <when state="math𝗯" output="𝗮"/>
+            <when state="math_a-z_sansb" output="𝗮"/>
             <when state="math𝘪" output="𝘢"/>
             <when state="math𝙗𝙞" output="𝙖"/>
             <when state="math_a-z_mono" output="𝚊"/>
@@ -4161,7 +4161,7 @@
             <when state="math_a-z_frakturb" output="𝕬"/>
             <when state="math_a-z_dbl" output="𝔸"/>
             <when state="math_a-z_sans" output="𝖠"/>
-            <when state="math𝗯" output="𝗔"/>
+            <when state="math_a-z_sansb" output="𝗔"/>
             <when state="math𝘪" output="𝘈"/>
             <when state="math𝙗𝙞" output="𝘼"/>
             <when state="math_a-z_mono" output="𝙰"/>
@@ -4237,7 +4237,7 @@
             <when state="math_a-z_frakturb" output="𝖘"/>
             <when state="math_a-z_dbl" output="𝕤"/>
             <when state="math_a-z_sans" output="𝗌"/>
-            <when state="math𝗯" output="𝘀"/>
+            <when state="math_a-z_sansb" output="𝘀"/>
             <when state="math𝘪" output="𝘴"/>
             <when state="math𝙗𝙞" output="𝙨"/>
             <when state="math_a-z_mono" output="𝚜"/>
@@ -4274,7 +4274,7 @@
             <when state="math_a-z_frakturb" output="𝕾"/>
             <when state="math_a-z_dbl" output="𝕊"/>
             <when state="math_a-z_sans" output="𝖲"/>
-            <when state="math𝗯" output="𝗦"/>
+            <when state="math_a-z_sansb" output="𝗦"/>
             <when state="math𝘪" output="𝘚"/>
             <when state="math𝙗𝙞" output="𝙎"/>
             <when state="math_a-z_mono" output="𝚂"/>
@@ -4363,7 +4363,7 @@
             <when state="math_a-z_frakturb" output="𝖉"/>
             <when state="math_a-z_dbl" output="𝕕"/>
             <when state="math_a-z_sans" output="𝖽"/>
-            <when state="math𝗯" output="𝗱"/>
+            <when state="math_a-z_sansb" output="𝗱"/>
             <when state="math𝘪" output="𝘥"/>
             <when state="math𝙗𝙞" output="𝙙"/>
             <when state="math_a-z_mono" output="𝚍"/>
@@ -4399,7 +4399,7 @@
             <when state="math_a-z_frakturb" output="𝕯"/>
             <when state="math_a-z_dbl" output="𝔻"/>
             <when state="math_a-z_sans" output="𝖣"/>
-            <when state="math𝗯" output="𝗗"/>
+            <when state="math_a-z_sansb" output="𝗗"/>
             <when state="math𝘪" output="𝘋"/>
             <when state="math𝙗𝙞" output="𝘿"/>
             <when state="math_a-z_mono" output="𝙳"/>
@@ -4486,7 +4486,7 @@
             <when state="math_a-z_frakturb" output="𝖋"/>
             <when state="math_a-z_dbl" output="𝕗"/>
             <when state="math_a-z_sans" output="𝖿"/>
-            <when state="math𝗯" output="𝗳"/>
+            <when state="math_a-z_sansb" output="𝗳"/>
             <when state="math𝘪" output="𝘧"/>
             <when state="math𝙗𝙞" output="𝙛"/>
             <when state="math_a-z_mono" output="𝚏"/>
@@ -4518,7 +4518,7 @@
             <when state="math_a-z_frakturb" output="𝕱"/>
             <when state="math_a-z_dbl" output="𝔽"/>
             <when state="math_a-z_sans" output="𝖥"/>
-            <when state="math𝗯" output="𝗙"/>
+            <when state="math_a-z_sansb" output="𝗙"/>
             <when state="math𝘪" output="𝘍"/>
             <when state="math𝙗𝙞" output="𝙁"/>
             <when state="math_a-z_mono" output="𝙵"/>
@@ -4585,7 +4585,7 @@
             <when state="math_a-z_frakturb" output="𝖌"/>
             <when state="math_a-z_dbl" output="𝕘"/>
             <when state="math_a-z_sans" output="𝗀"/>
-            <when state="math𝗯" output="𝗴"/>
+            <when state="math_a-z_sansb" output="𝗴"/>
             <when state="math𝘪" output="𝘨"/>
             <when state="math𝙗𝙞" output="𝙜"/>
             <when state="math_a-z_mono" output="𝚐"/>
@@ -4623,7 +4623,7 @@
             <when state="math_a-z_frakturb" output="𝕲"/>
             <when state="math_a-z_dbl" output="𝔾"/>
             <when state="math_a-z_sans" output="𝖦"/>
-            <when state="math𝗯" output="𝗚"/>
+            <when state="math_a-z_sansb" output="𝗚"/>
             <when state="math𝘪" output="𝘎"/>
             <when state="math𝙗𝙞" output="𝙂"/>
             <when state="math_a-z_mono" output="𝙶"/>
@@ -4681,7 +4681,7 @@
             <when state="math_a-z_frakturb" output="𝖍"/>
             <when state="math_a-z_dbl" output="𝕙"/>
             <when state="math_a-z_sans" output="𝗁"/>
-            <when state="math𝗯" output="𝗵"/>
+            <when state="math_a-z_sansb" output="𝗵"/>
             <when state="math𝘪" output="𝘩"/>
             <when state="math𝙗𝙞" output="𝙝"/>
             <when state="math_a-z_mono" output="𝚑"/>
@@ -4712,7 +4712,7 @@
             <when state="math_a-z_frakturb" output="𝕳"/>
             <when state="math_a-z_dbl" output="ℍ"/>
             <when state="math_a-z_sans" output="𝖧"/>
-            <when state="math𝗯" output="𝗛"/>
+            <when state="math_a-z_sansb" output="𝗛"/>
             <when state="math𝘪" output="𝘏"/>
             <when state="math𝙗𝙞" output="𝙃"/>
             <when state="math_a-z_mono" output="𝙷"/>
@@ -4789,7 +4789,7 @@
             <when state="math_a-z_frakturb" output="𝖏"/>
             <when state="math_a-z_dbl" output="𝕛"/>
             <when state="math_a-z_sans" output="𝗃"/>
-            <when state="math𝗯" output="𝗷"/>
+            <when state="math_a-z_sansb" output="𝗷"/>
             <when state="math𝘪" output="𝘫"/>
             <when state="math𝙗𝙞" output="𝙟"/>
             <when state="math_a-z_mono" output="𝚓"/>
@@ -4820,7 +4820,7 @@
             <when state="math_a-z_frakturb" output="𝕵"/>
             <when state="math_a-z_dbl" output="𝕁"/>
             <when state="math_a-z_sans" output="𝖩"/>
-            <when state="math𝗯" output="𝗝"/>
+            <when state="math_a-z_sansb" output="𝗝"/>
             <when state="math𝘪" output="𝘑"/>
             <when state="math𝙗𝙞" output="𝙅"/>
             <when state="math_a-z_mono" output="𝙹"/>
@@ -4910,7 +4910,7 @@
             <when state="math_a-z_frakturb" output="𝖐"/>
             <when state="math_a-z_dbl" output="𝕜"/>
             <when state="math_a-z_sans" output="𝗄"/>
-            <when state="math𝗯" output="𝗸"/>
+            <when state="math_a-z_sansb" output="𝗸"/>
             <when state="math𝘪" output="𝘬"/>
             <when state="math𝙗𝙞" output="𝙠"/>
             <when state="math_a-z_mono" output="𝚔"/>
@@ -4941,7 +4941,7 @@
             <when state="math_a-z_frakturb" output="𝕶"/>
             <when state="math_a-z_dbl" output="𝕂"/>
             <when state="math_a-z_sans" output="𝖪"/>
-            <when state="math𝗯" output="𝗞"/>
+            <when state="math_a-z_sansb" output="𝗞"/>
             <when state="math𝘪" output="𝘒"/>
             <when state="math𝙗𝙞" output="𝙆"/>
             <when state="math_a-z_mono" output="𝙺"/>
@@ -5040,7 +5040,7 @@
             <when state="math_a-z_frakturb" output="𝖑"/>
             <when state="math_a-z_dbl" output="𝕝"/>
             <when state="math_a-z_sans" output="𝗅"/>
-            <when state="math𝗯" output="𝗹"/>
+            <when state="math_a-z_sansb" output="𝗹"/>
             <when state="math𝘪" output="𝘭"/>
             <when state="math𝙗𝙞" output="𝙡"/>
             <when state="math_a-z_mono" output="𝚕"/>
@@ -5076,7 +5076,7 @@
             <when state="math_a-z_frakturb" output="𝕷"/>
             <when state="math_a-z_dbl" output="𝕃"/>
             <when state="math_a-z_sans" output="𝖫"/>
-            <when state="math𝗯" output="𝗟"/>
+            <when state="math_a-z_sansb" output="𝗟"/>
             <when state="math𝘪" output="𝘓"/>
             <when state="math𝙗𝙞" output="𝙇"/>
             <when state="math_a-z_mono" output="𝙻"/>
@@ -5303,7 +5303,7 @@
             <when state="math_a-z_frakturb" output="𝖟"/>
             <when state="math_a-z_dbl" output="𝕫"/>
             <when state="math_a-z_sans" output="𝗓"/>
-            <when state="math𝗯" output="𝘇"/>
+            <when state="math_a-z_sansb" output="𝘇"/>
             <when state="math𝘪" output="𝘻"/>
             <when state="math𝙗𝙞" output="𝙯"/>
             <when state="math_a-z_mono" output="𝚣"/>
@@ -5333,7 +5333,7 @@
             <when state="math_a-z_frakturb" output="𝖅"/>
             <when state="math_a-z_dbl" output="ℤ"/>
             <when state="math_a-z_sans" output="𝖹"/>
-            <when state="math𝗯" output="𝗭"/>
+            <when state="math_a-z_sansb" output="𝗭"/>
             <when state="math𝘪" output="𝘡"/>
             <when state="math𝙗𝙞" output="𝙕"/>
             <when state="math_a-z_mono" output="𝚉"/>
@@ -5382,7 +5382,7 @@
             <when state="math_a-z_frakturb" output="𝖝"/>
             <when state="math_a-z_dbl" output="𝕩"/>
             <when state="math_a-z_sans" output="𝗑"/>
-            <when state="math𝗯" output="𝘅"/>
+            <when state="math_a-z_sansb" output="𝘅"/>
             <when state="math𝘪" output="𝘹"/>
             <when state="math𝙗𝙞" output="𝙭"/>
             <when state="math_a-z_mono" output="𝚡"/>
@@ -5410,7 +5410,7 @@
             <when state="math_a-z_frakturb" output="𝖃"/>
             <when state="math_a-z_dbl" output="𝕏"/>
             <when state="math_a-z_sans" output="𝖷"/>
-            <when state="math𝗯" output="𝗫"/>
+            <when state="math_a-z_sansb" output="𝗫"/>
             <when state="math𝘪" output="𝘟"/>
             <when state="math𝙗𝙞" output="𝙓"/>
             <when state="math_a-z_mono" output="𝚇"/>
@@ -5461,7 +5461,7 @@
             <when state="math_a-z_frakturb" output="𝖈"/>
             <when state="math_a-z_dbl" output="𝕔"/>
             <when state="math_a-z_sans" output="𝖼"/>
-            <when state="math𝗯" output="𝗰"/>
+            <when state="math_a-z_sansb" output="𝗰"/>
             <when state="math𝘪" output="𝘤"/>
             <when state="math𝙗𝙞" output="𝙘"/>
             <when state="math_a-z_mono" output="𝚌"/>
@@ -5494,7 +5494,7 @@
             <when state="math_a-z_frakturb" output="𝕮"/>
             <when state="math_a-z_dbl" output="ℂ"/>
             <when state="math_a-z_sans" output="𝖢"/>
-            <when state="math𝗯" output="𝗖"/>
+            <when state="math_a-z_sansb" output="𝗖"/>
             <when state="math𝘪" output="𝘊"/>
             <when state="math𝙗𝙞" output="𝘾"/>
             <when state="math_a-z_mono" output="𝙲"/>
@@ -5543,7 +5543,7 @@
             <when state="math_a-z_frakturb" output="𝖛"/>
             <when state="math_a-z_dbl" output="𝕧"/>
             <when state="math_a-z_sans" output="𝗏"/>
-            <when state="math𝗯" output="𝘃"/>
+            <when state="math_a-z_sansb" output="𝘃"/>
             <when state="math𝘪" output="𝘷"/>
             <when state="math𝙗𝙞" output="𝙫"/>
             <when state="math_a-z_mono" output="𝚟"/>
@@ -5573,7 +5573,7 @@
             <when state="math_a-z_frakturb" output="𝖁"/>
             <when state="math_a-z_dbl" output="𝕍"/>
             <when state="math_a-z_sans" output="𝖵"/>
-            <when state="math𝗯" output="𝗩"/>
+            <when state="math_a-z_sansb" output="𝗩"/>
             <when state="math𝘪" output="𝘝"/>
             <when state="math𝙗𝙞" output="𝙑"/>
             <when state="math_a-z_mono" output="𝚅"/>
@@ -5621,7 +5621,7 @@
             <when state="math_a-z_frakturb" output="𝖇"/>
             <when state="math_a-z_dbl" output="𝕓"/>
             <when state="math_a-z_sans" output="𝖻"/>
-            <when state="math𝗯" output="𝗯"/>
+            <when state="math_a-z_sansb" output="𝗯"/>
             <when state="math𝘪" output="𝘣"/>
             <when state="math𝙗𝙞" output="𝙗"/>
             <when state="math_a-z_mono" output="𝚋"/>
@@ -5652,7 +5652,7 @@
             <when state="math_a-z_frakturb" output="𝕭"/>
             <when state="math_a-z_dbl" output="𝔹"/>
             <when state="math_a-z_sans" output="𝖡"/>
-            <when state="math𝗯" output="𝗕"/>
+            <when state="math_a-z_sansb" output="𝗕"/>
             <when state="math𝘪" output="𝘉"/>
             <when state="math𝙗𝙞" output="𝘽"/>
             <when state="math_a-z_mono" output="𝙱"/>
@@ -5669,7 +5669,7 @@
             <when state="math_a-z_it" next="math_a-z_bit"/>
             <when state="math_a-z_sans" next="math_a-z_sansb"/>
             <when state="math_a-z_fraktur" next="math_a-z_frakturb"/>
-            <when state="math_a-z_sans" next="math𝗯"/>
+            <when state="math_a-z_sans" next="math_a-z_sansb"/>
             <when state="math𝘪" next="math𝙗𝙞"/>
             <when state="math𝛃" next="math𝜾"/>
         </action>
@@ -5706,7 +5706,7 @@
             <when state="math_a-z_frakturb" output="𝖓"/>
             <when state="math_a-z_dbl" output="𝕟"/>
             <when state="math_a-z_sans" output="𝗇"/>
-            <when state="math𝗯" output="𝗻"/>
+            <when state="math_a-z_sansb" output="𝗻"/>
             <when state="math𝘪" output="𝘯"/>
             <when state="math𝙗𝙞" output="𝙣"/>
             <when state="math_a-z_mono" output="𝚗"/>
@@ -5742,7 +5742,7 @@
             <when state="math_a-z_frakturb" output="𝕹"/>
             <when state="math_a-z_dbl" output="ℕ"/>
             <when state="math_a-z_sans" output="𝖭"/>
-            <when state="math𝗯" output="𝗡"/>
+            <when state="math_a-z_sansb" output="𝗡"/>
             <when state="math𝘪" output="𝘕"/>
             <when state="math𝙗𝙞" output="𝙉"/>
             <when state="math_a-z_mono" output="𝙽"/>
@@ -5809,7 +5809,7 @@
             <when state="math_a-z_frakturb" output="𝖒"/>
             <when state="math_a-z_dbl" output="𝕞"/>
             <when state="math_a-z_sans" output="𝗆"/>
-            <when state="math𝗯" output="𝗺"/>
+            <when state="math_a-z_sansb" output="𝗺"/>
             <when state="math𝘪" output="𝘮"/>
             <when state="math𝙗𝙞" output="𝙢"/>
             <when state="math_a-z_mono" output="𝚖"/>
@@ -5842,7 +5842,7 @@
             <when state="math_a-z_frakturb" output="𝕸"/>
             <when state="math_a-z_dbl" output="𝕄"/>
             <when state="math_a-z_sans" output="𝖬"/>
-            <when state="math𝗯" output="𝗠"/>
+            <when state="math_a-z_sansb" output="𝗠"/>
             <when state="math𝘪" output="𝘔"/>
             <when state="math𝙗𝙞" output="𝙈"/>
             <when state="math_a-z_mono" output="𝙼"/>
@@ -6742,7 +6742,7 @@
         <when state="math_a-z_frakturb" output="𝖇"/>
         <when state="math_a-z_dbl" output="𝕤"/>
         <when state="math_a-z_sans" output="𝗌"/>
-        <when state="math𝗯" output="𝗯"/>
+        <when state="math_a-z_sansb" output="𝗯"/>
         <when state="math𝘪" output="𝘪"/>
         <when state="math𝙗𝙞" output="𝙗"/>
         <when state="math_a-z_mono" output="𝚖"/>
