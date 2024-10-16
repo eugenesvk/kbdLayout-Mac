@@ -2981,11 +2981,11 @@
             <when state="math≊" output="⩰"/>
             <when state="math≌" output="⩰"/>
             <when state="math⩰" output="⩰"/>
-            <when state="math𝐛" output="𝐪"/>
-            <when state="math𝐛𝑖" output="𝒒"/>
-            <when state="math𝑖" output="𝑞"/>
-            <when state="math𝓈" output="𝓆"/>
-            <when state="math𝓈𝓫" output="𝓺"/>
+            <when state="math_a-z_b" output="𝐪"/>
+            <when state="math_a-z_bit" output="𝒒"/>
+            <when state="math_a-z_it" output="𝑞"/>
+            <when state="math_a-z_script" output="𝓆"/>
+            <when state="math_a-z_scriptb" output="𝓺"/>
             <when state="math_a-z_fraktur" output="𝔮"/>
             <when state="math_a-z_frakturb" output="𝖖"/>
             <when state="math_a-z_dbl" output="𝕢"/>
@@ -2995,10 +2995,10 @@
             <when state="math_a-z_sansbit" output="𝙦"/>
             <when state="math_a-z_mono" output="𝚚"/>
             <when state="math_a-z_greekb" output="𝛓"/>
-            <when state="math𝜄" output="𝜍"/>
-            <when state="math𝜾" output="𝝇"/>
-            <when state="math𝝱" output="𝞁"/>
-            <when state="math𝞲" output="𝞻"/>
+            <when state="math_a-z_greekit" output="𝜍"/>
+            <when state="math_a-z_greekbit" output="𝝇"/>
+            <when state="math_a-z_greeksansb" output="𝞁"/>
+            <when state="math_a-z_greeksansbit" output="𝞻"/>
             <when state="num_Roman" output="ↈ"/>
             <when state="num_roman" output="ↈ"/>
         </action>
@@ -3010,11 +3010,11 @@
             <when state="diaeresis" output="Ӥ"/>
             <when state="grave" output="Ѝ"/>
             <when state="macron" output="Ӣ"/>
-            <when state="math𝐛" output="𝐐"/>
-            <when state="math𝐛𝑖" output="𝑸"/>
-            <when state="math𝑖" output="𝑄"/>
-            <when state="math𝓈" output="𝒬"/>
-            <when state="math𝓈𝓫" output="𝓠"/>
+            <when state="math_a-z_b" output="𝐐"/>
+            <when state="math_a-z_bit" output="𝑸"/>
+            <when state="math_a-z_it" output="𝑄"/>
+            <when state="math_a-z_script" output="𝒬"/>
+            <when state="math_a-z_scriptb" output="𝓠"/>
             <when state="math_a-z_fraktur" output="𝔔"/>
             <when state="math_a-z_frakturb" output="𝕼"/>
             <when state="math_a-z_dbl" output="ℚ"/>
@@ -3050,11 +3050,11 @@
             <when state="math∅≷" output="⊱"/>
             <when state="math∡" output="∿"/>
             <when state="math⋃N-Ary" output="⅀"/>
-            <when state="math𝐛" output="𝐰"/>
-            <when state="math𝐛𝑖" output="𝒘"/>
-            <when state="math𝑖" output="𝑤"/>
-            <when state="math𝓈" output="𝓌"/>
-            <when state="math𝓈𝓫" output="𝔀"/>
+            <when state="math_a-z_b" output="𝐰"/>
+            <when state="math_a-z_bit" output="𝒘"/>
+            <when state="math_a-z_it" output="𝑤"/>
+            <when state="math_a-z_script" output="𝓌"/>
+            <when state="math_a-z_scriptb" output="𝔀"/>
             <when state="math_a-z_fraktur" output="𝔴"/>
             <when state="math_a-z_frakturb" output="𝖜"/>
             <when state="math_a-z_dbl" output="𝕨"/>
@@ -3064,10 +3064,10 @@
             <when state="math_a-z_sansbit" output="𝙬"/>
             <when state="math_a-z_mono" output="𝚠"/>
             <when state="math_a-z_greekb" output="𝛚"/>
-            <when state="math𝜄" output="𝜔"/>
-            <when state="math𝜾" output="𝝎"/>
-            <when state="math𝝱" output="𝞈"/>
-            <when state="math𝞲" output="𝟂"/>
+            <when state="math_a-z_greekit" output="𝜔"/>
+            <when state="math_a-z_greekbit" output="𝝎"/>
+            <when state="math_a-z_greeksansb" output="𝞈"/>
+            <when state="math_a-z_greeksansbit" output="𝟂"/>
             <when state="num_Roman" output="ↇ"/>
             <when state="num_roman" output="ↇ"/>
         </action>
@@ -3083,11 +3083,11 @@
             <!-- <when state="dot-below" output="Ẉ"/> -->
             <!-- <when state="grave" output="Ẁ"/> -->
             <when state="math|" output="⊮"/>
-            <when state="math𝐛" output="𝐖"/>
-            <when state="math𝐛𝑖" output="𝑾"/>
-            <when state="math𝑖" output="𝑊"/>
-            <when state="math𝓈" output="𝒲"/>
-            <when state="math𝓈𝓫" output="𝓦"/>
+            <when state="math_a-z_b" output="𝐖"/>
+            <when state="math_a-z_bit" output="𝑾"/>
+            <when state="math_a-z_it" output="𝑊"/>
+            <when state="math_a-z_script" output="𝒲"/>
+            <when state="math_a-z_scriptb" output="𝓦"/>
             <when state="math_a-z_fraktur" output="𝔚"/>
             <when state="math_a-z_frakturb" output="𝖂"/>
             <when state="math_a-z_dbl" output="𝕎"/>
@@ -3097,15 +3097,15 @@
             <when state="math_a-z_sansbit" output="𝙒"/>
             <when state="math_a-z_mono" output="𝚆"/>
             <when state="math_a-z_greekb" output="𝛀"/>
-            <when state="math𝜄" output="𝛺"/>
-            <when state="math𝜾" output="𝜴"/>
-            <when state="math𝝱" output="𝝮"/>
-            <when state="math𝞲" output="𝞨"/>
+            <when state="math_a-z_greekit" output="𝛺"/>
+            <when state="math_a-z_greekbit" output="𝜴"/>
+            <when state="math_a-z_greeksansb" output="𝝮"/>
+            <when state="math_a-z_greeksansbit" output="𝞨"/>
         </action>
         <action id="1←2 w⎇">
             <when state="none" output="∑"/>
             <when state="Greek" output="―"/>
-            <when state="math_a-z_greekb" next="math𝞲"/>
+            <when state="math_a-z_greekb" next="math_a-z_greeksansbit"/>
         </action>
         <action id="1←3 e">
             <when state="none" output="у"/>
@@ -3154,10 +3154,10 @@
             <when state="math⋟" output="⋜"/>
             <when state="math⪳" output="⋜"/>
             <when state="math⪴" output="⋜"/>
-            <when state="math𝐛" output="𝐞"/>
-            <when state="math𝐛𝑖" output="𝒆"/>
-            <when state="math𝑖" output="𝑒"/>
-            <when state="math𝓈𝓫" output="𝓮"/>
+            <when state="math_a-z_b" output="𝐞"/>
+            <when state="math_a-z_bit" output="𝒆"/>
+            <when state="math_a-z_it" output="𝑒"/>
+            <when state="math_a-z_scriptb" output="𝓮"/>
             <when state="math_a-z_fraktur" output="𝔢"/>
             <when state="math_a-z_frakturb" output="𝖊"/>
             <when state="math_a-z_dbl" output="𝕖"/>
@@ -3167,10 +3167,10 @@
             <when state="math_a-z_sansbit" output="𝙚"/>
             <when state="math_a-z_mono" output="𝚎"/>
             <when state="math_a-z_greekb" output="𝛆"/>
-            <when state="math𝜄" output="𝜀"/>
-            <when state="math𝜾" output="𝜺"/>
-            <when state="math𝝱" output="𝝴"/>
-            <when state="math𝞲" output="𝞮"/>
+            <when state="math_a-z_greekit" output="𝜀"/>
+            <when state="math_a-z_greekbit" output="𝜺"/>
+            <when state="math_a-z_greeksansb" output="𝝴"/>
+            <when state="math_a-z_greeksansbit" output="𝞮"/>
             <when state="num_Roman" output="ↂ"/>
             <when state="num_roman" output="ↂ"/>
             <!-- <when state="ogonek" output="ę"/> -->
@@ -3203,10 +3203,10 @@
             <!-- <when state="macron+grave" output="Ḕ"/> -->
             <when state="math/" output="∄"/>
             <!-- <when state="ogonek" output="Ę"/> -->
-            <when state="math𝐛" output="𝐄"/>
-            <when state="math𝐛𝑖" output="𝑬"/>
-            <when state="math𝑖" output="𝐸"/>
-            <when state="math𝓈𝓫" output="𝓔"/>
+            <when state="math_a-z_b" output="𝐄"/>
+            <when state="math_a-z_bit" output="𝑬"/>
+            <when state="math_a-z_it" output="𝐸"/>
+            <when state="math_a-z_scriptb" output="𝓔"/>
             <when state="math_a-z_fraktur" output="𝔈"/>
             <when state="math_a-z_frakturb" output="𝕰"/>
             <when state="math_a-z_dbl" output="𝔼"/>
@@ -3216,10 +3216,10 @@
             <when state="math_a-z_sansbit" output="𝙀"/>
             <when state="math_a-z_mono" output="𝙴"/>
             <when state="math_a-z_greekb" output="𝚬"/>
-            <when state="math𝜄" output="𝛦"/>
-            <when state="math𝜾" output="𝜠"/>
-            <when state="math𝝱" output="𝝚"/>
-            <when state="math𝞲" output="𝞔"/>
+            <when state="math_a-z_greekit" output="𝛦"/>
+            <when state="math_a-z_greekbit" output="𝜠"/>
+            <when state="math_a-z_greeksansb" output="𝝚"/>
+            <when state="math_a-z_greeksansbit" output="𝞔"/>
             <when state="ogonek" output="Ę"/>
         </action>
         <action id="1←3 e⇧⎇">
@@ -3230,10 +3230,10 @@
             <when state="none" output="€"/>
             <when state="Greek" output="€"/>
             <when state="math_a-z_greekb" output="𝛜"/>
-            <when state="math𝜄" output="𝜖"/>
-            <when state="math𝜾" output="𝝐"/>
-            <when state="math𝝱" output="𝞊"/>
-            <when state="math𝞲" output="𝟄"/>
+            <when state="math_a-z_greekit" output="𝜖"/>
+            <when state="math_a-z_greekbit" output="𝝐"/>
+            <when state="math_a-z_greeksansb" output="𝞊"/>
+            <when state="math_a-z_greeksansbit" output="𝟄"/>
         </action>
         <action id="1←4 r">
             <when state="none" output="к"/>
@@ -3272,11 +3272,11 @@
             <when state="math⩳" output="⋍"/>
             <when state="math⪳" output="⋝"/>
             <when state="math⪴" output="⋝"/>
-            <when state="math𝐛" output="𝐫"/>
-            <when state="math𝐛𝑖" output="𝒓"/>
-            <when state="math𝑖" output="𝑟"/>
-            <when state="math𝓈" output="𝓇"/>
-            <when state="math𝓈𝓫" output="𝓻"/>
+            <when state="math_a-z_b" output="𝐫"/>
+            <when state="math_a-z_bit" output="𝒓"/>
+            <when state="math_a-z_it" output="𝑟"/>
+            <when state="math_a-z_script" output="𝓇"/>
+            <when state="math_a-z_scriptb" output="𝓻"/>
             <when state="math_a-z_fraktur" output="𝔯"/>
             <when state="math_a-z_frakturb" output="𝖗"/>
             <when state="math_a-z_dbl" output="𝕣"/>
@@ -3286,10 +3286,10 @@
             <when state="math_a-z_sansbit" output="𝙧"/>
             <when state="math_a-z_mono" output="𝚛"/>
             <when state="math_a-z_greekb" output="𝛒"/>
-            <when state="math𝜄" output="𝜌"/>
-            <when state="math𝜾" output="𝝆"/>
-            <when state="math𝝱" output="𝞀"/>
-            <when state="math𝞲" output="𝞺"/>
+            <when state="math_a-z_greekit" output="𝜌"/>
+            <when state="math_a-z_greekbit" output="𝝆"/>
+            <when state="math_a-z_greeksansb" output="𝞀"/>
+            <when state="math_a-z_greeksansbit" output="𝞺"/>
             <when state="num_Roman" output="ↁ"/>
             <when state="num_roman" output="ↁ"/>
             <when state="ring" output="̊"/>
@@ -3306,10 +3306,10 @@
             <!-- <when state="dot-below" output="Ṛ"/> -->
             <!-- <when state="dot-below+macron" output="Ṝ"/> -->
             <when state="math=" output="≖"/>
-            <when state="math𝐛" output="𝐑"/>
-            <when state="math𝐛𝑖" output="𝑹"/>
-            <when state="math𝑖" output="𝑅"/>
-            <when state="math𝓈𝓫" output="𝓡"/>
+            <when state="math_a-z_b" output="𝐑"/>
+            <when state="math_a-z_bit" output="𝑹"/>
+            <when state="math_a-z_it" output="𝑅"/>
+            <when state="math_a-z_scriptb" output="𝓡"/>
             <when state="math_a-z_frakturb" output="𝕽"/>
             <when state="math_a-z_dbl" output="ℝ"/>
             <when state="math_a-z_sans" output="𝖱"/>
@@ -3318,10 +3318,10 @@
             <when state="math_a-z_sansbit" output="𝙍"/>
             <when state="math_a-z_mono" output="𝚁"/>
             <when state="math_a-z_greekb" output="𝚸"/>
-            <when state="math𝜄" output="𝛲"/>
-            <when state="math𝜾" output="𝜬"/>
-            <when state="math𝝱" output="𝝦"/>
-            <when state="math𝞲" output="𝞠"/>
+            <when state="math_a-z_greekit" output="𝛲"/>
+            <when state="math_a-z_greekbit" output="𝜬"/>
+            <when state="math_a-z_greeksansb" output="𝝦"/>
+            <when state="math_a-z_greeksansbit" output="𝞠"/>
         </action>
         <action id="1←4 r⎇">
             <when state="none" output="◊"/>
@@ -3331,10 +3331,10 @@
             <when state="Greek" output="®"/>
             <when state="Math" next="math_a-z_sans"/>
             <when state="math_a-z_greekb" output="𝛠"/>
-            <when state="math𝜄" output="𝜚"/>
-            <when state="math𝜾" output="𝝔"/>
-            <when state="math𝝱" output="𝞎"/>
-            <when state="math𝞲" output="𝟈"/>
+            <when state="math_a-z_greekit" output="𝜚"/>
+            <when state="math_a-z_greekbit" output="𝝔"/>
+            <when state="math_a-z_greeksansb" output="𝞎"/>
+            <when state="math_a-z_greeksansbit" output="𝟈"/>
             <when state="ring" output="̊"/>
         </action>
         <action id="1←5 t">
@@ -3373,11 +3373,11 @@
             <when state="math⧤" output="⧤"/>
             <when state="math⩰" output="≃"/>
             <when state="math⩳" next="math⋍"/>
-            <when state="math𝐛" output="𝐭"/>
-            <when state="math𝐛𝑖" output="𝒕"/>
-            <when state="math𝑖" output="𝑡"/>
-            <when state="math𝓈" output="𝓉"/>
-            <when state="math𝓈𝓫" output="𝓽"/>
+            <when state="math_a-z_b" output="𝐭"/>
+            <when state="math_a-z_bit" output="𝒕"/>
+            <when state="math_a-z_it" output="𝑡"/>
+            <when state="math_a-z_script" output="𝓉"/>
+            <when state="math_a-z_scriptb" output="𝓽"/>
             <when state="math_a-z_fraktur" output="𝔱"/>
             <when state="math_a-z_frakturb" output="𝖙"/>
             <when state="math_a-z_dbl" output="𝕥"/>
@@ -3387,10 +3387,10 @@
             <when state="math_a-z_sansbit" output="𝙩"/>
             <when state="math_a-z_mono" output="𝚝"/>
             <when state="math_a-z_greekb" output="𝛕"/>
-            <when state="math𝜄" output="𝜏"/>
-            <when state="math𝜾" output="𝝉"/>
-            <when state="math𝝱" output="𝞃"/>
-            <when state="math𝞲" output="𝞽"/>
+            <when state="math_a-z_greekit" output="𝜏"/>
+            <when state="math_a-z_greekbit" output="𝝉"/>
+            <when state="math_a-z_greeksansb" output="𝞃"/>
+            <when state="math_a-z_greeksansbit" output="𝞽"/>
             <when state="num_Roman" output="Ⅿ"/>
             <when state="num_roman" output="ⅿ"/>
             <when state="space" output=" "/>
@@ -3405,11 +3405,11 @@
             <when state="diaeresis" output="Ё"/>
             <when state="grave" output="Ѐ"/>
             <when state="math∅≷" output="≭"/>
-            <when state="math𝐛" output="𝐓"/>
-            <when state="math𝐛𝑖" output="𝑻"/>
-            <when state="math𝑖" output="𝑇"/>
-            <when state="math𝓈" output="𝒯"/>
-            <when state="math𝓈𝓫" output="𝓣"/>
+            <when state="math_a-z_b" output="𝐓"/>
+            <when state="math_a-z_bit" output="𝑻"/>
+            <when state="math_a-z_it" output="𝑇"/>
+            <when state="math_a-z_script" output="𝒯"/>
+            <when state="math_a-z_scriptb" output="𝓣"/>
             <when state="math_a-z_fraktur" output="𝔗"/>
             <when state="math_a-z_frakturb" output="𝕿"/>
             <when state="math_a-z_dbl" output="𝕋"/>
@@ -3419,10 +3419,10 @@
             <when state="math_a-z_sansbit" output="𝙏"/>
             <when state="math_a-z_mono" output="𝚃"/>
             <when state="math_a-z_greekb" output="𝚻"/>
-            <when state="math𝜄" output="𝛵"/>
-            <when state="math𝜾" output="𝜯"/>
-            <when state="math𝝱" output="𝝩"/>
-            <when state="math𝞲" output="𝞣"/>
+            <when state="math_a-z_greekit" output="𝛵"/>
+            <when state="math_a-z_greekbit" output="𝜯"/>
+            <when state="math_a-z_greeksansb" output="𝝩"/>
+            <when state="math_a-z_greeksansbit" output="𝞣"/>
             <when state="num_Roman" output="ⅿ"/>
             <when state="num_roman" output="Ⅿ"/>
         </action>
@@ -3464,11 +3464,11 @@
             <when state="math∜" next="math√"/>
             <when state="math≠" output="≄"/>
             <when state="math⋃N-Ary" output="⊻"/>
-            <when state="math𝐛" output="𝐲"/>
-            <when state="math𝐛𝑖" output="𝒚"/>
-            <when state="math𝑖" output="𝑦"/>
-            <when state="math𝓈" output="𝓎"/>
-            <when state="math𝓈𝓫" output="𝔂"/>
+            <when state="math_a-z_b" output="𝐲"/>
+            <when state="math_a-z_bit" output="𝒚"/>
+            <when state="math_a-z_it" output="𝑦"/>
+            <when state="math_a-z_script" output="𝓎"/>
+            <when state="math_a-z_scriptb" output="𝔂"/>
             <when state="math_a-z_fraktur" output="𝔶"/>
             <when state="math_a-z_frakturb" output="𝖞"/>
             <when state="math_a-z_dbl" output="𝕪"/>
@@ -3478,10 +3478,10 @@
             <when state="math_a-z_sansbit" output="𝙮"/>
             <when state="math_a-z_mono" output="𝚢"/>
             <when state="math_a-z_greekb" output="𝛎"/>
-            <when state="math𝜄" output="𝜐"/>
-            <when state="math𝜾" output="𝝊"/>
-            <when state="math𝝱" output="𝞄"/>
-            <when state="math𝞲" output="𝞾"/>
+            <when state="math_a-z_greekit" output="𝜐"/>
+            <when state="math_a-z_greekbit" output="𝝊"/>
+            <when state="math_a-z_greeksansb" output="𝞄"/>
+            <when state="math_a-z_greeksansbit" output="𝞾"/>
             <when state="space" output=" "/>
             <!-- <when state="num_Roman" output="Ⅾ"/> -->
             <!-- <when state="num_roman" output="ⅾ"/> -->
@@ -3500,11 +3500,11 @@
             <when state="greek-tonos" output="Ύ"/>
             <!-- <when state="hook-above" output="Ỷ"/> -->
             <!-- <when state="macron" output="Ȳ"/> -->
-            <when state="math𝐛" output="𝐘"/>
-            <when state="math𝐛𝑖" output="𝒀"/>
-            <when state="math𝑖" output="𝑌"/>
-            <when state="math𝓈" output="𝒴"/>
-            <when state="math𝓈𝓫" output="𝓨"/>
+            <when state="math_a-z_b" output="𝐘"/>
+            <when state="math_a-z_bit" output="𝒀"/>
+            <when state="math_a-z_it" output="𝑌"/>
+            <when state="math_a-z_script" output="𝒴"/>
+            <when state="math_a-z_scriptb" output="𝓨"/>
             <when state="math_a-z_fraktur" output="𝔜"/>
             <when state="math_a-z_frakturb" output="𝖄"/>
             <when state="math_a-z_dbl" output="𝕐"/>
@@ -3514,10 +3514,10 @@
             <when state="math_a-z_sansbit" output="𝙔"/>
             <when state="math_a-z_mono" output="𝚈"/>
             <when state="math_a-z_greekb" output="𝚼"/>
-            <when state="math𝜄" output="𝛶"/>
-            <when state="math𝜾" output="𝜰"/>
-            <when state="math𝝱" output="𝝪"/>
-            <when state="math𝞲" output="𝞤"/>
+            <when state="math_a-z_greekit" output="𝛶"/>
+            <when state="math_a-z_greekbit" output="𝜰"/>
+            <when state="math_a-z_greeksansb" output="𝝪"/>
+            <when state="math_a-z_greeksansbit" output="𝞤"/>
             <when state="num_Roman" output="ⅾ"/>
             <when state="num_roman" output="Ⅾ"/>
             <!-- <when state="tilde" output="Ỹ"/> -->
@@ -3572,11 +3572,11 @@
             <when state="math⋃N-Ary" output="⋃"/>
             <when state="math⩦" output="⩷"/>
             <when state="math⩷" output="⩷"/>
-            <when state="math𝐛" output="𝐮"/>
-            <when state="math𝐛𝑖" output="𝒖"/>
-            <when state="math𝑖" output="𝑢"/>
-            <when state="math𝓈" output="𝓊"/>
-            <when state="math𝓈𝓫" output="𝓾"/>
+            <when state="math_a-z_b" output="𝐮"/>
+            <when state="math_a-z_bit" output="𝒖"/>
+            <when state="math_a-z_it" output="𝑢"/>
+            <when state="math_a-z_script" output="𝓊"/>
+            <when state="math_a-z_scriptb" output="𝓾"/>
             <when state="math_a-z_fraktur" output="𝔲"/>
             <when state="math_a-z_frakturb" output="𝖚"/>
             <when state="math_a-z_dbl" output="𝕦"/>
@@ -3586,10 +3586,10 @@
             <when state="math_a-z_sansbit" output="𝙪"/>
             <when state="math_a-z_mono" output="𝚞"/>
             <when state="math_a-z_greekb" output="𝛉"/>
-            <when state="math𝜄" output="𝜃"/>
-            <when state="math𝜾" output="𝜽"/>
-            <when state="math𝝱" output="𝝷"/>
-            <when state="math𝞲" output="𝞱"/>
+            <when state="math_a-z_greekit" output="𝜃"/>
+            <when state="math_a-z_greekbit" output="𝜽"/>
+            <when state="math_a-z_greeksansb" output="𝝷"/>
+            <when state="math_a-z_greeksansbit" output="𝞱"/>
             <when state="num_Roman" next="num_Roman_Ⅰ"/>
             <when state="num_Roman_Ⅰ" output="Ⅺ"/>
             <when state="num_roman" next="num_roman_ⅰ"/>
@@ -3628,11 +3628,11 @@
             <when state="math_" output="⊔"/>
             <when state="math|" output="⊭"/>
             <when state="math∂" output="∮"/>
-            <when state="math𝐛" output="𝐔"/>
-            <when state="math𝐛𝑖" output="𝑼"/>
-            <when state="math𝑖" output="𝑈"/>
-            <when state="math𝓈" output="𝒰"/>
-            <when state="math𝓈𝓫" output="𝓤"/>
+            <when state="math_a-z_b" output="𝐔"/>
+            <when state="math_a-z_bit" output="𝑼"/>
+            <when state="math_a-z_it" output="𝑈"/>
+            <when state="math_a-z_script" output="𝒰"/>
+            <when state="math_a-z_scriptb" output="𝓤"/>
             <when state="math_a-z_fraktur" output="𝔘"/>
             <when state="math_a-z_frakturb" output="𝖀"/>
             <when state="math_a-z_dbl" output="𝕌"/>
@@ -3642,10 +3642,10 @@
             <when state="math_a-z_sansbit" output="𝙐"/>
             <when state="math_a-z_mono" output="𝚄"/>
             <when state="math_a-z_greekb" output="𝚯"/>
-            <when state="math𝜄" output="𝛩"/>
-            <when state="math𝜾" output="𝜣"/>
-            <when state="math𝝱" output="𝝝"/>
-            <when state="math𝞲" output="𝞗"/>
+            <when state="math_a-z_greekit" output="𝛩"/>
+            <when state="math_a-z_greekbit" output="𝜣"/>
+            <when state="math_a-z_greeksansb" output="𝝝"/>
+            <when state="math_a-z_greeksansbit" output="𝞗"/>
             <when state="num_Roman" output="ⅰ"/>
             <when state="num_Roman_Ⅰ" output="ⅺ"/>
             <when state="num_roman" output="Ⅰ"/>
@@ -3667,10 +3667,10 @@
             <when state="math|" output="⊦"/>
             <when state="math‹" output="←"/>
             <when state="math_a-z_greekb" output="𝚹"/>
-            <when state="math𝜄" output="𝛳"/>
-            <when state="math𝜾" output="𝜭"/>
-            <when state="math𝝱" output="𝝧"/>
-            <when state="math𝞲" output="𝞡"/>
+            <when state="math_a-z_greekit" output="𝛳"/>
+            <when state="math_a-z_greekbit" output="𝜭"/>
+            <when state="math_a-z_greeksansb" output="𝝧"/>
+            <when state="math_a-z_greeksansbit" output="𝞡"/>
             <when state="space" output="‑"/>
         </action>
         <action id="1→2 u⎇">
@@ -3680,10 +3680,10 @@
             <when state="Typographical" output="↘"/>
             <when state="dot-below" output="̣"/>
             <when state="math_a-z_greekb" output="𝛝"/>
-            <when state="math𝜄" output="𝜗"/>
-            <when state="math𝜾" output="𝝑"/>
-            <when state="math𝝱" output="𝞋"/>
-            <when state="math𝞲" output="𝟅"/>
+            <when state="math_a-z_greekit" output="𝜗"/>
+            <when state="math_a-z_greekbit" output="𝝑"/>
+            <when state="math_a-z_greeksansb" output="𝞋"/>
+            <when state="math_a-z_greeksansbit" output="𝟅"/>
         </action>
         <action id="1→2 u⎈">
             <when state="none" output="&#x0015;"/>
@@ -3732,11 +3732,11 @@
             <when state="math⩮" output="⯹"/>
             <when state="math⩷" next="math="/>
             <when state="math⯹" output="⯹"/>
-            <when state="math𝐛" output="𝐢"/>
-            <when state="math𝐛𝑖" output="𝒊"/>
-            <when state="math𝑖" output="𝑖"/>
-            <when state="math𝓈" output="𝒾"/>
-            <when state="math𝓈𝓫" output="𝓲"/>
+            <when state="math_a-z_b" output="𝐢"/>
+            <when state="math_a-z_bit" output="𝒊"/>
+            <when state="math_a-z_it" output="𝑖"/>
+            <when state="math_a-z_script" output="𝒾"/>
+            <when state="math_a-z_scriptb" output="𝓲"/>
             <when state="math_a-z_fraktur" output="𝔦"/>
             <when state="math_a-z_frakturb" output="𝖎"/>
             <when state="math_a-z_dbl" output="𝕚"/>
@@ -3746,10 +3746,10 @@
             <when state="math_a-z_sansbit" output="𝙞"/>
             <when state="math_a-z_mono" output="𝚒"/>
             <when state="math_a-z_greekb" output="𝛊"/>
-            <when state="math𝜄" output="𝜄"/>
-            <when state="math𝜾" output="𝜾"/>
-            <when state="math𝝱" output="𝝸"/>
-            <when state="math𝞲" output="𝞲"/>
+            <when state="math_a-z_greekit" output="𝜄"/>
+            <when state="math_a-z_greekbit" output="𝜾"/>
+            <when state="math_a-z_greeksansb" output="𝝸"/>
+            <when state="math_a-z_greeksansbit" output="𝞲"/>
             <when state="num_Roman" next="num_Roman_Ⅱ"/>
             <when state="num_Roman_Ⅰ" output="Ⅻ"/>
             <when state="num_Roman_Ⅱ" output="Ⅻ"/>
@@ -3782,10 +3782,10 @@
             <when state="math_" output="⊓"/>
             <when state="math|" output="⊯"/>
             <when state="math∂" output="∯"/>
-            <when state="math𝐛" output="𝐈"/>
-            <when state="math𝐛𝑖" output="𝑰"/>
-            <when state="math𝑖" output="𝐼"/>
-            <when state="math𝓈𝓫" output="𝓘"/>
+            <when state="math_a-z_b" output="𝐈"/>
+            <when state="math_a-z_bit" output="𝑰"/>
+            <when state="math_a-z_it" output="𝐼"/>
+            <when state="math_a-z_scriptb" output="𝓘"/>
             <when state="math_a-z_frakturb" output="𝕴"/>
             <when state="math_a-z_dbl" output="𝕀"/>
             <when state="math_a-z_sans" output="𝖨"/>
@@ -3794,10 +3794,10 @@
             <when state="math_a-z_sansbit" output="𝙄"/>
             <when state="math_a-z_mono" output="𝙸"/>
             <when state="math_a-z_greekb" output="𝚰"/>
-            <when state="math𝜄" output="𝛪"/>
-            <when state="math𝜾" output="𝜤"/>
-            <when state="math𝝱" output="𝝞"/>
-            <when state="math𝞲" output="𝞘"/>
+            <when state="math_a-z_greekit" output="𝛪"/>
+            <when state="math_a-z_greekbit" output="𝜤"/>
+            <when state="math_a-z_greeksansb" output="𝝞"/>
+            <when state="math_a-z_greeksansbit" output="𝞘"/>
             <when state="num_Roman" output="ⅱ"/>
             <when state="num_Roman_Ⅰ" output="ⅻ"/>
             <when state="num_Roman_Ⅱ" output="ⅻ"/>
@@ -3823,7 +3823,7 @@
             <when state="none" next="Diacritics"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Greek" output="†"/>
-            <when state="Math" next="math𝑖"/>
+            <when state="Math" next="math_a-z_it"/>
             <when state="OldCyrillic" output="ї"/>
             <when state="Typographical" output="↖"/>
             <when state="diaeresis" output="ï"/>
@@ -3832,12 +3832,12 @@
             <when state="math≑" next="math⩷"/>
             <when state="math⩦" next="math≑"/>
             <when state="math⩷" next="math="/>
-            <when state="math𝐛" next="math𝐛𝑖"/>
-            <when state="math𝑖" output="𝚤"/>
+            <when state="math_a-z_b" next="math_a-z_bit"/>
+            <when state="math_a-z_it" output="𝚤"/>
             <when state="math_a-z_sans" next="math_a-z_sansit"/>
             <when state="math_a-z_sansb" next="math_a-z_sansbit"/>
-            <when state="math_a-z_greekb" next="math𝜄"/>
-            <when state="math𝝱" next="math𝞲"/>
+            <when state="math_a-z_greekb" next="math_a-z_greekit"/>
+            <when state="math_a-z_greeksansb" next="math_a-z_greeksansbit"/>
         </action>
         <action id="1→3 i⎈">
             <when state="none" output="&#x000A;"/>
@@ -3909,10 +3909,10 @@
             <when state="math⪳" output="⋞"/>
             <when state="math⪴" output="⋞"/>
             <when state="math⭀" output="⭀"/>
-            <when state="math𝐛" output="𝐨"/>
-            <when state="math𝐛𝑖" output="𝒐"/>
-            <when state="math𝑖" output="𝑜"/>
-            <when state="math𝓈𝓫" output="𝓸"/>
+            <when state="math_a-z_b" output="𝐨"/>
+            <when state="math_a-z_bit" output="𝒐"/>
+            <when state="math_a-z_it" output="𝑜"/>
+            <when state="math_a-z_scriptb" output="𝓸"/>
             <when state="math_a-z_fraktur" output="𝔬"/>
             <when state="math_a-z_frakturb" output="𝖔"/>
             <when state="math_a-z_dbl" output="𝕠"/>
@@ -3922,10 +3922,10 @@
             <when state="math_a-z_sansbit" output="𝙤"/>
             <when state="math_a-z_mono" output="𝚘"/>
             <when state="math_a-z_greekb" output="𝛐"/>
-            <when state="math𝜄" output="𝜊"/>
-            <when state="math𝜾" output="𝝄"/>
-            <when state="math𝝱" output="𝝾"/>
-            <when state="math𝞲" output="𝞸"/>
+            <when state="math_a-z_greekit" output="𝜊"/>
+            <when state="math_a-z_greekbit" output="𝝄"/>
+            <when state="math_a-z_greeksansb" output="𝝾"/>
+            <when state="math_a-z_greeksansbit" output="𝞸"/>
             <when state="num_Roman" output="Ⅲ"/>
             <when state="num_roman" output="ⅲ"/>
             <when state="num⁵sup" output="↋"/>
@@ -3964,11 +3964,11 @@
             <!-- <when state="macron+grave" output="Ṑ"/> -->
             <when state="math∂" output="∰"/>
             <when state="math∅⊻" output="⋎"/>
-            <when state="math𝐛" output="𝐎"/>
-            <when state="math𝐛𝑖" output="𝑶"/>
-            <when state="math𝑖" output="𝑂"/>
-            <when state="math𝓈" output="𝒪"/>
-            <when state="math𝓈𝓫" output="𝓞"/>
+            <when state="math_a-z_b" output="𝐎"/>
+            <when state="math_a-z_bit" output="𝑶"/>
+            <when state="math_a-z_it" output="𝑂"/>
+            <when state="math_a-z_script" output="𝒪"/>
+            <when state="math_a-z_scriptb" output="𝓞"/>
             <when state="math_a-z_fraktur" output="𝔒"/>
             <when state="math_a-z_frakturb" output="𝕺"/>
             <when state="math_a-z_dbl" output="𝕆"/>
@@ -3978,10 +3978,10 @@
             <when state="math_a-z_sansbit" output="𝙊"/>
             <when state="math_a-z_mono" output="𝙾"/>
             <when state="math_a-z_greekb" output="𝚶"/>
-            <when state="math𝜄" output="𝛰"/>
-            <when state="math𝜾" output="𝜪"/>
-            <when state="math𝝱" output="𝝤"/>
-            <when state="math𝞲" output="𝞞"/>
+            <when state="math_a-z_greekit" output="𝛰"/>
+            <when state="math_a-z_greekbit" output="𝜪"/>
+            <when state="math_a-z_greeksansb" output="𝝤"/>
+            <when state="math_a-z_greeksansbit" output="𝞞"/>
             <when state="num_Roman" output="ⅲ"/>
             <when state="num_roman" output="Ⅲ"/>
             <when state="num⁵sup" output="₃"/>
@@ -4053,11 +4053,11 @@
             <when state="math⩰" output="≈"/>
             <when state="math⪳" output="⋟"/>
             <when state="math⪴" output="⋟"/>
-            <when state="math𝐛" output="𝐩"/>
-            <when state="math𝐛𝑖" output="𝒑"/>
-            <when state="math𝑖" output="𝑝"/>
-            <when state="math𝓈" output="𝓅"/>
-            <when state="math𝓈𝓫" output="𝓹"/>
+            <when state="math_a-z_b" output="𝐩"/>
+            <when state="math_a-z_bit" output="𝒑"/>
+            <when state="math_a-z_it" output="𝑝"/>
+            <when state="math_a-z_script" output="𝓅"/>
+            <when state="math_a-z_scriptb" output="𝓹"/>
             <when state="math_a-z_fraktur" output="𝔭"/>
             <when state="math_a-z_frakturb" output="𝖕"/>
             <when state="math_a-z_dbl" output="𝕡"/>
@@ -4067,10 +4067,10 @@
             <when state="math_a-z_sansbit" output="𝙥"/>
             <when state="math_a-z_mono" output="𝚙"/>
             <when state="math_a-z_greekb" output="𝛑"/>
-            <when state="math𝜄" output="𝜋"/>
-            <when state="math𝜾" output="𝝅"/>
-            <when state="math𝝱" output="𝝿"/>
-            <when state="math𝞲" output="𝞹"/>
+            <when state="math_a-z_greekit" output="𝜋"/>
+            <when state="math_a-z_greekbit" output="𝝅"/>
+            <when state="math_a-z_greeksansb" output="𝝿"/>
+            <when state="math_a-z_greeksansbit" output="𝞹"/>
             <when state="num⁵sup" output="⁺"/>
             <when state="num₅sub" output="₊"/>
             <when state="space" output=" "/>
@@ -4083,11 +4083,11 @@
             <when state="Typographical" output="⁗"/>
             <when state="cur$re" output="₧"/>
             <when state="diaeresis" output="Ӟ"/>
-            <when state="math𝐛" output="𝐏"/>
-            <when state="math𝐛𝑖" output="𝑷"/>
-            <when state="math𝑖" output="𝑃"/>
-            <when state="math𝓈" output="𝒫"/>
-            <when state="math𝓈𝓫" output="𝓟"/>
+            <when state="math_a-z_b" output="𝐏"/>
+            <when state="math_a-z_bit" output="𝑷"/>
+            <when state="math_a-z_it" output="𝑃"/>
+            <when state="math_a-z_script" output="𝒫"/>
+            <when state="math_a-z_scriptb" output="𝓟"/>
             <when state="math_a-z_fraktur" output="𝔓"/>
             <when state="math_a-z_frakturb" output="𝕻"/>
             <when state="math_a-z_dbl" output="ℙ"/>
@@ -4097,10 +4097,10 @@
             <when state="math_a-z_sansbit" output="𝙋"/>
             <when state="math_a-z_mono" output="𝙿"/>
             <when state="math_a-z_greekb" output="𝚷"/>
-            <when state="math𝜄" output="𝛱"/>
-            <when state="math𝜾" output="𝜫"/>
-            <when state="math𝝱" output="𝝥"/>
-            <when state="math𝞲" output="𝞟"/>
+            <when state="math_a-z_greekit" output="𝛱"/>
+            <when state="math_a-z_greekbit" output="𝜫"/>
+            <when state="math_a-z_greeksansb" output="𝝥"/>
+            <when state="math_a-z_greeksansbit" output="𝞟"/>
             <when state="num₅sub" output="⁺"/>
         </action>
         <action id="1→5 p⎇">
@@ -4110,10 +4110,10 @@
             <when state="OldCyrillic" output="ꙃ"/>
             <when state="cur$re" output="₰"/>
             <when state="math_a-z_greekb" output="𝛡"/>
-            <when state="math𝜄" output="𝜛"/>
-            <when state="math𝜾" output="𝝕"/>
-            <when state="math𝝱" output="𝞏"/>
-            <when state="math𝞲" output="𝟉"/>
+            <when state="math_a-z_greekit" output="𝜛"/>
+            <when state="math_a-z_greekbit" output="𝝕"/>
+            <when state="math_a-z_greeksansb" output="𝞏"/>
+            <when state="math_a-z_greeksansbit" output="𝟉"/>
         </action>
         <action id="1→6 [">
             <when state="none" output="х"/>
@@ -4214,11 +4214,11 @@
             <when state="math⩰" next="math="/>
             <when state="math⩳" output="⩳"/>
             <when state="math⯹" output="⩮"/>
-            <when state="math𝐛" output="𝐚"/>
-            <when state="math𝐛𝑖" output="𝒂"/>
-            <when state="math𝑖" output="𝑎"/>
-            <when state="math𝓈" output="𝒶"/>
-            <when state="math𝓈𝓫" output="𝓪"/>
+            <when state="math_a-z_b" output="𝐚"/>
+            <when state="math_a-z_bit" output="𝒂"/>
+            <when state="math_a-z_it" output="𝑎"/>
+            <when state="math_a-z_script" output="𝒶"/>
+            <when state="math_a-z_scriptb" output="𝓪"/>
             <when state="math_a-z_fraktur" output="𝔞"/>
             <when state="math_a-z_frakturb" output="𝖆"/>
             <when state="math_a-z_dbl" output="𝕒"/>
@@ -4228,10 +4228,10 @@
             <when state="math_a-z_sansbit" output="𝙖"/>
             <when state="math_a-z_mono" output="𝚊"/>
             <when state="math_a-z_greekb" output="𝛂"/>
-            <when state="math𝜄" output="𝛼"/>
-            <when state="math𝜾" output="𝜶"/>
-            <when state="math𝝱" output="𝝰"/>
-            <when state="math𝞲" output="𝞪"/>
+            <when state="math_a-z_greekit" output="𝛼"/>
+            <when state="math_a-z_greekbit" output="𝜶"/>
+            <when state="math_a-z_greeksansb" output="𝝰"/>
+            <when state="math_a-z_greeksansbit" output="𝞪"/>
             <when state="num_Roman" output="ↀ"/>
             <when state="num_roman" output="ↀ"/>
             <!-- <when state="ogonek" output="ą"/> -->
@@ -4266,11 +4266,11 @@
             <!-- <when state="ogonek" output="Ą"/> -->
             <!-- <when state="ring" output="Å"/> -->
             <!-- <when state="tilde" output="Ã"/> -->
-            <when state="math𝐛" output="𝐀"/>
-            <when state="math𝐛𝑖" output="𝑨"/>
-            <when state="math𝑖" output="𝐴"/>
-            <when state="math𝓈" output="𝒜"/>
-            <when state="math𝓈𝓫" output="𝓐"/>
+            <when state="math_a-z_b" output="𝐀"/>
+            <when state="math_a-z_bit" output="𝑨"/>
+            <when state="math_a-z_it" output="𝐴"/>
+            <when state="math_a-z_script" output="𝒜"/>
+            <when state="math_a-z_scriptb" output="𝓐"/>
             <when state="math_a-z_fraktur" output="𝔄"/>
             <when state="math_a-z_frakturb" output="𝕬"/>
             <when state="math_a-z_dbl" output="𝔸"/>
@@ -4280,10 +4280,10 @@
             <when state="math_a-z_sansbit" output="𝘼"/>
             <when state="math_a-z_mono" output="𝙰"/>
             <when state="math_a-z_greekb" output="𝚨"/>
-            <when state="math𝜄" output="𝛢"/>
-            <when state="math𝜾" output="𝜜"/>
-            <when state="math𝝱" output="𝝖"/>
-            <when state="math𝞲" output="𝞐"/>
+            <when state="math_a-z_greekit" output="𝛢"/>
+            <when state="math_a-z_greekbit" output="𝜜"/>
+            <when state="math_a-z_greeksansb" output="𝝖"/>
+            <when state="math_a-z_greeksansbit" output="𝞐"/>
         </action>
         <action id="2←1 a⎇">
             <when state="none" output="≈"/>
@@ -4333,11 +4333,11 @@
             <when state="math⋃N-Ary" output="∑"/>
             <when state="math⩮" output="≛"/>
             <when state="math⯹" output="≛"/>
-            <when state="math𝐛" output="𝐬"/>
-            <when state="math𝐛𝑖" output="𝒔"/>
-            <when state="math𝑖" output="𝑠"/>
-            <when state="math𝓈" output="𝓈"/>
-            <when state="math𝓈𝓫" output="𝓼"/>
+            <when state="math_a-z_b" output="𝐬"/>
+            <when state="math_a-z_bit" output="𝒔"/>
+            <when state="math_a-z_it" output="𝑠"/>
+            <when state="math_a-z_script" output="𝓈"/>
+            <when state="math_a-z_scriptb" output="𝓼"/>
             <when state="math_a-z_fraktur" output="𝔰"/>
             <when state="math_a-z_frakturb" output="𝖘"/>
             <when state="math_a-z_dbl" output="𝕤"/>
@@ -4347,10 +4347,10 @@
             <when state="math_a-z_sansbit" output="𝙨"/>
             <when state="math_a-z_mono" output="𝚜"/>
             <when state="math_a-z_greekb" output="𝛔"/>
-            <when state="math𝜄" output="𝜎"/>
-            <when state="math𝜾" output="𝝈"/>
-            <when state="math𝝱" output="𝞂"/>
-            <when state="math𝞲" output="𝞼"/>
+            <when state="math_a-z_greekit" output="𝜎"/>
+            <when state="math_a-z_greekbit" output="𝝈"/>
+            <when state="math_a-z_greeksansb" output="𝞂"/>
+            <when state="math_a-z_greeksansbit" output="𝞼"/>
             <when state="space" output="␠"/>
         </action>
         <action id="2←2 s⇧">
@@ -4370,11 +4370,11 @@
             <!-- <when state="dot-below" output="Ṣ"/> -->
             <!-- <when state="dot-below+dot-above" output="Ṩ"/> -->
             <when state="math⋃N-Ary" output="⅀"/>
-            <when state="math𝐛" output="𝐒"/>
-            <when state="math𝐛𝑖" output="𝑺"/>
-            <when state="math𝑖" output="𝑆"/>
-            <when state="math𝓈" output="𝒮"/>
-            <when state="math𝓈𝓫" output="𝓢"/>
+            <when state="math_a-z_b" output="𝐒"/>
+            <when state="math_a-z_bit" output="𝑺"/>
+            <when state="math_a-z_it" output="𝑆"/>
+            <when state="math_a-z_script" output="𝒮"/>
+            <when state="math_a-z_scriptb" output="𝓢"/>
             <when state="math_a-z_fraktur" output="𝔖"/>
             <when state="math_a-z_frakturb" output="𝕾"/>
             <when state="math_a-z_dbl" output="𝕊"/>
@@ -4384,19 +4384,19 @@
             <when state="math_a-z_sansbit" output="𝙎"/>
             <when state="math_a-z_mono" output="𝚂"/>
             <when state="math_a-z_greekb" output="𝚺"/>
-            <when state="math𝜄" output="𝛴"/>
-            <when state="math𝜾" output="𝜮"/>
-            <when state="math𝝱" output="𝝨"/>
-            <when state="math𝞲" output="𝞢"/>
+            <when state="math_a-z_greekit" output="𝛴"/>
+            <when state="math_a-z_greekbit" output="𝜮"/>
+            <when state="math_a-z_greeksansb" output="𝝨"/>
+            <when state="math_a-z_greeksansbit" output="𝞢"/>
             <when state="space" output="␢"/>
         </action>
         <action id="2←2 s⎇">
             <when state="none" output="§"/>
             <when state="Greek" output="ß"/>
-            <when state="Math" next="math𝓈"/>
+            <when state="Math" next="math_a-z_script"/>
             <when state="Typographical" output="🕱"/>
             <when state="fs" output="⸮"/>
-            <when state="math_a-z_greekb" next="math𝝱"/>
+            <when state="math_a-z_greekb" next="math_a-z_greeksansb"/>
         </action>
         <action id="2←3 d">
             <when state="none" output="в"/>
@@ -4451,11 +4451,11 @@
             <when state="math⩴" output="≕"/>
             <when state="math⪳" output="≤"/>
             <when state="math⪴" output="≤"/>
-            <when state="math𝐛" output="𝐝"/>
-            <when state="math𝐛𝑖" output="𝒅"/>
-            <when state="math𝑖" output="𝑑"/>
-            <when state="math𝓈" output="𝒹"/>
-            <when state="math𝓈𝓫" output="𝓭"/>
+            <when state="math_a-z_b" output="𝐝"/>
+            <when state="math_a-z_bit" output="𝒅"/>
+            <when state="math_a-z_it" output="𝑑"/>
+            <when state="math_a-z_script" output="𝒹"/>
+            <when state="math_a-z_scriptb" output="𝓭"/>
             <when state="math_a-z_fraktur" output="𝔡"/>
             <when state="math_a-z_frakturb" output="𝖉"/>
             <when state="math_a-z_dbl" output="𝕕"/>
@@ -4465,10 +4465,10 @@
             <when state="math_a-z_sansbit" output="𝙙"/>
             <when state="math_a-z_mono" output="𝚍"/>
             <when state="math_a-z_greekb" output="𝛅"/>
-            <when state="math𝜄" output="𝛿"/>
-            <when state="math𝜾" output="𝜹"/>
-            <when state="math𝝱" output="𝝳"/>
-            <when state="math𝞲" output="𝞭"/>
+            <when state="math_a-z_greekit" output="𝛿"/>
+            <when state="math_a-z_greekbit" output="𝜹"/>
+            <when state="math_a-z_greeksansb" output="𝝳"/>
+            <when state="math_a-z_greeksansbit" output="𝞭"/>
             <when state="num_Roman" output="Ⅾ"/>
             <when state="num_roman" output="ⅾ"/>
             <when state="num⁵sup" output="⁽"/>
@@ -4487,11 +4487,11 @@
             <!-- <when state="dot-below" output="Ḍ"/> -->
             <when state="math=" output="≜"/>
             <when state="math⊹" output="⋋"/>
-            <when state="math𝐛" output="𝐃"/>
-            <when state="math𝐛𝑖" output="𝑫"/>
-            <when state="math𝑖" output="𝐷"/>
-            <when state="math𝓈" output="𝒟"/>
-            <when state="math𝓈𝓫" output="𝓓"/>
+            <when state="math_a-z_b" output="𝐃"/>
+            <when state="math_a-z_bit" output="𝑫"/>
+            <when state="math_a-z_it" output="𝐷"/>
+            <when state="math_a-z_script" output="𝒟"/>
+            <when state="math_a-z_scriptb" output="𝓓"/>
             <when state="math_a-z_fraktur" output="𝔇"/>
             <when state="math_a-z_frakturb" output="𝕯"/>
             <when state="math_a-z_dbl" output="𝔻"/>
@@ -4501,10 +4501,10 @@
             <when state="math_a-z_sansbit" output="𝘿"/>
             <when state="math_a-z_mono" output="𝙳"/>
             <when state="math_a-z_greekb" output="𝚫"/>
-            <when state="math𝜄" output="𝛥"/>
-            <when state="math𝜾" output="𝜟"/>
-            <when state="math𝝱" output="𝝙"/>
-            <when state="math𝞲" output="𝞓"/>
+            <when state="math_a-z_greekit" output="𝛥"/>
+            <when state="math_a-z_greekbit" output="𝜟"/>
+            <when state="math_a-z_greeksansb" output="𝝙"/>
+            <when state="math_a-z_greeksansbit" output="𝞓"/>
             <when state="num_Roman" output="ⅾ"/>
             <when state="num_roman" output="Ⅾ"/>
             <when state="num⁵sup" output="₍"/>
@@ -4522,10 +4522,10 @@
             <when state="math≜" next="math="/>
             <when state="math≝" next="math≜"/>
             <when state="math_a-z_greekb" output="𝛛"/>
-            <when state="math𝜄" output="𝜕"/>
-            <when state="math𝜾" output="𝝏"/>
-            <when state="math𝝱" output="𝞉"/>
-            <when state="math𝞲" output="𝟃"/>
+            <when state="math_a-z_greekit" output="𝜕"/>
+            <when state="math_a-z_greekbit" output="𝝏"/>
+            <when state="math_a-z_greeksansb" output="𝞉"/>
+            <when state="math_a-z_greeksansbit" output="𝟃"/>
         </action>
         <action id="2←4 f">
             <when state="none" output="а"/>
@@ -4574,11 +4574,11 @@
             <when state="math⩴" output="≔"/>
             <when state="math⪳" output="≥"/>
             <when state="math⪴" output="≥"/>
-            <when state="math𝐛" output="𝐟"/>
-            <when state="math𝐛𝑖" output="𝒇"/>
-            <when state="math𝑖" output="𝑓"/>
-            <when state="math𝓈" output="𝒻"/>
-            <when state="math𝓈𝓫" output="𝓯"/>
+            <when state="math_a-z_b" output="𝐟"/>
+            <when state="math_a-z_bit" output="𝒇"/>
+            <when state="math_a-z_it" output="𝑓"/>
+            <when state="math_a-z_script" output="𝒻"/>
+            <when state="math_a-z_scriptb" output="𝓯"/>
             <when state="math_a-z_fraktur" output="𝔣"/>
             <when state="math_a-z_frakturb" output="𝖋"/>
             <when state="math_a-z_dbl" output="𝕗"/>
@@ -4588,10 +4588,10 @@
             <when state="math_a-z_sansbit" output="𝙛"/>
             <when state="math_a-z_mono" output="𝚏"/>
             <when state="math_a-z_greekb" output="𝛗"/>
-            <when state="math𝜄" output="𝜑"/>
-            <when state="math𝜾" output="𝝋"/>
-            <when state="math𝝱" output="𝞅"/>
-            <when state="math𝞲" output="𝞿"/>
+            <when state="math_a-z_greekit" output="𝜑"/>
+            <when state="math_a-z_greekbit" output="𝝋"/>
+            <when state="math_a-z_greeksansb" output="𝞅"/>
+            <when state="math_a-z_greeksansbit" output="𝞿"/>
             <when state="num_Roman" output="Ⅼ"/>
             <when state="num_roman" output="ⅼ"/>
             <when state="num⁵sup" output="⁾"/>
@@ -4606,10 +4606,10 @@
             <when state="diaeresis" output="Ӓ"/>
             <when state="math|" output="⊬"/>
             <when state="math⊹" output="⋌"/>
-            <when state="math𝐛" output="𝐅"/>
-            <when state="math𝐛𝑖" output="𝑭"/>
-            <when state="math𝑖" output="𝐹"/>
-            <when state="math𝓈𝓫" output="𝓕"/>
+            <when state="math_a-z_b" output="𝐅"/>
+            <when state="math_a-z_bit" output="𝑭"/>
+            <when state="math_a-z_it" output="𝐹"/>
+            <when state="math_a-z_scriptb" output="𝓕"/>
             <when state="math_a-z_fraktur" output="𝔉"/>
             <when state="math_a-z_frakturb" output="𝕱"/>
             <when state="math_a-z_dbl" output="𝔽"/>
@@ -4619,10 +4619,10 @@
             <when state="math_a-z_sansbit" output="𝙁"/>
             <when state="math_a-z_mono" output="𝙵"/>
             <when state="math_a-z_greekb" output="𝚽"/>
-            <when state="math𝜄" output="𝛷"/>
-            <when state="math𝜾" output="𝜱"/>
-            <when state="math𝝱" output="𝝫"/>
-            <when state="math𝞲" output="𝞥"/>
+            <when state="math_a-z_greekit" output="𝛷"/>
+            <when state="math_a-z_greekbit" output="𝜱"/>
+            <when state="math_a-z_greeksansb" output="𝝫"/>
+            <when state="math_a-z_greeksansbit" output="𝞥"/>
             <when state="num_Roman" output="ⅼ"/>
             <when state="num_roman" output="Ⅼ"/>
             <when state="num⁵sup" output="₎"/>
@@ -4638,10 +4638,10 @@
             <!-- <when state="Typographical" next="ligature_f"/> -->
             <when state="fs" output="⧵"/>
             <when state="math_a-z_greekb" output="𝛟"/>
-            <when state="math𝜄" output="𝜙"/>
-            <when state="math𝜾" output="𝝓"/>
-            <when state="math𝝱" output="𝞍"/>
-            <when state="math𝞲" output="𝟇"/>
+            <when state="math_a-z_greekit" output="𝜙"/>
+            <when state="math_a-z_greekbit" output="𝝓"/>
+            <when state="math_a-z_greeksansb" output="𝞍"/>
+            <when state="math_a-z_greeksansbit" output="𝟇"/>
         </action>
         <action id="2←4 f⎈⎇">
             <when state="none" output="÷"/>
@@ -4673,10 +4673,10 @@
             <when state="math⊹" output="⋈"/>
             <when state="math⩦" output="≑"/>
             <when state="math⩴" output="⩴"/>
-            <when state="math𝐛" output="𝐠"/>
-            <when state="math𝐛𝑖" output="𝒈"/>
-            <when state="math𝑖" output="𝑔"/>
-            <when state="math𝓈𝓫" output="𝓰"/>
+            <when state="math_a-z_b" output="𝐠"/>
+            <when state="math_a-z_bit" output="𝒈"/>
+            <when state="math_a-z_it" output="𝑔"/>
+            <when state="math_a-z_scriptb" output="𝓰"/>
             <when state="math_a-z_fraktur" output="𝔤"/>
             <when state="math_a-z_frakturb" output="𝖌"/>
             <when state="math_a-z_dbl" output="𝕘"/>
@@ -4686,10 +4686,10 @@
             <when state="math_a-z_sansbit" output="𝙜"/>
             <when state="math_a-z_mono" output="𝚐"/>
             <when state="math_a-z_greekb" output="𝛄"/>
-            <when state="math𝜄" output="𝛾"/>
-            <when state="math𝜾" output="𝜸"/>
-            <when state="math𝝱" output="𝝲"/>
-            <when state="math𝞲" output="𝞬"/>
+            <when state="math_a-z_greekit" output="𝛾"/>
+            <when state="math_a-z_greekbit" output="𝜸"/>
+            <when state="math_a-z_greeksansb" output="𝝲"/>
+            <when state="math_a-z_greeksansbit" output="𝞬"/>
             <when state="num_Roman" output="ↅ"/>
             <when state="num_roman" output="ↅ"/>
             <when state="ogonek" output="̨"/>
@@ -4710,11 +4710,11 @@
             <when state="math=" output="⩷"/>
             <when state="math∅≷" output="≵"/>
             <when state="math∅⊂" output="⋫"/>
-            <when state="math𝐛" output="𝐆"/>
-            <when state="math𝐛𝑖" output="𝑮"/>
-            <when state="math𝑖" output="𝐺"/>
-            <when state="math𝓈" output="𝒢"/>
-            <when state="math𝓈𝓫" output="𝓖"/>
+            <when state="math_a-z_b" output="𝐆"/>
+            <when state="math_a-z_bit" output="𝑮"/>
+            <when state="math_a-z_it" output="𝐺"/>
+            <when state="math_a-z_script" output="𝒢"/>
+            <when state="math_a-z_scriptb" output="𝓖"/>
             <when state="math_a-z_fraktur" output="𝔊"/>
             <when state="math_a-z_frakturb" output="𝕲"/>
             <when state="math_a-z_dbl" output="𝔾"/>
@@ -4724,10 +4724,10 @@
             <when state="math_a-z_sansbit" output="𝙂"/>
             <when state="math_a-z_mono" output="𝙶"/>
             <when state="math_a-z_greekb" output="𝚪"/>
-            <when state="math𝜄" output="𝛤"/>
-            <when state="math𝜾" output="𝜞"/>
-            <when state="math𝝱" output="𝝘"/>
-            <when state="math𝞲" output="𝞒"/>
+            <when state="math_a-z_greekit" output="𝛤"/>
+            <when state="math_a-z_greekbit" output="𝜞"/>
+            <when state="math_a-z_greeksansb" output="𝝘"/>
+            <when state="math_a-z_greeksansbit" output="𝞒"/>
         </action>
         <action id="2←5 g⇧⎇">
             <when state="none" output="⌘"/>
@@ -4769,10 +4769,10 @@
             <when state="math∅⊂" output="⊲"/>
             <when state="math∅⊄" output="⋪"/>
             <when state="math⋃N-Ary" output="⊼"/>
-            <when state="math𝐛" output="𝐡"/>
-            <when state="math𝐛𝑖" output="𝒉"/>
-            <when state="math𝓈" output="𝒽"/>
-            <when state="math𝓈𝓫" output="𝓱"/>
+            <when state="math_a-z_b" output="𝐡"/>
+            <when state="math_a-z_bit" output="𝒉"/>
+            <when state="math_a-z_script" output="𝒽"/>
+            <when state="math_a-z_scriptb" output="𝓱"/>
             <when state="math_a-z_fraktur" output="𝔥"/>
             <when state="math_a-z_frakturb" output="𝖍"/>
             <when state="math_a-z_dbl" output="𝕙"/>
@@ -4782,10 +4782,10 @@
             <when state="math_a-z_sansbit" output="𝙝"/>
             <when state="math_a-z_mono" output="𝚑"/>
             <when state="math_a-z_greekb" output="𝛈"/>
-            <when state="math𝜄" output="𝜂"/>
-            <when state="math𝜾" output="𝜼"/>
-            <when state="math𝝱" output="𝝶"/>
-            <when state="math𝞲" output="𝞰"/>
+            <when state="math_a-z_greekit" output="𝜂"/>
+            <when state="math_a-z_greekbit" output="𝜼"/>
+            <when state="math_a-z_greeksansb" output="𝝶"/>
+            <when state="math_a-z_greeksansbit" output="𝞰"/>
             <when state="num_Roman" output="Ⅽ"/>
             <when state="num_roman" output="ⅽ"/>
             <when state="space" output=" "/>
@@ -4801,10 +4801,10 @@
             <when state="greek-tonos" output="Ή"/>
             <when state="math∅≷" output="≴"/>
             <when state="math∅⊂" output="⋪"/>
-            <when state="math𝐛" output="𝐇"/>
-            <when state="math𝐛𝑖" output="𝑯"/>
-            <when state="math𝑖" output="𝐻"/>
-            <when state="math𝓈𝓫" output="𝓗"/>
+            <when state="math_a-z_b" output="𝐇"/>
+            <when state="math_a-z_bit" output="𝑯"/>
+            <when state="math_a-z_it" output="𝐻"/>
+            <when state="math_a-z_scriptb" output="𝓗"/>
             <when state="math_a-z_frakturb" output="𝕳"/>
             <when state="math_a-z_dbl" output="ℍ"/>
             <when state="math_a-z_sans" output="𝖧"/>
@@ -4813,10 +4813,10 @@
             <when state="math_a-z_sansbit" output="𝙃"/>
             <when state="math_a-z_mono" output="𝙷"/>
             <when state="math_a-z_greekb" output="𝚮"/>
-            <when state="math𝜄" output="𝛨"/>
-            <when state="math𝜾" output="𝜢"/>
-            <when state="math𝝱" output="𝝜"/>
-            <when state="math𝞲" output="𝞖"/>
+            <when state="math_a-z_greekit" output="𝛨"/>
+            <when state="math_a-z_greekbit" output="𝜢"/>
+            <when state="math_a-z_greeksansb" output="𝝜"/>
+            <when state="math_a-z_greeksansbit" output="𝞖"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
         </action>
@@ -4877,11 +4877,11 @@
             <when state="math⩷" output="⩦"/>
             <when state="math⪳" output="⪳"/>
             <when state="math⪴" output="⪳"/>
-            <when state="math𝐛" output="𝐣"/>
-            <when state="math𝐛𝑖" output="𝒋"/>
-            <when state="math𝑖" output="𝑗"/>
-            <when state="math𝓈" output="𝒿"/>
-            <when state="math𝓈𝓫" output="𝓳"/>
+            <when state="math_a-z_b" output="𝐣"/>
+            <when state="math_a-z_bit" output="𝒋"/>
+            <when state="math_a-z_it" output="𝑗"/>
+            <when state="math_a-z_script" output="𝒿"/>
+            <when state="math_a-z_scriptb" output="𝓳"/>
             <when state="math_a-z_fraktur" output="𝔧"/>
             <when state="math_a-z_frakturb" output="𝖏"/>
             <when state="math_a-z_dbl" output="𝕛"/>
@@ -4891,10 +4891,10 @@
             <when state="math_a-z_sansbit" output="𝙟"/>
             <when state="math_a-z_mono" output="𝚓"/>
             <when state="math_a-z_greekb" output="𝛏"/>
-            <when state="math𝜄" output="𝜉"/>
-            <when state="math𝜾" output="𝝃"/>
-            <when state="math𝝱" output="𝝽"/>
-            <when state="math𝞲" output="𝞷"/>
+            <when state="math_a-z_greekit" output="𝜉"/>
+            <when state="math_a-z_greekbit" output="𝝃"/>
+            <when state="math_a-z_greeksansb" output="𝝽"/>
+            <when state="math_a-z_greeksansbit" output="𝞷"/>
             <when state="num_Roman" output="Ⅳ"/>
             <when state="num_roman" output="ⅳ"/>
             <when state="num⁵sup" output="⁴"/>
@@ -4908,11 +4908,11 @@
             <when state="diaeresis" output="Ӧ"/>
             <when state="math=" output="≚"/>
             <when state="math∅≷" output="≸"/>
-            <when state="math𝐛" output="𝐉"/>
-            <when state="math𝐛𝑖" output="𝑱"/>
-            <when state="math𝑖" output="𝐽"/>
-            <when state="math𝓈" output="𝒥"/>
-            <when state="math𝓈𝓫" output="𝓙"/>
+            <when state="math_a-z_b" output="𝐉"/>
+            <when state="math_a-z_bit" output="𝑱"/>
+            <when state="math_a-z_it" output="𝐽"/>
+            <when state="math_a-z_script" output="𝒥"/>
+            <when state="math_a-z_scriptb" output="𝓙"/>
             <when state="math_a-z_fraktur" output="𝔍"/>
             <when state="math_a-z_frakturb" output="𝕵"/>
             <when state="math_a-z_dbl" output="𝕁"/>
@@ -4922,10 +4922,10 @@
             <when state="math_a-z_sansbit" output="𝙅"/>
             <when state="math_a-z_mono" output="𝙹"/>
             <when state="math_a-z_greekb" output="𝚵"/>
-            <when state="math𝜄" output="𝛯"/>
-            <when state="math𝜾" output="𝜩"/>
-            <when state="math𝝱" output="𝝣"/>
-            <when state="math𝞲" output="𝞝"/>
+            <when state="math_a-z_greekit" output="𝛯"/>
+            <when state="math_a-z_greekbit" output="𝜩"/>
+            <when state="math_a-z_greeksansb" output="𝝣"/>
+            <when state="math_a-z_greeksansbit" output="𝞝"/>
             <when state="num_Roman" output="ⅳ"/>
             <when state="num_roman" output="Ⅳ"/>
             <when state="num⁵sup" output="₄"/>
@@ -4942,7 +4942,7 @@
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
             <when state="math=" output="͇"/>
-            <when state="math𝑖" output="𝚥"/>
+            <when state="math_a-z_it" output="𝚥"/>
             <when state="space" output="⁠"/>
         </action>
         <action id="2→2 j⎈">
@@ -4999,11 +4999,11 @@
             <when state="math⩷" output="≑"/>
             <when state="math⪳" output="⪴"/>
             <when state="math⪴" output="⪴"/>
-            <when state="math𝐛" output="𝐤"/>
-            <when state="math𝐛𝑖" output="𝒌"/>
-            <when state="math𝑖" output="𝑘"/>
-            <when state="math𝓈" output="𝓀"/>
-            <when state="math𝓈𝓫" output="𝓴"/>
+            <when state="math_a-z_b" output="𝐤"/>
+            <when state="math_a-z_bit" output="𝒌"/>
+            <when state="math_a-z_it" output="𝑘"/>
+            <when state="math_a-z_script" output="𝓀"/>
+            <when state="math_a-z_scriptb" output="𝓴"/>
             <when state="math_a-z_fraktur" output="𝔨"/>
             <when state="math_a-z_frakturb" output="𝖐"/>
             <when state="math_a-z_dbl" output="𝕜"/>
@@ -5013,10 +5013,10 @@
             <when state="math_a-z_sansbit" output="𝙠"/>
             <when state="math_a-z_mono" output="𝚔"/>
             <when state="math_a-z_greekb" output="𝛋"/>
-            <when state="math𝜄" output="𝜅"/>
-            <when state="math𝜾" output="𝜿"/>
-            <when state="math𝝱" output="𝝹"/>
-            <when state="math𝞲" output="𝞳"/>
+            <when state="math_a-z_greekit" output="𝜅"/>
+            <when state="math_a-z_greekbit" output="𝜿"/>
+            <when state="math_a-z_greeksansb" output="𝝹"/>
+            <when state="math_a-z_greeksansbit" output="𝞳"/>
             <when state="num_Roman" output="Ⅴ"/>
             <when state="num_roman" output="ⅴ"/>
             <when state="num⁵sup" output="⁵"/>
@@ -5030,11 +5030,11 @@
             <!-- <when state="dot-below" output="Ḳ"/> -->
             <when state="math=" output="≙"/>
             <when state="math∅≷" output="≹"/>
-            <when state="math𝐛" output="𝐊"/>
-            <when state="math𝐛𝑖" output="𝑲"/>
-            <when state="math𝑖" output="𝐾"/>
-            <when state="math𝓈" output="𝒦"/>
-            <when state="math𝓈𝓫" output="𝓚"/>
+            <when state="math_a-z_b" output="𝐊"/>
+            <when state="math_a-z_bit" output="𝑲"/>
+            <when state="math_a-z_it" output="𝐾"/>
+            <when state="math_a-z_script" output="𝒦"/>
+            <when state="math_a-z_scriptb" output="𝓚"/>
             <when state="math_a-z_fraktur" output="𝔎"/>
             <when state="math_a-z_frakturb" output="𝕶"/>
             <when state="math_a-z_dbl" output="𝕂"/>
@@ -5044,10 +5044,10 @@
             <when state="math_a-z_sansbit" output="𝙆"/>
             <when state="math_a-z_mono" output="𝙺"/>
             <when state="math_a-z_greekb" output="𝚱"/>
-            <when state="math𝜄" output="𝛫"/>
-            <when state="math𝜾" output="𝜥"/>
-            <when state="math𝝱" output="𝝟"/>
-            <when state="math𝞲" output="𝞙"/>
+            <when state="math_a-z_greekit" output="𝛫"/>
+            <when state="math_a-z_greekbit" output="𝜥"/>
+            <when state="math_a-z_greeksansb" output="𝝟"/>
+            <when state="math_a-z_greeksansbit" output="𝞙"/>
             <when state="num_Roman" output="ⅴ"/>
             <when state="num_roman" output="Ⅴ"/>
             <when state="num⁵sup" output="₅"/>
@@ -5062,10 +5062,10 @@
             <when state="fs" output="“"/>
             <when state="math=" output="͌"/>
             <when state="math_a-z_greekb" output="𝛞"/>
-            <when state="math𝜄" output="𝜘"/>
-            <when state="math𝜾" output="𝝒"/>
-            <when state="math𝝱" output="𝞌"/>
-            <when state="math𝞲" output="𝟆"/>
+            <when state="math_a-z_greekit" output="𝜘"/>
+            <when state="math_a-z_greekbit" output="𝝒"/>
+            <when state="math_a-z_greeksansb" output="𝞌"/>
+            <when state="math_a-z_greeksansbit" output="𝟆"/>
         </action>
         <action id="2→4 l">
             <when state="none" output="д"/>
@@ -5129,11 +5129,11 @@
             <when state="math⪳" output="≼"/>
             <when state="math⪴" output="≼"/>
             <when state="math⭀" output="⟸"/>
-            <when state="math𝐛" output="𝐥"/>
-            <when state="math𝐛𝑖" output="𝒍"/>
-            <when state="math𝑖" output="𝑙"/>
-            <when state="math𝓈" output="𝓁"/>
-            <when state="math𝓈𝓫" output="𝓵"/>
+            <when state="math_a-z_b" output="𝐥"/>
+            <when state="math_a-z_bit" output="𝒍"/>
+            <when state="math_a-z_it" output="𝑙"/>
+            <when state="math_a-z_script" output="𝓁"/>
+            <when state="math_a-z_scriptb" output="𝓵"/>
             <when state="math_a-z_fraktur" output="𝔩"/>
             <when state="math_a-z_frakturb" output="𝖑"/>
             <when state="math_a-z_dbl" output="𝕝"/>
@@ -5143,10 +5143,10 @@
             <when state="math_a-z_sansbit" output="𝙡"/>
             <when state="math_a-z_mono" output="𝚕"/>
             <when state="math_a-z_greekb" output="𝛌"/>
-            <when state="math𝜄" output="𝜆"/>
-            <when state="math𝜾" output="𝝀"/>
-            <when state="math𝝱" output="𝝺"/>
-            <when state="math𝞲" output="𝞴"/>
+            <when state="math_a-z_greekit" output="𝜆"/>
+            <when state="math_a-z_greekbit" output="𝝀"/>
+            <when state="math_a-z_greeksansb" output="𝝺"/>
+            <when state="math_a-z_greeksansbit" output="𝞴"/>
             <when state="num_Roman" output="Ⅵ"/>
             <when state="num_roman" output="ⅵ"/>
             <when state="num⁵sup" output="⁶"/>
@@ -5166,10 +5166,10 @@
             <when state="math∅∈" output="∉"/>
             <when state="math∅≷" output="≰"/>
             <when state="math∅⊂" output="⊄"/>
-            <when state="math𝐛" output="𝐋"/>
-            <when state="math𝐛𝑖" output="𝑳"/>
-            <when state="math𝑖" output="𝐿"/>
-            <when state="math𝓈𝓫" output="𝓛"/>
+            <when state="math_a-z_b" output="𝐋"/>
+            <when state="math_a-z_bit" output="𝑳"/>
+            <when state="math_a-z_it" output="𝐿"/>
+            <when state="math_a-z_scriptb" output="𝓛"/>
             <when state="math_a-z_fraktur" output="𝔏"/>
             <when state="math_a-z_frakturb" output="𝕷"/>
             <when state="math_a-z_dbl" output="𝕃"/>
@@ -5179,10 +5179,10 @@
             <when state="math_a-z_sansbit" output="𝙇"/>
             <when state="math_a-z_mono" output="𝙻"/>
             <when state="math_a-z_greekb" output="𝚲"/>
-            <when state="math𝜄" output="𝛬"/>
-            <when state="math𝜾" output="𝜦"/>
-            <when state="math𝝱" output="𝝠"/>
-            <when state="math𝞲" output="𝞚"/>
+            <when state="math_a-z_greekit" output="𝛬"/>
+            <when state="math_a-z_greekbit" output="𝜦"/>
+            <when state="math_a-z_greeksansb" output="𝝠"/>
+            <when state="math_a-z_greeksansbit" output="𝞚"/>
             <when state="num_Roman" output="ⅵ"/>
             <when state="num_roman" output="Ⅵ"/>
             <when state="num⁵sup" output="₆"/>
@@ -5400,11 +5400,11 @@
             <when state="math⧣" output="⧣"/>
             <when state="math⧤" output="⧣"/>
             <when state="math⩳" output="≊"/>
-            <when state="math𝐛" output="𝐳"/>
-            <when state="math𝐛𝑖" output="𝒛"/>
-            <when state="math𝑖" output="𝑧"/>
-            <when state="math𝓈" output="𝓏"/>
-            <when state="math𝓈𝓫" output="𝔃"/>
+            <when state="math_a-z_b" output="𝐳"/>
+            <when state="math_a-z_bit" output="𝒛"/>
+            <when state="math_a-z_it" output="𝑧"/>
+            <when state="math_a-z_script" output="𝓏"/>
+            <when state="math_a-z_scriptb" output="𝔃"/>
             <when state="math_a-z_fraktur" output="𝔷"/>
             <when state="math_a-z_frakturb" output="𝖟"/>
             <when state="math_a-z_dbl" output="𝕫"/>
@@ -5414,10 +5414,10 @@
             <when state="math_a-z_sansbit" output="𝙯"/>
             <when state="math_a-z_mono" output="𝚣"/>
             <when state="math_a-z_greekb" output="𝛇"/>
-            <when state="math𝜄" output="𝜁"/>
-            <when state="math𝜾" output="𝜻"/>
-            <when state="math𝝱" output="𝝵"/>
-            <when state="math𝞲" output="𝞯"/>
+            <when state="math_a-z_greekit" output="𝜁"/>
+            <when state="math_a-z_greekbit" output="𝜻"/>
+            <when state="math_a-z_greeksansb" output="𝝵"/>
+            <when state="math_a-z_greeksansbit" output="𝞯"/>
             <when state="space" output="​"/>
         </action>
         <action id="3←1 z⇧">
@@ -5431,11 +5431,11 @@
             <!-- <when state="dot-below" output="Ẓ"/> -->
             <when state="math=" output="⧤"/>
             <when state="math⩳" output="≇"/>
-            <when state="math𝐛" output="𝐙"/>
-            <when state="math𝐛𝑖" output="𝒁"/>
-            <when state="math𝑖" output="𝑍"/>
-            <when state="math𝓈" output="𝒵"/>
-            <when state="math𝓈𝓫" output="𝓩"/>
+            <when state="math_a-z_b" output="𝐙"/>
+            <when state="math_a-z_bit" output="𝒁"/>
+            <when state="math_a-z_it" output="𝑍"/>
+            <when state="math_a-z_script" output="𝒵"/>
+            <when state="math_a-z_scriptb" output="𝓩"/>
             <when state="math_a-z_frakturb" output="𝖅"/>
             <when state="math_a-z_dbl" output="ℤ"/>
             <when state="math_a-z_sans" output="𝖹"/>
@@ -5444,10 +5444,10 @@
             <when state="math_a-z_sansbit" output="𝙕"/>
             <when state="math_a-z_mono" output="𝚉"/>
             <when state="math_a-z_greekb" output="𝚭"/>
-            <when state="math𝜄" output="𝛧"/>
-            <when state="math𝜾" output="𝜡"/>
-            <when state="math𝝱" output="𝝛"/>
-            <when state="math𝞲" output="𝞕"/>
+            <when state="math_a-z_greekit" output="𝛧"/>
+            <when state="math_a-z_greekbit" output="𝜡"/>
+            <when state="math_a-z_greeksansb" output="𝝛"/>
+            <when state="math_a-z_greeksansbit" output="𝞕"/>
         </action>
         <action id="3←1 z⎇">
             <when state="none" output="Ω"/>
@@ -5479,11 +5479,11 @@
             <when state="math⋕" next="math⧣"/>
             <when state="math⧣" next="math⧤"/>
             <when state="math⧤" next="math="/>
-            <when state="math𝐛" output="𝐱"/>
-            <when state="math𝐛𝑖" output="𝒙"/>
-            <when state="math𝑖" output="𝑥"/>
-            <when state="math𝓈" output="𝓍"/>
-            <when state="math𝓈𝓫" output="𝔁"/>
+            <when state="math_a-z_b" output="𝐱"/>
+            <when state="math_a-z_bit" output="𝒙"/>
+            <when state="math_a-z_it" output="𝑥"/>
+            <when state="math_a-z_script" output="𝓍"/>
+            <when state="math_a-z_scriptb" output="𝔁"/>
             <when state="math_a-z_fraktur" output="𝔵"/>
             <when state="math_a-z_frakturb" output="𝖝"/>
             <when state="math_a-z_dbl" output="𝕩"/>
@@ -5493,10 +5493,10 @@
             <when state="math_a-z_sansbit" output="𝙭"/>
             <when state="math_a-z_mono" output="𝚡"/>
             <when state="math_a-z_greekb" output="𝛘"/>
-            <when state="math𝜄" output="𝜒"/>
-            <when state="math𝜾" output="𝝌"/>
-            <when state="math𝝱" output="𝞆"/>
-            <when state="math𝞲" output="𝟀"/>
+            <when state="math_a-z_greekit" output="𝜒"/>
+            <when state="math_a-z_greekbit" output="𝝌"/>
+            <when state="math_a-z_greeksansb" output="𝞆"/>
+            <when state="math_a-z_greeksansbit" output="𝟀"/>
         </action>
         <action id="3←2 x⇧">
             <when state="none" output="Ч"/>
@@ -5507,11 +5507,11 @@
             <!-- <when state="dot-above" output="Ẋ"/> -->
             <when state="mathO" output="⊠"/>
             <when state="math⋃N-Ary" output="⨂"/>
-            <when state="math𝐛" output="𝐗"/>
-            <when state="math𝐛𝑖" output="𝑿"/>
-            <when state="math𝑖" output="𝑋"/>
-            <when state="math𝓈" output="𝒳"/>
-            <when state="math𝓈𝓫" output="𝓧"/>
+            <when state="math_a-z_b" output="𝐗"/>
+            <when state="math_a-z_bit" output="𝑿"/>
+            <when state="math_a-z_it" output="𝑋"/>
+            <when state="math_a-z_script" output="𝒳"/>
+            <when state="math_a-z_scriptb" output="𝓧"/>
             <when state="math_a-z_fraktur" output="𝔛"/>
             <when state="math_a-z_frakturb" output="𝖃"/>
             <when state="math_a-z_dbl" output="𝕏"/>
@@ -5521,10 +5521,10 @@
             <when state="math_a-z_sansbit" output="𝙓"/>
             <when state="math_a-z_mono" output="𝚇"/>
             <when state="math_a-z_greekb" output="𝚾"/>
-            <when state="math𝜄" output="𝛸"/>
-            <when state="math𝜾" output="𝜲"/>
-            <when state="math𝝱" output="𝝬"/>
-            <when state="math𝞲" output="𝞦"/>
+            <when state="math_a-z_greekit" output="𝛸"/>
+            <when state="math_a-z_greekbit" output="𝜲"/>
+            <when state="math_a-z_greeksansb" output="𝝬"/>
+            <when state="math_a-z_greeksansbit" output="𝞦"/>
         </action>
         <action id="3←2 x⎇">
             <when state="none" output="×"/>
@@ -5558,11 +5558,11 @@
             <when state="math∅⊄" output="⋢"/>
             <when state="math∅⊻" output="⋎"/>
             <when state="math⊹" output="⋋"/>
-            <when state="math𝐛" output="𝐜"/>
-            <when state="math𝐛𝑖" output="𝒄"/>
-            <when state="math𝑖" output="𝑐"/>
-            <when state="math𝓈" output="𝒸"/>
-            <when state="math𝓈𝓫" output="𝓬"/>
+            <when state="math_a-z_b" output="𝐜"/>
+            <when state="math_a-z_bit" output="𝒄"/>
+            <when state="math_a-z_it" output="𝑐"/>
+            <when state="math_a-z_script" output="𝒸"/>
+            <when state="math_a-z_scriptb" output="𝓬"/>
             <when state="math_a-z_fraktur" output="𝔠"/>
             <when state="math_a-z_frakturb" output="𝖈"/>
             <when state="math_a-z_dbl" output="𝕔"/>
@@ -5572,10 +5572,10 @@
             <when state="math_a-z_sansbit" output="𝙘"/>
             <when state="math_a-z_mono" output="𝚌"/>
             <when state="math_a-z_greekb" output="𝛙"/>
-            <when state="math𝜄" output="𝜓"/>
-            <when state="math𝜾" output="𝝍"/>
-            <when state="math𝝱" output="𝞇"/>
-            <when state="math𝞲" output="𝟁"/>
+            <when state="math_a-z_greekit" output="𝜓"/>
+            <when state="math_a-z_greekbit" output="𝝍"/>
+            <when state="math_a-z_greeksansb" output="𝞇"/>
+            <when state="math_a-z_greeksansbit" output="𝟁"/>
             <when state="num_Roman" output="Ⅽ"/>
             <when state="num_roman" output="ⅽ"/>
             <when state="space" output="␠"/>
@@ -5592,11 +5592,11 @@
             <!-- <when state="dot-above" output="Ċ"/> -->
             <when state="math∅⊂" output="⋢"/>
             <when state="math∅⊄" output="⋤"/>
-            <when state="math𝐛" output="𝐂"/>
-            <when state="math𝐛𝑖" output="𝑪"/>
-            <when state="math𝑖" output="𝐶"/>
-            <when state="math𝓈" output="𝒞"/>
-            <when state="math𝓈𝓫" output="𝓒"/>
+            <when state="math_a-z_b" output="𝐂"/>
+            <when state="math_a-z_bit" output="𝑪"/>
+            <when state="math_a-z_it" output="𝐶"/>
+            <when state="math_a-z_script" output="𝒞"/>
+            <when state="math_a-z_scriptb" output="𝓒"/>
             <when state="math_a-z_frakturb" output="𝕮"/>
             <when state="math_a-z_dbl" output="ℂ"/>
             <when state="math_a-z_sans" output="𝖢"/>
@@ -5605,10 +5605,10 @@
             <when state="math_a-z_sansbit" output="𝘾"/>
             <when state="math_a-z_mono" output="𝙲"/>
             <when state="math_a-z_greekb" output="𝚿"/>
-            <when state="math𝜄" output="𝛹"/>
-            <when state="math𝜾" output="𝜳"/>
-            <when state="math𝝱" output="𝝭"/>
-            <when state="math𝞲" output="𝞧"/>
+            <when state="math_a-z_greekit" output="𝛹"/>
+            <when state="math_a-z_greekbit" output="𝜳"/>
+            <when state="math_a-z_greeksansb" output="𝝭"/>
+            <when state="math_a-z_greeksansbit" output="𝞧"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
             <when state="space" output="␢"/>
@@ -5640,11 +5640,11 @@
             <when state="math≜" output="≜"/>
             <when state="math≝" output="≜"/>
             <when state="math⊹" output="⋌"/>
-            <when state="math𝐛" output="𝐯"/>
-            <when state="math𝐛𝑖" output="𝒗"/>
-            <when state="math𝑖" output="𝑣"/>
-            <when state="math𝓈" output="𝓋"/>
-            <when state="math𝓈𝓫" output="𝓿"/>
+            <when state="math_a-z_b" output="𝐯"/>
+            <when state="math_a-z_bit" output="𝒗"/>
+            <when state="math_a-z_it" output="𝑣"/>
+            <when state="math_a-z_script" output="𝓋"/>
+            <when state="math_a-z_scriptb" output="𝓿"/>
             <when state="math_a-z_fraktur" output="𝔳"/>
             <when state="math_a-z_frakturb" output="𝖛"/>
             <when state="math_a-z_dbl" output="𝕧"/>
@@ -5654,10 +5654,10 @@
             <when state="math_a-z_sansbit" output="𝙫"/>
             <when state="math_a-z_mono" output="𝚟"/>
             <when state="math_a-z_greekb" output="𝛚"/>
-            <when state="math𝜄" output="𝜔"/>
-            <when state="math𝜾" output="𝝎"/>
-            <when state="math𝝱" output="𝞈"/>
-            <when state="math𝞲" output="𝟂"/>
+            <when state="math_a-z_greekit" output="𝜔"/>
+            <when state="math_a-z_greekbit" output="𝝎"/>
+            <when state="math_a-z_greeksansb" output="𝞈"/>
+            <when state="math_a-z_greeksansbit" output="𝟂"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="ↄ"/>
             <when state="space" output=" "/>
@@ -5670,11 +5670,11 @@
             <when state="greek-tonos" output="Ώ"/>
             <when state="math∅⊂" output="⋣"/>
             <when state="math∅⊄" output="⋥"/>
-            <when state="math𝐛" output="𝐕"/>
-            <when state="math𝐛𝑖" output="𝑽"/>
-            <when state="math𝑖" output="𝑉"/>
-            <when state="math𝓈" output="𝒱"/>
-            <when state="math𝓈𝓫" output="𝓥"/>
+            <when state="math_a-z_b" output="𝐕"/>
+            <when state="math_a-z_bit" output="𝑽"/>
+            <when state="math_a-z_it" output="𝑉"/>
+            <when state="math_a-z_script" output="𝒱"/>
+            <when state="math_a-z_scriptb" output="𝓥"/>
             <when state="math_a-z_fraktur" output="𝔙"/>
             <when state="math_a-z_frakturb" output="𝖁"/>
             <when state="math_a-z_dbl" output="𝕍"/>
@@ -5684,10 +5684,10 @@
             <when state="math_a-z_sansbit" output="𝙑"/>
             <when state="math_a-z_mono" output="𝚅"/>
             <when state="math_a-z_greekb" output="𝛀"/>
-            <when state="math𝜄" output="𝛺"/>
-            <when state="math𝜾" output="𝜴"/>
-            <when state="math𝝱" output="𝝮"/>
-            <when state="math𝞲" output="𝞨"/>
+            <when state="math_a-z_greekit" output="𝛺"/>
+            <when state="math_a-z_greekbit" output="𝜴"/>
+            <when state="math_a-z_greeksansb" output="𝝮"/>
+            <when state="math_a-z_greeksansbit" output="𝞨"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="Ↄ"/>
             <!-- <when state="tilde" output="Ṽ"/> -->
@@ -5718,11 +5718,11 @@
             <when state="math∅≷" output="≬"/>
             <when state="math∅⊂" output="⊵"/>
             <when state="math∅⊄" output="⋭"/>
-            <when state="math𝐛" output="𝐛"/>
-            <when state="math𝐛𝑖" output="𝒃"/>
-            <when state="math𝑖" output="𝑏"/>
-            <when state="math𝓈" output="𝒷"/>
-            <when state="math𝓈𝓫" output="𝓫"/>
+            <when state="math_a-z_b" output="𝐛"/>
+            <when state="math_a-z_bit" output="𝒃"/>
+            <when state="math_a-z_it" output="𝑏"/>
+            <when state="math_a-z_script" output="𝒷"/>
+            <when state="math_a-z_scriptb" output="𝓫"/>
             <when state="math_a-z_fraktur" output="𝔟"/>
             <when state="math_a-z_frakturb" output="𝖇"/>
             <when state="math_a-z_dbl" output="𝕓"/>
@@ -5732,10 +5732,10 @@
             <when state="math_a-z_sansbit" output="𝙗"/>
             <when state="math_a-z_mono" output="𝚋"/>
             <when state="math_a-z_greekb" output="𝛃"/>
-            <when state="math𝜄" output="𝛽"/>
-            <when state="math𝜾" output="𝜷"/>
-            <when state="math𝝱" output="𝝱"/>
-            <when state="math𝞲" output="𝞫"/>
+            <when state="math_a-z_greekit" output="𝛽"/>
+            <when state="math_a-z_greekbit" output="𝜷"/>
+            <when state="math_a-z_greeksansb" output="𝝱"/>
+            <when state="math_a-z_greeksansbit" output="𝞫"/>
             <when state="num_Roman" output="ↆ"/>
             <when state="num_roman" output="ↆ"/>
             <when state="space" output=" "/>
@@ -5750,10 +5750,10 @@
             <!-- <when state="dot-above" output="Ḃ"/> -->
             <!-- <when state="dot-below" output="Ḅ"/> -->
             <when state="math∅⊂" output="⋭"/>
-            <when state="math𝐛" output="𝐁"/>
-            <when state="math𝐛𝑖" output="𝑩"/>
-            <when state="math𝑖" output="𝐵"/>
-            <when state="math𝓈𝓫" output="𝓑"/>
+            <when state="math_a-z_b" output="𝐁"/>
+            <when state="math_a-z_bit" output="𝑩"/>
+            <when state="math_a-z_it" output="𝐵"/>
+            <when state="math_a-z_scriptb" output="𝓑"/>
             <when state="math_a-z_fraktur" output="𝔅"/>
             <when state="math_a-z_frakturb" output="𝕭"/>
             <when state="math_a-z_dbl" output="𝔹"/>
@@ -5763,21 +5763,21 @@
             <when state="math_a-z_sansbit" output="𝘽"/>
             <when state="math_a-z_mono" output="𝙱"/>
             <when state="math_a-z_greekb" output="𝚩"/>
-            <when state="math𝜄" output="𝛣"/>
-            <when state="math𝜾" output="𝜝"/>
-            <when state="math𝝱" output="𝝗"/>
-            <when state="math𝞲" output="𝞑"/>
+            <when state="math_a-z_greekit" output="𝛣"/>
+            <when state="math_a-z_greekbit" output="𝜝"/>
+            <when state="math_a-z_greeksansb" output="𝝗"/>
+            <when state="math_a-z_greeksansbit" output="𝞑"/>
         </action>
         <action id="3←5 b⎇">
             <when state="none" output="ß"/>
-            <when state="Math" next="math𝐛"/>
+            <when state="Math" next="math_a-z_b"/>
             <when state="Typographical" output="⌨"/>
-            <when state="math𝑖" next="math𝐛𝑖"/>
-            <when state="math𝓈" next="math𝓈𝓫"/>
+            <when state="math_a-z_it" next="math_a-z_bit"/>
+            <when state="math_a-z_script" next="math_a-z_scriptb"/>
             <when state="math_a-z_fraktur" next="math_a-z_frakturb"/>
             <when state="math_a-z_sans" next="math_a-z_sansb"/>
             <when state="math_a-z_sansit" next="math_a-z_sansbit"/>
-            <when state="math_a-z_greekb" next="math𝜾"/>
+            <when state="math_a-z_greekb" next="math_a-z_greekbit"/>
         </action>
         <action id="3→1 n">
             <when state="none" output="т"/>
@@ -5804,11 +5804,11 @@
             <when state="math≉" output="≠"/>
             <when state="math≠" output="≠"/>
             <when state="math⋃N-Ary" output="⊽"/>
-            <when state="math𝐛" output="𝐧"/>
-            <when state="math𝐛𝑖" output="𝒏"/>
-            <when state="math𝑖" output="𝑛"/>
-            <when state="math𝓈" output="𝓃"/>
-            <when state="math𝓈𝓫" output="𝓷"/>
+            <when state="math_a-z_b" output="𝐧"/>
+            <when state="math_a-z_bit" output="𝒏"/>
+            <when state="math_a-z_it" output="𝑛"/>
+            <when state="math_a-z_script" output="𝓃"/>
+            <when state="math_a-z_scriptb" output="𝓷"/>
             <when state="math_a-z_fraktur" output="𝔫"/>
             <when state="math_a-z_frakturb" output="𝖓"/>
             <when state="math_a-z_dbl" output="𝕟"/>
@@ -5818,10 +5818,10 @@
             <when state="math_a-z_sansbit" output="𝙣"/>
             <when state="math_a-z_mono" output="𝚗"/>
             <when state="math_a-z_greekb" output="𝛖"/>
-            <when state="math𝜄" output="𝜈"/>
-            <when state="math𝜾" output="𝝂"/>
-            <when state="math𝝱" output="𝝼"/>
-            <when state="math𝞲" output="𝞶"/>
+            <when state="math_a-z_greekit" output="𝜈"/>
+            <when state="math_a-z_greekbit" output="𝝂"/>
+            <when state="math_a-z_greeksansb" output="𝝼"/>
+            <when state="math_a-z_greeksansbit" output="𝞶"/>
             <when state="num_Roman" next="num₅sub"/>
             <when state="num_roman" next="num_Roman"/>
             <when state="num⁵sup" next="num_roman"/>
@@ -5840,11 +5840,11 @@
             <!-- <when state="dot-below" output="Ṇ"/> -->
             <!-- <when state="grave" output="Ǹ"/> -->
             <when state="math∅⊂" output="⋬"/>
-            <when state="math𝐛" output="𝐍"/>
-            <when state="math𝐛𝑖" output="𝑵"/>
-            <when state="math𝑖" output="𝑁"/>
-            <when state="math𝓈" output="𝒩"/>
-            <when state="math𝓈𝓫" output="𝓝"/>
+            <when state="math_a-z_b" output="𝐍"/>
+            <when state="math_a-z_bit" output="𝑵"/>
+            <when state="math_a-z_it" output="𝑁"/>
+            <when state="math_a-z_script" output="𝒩"/>
+            <when state="math_a-z_scriptb" output="𝓝"/>
             <when state="math_a-z_fraktur" output="𝔑"/>
             <when state="math_a-z_frakturb" output="𝕹"/>
             <when state="math_a-z_dbl" output="ℕ"/>
@@ -5854,10 +5854,10 @@
             <when state="math_a-z_sansbit" output="𝙉"/>
             <when state="math_a-z_mono" output="𝙽"/>
             <when state="math_a-z_greekb" output="𝚴"/>
-            <when state="math𝜄" output="𝛮"/>
-            <when state="math𝜾" output="𝜨"/>
-            <when state="math𝝱" output="𝝢"/>
-            <when state="math𝞲" output="𝞜"/>
+            <when state="math_a-z_greekit" output="𝛮"/>
+            <when state="math_a-z_greekbit" output="𝜨"/>
+            <when state="math_a-z_greeksansb" output="𝝢"/>
+            <when state="math_a-z_greeksansbit" output="𝞜"/>
             <when state="num⁵sup" next="num_Roman"/>
             <!-- <when state="tilde" output="Ñ"/> -->
         </action>
@@ -5907,11 +5907,11 @@
             <when state="math⋰" next="math⋱"/>
             <when state="math⋱" next="math…"/>
             <when state="math⩰" output="≊"/>
-            <when state="math𝐛" output="𝐦"/>
-            <when state="math𝐛𝑖" output="𝒎"/>
-            <when state="math𝑖" output="𝑚"/>
-            <when state="math𝓈" output="𝓂"/>
-            <when state="math𝓈𝓫" output="𝓶"/>
+            <when state="math_a-z_b" output="𝐦"/>
+            <when state="math_a-z_bit" output="𝒎"/>
+            <when state="math_a-z_it" output="𝑚"/>
+            <when state="math_a-z_script" output="𝓂"/>
+            <when state="math_a-z_scriptb" output="𝓶"/>
             <when state="math_a-z_fraktur" output="𝔪"/>
             <when state="math_a-z_frakturb" output="𝖒"/>
             <when state="math_a-z_dbl" output="𝕞"/>
@@ -5921,10 +5921,10 @@
             <when state="math_a-z_sansbit" output="𝙢"/>
             <when state="math_a-z_mono" output="𝚖"/>
             <when state="math_a-z_greekb" output="𝛍"/>
-            <when state="math𝜄" output="𝜇"/>
-            <when state="math𝜾" output="𝝁"/>
-            <when state="math𝝱" output="𝝻"/>
-            <when state="math𝞲" output="𝞵"/>
+            <when state="math_a-z_greekit" output="𝜇"/>
+            <when state="math_a-z_greekbit" output="𝝁"/>
+            <when state="math_a-z_greeksansb" output="𝝻"/>
+            <when state="math_a-z_greeksansbit" output="𝞵"/>
             <when state="num_Roman" output="Ⅶ"/>
             <when state="num_roman" output="ⅶ"/>
             <when state="num⁵sup" output="⁷"/>
@@ -5941,10 +5941,10 @@
             <when state="dot-below" output="Ṃ"/>
             <when state="math∅≷" output="≨"/>
             <when state="math⋃N-Ary" output="⊽"/>
-            <when state="math𝐛" output="𝐌"/>
-            <when state="math𝐛𝑖" output="𝑴"/>
-            <when state="math𝑖" output="𝑀"/>
-            <when state="math𝓈𝓫" output="𝓜"/>
+            <when state="math_a-z_b" output="𝐌"/>
+            <when state="math_a-z_bit" output="𝑴"/>
+            <when state="math_a-z_it" output="𝑀"/>
+            <when state="math_a-z_scriptb" output="𝓜"/>
             <when state="math_a-z_fraktur" output="𝔐"/>
             <when state="math_a-z_frakturb" output="𝕸"/>
             <when state="math_a-z_dbl" output="𝕄"/>
@@ -5954,10 +5954,10 @@
             <when state="math_a-z_sansbit" output="𝙈"/>
             <when state="math_a-z_mono" output="𝙼"/>
             <when state="math_a-z_greekb" output="𝚳"/>
-            <when state="math𝜄" output="𝛭"/>
-            <when state="math𝜾" output="𝜧"/>
-            <when state="math𝝱" output="𝝡"/>
-            <when state="math𝞲" output="𝞛"/>
+            <when state="math_a-z_greekit" output="𝛭"/>
+            <when state="math_a-z_greekbit" output="𝜧"/>
+            <when state="math_a-z_greeksansb" output="𝝡"/>
+            <when state="math_a-z_greeksansbit" output="𝞛"/>
             <when state="num_Roman" output="ⅶ"/>
             <when state="num_roman" output="Ⅶ"/>
             <when state="num⁵sup" output="₇"/>
@@ -6601,10 +6601,10 @@
         <action id="2←3 d⇧⎇">
             <when state="none" output="⌀"/>
             <when state="math_a-z_greekb" output="𝛁"/>
-            <when state="math𝜄" output="𝛻"/>
-            <when state="math𝜾" output="𝜵"/>
-            <when state="math𝝱" output="𝝯"/>
-            <when state="math𝞲" output="𝞩"/>
+            <when state="math_a-z_greekit" output="𝛻"/>
+            <when state="math_a-z_greekbit" output="𝜵"/>
+            <when state="math_a-z_greeksansb" output="𝝯"/>
+            <when state="math_a-z_greeksansbit" output="𝞩"/>
         </action>
         <action id="1←2 w⇧⎇">
             <when state="none" output="⌃"/>
@@ -6805,11 +6805,11 @@
         <when state="math⪴" output="⪴"/>
         <when state="math⭀" output="⭀"/>
         <when state="math⯹" output="⯹"/>
-        <when state="math𝐛" output="𝐛"/>
-        <when state="math𝐛𝑖" output="𝒊"/>
-        <when state="math𝑖" output="𝑖"/>
-        <when state="math𝓈" output="𝓈"/>
-        <when state="math𝓈𝓫" output="𝓫"/>
+        <when state="math_a-z_b" output="𝐛"/>
+        <when state="math_a-z_bit" output="𝒊"/>
+        <when state="math_a-z_it" output="𝑖"/>
+        <when state="math_a-z_script" output="𝓈"/>
+        <when state="math_a-z_scriptb" output="𝓫"/>
         <when state="math_a-z_fraktur" output="𝔣"/>
         <when state="math_a-z_frakturb" output="𝖇"/>
         <when state="math_a-z_dbl" output="𝕤"/>
@@ -6819,10 +6819,10 @@
         <when state="math_a-z_sansbit" output="𝙗"/>
         <when state="math_a-z_mono" output="𝚖"/>
         <when state="math_a-z_greekb" output="𝛄"/>
-        <when state="math𝜄" output="𝜄"/>
-        <when state="math𝜾" output="𝜾"/>
-        <when state="math𝝱" output="𝝱"/>
-        <when state="math𝞲" output="𝞲"/>
+        <when state="math_a-z_greekit" output="𝜄"/>
+        <when state="math_a-z_greekbit" output="𝜾"/>
+        <when state="math_a-z_greeksansb" output="𝝱"/>
+        <when state="math_a-z_greeksansbit" output="𝞲"/>
         <when state="num_Roman" output="Ⅳ"/>
         <when state="num_Roman_Ⅰ" output="Ⅰ"/>
         <when state="num_Roman_Ⅱ" output="Ⅱ"/>
