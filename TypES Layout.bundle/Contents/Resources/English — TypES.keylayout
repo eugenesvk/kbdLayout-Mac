@@ -4000,6 +4000,7 @@
             <when state="Greek" output="≈"/>
             <when state="OldCyrillic" output="ꙃ"/>
             <when state="cur$re" output="₰"/>
+            <!-- <when state="math_a-z_greekb" output="𝛡"/> -->
             <when state="math_a-z_greekb" output="𝛡"/>
             <when state="math_a-z_greekbit" output="𝝕"/>
             <when state="math_a-z_greekit" output="𝜛"/>
