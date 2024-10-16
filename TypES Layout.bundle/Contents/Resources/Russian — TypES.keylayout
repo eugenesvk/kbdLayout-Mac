@@ -598,7 +598,7 @@
             <key code="8" action="3←3 c⇧⎇"/>
             <key code="9" action="3←4 v⇧⎇"/>
             <key code="10" action="00 §⇧⎇"/>
-            <key code="11" output="ẞ"/>
+            <key code="11" action="3←5 b⇧⎇"/>
             <key code="12" action="1←1 q⇧⎇"/>
             <key code="13" action="1←2 w⇧⎇"/>
             <key code="14" action="1←3 e⇧⎇"/>
@@ -1510,7 +1510,7 @@
             <key code="1" output="z"/>
             <key code="2" output="ћ"/>
             <key code="3" action="2←4 f⎈⎇"/>
-            <key code="4" output="•"/>
+            <key code="4" output="2→1 h⎈⎇"/>
             <key code="5" output="…"/>
             <key code="6" output="ђ"/>
             <key code="7" output="x"/>
@@ -2206,6 +2206,7 @@
         <action id="0←1 1">
             <when state="none" output="1"/>
             <when state="Diacritics" next="acute"/>
+            <when state="Letterlike" output="ℵ"/>
             <when state="Typographical" output="‽"/>
             <when state="acute" output="́"/>
             <when state="horn" next="horn+acute"/>
@@ -2255,6 +2256,7 @@
         <action id="0←2 2">
             <when state="none" output="2"/>
             <when state="Diacritics" next="grave"/>
+            <when state="Letterlike" output="ℶ"/>
             <when state="acute" output="̋"/>
             <when state="cur$re" output="₫"/>
             <when state="grave" output="̀"/>
@@ -2318,6 +2320,9 @@
         <action id="0←3 3">
             <when state="none" output="3"/>
             <when state="Diacritics" next="diaeresis"/>
+            <when state="Letterlike" output="ℷ"/>
+            <when state="Letterlike_Ll" output="⅏"/>
+            <when state="Letterlike_Pdbl" output="ℼ"/>
             <when state="Typographical" output="№"/>
             <when state="cur$re" output="₷"/>
             <when state="diaeresis" output="̈"/>
@@ -2343,6 +2348,7 @@
         <action id="0←3 3‹⇧">
             <when state="none" output="№"/>
             <when state="Greek" output="#"/>
+            <when state="Letterlike_Pdbl" output="ℿ"/>
             <when state="Typographical" output="☰"/>
             <when state="math∂" output="∰"/>
             <when state="num_Roman" output="ⅲ"/>
@@ -2370,6 +2376,7 @@
         <action id="0←4 4">
             <when state="none" output="4"/>
             <when state="Diacritics" next="tilde"/>
+            <when state="Letterlike" output="ℸ"/>
             <when state="Typographical" output="¤"/>
             <when state="cur$re" next="cur€re"/>
             <when state="cur¥ye" next="cur₽re"/>
@@ -2432,6 +2439,7 @@
         <action id="0←5 5">
             <when state="none" output="5"/>
             <when state="Diacritics" next="macron"/>
+            <when state="Letterlike" output="⅌"/>
             <when state="cur$re" output="₮"/>
             <when state="diaeresis" next="diaeresis+macron"/>
             <when state="dot-above" next="dot-above+macron"/>
@@ -2543,6 +2551,7 @@
         <action id="0→2 7">
             <when state="none" output="7"/>
             <when state="Diacritics" next="ring"/>
+            <when state="Letterlike" output="⅋"/>
             <when state="Math" next="math∡"/>
             <when state="Typographical" output="‽"/>
             <when state="fs" output="⸮"/>
@@ -2804,6 +2813,7 @@
         <action id="0→6 -">
             <when state="none" output="-"/>
             <when state="Diacritics" next="dot-below"/>
+            <when state="Letterlike" output="⅊"/>
             <when state="Math" next="math-"/>
             <when state="Typographical" output="⹀"/>
             <when state="breve" next="breve+dot-below"/>
@@ -3017,6 +3027,7 @@
             <when state="none" output="й"/>
             <when state="Diacritics" next="breve"/>
             <when state="Greek" output="ς"/>
+            <when state="Letterlike" output="ℚ"/>
             <when state="Math" output="ℚ"/>
             <when state="OldCyrillic" output="ѳ"/>
             <when state="Typographical" output="⭾"/>
@@ -3058,6 +3069,7 @@
         <action id="1←1 q⇧">
             <when state="none" output="Й"/>
             <when state="Greek" next="greek-dialytika-tonos"/>
+            <when state="Letterlike" output="℺"/>
             <when state="OldCyrillic" output="Ѳ"/>
             <when state="breve" output="Й"/>
             <when state="diaeresis" output="Ӥ"/>
@@ -3088,12 +3100,19 @@
             <when state="none" output="⎋"/>
             <when state="Diacritics" next="breve"/>
             <when state="Greek" output="·"/>
+            <when state="Letterlike" output="℺"/>
             <when state="breve" output="̆"/>
             <when state="math_a-z_greekb" output="𝟋"/>
         </action>
         <action id="1←2 w">
             <when state="none" output="ц"/>
             <when state="Greek" output="ω"/>
+            <when state="Letterlike" output="⅀"/>
+            <when state="Letterlike_Cdbl" output="ℂ"/>
+            <when state="Letterlike_Escr" output="ⅇ"/>
+            <when state="Letterlike_Iscr" output="ⅈ"/>
+            <when state="Letterlike_Ll" output="⅏"/>
+            <when state="Letterlike_Pdbl" output="ℙ"/>
             <when state="Math" output="∇"/>
             <when state="OldCyrillic" output="ѡ"/>
             <!-- <when state="acute" output="ẃ"/> -->
@@ -3174,6 +3193,12 @@
         <action id="1←3 e">
             <when state="none" output="у"/>
             <when state="Greek" output="ε"/>
+            <when state="Letterlike" next="Letterlike_Escr"/>
+            <when state="Letterlike_EScr" next="Letterlike_Edbl"/>
+            <when state="Letterlike_Edbl" next="Letterlike_Est"/>
+            <when state="Letterlike_Escr" next="Letterlike_EScr"/>
+            <when state="Letterlike_Est" next="Letterlike_Euler"/>
+            <when state="Letterlike_Euler" next="Letterlike_Escr"/>
             <when state="Math" output="∃"/>
             <when state="OldCyrillic" output="ѣ"/>
             <when state="Typographical" output="℮"/>
@@ -3243,6 +3268,7 @@
         <action id="1←3 e⇧">
             <when state="none" output="У"/>
             <when state="Greek" output="Ε"/>
+            <when state="Letterlike" output="℮"/>
             <when state="Math" output="∄"/>
             <when state="OldCyrillic" output="Ѣ"/>
             <when state="breve" output="Ў"/>
@@ -3289,10 +3315,12 @@
         <action id="1←3 e⇧⎇">
             <when state="none" output="⇪"/>
             <when state="Greek" output="Έ"/>
+            <when state="Letterlike" output="ⅇ"/>
         </action>
         <action id="1←3 e⎇">
             <when state="none" output="€"/>
             <when state="Greek" output="€"/>
+            <when state="Letterlike" output="ℰ"/>
             <when state="math_a-z_greekb" output="𝛜"/>
             <when state="math_a-z_greekbit" output="𝝐"/>
             <when state="math_a-z_greekit" output="𝜖"/>
@@ -3306,6 +3334,13 @@
             <when state="Copyright" output="®"/>
             <when state="Diacritics" next="ring"/>
             <when state="Greek" output="ρ"/>
+            <when state="Letterlike" next="Letterlike_Rdouble"/>
+            <when state="Letterlike_Pdbl" output="℗"/>
+            <when state="Letterlike_Rblack" next="Letterlike_Rscript"/>
+            <when state="Letterlike_Rdouble" next="Letterlike_Rx"/>
+            <when state="Letterlike_Re" next="Letterlike"/>
+            <when state="Letterlike_Rscript" next="Letterlike_Re"/>
+            <when state="Letterlike_Rx" next="Letterlike_Rblack"/>
             <when state="Math" output="ℝ"/>
             <when state="OldCyrillic" output="ѯ"/>
             <when state="Typographical" output="⌑"/>
@@ -3361,6 +3396,7 @@
         <action id="1←4 r⇧">
             <when state="none" output="К"/>
             <when state="Greek" output="Ρ"/>
+            <when state="Letterlike" output="ℜ"/>
             <when state="OldCyrillic" output="Ѯ"/>
             <when state="acute" output="Ќ"/>
             <!-- <when state="acute" output="Ŕ"/> -->
@@ -3390,6 +3426,7 @@
         <action id="1←4 r⇧⎇">
             <when state="none" next="ring"/>
             <when state="Greek" output="Δ"/>
+            <when state="Letterlike" output="ℛ"/>
             <when state="ring" output="̊"/>
         </action>
         <action id="1←4 r⎇">
@@ -3398,6 +3435,7 @@
             <when state="Brackets-‹" output="›"/>
             <when state="Diacritics" next="ring"/>
             <when state="Greek" output="®"/>
+            <when state="Letterlike" output="℞"/>
             <when state="Math" next="math_a-z_sans"/>
             <when state="math_a-z_greekb" output="𝛠"/>
             <when state="math_a-z_greekbit" output="𝝔"/>
@@ -3412,6 +3450,8 @@
             <when state="Brackets-«" output="»"/>
             <when state="Copyright" output="™"/>
             <when state="Greek" output="τ"/>
+            <when state="Letterlike" output="℡"/>
+            <when state="Letterlike_Escr" output="℮"/>
             <when state="Math" next="math∴"/>
             <when state="OldCyrillic" output="є"/>
             <when state="Typographical" output="†"/>
@@ -3511,6 +3551,7 @@
             <when state="Brackets" next="Brackets-emacs"/>
             <when state="Brackets-emacs" output="&#x0027;"/>
             <when state="Greek" output="υ"/>
+            <when state="Letterlike" output="ℽ"/>
             <when state="Math" next="math√"/>
             <!-- <when state="acute" output="ý"/> -->
             <!-- <when state="circumflex" output="ŷ"/> -->
@@ -3599,11 +3640,14 @@
             <when state="Brackets" next="Brackets-emacs"/>
             <when state="Brackets-emacs" output="&#x0027;"/>
             <when state="Greek" output="¥"/>
+            <when state="Letterlike" output="⅄"/>
         </action>
         <action id="1→2 u">
             <when state="none" output="г"/>
             <when state="Diacritics" next="dot-below"/>
             <when state="Greek" output="θ"/>
+            <when state="Letterlike_Ll" output="⅂"/>
+            <when state="Letterlike_Ratio" output="℆"/>
             <when state="Math" next="math⋃N-Ary"/>
             <when state="OldCyrillic" output="ѵ"/>
             <when state="Typographical" output="⎀"/>
@@ -3768,6 +3812,15 @@
             <when state="none" output="ш"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Greek" output="ι"/>
+            <when state="Letterlike" next="Letterlike_Iscr"/>
+            <when state="Letterlike_Fsm" output="℉"/>
+            <when state="Letterlike_Hdbl" output="ℋ"/>
+            <when state="Letterlike_Iblack" next="Letterlike_Iota"/>
+            <when state="Letterlike_Idbl" next="Letterlike_Iscr"/>
+            <when state="Letterlike_Iota" next="Letterlike_Idbl"/>
+            <when state="Letterlike_Iscr" next="Letterlike_Iblack"/>
+            <when state="Letterlike_Pdbl" output="℘"/>
+            <when state="Letterlike_Zdbl" output="℧"/>
             <when state="Math" output="∩"/>
             <when state="OldCyrillic" output="і"/>
             <when state="Typographical" output="☞"/>
@@ -3838,6 +3891,7 @@
         <action id="1→3 i⇧">
             <when state="none" output="Ш"/>
             <when state="Greek" output="Ι"/>
+            <when state="Letterlike" output="ℑ"/>
             <when state="Math" output="⊓"/>
             <when state="OldCyrillic" output="І"/>
             <when state="diaeresis" output="Ӛ"/>
@@ -3886,6 +3940,7 @@
         <action id="1→3 i⇧⎇">
             <when state="none" next="dot-above"/>
             <when state="Greek" output="Ν"/>
+            <when state="Letterlike" output="ⅈ"/>
             <when state="OldCyrillic" output="Ї"/>
             <when state="acute" next="acute+dot-above"/>
             <when state="caron" next="caron+dot-above"/>
@@ -3897,6 +3952,7 @@
             <when state="none" next="Diacritics"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Greek" output="†"/>
+            <when state="Letterlike" output="℩"/>
             <when state="Math" next="math_a-z_it"/>
             <when state="OldCyrillic" output="ї"/>
             <when state="Typographical" output="↖"/>
@@ -3925,6 +3981,9 @@
             <when state="Copyright" output="(ɔ)"/>
             <when state="Diacritics" next="macron"/>
             <when state="Greek" output="ο"/>
+            <when state="Letterlike" output="ℴ"/>
+            <when state="Letterlike_Ratio" output="℅"/>
+            <when state="Letterlike_Zdbl" output="Ω"/>
             <when state="Math" next="mathO"/>
             <!-- <when state="acute" output="ó"/> -->
             <!-- <when state="breve" output="ŏ"/> -->
@@ -4091,6 +4150,13 @@
             <when state="Brackets" output="␌"/>
             <when state="Copyright" output="℗"/>
             <when state="Greek" output="π"/>
+            <when state="Letterlike" next="Letterlike_Pdbl"/>
+            <when state="Letterlike_Hdbl" output="ℎ"/>
+            <when state="Letterlike_Pdbl" next="Letterlike_Pscript"/>
+            <when state="Letterlike_Phono" next="Letterlike_Pi"/>
+            <when state="Letterlike_Pi" next="Letterlike_PiC"/>
+            <when state="Letterlike_PiC" next="Letterlike_Pdbl"/>
+            <when state="Letterlike_Pscript" next="Letterlike_Phono"/>
             <when state="Math" next="math⊹"/>
             <when state="OldCyrillic" output="ꙁ"/>
             <when state="Typographical" output="‴"/>
@@ -4152,6 +4218,7 @@
         <action id="1→5 p⇧">
             <when state="none" output="З"/>
             <when state="Greek" output="Π"/>
+            <when state="Letterlike" output="℘"/>
             <when state="Math" output="∥"/>
             <when state="OldCyrillic" output="Ꙁ"/>
             <when state="Typographical" output="⁗"/>
@@ -4179,6 +4246,7 @@
         </action>
         <action id="1→5 p⇧⎇">
             <when state="none" output="″"/>
+            <when state="Letterlike" output="ℼ"/>
             <when state="OldCyrillic" output="Ꙃ"/>
             <when state="cur$re" output="₱"/>
         </action>
@@ -4186,6 +4254,7 @@
             <when state="none" output="′"/>
             <when state="Brackets" output="␌"/>
             <when state="Greek" output="≈"/>
+            <when state="Letterlike" output="℗"/>
             <when state="OldCyrillic" output="ꙃ"/>
             <when state="cur$re" output="₰"/>
             <when state="math_a-z_greekb" output="𝛡"/>
@@ -4197,6 +4266,7 @@
         <action id="1→6 [">
             <when state="none" output="х"/>
             <when state="Greek" output="["/>
+            <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" output="⌊"/>
             <when state="cur$re" output="₧"/>
             <when state="math=" output="≚"/>
@@ -4253,6 +4323,15 @@
         <action id="2←1 a">
             <when state="none" output="ф"/>
             <when state="Greek" output="α"/>
+            <when state="Letterlike" output="Å"/>
+            <when state="Letterlike_Cdbl" output="ℂ"/>
+            <when state="Letterlike_Escr" output="ℯ"/>
+            <when state="Letterlike_Fsm" output="ⅎ"/>
+            <when state="Letterlike_Hdbl" output="ℍ"/>
+            <when state="Letterlike_Iscr" output="ℐ"/>
+            <when state="Letterlike_Ll" output="ℓ"/>
+            <when state="Letterlike_Pdbl" output="ℙ"/>
+            <when state="Letterlike_Ratio" output="⅍"/>
             <when state="Math" output="∀"/>
             <when state="Typographical" output="⇪"/>
             <!-- <when state="acute" output="á"/> -->
@@ -4321,6 +4400,7 @@
         <action id="2←1 a⇧">
             <when state="none" output="Ф"/>
             <when state="Greek" output="Α"/>
+            <when state="Letterlike_Escr" output="ℰ"/>
             <when state="Math" output="≈"/>
             <!-- <when state="acute" output="Á"/> -->
             <!-- <when state="breve" output="Ă"/> -->
@@ -4373,6 +4453,7 @@
         <action id="2←1 a⎇">
             <when state="none" output="≈"/>
             <when state="Greek" output="…"/>
+            <when state="Letterlike" output="⅋"/>
             <when state="Math" output="≅"/>
             <when state="Typographical" output=""/>
             <when state="fs" output="∗"/>
@@ -4390,6 +4471,15 @@
             <when state="none" output="ы"/>
             <when state="Copyright" output="℠"/>
             <when state="Greek" output="σ"/>
+            <when state="Letterlike" output="℠"/>
+            <when state="Letterlike_Cdbl" output="ℭ"/>
+            <when state="Letterlike_Escr" output="ℰ"/>
+            <when state="Letterlike_Fsm" output="Ⅎ"/>
+            <when state="Letterlike_Hdbl" output="ℌ"/>
+            <when state="Letterlike_Iscr" output="ℑ"/>
+            <when state="Letterlike_Ll" output="ℒ"/>
+            <when state="Letterlike_Pdbl" output="℘"/>
+            <when state="Letterlike_Ratio" output="℁"/>
             <when state="Math" next="math∅"/>
             <when state="OldCyrillic" output="ꙑ"/>
             <when state="Typographical" output="💀"/>
@@ -4441,6 +4531,7 @@
         <action id="2←2 s⇧">
             <when state="none" output="Ы"/>
             <when state="Greek" output="Σ"/>
+            <when state="Letterlike_Ratio" output="⅍"/>
             <when state="OldCyrillic" output="Ꙑ"/>
             <when state="Typographical" output="☠"/>
             <!-- <when state="acute" output="Ś"/> -->
@@ -4482,6 +4573,7 @@
         <action id="2←2 s⎇">
             <when state="none" output="§"/>
             <when state="Greek" output="ß"/>
+            <when state="Letterlike" output="⅏"/>
             <when state="Math" next="math_a-z_script"/>
             <when state="Typographical" output="🕱"/>
             <when state="fs" output="⸮"/>
@@ -4491,6 +4583,15 @@
             <when state="none" output="в"/>
             <when state="Brackets" output=")"/>
             <when state="Greek" output="δ"/>
+            <when state="Letterlike" output="ⅆ"/>
+            <when state="Letterlike_Cdbl" output="℃"/>
+            <when state="Letterlike_Escr" output="ⅇ"/>
+            <when state="Letterlike_Fsm" output="℉"/>
+            <when state="Letterlike_Hdbl" output="ℋ"/>
+            <when state="Letterlike_Iscr" output="℩"/>
+            <when state="Letterlike_Ll" output="⅂"/>
+            <when state="Letterlike_Pdbl" output="℗"/>
+            <when state="Letterlike_Zdbl" output="ℤ"/>
             <when state="Math" next="math∂"/>
             <when state="Typographical" output="º"/>
             <!-- <when state="caron" output="ď"/> -->
@@ -4567,6 +4668,7 @@
         <action id="2←3 d⇧">
             <when state="none" output="В"/>
             <when state="Greek" output="Δ"/>
+            <when state="Letterlike" output="ⅅ"/>
             <when state="Math" output="∇"/>
             <when state="Typographical" output="ª"/>
             <!-- <when state="caron" output="Ď"/> -->
@@ -4629,6 +4731,18 @@
             <when state="Brackets" next="Brackets-["/>
             <when state="Brackets-[" output="]"/>
             <when state="Greek" output="φ"/>
+            <when state="Letterlike" next="Letterlike_Fsm"/>
+            <when state="Letterlike_Cdbl" output="℄"/>
+            <when state="Letterlike_Escr" output="℮"/>
+            <when state="Letterlike_Fax" next="Letterlike_Fsm"/>
+            <when state="Letterlike_Fcap" next="Letterlike_Fscript"/>
+            <when state="Letterlike_Fdg" next="Letterlike_Fax"/>
+            <when state="Letterlike_Fscript" next="Letterlike_Fdg"/>
+            <when state="Letterlike_Fsm" next="Letterlike_Fcap"/>
+            <when state="Letterlike_Hdbl" output="ℎ"/>
+            <when state="Letterlike_Iscr" output="ⅈ"/>
+            <when state="Letterlike_Ll" output="⅃"/>
+            <when state="Letterlike_Pdbl" output="ℼ"/>
             <when state="Math" next="math⁄"/>
             <when state="OldCyrillic" output="ѧ"/>
             <when state="Typographical" output="❧"/>
@@ -4698,6 +4812,8 @@
         <action id="2←4 f⇧">
             <when state="none" output="А"/>
             <when state="Greek" output="Φ"/>
+            <when state="Letterlike" output="Ⅎ"/>
+            <when state="Letterlike_Pdbl" output="ℿ"/>
             <when state="OldCyrillic" output="Ѧ"/>
             <when state="breve" output="Ӑ"/>
             <when state="diaeresis" output="Ӓ"/>
@@ -4728,6 +4844,7 @@
         <action id="2←4 f⇧⎇">
             <when state="none" output="℉"/>
             <when state="Greek" output="Π"/>
+            <when state="Letterlike" output="ℱ"/>
             <when state="OldCyrillic" output="Ѩ"/>
             <when state="math_a-z_greekb" output="𝟊"/>
         </action>
@@ -4736,6 +4853,7 @@
             <when state="Brackets" next="Brackets-["/>
             <when state="Brackets-[" output="]"/>
             <when state="Greek" output="≠"/>
+            <when state="Letterlike" output="℉"/>
             <when state="Math" next="math_a-z_fraktur"/>
             <when state="OldCyrillic" output="ѩ"/>
             <!-- <when state="Typographical" next="ligature_f"/> -->
@@ -4756,6 +4874,11 @@
             <when state="Brackets-‘" output="’"/>
             <when state="Diacritics" next="ogonek"/>
             <when state="Greek" output="γ"/>
+            <when state="Letterlike" output="ℊ"/>
+            <when state="Letterlike_Escr" output="ℇ"/>
+            <when state="Letterlike_Hdbl" output="ℏ"/>
+            <when state="Letterlike_Ll" output="℔"/>
+            <when state="Letterlike_Pdbl" output="ℿ"/>
             <when state="Typographical" output="♀"/>
             <!-- <when state="acute" output="ǵ"/> -->
             <!-- <when state="breve" output="ğ"/> -->
@@ -4801,6 +4924,7 @@
         <action id="2←5 g⇧">
             <when state="none" output="П"/>
             <when state="Greek" output="Γ"/>
+            <when state="Letterlike" output="⅁"/>
             <when state="Typographical" output="♂"/>
             <!-- <when state="acute" output="Ǵ"/> -->
             <!-- <when state="breve" output="Ğ"/> -->
@@ -4843,6 +4967,7 @@
             <when state="Brackets-‘" output="’"/>
             <when state="Diacritics" next="ogonek"/>
             <when state="Greek" output="©"/>
+            <when state="Letterlike" output="ℾ"/>
             <when state="Math" next="math_a-z_greekb"/>
             <when state="Typographical" output="⚥"/>
             <when state="fs" output="¦"/>
@@ -4855,6 +4980,13 @@
             <when state="Copyright" output="®"/>
             <when state="Diacritics" next="double-acute"/>
             <when state="Greek" output="η"/>
+            <when state="Letterlike" next="Letterlike_Hdbl"/>
+            <when state="Letterlike_Hblack" next="Letterlike_Hscript"/>
+            <when state="Letterlike_Hdbl" next="Letterlike_Hblack"/>
+            <when state="Letterlike_Hplanck" next="Letterlike_Hplanck2"/>
+            <when state="Letterlike_Hplanck2" next="Letterlike_Hdbl"/>
+            <when state="Letterlike_Hscript" next="Letterlike_Hplanck"/>
+            <when state="Letterlike_Ll" output="⅏"/>
             <when state="Typographical" output="✱"/>
             <!-- <when state="caron" output="ȟ"/> -->
             <!-- <when state="cedilla" output="ḩ"/> -->
@@ -4901,6 +5033,7 @@
             <!-- <when state="circumflex" output="Ĥ"/> -->
             <!-- <when state="dot-above" output="Ḣ"/> -->
             <!-- <when state="dot-below" output="Ḥ"/> -->
+            <when state="Letterlike" output="ℌ"/>
             <when state="greek-tonos" output="Ή"/>
             <when state="math_a-z_b" output="𝐇"/>
             <when state="math_a-z_bit" output="𝑯"/>
@@ -4926,6 +5059,7 @@
         <action id="2→1 h⇧⎇">
             <when state="none" next="double-acute"/>
             <when state="Greek" output="≠"/>
+            <when state="Letterlike" output="ℏ"/>
             <when state="double-acute" output="̋"/>
         </action>
         <action id="2→1 h⎇">
@@ -4934,6 +5068,7 @@
             <when state="Brackets-“" output="”"/>
             <when state="Diacritics" next="double-acute"/>
             <when state="Greek" output="½"/>
+            <when state="Letterlike" output="ℎ"/>
             <when state="double-acute" output="̋"/>
             <when state="fs" output="ˆ"/>
         </action>
@@ -4944,6 +5079,10 @@
             <when state="Copyright" output="(ɔ)"/>
             <when state="Diacritics" next="hook-above"/>
             <when state="Greek" output="ξ"/>
+            <when state="Letterlike" output="ⅉ"/>
+            <when state="Letterlike_Fsm" output="ⅎ"/>
+            <when state="Letterlike_Iscr" output="℩"/>
+            <when state="Letterlike_Ll" output="⅃"/>
             <when state="Math" output="⇓"/>
             <when state="OldCyrillic" output="ꙋ"/>
             <when state="breve" next="breve+hook-above"/>
@@ -5073,6 +5212,9 @@
             <when state="Copyright" output="🄯"/>
             <when state="Diacritics" output="⃣"/>
             <when state="Greek" output="κ"/>
+            <when state="Letterlike" output="K"/>
+            <when state="Letterlike_Fsm" output="Ⅎ"/>
+            <when state="Letterlike_Iscr" output="ℐ"/>
             <when state="Math" output="⇑"/>
             <!-- <when state="caron" output="ǩ"/> -->
             <!-- <when state="cedilla" output="ķ"/> -->
@@ -5196,9 +5338,19 @@
             <when state="Brackets-apostrophe" output="&#x0027;"/>
             <when state="Copyright" output="🄯"/>
             <when state="Greek" output="λ"/>
+            <when state="Letterlike" next="Letterlike_Ll"/>
+            <when state="Letterlike_Cdbl" output="℄"/>
+            <when state="Letterlike_Escr" output="ℇ"/>
+            <when state="Letterlike_LL" next="Letterlike_Lturn"/>
+            <when state="Letterlike_Lb" next="Letterlike_Lll"/>
+            <when state="Letterlike_Ll" next="Letterlike_LL"/>
+            <when state="Letterlike_Lll" next="Letterlike_Ll"/>
+            <when state="Letterlike_Lrev" next="Letterlike_Lb"/>
+            <when state="Letterlike_Lturn" next="Letterlike_Lrev"/>
             <when state="Math" next="math⇐re"/>
             <!-- <when state="acute" output="ĺ"/> -->
             <!-- <when state="cedilla" output="ļ"/> -->
+            <when state="Typographical" next="Letterlike"/>
             <when state="cur$re" output="₤"/>
             <!-- <when state="dot-below" output="ḷ"/> -->
             <!-- <when state="dot-below+macron" output="ḹ"/> -->
@@ -5278,6 +5430,8 @@
         <action id="2→4 l⇧">
             <when state="none" output="Д"/>
             <when state="Greek" output="Λ"/>
+            <when state="Letterlike" output="ℒ"/>
+            <when state="Letterlike_Ll" output="ℒ"/>
             <when state="Math" next="math|"/>
             <!-- <when state="acute" output="Ĺ"/> -->
             <!-- <when state="cedilla" output="Ļ"/> -->
@@ -5314,6 +5468,7 @@
         <action id="2→4 l⇧⎇">
             <when state="none" output="λ"/>
             <when state="Greek" output="·"/>
+            <when state="Letterlike" output="⅏"/>
             <when state="cur$re" output="₶"/>
         </action>
         <action id="2→4 l⎇">
@@ -5321,6 +5476,7 @@
             <when state="Brackets" next="Brackets-apostrophe"/>
             <when state="Brackets-apostrophe" output="&#x0027;"/>
             <when state="Greek" output="¬"/>
+            <when state="Letterlike" output="℔"/>
             <when state="Math" next="math∅≷"/>
             <when state="cur$re" output="₺"/>
             <when state="fs" output="”"/>
@@ -5416,6 +5572,7 @@
             <when state="none" output="э"/>
             <when state="Diacritics" next="horn"/>
             <when state="Greek" output="&#x0027;"/>
+            <when state="Letterlike" output="℈"/>
             <when state="Math" output="∈"/>
             <when state="OldCyrillic" output="ѥ"/>
             <when state="acute" output="́"/>
@@ -5532,6 +5689,11 @@
             <when state="Brackets-⸨" output="⸩"/>
             <when state="Diacritics" next="cedilla"/>
             <when state="Greek" output="ζ"/>
+            <when state="Letterlike" next="Letterlike_Zdbl"/>
+            <when state="Letterlike_Zblack" next="Letterlike_Zohm"/>
+            <when state="Letterlike_Zdbl" next="Letterlike_Zblack"/>
+            <when state="Letterlike_Zohm" next="Letterlike_Zohminv"/>
+            <when state="Letterlike_Zohminv" next="Letterlike_Zdbl"/>
             <when state="Math" output="ℤ"/>
             <when state="OldCyrillic" output="ѫ"/>
             <when state="Typographical" output="⎈"/>
@@ -5573,6 +5735,8 @@
         <action id="3←1 z⇧">
             <when state="none" output="Я"/>
             <when state="Greek" output="Ζ"/>
+            <when state="Letterlike" output="ℨ"/>
+            <when state="Letterlike_Zohm" output="℧"/>
             <when state="OldCyrillic" output="Ѫ"/>
             <!-- <when state="acute" output="Ź"/> -->
             <!-- <when state="caron" output="Ž"/> -->
@@ -5601,6 +5765,7 @@
         </action>
         <action id="3←1 z⇧⎇">
             <when state="none" next="cedilla"/>
+            <when state="Letterlike" output="℧"/>
             <when state="OldCyrillic" output="Ѭ"/>
             <when state="cedilla" output="̧"/>
         </action>
@@ -5610,6 +5775,8 @@
             <when state="Brackets-⸨" output="⸩"/>
             <when state="Diacritics" next="cedilla"/>
             <when state="Greek" output="§"/>
+            <when state="Letterlike" output="Ω"/>
+            <when state="Letterlike_Zohm" output="℧"/>
             <when state="OldCyrillic" output="ѭ"/>
             <when state="Typographical" output="⌃"/>
             <when state="cedilla" output="̧"/>
@@ -5617,6 +5784,8 @@
         <action id="3←2 x">
             <when state="none" output="ч"/>
             <when state="Greek" output="χ"/>
+            <when state="Letterlike" output="℻"/>
+            <when state="Letterlike_Fsm" output="℻"/>
             <when state="Math" output="·"/>
             <when state="Typographical" output="⎇"/>
             <when state="cur$re" output="₵"/>
@@ -5694,6 +5863,12 @@
             <when state="none" output="с"/>
             <when state="Copyright" output="©"/>
             <when state="Greek" output="ψ"/>
+            <when state="Letterlike" next="Letterlike_Cdbl"/>
+            <when state="Letterlike_Cblack" next="Letterlike_Cdg"/>
+            <when state="Letterlike_Cdbl" next="Letterlike_Cblack"/>
+            <when state="Letterlike_Cdg" next="Letterlike_Center"/>
+            <when state="Letterlike_Center" next="Letterlike_Cdbl"/>
+            <when state="Letterlike_Ratio" output="℀"/>
             <when state="Math" output="ℂ"/>
             <when state="OldCyrillic" output="ѱ"/>
             <when state="Typographical" output="◆"/>
@@ -5738,6 +5913,7 @@
         <action id="3←3 c⇧">
             <when state="none" output="С"/>
             <when state="Greek" output="Ψ"/>
+            <when state="Letterlike" output="ℭ"/>
             <when state="OldCyrillic" output="Ѱ"/>
             <!-- <when state="acute" output="Ć"/> -->
             <!-- <when state="caron" output="Č"/> -->
@@ -5771,10 +5947,12 @@
         <action id="3←3 c⇧⎇">
             <when state="none" output="¢"/>
             <when state="Greek" output="Χ"/>
+            <when state="Letterlike" output="℄"/>
         </action>
         <action id="3←3 c⎇">
             <when state="none" next="Copyright"/>
             <when state="Greek" output="ç"/>
+            <when state="Letterlike" output="℃"/>
             <when state="Typographical" output="⌘"/>
             <when state="math∅⊂" output="⋤"/>
         </action>
@@ -5782,6 +5960,7 @@
             <when state="none" output="м"/>
             <when state="Diacritics" next="caron"/>
             <when state="Greek" output="ω"/>
+            <when state="Letterlike" output="℣"/>
             <when state="Math" output="⇓"/>
             <when state="Typographical" output="꣺"/>
             <when state="caron" output="̌"/>
@@ -5868,6 +6047,12 @@
         <action id="3←5 b">
             <when state="none" output="и"/>
             <when state="Greek" output="β"/>
+            <when state="Letterlike" output="ℬ"/>
+            <when state="Letterlike_Cdbl" output="ℭ"/>
+            <when state="Letterlike_Hdbl" output="ℌ"/>
+            <when state="Letterlike_Iscr" output="ℑ"/>
+            <when state="Letterlike_Ll" output="℔"/>
+            <when state="Letterlike_Zdbl" output="ℨ"/>
             <when state="Math" output="∵"/>
             <when state="Typographical" output="⌧"/>
             <when state="breve" output="й"/>
@@ -5913,6 +6098,7 @@
             <when state="macron" output="Ӣ"/>
             <!-- <when state="dot-above" output="Ḃ"/> -->
             <!-- <when state="dot-below" output="Ḅ"/> -->
+            <when state="Letterlike" output="⅊"/>
             <when state="math_a-z_b" output="𝐁"/>
             <when state="math_a-z_bit" output="𝑩"/>
             <when state="math_a-z_dbl" output="𝔹"/>
@@ -5934,6 +6120,7 @@
         </action>
         <action id="3←5 b⎇">
             <when state="none" output="ß"/>
+            <when state="Letterlike" output="℔"/>
             <when state="Math" next="math_a-z_b"/>
             <when state="Typographical" output="⌨"/>
             <when state="math_a-z_fraktur" next="math_a-z_frakturb"/>
@@ -5950,6 +6137,7 @@
             <when state="Copyright" output="™"/>
             <when state="Diacritics" next="tilde"/>
             <when state="Greek" output="ν"/>
+            <when state="Letterlike" output="ℕ"/>
             <when state="Math" output="ℕ"/>
             <when state="Typographical" output="¶"/>
             <!-- <when state="acute" output="ń"/> -->
@@ -5999,6 +6187,7 @@
             <!-- <when state="acute" output="Ń"/> -->
             <!-- <when state="caron" output="Ň"/> -->
             <!-- <when state="cedilla" output="Ņ"/> -->
+            <when state="Letterlike" output="№"/>
             <when state="cur$re" output="₻"/>
             <!-- <when state="dot-above" output="Ṅ"/> -->
             <!-- <when state="dot-below" output="Ṇ"/> -->
@@ -6050,6 +6239,7 @@
             <when state="Brackets" next="Brackets-「"/>
             <when state="Brackets-「" output="」"/>
             <when state="Greek" output="μ"/>
+            <when state="Letterlike" output="ℳ"/>
             <when state="Math" next="math…"/>
             <when state="OldCyrillic" output="ѣ"/>
             <when state="acute" output="ḿ"/>
@@ -6136,6 +6326,7 @@
         <action id="3→2 m⇧⎇">
             <when state="none" output="•"/>
             <when state="Greek" output="Ύ"/>
+            <when state="Letterlike" output="ℳ"/>
         </action>
         <action id="3→2 m⎇">
             <when state="none" output="−"/>
@@ -6309,6 +6500,8 @@
             <when state="none" output="."/>
             <when state="Diacritics" next="acute"/>
             <when state="Greek" output="/"/>
+            <when state="Letterlike" next="Letterlike_Ratio"/>
+            <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" next="math/"/>
             <when state="Typographical" output="⁒"/>
             <when state="acute" output="́"/>
@@ -6358,6 +6551,7 @@
         <action id="3→5 /⇧⎇">
             <when state="none" next="acute"/>
             <when state="Greek" output="?"/>
+            <when state="Letterlike" output="ℇ"/>
             <when state="Typographical" output="﹖"/>
             <when state="acute" output="́"/>
             <when state="fs" output="⸮"/>
@@ -6383,6 +6577,51 @@
         </action>
         <action id="Backspace">
             <when state="none" output="&#x0008;"/>
+            <when state="Letterlike" next="Typographical"/>
+            <when state="Letterlike_Cblack" next="Letterlike_Cdbl"/>
+            <when state="Letterlike_Cdbl" next="Letterlike"/>
+            <when state="Letterlike_Cdg" next="Letterlike_Cblack"/>
+            <when state="Letterlike_Center" next="Letterlike_Cdg"/>
+            <when state="Letterlike_EScr" next="Letterlike_Escr"/>
+            <when state="Letterlike_Edbl" next="Letterlike_EScr"/>
+            <when state="Letterlike_Escr" next="Letterlike"/>
+            <when state="Letterlike_Est" next="Letterlike_Edbl"/>
+            <when state="Letterlike_Euler" next="Letterlike_Est"/>
+            <when state="Letterlike_Fax" next="Letterlike_Fdg"/>
+            <when state="Letterlike_Fcap" next="Letterlike_Fsm"/>
+            <when state="Letterlike_Fdg" next="Letterlike_Fscript"/>
+            <when state="Letterlike_Fscript" next="Letterlike_Fcap"/>
+            <when state="Letterlike_Fsm" next="Letterlike"/>
+            <when state="Letterlike_Hblack" next="Letterlike_Hdbl"/>
+            <when state="Letterlike_Hdbl" next="Letterlike"/>
+            <when state="Letterlike_Hplanck" next="Letterlike_Hscript"/>
+            <when state="Letterlike_Hplanck2" next="Letterlike_Hplanck"/>
+            <when state="Letterlike_Hscript" next="Letterlike_Hblack"/>
+            <when state="Letterlike_Iblack" next="Letterlike_Iscr"/>
+            <when state="Letterlike_Idbl" next="Letterlike_Iota"/>
+            <when state="Letterlike_Iota" next="Letterlike_Iblack"/>
+            <when state="Letterlike_Iscr" next="Letterlike"/>
+            <when state="Letterlike_LL" next="Letterlike_Ll"/>
+            <when state="Letterlike_Lb" next="Letterlike_Lrev"/>
+            <when state="Letterlike_Ll" next="Letterlike_Lll"/>
+            <when state="Letterlike_Lll" next="Letterlike_Lb"/>
+            <when state="Letterlike_Lrev" next="Letterlike_Lturn"/>
+            <when state="Letterlike_Lturn" next="Letterlike_LL"/>
+            <when state="Letterlike_Pdbl" next="Letterlike"/>
+            <when state="Letterlike_Phono" next="Letterlike_Pscript"/>
+            <when state="Letterlike_Pi" next="Letterlike_Phono"/>
+            <when state="Letterlike_PiC" next="Letterlike_Pi"/>
+            <when state="Letterlike_Pscript" next="Letterlike_Pdbl"/>
+            <when state="Letterlike_Ratio" next="Letterlike"/>
+            <when state="Letterlike_Rblack" next="Letterlike_Rx"/>
+            <when state="Letterlike_Rdouble" next="Letterlike"/>
+            <when state="Letterlike_Re" next="Letterlike_Rscript"/>
+            <when state="Letterlike_Rscript" next="Letterlike_Rblack"/>
+            <when state="Letterlike_Rx" next="Letterlike_Rdouble"/>
+            <when state="Letterlike_Zblack" next="Letterlike_Zdbl"/>
+            <when state="Letterlike_Zdbl" next="Letterlike"/>
+            <when state="Letterlike_Zohm" next="Letterlike_Zblack"/>
+            <when state="Letterlike_Zohminv" next="Letterlike_Zohm"/>
             <when state="cur$re" next="cur₽re"/>
             <when state="cur¥ye" next="cur€re"/>
             <when state="cur€re" next="cur$re"/>
@@ -6503,6 +6742,8 @@
             <when state="Brackets-〔" output="〕"/>
             <when state="Diacritics" next="macron"/>
             <when state="Greek" output="œ"/>
+            <when state="Letterlike" output="℥"/>
+            <when state="Letterlike_Zdbl" output="℧"/>
             <when state="macron" output="̄"/>
         </action>
         <action id="m^">
@@ -6527,6 +6768,49 @@
             <when state="Brackets-「" output="「"/>
             <when state="Brackets-【" output="【"/>
             <when state="Brackets-〔" output="〔"/>
+            <when state="Letterlike_Cblack" output="ℭ"/>
+            <when state="Letterlike_Cdbl" output="ℂ"/>
+            <when state="Letterlike_Cdg" output="℃"/>
+            <when state="Letterlike_Center" output="℄"/>
+            <when state="Letterlike_EScr" output="ℰ"/>
+            <when state="Letterlike_Edbl" output="ⅇ"/>
+            <when state="Letterlike_Escr" output="ℯ"/>
+            <when state="Letterlike_Est" output="℮"/>
+            <when state="Letterlike_Euler" output="ℇ"/>
+            <when state="Letterlike_Fax" output="℻"/>
+            <when state="Letterlike_Fcap" output="Ⅎ"/>
+            <when state="Letterlike_Fdg" output="℉"/>
+            <when state="Letterlike_Fscript" output="ℱ"/>
+            <when state="Letterlike_Fsm" output="ⅎ"/>
+            <when state="Letterlike_Hblack" output="ℌ"/>
+            <when state="Letterlike_Hdbl" output="ℍ"/>
+            <when state="Letterlike_Hplanck" output="ℎ"/>
+            <when state="Letterlike_Hplanck2" output="ℏ"/>
+            <when state="Letterlike_Hscript" output="ℋ"/>
+            <when state="Letterlike_Iblack" output="ℑ"/>
+            <when state="Letterlike_Idbl" output="ⅈ"/>
+            <when state="Letterlike_Iota" output="℩"/>
+            <when state="Letterlike_Iscr" output="ℐ"/>
+            <when state="Letterlike_LL" output="ℒ"/>
+            <when state="Letterlike_Lb" output="℔"/>
+            <when state="Letterlike_Ll" output="ℓ"/>
+            <when state="Letterlike_Lll" output="⅏"/>
+            <when state="Letterlike_Lrev" output="⅃"/>
+            <when state="Letterlike_Lturn" output="⅂"/>
+            <when state="Letterlike_Pdbl" output="ℙ"/>
+            <when state="Letterlike_Phono" output="℗"/>
+            <when state="Letterlike_Pi" output="ℼ"/>
+            <when state="Letterlike_PiC" output="ℿ"/>
+            <when state="Letterlike_Pscript" output="℘"/>
+            <when state="Letterlike_Rblack" output="ℜ"/>
+            <when state="Letterlike_Rdouble" output="ℝ"/>
+            <when state="Letterlike_Re" output="℟"/>
+            <when state="Letterlike_Rscript" output="ℛ"/>
+            <when state="Letterlike_Rx" output="℞"/>
+            <when state="Letterlike_Zblack" output="ℨ"/>
+            <when state="Letterlike_Zdbl" output="ℤ"/>
+            <when state="Letterlike_Zohm" output="Ω"/>
+            <when state="Letterlike_Zohminv" output="℧"/>
             <when state="Typographical" next="space"/>
             <when state="acute" output="´"/>
             <when state="breve" output="˘"/>
@@ -6618,6 +6902,14 @@
             <when state="Greek" output="#"/>
             <when state="Typographical" output="☰"/>
         </action>
+        <action id="2→1 h⎈⎇">
+            <when state="none" output="•"/>
+            <when state="Letterlike" output="ℋ"/>
+        </action>
+        <action id="3←5 b⇧⎇">
+            <when state="none" output="ẞ"/>
+            <when state="Letterlike" output="ℬ"/>
+        </action>
         <action id="␠⎇">
             <when state="none" output=" "/>
             <when state="Brackets" output="("/>
@@ -6660,6 +6952,52 @@
         <when state="Copyright" output="©"/>
         <when state="Diacritics" output="◌"/>
         <when state="Greek" output="ε"/>
+        <when state="Letterlike" output="ℒ"/>
+        <when state="Letterlike_Cblack" output="ℭ"/>
+        <when state="Letterlike_Cdbl" output="ℂ"/>
+        <when state="Letterlike_Cdg" output="℃"/>
+        <when state="Letterlike_Center" output="℄"/>
+        <when state="Letterlike_EScr" output="ℰ"/>
+        <when state="Letterlike_Edbl" output="ⅇ"/>
+        <when state="Letterlike_Escr" output="ℯ"/>
+        <when state="Letterlike_Est" output="℮"/>
+        <when state="Letterlike_Euler" output="ℇ"/>
+        <when state="Letterlike_Fax" output="℻"/>
+        <when state="Letterlike_Fcap" output="Ⅎ"/>
+        <when state="Letterlike_Fdg" output="℉"/>
+        <when state="Letterlike_Fscript" output="ℱ"/>
+        <when state="Letterlike_Fsm" output="ⅎ"/>
+        <when state="Letterlike_Hblack" output="ℌ"/>
+        <when state="Letterlike_Hdbl" output="ℍ"/>
+        <when state="Letterlike_Hplanck" output="ℎ"/>
+        <when state="Letterlike_Hplanck2" output="ℏ"/>
+        <when state="Letterlike_Hscript" output="ℋ"/>
+        <when state="Letterlike_Iblack" output="ℑ"/>
+        <when state="Letterlike_Idbl" output="ⅈ"/>
+        <when state="Letterlike_Iota" output="℩"/>
+        <when state="Letterlike_Iscr" output="ℐ"/>
+        <when state="Letterlike_LL" output="ℒ"/>
+        <when state="Letterlike_Lb" output="℔"/>
+        <when state="Letterlike_Ll" output="ℓ"/>
+        <when state="Letterlike_Lll" output="⅏"/>
+        <when state="Letterlike_Lrev" output="⅃"/>
+        <when state="Letterlike_Lscr" output=""/>
+        <when state="Letterlike_Lturn" output="⅂"/>
+        <when state="Letterlike_Pdbl" output="ℙ"/>
+        <when state="Letterlike_Phono" output="℗"/>
+        <when state="Letterlike_Pi" output="ℼ"/>
+        <when state="Letterlike_PiC" output="ℿ"/>
+        <when state="Letterlike_Pscript" output="℘"/>
+        <when state="Letterlike_Ratio" output="⅍"/>
+        <when state="Letterlike_Rblack" output="ℜ"/>
+        <when state="Letterlike_Rdouble" output="ℝ"/>
+        <when state="Letterlike_Re" output="℟"/>
+        <when state="Letterlike_Rscript" output="ℛ"/>
+        <when state="Letterlike_Rx" output="℞"/>
+        <when state="Letterlike_Zblack" output="ℨ"/>
+        <when state="Letterlike_Zdbl" output="ℤ"/>
+        <when state="Letterlike_Zohm" output="Ω"/>
+        <when state="Letterlike_Zohminv" output="℧"/>
         <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
         <when state="Typographical" output="⎀"/>
