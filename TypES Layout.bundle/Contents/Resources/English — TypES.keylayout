@@ -2990,6 +2990,9 @@
             <when state="none" output="w"/>
             <when state="Greek" output="ω"/>
             <when state="Letterlike" output="⅀"/>
+            <when state="Letterlike_Cdbl" output="ℂ"/>
+            <when state="Letterlike_Escr" output="ⅇ"/>
+            <when state="Letterlike_Iscr" output="ⅈ"/>
             <when state="Letterlike_Ll" output="⅏"/>
             <when state="Letterlike_Pdbl" output="ℙ"/>
             <when state="Math" output="∇"/>
@@ -3072,7 +3075,12 @@
         <action id="1←3 e">
             <when state="none" output="e"/>
             <when state="Greek" output="ε"/>
-            <when state="Letterlike" output="ℯ"/>
+            <when state="Letterlike" next="Letterlike_Escr"/>
+            <when state="Letterlike_EScr" next="Letterlike_Edbl"/>
+            <when state="Letterlike_Edbl" next="Letterlike_Est"/>
+            <when state="Letterlike_Escr" next="Letterlike_EScr"/>
+            <when state="Letterlike_Est" next="Letterlike_Euler"/>
+            <when state="Letterlike_Euler" next="Letterlike_Escr"/>
             <when state="Math" output="∃"/>
             <when state="OldCyrillic" output="ѣ"/>
             <when state="Typographical" output="℮"/>
@@ -3308,6 +3316,7 @@
             <when state="Copyright" output="™"/>
             <when state="Greek" output="τ"/>
             <when state="Letterlike" output="℡"/>
+            <when state="Letterlike_Escr" output="℮"/>
             <when state="Math" next="math∴"/>
             <when state="OldCyrillic" output="є"/>
             <when state="Typographical" output="†"/>
@@ -3642,9 +3651,13 @@
             <when state="none" output="i"/>
             <when state="Diacritics" next="dot-above"/>
             <when state="Greek" output="ι"/>
-            <when state="Letterlike" output="ℐ"/>
+            <when state="Letterlike" next="Letterlike_Iscr"/>
             <when state="Letterlike_Fsm" output="℉"/>
             <when state="Letterlike_Hdbl" output="ℋ"/>
+            <when state="Letterlike_Iblack" next="Letterlike_Iota"/>
+            <when state="Letterlike_Idbl" next="Letterlike_Iscr"/>
+            <when state="Letterlike_Iota" next="Letterlike_Idbl"/>
+            <when state="Letterlike_Iscr" next="Letterlike_Iblack"/>
             <when state="Letterlike_Pdbl" output="℘"/>
             <when state="Letterlike_Zdbl" output="℧"/>
             <when state="Math" output="∩"/>
@@ -4119,8 +4132,11 @@
             <when state="none" output="a"/>
             <when state="Greek" output="α"/>
             <when state="Letterlike" output="Å"/>
+            <when state="Letterlike_Cdbl" output="ℂ"/>
+            <when state="Letterlike_Escr" output="ℯ"/>
             <when state="Letterlike_Fsm" output="ⅎ"/>
             <when state="Letterlike_Hdbl" output="ℍ"/>
+            <when state="Letterlike_Iscr" output="ℐ"/>
             <when state="Letterlike_Ll" output="ℓ"/>
             <when state="Letterlike_Pdbl" output="ℙ"/>
             <when state="Letterlike_Ratio" output="⅍"/>
@@ -4192,6 +4208,7 @@
         <action id="2←1 a⇧">
             <when state="none" output="A"/>
             <when state="Greek" output="Α"/>
+            <when state="Letterlike_Escr" output="ℰ"/>
             <when state="Math" output="≈"/>
             <when state="acute" output="Á"/>
             <when state="breve" output="Ă"/>
@@ -4263,8 +4280,11 @@
             <when state="Copyright" output="℠"/>
             <when state="Greek" output="σ"/>
             <when state="Letterlike" output="℠"/>
+            <when state="Letterlike_Cdbl" output="ℭ"/>
+            <when state="Letterlike_Escr" output="ℰ"/>
             <when state="Letterlike_Fsm" output="Ⅎ"/>
             <when state="Letterlike_Hdbl" output="ℌ"/>
+            <when state="Letterlike_Iscr" output="ℑ"/>
             <when state="Letterlike_Ll" output="ℒ"/>
             <when state="Letterlike_Pdbl" output="℘"/>
             <when state="Letterlike_Ratio" output="℁"/>
@@ -4376,8 +4396,11 @@
             <when state="Brackets" output=")"/>
             <when state="Greek" output="δ"/>
             <when state="Letterlike" output="ⅆ"/>
+            <when state="Letterlike_Cdbl" output="℃"/>
+            <when state="Letterlike_Escr" output="ⅇ"/>
             <when state="Letterlike_Fsm" output="℉"/>
             <when state="Letterlike_Hdbl" output="ℋ"/>
+            <when state="Letterlike_Iscr" output="℩"/>
             <when state="Letterlike_Ll" output="⅂"/>
             <when state="Letterlike_Pdbl" output="℗"/>
             <when state="Letterlike_Zdbl" output="ℤ"/>
@@ -4513,12 +4536,15 @@
             <when state="Brackets-[" output="]"/>
             <when state="Greek" output="φ"/>
             <when state="Letterlike" next="Letterlike_Fsm"/>
+            <when state="Letterlike_Cdbl" output="℄"/>
+            <when state="Letterlike_Escr" output="℮"/>
             <when state="Letterlike_Fax" next="Letterlike_Fsm"/>
             <when state="Letterlike_Fcap" next="Letterlike_Fscript"/>
             <when state="Letterlike_Fdg" next="Letterlike_Fax"/>
             <when state="Letterlike_Fscript" next="Letterlike_Fdg"/>
             <when state="Letterlike_Fsm" next="Letterlike_Fcap"/>
             <when state="Letterlike_Hdbl" output="ℎ"/>
+            <when state="Letterlike_Iscr" output="ⅈ"/>
             <when state="Letterlike_Ll" output="⅃"/>
             <when state="Letterlike_Pdbl" output="ℼ"/>
             <when state="Math" next="math⁄"/>
@@ -4647,6 +4673,7 @@
             <when state="Diacritics" next="ogonek"/>
             <when state="Greek" output="γ"/>
             <when state="Letterlike" output="ℊ"/>
+            <when state="Letterlike_Escr" output="ℇ"/>
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Letterlike_Ll" output="℔"/>
             <when state="Letterlike_Pdbl" output="ℿ"/>
@@ -4846,6 +4873,7 @@
             <when state="Greek" output="ξ"/>
             <when state="Letterlike" output="ⅉ"/>
             <when state="Letterlike_Fsm" output="ⅎ"/>
+            <when state="Letterlike_Iscr" output="℩"/>
             <when state="Letterlike_Ll" output="⅃"/>
             <when state="Math" output="⇓"/>
             <when state="OldCyrillic" output="ꙋ"/>
@@ -4968,6 +4996,7 @@
             <when state="Greek" output="κ"/>
             <when state="Letterlike" output="K"/>
             <when state="Letterlike_Fsm" output="Ⅎ"/>
+            <when state="Letterlike_Iscr" output="ℐ"/>
             <when state="Math" output="⇑"/>
             <when state="caron" output="ǩ"/>
             <when state="cedilla" output="ķ"/>
@@ -5085,6 +5114,8 @@
             <when state="Copyright" output="🄯"/>
             <when state="Greek" output="λ"/>
             <when state="Letterlike" next="Letterlike_Ll"/>
+            <when state="Letterlike_Cdbl" output="℄"/>
+            <when state="Letterlike_Escr" output="ℇ"/>
             <when state="Letterlike_LL" next="Letterlike_Lturn"/>
             <when state="Letterlike_Lb" next="Letterlike_Lll"/>
             <when state="Letterlike_Ll" next="Letterlike_LL"/>
@@ -5565,7 +5596,11 @@
             <when state="none" output="c"/>
             <when state="Copyright" output="©"/>
             <when state="Greek" output="ψ"/>
-            <when state="Letterlike" next="Letterlike_C"/>
+            <when state="Letterlike" next="Letterlike_Cdbl"/>
+            <when state="Letterlike_Cblack" next="Letterlike_Cdg"/>
+            <when state="Letterlike_Cdbl" next="Letterlike_Cblack"/>
+            <when state="Letterlike_Cdg" next="Letterlike_Center"/>
+            <when state="Letterlike_Center" next="Letterlike_Cdbl"/>
             <when state="Letterlike_Ratio" output="℀"/>
             <when state="Math" output="ℂ"/>
             <when state="OldCyrillic" output="ѱ"/>
@@ -5736,7 +5771,9 @@
             <when state="none" output="b"/>
             <when state="Greek" output="β"/>
             <when state="Letterlike" output="ℬ"/>
+            <when state="Letterlike_Cdbl" output="ℭ"/>
             <when state="Letterlike_Hdbl" output="ℌ"/>
+            <when state="Letterlike_Iscr" output="ℑ"/>
             <when state="Letterlike_Ll" output="℔"/>
             <when state="Letterlike_Zdbl" output="ℨ"/>
             <when state="Math" output="∵"/>
@@ -6237,7 +6274,15 @@
         <action id="Backspace">
             <when state="none" output="&#x0008;"/>
             <when state="Letterlike" next="Typographical"/>
-            <when state="Letterlike_C" next="Letterlike"/>
+            <when state="Letterlike_Cblack" next="Letterlike_Cdbl"/>
+            <when state="Letterlike_Cdbl" next="Letterlike"/>
+            <when state="Letterlike_Cdg" next="Letterlike_Cblack"/>
+            <when state="Letterlike_Center" next="Letterlike_Cdg"/>
+            <when state="Letterlike_EScr" next="Letterlike_Escr"/>
+            <when state="Letterlike_Edbl" next="Letterlike_EScr"/>
+            <when state="Letterlike_Escr" next="Letterlike"/>
+            <when state="Letterlike_Est" next="Letterlike_Edbl"/>
+            <when state="Letterlike_Euler" next="Letterlike_Est"/>
             <when state="Letterlike_Fax" next="Letterlike_Fdg"/>
             <when state="Letterlike_Fcap" next="Letterlike_Fsm"/>
             <when state="Letterlike_Fdg" next="Letterlike_Fscript"/>
@@ -6248,6 +6293,10 @@
             <when state="Letterlike_Hplanck" next="Letterlike_Hscript"/>
             <when state="Letterlike_Hplanck2" next="Letterlike_Hplanck"/>
             <when state="Letterlike_Hscript" next="Letterlike_Hblack"/>
+            <when state="Letterlike_Iblack" next="Letterlike_Iscr"/>
+            <when state="Letterlike_Idbl" next="Letterlike_Iota"/>
+            <when state="Letterlike_Iota" next="Letterlike_Iblack"/>
+            <when state="Letterlike_Iscr" next="Letterlike"/>
             <when state="Letterlike_LL" next="Letterlike_Ll"/>
             <when state="Letterlike_Lb" next="Letterlike_Lrev"/>
             <when state="Letterlike_Ll" next="Letterlike_Lll"/>
@@ -6497,7 +6546,15 @@
             <when state="Brackets-「" output="「"/>
             <when state="Brackets-【" output="【"/>
             <when state="Brackets-〔" output="〔"/>
-            <when state="Letterlike_C" output="ℂ"/>
+            <when state="Letterlike_Cblack" output="ℭ"/>
+            <when state="Letterlike_Cdbl" output="ℂ"/>
+            <when state="Letterlike_Cdg" output="℃"/>
+            <when state="Letterlike_Center" output="℄"/>
+            <when state="Letterlike_EScr" output="ℰ"/>
+            <when state="Letterlike_Edbl" output="ⅇ"/>
+            <when state="Letterlike_Escr" output="ℯ"/>
+            <when state="Letterlike_Est" output="℮"/>
+            <when state="Letterlike_Euler" output="ℇ"/>
             <when state="Letterlike_Fax" output="℻"/>
             <when state="Letterlike_Fcap" output="Ⅎ"/>
             <when state="Letterlike_Fdg" output="℉"/>
@@ -6508,6 +6565,10 @@
             <when state="Letterlike_Hplanck" output="ℎ"/>
             <when state="Letterlike_Hplanck2" output="ℏ"/>
             <when state="Letterlike_Hscript" output="ℋ"/>
+            <when state="Letterlike_Iblack" output="ℑ"/>
+            <when state="Letterlike_Idbl" output="ⅈ"/>
+            <when state="Letterlike_Iota" output="℩"/>
+            <when state="Letterlike_Iscr" output="ℐ"/>
             <when state="Letterlike_LL" output="ℒ"/>
             <when state="Letterlike_Lb" output="℔"/>
             <when state="Letterlike_Ll" output="ℓ"/>
@@ -6819,7 +6880,15 @@
         <when state="Diacritics" output="◌"/>
         <when state="Greek" output="ε"/>
         <when state="Letterlike" output="ℒ"/>
-        <when state="Letterlike_C" output="ℂ"/>
+        <when state="Letterlike_Cblack" output="ℭ"/>
+        <when state="Letterlike_Cdbl" output="ℂ"/>
+        <when state="Letterlike_Cdg" output="℃"/>
+        <when state="Letterlike_Center" output="℄"/>
+        <when state="Letterlike_EScr" output="ℰ"/>
+        <when state="Letterlike_Edbl" output="ⅇ"/>
+        <when state="Letterlike_Escr" output="ℯ"/>
+        <when state="Letterlike_Est" output="℮"/>
+        <when state="Letterlike_Euler" output="ℇ"/>
         <when state="Letterlike_Fax" output="℻"/>
         <when state="Letterlike_Fcap" output="Ⅎ"/>
         <when state="Letterlike_Fdg" output="℉"/>
@@ -6830,11 +6899,16 @@
         <when state="Letterlike_Hplanck" output="ℎ"/>
         <when state="Letterlike_Hplanck2" output="ℏ"/>
         <when state="Letterlike_Hscript" output="ℋ"/>
+        <when state="Letterlike_Iblack" output="ℑ"/>
+        <when state="Letterlike_Idbl" output="ⅈ"/>
+        <when state="Letterlike_Iota" output="℩"/>
+        <when state="Letterlike_Iscr" output="ℐ"/>
         <when state="Letterlike_LL" output="ℒ"/>
         <when state="Letterlike_Lb" output="℔"/>
         <when state="Letterlike_Ll" output="ℓ"/>
         <when state="Letterlike_Lll" output="⅏"/>
         <when state="Letterlike_Lrev" output="⅃"/>
+        <when state="Letterlike_Lscr" output=""/>
         <when state="Letterlike_Lturn" output="⅂"/>
         <when state="Letterlike_Pdbl" output="ℙ"/>
         <when state="Letterlike_Phono" output="℗"/>
