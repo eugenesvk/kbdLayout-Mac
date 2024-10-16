@@ -6475,9 +6475,6 @@
             <when state="OldCyrillic" output="Ѭ"/>
             <when state="cedilla" output="̧"/>
         </action>
-        <action id="g^">
-            <when state="none" next="Greek"/>
-        </action>
         <action id="2→1 h⇧⎇">
             <when state="none" next="double-acute"/>
             <when state="Greek" output="≠"/>
@@ -6502,9 +6499,6 @@
             <when state="circumflex" next="circumflex+hook-above"/>
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
-        </action>
-        <action id="m^">
-            <when state="none" next="Math"/>
         </action>
         <action id="1→4 o⇧⎇">
             <when state="none" next="macron"/>
