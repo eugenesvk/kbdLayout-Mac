@@ -103,7 +103,7 @@ All notable changes to this project will be documented in this file
     + `en` `ru` add Dotless Italic in <kbd>🕱</kbd>`math𝑖`
         * 𝚤𝚥 <kbd>⎇</kbd>
   - __Changed__
-   + `en` name of the various <kbd>🕱</kbd>`math` to avoid weird bug when the layout isn't recognized
+   + `en` `ru` name of the various <kbd>🕱</kbd>`math` to avoid weird bug when the layout isn't recognized
 
   [1.5.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.5.0
 ## [1.5.0]
