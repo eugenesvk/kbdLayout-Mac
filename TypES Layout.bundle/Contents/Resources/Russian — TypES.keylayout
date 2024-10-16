@@ -3585,6 +3585,7 @@
             <when state="math_a-z_sansit" output="𝘶"/>
             <when state="math_a-z_sansbit" output="𝙪"/>
             <when state="math_a-z_mono" output="𝚞"/>
+            <!-- <when state="math_a-z_greekb" output="𝛉"/> -->
             <when state="math_a-z_greekb" output="𝛉"/>
             <when state="math_a-z_greekit" output="𝜃"/>
             <when state="math_a-z_greekbit" output="𝜽"/>
@@ -3666,6 +3667,7 @@
             <when state="mathO" output="⊖"/>
             <when state="math|" output="⊦"/>
             <when state="math‹" output="←"/>
+            <!-- <when state="math_a-z_greekb" output="𝚹"/> -->
             <when state="math_a-z_greekb" output="𝚹"/>
             <when state="math_a-z_greekit" output="𝛳"/>
             <when state="math_a-z_greekbit" output="𝜭"/>
