@@ -1510,7 +1510,7 @@
             <key code="1" output="ß"/>
             <key code="2" output="∂"/>
             <key code="3" action="2←4 f⎈⎇"/>
-            <key code="4" action="˙"/>
+            <key code="4" action="2→1 h⇧⎇"/>
             <key code="5" output="©"/>
             <key code="6" output="Ω"/>
             <key code="7" output="≈"/>
@@ -1520,7 +1520,7 @@
             <key code="11" output="∫"/>
             <key code="12" output="œ"/>
             <key code="13" output="∑"/>
-            <key code="14" action="´"/>
+            <key code="14" action="1←3 e⇧⎇"/>
             <key code="15" output="®"/>
             <key code="16" output="¥"/>
             <key code="17" output="†"/>
@@ -1538,9 +1538,9 @@
             <key code="29" output="º"/>
             <key code="30" output="‘"/>
             <key code="31" output="ø"/>
-            <key code="32" action="¨"/>
+            <key code="32" action="1→2 u⇧⎇"/>
             <key code="33" output="“"/>
-            <key code="34" action="^"/>
+            <key code="34" action="0→1 6⇧⎇"/>
             <key code="35" output="π"/>
             <key code="36" output="&#x000D;"/>
             <key code="37" output="¬"/>
@@ -1551,7 +1551,7 @@
             <key code="42" output="«"/>
             <key code="43" output="≤"/>
             <key code="44" output="÷"/>
-            <key code="45" action="~"/>
+            <key code="45" action="3→1 n⇧⎇"/>
             <key code="46" output="µ"/>
             <key code="47" output="≥"/>
             <key code="48" output="⇥"/>
