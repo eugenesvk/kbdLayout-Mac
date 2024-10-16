@@ -23,6 +23,38 @@ All notable changes to this project will be documented in this file
    <!-- vulnerabilities -->
 
   - __Added__
+    + `en` <kbd>🕱</kbd>`Letterlike` mapped to <kbd>l</kbd> with symbols and nested <kbd>🕱</kbd>:
+        + <kbd>5</kbd>⅌
+        + <kbd>7</kbd>⅋
+        + <kbd>-</kbd>⅊
+        + <kbd>q</kbd>ℚ <kbd>⇧</kbd>℺ <kbd>⎇</kbd>℺
+        + <kbd>w</kbd>⅀
+        + <kbd>🕱</kbd>`Letterlike_Escr` cycle ℯℰⅇ℮ℇ  <kbd>⇧</kbd>℮ <kbd>⎇</kbd>ℰ <kbd>⇧</kbd><kbd>⎇</kbd>ⅇ <kbd>⎈</kbd><kbd>⎇</kbd>ℇ also <kbd>a</kbd>ℯ <kbd>⇧</kbd><kbd>a</kbd>ℰ <kbd>s</kbd>ℰ <kbd>d</kbd>ⅇ <kbd>f</kbd>℮ <kbd>g</kbd>ℇ  <kbd>w</kbd>ⅇ <kbd>t</kbd>℮ <kbd>l</kbd>ℇ
+        + <kbd>🕱</kbd>`Letterlike_Rdouble` <kbd>r</kbd> cycle ℝ℞ℜℛ℟ <kbd>⇧</kbd>ℜ <kbd>⎇</kbd>℞ <kbd>⇧</kbd><kbd>⎇</kbd>ℛ
+        + <kbd>t</kbd>℡
+        + <kbd>y</kbd>ℽ <kbd>y</kbd>⅄
+        + <kbd>o</kbd>ℴ <kbd>⎇</kbd>℥
+        + <kbd>🕱</kbd>`Letterlike_Pdbl` <kbd>p</kbd> cycle ℙ℘℗ℼℿ <kbd>⇧</kbd>℘ <kbd>⎇</kbd>℗ <kbd>⇧</kbd><kbd>⎇</kbd>ℼ also <kbd>a</kbd>ℙ <kbd>s</kbd>℘ <kbd>d</kbd>℗ <kbd>f</kbd>ℼ <kbd>⇧</kbd><kbd>f</kbd>ℿ <kbd>g</kbd>ℿ or <kbd>w</kbd>ℙ <kbd>i</kbd>℘ <kbd>r</kbd>℗ <kbd>3</kbd>ℼ <kbd>⇧</kbd><kbd>3</kbd>ℿ
+        + <kbd>a</kbd>Å <kbd>⎇</kbd><kbd>a</kbd>⅋
+        + <kbd>s</kbd>℠ <kbd>⎇</kbd>⅏ 
+        + <kbd>d</kbd>ⅆ <kbd>⇧</kbd>ⅅ
+        + <kbd>🕱</kbd>`Letterlike_Fsm` <kbd>f</kbd> cycle ⅎℲ℉ℱ℻ <kbd>⇧</kbd>Ⅎ <kbd>⎇</kbd>℉ <kbd>⇧</kbd><kbd>⎇</kbd>ℱ also <kbd>j</kbd>ⅎ <kbd>k</kbd>Ⅎ <kbd>i</kbd>℉ <kbd>x</kbd>℻ or <kbd>a</kbd>ⅎ <kbd>s</kbd>Ⅎ <kbd>d</kbd>℉
+        + <kbd>🕱</kbd>`Letterlike_Iscr` <kbd>i</kbd> cycle ℐℑ℩ⅈ <kbd>i</kbd>ℐ <kbd>⇧</kbd>ℑ <kbd>⎇</kbd>℩ <kbd>⇧</kbd><kbd>⎇</kbd>ⅈ also <kbd>a</kbd>ℐ <kbd>s</kbd>ℑ <kbd>d</kbd>℩ <kbd>f</kbd>ⅈ or <kbd>w</kbd>ⅈ <kbd>b</kbd>ℑ <kbd>j</kbd>℩  <kbd>k</kbd>ℐ
+        + <kbd>j</kbd>ⅉ
+        + <kbd>g</kbd>ℊ <kbd>⇧</kbd>⅁ <kbd>⎇</kbd>ℾ
+        + <kbd>🕱</kbd>`Letterlike_Hdbl` <kbd>h</kbd> cycle ℍℌℋℎℏ <kbd>⇧</kbd>ℌ <kbd>⎇</kbd>ℎ <kbd>⇧</kbd><kbd>⎇</kbd>ℏ <kbd>⎈</kbd><kbd>⎇</kbd>ℋ also <kbd>a</kbd>ℍ <kbd>s</kbd>ℌ <kbd>d</kbd>ℋ <kbd>f</kbd>ℎ <kbd>g</kbd>ℏ / ℏ
+        + <kbd>k</kbd>K
+        + <kbd>🕱</kbd>`Letterlike_Ll` at <kbd>l</kbd> cycle ℓℒ⅂⅃℔⅏  <kbd>⇧</kbd>ℒ <kbd>⎇</kbd>℔ <kbd>⇧</kbd><kbd>⎇</kbd>⅏ also  <kbd>a</kbd>ℓ <kbd>s</kbd>ℒ <kbd>d</kbd>⅂ <kbd>f</kbd>⅃ <kbd>g</kbd>℔ <kbd>h</kbd>⅏  <kbd>⇧</kbd>ℒ <kbd>u</kbd>⅂ <kbd>j</kbd>⅃ <kbd>b</kbd>℔ <kbd>3</kbd>⅏ <kbd>w</kbd>⅏
+        + <kbd>'</kbd>℈
+        + <kbd>🕱</kbd>`Letterlike_Zdbl` <kbd>z</kbd> cycle ℤℨΩ℧ <kbd>⇧</kbd>ℨ <kbd>⎇</kbd>Ω <kbd>⇧</kbd><kbd>⎇</kbd>℧ also <kbd>b</kbd>ℨ <kbd>d</kbd>ℤ <kbd>i</kbd>℧ <kbd>o</kbd>Ω
+        + <kbd>x</kbd>℻
+        + <kbd>🕱</kbd>`Letterlike_Cdbl` at <kbd>c</kbd> cycle ℂℭ℃℄, <kbd>⇧</kbd>ℭ <kbd>⎇</kbd>℃ <kbd>⇧</kbd><kbd>⎇</kbd>℄, also at <kbd>🕱</kbd><kbd>a</kbd>ℂ <kbd>s</kbd>ℭ <kbd>d</kbd>℃ <kbd>f</kbd>℄  <kbd>w</kbd>ℂ <kbd>l</kbd>℄ <kbd>b</kbd>ℭ 
+        + <kbd>v</kbd>℣ 
+        + <kbd>b</kbd>ℬ  <kbd>⇧</kbd><kbd>⎇</kbd>ℬ <kbd>⎇</kbd>℔ <kbd>⇧</kbd>⅊
+        + <kbd>n</kbd>ℕ <kbd>⇧</kbd>№
+        + <kbd>m</kbd>ℳ <kbd>⇧</kbd><kbd>⎇</kbd>ℳ
+        + <kbd>🕱</kbd>`Letterlike_Ratio` at /: <kbd>c</kbd>℀ <kbd>a</kbd>⅍ <kbd>s</kbd>℁ <kbd>o</kbd>℅ <kbd>u</kbd>℆ <kbd>⇧</kbd><kbd>s</kbd>⅍
+        + <kbd>1</kbd>ℵ <kbd>2</kbd>ℶ <kbd>3</kbd>ℷ <kbd>4</kbd>ℸ
     + `en` greek layer (matching default `en`) to match `ru` for better diff
     + `en` `ru` add <kbd>🕱</kbd>`math𝐛`, mapped to <kbd>⎇</kbd><kbd>b</kbd> in <kbd>🕱</kbd>`Math`
         * 𝐐𝐖𝐄𝐑𝐓𝐘𝐔𝐈𝐎𝐏𝐀𝐒𝐃𝐅𝐆𝐇𝐉𝐊𝐋𝐙𝐗𝐂𝐕𝐁𝐍𝐌 <kbd>⇧</kbd>
