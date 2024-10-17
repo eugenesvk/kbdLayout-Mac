@@ -5073,6 +5073,10 @@
             <when state="double-acute" output="̋"/>
             <when state="fs" output="ˆ"/>
         </action>
+        <action id="2→1 h⎈⎇">
+            <when state="none" output="•"/>
+            <when state="Letterlike" output="ℋ"/>
+        </action>
         <action id="2→2 j">
             <when state="none" output="о"/>
             <when state="Brackets" next="Brackets-{"/>
@@ -6093,13 +6097,13 @@
         <action id="3←5 b⇧">
             <when state="none" output="И"/>
             <when state="Greek" output="Β"/>
+            <when state="Letterlike" output="⅊"/>
             <when state="breve" output="Й"/>
             <when state="diaeresis" output="Ӥ"/>
             <when state="grave" output="Ѝ"/>
             <when state="macron" output="Ӣ"/>
             <!-- <when state="dot-above" output="Ḃ"/> -->
             <!-- <when state="dot-below" output="Ḅ"/> -->
-            <when state="Letterlike" output="⅊"/>
             <when state="math_a-z_b" output="𝐁"/>
             <when state="math_a-z_bit" output="𝑩"/>
             <when state="math_a-z_dbl" output="𝔹"/>
@@ -6118,6 +6122,10 @@
             <when state="math_a-z_sansit" output="𝘉"/>
             <when state="math_a-z_scriptb" output="𝓑"/>
             <when state="math∅⊂" output="⋭"/>
+        </action>
+        <action id="3←5 b⇧⎇">
+            <when state="none" output="ẞ"/>
+            <when state="Letterlike" output="ℬ"/>
         </action>
         <action id="3←5 b⎇">
             <when state="none" output="ß"/>
@@ -6902,14 +6910,6 @@
             <when state="none" output="№"/>
             <when state="Greek" output="#"/>
             <when state="Typographical" output="☰"/>
-        </action>
-        <action id="2→1 h⎈⎇">
-            <when state="none" output="•"/>
-            <when state="Letterlike" output="ℋ"/>
-        </action>
-        <action id="3←5 b⇧⎇">
-            <when state="none" output="ẞ"/>
-            <when state="Letterlike" output="ℬ"/>
         </action>
         <action id="␠⎇">
             <when state="none" output=" "/>
