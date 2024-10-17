@@ -4246,6 +4246,7 @@
         </action>
         <action id="1→5 p⇧⎇">
             <when state="none" output="″"/>
+            <!-- <when state="Letterlike" output="ℼ"/> -->
             <when state="Letterlike" output="ℼ"/>
             <when state="OldCyrillic" output="Ꙃ"/>
             <when state="cur$re" output="₱"/>
