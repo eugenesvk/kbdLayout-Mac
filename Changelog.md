@@ -55,6 +55,38 @@ All notable changes to this project will be documented in this file
         + <kbd>m</kbd>ℳ <kbd>⇧</kbd><kbd>⎇</kbd>ℳ
         + <kbd>🕱</kbd>`Letterlike_Ratio` at /: <kbd>c</kbd>℀ <kbd>a</kbd>⅍ <kbd>s</kbd>℁ <kbd>o</kbd>℅ <kbd>u</kbd>℆ <kbd>⇧</kbd><kbd>s</kbd>⅍
         + <kbd>1</kbd>ℵ <kbd>2</kbd>ℶ <kbd>3</kbd>ℷ <kbd>4</kbd>ℸ
+    + `ru` <kbd>🕱</kbd>`Letterlike` mapped to <kbd>д</kbd> with symbols and nested <kbd>🕱</kbd>:
+        + <kbd>5</kbd>⅌
+        + <kbd>7</kbd>⅋
+        + <kbd>-</kbd>⅊
+        + <kbd>й</kbd>ℚ <kbd>⇧</kbd>℺ <kbd>⎇</kbd>℺
+        + <kbd>ц</kbd>⅀
+        + <kbd>🕱</kbd>`Letterlike_Escr` cycle ℯℰⅇ℮ℇ  <kbd>⇧</kbd>℮ <kbd>⎇</kbd>ℰ <kbd>⇧</kbd><kbd>⎇</kbd>ⅇ <kbd>⎈</kbd><kbd>⎇</kbd>ℇ also <kbd>ф</kbd>ℯ <kbd>⇧</kbd><kbd>ф</kbd>ℰ <kbd>ы</kbd>ℰ <kbd>в</kbd>ⅇ <kbd>а</kbd>℮ <kbd>п</kbd>ℇ  <kbd>ц</kbd>ⅇ <kbd>е</kbd>℮ <kbd>д</kbd>ℇ
+        + <kbd>🕱</kbd>`Letterlike_Rdouble` <kbd>к</kbd> cycle ℝ℞ℜℛ℟ <kbd>⇧</kbd>ℜ <kbd>⎇</kbd>℞ <kbd>⇧</kbd><kbd>⎇</kbd>ℛ
+        + <kbd>е</kbd>℡
+        + <kbd>н</kbd>ℽ <kbd>н</kbd>⅄
+        + <kbd>щ</kbd>ℴ <kbd>⎇</kbd>℥
+        + <kbd>🕱</kbd>`Letterlike_Pdbl` <kbd>з</kbd> cycle ℙ℘℗ℼℿ <kbd>⇧</kbd>℘ <kbd>⎇</kbd>℗ <kbd>⇧</kbd><kbd>⎇</kbd>ℼ also <kbd>ф</kbd>ℙ <kbd>ы</kbd>℘ <kbd>в</kbd>℗ <kbd>а</kbd>ℼ <kbd>⇧</kbd><kbd>а</kbd>ℿ <kbd>п</kbd>ℿ or <kbd>ц</kbd>ℙ <kbd>ш</kbd>℘ <kbd>к</kbd>℗ <kbd>3</kbd>ℼ <kbd>⇧</kbd><kbd>3</kbd>ℿ
+        + <kbd>ф</kbd>Å <kbd>⎇</kbd><kbd>ф</kbd>⅋
+        + <kbd>ы</kbd>℠ <kbd>⎇</kbd>⅏ 
+        + <kbd>в</kbd>ⅆ <kbd>⇧</kbd>ⅅ
+        + <kbd>🕱</kbd>`Letterlike_Fsm` <kbd>а</kbd> cycle ⅎℲ℉ℱ℻ <kbd>⇧</kbd>Ⅎ <kbd>⎇</kbd>℉ <kbd>⇧</kbd><kbd>⎇</kbd>ℱ also <kbd>о</kbd>ⅎ <kbd>л</kbd>Ⅎ <kbd>ш</kbd>℉ <kbd>ч</kbd>℻ or <kbd>ф</kbd>ⅎ <kbd>ы</kbd>Ⅎ <kbd>в</kbd>℉
+        + <kbd>🕱</kbd>`Letterlike_Iscr` <kbd>ш</kbd> cycle ℐℑ℩ⅈ <kbd>ш</kbd>ℐ <kbd>⇧</kbd>ℑ <kbd>⎇</kbd>℩ <kbd>⇧</kbd><kbd>⎇</kbd>ⅈ also <kbd>ф</kbd>ℐ <kbd>ы</kbd>ℑ <kbd>в</kbd>℩ <kbd>а</kbd>ⅈ or <kbd>ц</kbd>ⅈ <kbd>и</kbd>ℑ <kbd>о</kbd>℩  <kbd>л</kbd>ℐ
+        + <kbd>о</kbd>ⅉ
+        + <kbd>п</kbd>ℊ <kbd>⇧</kbd>⅁ <kbd>⎇</kbd>ℾ
+        + <kbd>🕱</kbd>`Letterlike_Hdbl` <kbd>р</kbd> cycle ℍℌℋℎℏ <kbd>⇧</kbd>ℌ <kbd>⎇</kbd>ℎ <kbd>⇧</kbd><kbd>⎇</kbd>ℏ <kbd>⎈</kbd><kbd>⎇</kbd>ℋ also <kbd>ф</kbd>ℍ <kbd>ы</kbd>ℌ <kbd>в</kbd>ℋ <kbd>а</kbd>ℎ <kbd>п</kbd>ℏ / ℏ
+        + <kbd>л</kbd>K
+        + <kbd>🕱</kbd>`Letterlike_Ll` at <kbd>д</kbd> cycle ℓℒ⅂⅃℔⅏  <kbd>⇧</kbd>ℒ <kbd>⎇</kbd>℔ <kbd>⇧</kbd><kbd>⎇</kbd>⅏ also  <kbd>ф</kbd>ℓ <kbd>ы</kbd>ℒ <kbd>в</kbd>⅂ <kbd>а</kbd>⅃ <kbd>п</kbd>℔ <kbd>р</kbd>⅏  <kbd>⇧</kbd>ℒ <kbd>г</kbd>⅂ <kbd>о</kbd>⅃ <kbd>и</kbd>℔ <kbd>3</kbd>⅏ <kbd>ц</kbd>⅏
+        + <kbd>'</kbd>℈
+        + <kbd>🕱</kbd>`Letterlike_Zdbl` <kbd>я</kbd> cycle ℤℨΩ℧ <kbd>⇧</kbd>ℨ <kbd>⎇</kbd>Ω <kbd>⇧</kbd><kbd>⎇</kbd>℧ also <kbd>и</kbd>ℨ <kbd>в</kbd>ℤ <kbd>ш</kbd>℧ <kbd>щ</kbd>Ω
+        + <kbd>ч</kbd>℻
+        + <kbd>🕱</kbd>`Letterlike_Cdbl` at <kbd>с</kbd> cycle ℂℭ℃℄, <kbd>⇧</kbd>ℭ <kbd>⎇</kbd>℃ <kbd>⇧</kbd><kbd>⎇</kbd>℄, also at <kbd>🕱</kbd><kbd>ф</kbd>ℂ <kbd>ы</kbd>ℭ <kbd>в</kbd>℃ <kbd>а</kbd>℄  <kbd>ц</kbd>ℂ <kbd>д</kbd>℄ <kbd>и</kbd>ℭ 
+        + <kbd>м</kbd>℣ 
+        + <kbd>и</kbd>ℬ  <kbd>⇧</kbd><kbd>⎇</kbd>ℬ <kbd>⎇</kbd>℔ <kbd>⇧</kbd>⅊
+        + <kbd>т</kbd>ℕ <kbd>⇧</kbd>№
+        + <kbd>ь</kbd>ℳ <kbd>⇧</kbd><kbd>⎇</kbd>ℳ
+        + <kbd>🕱</kbd>`Letterlike_Ratio` at /: <kbd>с</kbd>℀ <kbd>ф</kbd>⅍ <kbd>ы</kbd>℁ <kbd>щ</kbd>℅ <kbd>г</kbd>℆ <kbd>⇧</kbd><kbd>ы</kbd>⅍
+        + <kbd>1</kbd>ℵ <kbd>2</kbd>ℶ <kbd>3</kbd>ℷ <kbd>4</kbd>ℸ
     + `en` greek layer (matching default `en`) to match `ru` for better diff
     + `en` `ru` add <kbd>🕱</kbd>`math𝐛`, mapped to <kbd>⎇</kbd><kbd>b</kbd> in <kbd>🕱</kbd>`Math`
         * 𝐐𝐖𝐄𝐑𝐓𝐘𝐔𝐈𝐎𝐏𝐀𝐒𝐃𝐅𝐆𝐇𝐉𝐊𝐋𝐙𝐗𝐂𝐕𝐁𝐍𝐌 <kbd>⇧</kbd>
