@@ -24,6 +24,7 @@ log        	= "0.4"
 stderrlog  	= "0.5"
 anyhow     	= "1.0"
 faccess    	= "0.2"
+bpaf       	= {version="0.9.15", features=["autocomplete","bright-color"]}
 
 [build-dependencies]
 log	= "0.4"
