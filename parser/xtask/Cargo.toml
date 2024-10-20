@@ -4,7 +4,7 @@ version	= "0.1.0"
 edition	= "2021"
 
 [dependencies]
-dummy      	= {path= "..", default_features=false}
+dummy      	= {path= "..", default-features=false}
 helper     	= {path="../helper"}
 helper_proc	= {path="../helper_proc"}
 log        	= "0.4"
