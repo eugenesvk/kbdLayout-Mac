@@ -6,16 +6,16 @@ import unicodedata
 
 dbg = 0
 
-ENmac  = R'§qwertyuiop[]' + R"asdfghjkl;'\" + R'`zxcvbnm,./'
-RUmac  = R'>йцукенгшщзхъ' + R'фывапролджэё' + R']ячсмитьбю/'
-ENmac += R'±QWERTYUIOP{}' + R'ASDFGHJKL:"|' + R'ZXCVBNM<>?!@#$%^&'
-RUmac += R'<ЙЦУКЕНГШЩЗХЪ' + R'ФЫВАПРОЛДЖЭЁ' + R'ЯЧСМИТЬБЮ,!"№;%:?'
+ENmac  = R'§qwertyuiop[]' + R"asdfghjkl;'"+"\\" + R'`zxcvbnm,./'
+RUmac  = R'>йцукенгшщзхъ' + R'фывапролджэё'     + R']ячсмитьбю/'
+ENmac += R'±QWERTYUIOP{}' + R'ASDFGHJKL:"|'     + R'ZXCVBNM<>?!@#$%^&'
+RUmac += R'<ЙЦУКЕНГШЩЗХЪ' + R'ФЫВАПРОЛДЖЭЁ'     + R'ЯЧСМИТЬБЮ,!"№;%:?'
 ENmac_RUmac = str.maketrans(ENmac, RUmac)
 RUmac_ENmac = str.maketrans(RUmac, ENmac)
 
 mods   	= ['⇧','⌥','⇧⌥','r','label','^','◌','']
 sep    	= ' ' # no-break space
-escape 	= [R'\','"']
+escape 	= ['\\','"']
 label_h	= 'label'
 
 def prefillDic(labels):
@@ -107,7 +107,7 @@ def bufferEditorConfig(outDic, layerName, language, mods_out, fileOutMod, labels
         oCh = outDic[char][mod]
         if mod == 'label' and language == 'Russian' and translate_labels:
           oCh = outDic[char][mod].translate(ENmac_RUmac)
-        buffer	+= (R'\' if oCh in escape else '') +oCh+ (r'\n' if idx!=len(mods_out)-1 else '')
+        buffer	+= ('\\' if oCh in escape else '') +oCh+ (r'\n' if idx!=len(mods_out)-1 else '')
       buffer  	+= '"' + (',' if char != label[-1] else '') + '\n'
     buffer    	+= '],\n'
   buffer      	+= last_label
