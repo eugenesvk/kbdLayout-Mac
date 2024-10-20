@@ -7,6 +7,8 @@ pub use std::any     	::type_name    	     	; // for type_of
 
 #[macro_export] macro_rules! pb { // println! during build
   ($($tokens:tt)*) => {println!("cargo:warning={}", format!($($tokens)*))}}
-use std::io::{self,Write};
+  pub(crate) use pb; // use macro across module boundaries
+pub use std::io::{self,Write};
 #[macro_export] macro_rules! p  { // println! without panics
   ($($tokens:tt)*) => {writeln!(io::stdout(), $($tokens)*)}}
+  pub(crate) use p ;
