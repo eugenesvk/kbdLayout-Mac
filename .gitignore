@@ -1,9 +1,10 @@
 # templates github.com/github/gitignore
 # test folder
 \[test\]
-# project's built docs
-*.html
-!docs/index.html
+# project's built/temp docs
+Changelog.html
+ReadMe.html
+ToDo.html
 ToDo.md
 
 # vim
