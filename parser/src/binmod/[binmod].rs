@@ -5,4 +5,8 @@ use ::helper::alias 	::*;
 use ::helper::helper	::*;
 // use crate::*;
 
-pub fn print42() { p!("{}",42); }
+use std::error::Error;
+use std::result;
+
+type Result<T> = result::Result<T, Box<dyn Error>>;
+pub fn print42() -> Result<()> {p!("{}",42)?; Ok(())}
