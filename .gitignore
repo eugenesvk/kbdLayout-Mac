@@ -58,3 +58,9 @@ Thumbs.db
 *.dll
 *.lib
 *.sbr
+
+# Rust
+/callgrind.out.justfile
+/*/dist
+/*/target
+
