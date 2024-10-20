@@ -8,6 +8,11 @@ pub use helper::helper	::*;
 _mod!(binmod); //→ #[path="binmod/[binmod].rs"] pub mod binmod;
 use crate::binmod::print42;
 
-fn main() {
-  print42();
+use std::error::Error;
+use std::result;
+
+type Result<T> = result::Result<T, Box<dyn Error>>;
+fn main() -> Result<()> {
+  print42()?;
+  Ok(())
 }
