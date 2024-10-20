@@ -1,0 +1,14 @@
+[package]
+name   	= "xtask"
+version	= "0.1.0"
+edition	= "2021"
+
+[dependencies]
+dummy      	= {path= "..", default_features=false}
+helper     	= {path="../helper"}
+helper_proc	= {path="../helper_proc"}
+log        	= "0.4"
+stderrlog  	= "0.5"
+anyhow     	= "1.0"
+faccess    	= "0.2"
+indoc      	= {version="2.0.4"}

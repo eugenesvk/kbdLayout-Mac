@@ -1,0 +1,14 @@
+[package]
+name       	= "helper_proc"
+description	= "Helper proc functions that can be shared between the main crate as well as the build script (proc macros should be in a separate crate)"
+version    	= "0.1.0"
+edition    	= "2021"
+license    	= "MIT"
+
+[lib]
+name      	= "helper_proc"
+path      	= "src/[helper_proc].rs"
+proc-macro	= true
+
+[dependencies]
+helper	= {path="../helper"}
