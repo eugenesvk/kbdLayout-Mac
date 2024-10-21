@@ -57,7 +57,7 @@ use serde::{Deserialize,Serialize};
   #[serde(rename="$text"	)] pub text  	: Option<String>,
   pub                   	       action	: Vec<Action>,
 }
-#[derive(Debug,Deserialize)] pub struct Action {
+#[derive(Debug,Deserialize)] pub struct Action { // <action id="3→5 /"><when state="none" output="/"/><when state="Math" next="math/"/>
   #[serde(rename="@id"  	)] pub id  	: String,
   #[serde(rename="$text"	)] pub text	: Option<String>,
   pub                   	       when	: Vec<ActionWhen>,
