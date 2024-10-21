@@ -76,9 +76,9 @@ use serde::{Deserialize,Serialize};
     #[serde(rename="@output"	)] output	: String, },
 }
 // #[derive(Debug,Deserialize)] pub struct ActionWhen {
-//   #[serde(rename="@state" 	)] pub state 	: String,
-//   #[serde(rename="@next"  	)] pub next  	: Option<String>,
-//   #[serde(rename="@output"	)] pub output	: Option<String>,
+  // #[serde(rename="@state" 	)] pub state 	: String,
+  // #[serde(rename="@next"  	)] pub next  	: Option<String>,
+  // #[serde(rename="@output"	)] pub output	: Option<String>,
 // }
 // #[derive(Debug,Deserialize)] pub struct TerminatorsWhen {
   // #[serde(rename="@state" 	)] pub state 	: String,
