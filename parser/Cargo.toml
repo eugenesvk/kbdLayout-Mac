@@ -25,6 +25,8 @@ stderrlog  	= "0.5"
 anyhow     	= "1.0"
 faccess    	= "0.2"
 bpaf       	= {version="0.9.15", features=["autocomplete","bright-color"]}
+quick-xml  	= {version="0.36.2", features=["serialize"]}
+serde      	= {version="1.0.210", features=["derive"]}
 
 [build-dependencies]
 log	= "0.4"
