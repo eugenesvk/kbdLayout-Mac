@@ -48,8 +48,8 @@ use serde::{Deserialize,Serialize};
   #[serde(rename="$text"      	)] pub text        	: Option<String>,
   pub                         	       key         	: Vec<Key>,
 }
-#[derive(Debug,Deserialize)] pub struct Key {
-  #[serde(rename="@code"  	)] pub code  	: String,
+#[derive(Debug,Deserialize)] pub struct Key { // <key code="0" action="2←1 a"/><key code="67" output="*"/>
+  #[serde(rename="@code"  	)] pub code  	: u16,
   #[serde(rename="@action"	)] pub action	: Option<String>,
   #[serde(rename="@output"	)] pub output	: Option<String>,
 }
