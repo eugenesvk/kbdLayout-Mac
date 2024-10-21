@@ -48,11 +48,19 @@ use serde::{Deserialize,Serialize};
   #[serde(rename="$text"      	)] pub text        	: Option<String>,
   pub                         	       key         	: Vec<Key>,
 }
-#[derive(Debug,Deserialize)] pub struct Key { // <key code="0" action="2←1 a"/><key code="67" output="*"/>
-  #[serde(rename="@code"  	)] pub code  	: u16,
-  #[serde(rename="@action"	)] pub action	: Option<String>,
-  #[serde(rename="@output"	)] pub output	: Option<String>,
+#[derive(Debug,Deserialize)] #[serde(untagged)] pub enum Key {
+  Action                    	{        	// <key code="0"  action="2←1 a"/>
+    #[serde(rename="@code"  	)] code  	: u16,
+    #[serde(rename="@action"	)] action	: String, },
+  Output                    	{        	// <key code="67" output="*"/>
+    #[serde(rename="@code"  	)] code  	: u16,
+    #[serde(rename="@output"	)] output	: String, },
 }
+// #[derive(Debug,Deserialize)] pub struct Key { // <key code="0" action="2←1 a"/><key code="67" output="*"/>
+//   #[serde(rename="@code"  	)] pub code  	: u16,
+//   #[serde(rename="@action"	)] pub action	: Option<String>,
+//   #[serde(rename="@output"	)] pub output	: Option<String>,
+// }
 #[derive(Debug,Deserialize)] pub struct Actions {
   #[serde(rename="$text"	)] pub text  	: Option<String>,
   pub                   	       action	: Vec<Action>,
