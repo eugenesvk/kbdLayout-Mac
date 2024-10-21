@@ -60,18 +60,27 @@ use serde::{Deserialize,Serialize};
 #[derive(Debug,Deserialize)] pub struct Action { // <action id="3→5 /"><when state="none" output="/"/><when state="Math" next="math/"/>
   #[serde(rename="@id"  	)] pub id  	: String,
   #[serde(rename="$text"	)] pub text	: Option<String>,
-  pub                   	       when	: Vec<ActionWhen>,
+  pub                   	       when	: Vec<When>,
 }
-#[derive(Debug,Deserialize)] pub struct ActionWhen {
-  #[serde(rename="@state" 	)] pub state 	: String,
-  #[serde(rename="@next"  	)] pub next  	: Option<String>,
-  #[serde(rename="@output"	)] pub output	: Option<String>,
-}
-#[derive(Debug,Deserialize)] pub struct Terminators {
+// #[derive(Debug,Deserialize)] pub struct ActionWhen {
+//   #[serde(rename="@state" 	)] pub state 	: String,
+//   #[serde(rename="@next"  	)] pub next  	: Option<String>,
+//   #[serde(rename="@output"	)] pub output	: Option<String>,
+// }
+#[derive(Debug,Deserialize)] pub struct Terminators { // <terminators><when state="Brackets" output="("/>
   #[serde(rename="$text"	)] pub text	: Option<String>,
-  pub                   	       when	: Vec<TerminatorsWhen>,
+  pub                   	       when	: Vec<When>,
 }
-#[derive(Debug,Deserialize)] pub struct TerminatorsWhen {
-  #[serde(rename="@state" 	)] pub state 	: String,
-  #[serde(rename="@output"	)] pub output	: String,
+// #[derive(Debug,Deserialize)] pub struct TerminatorsWhen {
+  // #[serde(rename="@state" 	)] pub state 	: String,
+  // #[serde(rename="@output"	)] pub output	: String,
+// }
+
+#[derive(Debug,Deserialize)] #[serde(untagged)] pub enum When {
+  Next                      	{        	//<when state="Math" next="math/"/>
+    #[serde(rename="@state" 	)] state 	: String,
+    #[serde(rename="@next"  	)] next  	: String, },
+  Output                    	{        	//<when state="none" output="/"/>
+    #[serde(rename="@state" 	)] state 	: String,
+    #[serde(rename="@output"	)] output	: String, },
 }
