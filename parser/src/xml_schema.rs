@@ -1,6 +1,6 @@
 // generated with the help of github.com/Thomblin/xml_schema_generator
 use serde::{Deserialize,Serialize};
-#[derive(Debug,Serialize,Deserialize)] pub struct Keyboard {
+#[derive(Debug,Serialize,Deserialize)] pub struct Keyboard { //L0 <keyboard group="126" id="-7151" name="TypES" maxout="3">
   #[serde(rename="@group"     	)] pub group       	: u16,
   #[serde(rename="@id"        	)] pub id          	: i32,
   #[serde(rename="@name"      	)] pub name        	: String,
@@ -12,11 +12,11 @@ use serde::{Deserialize,Serialize};
   pub                         	       actions     	: Actions,
   pub                         	       terminators 	: Terminators,
 }
-#[derive(Debug,Serialize,Deserialize)] pub struct Layouts {
+#[derive(Debug,Serialize,Deserialize)] pub struct Layouts { //L1
   #[serde(rename="$text"	)] pub text  	: Option<String>,
   pub                   	       layout	: Vec<Layout>,
 }
-#[derive(Debug,Serialize,Deserialize)] pub struct Layout {
+#[derive(Debug,Serialize,Deserialize)] pub struct Layout { //L2 <layout first="0" last="17" mapSet="16c" modifiers="f4"/>
   #[serde(rename="@first"    	)] pub first    	: u16,
   #[serde(rename="@last"     	)] pub last     	: u16,
   #[serde(rename="@mapSet"   	)] pub map_set  	: String,
