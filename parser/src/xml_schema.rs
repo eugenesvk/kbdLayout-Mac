@@ -62,19 +62,10 @@ use serde::{Deserialize,Serialize};
   #[serde(rename="$text"	)] pub text	: Option<String>,
   pub                   	       when	: Vec<When>,
 }
-// #[derive(Debug,Deserialize)] pub struct ActionWhen {
-//   #[serde(rename="@state" 	)] pub state 	: String,
-//   #[serde(rename="@next"  	)] pub next  	: Option<String>,
-//   #[serde(rename="@output"	)] pub output	: Option<String>,
-// }
 #[derive(Debug,Deserialize)] pub struct Terminators { // <terminators><when state="Brackets" output="("/>
   #[serde(rename="$text"	)] pub text	: Option<String>,
   pub                   	       when	: Vec<When>,
 }
-// #[derive(Debug,Deserialize)] pub struct TerminatorsWhen {
-  // #[serde(rename="@state" 	)] pub state 	: String,
-  // #[serde(rename="@output"	)] pub output	: String,
-// }
 
 #[derive(Debug,Deserialize)] #[serde(untagged)] pub enum When {
   Next                      	{        	//<when state="Math" next="math/"/>
@@ -84,3 +75,12 @@ use serde::{Deserialize,Serialize};
     #[serde(rename="@state" 	)] state 	: String,
     #[serde(rename="@output"	)] output	: String, },
 }
+// #[derive(Debug,Deserialize)] pub struct ActionWhen {
+//   #[serde(rename="@state" 	)] pub state 	: String,
+//   #[serde(rename="@next"  	)] pub next  	: Option<String>,
+//   #[serde(rename="@output"	)] pub output	: Option<String>,
+// }
+// #[derive(Debug,Deserialize)] pub struct TerminatorsWhen {
+  // #[serde(rename="@state" 	)] pub state 	: String,
+  // #[serde(rename="@output"	)] pub output	: String,
+// }
