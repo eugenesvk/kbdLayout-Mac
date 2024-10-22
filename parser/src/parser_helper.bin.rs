@@ -8,9 +8,6 @@ pub use helper::helper	::*;
 _mod!(binmod); //→ #[path="binmod/[binmod].rs"] pub mod binmod;
 use crate::binmod::print42;
 
-type Result<T> = result::Result<T, Box<dyn Error>>;
-fn main() -> Result<()> {
-  print42()?;
 use anyhow::{Result,Context,bail};
 use std::path::{Path, PathBuf}; // Path is a slice, PathBuf is like String owned, mutable
 use std::str    	::FromStr;
