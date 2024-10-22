@@ -1,15 +1,16 @@
 // generated with the help of github.com/Thomblin/xml_schema_generator
-pub fn is_printable(c:&u32) -> bool { // 0x20–7E = 95 printable chars (letters, digits, punctuation marks, a few symbols)
-  if codepoint >= 0x20	&&   	// control chars < 0x20, see unicode.org/Public/16.0.0/ucd/UnicodeData.txt
-     codepoint <= 0x7e	{true	// control chars 7f–9f
-  } else              	{false}
+
+pub fn is_printable(cp:u32) -> bool { // 0x20–7E = 95 printable chars (letters, digits, punctuation marks, a few symbols)
+  if cp >= 0x20	&&   	// control chars < 0x20, see unicode.org/Public/16.0.0/ucd/UnicodeData.txt
+     cp <= 0x7e	{true	// control chars 7f–9f
+  } else       	{false}
 }
 pub fn esc(s: &str) -> String {
   let mut out = String::with_capacity(s.len());
   for c in s.chars() {
     let codepoint = c as u32;
-    if is_printable(&codepoint)	{out.push(   c);
-    } else                     	{out.reserve(7);out.push_str("&#x");out.push_str(&format!("{:04X}",codepoint));out.push(';');}
+    if is_printable(codepoint)	{out.push(   c);
+    } else                    	{out.reserve(7);out.push_str("&#x");out.push_str(&format!("{:04X}",codepoint));out.push(';');}
   }
   out
 }
