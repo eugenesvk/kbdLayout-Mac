@@ -66,6 +66,11 @@ use std::collections::{HashMap,HashSet,BTreeMap};
 use std::env;
 use std::fs::File;
 use std::io::{BufRead,BufReader,Read,BufWriter};
+
+use quick_xml::de::from_str;
+use serde::Deserialize;
+pub mod xml_schema;
+use xml_schema::*;
   Ok(())
 }
 
