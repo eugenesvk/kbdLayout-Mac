@@ -8,13 +8,14 @@ pub use helper::helper	::*;
 _mod!(binmod); //→ #[path="binmod/[binmod].rs"] pub mod binmod;
 use crate::binmod::print42;
 
-use std::error::Error;
-use std::result;
-
 type Result<T> = result::Result<T, Box<dyn Error>>;
 fn main() -> Result<()> {
   print42()?;
+use anyhow::{Result,Context,bail};
+use std::path::{Path, PathBuf}; // Path is a slice, PathBuf is like String owned, mutable
 use std::str    	::FromStr;
+
+use bpaf        	::{construct, long, Parser};
 use bpaf        	::{*, long as l, short as s, positional as pos}; // short names to allow starting builders
 use bpaf::params	::{NamedArg, ParseArgument, ParsePositional};
 pub trait BpafAlias { // add wrapper trait to allow using shorter .l options to continue builders
@@ -63,6 +64,11 @@ fn opts() -> OptionParser<OutCliArg> {
   let parser_opt  	= parser.to_options().version(env!("CARGO_PKG_VERSION")).max_width(160).descr("Process a keyboard layout, save output"); // option parser with metainformation attached
   parser_opt
 }
+
+use std::collections::{HashMap,HashSet,BTreeMap};
+use std::env;
+use std::fs::File;
+use std::io::{BufRead,BufReader,Read,BufWriter};
   Ok(())
 }
 
