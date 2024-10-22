@@ -32,6 +32,9 @@ pub trait BpafAliasPos { // ... for positional arguments
 impl<T>   BpafAliasPos for ParsePositional<T> {
   fn h  <M>(self, help :M           ) -> Self             where M:Into<Doc>         {self.help    (help )}
 }
+
+const FILE_IN : [&str;2] = ["../TypES Layout.bundle/Contents/Resources/English — TypES.keylayout","../TypES Layout.bundle/Contents/Resources/Russian — TypES.keylayout",];
+const FILE_OUT: [&str;2] = ["../helper/SymbolsAll-En_Names.md","../helper/SymbolsAll-Ru_Names.md",];
   Ok(())
 }
 
