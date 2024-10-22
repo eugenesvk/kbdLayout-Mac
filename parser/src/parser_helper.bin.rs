@@ -71,6 +71,25 @@ use quick_xml::de::from_str;
 use serde::Deserialize;
 pub mod xml_schema;
 use xml_schema::*;
+
+fn main() -> anyhow::Result<()> { // Result<(), quick_xml::DeError>
+  let parser_opt:OptionParser<OutCliArg> = opts();
+  let opts = parser_opt.run(); // let _ = pt(&opts);
+  let mut klt: Vec<PathBuf> = vec![];
+  let mut doc: Vec<PathBuf> = vec![];
+  let len_i = opts.file_in .len();
+  let len_o = opts.file_out.len();
+  if        len_i == 0 {klt.push(FILE_IN [0].into()); klt.push(FILE_IN [1].into());
+  } else if len_i == 1 {klt = opts.file_in.clone() ;  klt.push(FILE_IN [1].into());
+  } else               {klt = opts.file_in.clone() ;};
+  if        len_o == 0 {doc.push(FILE_OUT[0].into()); doc.push(FILE_OUT[1].into());
+  } else if len_o == 1 {doc = opts.file_out.clone();  doc.push(FILE_OUT[1].into());
+  } else               {doc = opts.file_out.clone();};
+  if   len_i >  2
+    || len_o >  2 {
+    if len_i != len_o { q!("Input {} ≠ {} Output. The # of in/out files must match if > 2 !",len_i,len_o);}
+  };
+  for (i,x) in klt.iter().enumerate() {let _ = save_all(&x, &doc[i], &opts)?;}
   Ok(())
 }
 
