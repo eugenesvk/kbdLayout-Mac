@@ -44,6 +44,10 @@ use heck::*;
 
 fn save_all<K,D>(klt_as:K, doc_as:D, opts:&OutCliArg) -> anyhow::Result<()>
   where K:AsRef<Path> + std::fmt::Debug, D:AsRef<Path> + std::fmt::Debug {
+  /*! Converts a .keylayout into a SymbolsAll-En_Names.md with a table of all unique symbols in that layout:
+    | ␁ | `u+0001` | `&#1;` | Start Of Heading |
+   */
+
   let doc:&Path = doc_as.as_ref();
   let klt:&Path = klt_as.as_ref();
   let dbg = opts.verbose;
