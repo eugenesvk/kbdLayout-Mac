@@ -84,7 +84,7 @@ Open the [SymbolsAll-En](./helper/SymbolsAll-En.md) or [SymbolsAll-Ru](./helper/
   - `Ru`[🕱 Math](./helper/SymbolsAll-Ru.md#math)
   - `Ru`[🕱 Greek](./helper/SymbolsAll-Ru.md#greek)
 
-While the tables listed above have no __symbol names__, the [SymbolsAll_Names](./helper/SymbolsAll_Names.md) file does list all the symbols with their Unicode numbers and names (but without key combos)
+While the tables listed above have no __symbol names__, the [SymbolsAll-En_Names](./helper/SymbolsAll-En_Names) [SymbolsAll-Ru_Names](./helper/SymbolsAll-Ru_Names) files do list all the symbols with their Unicode numbers and names (but without key combos)
 
 ### How to insert diacritics
 
