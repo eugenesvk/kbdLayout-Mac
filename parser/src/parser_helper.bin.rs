@@ -35,6 +35,34 @@ impl<T>   BpafAliasPos for ParsePositional<T> {
 
 const FILE_IN : [&str;2] = ["../TypES Layout.bundle/Contents/Resources/English — TypES.keylayout","../TypES Layout.bundle/Contents/Resources/Russian — TypES.keylayout",];
 const FILE_OUT: [&str;2] = ["../helper/SymbolsAll-En_Names.md","../helper/SymbolsAll-Ru_Names.md",];
+
+#[allow(dead_code)] #[derive(Debug, Clone)]
+struct OutCliArg {
+  ///         	Output verbosity level
+  verbose     	: usize,
+  ///         	Path of the .keylayout file to parse
+  file_in     	: Vec<PathBuf>,
+  file_out    	: Vec<PathBuf>,
+  ///         	Overwrite output file even if it exists
+  is_overwrite	: bool,
+}
+
+fn opts() -> OptionParser<OutCliArg> {
+  use std::cmp::{min,max};
+  let mut d=Doc::default();d.text("Increase the verbosity (max·3) as ");d.literal("-vvv");d.text(" or ");d.literal("-v -v -v");let verbose_h = d;
+  let mut d=Doc::default();d.emphasis("← ");d.text("Input  file path(s), 1st");d.emphasis("≝");d.text(FILE_IN [0]);d.text(", 2nd");d.emphasis("≝");d.text(FILE_IN [1]);let file_in_h = d;
+  let mut d=Doc::default();d.emphasis("→ ");d.text("Output file path(s), 1st");d.emphasis("≝");d.text(FILE_OUT[0]);d.text(", 2nd");d.emphasis("≝");d.text(FILE_OUT[1]);let file_out_h = d;
+  let verbose     	= s('v'	).l("verbose"  	).h(verbose_h             	).req_flag(())
+    .many()       	       	               	                          	.map(|xs| min(xs.len(),3));
+  let file_in     	= s('i'	).l("input"    	).h(file_in_h             	).argument::<PathBuf>("PATH")
+    .many()       	       	               	                          	  .complete_shell(ShellComp::File{mask:Some("*.keylayout"),});
+  let file_out    	= s('o'	).l("output"   	).h(file_out_h            	).argument::<PathBuf>("PATH") // but it's optional when rustc can derive it
+    .many()       	       	               	                          	  .complete_shell(ShellComp::File{mask:None});
+  let is_overwrite	= s('r'	).l("overwrite"	).h("Overwrite ouput file"	).switch();
+  let parser      	= construct!(OutCliArg{verbose,file_in,file_out,is_overwrite}); // parser containing info about args
+  let parser_opt  	= parser.to_options().version(env!("CARGO_PKG_VERSION")).max_width(160).descr("Process a keyboard layout, save output"); // option parser with metainformation attached
+  parser_opt
+}
   Ok(())
 }
 
