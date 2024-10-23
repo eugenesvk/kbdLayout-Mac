@@ -166,6 +166,18 @@ fn save_raw<K,D>(klt_as:K, doc_as:D, opts:&OutCliArg) -> anyhow::Result<()>
       dead_keys.insert(state.to_string(),dk);
     }
   }
+  // p!("{:?}",dead_keys)?;
+  // let doc:KdlDocument = KdlDocument::new();
+  // p!("{}",doc)?;
+  let kmd:kModiFlag = kModiFlag::LShift;
+  let kmd2:kModiFlag = kModiFlag::LShift | kModiFlag::RShift | kModiFlag::LCtrl ;
+  let kmd3:kModiFlag = kModiFlag::RCtrl | kModiFlag::LShift;
+  let kk = key2bit.get("‹⇧").unwrap();
+  p!("r   {} ,{}, {}, {}",kmd,kk, kmd2, kmd3)?;
+  p!(": ? {:?}, {:?}, {:?}, {:?}",kmd,kk, kmd2, kmd3)?;
+  p!(":#? {:#?}, {:#?}, {:#?}, {:#?}",kmd,kk, kmd2, kmd3)?;
+  p!("kmd3.as_str {}",kmd3.as_str())?;
+  q!("q after 1st doc");
 
   Ok(())
 }
