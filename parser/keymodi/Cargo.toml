@@ -1,0 +1,28 @@
+[package]
+name       	= "keymodi"
+version    	= "0.1.0"
+description	= "Keyboard modifier keys as bitflags with helper parsers"
+authors    	= ["{{authors}}"]
+edition    	= "2021"
+license    	= "MIT"
+build      	= "build.rs"
+
+[lib]
+name	= "keymodi"
+path	= "src/keymodi.lib.rs"
+
+[build-dependencies]
+helper      	= {path="../helper"}
+keymodi_data	= {path="../keymodi_data"}
+keymodi_proc	= {path="../keymodi_proc"}
+phf         	= {version="0.11.1",default-features=false} # generate Rust source for PHF data structures at compile time
+phf_codegen 	= "0.11.1"
+indexmap    	= "2.0.0"
+
+[dependencies]
+helper      	= {path="../helper"}
+keymodi_data	= {path="../keymodi_data"}
+keymodi_proc	= {path="../keymodi_proc"}
+bitflags    	= "2.3.3"
+indexmap    	= "2.0.0"
+phf         	= {version="0.11",features=["macros"]}
