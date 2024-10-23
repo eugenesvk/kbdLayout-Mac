@@ -132,6 +132,33 @@ static Id2key:phf::Map<u8, &'static str> = phf_map! {
   123u8	=>"Left arrow",124u8=>"Right arrow",125u8=>"Down arrow",126u8=>"Up arrow",
   52u8 	=>"n/a52",54u8=>"n/a54",66u8=>"n/a66",68u8=>"n/a68",70u8=>"n/a70",77u8=>"n/a77",90u8=>"n/a90",72u8=>"n/a72",73u8=>"n/a73",74u8=>"n/a74",94u8=>"n/a94",95u8=>"n/a95",108u8=>"n/a108",112u8=>"n/a112",127u8=>"n/a127",
 };
+use kdl::KdlDocument;
+fn save_raw<K,D>(klt_as:K, doc_as:D, opts:&OutCliArg) -> anyhow::Result<()>
+  where K:AsRef<Path> + std::fmt::Debug, D:AsRef<Path> + std::fmt::Debug {
+  /*! Converts a .keylayout into a list of keys by layer in that layout in KDL format:
+    label sym="" name="labels" { //no-break→ ←space is used as a separator to allow regular spaces to be used as empty keys
+      row_1 val=r#"§ 1 2  3 4 5 6 7 8 9  0 - ="#
+    r sym="" name="nomod" {
+      row_1 val=r#"⎋ ‽   №   ¤  ‸ ‽ ⁂   ⁀ ⹀  "#*/
+
+  let doc:&Path = doc_as.as_ref();
+  let klt:&Path = klt_as.as_ref();
+  let dbg = opts.verbose;
+
+  let layout_file = File::open(klt)?;
+  let layout_s = io::read_to_string(layout_file)?;
+  let kbd_layout: Keyboard = from_str(&layout_s)?;
+
+  let mut dead_keys:HashMap<String,DeadKey> = HashMap::new(); //"math∱":DeadKey{name:"math∱",lbl:"🕱∱",output:"∱"},
+  for term in kbd_layout.terminators.when {
+    if let When::Output{state,output} = term {
+      let dk = DeadKey{name:state.clone(),lbl:"🕱".to_string()+&output,output:output};
+      dead_keys.insert(state.to_string(),dk);
+    }
+  }
+
+  Ok(())
+}
 fn save_all<K,D>(klt_as:K, doc_as:D, opts:&OutCliArg) -> anyhow::Result<()>
   where K:AsRef<Path> + std::fmt::Debug, D:AsRef<Path> + std::fmt::Debug {
   /*! Converts a .keylayout into a SymbolsAll-En_Names.md with a table of all unique symbols in that layout:
