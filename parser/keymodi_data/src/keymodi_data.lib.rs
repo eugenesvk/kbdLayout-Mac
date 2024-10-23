@@ -76,18 +76,14 @@ pub fn to_writer_strict_fancy(flags:&kModiFlag, mut writer:impl Write) -> Result
   }
   fmt::Result::Ok(())
 }
-impl fmt::Debug   for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {to_writer_with_struct("kModiFlag",self, f)} }
-impl fmt::Display for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {bitflags::parser::to_writer(      self, f)}}
+impl fmt::Display for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {to_writer_strict_fancy (self,f)}}
+impl fmt::Debug   for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {to_writer_strict_struct(self,f)} }
+// impl fmt::Display for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {bitflags::parser::to_writer(      self, f)}}
 // impl fmt::Debug   for kModiFlag	{fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {fmt::Debug  ::fmt(&self.0,f)}}
 // impl fmt::Display for kModiFlag	{fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {fmt::Display::fmt(&self.0,f)}}
 impl str::FromStr for kModiFlag   	{
   type Err = std::num::ParseIntError; // not a bitflags type anymore, so no bitflags::parser::ParseError
   fn from_str(flags:&str) -> Result<Self, Self::Err> {Ok(Self(flags.parse()?))}
 }
-// impl str::AsStr   for kModiFlag	{fn as_str(flags:&str) -> fmt::Result {Ok(Self(flags.parse()?))}}
-
-// impl str::AsStr for CategoryType {
-//   fn as_str(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
-//         bitflags::parser::to_writer(self, f)
-    // }
-// }
+//impl str::AsStr for kModiFlag	   {fn as_str(flags:&str) -> fmt::Result {Ok(Self(flags.parse()?))}}
+//impl str::AsStr for CategoryType {fn as_str(&self, f: &mut Formatter<'_>) -> std::fmt::Result {bitflags::parser::to_writer(self, f)}}
