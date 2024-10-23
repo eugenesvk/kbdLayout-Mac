@@ -6,30 +6,11 @@ pub use helper::alias 	::*;
 pub use helper::helper	::*;
 
 _mod!(binmod); //→ #[path="binmod/[binmod].rs"] pub mod binmod;
-use crate::binmod::print42;
+use crate::binmod::BpafAlias;
 
 use anyhow::{Result,Context,bail};
 use std::path::{Path, PathBuf}; // Path is a slice, PathBuf is like String owned, mutable
-use std::str    	::FromStr;
-
-use bpaf        	::{construct, long, Parser};
-use bpaf        	::{*, long as l, short as s, positional as pos}; // short names to allow starting builders
-use bpaf::params	::{NamedArg, ParseArgument, ParsePositional};
-pub trait BpafAlias { // add wrapper trait to allow using shorter .l options to continue builders
-  fn s     (self, short:char        ) -> Self                                      	;
-  fn l     (self, long :&'static str) -> Self                                      	;
-  fn h  <M>(self, help :M           ) -> Self             where M:Into<Doc>        	;
-  fn arg<T>(self, arg  :&'static str) -> ParseArgument<T> where T:FromStr + 'static	; }
-impl      BpafAlias for NamedArg {
-  fn s     (self, short:char        ) -> Self                                       {self.short   (short)}
-  fn l     (self, long :&'static str) -> Self                                       {self.long    (long )}
-  fn h  <M>(self, help :M           ) -> Self             where M:Into<Doc>         {self.help    (help )}
-  fn arg<T>(self, arg  :&'static str) -> ParseArgument<T> where T:FromStr + 'static {self.argument(arg  )} }
-pub trait BpafAliasPos { // ... for positional arguments
-  fn h  <M>(self, help :M           ) -> Self             where M:Into<Doc>	;  }
-impl<T>   BpafAliasPos for ParsePositional<T> {
-  fn h  <M>(self, help :M           ) -> Self             where M:Into<Doc>         {self.help    (help )}
-}
+use std::str	::FromStr;
 
 const FILE_IN : [&str;2] = ["../TypES Layout.bundle/Contents/Resources/English — TypES.keylayout","../TypES Layout.bundle/Contents/Resources/Russian — TypES.keylayout",];
 const FILE_OUT: [&str;2] = ["../helper/SymbolsAll-En_Names.md","../helper/SymbolsAll-Ru_Names.md",];
@@ -45,6 +26,7 @@ struct OutCliArg {
   is_overwrite	: bool,
 }
 
+use bpaf	::{*, long as l, short as s, positional as pos}; // short names to allow starting builders
 fn opts() -> OptionParser<OutCliArg> {
   use std::cmp::{min,max};
   let mut d=Doc::default();d.text("Increase the verbosity (max·3) as ");d.literal("-vvv");d.text(" or ");d.literal("-v -v -v");let verbose_h = d;
