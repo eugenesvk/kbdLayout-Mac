@@ -47,17 +47,17 @@ bitflags! { impl kModiFlag:u32 {
 Ignore unknown flags */
 use core::fmt::Write;
 use bitflags::{Bits, Flags};
-pub fn to_writer_with_struct<B:Flags>(struct_name:&str,flags:&B, mut writer:impl Write) -> Result<(),fmt::Error> {
-  let mut first = true;
-  let mut iter = flags.iter_names();
+pub fn to_writer_strict_struct<F:Flags+AsStr>(flags:&F, mut writer:impl Write) -> Result<(),fmt::Error> {
+  let mut first	= true;
+  let mut iter 	= flags.iter_names();
   for (name, x) in &mut iter { // Iterate over known flag values
-    // if !first {writer.write_str(" | ")?;}; first = false; // | is not const until const_trait_impl is stabilized
-    if !first {writer.write_str(".union(")?;};
-    writer.write_str(struct_name)?;
+    if !first {writer.write_str(" | ")?;}; first = false; // | is not const until const_trait_impl is stabilized
+    // if !first {writer.write_str(".union(")?;};
+    writer.write_str(flags.as_str())?;
     writer.write_str("::")?;
     writer.write_str(name)?;
-    if !first {writer.write_str(")")?;};
-    first = false;
+    // if !first {writer.write_str(")")?;};
+    // first = false;
   }
   fmt::Result::Ok(())
 }
