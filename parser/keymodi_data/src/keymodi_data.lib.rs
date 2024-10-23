@@ -61,6 +61,21 @@ pub fn to_writer_with_struct<B:Flags>(struct_name:&str,flags:&B, mut writer:impl
   }
   fmt::Result::Ok(())
 }
+/** Write a flag names as fancy symbols like ‹⇧ for LShift
+Ignore unknown flags */
+pub fn to_writer_strict_fancy(flags:&kModiFlag, mut writer:impl Write) -> Result<(),fmt::Error> {
+  let mut first	= true;
+  let mut iter 	= flags.iter();
+  for flag in &mut iter { // Iterate over known flag values
+    if kModiFlag::Left  .intersects(flag) {writer.write_str("‹")?;}
+    if kModiFlag::Shift .intersects(flag) {writer.write_str("⇧")?;}
+    if kModiFlag::Ctrl  .intersects(flag) {writer.write_str("⎈")?;}
+    if kModiFlag::WinCmd.intersects(flag) {writer.write_str("◆")?;}
+    if kModiFlag::Alt   .intersects(flag) {writer.write_str("⎇")?;}
+    if kModiFlag::Right .intersects(flag) {writer.write_str("›")?;}
+  }
+  fmt::Result::Ok(())
+}
 impl fmt::Debug   for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {to_writer_with_struct("kModiFlag",self, f)} }
 impl fmt::Display for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {bitflags::parser::to_writer(      self, f)}}
 // impl fmt::Debug   for kModiFlag	{fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {fmt::Debug  ::fmt(&self.0,f)}}
