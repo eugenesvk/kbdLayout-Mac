@@ -133,6 +133,12 @@ static Id2key:phf::Map<u8, &'static str> = phf_map! {
   123u8	=>"Left arrow",124u8=>"Right arrow",125u8=>"Down arrow",126u8=>"Up arrow",
   52u8 	=>"n/a52",54u8=>"n/a54",66u8=>"n/a66",68u8=>"n/a68",70u8=>"n/a70",77u8=>"n/a77",90u8=>"n/a90",72u8=>"n/a72",73u8=>"n/a73",74u8=>"n/a74",94u8=>"n/a94",95u8=>"n/a95",108u8=>"n/a108",112u8=>"n/a112",127u8=>"n/a127",
 };
+
+#[derive(Debug)] pub struct DeadKey { // <when state="math∱" output="∱"/>
+  pub name  	: String, // math∱
+  pub lbl   	: String, // 🕱∱
+  pub output	: String, // ∱
+}
 use keymodi_data	::{kModiFlag, kModiFlag as km, AsStr};
 include!(concat!("./../build","/key2bit_codegen.rs")); // imports static key2bit:phf::OrderedMap<&'static str,kModiFlag>
 
