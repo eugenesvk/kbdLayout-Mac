@@ -1,0 +1,28 @@
+[package]
+name       	= "keymodi_data"
+version    	= "0.1.0"
+description	= "data should be in a separate crate to be used in a build script"
+authors    	= ["{{authors}}"]
+edition    	= "2021"
+license    	= "MIT"
+
+
+[lib]
+name	= "keymodi_data"
+path	= "src/keymodi_data.lib.rs"
+
+
+
+
+
+
+
+
+
+[dependencies]
+helper      	= {path="../helper"}
+#           	#
+keymodi_proc	= {path="../keymodi_proc"}
+bitflags    	= "2.3.3"
+indexmap    	= "2.0.0"
+phf         	= {version="0.11",features=["macros"]}
