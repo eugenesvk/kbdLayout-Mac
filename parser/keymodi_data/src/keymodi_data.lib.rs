@@ -9,7 +9,7 @@ use bitflags::bitflags;
 
 #[repr(transparent)] #[derive(Default // use if default value = 0 (same value as calling empty() on the generated struct)
   ,Clone,Copy,PartialEq,Eq,PartialOrd,Ord,Hash // Debug manually to have `Struct::Field1 | Struct::Field2`
-  ,AsStrr // print struct name as a string ↑
+  ,AsStr // print struct name as a static str ↑
   )]
 pub struct kModiFlag(u32); // define a newtype outside of bitflags macro to support custom derives https://github.com/bitflags/bitflags/blob/main/examples/custom_derive.rs
 
