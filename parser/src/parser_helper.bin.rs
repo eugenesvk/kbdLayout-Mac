@@ -72,6 +72,7 @@ fn main() -> anyhow::Result<()> { // Result<(), quick_xml::DeError>
     if len_i != len_o { q!("Input {} ≠ {} Output. The # of in/out files must match if > 2 !",len_i,len_o);}
   };
   for (i,x) in klt.iter().enumerate() {let _ = save_all(&x, &doc[i], &opts)?;}
+  for (i,x) in klt.iter().enumerate() {let _ = save_raw(&x, &doc[i], &opts)?;}
   Ok(())
 }
 
