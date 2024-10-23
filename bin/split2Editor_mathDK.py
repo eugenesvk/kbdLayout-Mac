@@ -8,10 +8,10 @@ from collections import OrderedDict
 dbg = False
 
 # labelQ = r" → q w e r t y u i o p [ ] "
-label1   	= r" § 1 2 3 4 5 6 7 8 9 0 - = ← "
-labelQ   	= r" q w e r t y u i o p [ ] "
-labelA   	= r" a s d f g h j k l ; ' \ "
-labelZ   	= r" ` z x c v b n m , . / "
+label1   	= R" § 1 2 3 4 5 6 7 8 9 0 - = ← "
+labelQ   	= R" q w e r t y u i o p [ ] "
+labelA   	= R" a s d f g h j k l ; ' \ "
+labelZ   	= R" ` z x c v b n m , . / "
 labels   	= [label1.replace(' ','')
          	  ,labelQ.replace(' ','')
          	  ,labelA.replace(' ','')
