@@ -47,17 +47,17 @@ bitflags! { impl kModiFlag:u32 {
 Ignore unknown flags */
 use core::fmt::Write;
 use bitflags::{Bits, Flags};
-pub fn to_writer_strict_struct<F:Flags+AsStr>(flags:&F, mut writer:impl Write) -> Result<(),fmt::Error> {
+pub fn to_writer_strict_struct<F:Flags+AsStr>(flags:&F, is_pretty:bool, mut writer:impl Write) -> Result<(),fmt::Error> {
   let mut first	= true;
   let mut iter 	= flags.iter_names();
   for (name, x) in &mut iter { // Iterate over known flag values
-    if !first {writer.write_str(" | ")?;}; first = false; // | is not const until const_trait_impl is stabilized
-    // if !first {writer.write_str(".union(")?;};
+    if is_pretty	{if !first {writer.write_str(".union(")?;}; // {:#?}
+    } else      	{if !first {writer.write_str(" | "    )?;};}// | isn't const til const_trait_impl is stable
     writer.write_str(flags.as_str())?;
     writer.write_str("::")?;
     writer.write_str(name)?;
-    // if !first {writer.write_str(")")?;};
-    // first = false;
+    if is_pretty	{if !first {writer.write_str(")")?;};}
+    first = false;
   }
   fmt::Result::Ok(())
 }
@@ -77,7 +77,7 @@ pub fn to_writer_strict_fancy(flags:&kModiFlag, mut writer:impl Write) -> Result
   fmt::Result::Ok(())
 }
 impl fmt::Display for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {to_writer_strict_fancy (self,f)}}
-impl fmt::Debug   for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {to_writer_strict_struct(self,f)} }
+impl fmt::Debug   for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {to_writer_strict_struct(self,f.alternate(),f)} }
 // impl fmt::Display for kModiFlag {fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {bitflags::parser::to_writer(      self, f)}}
 // impl fmt::Debug   for kModiFlag	{fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {fmt::Debug  ::fmt(&self.0,f)}}
 // impl fmt::Display for kModiFlag	{fn fmt(&self, f:&mut fmt::Formatter) -> fmt::Result {fmt::Display::fmt(&self.0,f)}}
