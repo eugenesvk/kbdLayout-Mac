@@ -1,0 +1,10 @@
+[package]
+name       	= "keymodi_proc"
+version    	= "0.1.0"
+description	= "proc macro should be in a separate crate"
+authors    	= ["{{authors}}"]
+edition    	= "2021"
+license    	= "MIT"
+
+[lib]
+proc-macro = true
