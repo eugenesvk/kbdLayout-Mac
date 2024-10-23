@@ -22,6 +22,9 @@ All notable changes to this project will be documented in this file
    <!-- + :lock: ??? -->
    <!-- vulnerabilities -->
 
+  - __Added__
+    + ✨ Rust crate to generate all symbols by directly parsing the `.keylayout` files
+
   [1.6.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.6.0
 ## [1.6.0]
   - __Added__
