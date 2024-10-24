@@ -1,8 +1,9 @@
-extern crate helper;
-use ::helper        	::*; // gets macros :: prefix needed due to proc macro expansion
-use helper_proc     	::*; // gets proc macros
-use ::helper::alias 	::*;
-use ::helper::helper	::*;
+extern crate helperes      as h    ;
+extern crate helperes_proc as hproc;
+use ::h            	::*; // gets macros :: prefix needed due to proc macro expansion
+pub use hproc      	::*; // gets proc macros
+pub use ::h::alias 	::*;
+pub use ::h::helper	::*;
 // use crate::*;
 
 use std::error::Error;
