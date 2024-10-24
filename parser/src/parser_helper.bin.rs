@@ -14,7 +14,7 @@ use std::path::{Path, PathBuf}; // Path is a slice, PathBuf is like String owned
 use std::str	::FromStr;
 
 const FILE_IN : [&str;2] = ["../TypES Layout.bundle/Contents/Resources/English — TypES.keylayout","../TypES Layout.bundle/Contents/Resources/Russian — TypES.keylayout",];
-const FILE_OUT: [&str;2] = ["../helper/SymbolsAll-En_Names.md","../helper/SymbolsAll-Ru_Names.md",];
+const FILE_OUT: [&str;2] = ["../helper/SymbolsAll-En_Names.md"                                   ,"../helper/SymbolsAll-Ru_Names.md",];
 
 #[allow(dead_code)] #[derive(Debug, Clone)]
 struct OutCliArg {
