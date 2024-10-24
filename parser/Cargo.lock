@@ -200,15 +200,26 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
 
 [[package]]
-name = "helper"
+name = "helperes"
 version = "0.1.0"
+source = "git+https://github.com/eugenesvk/helperes.git?tag=0.1.0#99a5d662b24b48a9cb4e78ec6929f205890f2cb9"
+dependencies = [
+ "anyhow",
+ "faccess",
+ "helperes_proc 0.1.0",
+ "log",
+ "stderrlog",
+]
 
 [[package]]
-name = "helper_proc"
+name = "helperes_proc"
 version = "0.1.0"
-dependencies = [
- "helper",
-]
+source = "git+https://github.com/eugenesvk/helperes-proc.git?tag=0.1.0#cae41add2547ba22c23f5c1463183209258055f5"
+
+[[package]]
+name = "helperes_proc"
+version = "0.2.0"
+source = "git+https://github.com/eugenesvk/helperes-proc.git?tag=0.2.0#4308f571f77563643ba831f7a996e38375484f10"
 
 [[package]]
 name = "hermit-abi"
@@ -389,10 +400,10 @@ name = "keymodi"
 version = "0.1.0"
 dependencies = [
  "bitflags 2.6.0",
- "helper",
+ "helperes",
+ "helperes_proc 0.2.0",
  "indexmap",
  "keymodi_data",
- "keymodi_proc",
  "phf",
  "phf_codegen",
 ]
@@ -402,15 +413,11 @@ name = "keymodi_data"
 version = "0.1.0"
 dependencies = [
  "bitflags 2.6.0",
- "helper",
+ "helperes",
+ "helperes_proc 0.2.0",
  "indexmap",
- "keymodi_proc",
  "phf",
 ]
-
-[[package]]
-name = "keymodi_proc"
-version = "0.1.0"
 
 [[package]]
 name = "libc"
@@ -507,13 +514,12 @@ dependencies = [
  "const_format",
  "faccess",
  "heck",
- "helper",
- "helper_proc",
+ "helperes",
+ "helperes_proc 0.2.0",
  "icu_properties",
  "kdl",
  "keymodi",
  "keymodi_data",
- "keymodi_proc",
  "log",
  "phf",
  "quick-xml",
@@ -1028,8 +1034,8 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "faccess",
- "helper",
- "helper_proc",
+ "helperes",
+ "helperes_proc 0.2.0",
  "indoc",
  "log",
  "parser_helper",
