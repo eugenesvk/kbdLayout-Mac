@@ -1,11 +1,12 @@
 #![allow(non_snake_case,non_upper_case_globals,non_camel_case_types,unused_imports,unused_mut,unused_variables,dead_code,unused_assignments,unused_macros)]
 // Skips rebuilding if file exists, so need to manually update on data changes
-extern crate helper;
-extern crate keymodi_data;
-use helper        	::*; // gets macros
-use helper::alias 	::*;
-use helper::helper	::*;
-use keymodi_data  	::*;
+extern crate helperes      as h    ;
+extern crate helperes_proc as hproc;
+use ::h            	::*; // gets macros :: prefix needed due to proc macro expansion
+pub use hproc      	::*; // gets proc macros
+pub use ::h::alias 	::*;
+pub use ::h::helper	::*;
+use keymodi_data   	::*;
 
 use std      	::env;
 use std::fs  	::File;

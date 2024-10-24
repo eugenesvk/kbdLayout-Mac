@@ -1,9 +1,10 @@
 #![allow(unused_imports,unused_variables,unreachable_code,dead_code,non_upper_case_globals)]
-extern crate helper;
-use helper            	::*; // gets macros
-pub use helper_proc   	::*; // gets proc macros
-pub use helper::alias 	::*;
-pub use helper::helper	::*;
+extern crate helperes      as h    ;
+extern crate helperes_proc as hproc;
+use ::h            	::*; // gets macros :: prefix needed due to proc macro expansion
+pub use hproc      	::*; // gets proc macros
+pub use ::h::alias 	::*;
+pub use ::h::helper	::*;
 
 _mod!(binmod); //→ #[path="binmod/[binmod].rs"] pub mod binmod;
 use crate::binmod::BpafAlias;
@@ -139,6 +140,16 @@ static Id2key:phf::Map<u8, &'static str> = phf_map! {
   pub lbl   	: String, // 🕱∱
   pub output	: String, // ∱
 }
+#[derive(Debug)] pub struct Layer {
+  pub id   	: u8, // used as node name attribute
+  pub modi 	: kModiFlag, // display trait prints ‹⇧ that can be used in the 'sym' field
+  ///      	 no-break→ ←space separated string to allow regular spaces to be used as empty keys
+  pub row_1	: String, //r#"⎋ ‽  №...
+  pub row_q	: String, //r#"   ⭾  ...
+  pub row_a	: String, //r#"   ⇪ 💀...
+  pub row_z	: String, //r#"⇧ ⎈ ⎇ ...
+}
+
 use keymodi_data	::{kModiFlag, kModiFlag as km, AsStr};
 include!(concat!("./../build","/key2bit_codegen.rs")); // imports static key2bit:phf::OrderedMap<&'static str,kModiFlag>
 
