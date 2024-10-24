@@ -20,9 +20,8 @@ path	= "src/keymodi_data.lib.rs"
 
 
 [dependencies]
-helper      	= {path="../helper"}
-#           	#
-keymodi_proc	= {path="../keymodi_proc"}
-bitflags    	= "2.3.3"
-indexmap    	= "2.0.0"
-phf         	= {version="0.11",features=["macros"]}
+helperes     	= {git="https://github.com/eugenesvk/helperes.git"     , tag="0.1.0"}
+helperes_proc	= {git="https://github.com/eugenesvk/helperes-proc.git", tag="0.2.0"}
+bitflags     	= "2.3.3"
+indexmap     	= "2.0.0"
+phf          	= {version="0.11",features=["macros"]}
