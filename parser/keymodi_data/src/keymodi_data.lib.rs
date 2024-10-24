@@ -3,9 +3,9 @@
 extern crate helperes      as h    ;
 extern crate helperes_proc as hproc;
 use ::h            	::*; // gets macros :: prefix needed due to proc macro expansion
-pub use hproc      	::*; // gets proc macros
-pub use ::h::alias 	::*;
-pub use ::h::helper	::*;
+use hproc      	::*; // gets proc macros
+use ::h::alias 	::*;
+use ::h::helper	::*;
 
 use std::{fmt, str};
 use bitflags::bitflags;
