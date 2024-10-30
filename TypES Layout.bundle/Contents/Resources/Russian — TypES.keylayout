@@ -6363,6 +6363,7 @@
             <when state="Letterlike" output="ℳ"/>
             <when state="Math" next="math…"/>
             <when state="OldCyrillic" output="ѣ"/>
+            <when state="Typographical" next="math…"/>
             <when state="acute" output="ḿ"/>
             <when state="cur$re" output="₥"/>
             <when state="dot-above" output="ṁ"/>
