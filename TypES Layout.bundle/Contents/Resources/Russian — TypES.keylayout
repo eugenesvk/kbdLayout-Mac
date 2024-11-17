@@ -5807,7 +5807,7 @@
             <when state="macron+grave" output="᷆"/>
         </action>
         <action id="3←0 `⎇">
-            <when state="none" output="`"/>
+            <when state="none" output="ˋ"/>
             <when state="Diacritics" next="grave"/>
             <when state="Greek" output="`"/>
             <when state="Typographical" output="🌐"/>
