@@ -2357,6 +2357,7 @@
         </action>
         <action id="0←1 1⎇">
             <when state="none" output="¹"/>
+            <when state="Diacritics" next="acute"/>
             <when state="Greek" output="¹"/>
             <when state="Typographical" output="🔅"/>
         </action>
@@ -2420,6 +2421,7 @@
         </action>
         <action id="0←2 2⎇">
             <when state="none" output="²"/>
+            <when state="Diacritics" next="grave"/>
             <when state="Greek" output="²"/>
             <when state="Typographical" output="🔆"/>
         </action>
@@ -2478,6 +2480,7 @@
         </action>
         <action id="0←3 3⎇">
             <when state="none" output="³"/>
+            <when state="Diacritics" next="diaeresis"/>
             <when state="Greek" output="³"/>
             <when state="Typographical" output="🎛"/>
         </action>
