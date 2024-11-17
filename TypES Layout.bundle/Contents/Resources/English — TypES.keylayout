@@ -73,7 +73,7 @@
             <key code="7" action="3←2 x"/>
             <key code="8" action="3←3 c"/>
             <key code="9" action="3←4 v"/>
-            <key code="10" action="00 §"/>
+            <key code="10" action="0←0 §"/>
             <key code="11" action="3←5 b"/>
             <key code="12" action="1←1 q"/>
             <key code="13" action="1←2 w"/>
@@ -204,7 +204,7 @@
             <key code="7" action="3←2 x⇧"/>
             <key code="8" action="3←3 c⇧"/>
             <key code="9" action="3←4 v⇧"/>
-            <key code="10" action="00 §⇧"/>
+            <key code="10" action="0←0 §⇧"/>
             <key code="11" action="3←5 b⇧"/>
             <key code="12" action="1←1 q⇧"/>
             <key code="13" action="1←2 w⇧"/>
@@ -466,7 +466,7 @@
             <key code="7" action="3←2 x⎇"/>
             <key code="8" action="3←3 c⎇"/>
             <key code="9" action="3←4 v⎇"/>
-            <key code="10" action="00 §⎇"/>
+            <key code="10" action="0←0 §⎇"/>
             <key code="11" action="3←5 b⎇"/>
             <key code="12" action="1←1 q⎇"/>
             <key code="13" action="1←2 w⎇"/>
@@ -859,7 +859,7 @@
             <key code="7" action="3←2 x"/>
             <key code="8" action="3←3 c"/>
             <key code="9" action="3←4 v"/>
-            <key code="10" action="00 §"/>
+            <key code="10" action="0←0 §"/>
             <key code="11" action="3←5 b"/>
             <key code="12" action="1←1 q"/>
             <key code="13" action="1←2 w"/>
@@ -1254,7 +1254,7 @@
             <key code="7" output="&#x0018;"/>
             <key code="8" output="&#x0003;"/>
             <key code="9" output="&#x0016;"/>
-            <key code="10" action="00 §^"/>
+            <key code="10" action="0←0 §^"/>
             <key code="11" output="&#x0002;"/>
             <key code="12" output="&#x0011;"/>
             <key code="13" output="&#x0017;"/>
@@ -1909,7 +1909,7 @@
             <key code="7" action="3←2 x⇧"/>
             <key code="8" action="3←3 c⇧"/>
             <key code="9" action="3←4 v⇧"/>
-            <key code="10" action="00 §⇧"/>
+            <key code="10" action="0←0 §⇧"/>
             <key code="11" action="3←5 b⇧"/>
             <key code="12" action="1←1 q⇧"/>
             <key code="13" action="1←2 w⇧"/>
@@ -2135,7 +2135,7 @@
         <action id=" ">
             <when state="none" next="space"/>
         </action>
-        <action id="00 §">
+        <action id="0←0 §">
             <when state="none" output="`"/>
             <when state="Diacritics" output="̀"/>
             <when state="Greek" output="§"/>
@@ -2155,18 +2155,18 @@
             <when state="math⧤" output="⧤"/>
             <when state="math⩳" next="math⋍"/>
         </action>
-        <action id="00 §^">
+        <action id="0←0 §^">
             <when state="none" next="grave"/>
             <when state="grave" output="̀"/>
         </action>
-        <action id="00 §⇧">
+        <action id="0←0 §⇧">
             <when state="none" output="~"/>
             <when state="Greek" output="±"/>
             <!-- <when state="breve" output="Ӗ"/> -->
             <!-- <when state="diaeresis" output="Ё"/> -->
             <!-- <when state="grave" output="Ѐ"/> -->
         </action>
-        <action id="00 §⎇">
+        <action id="0←0 §⎇">
             <when state="none" output="ˋ"/>
             <when state="Diacritics" next="grave"/>
             <when state="Typographical" output="ˋ"/>
