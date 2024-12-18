@@ -24,6 +24,8 @@ All notable changes to this project will be documented in this file
 
 
   - __Added__
+    + `en` combining `̲ ̳ ` to <kbd>🕱</kbd>`Diacritics` mapped to <kbd>m</kbd>, <kbd>⇧</kbd>/<kbd>⎇</kbd><kbd>m</kbd>
+    + `ru` combining `̲ ̳ ` to <kbd>🕱</kbd>`Diacritics` mapped to <kbd>ь</kbd>, <kbd>⇧</kbd>/<kbd>⎇</kbd><kbd>ь</kbd>
     + `en` superscript `¹²³` to <kbd>🕱</kbd>`num⁵sup` and kbd>🕱</kbd>`num₅sub` mapped to <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> and <kbd>u</kbd><kbd>i</kbd><kbd>o</kbd> (with <kbd>⇧</kbd> in the opposite layer)
     + `ru` superscript `¹²³` to <kbd>🕱</kbd>`num⁵sup` and kbd>🕱</kbd>`num₅sub` mapped to <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> and <kbd>г</kbd><kbd>ш</kbd><kbd>щ</kbd> (with <kbd>⇧</kbd> in the opposite layer)
   - __Changed__
