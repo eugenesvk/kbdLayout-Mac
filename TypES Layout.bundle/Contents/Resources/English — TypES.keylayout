@@ -6186,6 +6186,7 @@
             <when state="none" output="m"/>
             <when state="Brackets" next="Brackets-「"/>
             <when state="Brackets-「" output="」"/>
+            <when state="Diacritics" output="̲"/>
             <when state="Greek" output="μ"/>
             <when state="Letterlike" output="ℳ"/>
             <when state="Math" next="math…"/>
@@ -6242,6 +6243,7 @@
         </action>
         <action id="3→2 m⇧">
             <when state="none" output="M"/>
+            <when state="Diacritics" output="̳"/>
             <when state="Greek" output="Μ"/>
             <when state="OldCyrillic" output="Ѣ"/>
             <when state="acute" output="Ḿ"/>
@@ -6281,6 +6283,7 @@
             <when state="none" output="−"/>
             <when state="Brackets" next="Brackets-「"/>
             <when state="Brackets-「" output="」"/>
+            <when state="Diacritics" output="̳"/>
             <when state="Greek" output="’"/>
             <when state="Math" next="math_a-z_mono"/>
             <when state="Typographical" output="🖰"/>
