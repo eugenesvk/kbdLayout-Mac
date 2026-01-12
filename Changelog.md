@@ -30,6 +30,7 @@ All notable changes to this project will be documented in this file
     + `ru` superscript `¹²³` to <kbd>🕱</kbd>`num⁵sup` and kbd>🕱</kbd>`num₅sub` mapped to <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> and <kbd>г</kbd><kbd>ш</kbd><kbd>щ</kbd> (with <kbd>⇧</kbd> in the opposite layer)
   - __Changed__
     + `en` `ru` `↊↋` behind <kbd>⎇</kbd> to fit superscript `¹²³` in <kbd>🕱</kbd>`num⁵sup` and kbd>🕱</kbd>`num₅sub`
+    + `en` `ru` <kbd>🕱</kbd>'Copyright' symbols: duplicate without <kbd>⎇</kbd>
 
   [1.6.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.6.0
 ## [1.6.0]
