@@ -3564,6 +3564,7 @@
             <when state="none" output="◊"/>
             <when state="Brackets" next="Brackets-‹"/>
             <when state="Brackets-‹" output="›"/>
+            <when state="Copyright" output="®"/>
             <when state="Diacritics" next="ring"/>
             <when state="Greek" output="®"/>
             <when state="Letterlike" output="℞"/>
@@ -3670,6 +3671,7 @@
             <when state="none" next="Math"/>
             <when state="Brackets" next="Brackets-«"/>
             <when state="Brackets-«" output="»"/>
+            <when state="Copyright" output="™"/>
             <when state="Greek" output="™"/>
             <when state="math=" next="math⩳"/>
             <when state="math⋍" next="math="/>
@@ -4389,6 +4391,7 @@
         <action id="1→5 p⎇">
             <when state="none" output="′"/>
             <when state="Brackets" output="␌"/>
+            <when state="Copyright" output="℗"/>
             <when state="Greek" output="≈"/>
             <when state="Letterlike" output="℗"/>
             <when state="OldCyrillic" output="ꙃ"/>
@@ -4708,6 +4711,7 @@
         </action>
         <action id="2←2 s⎇">
             <when state="none" output="§"/>
+            <when state="Copyright" output="℠"/>
             <when state="Greek" output="ß"/>
             <when state="Letterlike" output="⅏"/>
             <when state="Math" next="math_a-z_script"/>
@@ -5615,6 +5619,7 @@
             <when state="none" output="”"/>
             <when state="Brackets" next="Brackets-apostrophe"/>
             <when state="Brackets-apostrophe" output="&#x0027;"/>
+            <when state="Copyright" output="🄯"/>
             <when state="Greek" output="¬"/>
             <when state="Letterlike" output="℔"/>
             <when state="Math" next="math∅≷"/>
@@ -6091,6 +6096,7 @@
         </action>
         <action id="3←3 c⎇">
             <when state="none" next="Copyright"/>
+            <when state="Copyright" output="©"/>
             <when state="Greek" output="ç"/>
             <when state="Letterlike" output="℃"/>
             <when state="Typographical" output="⌘"/>
@@ -6888,6 +6894,7 @@
             <when state="none" next="OldCyrillic"/>
             <when state="Brackets" next="Brackets-〔"/>
             <when state="Brackets-〔" output="〕"/>
+            <when state="Copyright" output="(ɔ)"/>
             <when state="Diacritics" next="macron"/>
             <when state="Greek" output="œ"/>
             <when state="Letterlike" output="℥"/>
