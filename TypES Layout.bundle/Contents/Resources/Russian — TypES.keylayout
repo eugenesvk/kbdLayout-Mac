@@ -3324,6 +3324,7 @@
         <action id="1←3 e">
             <when state="none" output="у"/>
             <when state="Brackets" next="Brackets-«"/>
+            <when state="Brackets-«" output="»"/>
             <when state="Brackets-×" output="»"/>
             <when state="Greek" output="ε"/>
             <when state="Letterlike" next="Letterlike_Escr"/>
@@ -3453,6 +3454,7 @@
         <action id="1←3 e⎇">
             <when state="none" output="€"/>
             <when state="Brackets" next="Brackets-«"/>
+            <when state="Brackets-«" output="»"/>
             <when state="Brackets-×" output="»"/>
             <when state="Greek" output="€"/>
             <when state="Letterlike" output="ℰ"/>
@@ -4415,6 +4417,7 @@
         </action>
         <action id="1→6 [">
             <when state="none" output="х"/>
+            <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="["/>
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" output="⌊"/>
@@ -4426,6 +4429,7 @@
         </action>
         <action id="1→6 [⇧">
             <when state="none" output="Х"/>
+            <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="{"/>
             <when state="Math" output="⌈"/>
         </action>
@@ -4474,6 +4478,7 @@
             <when state="none" output="ф"/>
             <when state="Brackets" next="Brackets-‹"/>
             <when state="Brackets-×" output="›"/>
+            <when state="Brackets-‹" output="›"/>
             <when state="Greek" output="α"/>
             <when state="Letterlike" output="Å"/>
             <when state="Letterlike_Cdbl" output="ℂ"/>
@@ -4606,6 +4611,7 @@
             <when state="none" output="≈"/>
             <when state="Brackets" next="Brackets-‹"/>
             <when state="Brackets-×" output="›"/>
+            <when state="Brackets-‹" output="›"/>
             <when state="Greek" output="…"/>
             <when state="Letterlike" output="⅋"/>
             <when state="Math" output="≅"/>
@@ -4624,6 +4630,7 @@
         <action id="2←2 s">
             <when state="none" output="ы"/>
             <when state="Brackets" next="Brackets-{"/>
+            <when state="Brackets-{" output="}"/>
             <when state="Brackets-×" output="}"/>
             <when state="Copyright" output="℠"/>
             <when state="Greek" output="σ"/>
@@ -4729,6 +4736,7 @@
         <action id="2←2 s⎇">
             <when state="none" output="§"/>
             <when state="Brackets" next="Brackets-{"/>
+            <when state="Brackets-{" output="}"/>
             <when state="Brackets-×" output="}"/>
             <when state="Copyright" output="℠"/>
             <when state="Greek" output="ß"/>
@@ -4891,7 +4899,15 @@
             <when state="none" output="а"/>
             <when state="Brackets" next="Brackets-["/>
             <when state="Brackets-[" output="]"/>
+            <when state="Brackets-{" output="}"/>
+            <when state="Brackets-«" output="»"/>
             <when state="Brackets-×" output="]"/>
+            <when state="Brackets-‹" output="›"/>
+            <when state="Brackets-〈" output="〉"/>
+            <when state="Brackets-⟪" output="⟫"/>
+            <when state="Brackets-⸨" output="⸩"/>
+            <when state="Brackets-「" output="」"/>
+            <when state="Brackets-【" output="】"/>
             <when state="Greek" output="φ"/>
             <when state="Letterlike" next="Letterlike_Fsm"/>
             <when state="Letterlike_Cdbl" output="℄"/>
@@ -4973,6 +4989,7 @@
         </action>
         <action id="2←4 f⇧">
             <when state="none" output="А"/>
+            <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="Φ"/>
             <when state="Letterlike" output="Ⅎ"/>
             <when state="Letterlike_Pdbl" output="ℿ"/>
@@ -5014,7 +5031,15 @@
             <when state="none" output="£"/>
             <when state="Brackets" next="Brackets-["/>
             <when state="Brackets-[" output="]"/>
+            <when state="Brackets-{" output="}"/>
+            <when state="Brackets-«" output="»"/>
             <when state="Brackets-×" output="]"/>
+            <when state="Brackets-‹" output="›"/>
+            <when state="Brackets-〈" output="〉"/>
+            <when state="Brackets-⟪" output="⟫"/>
+            <when state="Brackets-⸨" output="⸩"/>
+            <when state="Brackets-「" output="」"/>
+            <when state="Brackets-【" output="】"/>
             <when state="Greek" output="≠"/>
             <when state="Letterlike" output="℉"/>
             <when state="Math" next="math_a-z_fraktur"/>
