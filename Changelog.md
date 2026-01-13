@@ -543,10 +543,10 @@ All notable changes to this project will be documented in this file
         * <kbd>д</kbd> ∤
         * <kbd>⇧</kbd><kbd>д</kbd> ∦
     + `en` symbols to <kbd>🕱</kbd>`math∅`
-        * <kbd>\</kbd>kbd> ∖ (same in <kbd>🕱</kbd>`math∅⊂`)
+        * <kbd>\\</kbd> ∖ (same in <kbd>🕱</kbd>`math∅⊂`)
         * <kbd>m</kbd> ∖
     + `ru` symbols to <kbd>🕱</kbd>`math∅`
-        * <kbd>\</kbd>kbd> ∖ (same in <kbd>🕱</kbd>`math∅⊂`)
+        * <kbd>\\</kbd> ∖ (same in <kbd>🕱</kbd>`math∅⊂`)
         * <kbd>ь</kbd> ∖
     + `en` symbols to <kbd>🕱</kbd>`Math`
         * add to <kbd>t</kbd> cycled <kbd>🕱</kbd>`∵`/`∴`/`∎`
@@ -893,7 +893,7 @@ All notable changes to this project will be documented in this file
   [1.1.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.1.0
 ## [1.1.0]
   - __Added__
-    + ✨ `en` `ru` <kbd>🕱</kbd>`fs` and mapped it to <kbd>⌥</kbd><kbd>\</kbd>, pressing it enables replacement for various illegal filesystem symbols (also works with <kbd>⎇</kbd> being held):
+    + ✨ `en` `ru` <kbd>🕱</kbd>`fs` and mapped it to <kbd>⌥</kbd><kbd>\\</kbd>, pressing it enables replacement for various illegal filesystem symbols (also works with <kbd>⎇</kbd> being held):
         * <kbd>a</kbd> ∗
         * <kbd>s</kbd> ⸮
         * <kbd>d</kbd> ⧸
@@ -905,7 +905,7 @@ All notable changes to this project will be documented in this file
         * <kbd>l</kbd> ”
         * <kbd>;</kbd> ꞉
         * <kbd>'</kbd> ”
-        * <kbd>\</kbd> ⧵
+        * <kbd>\\</kbd> ⧵
         * <kbd>6</kbd> ˆ
         * <kbd>7</kbd> ⸮
         * <kbd>⇧</kbd><kbd>/</kbd> ⸮
@@ -957,9 +957,9 @@ All notable changes to this project will be documented in this file
         * <kbd>7</kbd>–<kbd>=</kbd> ◀◀ ▶⏸ ▶▶ 🔇 🔉 🔊
     + `en` `ru` <kbd>🕱</kbd>`Typographical`: alternative symbols for common punctuation
         * <kbd>`</kbd> ˋ
-        * <kbd>\</kbd> ⧵
-        * <kbd>⎇</kbd><kbd>\</kbd> ＼
-        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>\</kbd> ﹨
+        * <kbd>\\</kbd> ⧵
+        * <kbd>⎇</kbd><kbd>\\</kbd> ＼
+        * <kbd>⇧</kbd><kbd>⎇</kbd><kbd>\\</kbd> ﹨
         * <kbd>⎇</kbd><kbd>,</kbd> ⸴
         * <kbd>⎇</kbd><kbd>.</kbd> ．
         * <kbd>⎇</kbd><kbd>/</kbd> ⁄
@@ -974,7 +974,7 @@ All notable changes to this project will be documented in this file
     + `ru` update `🇷🇺R⇧≈🇺🇸L⇧` helper rule to include <kbd>§</kbd> (type `~`)
     + `en` `ru` <kbd>🕱</kbd>`Typographical`: move various symbols around
         * move ⏏ from <kbd>§</kbd> to <kbd>⇧</kbd><kbd>⎇</kbd><kbd>§</kbd>
-        * move ↵/↩/⏎/⌤ to from <kbd>\</kbd> to <kbd>]</kbd>
+        * move ↵/↩/⏎/⌤ to from <kbd>\\</kbd> to <kbd>]</kbd>
         * copy ⇟/⇞ to <kbd>⎇</kbd><kbd>j</kbd>/<kbd>k</kbd>
         * move  from <kbd>a</kbd> to <kbd>⎇</kbd><kbd>a</kbd>
         * move ⌧ from <kbd>c</kbd> to <kbd>b</kbd>
