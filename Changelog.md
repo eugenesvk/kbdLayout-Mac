@@ -28,37 +28,66 @@ All notable changes to this project will be documented in this file
     + `ru` combining `̲ ̳ ` to <kbd>🕱</kbd>`Diacritics` mapped to <kbd>ь</kbd>, <kbd>⇧</kbd>/<kbd>⎇</kbd><kbd>ь</kbd>
     + `en` superscript `¹²³` to <kbd>🕱</kbd>`num⁵sup` and kbd>🕱</kbd>`num₅sub` mapped to <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> and <kbd>u</kbd><kbd>i</kbd><kbd>o</kbd> (with <kbd>⇧</kbd> in the opposite layer)
     + `ru` superscript `¹²³` to <kbd>🕱</kbd>`num⁵sup` and kbd>🕱</kbd>`num₅sub` mapped to <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> and <kbd>г</kbd><kbd>ш</kbd><kbd>щ</kbd> (with <kbd>⇧</kbd> in the opposite layer)
-    + `en` <kbd>🕱</kbd>`🕱Brackets-«` mapped to <kbd>l</kbd> with symbols and nested <kbd>🕱</kbd>:
-    + `en` add <kbd>🕱</kbd>`Brackets-«` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>⇧</kbd><kbd>,</kbd>/<kbd>.</kbd> (with optional <kbd>⇧</kbd>/<kbd>⎇</kbd>):
+    + `en` add <kbd>🕱</kbd>`Brackets-⟪` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>⇧</kbd><kbd>,</kbd>/<kbd>.</kbd> (with optional <kbd>⇧</kbd>/<kbd>⎇</kbd>):
         + <kbd>f</kbd>⟫
         + <kbd>,</kbd>⟫
         + <kbd>.</kbd>⟫
         + <kbd>[</kbd>⟫
         + <kbd>␠</kbd>⟪
+    + `ru` add <kbd>🕱</kbd>`Brackets-⟪` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>⇧</kbd><kbd>б</kbd>/<kbd>ю</kbd> (with optional <kbd>⇧</kbd>/<kbd>⎇</kbd>):
+        + <kbd>а</kbd>⟫
+        + <kbd>б</kbd>⟫
+        + <kbd>ю</kbd>⟫
+        + <kbd>х</kbd>⟫
+        + <kbd>␠</kbd>⟪
     + `en` add <kbd>🕱</kbd>`Brackets-‹` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>a</kbd> (with optional <kbd>⎇</kbd>):
         + <kbd>␠</kbd>‹
         + <kbd>f</kbd>/<kbd>a</kbd>/<kbd>r</kbd>›
+    + `ru` add <kbd>🕱</kbd>`Brackets-‹` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>ф</kbd> (with optional <kbd>⎇</kbd>):
+        + <kbd>␠</kbd>‹
+        + <kbd>а</kbd>/<kbd>ф</kbd>/<kbd>к</kbd>›
     + `en` add <kbd>🕱</kbd>`Brackets-{` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>s</kbd> (with optional <kbd>⎇</kbd>):
         + <kbd>␠</kbd>{
         + <kbd>f</kbd>/<kbd>s</kbd>/<kbd>j</kbd>›
+    + `ru` add <kbd>🕱</kbd>`Brackets-{` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>ы</kbd> (with optional <kbd>⎇</kbd>):
+        + <kbd>␠</kbd>{
+        + <kbd>а</kbd>/<kbd>ы</kbd>/<kbd>о</kbd>›
     + `en` add <kbd>🕱</kbd>`Brackets-«` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>e</kbd>/<kbd>t</kbd> (with optional <kbd>⎇</kbd>):
         + <kbd>␠</kbd>«
         + <kbd>f</kbd>/<kbd>e</kbd>/<kbd>t</kbd>»
+    + `ru` add <kbd>🕱</kbd>`Brackets-«` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>у</kbd>/<kbd>t</kbd> (with optional <kbd>⎇</kbd>):
+        + <kbd>␠</kbd>«
+        + <kbd>а</kbd>/<kbd>у</kbd>/<kbd>е</kbd>»
     + `en` add <kbd>🕱</kbd>`Brackets-⟪` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>.</kbd>/<kbd>⇧</kbd><kbd>,</kbd> (with optional <kbd>⎇</kbd>):
         + <kbd>␠</kbd>⟪
         + <kbd>f</kbd>/<kbd>[</kbd>/<kbd>,</kbd>/<kbd>.</kbd>⟫
+    + `ru` add <kbd>🕱</kbd>`Brackets-⟪` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>ю</kbd>/<kbd>⇧</kbd><kbd>б</kbd> (with optional <kbd>⎇</kbd>):
+        + <kbd>␠</kbd>⟪
+        + <kbd>а</kbd>/<kbd>х</kbd>/<kbd>б</kbd>/<kbd>ю</kbd>⟫
     + `en` add <kbd>🕱</kbd>`Brackets-⸨` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>z</kbd> (with optional <kbd>⎇</kbd>):
         + <kbd>␠</kbd>⸨
         + <kbd>f</kbd>/<kbd>z</kbd>⸩
+    + `ru` add <kbd>🕱</kbd>`Brackets-⸨` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>я</kbd> (with optional <kbd>⎇</kbd>):
+        + <kbd>␠</kbd>⸨
+        + <kbd>а</kbd>/<kbd>я</kbd>⸩
     + `en` add <kbd>🕱</kbd>`Brackets-「` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>m</kbd> (with optional <kbd>⎇</kbd>):
         + <kbd>␠</kbd>「
         + <kbd>f</kbd>/<kbd>m</kbd>」
+    + `ru` add <kbd>🕱</kbd>`Brackets-「` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>ь</kbd> (with optional <kbd>⎇</kbd>):
+        + <kbd>␠</kbd>「
+        + <kbd>а</kbd>/<kbd>ь</kbd>」
     + `en` add <kbd>🕱</kbd>`Brackets-【` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>n</kbd> (with optional <kbd>⎇</kbd>):
         + <kbd>␠</kbd>【
         + <kbd>f</kbd>/<kbd>n</kbd>】
+    + `ru` add <kbd>🕱</kbd>`Brackets-【` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>т</kbd> (with optional <kbd>⎇</kbd>):
+        + <kbd>␠</kbd>【
+        + <kbd>а</kbd>/<kbd>т</kbd>】
     + `en` add <kbd>🕱</kbd>`Brackets-〈` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>,</kbd> (with optional <kbd>⎇</kbd>):
         + <kbd>␠</kbd>〈
         + <kbd>f</kbd>/<kbd>,</kbd>/<kbd>.</kbd>〉
+    + `ru` add <kbd>🕱</kbd>`Brackets-〈` in <kbd>🕱</kbd>`Brackets` mapped to (<kbd>⎇</kbd>)<kbd>б</kbd> (with optional <kbd>⎇</kbd>):
+        + <kbd>␠</kbd>〈
+        + <kbd>а</kbd>/<kbd>б</kbd>/<kbd>ю</kbd>〉
     + `en` add <kbd>🕱</kbd>`Brackets-×` closing brackets in <kbd>🕱</kbd>`Brackets` mapped to <kbd>c</kbd> (with optional <kbd>⎇</kbd>):
         + <kbd>e</kbd>»
         + <kbd>r</kbd>›
@@ -78,7 +107,27 @@ All notable changes to this project will be documented in this file
         + <kbd>n</kbd>】
         + <kbd>m</kbd>」
         + <kbd>,</kbd>〉
-        + <kbd>,</kbd>⟫
+        + <kbd>.</kbd>⟫
+    + `ru` add <kbd>🕱</kbd>`Brackets-×` closing brackets in <kbd>🕱</kbd>`Brackets` mapped to <kbd>с</kbd> (with optional <kbd>⎇</kbd>):
+        + <kbd>у</kbd>»
+        + <kbd>к</kbd>›
+        + <kbd>е</kbd>»
+        + <kbd>н</kbd>'
+        + <kbd>щ</kbd>〕
+        + <kbd>ф</kbd>›
+        + <kbd>ы</kbd>}
+        + <kbd>в</kbd>)
+        + <kbd>а</kbd>]
+        + <kbd>п</kbd>’
+        + <kbd>о</kbd>}
+        + <kbd>л</kbd>"
+        + <kbd>д</kbd>'
+        + <kbd>ж</kbd>"
+        + <kbd>я</kbd>⸩
+        + <kbd>т</kbd>】
+        + <kbd>ь</kbd>」
+        + <kbd>б</kbd>〉
+        + <kbd>ю</kbd>⟫
   - __Changed__
     + `en` `ru` `↊↋` behind <kbd>⎇</kbd> to fit superscript `¹²³` in <kbd>🕱</kbd>`num⁵sup` and kbd>🕱</kbd>`num₅sub`
     + `en` `ru` <kbd>🕱</kbd>'Copyright' symbols: duplicate without <kbd>⎇</kbd>
