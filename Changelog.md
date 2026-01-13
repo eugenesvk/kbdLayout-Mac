@@ -1,7 +1,7 @@
 # Changelog
 All notable changes to this project will be documented in this file
 
-[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/1.6.0...HEAD
+[unreleased]: https://github.com/eugenesvk/kbdLayout-Mac/compare/1.7.0...HEAD
 ## [Unreleased]
   <!-- - __Added__ -->
    <!-- + :sparkles: ??? -->
@@ -23,6 +23,8 @@ All notable changes to this project will be documented in this file
    <!-- vulnerabilities -->
 
 
+  [1.7.0]: https://github.com/eugenesvk/kbdLayout-Mac/releases/tag/1.7.0
+## [1.7.0]
   - __Added__
     + `en` combining `̲ ̳ ` to <kbd>🕱</kbd>`Diacritics` mapped to <kbd>m</kbd>, <kbd>⇧</kbd>/<kbd>⎇</kbd><kbd>m</kbd>
     + `ru` combining `̲ ̳ ` to <kbd>🕱</kbd>`Diacritics` mapped to <kbd>ь</kbd>, <kbd>⇧</kbd>/<kbd>⎇</kbd><kbd>ь</kbd>
