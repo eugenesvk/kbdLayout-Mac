@@ -12,6 +12,8 @@
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<true/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.t.english—math</string>
 		<key>TISIntendedLanguage</key>
@@ -21,6 +23,8 @@
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<true/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.t.english—types</string>
 		<key>TISIntendedLanguage</key>
@@ -30,6 +34,8 @@
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<true/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.t.russian—math</string>
 		<key>TISIntendedLanguage</key>
@@ -39,6 +45,8 @@
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<true/>
+		<key>TISIconIsTemplate</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.t.russian—types</string>
 		<key>TISIntendedLanguage</key>
