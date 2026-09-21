@@ -5619,6 +5619,7 @@
             <!-- <when state="acute" output="ĺ"/> -->
             <!-- <when state="cedilla" output="ļ"/> -->
             <when state="Typographical" next="Letterlike"/>
+            <when state="\alt" next="Dash–Line"/>
             <when state="cur$re" output="₤"/>
             <!-- <when state="dot-below" output="ḷ"/> -->
             <!-- <when state="dot-below+macron" output="ḹ"/> -->
