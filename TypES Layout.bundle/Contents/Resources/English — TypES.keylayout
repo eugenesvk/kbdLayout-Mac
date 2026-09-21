@@ -2350,6 +2350,7 @@
             <when state="Diacritics" output="̃"/>
             <when state="Letterlike" output="ℸ"/>
             <when state="Typographical" output="¤"/>
+            <when state="\alt" next="cur$re"/>
             <when state="cur$re" next="cur€re"/>
             <when state="cur¥ye" next="cur₽re"/>
             <when state="cur€re" next="cur¥ye"/>
@@ -2850,6 +2851,7 @@
             <when state="none" output="="/>
             <when state="Diacritics" output="̧"/>
             <when state="Math" next="math="/>
+            <when state="\alt" next="math≠re"/>
             <when state="cedilla" output="̧"/>
             <when state="math/" output="≠"/>
             <when state="math=" next="math≠re"/>
@@ -3446,6 +3448,7 @@
             <when state="Math" next="math∴"/>
             <when state="OldCyrillic" output="є"/>
             <when state="Typographical" output="†"/>
+            <when state="\alt" next="Math"/>
             <when state="caron" output="ť"/>
             <when state="cedilla" output="ţ"/>
             <when state="cur$re" output="₸"/>
@@ -3655,6 +3658,7 @@
             <when state="Math" next="math⋃N-Ary"/>
             <when state="OldCyrillic" output="ѵ"/>
             <when state="Typographical" output="⎀"/>
+            <when state="\alt" next="Typographical"/>
             <when state="acute" output="ú"/>
             <when state="breve" output="ŭ"/>
             <when state="caron" output="ǔ"/>
@@ -3826,6 +3830,7 @@
             <when state="Math" output="∩"/>
             <when state="OldCyrillic" output="і"/>
             <when state="Typographical" output="☞"/>
+            <when state="\alt" next="Diacritics"/>
             <when state="acute" output="í"/>
             <when state="breve" output="ĭ"/>
             <when state="caron" output="ǐ"/>
@@ -3991,6 +3996,7 @@
             <when state="Letterlike_Ratio" output="℅"/>
             <when state="Letterlike_Zdbl" output="Ω"/>
             <when state="Math" next="mathO"/>
+            <when state="\alt" next="OldCyrillic"/>
             <when state="acute" output="ó"/>
             <when state="breve" output="ŏ"/>
             <when state="caron" output="ǒ"/>
@@ -4549,6 +4555,7 @@
             <when state="math⋃N-Ary" output="∑"/>
             <when state="math⩮" output="≛"/>
             <when state="math⯹" output="≛"/>
+            <when state="num_roman" output="ⅿ"/>
             <when state="space" output="␠"/>
         </action>
         <action id="2←2 s⇧">
@@ -4605,6 +4612,7 @@
             <when state="Typographical" output="🕱"/>
             <when state="fs" output="⸮"/>
             <when state="math_a-z_greekb" next="math_a-z_greeksansb"/>
+            <when state="num_roman" output="ↀ"/>
         </action>
         <action id="2←3 d">
             <when state="none" output="d"/>
@@ -4624,6 +4632,7 @@
             <when state="Letterlike_Zdbl" output="ℤ"/>
             <when state="Math" next="math∂"/>
             <when state="Typographical" output="º"/>
+            <when state="\alt" next="Brackets"/>
             <when state="caron" output="ď"/>
             <when state="cedilla" output="ḑ"/>
             <when state="cur$re" output="$"/>
@@ -4674,6 +4683,7 @@
             <when state="math≕" output="≕"/>
             <when state="math≜" next="math="/>
             <when state="math≝" next="math≜"/>
+            <when state="math≠re" output="≝"/>
             <when state="math≤" output="≤"/>
             <when state="math≥" output="≤"/>
             <when state="math≼" output="≤"/>
@@ -4789,6 +4799,7 @@
             <when state="OldCyrillic" output="ѧ"/>
             <when state="Typographical" output="❧"/>
             <!-- <when state="breve" output="ӑ"/> -->
+            <when state="\alt" next="Brackets-×"/>
             <when state="cur$re" output="₣"/>
             <when state="dot-above" output="ḟ"/>
             <when state="fs" output="⧵"/>
@@ -4893,7 +4904,7 @@
             <when state="math_a-z_greekb" output="𝟊"/>
         </action>
         <action id="2←4 f⎇">
-            <when state="none" output="£"/>
+            <when state="none" next="Brackets-×"/>
             <when state="Brackets" next="Brackets-["/>
             <when state="Brackets-[" output="]"/>
             <when state="Brackets-{" output="}"/>
@@ -4936,6 +4947,7 @@
             <when state="Letterlike_Ll" output="℔"/>
             <when state="Letterlike_Pdbl" output="ℿ"/>
             <when state="Typographical" output="♀"/>
+            <when state="\alt" next="Greek"/>
             <when state="acute" output="ǵ"/>
             <when state="breve" output="ğ"/>
             <when state="caron" output="ǧ"/>
@@ -5048,6 +5060,7 @@
             <when state="Letterlike_Hscript" next="Letterlike_Hplanck"/>
             <when state="Letterlike_Ll" output="⅏"/>
             <when state="Typographical" output="✱"/>
+            <when state="\alt" next="cur$re"/>
             <when state="caron" output="ȟ"/>
             <when state="cedilla" output="ḩ"/>
             <when state="circumflex" output="ĥ"/>
@@ -5149,6 +5162,7 @@
             <when state="Letterlike_Ll" output="⅃"/>
             <when state="Math" output="⇓"/>
             <when state="OldCyrillic" output="ꙋ"/>
+            <when state="\alt" next="Quote-close”"/>
             <when state="breve" next="breve+hook-above"/>
             <when state="caron" output="ǰ"/>
             <when state="circumflex" output="ĵ"/>
@@ -5282,6 +5296,7 @@
             <when state="Letterlike_Fsm" output="Ⅎ"/>
             <when state="Letterlike_Iscr" output="ℐ"/>
             <when state="Math" output="⇑"/>
+            <when state="\alt" next="Quote-“open"/>
             <when state="caron" output="ǩ"/>
             <when state="cedilla" output="ķ"/>
             <when state="cur$re" output="₭"/>
@@ -5655,6 +5670,7 @@
             <when state="Letterlike" output="℈"/>
             <when state="Math" output="∈"/>
             <when state="OldCyrillic" output="ѥ"/>
+            <when state="\alt" output="\\"/>
             <when state="acute" output="́"/>
             <!-- <when state="diaeresis" output="ӭ"/> -->
             <when state="fs" output="”"/>
@@ -5692,10 +5708,11 @@
             <when state="none" next="Diacritics"/>
         </action>
         <action id="2→7 \">
-            <when state="none" output="\"/>
+            <when state="none" next="\alt"/>
             <when state="Greek" output="\"/>
             <when state="Math" output="∨"/>
             <when state="Typographical" output="⧵"/>
+            <when state="\alt" next="fs"/>
             <when state="fs" output="⧵"/>
             <when state="math/" output="∧"/>
             <when state="math=" output="⤇"/>
@@ -5958,6 +5975,7 @@
             <when state="Math" output="ℂ"/>
             <when state="OldCyrillic" output="ѱ"/>
             <when state="Typographical" output="◆"/>
+            <when state="\alt" next="Copyright"/>
             <when state="acute" output="ć"/>
             <when state="caron" output="č"/>
             <when state="cedilla" output="ç"/>
@@ -6052,6 +6070,7 @@
             <when state="Letterlike" output="℣"/>
             <when state="Math" output="⇓"/>
             <when state="Typographical" output="꣺"/>
+            <when state="\alt" next="num₅sub"/>
             <when state="caron" output="̌"/>
             <when state="cur$re" output="₻"/>
             <when state="dot-below" output="ṿ"/>
@@ -6240,6 +6259,7 @@
             <when state="Letterlike" output="ℕ"/>
             <when state="Math" output="ℕ"/>
             <when state="Typographical" output="¶"/>
+            <when state="\alt" next="num⁵sup"/>
             <when state="acute" output="ń"/>
             <when state="caron" output="ň"/>
             <when state="cedilla" output="ņ"/>
@@ -6938,6 +6958,7 @@
             <when state="Letterlike_Zohm" output="Ω"/>
             <when state="Letterlike_Zohminv" output="℧"/>
             <when state="Typographical" next="space"/>
+            <when state="\alt" output="\"/>
             <when state="acute" output="´"/>
             <when state="breve" output="˘"/>
             <when state="caron" output="ˇ"/>
@@ -7122,6 +7143,7 @@
         <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
         <when state="Typographical" output="⎀"/>
+        <when state="\alt" output="\"/>
         <when state="acute" output="´"/>
         <when state="acute+dot-above" output="◌́̇"/>
         <when state="breve" output="˘"/>
