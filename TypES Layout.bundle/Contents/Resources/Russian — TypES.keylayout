@@ -6884,7 +6884,7 @@
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" next="math/"/>
             <when state="Typographical" output="⁒"/>
-            <when state="\alt" output="÷"/>
+            <when state="\alt" output="/"/>
             <when state="acute" output="́"/>
             <when state="fs" output="⁄"/>
             <when state="horn" next="horn+acute"/>
@@ -6920,6 +6920,7 @@
             <when state="none" output=","/>
             <when state="Greek" output="?"/>
             <when state="Math" output="．"/>
+            <when state="\alt" output="÷"/>
             <when state="fs" output="⸮"/>
             <when state="math∅≷" output="≯"/>
             <when state="math∅⊂" output="⊉"/>
