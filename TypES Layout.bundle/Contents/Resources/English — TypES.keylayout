@@ -6717,6 +6717,7 @@
             <when state="none" output="?"/>
             <when state="Greek" output="?"/>
             <when state="Math" output="．"/>
+            <when state="\alt" output="÷"/>
             <when state="fs" output="⸮"/>
             <when state="math∅≷" output="≯"/>
             <when state="math∅⊂" output="⊉"/>
