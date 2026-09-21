@@ -5418,6 +5418,7 @@
             <when state="Letterlike_Lturn" next="Letterlike_Lrev"/>
             <when state="Math" next="math⇐re"/>
             <when state="Typographical" next="Letterlike"/>
+            <when state="\alt" next="Dash–Line"/>
             <when state="acute" output="ĺ"/>
             <when state="cedilla" output="ļ"/>
             <when state="cur$re" output="₤"/>
