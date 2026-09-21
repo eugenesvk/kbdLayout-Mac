@@ -2078,7 +2078,7 @@
             <key code="42" output="\"/>
             <key code="43" output=","/>
             <key code="44" output="/"/>
-            <key code="45" output="n"/>
+            <key code="45" action="n"/>
             <key code="46" output="m"/>
             <key code="47" output="."/>
             <key code="48" output="&#x0009;"/>
@@ -2507,6 +2507,7 @@
             <when state="Diacritics" output="̃"/>
             <when state="Letterlike" output="ℸ"/>
             <when state="Typographical" output="¤"/>
+            <when state="\alt" next="cur$re"/>
             <when state="cur$re" next="cur€re"/>
             <when state="cur¥ye" next="cur₽re"/>
             <when state="cur€re" next="cur¥ye"/>
@@ -3023,6 +3024,7 @@
             <when state="none" output="="/>
             <when state="Diacritics" output="̧"/>
             <when state="Math" next="math="/>
+            <when state="\alt" next="math≠re"/>
             <when state="cedilla" output="̧"/>
             <when state="math/" output="≠"/>
             <when state="math=" next="math≠re"/>
@@ -3622,6 +3624,7 @@
             <when state="Math" next="math∴"/>
             <when state="OldCyrillic" output="є"/>
             <when state="Typographical" output="†"/>
+            <when state="\alt" next="Math"/>
             <when state="breve" output="ӗ"/>
             <when state="cur$re" output="₸"/>
             <when state="diaeresis" output="ё"/>
@@ -3670,6 +3673,7 @@
             <when state="num_Roman" next="num_roman"/>
             <when state="num_roman" next="num₅sub"/>
             <when state="num⁵sup" next="num_Roman"/>
+            <when state="num₅sub" next="num⁵sup"/>
             <when state="space" output=" "/>
         </action>
         <action id="1←5 t⇧">
@@ -3716,6 +3720,7 @@
             <when state="num_Roman" next="num_roman"/>
             <when state="num_roman" next="num₅sub"/>
             <when state="num⁵sup" next="num_Roman"/>
+            <when state="num₅sub" next="num⁵sup"/>
         </action>
         <action id="1→1 y">
             <when state="none" output="н"/>
@@ -3835,6 +3840,7 @@
             <when state="Math" next="math⋃N-Ary"/>
             <when state="OldCyrillic" output="ѵ"/>
             <when state="Typographical" output="⎀"/>
+            <when state="\alt" next="Typographical"/>
             <when state="acute" output="ѓ"/>
             <!-- <when state="acute" output="ú"/> -->
             <!-- <when state="breve" output="ŭ"/> -->
@@ -4016,6 +4022,7 @@
             <!-- <when state="breve" output="ĭ"/> -->
             <!-- <when state="caron" output="ǐ"/> -->
             <!-- <when state="circumflex" output="î"/> -->
+            <when state="\alt" next="Diacritics"/>
             <when state="cur$re" output="₨"/>
             <when state="diaeresis" output="ӛ"/>
             <when state="diaeresis-greek" output="ϊ"/>
@@ -4183,6 +4190,7 @@
             <!-- <when state="circumflex" output="ô"/> -->
             <!-- <when state="circumflex+dot-below" output="ộ"/> -->
             <!-- <when state="circumflex+hook-above" output="ổ"/> -->
+            <when state="\alt" next="OldCyrillic"/>
             <when state="cur$re" output="₺"/>
             <!-- <when state="diaeresis" output="ö"/> -->
             <!-- <when state="diaeresis+macron" output="ȫ"/> -->
@@ -4818,6 +4826,7 @@
             <when state="Typographical" output="º"/>
             <!-- <when state="caron" output="ď"/> -->
             <!-- <when state="cedilla" output="ḑ"/> -->
+            <when state="\alt" next="Brackets"/>
             <when state="cur$re" output="$"/>
             <!-- <when state="dot-above" output="ḋ"/> -->
             <!-- <when state="dot-below" output="ḍ"/> -->
@@ -4981,6 +4990,7 @@
             <when state="Math" next="math⁄"/>
             <when state="OldCyrillic" output="ѧ"/>
             <when state="Typographical" output="❧"/>
+            <when state="\alt" next="Brackets-×"/>
             <when state="breve" output="ӑ"/>
             <when state="cur$re" output="₣"/>
             <when state="diaeresis" output="ӓ"/>
@@ -5133,6 +5143,7 @@
             <!-- <when state="caron" output="ǧ"/> -->
             <!-- <when state="cedilla" output="ģ"/> -->
             <!-- <when state="circumflex" output="ĝ"/> -->
+            <when state="\alt" next="Greek"/>
             <when state="cur$re" output="₰"/>
             <!-- <when state="dot-above" output="ġ"/> -->
             <when state="fs" output="¦"/>
@@ -5346,6 +5357,7 @@
             <when state="Letterlike_Ll" output="⅃"/>
             <when state="Math" output="⇓"/>
             <when state="OldCyrillic" output="ꙋ"/>
+            <when state="\alt" next="Quote-close”"/>
             <when state="breve" next="breve+hook-above"/>
             <!-- <when state="caron" output="ǰ"/> -->
             <!-- <when state="circumflex" output="ĵ"/> -->
@@ -5483,6 +5495,7 @@
             <when state="Math" output="⇑"/>
             <!-- <when state="caron" output="ǩ"/> -->
             <!-- <when state="cedilla" output="ķ"/> -->
+            <when state="\alt" next="Quote-“open"/>
             <when state="cur$re" output="₭"/>
             <!-- <when state="dot-below" output="ḳ"/> -->
             <when state="fs" output="“"/>
@@ -5851,6 +5864,7 @@
             <when state="Letterlike" output="℈"/>
             <when state="Math" output="∈"/>
             <when state="OldCyrillic" output="ѥ"/>
+            <when state="\alt" output="\\"/>
             <when state="acute" output="́"/>
             <when state="diaeresis" output="ӭ"/>
             <when state="fs" output="”"/>
@@ -5885,10 +5899,11 @@
             <when state="none" next="Diacritics"/>
         </action>
         <action id="2→7 \">
-            <when state="none" output="\"/>
+            <when state="none" next="\alt"/>
             <when state="Greek" output="\"/>
             <when state="Math" output="∨"/>
             <when state="Typographical" output="⧵"/>
+            <when state="\alt" next="fs"/>
             <when state="fs" output="⧵"/>
             <when state="math/" output="∧"/>
             <when state="math=" output="⤇"/>
@@ -6160,6 +6175,7 @@
             <!-- <when state="caron" output="č"/> -->
             <!-- <when state="cedilla" output="ç"/> -->
             <!-- <when state="circumflex" output="ĉ"/> -->
+            <when state="\alt" next="Copyright"/>
             <when state="cur$re" output="₠"/>
             <!-- <when state="dot-above" output="ċ"/> -->
             <when state="math=" output="⊜"/>
@@ -6250,6 +6266,7 @@
             <when state="Letterlike" output="℣"/>
             <when state="Math" output="⇓"/>
             <when state="Typographical" output="꣺"/>
+            <when state="\alt" next="num₅sub"/>
             <when state="caron" output="̌"/>
             <when state="cur$re" output="₻"/>
             <!-- <when state="dot-below" output="ṿ"/> -->
@@ -6285,6 +6302,7 @@
             <when state="math⊹" output="⋌"/>
             <when state="num_Roman" output="Ↄ"/>
             <when state="num_roman" output="ↄ"/>
+            <when state="num₅sub" next="num⁵sup"/>
             <when state="space" output=" "/>
             <!-- <when state="tilde" output="ṽ"/> -->
         </action>
@@ -6440,6 +6458,7 @@
             <!-- <when state="acute" output="ń"/> -->
             <!-- <when state="caron" output="ň"/> -->
             <!-- <when state="cedilla" output="ņ"/> -->
+            <when state="\alt" next="num⁵sup"/>
             <when state="cur$re" output="₦"/>
             <!-- <when state="dot-above" output="ṅ"/> -->
             <!-- <when state="dot-below" output="ṇ"/> -->
@@ -7066,6 +7085,9 @@
         <action id="m^">
             <when state="none" next="Math"/>
         </action>
+        <action id="n">
+            <when state="none" output="n"/>
+        </action>
         <action id="space">
             <when state="none" output=" "/>
             <when state="Brackets" output="("/>
@@ -7315,6 +7337,7 @@
         <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
         <when state="Typographical" output="⎀"/>
+        <when state="\alt" output="\"/>
         <when state="acute" output="´"/>
         <when state="acute+dot-above" output="◌́̇"/>
         <when state="breve" output="˘"/>
