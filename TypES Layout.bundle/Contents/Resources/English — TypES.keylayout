@@ -6148,6 +6148,7 @@
             <when state="Math" output="∵"/>
             <when state="Typographical" output="⌧"/>
             <!-- <when state="breve" output="й"/> -->
+            <when state="\alt" next="Bullet"/>
             <when state="cur$re" output="₿"/>
             <when state="dot-above" output="ḃ"/>
             <when state="dot-below" output="ḅ"/>
