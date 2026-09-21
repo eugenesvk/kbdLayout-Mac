@@ -5888,7 +5888,7 @@
             <when state="Greek" next="greek-tonos"/>
             <when state="Math" next="math⇒re"/>
             <when state="OldCyrillic" output="ꙉ"/>
-            <when state="\alt" output="‘"/>
+            <when state="\alt" output=":"/>
             <when state="breve" output="ӂ"/>
             <when state="cur$re" output="₡"/>
             <!-- <when state="diaeresis" output="̈"/> -->
