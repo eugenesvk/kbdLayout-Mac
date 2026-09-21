@@ -3270,6 +3270,8 @@
             <when state="OldCyrillic" output="ѡ"/>
             <!-- <when state="acute" output="ẃ"/> -->
             <!-- <when state="circumflex" output="ŵ"/> -->
+            <when state="Quote-close”" output="‴"/>
+            <when state="Quote-“open" output="‷"/>
             <when state="cur$re" output="₩"/>
             <!-- <when state="diaeresis" output="ẅ"/> -->
             <!-- <when state="dot-above" output="ẇ"/> -->
@@ -3359,6 +3361,8 @@
             <when state="Letterlike_Euler" next="Letterlike_Escr"/>
             <when state="Math" output="∃"/>
             <when state="OldCyrillic" output="ѣ"/>
+            <when state="Quote-close”" output="″"/>
+            <when state="Quote-“open" output="‶"/>
             <when state="Typographical" output="℮"/>
             <when state="breve" output="ў"/>
             <!-- <when state="acute" output="é"/> -->
@@ -3507,6 +3511,8 @@
             <when state="Letterlike_Rx" next="Letterlike_Rblack"/>
             <when state="Math" output="ℝ"/>
             <when state="OldCyrillic" output="ѯ"/>
+            <when state="Quote-close”" output="′"/>
+            <when state="Quote-“open" output="‵"/>
             <when state="Typographical" output="⌑"/>
             <when state="acute" output="ќ"/>
             <!-- <when state="acute" output="ŕ"/> -->
@@ -4017,6 +4023,7 @@
             <when state="Letterlike_Zdbl" output="℧"/>
             <when state="Math" output="∩"/>
             <when state="OldCyrillic" output="і"/>
+            <when state="Quote-“open" output="‟"/>
             <when state="Typographical" output="☞"/>
             <!-- <when state="acute" output="í"/> -->
             <!-- <when state="breve" output="ĭ"/> -->
@@ -4190,6 +4197,7 @@
             <!-- <when state="circumflex" output="ô"/> -->
             <!-- <when state="circumflex+dot-below" output="ộ"/> -->
             <!-- <when state="circumflex+hook-above" output="ổ"/> -->
+            <when state="Quote-“open" output="‛"/>
             <when state="\alt" next="OldCyrillic"/>
             <when state="cur$re" output="₺"/>
             <!-- <when state="diaeresis" output="ö"/> -->
@@ -4360,6 +4368,7 @@
             <when state="Letterlike_Pscript" next="Letterlike_Phono"/>
             <when state="Math" next="math⊹"/>
             <when state="OldCyrillic" output="ꙁ"/>
+            <when state="Quote-“open" output="＇"/>
             <when state="Typographical" output="‴"/>
             <!-- <when state="acute" output="ṕ"/> -->
             <when state="cur$re" output="£"/>
@@ -5357,6 +5366,8 @@
             <when state="Letterlike_Ll" output="⅃"/>
             <when state="Math" output="⇓"/>
             <when state="OldCyrillic" output="ꙋ"/>
+            <when state="Quote-close”" output="»"/>
+            <when state="Quote-“open" output="«"/>
             <when state="\alt" next="Quote-close”"/>
             <when state="breve" next="breve+hook-above"/>
             <!-- <when state="caron" output="ǰ"/> -->
@@ -5495,6 +5506,8 @@
             <when state="Math" output="⇑"/>
             <!-- <when state="caron" output="ǩ"/> -->
             <!-- <when state="cedilla" output="ķ"/> -->
+            <when state="Quote-close”" output="”"/>
+            <when state="Quote-“open" output="”"/>
             <when state="\alt" next="Quote-“open"/>
             <when state="cur$re" output="₭"/>
             <!-- <when state="dot-below" output="ḳ"/> -->
@@ -5631,6 +5644,8 @@
             <when state="Math" next="math⇐re"/>
             <!-- <when state="acute" output="ĺ"/> -->
             <!-- <when state="cedilla" output="ļ"/> -->
+            <when state="Quote-close”" output="’"/>
+            <when state="Quote-“open" output="‘"/>
             <when state="Typographical" next="Letterlike"/>
             <when state="\alt" next="Dash–Line"/>
             <when state="cur$re" output="₤"/>
@@ -5864,6 +5879,7 @@
             <when state="Letterlike" output="℈"/>
             <when state="Math" output="∈"/>
             <when state="OldCyrillic" output="ѥ"/>
+            <when state="Quote-close”" output="’"/>
             <when state="\alt" output="\\"/>
             <when state="acute" output="́"/>
             <when state="diaeresis" output="ӭ"/>
@@ -6563,6 +6579,8 @@
             <when state="Letterlike" output="ℳ"/>
             <when state="Math" next="math…"/>
             <when state="OldCyrillic" output="ѣ"/>
+            <when state="Quote-close”" output="›"/>
+            <when state="Quote-“open" output="‹"/>
             <when state="Typographical" next="math…"/>
             <when state="acute" output="ḿ"/>
             <when state="cur$re" output="₥"/>
@@ -6674,6 +6692,7 @@
             <when state="Dash–Line" output="‗"/>
             <when state="Greek" output=","/>
             <when state="Math" next="math‹"/>
+            <when state="Quote-“open" output="„"/>
             <when state="Typographical" output="⟨"/>
             <when state="cur$re" output="₾"/>
             <when state="fs" output="‹"/>
@@ -6747,6 +6766,7 @@
             <when state="Greek" output="."/>
             <when state="Math" output="〉"/>
             <when state="OldCyrillic" output="ꙗ"/>
+            <when state="Quote-“open" output="‚"/>
             <when state="Typographical" output="⟩"/>
             <when state="cur$re" output="₼"/>
             <when state="fs" output="．"/>
@@ -7336,6 +7356,8 @@
         <when state="Letterlike_Zohminv" output="℧"/>
         <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
+        <when state="Quote-close”" output="”"/>
+        <when state="Quote-“open" output="“"/>
         <when state="Typographical" output="⎀"/>
         <when state="\alt" output="\"/>
         <when state="acute" output="´"/>
