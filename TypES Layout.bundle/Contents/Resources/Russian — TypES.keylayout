@@ -2274,6 +2274,7 @@
         </action>
         <action id="0←0 §">
             <when state="none" output="ё"/>
+            <when state="Dash–Line" output="〜"/>
             <when state="Diacritics" output="̀"/>
             <when state="Greek" output="§"/>
             <when state="Math" output="¬"/>
@@ -2636,7 +2637,7 @@
         </action>
         <action id="0→1 6">
             <when state="none" output="6"/>
-            <when state="Dash–Line" output="╏"/>
+            <when state="Dash–Line" output="⸚"/>
             <when state="Diacritics" output="̂"/>
             <when state="Math" output="⇑"/>
             <when state="Typographical" output="‸"/>
@@ -2884,6 +2885,7 @@
         </action>
         <action id="0→5 0">
             <when state="none" output="0"/>
+            <when state="Dash–Line" output="╏"/>
             <when state="Diacritics" output="̌"/>
             <when state="Math" output="⊃"/>
             <when state="Typographical" output="⁀"/>
@@ -2967,7 +2969,7 @@
         <action id="0→6 -">
             <when state="none" output="-"/>
             <when state="Bullet" output="‧"/>
-            <when state="Dash–Line" output="‑"/>
+            <when state="Dash–Line" output="‐"/>
             <when state="Diacritics" output="̣"/>
             <when state="Letterlike" output="⅊"/>
             <when state="Math" next="math-"/>
@@ -3033,6 +3035,7 @@
         </action>
         <action id="0→7 =">
             <when state="none" output="="/>
+            <when state="Dash–Line" output="⹀"/>
             <when state="Diacritics" output="̧"/>
             <when state="Math" next="math="/>
             <when state="\alt" next="math≠re"/>
@@ -3749,7 +3752,11 @@
             <when state="Brackets-emacs" output="&#x0027;"/>
             <when state="Brackets-×" output="&#x0027;"/>
             <when state="Bullet" next="\alt"/>
-            <when state="Dash–Line" output="┇"/>
+            <when state="Dash–Line" output="−"/>
+            <when state="Dash–N" next="Dash–Line"/>
+            <when state="Dash—M" next="Dash–Line"/>
+            <when state="Dash⸺M·2" next="Dash—M"/>
+            <when state="Dash⸻M·3" next="Dash⸺M·2"/>
             <when state="Greek" output="υ"/>
             <when state="Letterlike" output="ℽ"/>
             <when state="Math" next="math√"/>
@@ -3845,6 +3852,7 @@
             <when state="Brackets" next="Brackets-emacs"/>
             <when state="Brackets-emacs" output="&#x0027;"/>
             <when state="Brackets-×" output="&#x0027;"/>
+            <when state="Dash–Line" output="﹣"/>
             <when state="Greek" output="¥"/>
             <when state="Letterlike" output="⅄"/>
             <when state="num_Roman" next="num⁵sup"/>
@@ -3855,6 +3863,7 @@
         <action id="1→2 u">
             <when state="none" output="г"/>
             <when state="Bullet" output="․"/>
+            <when state="Dash–Line" output="‒"/>
             <when state="Diacritics" next="dot-below"/>
             <when state="Greek" output="θ"/>
             <when state="Letterlike_Ll" output="⅂"/>
@@ -4374,6 +4383,7 @@
             <when state="Brackets" output="␌"/>
             <when state="Bullet" output="⁞"/>
             <when state="Copyright" output="℗"/>
+            <when state="Dash–Line" output="┇"/>
             <when state="Greek" output="π"/>
             <when state="Letterlike" next="Letterlike_Pdbl"/>
             <when state="Letterlike_Hdbl" output="ℎ"/>
@@ -4495,6 +4505,7 @@
         <action id="1→6 [">
             <when state="none" output="х"/>
             <when state="Brackets-⟪" output="⟫"/>
+            <when state="Dash–Line" output="┋"/>
             <when state="Greek" output="["/>
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" output="⌊"/>
@@ -5270,7 +5281,7 @@
             <when state="Brackets-“" output="”"/>
             <when state="Bullet" output="‧"/>
             <when state="Copyright" output="®"/>
-            <when state="Dash–Line" output="┋"/>
+            <when state="Dash–Line" output="‐"/>
             <when state="Diacritics" next="double-acute"/>
             <when state="Greek" output="η"/>
             <when state="Letterlike" next="Letterlike_Hdbl"/>
@@ -5361,6 +5372,7 @@
             <when state="Brackets" next="Brackets-“"/>
             <when state="Brackets-×" output="”"/>
             <when state="Brackets-“" output="”"/>
+            <when state="Dash–Line" output="﹣"/>
             <when state="Diacritics" next="double-acute"/>
             <when state="Greek" output="½"/>
             <when state="Letterlike" output="ℎ"/>
@@ -5378,7 +5390,7 @@
             <when state="Brackets-×" output="}"/>
             <when state="Bullet" output="⁑"/>
             <when state="Copyright" output="(ɔ)"/>
-            <when state="Dash–Line" output="―"/>
+            <when state="Dash–Line" output="_"/>
             <when state="Diacritics" next="hook-above"/>
             <when state="Greek" output="ξ"/>
             <when state="Letterlike" output="ⅉ"/>
@@ -5518,7 +5530,7 @@
             <when state="Brackets-×" output="&#x0022;"/>
             <when state="Bullet" output="⁂"/>
             <when state="Copyright" output="🄯"/>
-            <when state="Dash–Line" output="_"/>
+            <when state="Dash–Line" output="—"/>
             <when state="Diacritics" output="⃣"/>
             <when state="Greek" output="κ"/>
             <when state="Letterlike" output="K"/>
@@ -5652,6 +5664,10 @@
             <when state="Brackets-×" output="&#x0027;"/>
             <when state="Copyright" output="🄯"/>
             <when state="Dash–Line" output="–"/>
+            <when state="Dash–N" output="︲"/>
+            <when state="Dash—M" output="︱"/>
+            <when state="Dash⸺M·2" output="︱"/>
+            <when state="Dash⸻M·3" output="︱"/>
             <when state="Greek" output="λ"/>
             <when state="Letterlike" next="Letterlike_Ll"/>
             <when state="Letterlike_Cdbl" output="℄"/>
@@ -5807,7 +5823,7 @@
             <when state="Brackets-=str" output="&#x0022;"/>
             <when state="Brackets-×" output="&#x0022;"/>
             <when state="Bullet" output="⁝"/>
-            <when state="Dash–Line" output="‖"/>
+            <when state="Dash–Line" output="‗"/>
             <when state="Diacritics" next="diaeresis"/>
             <when state="Greek" next="greek-tonos"/>
             <when state="Math" next="math⇒re"/>
@@ -5896,6 +5912,7 @@
         <action id="2→6 apostrophe">
             <when state="none" output="э"/>
             <when state="Bullet" output="‧"/>
+            <when state="Dash–Line" output="‖"/>
             <when state="Diacritics" next="horn"/>
             <when state="Greek" output="&#x0027;"/>
             <when state="Letterlike" output="℈"/>
@@ -5938,6 +5955,7 @@
         </action>
         <action id="2→7 \">
             <when state="none" next="\alt"/>
+            <when state="Dash–Line" output="〰"/>
             <when state="Greek" output="\"/>
             <when state="Math" output="∨"/>
             <when state="Typographical" output="⧵"/>
@@ -6302,6 +6320,7 @@
         </action>
         <action id="3←4 v">
             <when state="none" output="м"/>
+            <when state="Dash–Line" output="⸗"/>
             <when state="Diacritics" next="caron"/>
             <when state="Greek" output="ω"/>
             <when state="Letterlike" output="℣"/>
@@ -6490,7 +6509,11 @@
             <when state="Brackets-【" output="】"/>
             <when state="Bullet" output="⁛"/>
             <when state="Copyright" output="™"/>
-            <when state="Dash–Line" output="–"/>
+            <when state="Dash–Line" next="Dash–N"/>
+            <when state="Dash–N" output="–"/>
+            <when state="Dash—M" output="﹘"/>
+            <when state="Dash⸺M·2" output="—"/>
+            <when state="Dash⸻M·3" output="⸺"/>
             <when state="Diacritics" next="tilde"/>
             <when state="Greek" output="ν"/>
             <when state="Letterlike" output="ℕ"/>
@@ -6598,7 +6621,10 @@
             <when state="Brackets-×" output="」"/>
             <when state="Brackets-「" output="」"/>
             <when state="Bullet" output="·"/>
-            <when state="Dash–Line" output="—"/>
+            <when state="Dash–Line" next="Dash—M"/>
+            <when state="Dash—M" next="Dash⸺M·2"/>
+            <when state="Dash⸺M·2" next="Dash⸻M·3"/>
+            <when state="Dash⸻M·3" output="⸻"/>
             <when state="Diacritics" output="̲"/>
             <when state="Greek" output="μ"/>
             <when state="Letterlike" output="ℳ"/>
@@ -6659,6 +6685,7 @@
         </action>
         <action id="3→2 m⇧">
             <when state="none" output="Ь"/>
+            <when state="Dash–Line" output="⸺"/>
             <when state="Diacritics" output="̳"/>
             <when state="Greek" output="Μ"/>
             <when state="OldCyrillic" output="Ѣ"/>
@@ -6692,6 +6719,7 @@
         </action>
         <action id="3→2 m⇧⎇">
             <when state="none" output="•"/>
+            <when state="Dash–Line" output="⸻"/>
             <when state="Greek" output="Ύ"/>
             <when state="Letterlike" output="ℳ"/>
         </action>
@@ -6700,6 +6728,7 @@
             <when state="Brackets" next="Brackets-「"/>
             <when state="Brackets-×" output="」"/>
             <when state="Brackets-「" output="」"/>
+            <when state="Dash–Line" output="﹘"/>
             <when state="Diacritics" output="̳"/>
             <when state="Greek" output="’"/>
             <when state="Math" next="math_a-z_mono"/>
@@ -6715,7 +6744,9 @@
             <when state="Brackets-〈" output="〉"/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Bullet" output="⁎"/>
-            <when state="Dash–Line" output="‗"/>
+            <when state="Dash–Line" output="―"/>
+            <when state="Dash—M" output="⸺"/>
+            <when state="Dash⸺M·2" output="⸻"/>
             <when state="Greek" output=","/>
             <when state="Math" next="math‹"/>
             <when state="Quote-“open" output="„"/>
@@ -6790,6 +6821,7 @@
             <when state="Brackets-〈" output="〉"/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Bullet" output="⁚"/>
+            <when state="Dash–Line" output="_"/>
             <when state="Greek" output="."/>
             <when state="Math" output="〉"/>
             <when state="OldCyrillic" output="ꙗ"/>
@@ -6878,6 +6910,7 @@
         </action>
         <action id="3→5 /">
             <when state="none" output="."/>
+            <when state="Dash–Line" output="‗"/>
             <when state="Diacritics" next="acute"/>
             <when state="Greek" output="/"/>
             <when state="Letterlike" next="Letterlike_Ratio"/>
@@ -7158,6 +7191,11 @@
             <when state="Brackets-「" output="「"/>
             <when state="Brackets-【" output="【"/>
             <when state="Brackets-〔" output="〔"/>
+            <when state="Dash–Line" output=" "/>
+            <when state="Dash–N" output="–"/>
+            <when state="Dash—M" output="—"/>
+            <when state="Dash⸺M·2" output="⸺"/>
+            <when state="Dash⸻M·3" output="⸻"/>
             <when state="Letterlike_Cblack" output="ℭ"/>
             <when state="Letterlike_Cdbl" output="ℂ"/>
             <when state="Letterlike_Cdg" output="℃"/>
@@ -7337,6 +7375,10 @@
         <when state="Bullet" output="•"/>
         <when state="Copyright" output="©"/>
         <when state="Dash–Line" output="–"/>
+        <when state="Dash–N" output="–"/>
+        <when state="Dash—M" output="—"/>
+        <when state="Dash⸺M·2" output="⸺"/>
+        <when state="Dash⸻M·3" output="⸻"/>
         <when state="Diacritics" output="◌"/>
         <when state="Greek" output="ε"/>
         <when state="Letterlike" output="ℒ"/>
