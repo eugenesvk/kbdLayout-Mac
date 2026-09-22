@@ -4317,7 +4317,7 @@
             <when state="Greek" output="["/>
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" output="⌊"/>
-            <when state="\alt" output="["/>
+            <when state="\alt" output="{"/>
             <when state="cur$re" output="₧"/>
             <when state="math=" output="≚"/>
             <when state="mathO" output="⊟"/>
@@ -4349,7 +4349,7 @@
             <when state="Greek" output="]"/>
             <when state="Math" output="⌋"/>
             <when state="Typographical" output="↩"/>
-            <when state="\alt" output="]"/>
+            <when state="\alt" output="}"/>
             <when state="fs" output="¦"/>
             <when state="math=" output="≙"/>
             <when state="mathO" output="⊞"/>
@@ -6667,6 +6667,7 @@
             <when state="Greek" output="&#x003E;"/>
             <when state="Math" output="≥"/>
             <when state="OldCyrillic" output="Ꙗ"/>
+            <when state="\alt" output="…"/>
             <when state="fs" output="›"/>
             <when state="mathO" output="⊡"/>
             <when state="math_" output="≥"/>
