@@ -1638,7 +1638,7 @@
         <keyMap index="12">
             <!--⇧⎇↑⌘ ⎈-->
             <key code="0" action="2←1 a⇧⎈⎇"/>
-            <key code="1" output="Í"/>
+            <key code="1" action="2←2 s⇧⎈⎇"/>
             <key code="2" output="Î"/>
             <key code="3" output="Ï"/>
             <key code="4" output="Ó"/>
@@ -4657,6 +4657,9 @@
         <action id="2←2 s⇧⎇">
             <when state="none" output="⇧"/>
             <when state="Greek" output="ρ"/>
+        </action>
+        <action id="2←2 s⇧⎈⎇">
+            <when state="none" next="\alt"/>
         </action>
         <action id="2←2 s⎇">
             <when state="none" output="§"/>
