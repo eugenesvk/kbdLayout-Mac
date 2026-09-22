@@ -2279,7 +2279,7 @@
             <when state="Greek" output="§"/>
             <when state="Math" output="¬"/>
             <when state="Typographical" output="⎋"/>
-            <when state="\alt" output="`"/>
+            <when state="\alt" output="ˋ"/>
             <when state="breve" output="ӗ"/>
             <when state="diaeresis" output="ё"/>
             <when state="grave" output="ѐ"/>
@@ -6754,7 +6754,7 @@
             <when state="Math" next="math‹"/>
             <when state="Quote-“open" output="„"/>
             <when state="Typographical" output="⟨"/>
-            <when state="\alt" output=","/>
+            <when state="\alt" output="«"/>
             <when state="cur$re" output="₾"/>
             <when state="fs" output="‹"/>
             <when state="math=" next="math⇐"/>
@@ -6785,7 +6785,6 @@
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="&#x003C;"/>
             <when state="Math" output="≤"/>
-            <when state="\alt" output="«"/>
             <when state="fs" output="‹"/>
             <when state="math_" output="≤"/>
             <when state="math∅" next="math∅≸"/>
@@ -6831,7 +6830,7 @@
             <when state="OldCyrillic" output="ꙗ"/>
             <when state="Quote-“open" output="‚"/>
             <when state="Typographical" output="⟩"/>
-            <when state="\alt" output="."/>
+            <when state="\alt" output="»"/>
             <when state="cur$re" output="₼"/>
             <when state="fs" output="．"/>
             <when state="math-" output="→"/>
