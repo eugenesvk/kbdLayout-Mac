@@ -1640,7 +1640,7 @@
         </keyMap>
         <keyMap index="12">
             <!--⇧⎇↑⌘ ⎈-->
-            <key code="0" output="d"/>
+            <key code="0" action="2←1 a⇧⎈⎇"/>
             <key code="1" output="Z"/>
             <key code="2" output="Ћ"/>
             <key code="3" output="±"/>
@@ -4722,6 +4722,9 @@
             <when state="Greek" output="ά"/>
             <when state="Math" output="≆"/>
             <when state="math=" output="≊"/>
+        </action>
+        <action id="2←1 a⇧⎈⎇">
+            <when state="none" next="Emulate-En"/>
         </action>
         <action id="2←1 a⎇">
             <when state="none" output="≈"/>
