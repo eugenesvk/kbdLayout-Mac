@@ -2279,7 +2279,7 @@
             <when state="Greek" output="§"/>
             <when state="Math" output="¬"/>
             <when state="Typographical" output="⎋"/>
-            <when state="\alt" output="ˋ"/>
+            <when state="\alt" output="`"/>
             <when state="breve" output="ӗ"/>
             <when state="diaeresis" output="ё"/>
             <when state="grave" output="ѐ"/>
@@ -2300,6 +2300,7 @@
         <action id="0←0 §⇧">
             <when state="none" output="Ё"/>
             <when state="Greek" output="±"/>
+            <when state="\alt" output="ˋ"/>
             <when state="breve" output="Ӗ"/>
             <when state="diaeresis" output="Ё"/>
             <when state="grave" output="Ѐ"/>
@@ -4521,6 +4522,7 @@
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="{"/>
             <when state="Math" output="⌈"/>
+            <when state="\alt" output="{"/>
         </action>
         <action id="1→6 [⇧⎇">
             <when state="none" output="{"/>
@@ -4537,6 +4539,7 @@
             <when state="Greek" output="}"/>
             <when state="Math" output="⌉"/>
             <when state="Typographical" output="↵"/>
+            <when state="\alt" output="}"/>
         </action>
         <action id="1→7 ]">
             <when state="none" output="ъ"/>
@@ -6751,7 +6754,7 @@
             <when state="Math" next="math‹"/>
             <when state="Quote-“open" output="„"/>
             <when state="Typographical" output="⟨"/>
-            <when state="\alt" output="«"/>
+            <when state="\alt" output=","/>
             <when state="cur$re" output="₾"/>
             <when state="fs" output="‹"/>
             <when state="math=" next="math⇐"/>
@@ -6782,6 +6785,7 @@
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="&#x003C;"/>
             <when state="Math" output="≤"/>
+            <when state="\alt" output="«"/>
             <when state="fs" output="‹"/>
             <when state="math_" output="≤"/>
             <when state="math∅" next="math∅≸"/>
@@ -6827,7 +6831,7 @@
             <when state="OldCyrillic" output="ꙗ"/>
             <when state="Quote-“open" output="‚"/>
             <when state="Typographical" output="⟩"/>
-            <when state="\alt" output="»"/>
+            <when state="\alt" output="."/>
             <when state="cur$re" output="₼"/>
             <when state="fs" output="．"/>
             <when state="math-" output="→"/>
@@ -6869,6 +6873,7 @@
             <when state="Greek" output="&#x003E;"/>
             <when state="Math" output="≥"/>
             <when state="OldCyrillic" output="Ꙗ"/>
+            <when state="\alt" output="…"/>
             <when state="fs" output="›"/>
             <when state="mathO" output="⊡"/>
             <when state="math_" output="≥"/>
