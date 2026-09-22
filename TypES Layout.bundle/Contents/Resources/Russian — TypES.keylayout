@@ -7239,6 +7239,7 @@
             <when state="Letterlike_Zdbl" output="ℤ"/>
             <when state="Letterlike_Zohm" output="Ω"/>
             <when state="Letterlike_Zohminv" output="℧"/>
+            <when state="Quote-“open" output="“"/>
             <when state="Typographical" next="space"/>
             <when state="\alt" output="\"/>
             <when state="acute" output="´"/>
