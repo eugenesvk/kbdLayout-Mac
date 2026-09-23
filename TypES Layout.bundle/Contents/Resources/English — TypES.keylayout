@@ -6101,7 +6101,7 @@
             <when state="Math" output="ℂ"/>
             <when state="OldCyrillic" output="ѱ"/>
             <when state="Typographical" next="Copyright"/>
-            <when state="\alt" next="Copyright"/>
+            <when state="\alt" next="Typographical"/>
             <when state="acute" output="ć"/>
             <when state="caron" output="č"/>
             <when state="cedilla" output="ç"/>
