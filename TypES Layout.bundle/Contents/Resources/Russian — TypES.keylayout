@@ -7265,6 +7265,7 @@
             <when state="Brackets-「" output="「"/>
             <when state="Brackets-【" output="【"/>
             <when state="Brackets-〔" output="〔"/>
+            <when state="Copyright" output="©"/>
             <when state="Dash–Line" output="–"/>
             <when state="Dash–N" output="–"/>
             <when state="Dash—M" output="—"/>
