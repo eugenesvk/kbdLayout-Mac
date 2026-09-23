@@ -2086,6 +2086,7 @@
             <key code="50" output="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
+            <key code="56" output=""/>
             <key code="64" output="&#x0010;"/>
             <key code="66" output="&#x001D;"/>
             <key code="67" output="*"/>
