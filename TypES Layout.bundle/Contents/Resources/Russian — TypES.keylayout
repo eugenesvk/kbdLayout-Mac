@@ -6310,8 +6310,8 @@
             <!-- <when state="caron" output="č"/> -->
             <!-- <when state="cedilla" output="ç"/> -->
             <!-- <when state="circumflex" output="ĉ"/> -->
-            <when state="\alt" next="Copyright"/>
             <when state="Typographical" next="Copyright"/>
+            <when state="\alt" next="Typographical"/>
             <when state="cur$re" output="₠"/>
             <!-- <when state="dot-above" output="ċ"/> -->
             <when state="math=" output="⊜"/>
