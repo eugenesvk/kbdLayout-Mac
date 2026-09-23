@@ -3387,6 +3387,7 @@
             <when state="dot-above" output="ṙ"/>
             <when state="dot-below" output="ṛ"/>
             <when state="dot-below+macron" output="ṝ"/>
+            <when state="fs" output="␍"/>
             <when state="math=" output="≗"/>
             <when state="mathO" output="∘"/>
             <when state="math_a-z_b" output="𝐫"/>
@@ -3500,6 +3501,7 @@
             <when state="cur$re" output="₸"/>
             <when state="dot-above" output="ṫ"/>
             <when state="dot-below" output="ṭ"/>
+            <when state="fs" output="␉"/>
             <when state="ligature" output="ﬆ"/>
             <when state="math=" next="math⩳"/>
             <when state="mathO" output="⋇"/>
@@ -6306,6 +6308,7 @@
             <!-- <when state="diaeresis" output="ӥ"/> -->
             <!-- <when state="grave" output="ѝ"/> -->
             <!-- <when state="macron" output="ӣ"/> -->
+            <when state="fs" output="␈"/>
             <when state="math=" output="⪮"/>
             <when state="mathO" output="∙"/>
             <when state="math_a-z_b" output="𝐛"/>
@@ -6402,6 +6405,7 @@
             <when state="cur$re" output="₦"/>
             <when state="dot-above" output="ṅ"/>
             <when state="dot-below" output="ṇ"/>
+            <when state="fs" output="␤"/>
             <when state="grave" output="ǹ"/>
             <when state="horn" next="horn+tilde"/>
             <when state="math/" output="∦"/>
