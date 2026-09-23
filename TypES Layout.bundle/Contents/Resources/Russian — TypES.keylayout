@@ -6184,7 +6184,7 @@
             <when state="cedilla" output="̧"/>
         </action>
         <action id="3←1 z⎇">
-            <when state="none" output="Ω"/>
+            <when state="none" output="≝"/>
             <when state="Brackets" next="Brackets-⸨"/>
             <when state="Brackets-×" output="⸩"/>
             <when state="Brackets-⸨" output="⸩"/>
