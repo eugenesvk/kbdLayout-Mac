@@ -99,7 +99,7 @@
             <key code="33" action="1→6 ["/>
             <key code="34" action="1→3 i"/>
             <key code="35" action="1→5 p"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" action="1→6 ⏎"/>
             <key code="37" action="2→4 l"/>
             <key code="38" action="2→2 j"/>
             <key code="39" action="2→6 apostrophe"/>
@@ -111,7 +111,7 @@
             <key code="45" action="3→1 n"/>
             <key code="46" action="3→2 m"/>
             <key code="47" action="3→4 ."/>
-            <key code="48" output="&#x0009;"/>
+            <key code="48" action="1←1 ⭾"/>
             <key code="49" action="space"/>
             <key code="50" action="3←0 `"/>
             <key code="51" action="Backspace"/>
@@ -3122,6 +3122,10 @@
             <when state="breve" output="̆"/>
             <when state="math_a-z_greekb" output="𝟋"/>
         </action>
+        <action id="1←1 ⭾">
+            <when state="none" output="&#x0009;"/>
+            <when state="\alt" output="\t"/>
+        </action>
         <action id="1←2 w">
             <when state="none" output="w"/>
             <when state="Dash–Line" output="┬"/>
@@ -4381,6 +4385,10 @@
             <when state="none" output="["/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="«"/>
+        </action>
+        <action id="1→6 ⏎">
+            <when state="none" output="&#x000D;"/>
+            <when state="\alt" output="\n"/>
         </action>
         <action id="1→7 [⇧">
             <when state="none" output="}"/>
