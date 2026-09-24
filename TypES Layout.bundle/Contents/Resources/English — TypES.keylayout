@@ -2146,6 +2146,7 @@
         <action id="1→6 ⏎⇧">
             <when state="none" output="&#x000D;"/>
             <when state="\alt" output="␤"/>
+            <when state="fs" output="␍"/>
         </action>
         <action id="1→6 ⏎⎇">
             <when state="none" output="&#x000D;"/>
@@ -3142,6 +3143,7 @@
         <action id="1←1 ⭾">
             <when state="none" output="&#x0009;"/>
             <when state="\alt" output="\t"/>
+            <when state="fs" output="␉"/>
         </action>
         <action id="1←2 w">
             <when state="none" output="w"/>
@@ -4406,6 +4408,7 @@
         <action id="1→6 ⏎">
             <when state="none" output="&#x000D;"/>
             <when state="\alt" output="\n"/>
+            <when state="fs" output="␤"/>
         </action>
         <action id="1→7 [⇧">
             <when state="none" output="}"/>
@@ -6951,6 +6954,7 @@
             <when state="cur¥ye" next="cur€re"/>
             <when state="cur€re" next="cur$re"/>
             <when state="cur₽re" next="cur¥ye"/>
+            <when state="fs" output="␈"/>
             <when state="math-" next="Math"/>
             <when state="math/" next="Math"/>
             <when state="math=" next="Math"/>
@@ -7169,6 +7173,7 @@
             <when state="diaeresis-greek" output="¨"/>
             <when state="dot-above" output="˙"/>
             <when state="double-acute" output="˝"/>
+            <when state="fs" output="\\"/>
             <when state="grave" output="`"/>
             <when state="greek-dialytika-tonos" output="΅"/>
             <when state="greek-tonos" output="΄"/>
