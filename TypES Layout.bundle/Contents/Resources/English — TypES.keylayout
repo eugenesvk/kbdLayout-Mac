@@ -2135,23 +2135,6 @@
         <action id=" ">
             <when state="none" next="space"/>
         </action>
-        <action id="1←0 ⭾⇧">
-            <when state="none" output="&#x0009;"/>
-            <when state="\alt" output="␉"/>
-        </action>
-        <action id="1←0 ⭾⎇">
-            <when state="none" output="&#x0009;"/>
-            <when state="\alt" output="␉"/>
-        </action>
-        <action id="1→6 ⏎⇧">
-            <when state="none" output="&#x000D;"/>
-            <when state="\alt" output="␤"/>
-            <when state="fs" output="␍"/>
-        </action>
-        <action id="1→6 ⏎⎇">
-            <when state="none" output="&#x000D;"/>
-            <when state="\alt" output="␍"/>
-        </action>
         <action id="0←0 §">
             <when state="none" output="`"/>
             <when state="Dash–Line" output="〜"/>
@@ -3055,6 +3038,14 @@
             <when state="num_roman" next="num₅sub"/>
             <when state="num⁵sup" next="num_Roman"/>
             <when state="num₅sub" next="num⁵sup"/>
+        </action>
+        <action id="1←0 ⭾⇧">
+            <when state="none" output="&#x0009;"/>
+            <when state="\alt" output="␉"/>
+        </action>
+        <action id="1←0 ⭾⎇">
+            <when state="none" output="&#x0009;"/>
+            <when state="\alt" output="␉"/>
         </action>
         <action id="1←1 q">
             <when state="none" output="q"/>
@@ -4409,6 +4400,15 @@
             <when state="none" output="&#x000D;"/>
             <when state="\alt" output="\n"/>
             <when state="fs" output="␤"/>
+        </action>
+        <action id="1→6 ⏎⇧">
+            <when state="none" output="&#x000D;"/>
+            <when state="\alt" output="␤"/>
+            <when state="fs" output="␍"/>
+        </action>
+        <action id="1→6 ⏎⎇">
+            <when state="none" output="&#x000D;"/>
+            <when state="\alt" output="␍"/>
         </action>
         <action id="1→7 [⇧">
             <when state="none" output="}"/>
