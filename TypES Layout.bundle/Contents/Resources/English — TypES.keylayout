@@ -230,7 +230,7 @@
             <key code="33" action="1→6 [⇧"/>
             <key code="34" action="1→3 i⇧"/>
             <key code="35" action="1→5 p⇧"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" action="1→6 ⏎⇧"/>
             <key code="37" action="2→4 l⇧"/>
             <key code="38" action="2→2 j⇧"/>
             <key code="39" action="2→6 apostrophe⇧"/>
@@ -242,7 +242,7 @@
             <key code="45" action="3→1 n⇧"/>
             <key code="46" action="3→2 m⇧"/>
             <key code="47" action="3→4 .⇧"/>
-            <key code="48" output="&#x0009;"/>
+            <key code="48" action="1←0 ⭾⇧"/>
             <key code="49" action="space"/>
             <key code="50" action="3←0 `⇧"/>
             <key code="51" action="Backspace"/>
@@ -492,7 +492,7 @@
             <key code="33" action="1→6 [⎇"/>
             <key code="34" action="1→3 i⎇"/>
             <key code="35" action="1→5 p⎇"/>
-            <key code="36" output="&#x000D;"/>
+            <key code="36" action="1→6 ⏎⎇"/>
             <key code="37" action="2→4 l⎇"/>
             <key code="38" action="2→2 j⎇"/>
             <key code="39" action="2→6 apostrophe⎇"/>
@@ -504,7 +504,7 @@
             <key code="45" action="3→1 n⎇"/>
             <key code="46" action="3→2 m⎇"/>
             <key code="47" action="3→4 .⎇"/>
-            <key code="48" output="&#x0009;"/>
+            <key code="48" action="1←0 ⭾⎇"/>
             <key code="49" action="␠⎇"/>
             <key code="50" action="` 1"/>
             <key code="51" action="0→8 ␈⎇"/>
@@ -2135,6 +2135,22 @@
         <action id=" ">
             <when state="none" next="space"/>
         </action>
+        <action id="1←0 ⭾⇧">
+            <when state="none" output="&#x0009;"/>
+            <when state="\alt" output="␉"/>
+        </action>
+        <action id="1←0 ⭾⎇">
+            <when state="none" output="&#x0009;"/>
+            <when state="\alt" output="␉"/>
+        </action>
+        <action id="1→6 ⏎⇧">
+            <when state="none" output="&#x000D;"/>
+            <when state="\alt" output="␤"/>
+        </action>
+        <action id="1→6 ⏎⎇">
+            <when state="none" output="&#x000D;"/>
+            <when state="\alt" output="␍"/>
+        </action>
         <action id="0←0 §">
             <when state="none" output="`"/>
             <when state="Dash–Line" output="〜"/>
@@ -2988,6 +3004,7 @@
         <action id="0→8 ␈⎇">
             <when state="none" output="&#x0008;"/>
             <when state="Typographical" output="⌦"/>
+            <when state="\alt" output="␈"/>
             <when state="cur$re" next="cur₽re"/>
             <when state="cur¥ye" next="cur€re"/>
             <when state="cur€re" next="cur$re"/>
@@ -5793,7 +5810,7 @@
             <when state="OldCyrillic" output="ѥ"/>
             <when state="Quote-close”" output="’"/>
             <when state="Typographical" output="❧"/>
-            <when state="\alt" output="\\"/>
+            <when state="\alt" output="\&#x0027;"/>
             <when state="acute" output="́"/>
             <!-- <when state="diaeresis" output="ӭ"/> -->
             <when state="fs" output="”"/>
@@ -5810,6 +5827,7 @@
             <when state="Math" output="∋"/>
             <when state="OldCyrillic" output="Ѥ"/>
             <!-- <when state="diaeresis" output="Ӭ"/> -->
+            <when state="\alt" output="\&#x0022;"/>
             <when state="math/" output="∌"/>
         </action>
         <action id="2→6 apostrophe⇧⎇">
@@ -6928,6 +6946,7 @@
             <when state="Letterlike_Zdbl" next="Letterlike"/>
             <when state="Letterlike_Zohm" next="Letterlike_Zblack"/>
             <when state="Letterlike_Zohminv" next="Letterlike_Zohm"/>
+            <when state="\alt" output="\b"/>
             <when state="cur$re" next="cur₽re"/>
             <when state="cur¥ye" next="cur€re"/>
             <when state="cur€re" next="cur$re"/>
