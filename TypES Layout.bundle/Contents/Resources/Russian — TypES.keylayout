@@ -5223,6 +5223,7 @@
             <when state="Math" next="math_a-z_fraktur"/>
             <when state="OldCyrillic" output="ѩ"/>
             <when state="Typographical" output="🕱"/>
+            <!-- <when state="Typographical" next="ligature"/> -->
             <when state="fs" output="⧵"/>
             <when state="math_a-z_greekb" output="𝛟"/>
             <when state="math_a-z_greekbit" output="𝝓"/>
