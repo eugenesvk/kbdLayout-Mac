@@ -4375,6 +4375,7 @@
             <when state="Greek" output="["/>
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" output="⌊"/>
+            <when state="Typographical" next="ligature"/>
             <when state="\alt" output="{"/>
             <when state="cur$re" output="₧"/>
             <when state="math=" output="≚"/>
@@ -5285,6 +5286,7 @@
             <when state="OldCyrillic" output="ꙋ"/>
             <when state="Quote-close”" output="»"/>
             <when state="Quote-“open" output="«"/>
+            <when state="Typographical" output="✓"/>
             <when state="\alt" next="Quote-close”"/>
             <when state="breve" next="breve+hook-above"/>
             <when state="caron" output="ǰ"/>
@@ -5718,7 +5720,7 @@
             <when state="Math" next="math⇒re"/>
             <when state="OldCyrillic" output="ꙉ"/>
             <!-- <when state="breve" output="ӂ"/> -->
-            <when state="Typographical" next="ligature"/>
+            <when state="Typographical" output="✗"/>
             <when state="\alt" output=":"/>
             <when state="cur$re" output="₡"/>
             <when state="diaeresis" output="̈"/>
