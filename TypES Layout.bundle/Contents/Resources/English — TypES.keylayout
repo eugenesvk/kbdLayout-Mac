@@ -3062,6 +3062,7 @@
             <!-- <when state="diaeresis" output="ӥ"/> -->
             <!-- <when state="grave" output="ѝ"/> -->
             <!-- <when state="macron" output="ӣ"/> -->
+            <when state="fs" output="＂"/>
             <when state="math=" output="≟"/>
             <when state="math_a-z_b" output="𝐪"/>
             <when state="math_a-z_bit" output="𝒒"/>
@@ -4263,6 +4264,7 @@
             <when state="cur$re" output="£"/>
             <when state="dot-above" output="ṗ"/>
             <!-- <when state="diaeresis" output="ӟ"/> -->
+            <when state="fs" output="¦"/>
             <when state="ligature" output="ꟹ"/>
             <when state="math-" output="∍"/>
             <when state="math/" output="∌"/>
@@ -5818,7 +5820,7 @@
             <when state="\alt" output="\&#x0027;"/>
             <when state="acute" output="́"/>
             <!-- <when state="diaeresis" output="ӭ"/> -->
-            <when state="fs" output="”"/>
+            <when state="fs" output="＂"/>
             <when state="horn" output="̛"/>
             <when state="math-" output="∹"/>
             <when state="math/" output="∉"/>
