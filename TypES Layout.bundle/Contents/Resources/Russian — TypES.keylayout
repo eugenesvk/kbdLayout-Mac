@@ -2275,6 +2275,8 @@
         </action>
         <action id="0←0 §">
             <when state="none" output="ё"/>
+            <when state="Arrow" next="Arrow↝Wave"/>
+            <when state="Arrow↝Wave" output="↝"/>
             <when state="Dash–Line" output="〜"/>
             <when state="Diacritics" output="̀"/>
             <when state="Emulate-En" output="`"/>
@@ -2323,6 +2325,7 @@
         </action>
         <action id="0←1 1">
             <when state="none" output="1"/>
+            <when state="Arrow" output="↚"/>
             <when state="Dash–Line" output="─"/>
             <when state="Diacritics" output="́"/>
             <when state="Emulate-En" output="!"/>
@@ -2379,6 +2382,7 @@
         </action>
         <action id="0←2 2">
             <when state="none" output="2"/>
+            <when state="Arrow" next="Arrow⇅Pair"/>
             <when state="Bullet" output="⁚"/>
             <when state="Dash–Line" output="╌"/>
             <when state="Diacritics" output="̋"/>
@@ -2449,6 +2453,9 @@
         </action>
         <action id="0←3 3">
             <when state="none" output="3"/>
+            <when state="Arrow" next="Arrow·3"/>
+            <when state="Arrow⇅Pair" output="⇅"/>
+            <when state="Arrow⮕Black" output="⯅"/>
             <when state="Bullet" output="⁖"/>
             <when state="Dash–Line" output="┄"/>
             <when state="Diacritics" output="̈"/>
@@ -2514,6 +2521,8 @@
         </action>
         <action id="0←4 4">
             <when state="none" output="4"/>
+            <when state="Arrow" output="↝"/>
+            <when state="Arrow⇅Pair" output="⇶"/>
             <when state="Bullet" output="⁘"/>
             <when state="Dash–Line" output="┈"/>
             <when state="Diacritics" output="̃"/>
@@ -2583,6 +2592,7 @@
         </action>
         <action id="0←5 5">
             <when state="none" output="5"/>
+            <when state="Arrow" output="⇞"/>
             <when state="Bullet" output="⁙"/>
             <when state="Dash–Line" output="╎"/>
             <when state="Diacritics" output="̄"/>
@@ -2650,6 +2660,7 @@
         </action>
         <action id="0→1 6">
             <when state="none" output="6"/>
+            <when state="Arrow" output="⇱"/>
             <when state="Dash–Line" output="⸚"/>
             <when state="Diacritics" output="̂"/>
             <when state="Emulate-En" output="^"/>
@@ -2707,6 +2718,8 @@
         </action>
         <action id="0→2 7">
             <when state="none" output="7"/>
+            <when state="Arrow" next="Arrow↱Tip"/>
+            <when state="Arrow⮕Black" next="Arrow⮣TriTip"/>
             <when state="Dash–Line" output="╍"/>
             <when state="Diacritics" output="̊"/>
             <when state="Emulate-En" output="&#x0026;"/>
@@ -2760,6 +2773,11 @@
         </action>
         <action id="0→3 8">
             <when state="none" output="8"/>
+            <when state="Arrow" output="⇪"/>
+            <when state="Arrow·2" output="⇯"/>
+            <when state="Arrow⇅Pair" output="⮁"/>
+            <when state="Arrow⮕Black" output="⬍"/>
+            <when state="Arrow⮣TriTip" output="⮸"/>
             <when state="Bullet" output="⁕"/>
             <when state="Dash–Line" output="┅"/>
             <when state="Diacritics" output="̇"/>
@@ -2830,6 +2848,7 @@
         </action>
         <action id="0→4 9">
             <when state="none" output="9"/>
+            <when state="Arrow" output="⇯"/>
             <when state="Dash–Line" output="┉"/>
             <when state="Diacritics" output="̆"/>
             <when state="Emulate-En" output="("/>
@@ -2904,6 +2923,7 @@
         </action>
         <action id="0→5 0">
             <when state="none" output="0"/>
+            <when state="Arrow" output="⇬"/>
             <when state="Dash–Line" output="╏"/>
             <when state="Diacritics" output="̌"/>
             <when state="Emulate-En" output=")"/>
@@ -2989,6 +3009,8 @@
         </action>
         <action id="0→6 -">
             <when state="none" output="-"/>
+            <when state="Arrow" output="↮"/>
+            <when state="Arrow⮕Black" output="⮉"/>
             <when state="Bullet" output="‧"/>
             <when state="Dash–Line" output="‐"/>
             <when state="Diacritics" output="̣"/>
@@ -3057,6 +3079,8 @@
         </action>
         <action id="0→7 =">
             <when state="none" output="="/>
+            <when state="Arrow" output="⇒"/>
+            <when state="Arrow·2" output="⇒"/>
             <when state="Dash–Line" output="⹀"/>
             <when state="Diacritics" output="̧"/>
             <when state="Emulate-En" output="+"/>
@@ -3227,6 +3251,11 @@
         </action>
         <action id="1←1 q">
             <when state="none" output="й"/>
+            <when state="Arrow" next="Arrow·2"/>
+            <when state="Arrow·2" next="Arrow·3"/>
+            <when state="Arrow·3" output="⇚"/>
+            <when state="Arrow↝Wave" output="↮"/>
+            <when state="Arrow⇅Pair" output="⇶"/>
             <when state="Dash–Line" output="┌"/>
             <when state="Diacritics" next="breve"/>
             <when state="Greek" output="ς"/>
@@ -3234,7 +3263,7 @@
             <when state="Math" output="ℚ"/>
             <when state="OldCyrillic" output="ѳ"/>
             <when state="Typographical" output="⭾"/>
-            <when state="\alt" output="⎋"/>
+            <when state="\alt" next="Arrow"/>
             <when state="breve" output="й"/>
             <when state="cur$re" output="₯"/>
             <when state="diaeresis" output="ӥ"/>
@@ -3303,7 +3332,7 @@
             <when state="math_a-z_greekb" output="𝟊"/>
         </action>
         <action id="1←1 q⎇">
-            <when state="none" output="⎋"/>
+            <when state="none" next="Arrow"/>
             <when state="Diacritics" next="breve"/>
             <when state="Greek" output="·"/>
             <when state="Letterlike" output="℺"/>
@@ -3312,6 +3341,11 @@
         </action>
         <action id="1←2 w">
             <when state="none" output="ц"/>
+            <when state="Arrow" output="↖"/>
+            <when state="Arrow·2" output="⇖"/>
+            <when state="Arrow↝Wave" output="↫"/>
+            <when state="Arrow↱Tip" output="↰"/>
+            <when state="Arrow⮣TriTip" output="⮢"/>
             <when state="Dash–Line" output="┬"/>
             <when state="Greek" output="ω"/>
             <when state="Letterlike" output="⅀"/>
@@ -3403,6 +3437,14 @@
         </action>
         <action id="1←3 e">
             <when state="none" output="у"/>
+            <when state="Arrow" output="↑"/>
+            <when state="Arrow·2" output="⇑"/>
+            <when state="Arrow·2Head" output="↟"/>
+            <when state="Arrow↣Tail" output="↥"/>
+            <when state="Arrow⇅Pair" output="⇈"/>
+            <when state="Arrow⮕Black" output="▲"/>
+            <when state="Arrow⮞Black" output="⮝"/>
+            <when state="Arrow⮣TriTip" output="⮲"/>
             <when state="Brackets" next="Brackets-«"/>
             <when state="Brackets-«" output="»"/>
             <when state="Brackets-×" output="»"/>
@@ -3555,6 +3597,11 @@
         </action>
         <action id="1←4 r">
             <when state="none" output="к"/>
+            <when state="Arrow" output="↗"/>
+            <when state="Arrow·2" output="⇗"/>
+            <when state="Arrow↝Wave" output="↬"/>
+            <when state="Arrow↱Tip" output="↱"/>
+            <when state="Arrow⮣TriTip" output="⮣"/>
             <when state="Brackets" next="Brackets-‹"/>
             <when state="Brackets-×" output="›"/>
             <when state="Brackets-‹" output="›"/>
@@ -3682,6 +3729,10 @@
         </action>
         <action id="1←5 t">
             <when state="none" output="е"/>
+            <when state="Arrow" next="Arrow·2"/>
+            <when state="Arrow·2" next="Arrow·3"/>
+            <when state="Arrow·3" output="⇛"/>
+            <when state="Arrow⮕Black" next="Arrow⮞Black"/>
             <when state="Brackets" next="Brackets-«"/>
             <when state="Brackets-«" output="»"/>
             <when state="Brackets-×" output="»"/>
@@ -3798,6 +3849,18 @@
         </action>
         <action id="1→1 y">
             <when state="none" output="н"/>
+            <when state="Arrow" next="\alt"/>
+            <when state="Arrow·2" next="Arrow"/>
+            <when state="Arrow·2Head" next="Arrow"/>
+            <when state="Arrow·3" next="Arrow·2"/>
+            <when state="Arrow↝Wave" next="Arrow"/>
+            <when state="Arrow↣Tail" next="Arrow"/>
+            <when state="Arrow↱Tip" next="Arrow"/>
+            <when state="Arrow⇅Pair" next="Arrow"/>
+            <when state="Arrow⮕Black" next="Arrow"/>
+            <when state="Arrow⮞Black" next="Arrow⮕Black"/>
+            <when state="Arrow⮣TriTip" next="Arrow⮕Black"/>
+            <when state="Arrow⮳Ribbon" next="Arrow⮣TriTip"/>
             <when state="Brackets" next="Brackets-emacs"/>
             <when state="Brackets-emacs" output="&#x0027;"/>
             <when state="Brackets-×" output="&#x0027;"/>
@@ -3913,6 +3976,13 @@
         </action>
         <action id="1→2 u">
             <when state="none" output="г"/>
+            <when state="Arrow" output="⬁"/>
+            <when state="Arrow·2" output="⇭"/>
+            <when state="Arrow↝Wave" output="⭯"/>
+            <when state="Arrow↱Tip" output="↶"/>
+            <when state="Arrow⮕Black" output="⬉"/>
+            <when state="Arrow⮣TriTip" output="⮪"/>
+            <when state="Arrow⮳Ribbon" output="⮲"/>
             <when state="Bullet" output="․"/>
             <when state="Dash–Line" output="‒"/>
             <when state="Diacritics" next="dot-below"/>
@@ -3993,6 +4063,7 @@
         </action>
         <action id="1→2 u⇧">
             <when state="none" output="Г"/>
+            <when state="Arrow" output="⬉"/>
             <when state="Greek" output="Θ"/>
             <when state="Math" output="⊔"/>
             <when state="OldCyrillic" output="Ѵ"/>
@@ -4084,6 +4155,14 @@
         </action>
         <action id="1→3 i">
             <when state="none" output="ш"/>
+            <when state="Arrow" output="⇧"/>
+            <when state="Arrow·2" output="⇮"/>
+            <when state="Arrow·2Head" output="⯭"/>
+            <when state="Arrow↝Wave" output="⮏"/>
+            <when state="Arrow⇅Pair" output="⮅"/>
+            <when state="Arrow⮕Black" output="⬆"/>
+            <when state="Arrow⮞Black" output="⮙"/>
+            <when state="Arrow⮣TriTip" output="⮳"/>
             <when state="Bullet" output="‥"/>
             <when state="Dash–Line" output="‾"/>
             <when state="Diacritics" next="dot-above"/>
@@ -4170,6 +4249,7 @@
         </action>
         <action id="1→3 i⇧">
             <when state="none" output="Ш"/>
+            <when state="Arrow" output="⬆"/>
             <when state="Greek" output="Ι"/>
             <when state="Letterlike" output="ℑ"/>
             <when state="Math" output="⊓"/>
@@ -4260,6 +4340,12 @@
         </action>
         <action id="1→4 o">
             <when state="none" output="щ"/>
+            <when state="Arrow" output="⬀"/>
+            <when state="Arrow↝Wave" output="⭮"/>
+            <when state="Arrow↱Tip" output="↷"/>
+            <when state="Arrow⮕Black" output="⬈"/>
+            <when state="Arrow⮣TriTip" output="⮫"/>
+            <when state="Arrow⮳Ribbon" output="⮳"/>
             <when state="Brackets" next="Brackets-〔"/>
             <when state="Brackets-×" output="〕"/>
             <when state="Brackets-〔" output="〕"/>
@@ -4361,6 +4447,7 @@
         </action>
         <action id="1→4 o⇧">
             <when state="none" output="Щ"/>
+            <when state="Arrow" output="⬈"/>
             <when state="Greek" output="Ο"/>
             <!-- <when state="acute" output="Ó"/> -->
             <!-- <when state="breve" output="Ŏ"/> -->
@@ -4440,6 +4527,9 @@
         </action>
         <action id="1→5 p">
             <when state="none" output="з"/>
+            <when state="Arrow" output="⇫"/>
+            <when state="Arrow·2" output="⇯"/>
+            <when state="Arrow⮕Black" output="⮈"/>
             <when state="Brackets" output="␌"/>
             <when state="Bullet" output="⁞"/>
             <when state="Copyright" output="℗"/>
@@ -4567,6 +4657,8 @@
         </action>
         <action id="1→6 [">
             <when state="none" output="х"/>
+            <when state="Arrow" output="↩"/>
+            <when state="Arrow⮕Black" output="⮋"/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Dash–Line" output="┋"/>
             <when state="Emulate-En" output="["/>
@@ -4621,6 +4713,8 @@
         </action>
         <action id="1→7 ]">
             <when state="none" output="ъ"/>
+            <when state="Arrow" output="↪"/>
+            <when state="Arrow⮕Black" output="⮊"/>
             <when state="Emulate-En" output="]"/>
             <when state="Greek" output="]"/>
             <when state="Math" output="⌋"/>
@@ -4648,6 +4742,11 @@
         </action>
         <action id="2←1 a">
             <when state="none" output="ф"/>
+            <when state="Arrow" output="↔"/>
+            <when state="Arrow·2" output="⇔"/>
+            <when state="Arrow↝Wave" output="↭"/>
+            <when state="Arrow⇅Pair" output="⇆"/>
+            <when state="Arrow⮣TriTip" output="⮤"/>
             <when state="Brackets" next="Brackets-‹"/>
             <when state="Brackets-×" output="›"/>
             <when state="Brackets-‹" output="›"/>
@@ -4731,6 +4830,7 @@
         </action>
         <action id="2←1 a⇧">
             <when state="none" output="Ф"/>
+            <when state="Arrow·2" output="⇎"/>
             <when state="Greek" output="Α"/>
             <when state="Letterlike_Escr" output="ℰ"/>
             <when state="Math" output="≈"/>
@@ -4809,6 +4909,16 @@
         </action>
         <action id="2←2 s">
             <when state="none" output="ы"/>
+            <when state="Arrow" output="←"/>
+            <when state="Arrow·2" output="⇐"/>
+            <when state="Arrow·2Head" output="↞"/>
+            <when state="Arrow·3" output="⇚"/>
+            <when state="Arrow↝Wave" output="↜"/>
+            <when state="Arrow↣Tail" output="↤"/>
+            <when state="Arrow⇅Pair" output="⇇"/>
+            <when state="Arrow⮕Black" output="◀"/>
+            <when state="Arrow⮞Black" output="⮜"/>
+            <when state="Arrow⮣TriTip" output="⮦"/>
             <when state="Brackets" next="Brackets-{"/>
             <when state="Brackets-{" output="}"/>
             <when state="Brackets-×" output="}"/>
@@ -4879,6 +4989,7 @@
         </action>
         <action id="2←2 s⇧">
             <when state="none" output="Ы"/>
+            <when state="Arrow·2" output="⇍"/>
             <when state="Greek" output="Σ"/>
             <when state="Letterlike_Ratio" output="⅍"/>
             <when state="OldCyrillic" output="Ꙑ"/>
@@ -4939,6 +5050,14 @@
         </action>
         <action id="2←3 d">
             <when state="none" output="в"/>
+            <when state="Arrow" output="↓"/>
+            <when state="Arrow·2" output="⇓"/>
+            <when state="Arrow·2Head" output="↡"/>
+            <when state="Arrow↣Tail" output="↧"/>
+            <when state="Arrow⇅Pair" output="⇊"/>
+            <when state="Arrow⮕Black" output="▼"/>
+            <when state="Arrow⮞Black" output="⮟"/>
+            <when state="Arrow⮣TriTip" output="⮶"/>
             <when state="Brackets" output=")"/>
             <when state="Brackets-×" output=")"/>
             <when state="Bullet" output="·"/>
@@ -5092,6 +5211,17 @@
         </action>
         <action id="2←4 f">
             <when state="none" output="а"/>
+            <when state="Arrow" output="→"/>
+            <when state="Arrow·2" output="⇒"/>
+            <when state="Arrow·2Head" output="↠"/>
+            <when state="Arrow·3" output="⇛"/>
+            <when state="Arrow↝Wave" output="↝"/>
+            <when state="Arrow↣Tail" output="↦"/>
+            <when state="Arrow↱Tip" output="↴"/>
+            <when state="Arrow⇅Pair" output="⇉"/>
+            <when state="Arrow⮕Black" output="▶"/>
+            <when state="Arrow⮞Black" output="⮞"/>
+            <when state="Arrow⮣TriTip" output="⮡"/>
             <when state="Brackets" next="Brackets-["/>
             <when state="Brackets-[" output="]"/>
             <when state="Brackets-{" output="}"/>
@@ -5189,6 +5319,7 @@
         </action>
         <action id="2←4 f⇧">
             <when state="none" output="А"/>
+            <when state="Arrow·2" output="⇏"/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="Φ"/>
             <when state="Letterlike" output="Ⅎ"/>
@@ -5260,6 +5391,11 @@
         </action>
         <action id="2←5 g">
             <when state="none" output="п"/>
+            <when state="Arrow" output="⇥"/>
+            <when state="Arrow·2" output="⇏"/>
+            <when state="Arrow↝Wave" output="⬳"/>
+            <when state="Arrow⇅Pair" output="⇄"/>
+            <when state="Arrow⮣TriTip" output="⮥"/>
             <when state="Brackets" next="Brackets-‘"/>
             <when state="Brackets-×" output="’"/>
             <when state="Brackets-‘" output="’"/>
@@ -5370,6 +5506,12 @@
         </action>
         <action id="2→1 h">
             <when state="none" output="р"/>
+            <when state="Arrow" output="⇤"/>
+            <when state="Arrow·2" output="⇍"/>
+            <when state="Arrow↝Wave" output="⭯"/>
+            <when state="Arrow⇅Pair" output="⮀"/>
+            <when state="Arrow⮣TriTip" output="⮬"/>
+            <when state="Arrow⮳Ribbon" output="⮴"/>
             <when state="Brackets" next="Brackets-“"/>
             <when state="Brackets-×" output="”"/>
             <when state="Brackets-“" output="”"/>
@@ -5480,6 +5622,18 @@
         </action>
         <action id="2→2 j">
             <when state="none" output="о"/>
+            <when state="Arrow" output="⇦"/>
+            <when state="Arrow·2" output="⇭"/>
+            <when state="Arrow·2Head" output="⯬"/>
+            <when state="Arrow·3" output="⭅"/>
+            <when state="Arrow↝Wave" output="⮎"/>
+            <when state="Arrow↣Tail" output="↢"/>
+            <when state="Arrow↱Tip" output="↺"/>
+            <when state="Arrow⇅Pair" output="⮄"/>
+            <when state="Arrow⮕Black" output="⬅"/>
+            <when state="Arrow⮞Black" output="⮘"/>
+            <when state="Arrow⮣TriTip" output="⮮"/>
+            <when state="Arrow⮳Ribbon" output="⮶"/>
             <when state="Brackets" next="Brackets-{"/>
             <when state="Brackets-{" output="}"/>
             <when state="Brackets-×" output="}"/>
@@ -5565,6 +5719,7 @@
         </action>
         <action id="2→2 j⇧">
             <when state="none" output="О"/>
+            <when state="Arrow" output="⬅"/>
             <when state="Greek" output="Ξ"/>
             <when state="OldCyrillic" output="Ꙋ"/>
             <when state="diaeresis" output="Ӧ"/>
@@ -5624,6 +5779,13 @@
         </action>
         <action id="2→3 k">
             <when state="none" output="л"/>
+            <when state="Arrow" output="⇩"/>
+            <when state="Arrow·2Head" output="⯯"/>
+            <when state="Arrow↝Wave" output="⮍"/>
+            <when state="Arrow⇅Pair" output="⮇"/>
+            <when state="Arrow⮕Black" output="⬇"/>
+            <when state="Arrow⮞Black" output="⮛"/>
+            <when state="Arrow⮣TriTip" output="⮷"/>
             <when state="Brackets" next="Brackets-quote"/>
             <when state="Brackets-quote" output="&#x0022;"/>
             <when state="Brackets-×" output="&#x0022;"/>
@@ -5707,6 +5869,7 @@
         </action>
         <action id="2→3 k⇧">
             <when state="none" output="Л"/>
+            <when state="Arrow" output="⬇"/>
             <when state="Greek" output="Κ"/>
             <!-- <when state="caron" output="Ǩ"/> -->
             <!-- <when state="cedilla" output="Ķ"/> -->
@@ -5760,6 +5923,17 @@
         </action>
         <action id="2→4 l">
             <when state="none" output="д"/>
+            <when state="Arrow" output="⇨"/>
+            <when state="Arrow·2Head" output="⯮"/>
+            <when state="Arrow·3" output="⭆"/>
+            <when state="Arrow↝Wave" output="⮌"/>
+            <when state="Arrow↣Tail" output="↣"/>
+            <when state="Arrow↱Tip" output="↻"/>
+            <when state="Arrow⇅Pair" output="⮆"/>
+            <when state="Arrow⮕Black" output="⮕"/>
+            <when state="Arrow⮞Black" output="⮚"/>
+            <when state="Arrow⮣TriTip" output="⮯"/>
+            <when state="Arrow⮳Ribbon" output="⮷"/>
             <when state="Brackets" next="Brackets-apostrophe"/>
             <when state="Brackets-apostrophe" output="&#x0027;"/>
             <when state="Brackets-×" output="&#x0027;"/>
@@ -5865,6 +6039,7 @@
         </action>
         <action id="2→4 l⇧">
             <when state="none" output="Д"/>
+            <when state="Arrow" output="⮕"/>
             <when state="Greek" output="Λ"/>
             <when state="Letterlike" output="ℒ"/>
             <when state="Letterlike_Ll" output="ℒ"/>
@@ -5923,6 +6098,12 @@
         </action>
         <action id="2→5 ;">
             <when state="none" output="ж"/>
+            <when state="Arrow" output="⬄"/>
+            <when state="Arrow↝Wave" output="⭮"/>
+            <when state="Arrow⇅Pair" output="⮂"/>
+            <when state="Arrow⮕Black" output="⬌"/>
+            <when state="Arrow⮣TriTip" output="⮭"/>
+            <when state="Arrow⮳Ribbon" output="⮵"/>
             <when state="Brackets" next="Brackets-=str"/>
             <when state="Brackets-=str" output="&#x0022;"/>
             <when state="Brackets-×" output="&#x0022;"/>
@@ -5977,6 +6158,7 @@
         </action>
         <action id="2→5 ;⇧">
             <when state="none" output="Ж"/>
+            <when state="Arrow" output="⬌"/>
             <when state="Greek" next="diaeresis-greek"/>
             <when state="Math" output="∶"/>
             <when state="OldCyrillic" output="Ꙉ"/>
@@ -6017,6 +6199,7 @@
         </action>
         <action id="2→6 apostrophe">
             <when state="none" output="э"/>
+            <when state="Arrow" output="⇰"/>
             <when state="Bullet" output="‧"/>
             <when state="Dash–Line" output="‖"/>
             <when state="Diacritics" next="horn"/>
@@ -6064,6 +6247,7 @@
         </action>
         <action id="2→7 \">
             <when state="none" next="\alt"/>
+            <when state="Arrow" output="⇳"/>
             <when state="Dash–Line" output="〰"/>
             <when state="Emulate-En" output="\"/>
             <when state="Greek" output="\"/>
@@ -6144,6 +6328,10 @@
         </action>
         <action id="3←1 z">
             <when state="none" output="я"/>
+            <when state="Arrow" next="Arrow·2Head"/>
+            <when state="Arrow·2" output="⇎"/>
+            <when state="Arrow·2Head" output="↠"/>
+            <when state="Arrow↝Wave" output="↯"/>
             <when state="Brackets" next="Brackets-⸨"/>
             <when state="Brackets-×" output="⸩"/>
             <when state="Brackets-⸨" output="⸩"/>
@@ -6247,6 +6435,12 @@
         </action>
         <action id="3←2 x">
             <when state="none" output="ч"/>
+            <when state="Arrow" output="↙"/>
+            <when state="Arrow·2" output="⇙"/>
+            <when state="Arrow↱Tip" output="↲"/>
+            <when state="Arrow⇅Pair" output="⇋"/>
+            <when state="Arrow⮕Black" output="⯇"/>
+            <when state="Arrow⮣TriTip" output="⮠"/>
             <when state="Bullet" output="×"/>
             <when state="Dash–Line" output="┴"/>
             <when state="Greek" output="χ"/>
@@ -6329,6 +6523,13 @@
         </action>
         <action id="3←3 c">
             <when state="none" output="с"/>
+            <when state="Arrow" output="↕"/>
+            <when state="Arrow·2" output="⇕"/>
+            <when state="Arrow↣Tail" output="↨"/>
+            <when state="Arrow↱Tip" output="↵"/>
+            <when state="Arrow⇅Pair" output="⇵"/>
+            <when state="Arrow⮕Black" output="⯆"/>
+            <when state="Arrow⮣TriTip" output="⮰"/>
             <when state="Brackets" next="Brackets-×"/>
             <when state="Brackets-×" output=")"/>
             <when state="Copyright" output="©"/>
@@ -6436,6 +6637,12 @@
         </action>
         <action id="3←4 v">
             <when state="none" output="м"/>
+            <when state="Arrow" output="↘"/>
+            <when state="Arrow·2" output="⇘"/>
+            <when state="Arrow↱Tip" output="↳"/>
+            <when state="Arrow⇅Pair" output="⇌"/>
+            <when state="Arrow⮕Black" output="⯈"/>
+            <when state="Arrow⮣TriTip" output="⮡"/>
             <when state="Dash–Line" output="⸗"/>
             <when state="Diacritics" next="caron"/>
             <when state="Emulate-En" output="›"/>
@@ -6530,6 +6737,9 @@
         </action>
         <action id="3←5 b">
             <when state="none" output="и"/>
+            <when state="Arrow" next="Arrow⮕Black"/>
+            <when state="Arrow⮕Black" next="Arrow⮞Black"/>
+            <when state="Arrow⮣TriTip" next="Arrow⮳Ribbon"/>
             <when state="Bullet" output="•"/>
             <when state="Dash–Line" output="‑"/>
             <when state="Greek" output="β"/>
@@ -6624,6 +6834,8 @@
         </action>
         <action id="3→1 n">
             <when state="none" output="т"/>
+            <when state="Arrow" output="⇲"/>
+            <when state="Arrow⮣TriTip" output="⮴"/>
             <when state="Brackets" next="Brackets-【"/>
             <when state="Brackets-×" output="】"/>
             <when state="Brackets-【" output="】"/>
@@ -6739,6 +6951,11 @@
         </action>
         <action id="3→2 m">
             <when state="none" output="ь"/>
+            <when state="Arrow" output="⬃"/>
+            <when state="Arrow↱Tip" output="↩"/>
+            <when state="Arrow⮕Black" output="⬋"/>
+            <when state="Arrow⮣TriTip" output="⮨"/>
+            <when state="Arrow⮳Ribbon" output="⮰"/>
             <when state="Brackets" next="Brackets-「"/>
             <when state="Brackets-×" output="」"/>
             <when state="Brackets-「" output="」"/>
@@ -6808,6 +7025,7 @@
         </action>
         <action id="3→2 m⇧">
             <when state="none" output="Ь"/>
+            <when state="Arrow" output="⬋"/>
             <when state="Dash–Line" output="⸺"/>
             <when state="Diacritics" output="̳"/>
             <when state="Greek" output="Μ"/>
@@ -6862,6 +7080,10 @@
         </action>
         <action id="3→3 ,">
             <when state="none" output="б"/>
+            <when state="Arrow" next="Arrow↣Tail"/>
+            <when state="Arrow⇅Pair" output="⮃"/>
+            <when state="Arrow⮕Black" output="⬍"/>
+            <when state="Arrow⮣TriTip" output="⮱"/>
             <when state="Brackets" next="Brackets-〈"/>
             <when state="Brackets-×" output="〉"/>
             <when state="Brackets-〈" output="〉"/>
@@ -6902,6 +7124,7 @@
         </action>
         <action id="3→3 ,⇧">
             <when state="none" output="Б"/>
+            <when state="Arrow" output="⬍"/>
             <when state="Brackets" next="Brackets-⟪"/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="&#x003C;"/>
@@ -6940,6 +7163,11 @@
         </action>
         <action id="3→4 .">
             <when state="none" output="ю"/>
+            <when state="Arrow" output="⬂"/>
+            <when state="Arrow↱Tip" output="↪"/>
+            <when state="Arrow⮕Black" output="⬊"/>
+            <when state="Arrow⮣TriTip" output="⮩"/>
+            <when state="Arrow⮳Ribbon" output="⮱"/>
             <when state="Brackets" next="Brackets-⟪"/>
             <when state="Brackets-×" output="⟫"/>
             <when state="Brackets-〈" output="〉"/>
@@ -6991,6 +7219,7 @@
         </action>
         <action id="3→4 .⇧">
             <when state="none" output="Ю"/>
+            <when state="Arrow" output="⬊"/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="&#x003E;"/>
             <when state="Math" output="≥"/>
@@ -7037,6 +7266,7 @@
         </action>
         <action id="3→5 /">
             <when state="none" output="."/>
+            <when state="Arrow⮣TriTip" output="⮵"/>
             <when state="Dash–Line" output="‗"/>
             <when state="Diacritics" next="acute"/>
             <when state="Emulate-En" output="/"/>
@@ -7120,6 +7350,7 @@
         </action>
         <action id="Backspace">
             <when state="none" output="&#x0008;"/>
+            <when state="Arrow⇅Pair" next="Arrow"/>
             <when state="Letterlike" next="Typographical"/>
             <when state="Letterlike_Cblack" next="Letterlike_Cdbl"/>
             <when state="Letterlike_Cdbl" next="Letterlike"/>
@@ -7488,6 +7719,19 @@
         </action>
     </actions>
     <terminators>
+        <when state="Arrow" output="→"/>
+        <when state="Arrow·2" output="⇒"/>
+        <when state="Arrow·2Head" output="↠"/>
+        <when state="Arrow·3" output="⇛"/>
+        <when state="Arrow·Pair" output="⇅"/>
+        <when state="Arrow↝Wave" output="↝"/>
+        <when state="Arrow↣Tail" output="↣"/>
+        <when state="Arrow↱Tip" output="↱"/>
+        <when state="Arrow⇅Pair" output="⇅"/>
+        <when state="Arrow⮕Black" output="⮕"/>
+        <when state="Arrow⮞Black" output="⮞"/>
+        <when state="Arrow⮣TriTip" output="⮣"/>
+        <when state="Arrow⮳Ribbon" output="⮳"/>
         <when state="Brackets" output="("/>
         <when state="Brackets-=str" output="=&#x0022;"/>
         <when state="Brackets-[" output="["/>
