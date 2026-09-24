@@ -3535,7 +3535,7 @@
             <when state="Brackets-×" output="»"/>
             <when state="Greek" output="€"/>
             <when state="Letterlike" output="ℰ"/>
-            <when state="ligature" output="ꟹ"/>
+            <when state="ligature" output="ꟹ "/>
             <when state="math_a-z_greekb" output="𝛜"/>
             <when state="math_a-z_greekbit" output="𝝐"/>
             <when state="math_a-z_greekit" output="𝜖"/>
