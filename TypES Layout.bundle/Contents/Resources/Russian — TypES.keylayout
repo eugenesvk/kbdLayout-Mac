@@ -5412,6 +5412,7 @@
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Letterlike_Ll" output="℔"/>
             <when state="Letterlike_Pdbl" output="ℿ"/>
+            <when state="Math" next="math_a-z"/>
             <when state="Typographical" output="♀"/>
             <!-- <when state="acute" output="ǵ"/> -->
             <!-- <when state="breve" output="ğ"/> -->
