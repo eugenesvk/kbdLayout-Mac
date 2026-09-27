@@ -4206,6 +4206,7 @@
             <when state="math/" output="⫛"/>
             <when state="math=" next="math⩦"/>
             <when state="math_" output="⊓"/>
+            <when state="math_a-z" next="math_a-z_it"/>
             <when state="math_a-z_b" output="𝐢"/>
             <when state="math_a-z_bit" output="𝒊"/>
             <when state="math_a-z_dbl" output="𝕚"/>
@@ -5427,6 +5428,7 @@
             <when state="fs" output="¦"/>
             <!-- <when state="macron" output="ḡ"/> -->
             <when state="math=" output="≑"/>
+            <when state="math_a-z" next="math_a-z_greekb"/>
             <when state="math_a-z_b" output="𝐠"/>
             <when state="math_a-z_bit" output="𝒈"/>
             <when state="math_a-z_dbl" output="𝕘"/>
@@ -6769,6 +6771,7 @@
             <!-- <when state="dot-below" output="ḅ"/> -->
             <when state="math=" output="⪮"/>
             <when state="mathO" output="∙"/>
+            <when state="math_a-z" next="math_a-z_b"/>
             <when state="math_a-z_b" output="𝐛"/>
             <when state="math_a-z_bit" output="𝒃"/>
             <when state="math_a-z_dbl" output="𝕓"/>
@@ -6987,6 +6990,7 @@
             <when state="dot-below" output="ṃ"/>
             <when state="math=" output="≞"/>
             <when state="mathO" output="⋅"/>
+            <when state="math_a-z" next="math_a-z_mono"/>
             <when state="math_a-z_b" output="𝐦"/>
             <when state="math_a-z_bit" output="𝒎"/>
             <when state="math_a-z_dbl" output="𝕞"/>
@@ -7418,6 +7422,7 @@
             <when state="math=" next="Math"/>
             <when state="mathO" next="Math"/>
             <when state="math_" next="Math"/>
+            <when state="math_a-z" next="Math"/>
             <when state="math_a-z_frakturb" next="math_a-z_fraktur"/>
             <when state="math_a-z_sansb" next="math_a-z_sans"/>
             <when state="math_a-z_sansit" next="math_a-z_sans"/>
