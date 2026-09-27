@@ -2671,10 +2671,12 @@
             <when state="cur$re" output="₲"/>
             <when state="fs" output="ˆ"/>
             <when state="math_a-z_dbl" output="𝟞"/>
+            <when state="math_a-z_fraktur" next="math_a-z_frakturb"/>
             <when state="math_a-z_greekb" output="𝟔"/>
             <when state="math_a-z_mono" output="𝟼"/>
             <when state="math_a-z_sans" output="𝟨"/>
             <when state="math_a-z_sansb" output="𝟲"/>
+            <when state="math_a-z_script" next="math_a-z_scriptb"/>
             <when state="math⅚" output="⅚"/>
             <when state="math⅟" output="⅙"/>
             <when state="num_Roman" output="Ⅵ"/>
@@ -7193,6 +7195,7 @@
             <when state="math=" next="math⇒"/>
             <when state="mathO" output="⊙"/>
             <when state="math_" output="≥"/>
+            <when state="math_a-z_sans" next="math_a-z_sansit"/>
             <when state="math|" output="↦"/>
             <when state="math…" output="…"/>
             <when state="math‹" output="◇"/>
@@ -7289,6 +7292,9 @@
             <when state="math/" output="∕"/>
             <when state="math=" next="math≠"/>
             <when state="mathO" output="⊘"/>
+            <when state="math_a-z_fraktur" next="math_a-z_frakturb"/>
+            <when state="math_a-z_sans" next="math_a-z_sansb"/>
+            <when state="math_a-z_script" next="math_a-z_scriptb"/>
             <when state="math…" output="⋰"/>
             <when state="math⁄" next="math↉"/>
             <when state="math⅟" output="⅒"/>
@@ -7412,6 +7418,10 @@
             <when state="math=" next="Math"/>
             <when state="mathO" next="Math"/>
             <when state="math_" next="Math"/>
+            <when state="math_a-z_frakturb" next="math_a-z_fraktur"/>
+            <when state="math_a-z_sansb" next="math_a-z_sans"/>
+            <when state="math_a-z_sansit" next="math_a-z_sans"/>
+            <when state="math_a-z_scriptb" next="math_a-z_script"/>
             <when state="math|" next="Math"/>
             <when state="math±re" next="math≈re"/>
             <when state="math¾" next="math⅔"/>
