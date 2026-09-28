@@ -2681,6 +2681,7 @@
             <when state="Typographical" output="☞"/>
             <when state="\alt" output="←"/>
             <when state="breve" output="̆"/>
+            <when state="fs" output="⋖"/>
             <when state="ligature" output="Œ"/>
             <when state="math-" output="∈"/>
             <when state="math=" next="math⟸"/>
@@ -2756,6 +2757,7 @@
             <when state="\alt" output="→"/>
             <when state="caron" output="̌"/>
             <when state="cur$re" output="₶"/>
+            <when state="fs" output="⋗"/>
             <when state="ligature" output="ꟹ"/>
             <when state="math-" output="∋"/>
             <when state="math/" output="∅"/>
@@ -3701,6 +3703,7 @@
             <when state="diaeresis-greek" output="ϋ"/>
             <when state="dot-above" output="ẏ"/>
             <when state="dot-below" output="ỵ"/>
+            <when state="fs" output="≺"/>
             <when state="grave" output="ỳ"/>
             <when state="greek-dialytika-tonos" output="ΰ"/>
             <when state="greek-tonos" output="ύ"/>
@@ -3813,6 +3816,7 @@
             <when state="diaeresis+macron" output="ǖ"/>
             <when state="dot-below" output="ụ"/>
             <when state="double-acute" output="ű"/>
+            <when state="fs" output="≻"/>
             <when state="grave" output="ù"/>
             <when state="hook-above" output="ủ"/>
             <when state="horn" output="ư"/>
@@ -3997,6 +4001,7 @@
             <when state="diaeresis-greek" output="ϊ"/>
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
+            <when state="fs" output="﹤"/>
             <when state="grave" output="ì"/>
             <when state="greek-dialytika-tonos" output="ΐ"/>
             <when state="greek-tonos" output="ί"/>
@@ -4179,6 +4184,7 @@
             <when state="dot-above+macron" output="ȱ"/>
             <when state="dot-below" output="ọ"/>
             <when state="double-acute" output="ő"/>
+            <when state="fs" output="﹥"/>
             <when state="grave" output="ò"/>
             <when state="greek-tonos" output="ό"/>
             <when state="hook-above" output="ỏ"/>
@@ -6929,7 +6935,7 @@
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Greek" output="&#x003C;"/>
             <when state="Math" output="≤"/>
-            <when state="fs" output="‹"/>
+            <when state="fs" output="⋖"/>
             <when state="math_" output="≤"/>
             <when state="math∅" next="math∅≸"/>
             <when state="math∅≷" output="≩"/>
@@ -6981,7 +6987,7 @@
             <when state="Typographical" output="⟩"/>
             <when state="\alt" output="»"/>
             <when state="cur$re" output="₼"/>
-            <when state="fs" output="．"/>
+            <when state="fs" output="›"/>
             <when state="ligature" output="ﬄ"/>
             <when state="math-" output="→"/>
             <when state="math=" next="math⇒"/>
@@ -7026,7 +7032,7 @@
             <when state="Math" output="≥"/>
             <when state="OldCyrillic" output="Ꙗ"/>
             <when state="\alt" output="…"/>
-            <when state="fs" output="›"/>
+            <when state="fs" output="⋗"/>
             <when state="mathO" output="⊡"/>
             <when state="math_" output="≥"/>
             <when state="math|" output="▷"/>
