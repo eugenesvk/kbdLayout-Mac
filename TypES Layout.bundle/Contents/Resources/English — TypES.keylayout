@@ -1681,7 +1681,7 @@
             <key code="41" output="Ú"/>
             <key code="42" output="»"/>
             <key code="43" output="¯"/>
-            <key code="44" output="¿"/>
+            <key code="44" action="¿"/>
             <key code="45" output="˜"/>
             <key code="46" output="Â"/>
             <key code="47" output="˘"/>
@@ -7142,7 +7142,7 @@
             <when state="math⪴" next="math="/>
         </action>
         <action id="3→5 /">
-            <when state="none" next="/alt"/>
+            <when state="none" output="/"/>
             <when state="/alt" output="//"/>
             <when state="Arrow⮣TriTip" output="⮵"/>
             <when state="Dash–Line" output="‗"/>
@@ -7593,6 +7593,9 @@
         </action>
         <action id="§">
             <when state="none" next="grave"/>
+        </action>
+        <action id="¿">
+            <when state="none" next="/alt"/>
         </action>
         <action id="˙">
             <when state="none" output="˙"/>
