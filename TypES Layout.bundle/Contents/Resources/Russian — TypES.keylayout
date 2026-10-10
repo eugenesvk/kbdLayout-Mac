@@ -7336,7 +7336,7 @@
             <when state="math⪴" next="math="/>
         </action>
         <action id="3→5 /">
-            <when state="none" output="."/>
+            <when state="none" next="/alt"/>
             <when state="/alt" output="//"/>
             <when state="Arrow⮣TriTip" output="⮵"/>
             <when state="Dash–Line" output="‗"/>
