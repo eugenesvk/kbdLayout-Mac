@@ -7015,7 +7015,7 @@
             <when state="tilde" output="̃"/>
         </action>
         <action id="3→2 m">
-            <when state="none" output="ь"/>
+            <when state="none" next="cyr_ьъ"/>
             <when state="/alt" next="num#№"/>
             <when state="Arrow" output="⬃"/>
             <when state="Arrow↱Tip" output="↩"/>
