@@ -4755,6 +4755,7 @@
             <when state="Math" output="⌋"/>
             <when state="Typographical" output="↩"/>
             <when state="\alt" output="]"/>
+            <when state="cyr_ьъ" output="ѣ"/>
             <when state="fs" output="¦"/>
             <when state="math=" output="≙"/>
             <when state="mathO" output="⊞"/>
@@ -7041,6 +7042,7 @@
             <when state="\alt" output="−"/>
             <when state="acute" output="ḿ"/>
             <when state="cur$re" output="₥"/>
+            <when state="cyr_ьъ" output="ъ"/>
             <when state="dot-above" output="ṁ"/>
             <when state="dot-below" output="ṃ"/>
             <when state="math=" output="≞"/>
@@ -7923,6 +7925,7 @@
         <when state="cur¥ye" output="¥"/>
         <when state="cur€re" output="€"/>
         <when state="cur₽re" output="₽"/>
+        <when state="cyr_ьъ" output="ь"/>
         <when state="diaeresis" output="¨"/>
         <when state="diaeresis+macron" output="◌̈̄"/>
         <when state="diaeresis-greek" output="¨"/>
