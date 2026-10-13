@@ -2280,7 +2280,7 @@
             <when state="Arrow↝Wave" output="↝"/>
             <when state="Dash–Line" output="〜"/>
             <when state="Diacritics" output="̀"/>
-            <when state="Emulate-En" output="`"/>
+            <when state="Emulate-En" output="~"/>
             <when state="Greek" output="§"/>
             <when state="Math" output="¬"/>
             <when state="Typographical" output="⎋"/>
@@ -2867,7 +2867,7 @@
             <when state="Arrow" output="⇯"/>
             <when state="Dash–Line" output="┉"/>
             <when state="Diacritics" output="̆"/>
-            <when state="Emulate-En" output="("/>
+            <when state="Emulate-En" output="‹"/>
             <when state="Math" output="⊂"/>
             <when state="OldCyrillic" output="ҁ"/>
             <when state="Typographical" output="☞"/>
@@ -2944,7 +2944,7 @@
             <when state="Arrow" output="⇬"/>
             <when state="Dash–Line" output="╏"/>
             <when state="Diacritics" output="̌"/>
-            <when state="Emulate-En" output=")"/>
+            <when state="Emulate-En" output="›"/>
             <when state="Math" output="⊃"/>
             <when state="Typographical" output="⁀"/>
             <when state="\alt" output="→"/>
@@ -3280,6 +3280,7 @@
             <when state="Arrow⇅Pair" output="⇶"/>
             <when state="Dash–Line" output="┌"/>
             <when state="Diacritics" next="breve"/>
+            <when state="Emulate-En" output="“"/>
             <when state="Greek" output="ς"/>
             <when state="Letterlike" output="ℚ"/>
             <when state="Math" output="ℚ"/>
@@ -3370,6 +3371,7 @@
             <when state="Arrow↱Tip" output="↰"/>
             <when state="Arrow⮣TriTip" output="⮢"/>
             <when state="Dash–Line" output="┬"/>
+            <when state="Emulate-En" output="&#x0022;"/>
             <when state="Greek" output="ω"/>
             <when state="Letterlike" output="⅀"/>
             <when state="Letterlike_Cdbl" output="ℂ"/>
@@ -3474,7 +3476,7 @@
             <when state="Brackets-×" output="»"/>
             <when state="Bullet" output="⁋"/>
             <when state="Dash–Line" output="┐"/>
-            <when state="Emulate-En" output="["/>
+            <when state="Emulate-En" output="{"/>
             <when state="Greek" output="ε"/>
             <when state="Letterlike" next="Letterlike_Escr"/>
             <when state="Letterlike_EScr" next="Letterlike_Edbl"/>
@@ -3634,7 +3636,7 @@
             <when state="Copyright" output="®"/>
             <when state="Dash–Line" output="│"/>
             <when state="Diacritics" next="ring"/>
-            <when state="Emulate-En" output="]"/>
+            <when state="Emulate-En" output="}"/>
             <when state="Greek" output="ρ"/>
             <when state="Letterlike" next="Letterlike_Rdouble"/>
             <when state="Letterlike_Pdbl" output="℗"/>
@@ -3766,6 +3768,7 @@
             <when state="Bullet" output="⁜"/>
             <when state="Copyright" output="™"/>
             <when state="Dash–Line" output="┆"/>
+            <when state="Emulate-En" output="”"/>
             <when state="Greek" output="τ"/>
             <when state="Letterlike" output="℡"/>
             <when state="Letterlike_Escr" output="℮"/>
@@ -3898,6 +3901,7 @@
             <when state="Dash—M" next="Dash–Line"/>
             <when state="Dash⸺M·2" next="Dash—M"/>
             <when state="Dash⸻M·3" next="Dash⸺M·2"/>
+            <when state="Emulate-En" output="%"/>
             <when state="Greek" output="υ"/>
             <when state="Letterlike" output="ℽ"/>
             <when state="Math" next="math√"/>
@@ -4016,6 +4020,7 @@
             <when state="Bullet" output="․"/>
             <when state="Dash–Line" output="‒"/>
             <when state="Diacritics" next="dot-below"/>
+            <when state="Emulate-En" output="-"/>
             <when state="Greek" output="θ"/>
             <when state="Letterlike_Ll" output="⅂"/>
             <when state="Letterlike_Ratio" output="℆"/>
@@ -4198,7 +4203,7 @@
             <when state="Bullet" output="‥"/>
             <when state="Dash–Line" output="‾"/>
             <when state="Diacritics" next="dot-above"/>
-            <when state="Emulate-En" output="‘"/>
+            <when state="Emulate-En" output="-"/>
             <when state="Greek" output="ι"/>
             <when state="Letterlike" next="Letterlike_Iscr"/>
             <when state="Letterlike_Fsm" output="℉"/>
@@ -4387,7 +4392,7 @@
             <when state="Bullet" output="…"/>
             <when state="Copyright" output="(ɔ)"/>
             <when state="Diacritics" next="macron"/>
-            <when state="Emulate-En" output="’"/>
+            <when state="Emulate-En" output="+"/>
             <when state="Greek" output="ο"/>
             <when state="Letterlike" output="ℴ"/>
             <when state="Letterlike_Ratio" output="℅"/>
@@ -4571,7 +4576,7 @@
             <when state="Bullet" output="⁞"/>
             <when state="Copyright" output="℗"/>
             <when state="Dash–Line" output="┇"/>
-            <when state="Emulate-En" output=":"/>
+            <when state="Emulate-En" output="&#x0026;"/>
             <when state="Greek" output="π"/>
             <when state="Letterlike" next="Letterlike_Pdbl"/>
             <when state="Letterlike_Hdbl" output="ℎ"/>
@@ -4699,7 +4704,7 @@
             <when state="Arrow⮕Black" output="⮋"/>
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Dash–Line" output="┋"/>
-            <when state="Emulate-En" output="["/>
+            <when state="Emulate-En" output="‚"/>
             <when state="Greek" output="["/>
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" output="⌊"/>
@@ -4754,7 +4759,7 @@
             <when state="/alt" output="„"/>
             <when state="Arrow" output="↪"/>
             <when state="Arrow⮕Black" output="⮊"/>
-            <when state="Emulate-En" output="]"/>
+            <when state="Emulate-En" output="#"/>
             <when state="Greek" output="]"/>
             <when state="Math" output="⌋"/>
             <when state="Typographical" output="↩"/>
@@ -4792,7 +4797,7 @@
             <when state="Brackets-×" output="›"/>
             <when state="Brackets-‹" output="›"/>
             <when state="Dash–Line" output="├"/>
-            <when state="Emulate-En" output="{"/>
+            <when state="Emulate-En" output="‘"/>
             <when state="Greek" output="α"/>
             <when state="Letterlike" output="Å"/>
             <when state="Letterlike_Cdbl" output="ℂ"/>
@@ -4967,7 +4972,7 @@
             <when state="Bullet" output="⁌"/>
             <when state="Copyright" output="℠"/>
             <when state="Dash–Line" output="┼"/>
-            <when state="Emulate-En" output="}"/>
+            <when state="Emulate-En" output="&#x0027;"/>
             <when state="Greek" output="σ"/>
             <when state="Letterlike" output="℠"/>
             <when state="Letterlike_Cdbl" output="ℭ"/>
@@ -5450,6 +5455,7 @@
             <when state="Bullet" output="‣"/>
             <when state="Dash–Line" output="┊"/>
             <when state="Diacritics" next="ogonek"/>
+            <when state="Emulate-En" output="’"/>
             <when state="Greek" output="γ"/>
             <when state="Letterlike" output="ℊ"/>
             <when state="Letterlike_Escr" output="ℇ"/>
@@ -5570,7 +5576,7 @@
             <when state="Copyright" output="®"/>
             <when state="Dash–Line" output="‐"/>
             <when state="Diacritics" next="double-acute"/>
-            <when state="Emulate-En" output="«"/>
+            <when state="Emulate-En" output="?"/>
             <when state="Greek" output="η"/>
             <when state="Letterlike" next="Letterlike_Hdbl"/>
             <when state="Letterlike_Hblack" next="Letterlike_Hscript"/>
@@ -5694,7 +5700,7 @@
             <when state="Copyright" output="(ɔ)"/>
             <when state="Dash–Line" output="_"/>
             <when state="Diacritics" next="hook-above"/>
-            <when state="Emulate-En" output="»"/>
+            <when state="Emulate-En" output="!"/>
             <when state="Greek" output="ξ"/>
             <when state="Letterlike" output="ⅉ"/>
             <when state="Letterlike_Fsm" output="ⅎ"/>
@@ -5848,7 +5854,7 @@
             <when state="Copyright" output="🄯"/>
             <when state="Dash–Line" output="—"/>
             <when state="Diacritics" output="⃣"/>
-            <when state="Emulate-En" output="“"/>
+            <when state="Emulate-En" output="_"/>
             <when state="Greek" output="κ"/>
             <when state="Letterlike" output="K"/>
             <when state="Letterlike_Fsm" output="Ⅎ"/>
@@ -6000,7 +6006,7 @@
             <when state="Dash—M" output="︱"/>
             <when state="Dash⸺M·2" output="︱"/>
             <when state="Dash⸻M·3" output="︱"/>
-            <when state="Emulate-En" output="”"/>
+            <when state="Emulate-En" output=":"/>
             <when state="Greek" output="λ"/>
             <when state="Letterlike" next="Letterlike_Ll"/>
             <when state="Letterlike_Cdbl" output="℄"/>
@@ -6263,7 +6269,7 @@
             <when state="Bullet" output="‧"/>
             <when state="Dash–Line" output="‖"/>
             <when state="Diacritics" next="horn"/>
-            <when state="Emulate-En" output="&#x0027;"/>
+            <when state="Emulate-En" output="@"/>
             <when state="Greek" output="&#x0027;"/>
             <when state="Letterlike" output="℈"/>
             <when state="Math" output="∈"/>
@@ -6400,6 +6406,7 @@
             <when state="Brackets-⸨" output="⸩"/>
             <when state="Dash–Line" output="└"/>
             <when state="Diacritics" next="cedilla"/>
+            <when state="Emulate-En" output="„"/>
             <when state="Greek" output="ζ"/>
             <when state="Letterlike" next="Letterlike_Zdbl"/>
             <when state="Letterlike_Zblack" next="Letterlike_Zohm"/>
@@ -6507,6 +6514,7 @@
             <when state="Arrow⮣TriTip" output="⮠"/>
             <when state="Bullet" output="×"/>
             <when state="Dash–Line" output="┴"/>
+            <when state="Emulate-En" output="^"/>
             <when state="Greek" output="χ"/>
             <when state="Letterlike" output="℻"/>
             <when state="Letterlike_Fsm" output="℻"/>
@@ -6599,7 +6607,7 @@
             <when state="Brackets-×" output=")"/>
             <when state="Copyright" output="©"/>
             <when state="Dash–Line" output="┘"/>
-            <when state="Emulate-En" output="‹"/>
+            <when state="Emulate-En" output="["/>
             <when state="Greek" output="ψ"/>
             <when state="Letterlike" next="Letterlike_Cdbl"/>
             <when state="Letterlike_Cblack" next="Letterlike_Cdg"/>
@@ -6711,7 +6719,7 @@
             <when state="Arrow⮣TriTip" output="⮡"/>
             <when state="Dash–Line" output="⸗"/>
             <when state="Diacritics" next="caron"/>
-            <when state="Emulate-En" output="›"/>
+            <when state="Emulate-En" output="]"/>
             <when state="Greek" output="ω"/>
             <when state="Letterlike" output="℣"/>
             <when state="Math" output="⇓"/>
@@ -6809,6 +6817,7 @@
             <when state="Arrow⮣TriTip" next="Arrow⮳Ribbon"/>
             <when state="Bullet" output="•"/>
             <when state="Dash–Line" output="‑"/>
+            <when state="Emulate-En" output="«"/>
             <when state="Greek" output="β"/>
             <when state="Letterlike" output="ℬ"/>
             <when state="Letterlike_Cdbl" output="ℭ"/>
@@ -6916,7 +6925,7 @@
             <when state="Dash⸺M·2" output="—"/>
             <when state="Dash⸻M·3" output="⸺"/>
             <when state="Diacritics" next="tilde"/>
-            <when state="Emulate-En" output="‚"/>
+            <when state="Emulate-En" output="»"/>
             <when state="Greek" output="ν"/>
             <when state="Letterlike" output="ℕ"/>
             <when state="Math" output="ℕ"/>
@@ -7035,7 +7044,7 @@
             <when state="Dash⸺M·2" next="Dash⸻M·3"/>
             <when state="Dash⸻M·3" output="⸻"/>
             <when state="Diacritics" output="̲"/>
-            <when state="Emulate-En" output="„"/>
+            <when state="Emulate-En" output="="/>
             <when state="Greek" output="μ"/>
             <when state="Letterlike" output="ℳ"/>
             <when state="Math" next="math…"/>
@@ -7166,7 +7175,7 @@
             <when state="Dash–Line" output="―"/>
             <when state="Dash—M" output="⸺"/>
             <when state="Dash⸺M·2" output="⸻"/>
-            <when state="Emulate-En" output=","/>
+            <when state="Emulate-En" output="‹"/>
             <when state="Greek" output=","/>
             <when state="Math" next="math‹"/>
             <when state="Quote-“open" output="„"/>
@@ -7249,7 +7258,7 @@
             <when state="Brackets-⟪" output="⟫"/>
             <when state="Bullet" output="⁚"/>
             <when state="Dash–Line" output="_"/>
-            <when state="Emulate-En" output="."/>
+            <when state="Emulate-En" output="›"/>
             <when state="Greek" output="."/>
             <when state="Math" output="〉"/>
             <when state="OldCyrillic" output="ꙗ"/>
@@ -7860,7 +7869,7 @@
         <when state="Dash⸺M·2" output="⸺"/>
         <when state="Dash⸻M·3" output="⸻"/>
         <when state="Diacritics" output="◌"/>
-        <when state="Emulate-En" output=""/>
+        <when state="Emulate-En" output=" "/>
         <when state="Greek" output="ε"/>
         <when state="Letterlike" output="ℒ"/>
         <when state="Letterlike_Cblack" output="ℭ"/>
