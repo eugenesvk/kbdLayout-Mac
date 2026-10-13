@@ -3272,7 +3272,7 @@
         </action>
         <action id="1←1 q">
             <when state="none" output="й"/>
-            <when state="/alt" output="₽"/>
+            <when state="/alt" output="“"/>
             <when state="Arrow" next="Arrow·2"/>
             <when state="Arrow·2" next="Arrow·3"/>
             <when state="Arrow·3" output="⇚"/>
@@ -3364,7 +3364,7 @@
         </action>
         <action id="1←2 w">
             <when state="none" output="ц"/>
-            <when state="/alt" output="&#x0027;"/>
+            <when state="/alt" output="&#x0022;"/>
             <when state="Arrow" output="↖"/>
             <when state="Arrow·2" output="⇖"/>
             <when state="Arrow↝Wave" output="↫"/>
@@ -3757,7 +3757,7 @@
         </action>
         <action id="1←5 t">
             <when state="none" output="е"/>
-            <when state="/alt" output="«"/>
+            <when state="/alt" output="”"/>
             <when state="Arrow" next="Arrow·2"/>
             <when state="Arrow·2" next="Arrow·3"/>
             <when state="Arrow·3" output="⇛"/>
@@ -3879,7 +3879,7 @@
         </action>
         <action id="1→1 y">
             <when state="none" output="н"/>
-            <when state="/alt" output="»"/>
+            <when state="/alt" output="%"/>
             <when state="Arrow" next="\alt"/>
             <when state="Arrow·2" next="Arrow"/>
             <when state="Arrow·2Head" next="Arrow"/>
@@ -4756,7 +4756,7 @@
         </action>
         <action id="1→7 ]">
             <when state="none" output="ъ"/>
-            <when state="/alt" output="„"/>
+            <when state="/alt" output="₽"/>
             <when state="Arrow" output="↪"/>
             <when state="Arrow⮕Black" output="⮊"/>
             <when state="Emulate-En" output="#"/>
@@ -4955,7 +4955,7 @@
         </action>
         <action id="2←2 s">
             <when state="none" output="ы"/>
-            <when state="/alt" output="&#x0022;"/>
+            <when state="/alt" output="&#x0027;"/>
             <when state="Arrow" output="←"/>
             <when state="Arrow·2" output="⇐"/>
             <when state="Arrow·2Head" output="↞"/>
@@ -6396,7 +6396,7 @@
         </action>
         <action id="3←1 z">
             <when state="none" output="я"/>
-            <when state="/alt" output="“"/>
+            <when state="/alt" output="„"/>
             <when state="Arrow" next="Arrow·2Head"/>
             <when state="Arrow·2" output="⇎"/>
             <when state="Arrow·2Head" output="↠"/>
@@ -6811,7 +6811,7 @@
         </action>
         <action id="3←5 b">
             <when state="none" output="и"/>
-            <when state="/alt" output="”"/>
+            <when state="/alt" output="«"/>
             <when state="Arrow" next="Arrow⮕Black"/>
             <when state="Arrow⮕Black" next="Arrow⮞Black"/>
             <when state="Arrow⮣TriTip" next="Arrow⮳Ribbon"/>
@@ -6911,7 +6911,7 @@
         </action>
         <action id="3→1 n">
             <when state="none" output="т"/>
-            <when state="/alt" output="%"/>
+            <when state="/alt" output="»"/>
             <when state="Arrow" output="⇲"/>
             <when state="Arrow⮣TriTip" output="⮴"/>
             <when state="Brackets" next="Brackets-【"/>
