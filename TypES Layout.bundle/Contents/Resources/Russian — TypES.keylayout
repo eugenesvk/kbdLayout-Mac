@@ -2347,6 +2347,7 @@
             <when state="math⁄" next="math⅟"/>
             <when state="math⅟" output="⅟"/>
             <when state="math∂" output="∫"/>
+            <when state="num#№" output="%"/>
             <when state="num_Roman" output="Ⅰ"/>
             <when state="num_roman" output="ⅰ"/>
             <when state="num⁵sup" output="¹"/>
@@ -2485,6 +2486,7 @@
             <when state="math√" output="∛"/>
             <when state="math∛" output="∛"/>
             <when state="math∜" output="∛"/>
+            <when state="num#№" output="№"/>
             <when state="num_Roman" output="Ⅲ"/>
             <when state="num_roman" output="ⅲ"/>
             <when state="num⁵sup" output="³"/>
@@ -2553,6 +2555,7 @@
             <when state="math√" output="∜"/>
             <when state="math∛" output="∜"/>
             <when state="math∜" output="∜"/>
+            <when state="num#№" output="‱"/>
             <when state="num_Roman" output="Ⅳ"/>
             <when state="num_roman" output="ⅳ"/>
             <when state="num⁵sup" output="⁴"/>
@@ -2622,6 +2625,7 @@
             <when state="math⅔" output="⅖"/>
             <when state="math⅘" output="⅘"/>
             <when state="math⅟" output="⅕"/>
+            <when state="num#№" output="%"/>
             <when state="num_Roman" output="Ⅴ"/>
             <when state="num_roman" output="ⅴ"/>
             <when state="num⁵sup" output="⁵"/>
