@@ -1669,7 +1669,7 @@
             <key code="26" output="¶"/>
             <key code="27" output="—"/>
             <key code="28" output="°"/>
-            <key code="29" output="}"/>
+            <key code="29" action="0→5 0⇧⎈⎇"/>
             <key code="30" output="»"/>
             <key code="31" output="„"/>
             <key code="32" output="Ѓ"/>
@@ -7799,6 +7799,9 @@
             <when state="math_" output="⟂"/>
             <when state="math|" output="‖"/>
             <when state="math‹" output="◁"/>
+        </action>
+        <action id="0→5 0⇧⎈⎇">
+            <when state="none" next="Punctuation"/>
         </action>
         <action id="Ї">
             <when state="none" next="Punctuation"/>
