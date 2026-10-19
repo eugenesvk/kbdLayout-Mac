@@ -2137,7 +2137,6 @@
         </action>
         <action id="0←0 §">
             <when state="none" output="`"/>
-            <when state="Punctuation" output="`"/>
             <when state="Arrow" next="Arrow↝Wave"/>
             <when state="Arrow↝Wave" output="↝"/>
             <when state="Dash–Line" output="〜"/>
@@ -2145,6 +2144,7 @@
             <when state="Emulate-En" output="~"/>
             <when state="Greek" output="§"/>
             <when state="Math" output="¬"/>
+            <when state="Punctuation" output="`"/>
             <when state="Typographical" output="⎋"/>
             <when state="\alt" output="ˋ"/>
             <when state="grave" output="̀"/>
@@ -2182,12 +2182,12 @@
         </action>
         <action id="0←1 1">
             <when state="none" output="1"/>
-            <when state="Punctuation" output="!"/>
             <when state="Arrow" output="↚"/>
             <when state="Dash–Line" output="─"/>
             <when state="Diacritics" output="́"/>
             <when state="Emulate-En" output="!"/>
             <when state="Letterlike" output="ℵ"/>
+            <when state="Punctuation" output="!"/>
             <when state="Typographical" output="‽"/>
             <when state="\alt" output="¹"/>
             <when state="acute" output="́"/>
@@ -2241,13 +2241,13 @@
         </action>
         <action id="0←2 2">
             <when state="none" output="2"/>
-            <when state="Punctuation" output="@"/>
             <when state="Arrow" next="Arrow⇅Pair"/>
             <when state="Bullet" output="⁚"/>
             <when state="Dash–Line" output="╌"/>
             <when state="Diacritics" output="̀"/>
             <when state="Emulate-En" output="@"/>
             <when state="Letterlike" output="ℶ"/>
+            <when state="Punctuation" output="@"/>
             <when state="\alt" output="²"/>
             <when state="acute" output="̋"/>
             <when state="cur$re" output="₫"/>
@@ -2303,7 +2303,6 @@
         </action>
         <action id="0←3 3">
             <when state="none" output="3"/>
-            <when state="Punctuation" next="num#№"/>
             <when state="Arrow" next="Arrow·3"/>
             <when state="Arrow⇅Pair" output="⇅"/>
             <when state="Arrow⮕Black" output="⯅"/>
@@ -2314,6 +2313,7 @@
             <when state="Letterlike" output="ℷ"/>
             <when state="Letterlike_Ll" output="⅏"/>
             <when state="Letterlike_Pdbl" output="ℼ"/>
+            <when state="Punctuation" next="num#№"/>
             <when state="Typographical" output="№"/>
             <when state="\alt" output="³"/>
             <when state="cur$re" output="₷"/>
@@ -2368,7 +2368,6 @@
         </action>
         <action id="0←4 4">
             <when state="none" output="4"/>
-            <when state="Punctuation" output="$"/>
             <when state="Arrow" output="↝"/>
             <when state="Arrow⇅Pair" output="⇶"/>
             <when state="Bullet" output="⁘"/>
@@ -2376,6 +2375,7 @@
             <when state="Diacritics" output="̃"/>
             <when state="Emulate-En" output="$"/>
             <when state="Letterlike" output="ℸ"/>
+            <when state="Punctuation" output="$"/>
             <when state="Typographical" output="¤"/>
             <when state="\alt" next="cur$re"/>
             <when state="cur$re" next="cur€re"/>
@@ -2432,13 +2432,13 @@
         </action>
         <action id="0←5 5">
             <when state="none" output="5"/>
-            <when state="Punctuation" output="%"/>
             <when state="Arrow" output="⇞"/>
             <when state="Bullet" output="⁙"/>
             <when state="Dash–Line" output="╎"/>
             <when state="Diacritics" output="̄"/>
             <when state="Emulate-En" output="%"/>
             <when state="Letterlike" output="⅌"/>
+            <when state="Punctuation" output="%"/>
             <when state="Typographical" output="‰"/>
             <when state="\alt" output="‰"/>
             <when state="cur$re" output="₮"/>
@@ -2502,12 +2502,12 @@
         </action>
         <action id="0→1 6">
             <when state="none" output="6"/>
-            <when state="Punctuation" output="^"/>
             <when state="Arrow" output="⇱"/>
             <when state="Dash–Line" output="⸚"/>
             <when state="Diacritics" output="̂"/>
             <when state="Emulate-En" output="^"/>
             <when state="Math" output="⇑"/>
+            <when state="Punctuation" output="^"/>
             <when state="Typographical" output="꣺"/>
             <when state="\alt" output="↑"/>
             <when state="circumflex" output="̂"/>
@@ -2557,7 +2557,6 @@
         </action>
         <action id="0→2 7">
             <when state="none" output="7"/>
-            <when state="Punctuation" output="&#x0026;"/>
             <when state="Arrow" next="Arrow↱Tip"/>
             <when state="Arrow⮕Black" next="Arrow⮣TriTip"/>
             <when state="Dash–Line" output="╍"/>
@@ -2565,6 +2564,7 @@
             <when state="Emulate-En" output="&#x0026;"/>
             <when state="Letterlike" output="⅋"/>
             <when state="Math" next="math∡"/>
+            <when state="Punctuation" output="&#x0026;"/>
             <when state="Typographical" output="‽"/>
             <when state="\alt" output="§"/>
             <when state="fs" output="⸮"/>
@@ -2609,7 +2609,6 @@
         </action>
         <action id="0→3 8">
             <when state="none" output="8"/>
-            <when state="Punctuation" output="*"/>
             <when state="Arrow" output="⇪"/>
             <when state="Arrow·2" output="⇯"/>
             <when state="Arrow⇅Pair" output="⮁"/>
@@ -2620,6 +2619,7 @@
             <when state="Diacritics" output="̇"/>
             <when state="Emulate-En" output="*"/>
             <when state="Math" output="∗"/>
+            <when state="Punctuation" output="*"/>
             <when state="Typographical" output="⁂"/>
             <when state="\alt" output="∞"/>
             <when state="acute" next="acute+dot-above"/>
@@ -2685,13 +2685,13 @@
         </action>
         <action id="0→4 9">
             <when state="none" output="9"/>
-            <when state="Punctuation" output="‹"/>
             <when state="Arrow" output="⇯"/>
             <when state="Dash–Line" output="┉"/>
             <when state="Diacritics" output="̆"/>
             <when state="Emulate-En" output="‹"/>
             <when state="Math" output="⊂"/>
             <when state="OldCyrillic" output="ҁ"/>
+            <when state="Punctuation" output="‹"/>
             <when state="Typographical" output="☞"/>
             <when state="\alt" output="←"/>
             <when state="breve" output="̆"/>
@@ -2762,12 +2762,12 @@
         </action>
         <action id="0→5 0">
             <when state="none" output="0"/>
-            <when state="Punctuation" output="›"/>
             <when state="Arrow" output="⇬"/>
             <when state="Dash–Line" output="╏"/>
             <when state="Diacritics" output="̌"/>
             <when state="Emulate-En" output="›"/>
             <when state="Math" output="⊃"/>
+            <when state="Punctuation" output="›"/>
             <when state="Typographical" output="⁀"/>
             <when state="\alt" output="→"/>
             <when state="caron" output="̌"/>
@@ -2852,7 +2852,6 @@
         </action>
         <action id="0→6 -">
             <when state="none" output="-"/>
-            <when state="Punctuation" output="_"/>
             <when state="Arrow" output="↮"/>
             <when state="Arrow⮕Black" output="⮉"/>
             <when state="Bullet" output="‧"/>
@@ -2861,6 +2860,7 @@
             <when state="Emulate-En" output="_"/>
             <when state="Letterlike" output="⅊"/>
             <when state="Math" next="math-"/>
+            <when state="Punctuation" output="_"/>
             <when state="Typographical" output="⹀"/>
             <when state="\alt" output="—"/>
             <when state="breve" next="breve+dot-below"/>
@@ -2923,12 +2923,12 @@
         </action>
         <action id="0→7 =">
             <when state="none" output="="/>
-            <when state="Punctuation" output="+"/>
             <when state="Arrow·2" output="⇒"/>
             <when state="Dash–Line" output="⹀"/>
             <when state="Diacritics" output="̧"/>
             <when state="Emulate-En" output="+"/>
             <when state="Math" next="math="/>
+            <when state="Punctuation" output="+"/>
             <when state="\alt" next="math≠re"/>
             <when state="cedilla" output="̧"/>
             <when state="math/" output="≠"/>
@@ -3092,7 +3092,6 @@
         </action>
         <action id="1←1 q">
             <when state="none" output="q"/>
-            <when state="Punctuation" output="“"/>
             <when state="Arrow" next="Arrow·2"/>
             <when state="Arrow·2" next="Arrow·3"/>
             <when state="Arrow·3" output="⇚"/>
@@ -3105,6 +3104,7 @@
             <when state="Letterlike" output="ℚ"/>
             <when state="Math" output="ℚ"/>
             <when state="OldCyrillic" output="ѳ"/>
+            <when state="Punctuation" output="“"/>
             <when state="Typographical" output="⭾"/>
             <when state="\alt" next="Arrow"/>
             <when state="breve" output="̆"/>
@@ -3189,7 +3189,6 @@
         </action>
         <action id="1←2 w">
             <when state="none" output="w"/>
-            <when state="Punctuation" output="&#x0022;"/>
             <when state="Arrow" output="↖"/>
             <when state="Arrow·2" output="⇖"/>
             <when state="Arrow↝Wave" output="↫"/>
@@ -3206,6 +3205,7 @@
             <when state="Letterlike_Pdbl" output="ℙ"/>
             <when state="Math" output="∇"/>
             <when state="OldCyrillic" output="ѡ"/>
+            <when state="Punctuation" output="&#x0022;"/>
             <when state="Quote-close”" output="‴"/>
             <when state="Quote-“open" output="‷"/>
             <when state="Typographical" output="⊞"/>
@@ -3287,7 +3287,6 @@
         </action>
         <action id="1←3 e">
             <when state="none" output="e"/>
-            <when state="Punctuation" output="{"/>
             <when state="Arrow" output="↑"/>
             <when state="Arrow·2" output="⇑"/>
             <when state="Arrow·2Head" output="↟"/>
@@ -3311,6 +3310,7 @@
             <when state="Letterlike_Euler" next="Letterlike_Escr"/>
             <when state="Math" output="∃"/>
             <when state="OldCyrillic" output="ѣ"/>
+            <when state="Punctuation" output="{"/>
             <when state="Quote-close”" output="″"/>
             <when state="Quote-“open" output="‶"/>
             <when state="Typographical" output="℮"/>
@@ -3439,7 +3439,6 @@
         </action>
         <action id="1←4 r">
             <when state="none" output="r"/>
-            <when state="Punctuation" output="}"/>
             <when state="Arrow" output="↗"/>
             <when state="Arrow·2" output="⇗"/>
             <when state="Arrow↝Wave" output="↬"/>
@@ -3463,6 +3462,7 @@
             <when state="Letterlike_Rx" next="Letterlike_Rblack"/>
             <when state="Math" output="ℝ"/>
             <when state="OldCyrillic" output="ѯ"/>
+            <when state="Punctuation" output="}"/>
             <when state="Quote-close”" output="′"/>
             <when state="Quote-“open" output="‵"/>
             <when state="Typographical" output="⌑"/>
@@ -3571,7 +3571,6 @@
         </action>
         <action id="1←5 t">
             <when state="none" output="t"/>
-            <when state="Punctuation" output="”"/>
             <when state="Arrow" next="Arrow·2"/>
             <when state="Arrow·2" next="Arrow·3"/>
             <when state="Arrow·3" output="⇛"/>
@@ -3588,6 +3587,7 @@
             <when state="Letterlike_Escr" output="℮"/>
             <when state="Math" next="math∴"/>
             <when state="OldCyrillic" output="є"/>
+            <when state="Punctuation" output="”"/>
             <when state="Typographical" output="†"/>
             <when state="\alt" next="Math"/>
             <when state="caron" output="ť"/>
@@ -3695,7 +3695,6 @@
         </action>
         <action id="1→1 y">
             <when state="none" output="y"/>
-            <when state="Punctuation" output="%"/>
             <when state="Arrow" next="\alt"/>
             <when state="Arrow·2" next="Arrow"/>
             <when state="Arrow·2Head" next="Arrow"/>
@@ -3721,6 +3720,7 @@
             <when state="Greek" output="υ"/>
             <when state="Letterlike" output="ℽ"/>
             <when state="Math" next="math√"/>
+            <when state="Punctuation" output="%"/>
             <when state="Typographical" output="‡"/>
             <when state="\alt" output="¥"/>
             <when state="acute" output="ý"/>
@@ -3817,7 +3817,6 @@
         </action>
         <action id="1→2 u">
             <when state="none" output="u"/>
-            <when state="Punctuation" output="-"/>
             <when state="Arrow" output="⬁"/>
             <when state="Arrow·2" output="⇭"/>
             <when state="Arrow↝Wave" output="⭯"/>
@@ -3834,6 +3833,7 @@
             <when state="Letterlike_Ratio" output="℆"/>
             <when state="Math" next="math⋃N-Ary"/>
             <when state="OldCyrillic" output="ѵ"/>
+            <when state="Punctuation" output="-"/>
             <when state="Typographical" output="⎀"/>
             <when state="\alt" next="Typographical"/>
             <when state="acute" output="ú"/>
@@ -3993,7 +3993,6 @@
         </action>
         <action id="1→3 i">
             <when state="none" output="i"/>
-            <when state="Punctuation" output="*"/>
             <when state="Arrow" output="⇧"/>
             <when state="Arrow·2" output="⇮"/>
             <when state="Arrow·2Head" output="⯭"/>
@@ -4018,6 +4017,7 @@
             <when state="Letterlike_Zdbl" output="℧"/>
             <when state="Math" output="∩"/>
             <when state="OldCyrillic" output="і"/>
+            <when state="Punctuation" output="*"/>
             <when state="Quote-“open" output="‟"/>
             <when state="Typographical" output="⇞"/>
             <when state="\alt" next="Diacritics"/>
@@ -4180,7 +4180,6 @@
         </action>
         <action id="1→4 o">
             <when state="none" output="o"/>
-            <when state="Punctuation" output="+"/>
             <when state="Arrow" output="⬀"/>
             <when state="Arrow↝Wave" output="⭮"/>
             <when state="Arrow↱Tip" output="↷"/>
@@ -4199,6 +4198,7 @@
             <when state="Letterlike_Ratio" output="℅"/>
             <when state="Letterlike_Zdbl" output="Ω"/>
             <when state="Math" next="mathO"/>
+            <when state="Punctuation" output="+"/>
             <when state="Quote-“open" output="‛"/>
             <when state="Typographical" output="º"/>
             <when state="\alt" next="OldCyrillic"/>
@@ -4368,7 +4368,6 @@
         </action>
         <action id="1→5 p">
             <when state="none" output="p"/>
-            <when state="Punctuation" output="&#x0026;"/>
             <when state="Arrow" output="⇫"/>
             <when state="Arrow·2" output="⇯"/>
             <when state="Arrow⮕Black" output="⮈"/>
@@ -4387,6 +4386,7 @@
             <when state="Letterlike_Pscript" next="Letterlike_Phono"/>
             <when state="Math" next="math⊹"/>
             <when state="OldCyrillic" output="ꙁ"/>
+            <when state="Punctuation" output="&#x0026;"/>
             <when state="Quote-“open" output="＇"/>
             <when state="Typographical" output="‴"/>
             <when state="\alt" output="′"/>
@@ -4502,7 +4502,6 @@
         </action>
         <action id="1→6 [">
             <when state="none" output="["/>
-            <when state="Punctuation" output="‚"/>
             <when state="Arrow" output="↩"/>
             <when state="Arrow⮕Black" output="⮋"/>
             <when state="Brackets-⟪" output="⟫"/>
@@ -4511,6 +4510,7 @@
             <when state="Greek" output="["/>
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" output="⌊"/>
+            <when state="Punctuation" output="‚"/>
             <when state="Typographical" next="ligature"/>
             <when state="\alt" output="{"/>
             <when state="cur$re" output="₧"/>
@@ -4555,12 +4555,12 @@
         </action>
         <action id="1→7 ]">
             <when state="none" output="]"/>
-            <when state="Punctuation" output="₽"/>
             <when state="Arrow" output="↪"/>
             <when state="Arrow⮕Black" output="⮊"/>
             <when state="Emulate-En" output="#"/>
             <when state="Greek" output="]"/>
             <when state="Math" output="⌋"/>
+            <when state="Punctuation" output="₽"/>
             <when state="Typographical" output="↩"/>
             <when state="\alt" output="}"/>
             <when state="fs" output="¦"/>
@@ -4585,7 +4585,6 @@
         </action>
         <action id="2←1 a">
             <when state="none" output="a"/>
-            <when state="Punctuation" output="‘"/>
             <when state="Arrow" output="↔"/>
             <when state="Arrow·2" output="⇔"/>
             <when state="Arrow↝Wave" output="↭"/>
@@ -4607,6 +4606,7 @@
             <when state="Letterlike_Pdbl" output="ℙ"/>
             <when state="Letterlike_Ratio" output="⅍"/>
             <when state="Math" output="∀"/>
+            <when state="Punctuation" output="‘"/>
             <when state="Typographical" output="⇪"/>
             <when state="\alt" output="≈"/>
             <when state="acute" output="á"/>
@@ -4753,7 +4753,6 @@
         </action>
         <action id="2←2 s">
             <when state="none" output="s"/>
-            <when state="Punctuation" output="&#x0027;"/>
             <when state="Arrow" output="←"/>
             <when state="Arrow·2" output="⇐"/>
             <when state="Arrow·2Head" output="↞"/>
@@ -4783,6 +4782,7 @@
             <when state="Letterlike_Ratio" output="℁"/>
             <when state="Math" next="math∅"/>
             <when state="OldCyrillic" output="ꙑ"/>
+            <when state="Punctuation" output="&#x0027;"/>
             <when state="Typographical" output="⇧"/>
             <when state="\alt" output="§"/>
             <when state="acute" output="ś"/>
@@ -4894,7 +4894,6 @@
         </action>
         <action id="2←3 d">
             <when state="none" output="d"/>
-            <when state="Punctuation" output="("/>
             <when state="Arrow" output="↓"/>
             <when state="Arrow·2" output="⇓"/>
             <when state="Arrow·2Head" output="↡"/>
@@ -4919,6 +4918,7 @@
             <when state="Letterlike_Pdbl" output="℗"/>
             <when state="Letterlike_Zdbl" output="ℤ"/>
             <when state="Math" next="math∂"/>
+            <when state="Punctuation" output="("/>
             <when state="Typographical" output="°"/>
             <when state="\alt" next="Brackets"/>
             <when state="caron" output="ď"/>
@@ -5057,7 +5057,6 @@
         </action>
         <action id="2←4 f">
             <when state="none" output="f"/>
-            <when state="Punctuation" output=")"/>
             <when state="Arrow" output="→"/>
             <when state="Arrow·2" output="⇒"/>
             <when state="Arrow·2Head" output="↠"/>
@@ -5098,6 +5097,7 @@
             <when state="Letterlike_Pdbl" output="ℼ"/>
             <when state="Math" next="math⁄"/>
             <when state="OldCyrillic" output="ѧ"/>
+            <when state="Punctuation" output=")"/>
             <when state="Typographical" output="💀"/>
             <!-- <when state="breve" output="ӑ"/> -->
             <when state="\alt" next="Brackets-×"/>
@@ -5239,7 +5239,6 @@
         </action>
         <action id="2←5 g">
             <when state="none" output="g"/>
-            <when state="Punctuation" output="’"/>
             <when state="Arrow" output="⇥"/>
             <when state="Arrow·2" output="⇏"/>
             <when state="Arrow↝Wave" output="⬳"/>
@@ -5259,6 +5258,7 @@
             <when state="Letterlike_Ll" output="℔"/>
             <when state="Letterlike_Pdbl" output="ℿ"/>
             <when state="Math" next="math_a-z"/>
+            <when state="Punctuation" output="’"/>
             <when state="Typographical" output="♀"/>
             <when state="\alt" next="Greek"/>
             <when state="acute" output="ǵ"/>
@@ -5358,7 +5358,6 @@
         </action>
         <action id="2→1 h">
             <when state="none" output="h"/>
-            <when state="Punctuation" output="?"/>
             <when state="Arrow" output="⇤"/>
             <when state="Arrow·2" output="⇍"/>
             <when state="Arrow↝Wave" output="⭯"/>
@@ -5381,6 +5380,7 @@
             <when state="Letterlike_Hplanck2" next="Letterlike_Hdbl"/>
             <when state="Letterlike_Hscript" next="Letterlike_Hplanck"/>
             <when state="Letterlike_Ll" output="⅏"/>
+            <when state="Punctuation" output="?"/>
             <when state="Typographical" output="✱"/>
             <when state="\alt" next="cur$re"/>
             <when state="caron" output="ȟ"/>
@@ -5472,7 +5472,6 @@
         </action>
         <action id="2→2 j">
             <when state="none" output="j"/>
-            <when state="Punctuation" output="!"/>
             <when state="Arrow" output="⇦"/>
             <when state="Arrow·2" output="⇭"/>
             <when state="Arrow·2Head" output="⯬"/>
@@ -5500,6 +5499,7 @@
             <when state="Letterlike_Ll" output="⅃"/>
             <when state="Math" output="⇓"/>
             <when state="OldCyrillic" output="ꙋ"/>
+            <when state="Punctuation" output="!"/>
             <when state="Quote-close”" output="»"/>
             <when state="Quote-“open" output="«"/>
             <when state="Typographical" output="✓"/>
@@ -5630,7 +5630,6 @@
         </action>
         <action id="2→3 k">
             <when state="none" output="k"/>
-            <when state="Punctuation" output="_"/>
             <when state="Arrow" output="⇩"/>
             <when state="Arrow·2Head" output="⯯"/>
             <when state="Arrow↝Wave" output="⮍"/>
@@ -5650,6 +5649,7 @@
             <when state="Letterlike_Fsm" output="Ⅎ"/>
             <when state="Letterlike_Iscr" output="ℐ"/>
             <when state="Math" output="⇑"/>
+            <when state="Punctuation" output="_"/>
             <when state="Quote-close”" output="”"/>
             <when state="Quote-“open" output="”"/>
             <when state="Typographical" output="⇟"/>
@@ -5775,7 +5775,6 @@
         </action>
         <action id="2→4 l">
             <when state="none" output="l"/>
-            <when state="Punctuation" output=":"/>
             <when state="Arrow" output="⇨"/>
             <when state="Arrow·2Head" output="⯮"/>
             <when state="Arrow·3" output="⭆"/>
@@ -5808,6 +5807,7 @@
             <when state="Letterlike_Lrev" next="Letterlike_Lb"/>
             <when state="Letterlike_Lturn" next="Letterlike_Lrev"/>
             <when state="Math" next="math⇐re"/>
+            <when state="Punctuation" output=":"/>
             <when state="Quote-close”" output="’"/>
             <when state="Quote-“open" output="‘"/>
             <when state="Typographical" next="Letterlike"/>
@@ -5951,7 +5951,6 @@
         </action>
         <action id="2→5 ;">
             <when state="none" output=";"/>
-            <when state="Punctuation" output=";"/>
             <when state="Arrow" output="⬄"/>
             <when state="Arrow↝Wave" output="⭮"/>
             <when state="Arrow⇅Pair" output="⮂"/>
@@ -5969,6 +5968,7 @@
             <when state="Math" next="math⇒re"/>
             <when state="OldCyrillic" output="ꙉ"/>
             <!-- <when state="breve" output="ӂ"/> -->
+            <when state="Punctuation" output=";"/>
             <when state="Typographical" output="✗"/>
             <when state="\alt" output=":"/>
             <when state="cur$re" output="₡"/>
@@ -6057,7 +6057,6 @@
         </action>
         <action id="2→6 apostrophe">
             <when state="none" output="&#x0027;"/>
-            <when state="Punctuation" output="&#x0027;"/>
             <when state="Arrow" output="⇰"/>
             <when state="Bullet" output="‧"/>
             <when state="Dash–Line" output="‖"/>
@@ -6067,6 +6066,7 @@
             <when state="Letterlike" output="℈"/>
             <when state="Math" output="∈"/>
             <when state="OldCyrillic" output="ѥ"/>
+            <when state="Punctuation" output="&#x0027;"/>
             <when state="Quote-close”" output="’"/>
             <when state="Typographical" output="❧"/>
             <when state="\alt" output="\&#x0027;"/>
@@ -6110,12 +6110,12 @@
         </action>
         <action id="2→7 \">
             <when state="none" next="\alt"/>
-            <when state="Punctuation" output="\"/>
             <when state="Arrow" output="⇳"/>
             <when state="Dash–Line" output="〰"/>
             <when state="Emulate-En" output="\"/>
             <when state="Greek" output="\"/>
             <when state="Math" output="∨"/>
+            <when state="Punctuation" output="\"/>
             <when state="Typographical" output="⧵"/>
             <when state="\alt" next="fs"/>
             <when state="fs" output="⧵"/>
@@ -6188,7 +6188,6 @@
         </action>
         <action id="3←1 z">
             <when state="none" output="z"/>
-            <when state="Punctuation" output="„"/>
             <when state="Arrow" next="Arrow·2Head"/>
             <when state="Arrow·2" output="⇎"/>
             <when state="Arrow·2Head" output="↠"/>
@@ -6207,6 +6206,7 @@
             <when state="Letterlike_Zohminv" next="Letterlike_Zdbl"/>
             <when state="Math" output="ℤ"/>
             <when state="OldCyrillic" output="ѫ"/>
+            <when state="Punctuation" output="„"/>
             <when state="Typographical" output="⎇"/>
             <when state="\alt" output="≝"/>
             <when state="acute" output="ź"/>
@@ -6297,7 +6297,6 @@
         </action>
         <action id="3←2 x">
             <when state="none" output="x"/>
-            <when state="Punctuation" output="^"/>
             <when state="Arrow" output="↙"/>
             <when state="Arrow·2" output="⇙"/>
             <when state="Arrow↱Tip" output="↲"/>
@@ -6311,6 +6310,7 @@
             <when state="Letterlike" output="℻"/>
             <when state="Letterlike_Fsm" output="℻"/>
             <when state="Math" output="·"/>
+            <when state="Punctuation" output="^"/>
             <when state="Typographical" output="◆"/>
             <when state="\alt" output="×"/>
             <when state="cur$re" output="₵"/>
@@ -6391,7 +6391,6 @@
         </action>
         <action id="3←3 c">
             <when state="none" output="c"/>
-            <when state="Punctuation" output="["/>
             <when state="Arrow" output="↕"/>
             <when state="Arrow·2" output="⇕"/>
             <when state="Arrow↣Tail" output="↨"/>
@@ -6413,6 +6412,7 @@
             <when state="Letterlike_Ratio" output="℀"/>
             <when state="Math" output="ℂ"/>
             <when state="OldCyrillic" output="ѱ"/>
+            <when state="Punctuation" output="["/>
             <when state="Typographical" next="Copyright"/>
             <when state="\alt" next="Typographical"/>
             <when state="acute" output="ć"/>
@@ -6505,7 +6505,6 @@
         </action>
         <action id="3←4 v">
             <when state="none" output="v"/>
-            <when state="Punctuation" output="]"/>
             <when state="Arrow" output="↘"/>
             <when state="Arrow·2" output="⇘"/>
             <when state="Arrow↱Tip" output="↳"/>
@@ -6518,6 +6517,7 @@
             <when state="Greek" output="ω"/>
             <when state="Letterlike" output="℣"/>
             <when state="Math" output="⇓"/>
+            <when state="Punctuation" output="]"/>
             <when state="Typographical" output="‸"/>
             <when state="\alt" next="num₅sub"/>
             <when state="caron" output="̌"/>
@@ -6607,7 +6607,6 @@
         </action>
         <action id="3←5 b">
             <when state="none" output="b"/>
-            <when state="Punctuation" output="«"/>
             <when state="Arrow" next="Arrow⮕Black"/>
             <when state="Arrow⮕Black" next="Arrow⮞Black"/>
             <when state="Arrow⮣TriTip" next="Arrow⮳Ribbon"/>
@@ -6622,6 +6621,7 @@
             <when state="Letterlike_Ll" output="℔"/>
             <when state="Letterlike_Zdbl" output="ℨ"/>
             <when state="Math" output="∵"/>
+            <when state="Punctuation" output="«"/>
             <when state="Typographical" output="⌧"/>
             <!-- <when state="breve" output="й"/> -->
             <when state="\alt" next="Bullet"/>
@@ -6707,7 +6707,6 @@
         </action>
         <action id="3→1 n">
             <when state="none" output="n"/>
-            <when state="Punctuation" output="»"/>
             <when state="Arrow" output="⇲"/>
             <when state="Arrow⮣TriTip" output="⮴"/>
             <when state="Brackets" next="Brackets-【"/>
@@ -6724,6 +6723,7 @@
             <when state="Greek" output="ν"/>
             <when state="Letterlike" output="ℕ"/>
             <when state="Math" output="ℕ"/>
+            <when state="Punctuation" output="»"/>
             <when state="Typographical" output="¶"/>
             <when state="\alt" next="num⁵sup"/>
             <when state="acute" output="ń"/>
@@ -6823,7 +6823,6 @@
         </action>
         <action id="3→2 m">
             <when state="none" output="m"/>
-            <when state="Punctuation" output="="/>
             <when state="Arrow" output="⬃"/>
             <when state="Arrow↱Tip" output="↩"/>
             <when state="Arrow⮕Black" output="⬋"/>
@@ -6843,6 +6842,7 @@
             <when state="Letterlike" output="ℳ"/>
             <when state="Math" next="math…"/>
             <when state="OldCyrillic" output="ѣ"/>
+            <when state="Punctuation" output="="/>
             <when state="Quote-close”" output="›"/>
             <when state="Quote-“open" output="‹"/>
             <when state="Typographical" next="math…"/>
@@ -6955,7 +6955,6 @@
         </action>
         <action id="3→3 ,">
             <when state="none" output=","/>
-            <when state="Punctuation" output=","/>
             <when state="Arrow" next="Arrow↣Tail"/>
             <when state="Arrow⇅Pair" output="⮃"/>
             <when state="Arrow⮕Black" output="⬍"/>
@@ -6971,6 +6970,7 @@
             <when state="Emulate-En" output="‹"/>
             <when state="Greek" output=","/>
             <when state="Math" next="math‹"/>
+            <when state="Punctuation" output=","/>
             <when state="Quote-“open" output="„"/>
             <when state="Typographical" output="⟨"/>
             <when state="\alt" output="«"/>
@@ -7039,7 +7039,6 @@
         </action>
         <action id="3→4 .">
             <when state="none" output="."/>
-            <when state="Punctuation" output="."/>
             <when state="Arrow" output="⬂"/>
             <when state="Arrow↱Tip" output="↪"/>
             <when state="Arrow⮕Black" output="⬊"/>
@@ -7055,6 +7054,7 @@
             <when state="Greek" output="."/>
             <when state="Math" output="〉"/>
             <when state="OldCyrillic" output="ꙗ"/>
+            <when state="Punctuation" output="."/>
             <when state="Quote-“open" output="‚"/>
             <when state="Typographical" output="⟩"/>
             <when state="\alt" output="»"/>
@@ -7145,7 +7145,6 @@
         </action>
         <action id="3→5 /">
             <when state="none" output="/"/>
-            <when state="Punctuation" output="/"/>
             <when state="Arrow⮣TriTip" output="⮵"/>
             <when state="Dash–Line" output="‗"/>
             <when state="Diacritics" next="acute"/>
@@ -7154,6 +7153,7 @@
             <when state="Letterlike" next="Letterlike_Ratio"/>
             <when state="Letterlike_Hdbl" output="ℏ"/>
             <when state="Math" next="math/"/>
+            <when state="Punctuation" output="/"/>
             <when state="Typographical" output="⁒"/>
             <when state="\alt" output="÷"/>
             <when state="acute" output="́"/>
@@ -7437,7 +7437,6 @@
         </action>
         <action id="space">
             <when state="none" output=" "/>
-            <when state="Punctuation" output="/"/>
             <when state="Brackets" output="("/>
             <when state="Brackets-=str" output="=&#x0022;"/>
             <when state="Brackets-[" output="["/>
@@ -7506,6 +7505,7 @@
             <when state="Letterlike_Zdbl" output="ℤ"/>
             <when state="Letterlike_Zohm" output="Ω"/>
             <when state="Letterlike_Zohminv" output="℧"/>
+            <when state="Punctuation" output="/"/>
             <when state="Quote-“open" output="“"/>
             <when state="Typographical" next="space"/>
             <when state="\alt" output="\"/>
@@ -7627,7 +7627,6 @@
         </action>
     </actions>
     <terminators>
-        <when state="Punctuation" output="/"/>
         <when state="Arrow" output="→"/>
         <when state="Arrow·2" output="⇒"/>
         <when state="Arrow·2Head" output="↠"/>
@@ -7717,6 +7716,7 @@
         <when state="Letterlike_Zohminv" output="℧"/>
         <when state="Math" output="π"/>
         <when state="OldCyrillic" output="ѣ"/>
+        <when state="Punctuation" output="/"/>
         <when state="Quote-close”" output="”"/>
         <when state="Quote-“open" output="“"/>
         <when state="Typographical" output="⎀"/>
