@@ -2830,6 +2830,9 @@
             <when state="num⁵sup" output="₎"/>
             <when state="num₅sub" output="⁾"/>
         </action>
+        <action id="0→5 0⇧⎈⎇">
+            <when state="none" next="Punctuation"/>
+        </action>
         <action id="0→5 0⎇">
             <when state="none" output="→"/>
             <when state="Diacritics" next="caron"/>
@@ -7603,9 +7606,6 @@
         <action id="˙">
             <when state="none" output="˙"/>
             <when state="Letterlike" output="ℋ"/>
-        </action>
-        <action id="0→5 0⇧⎈⎇">
-            <when state="none" next="Punctuation"/>
         </action>
         <action id="␠⎇">
             <when state="none" output=" "/>
