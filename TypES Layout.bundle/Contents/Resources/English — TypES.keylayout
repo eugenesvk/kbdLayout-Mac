@@ -1662,7 +1662,7 @@
             <key code="22" output="ﬂ"/>
             <key code="23" output="ﬁ"/>
             <key code="24" output="±"/>
-            <key code="25" output="·"/>
+            <key code="25" action="0→4 9⇧⎈⎇"/>
             <key code="26" output="‡"/>
             <key code="27" output="—"/>
             <key code="28" output="°"/>
@@ -2742,6 +2742,11 @@
             <when state="Greek" output="Κ"/>
             <when state="num⁵sup" output="₍"/>
             <when state="num₅sub" output="⁽"/>
+        </action>
+        <action id="0→4 9⇧⎈⎇">
+            <when state="none" next="\alt"/>
+            <when state="\alt" next="fs"/>
+            <when state="fs" output="⧵"/>
         </action>
         <action id="0→4 9⎇">
             <when state="none" output="←"/>
