@@ -3006,6 +3006,9 @@
             <when state="none" output="›"/>
             <when state="Greek" output="ύ"/>
         </action>
+        <action id="0→5 0⇧⎈⎇">
+            <when state="none" next="Punctuation"/>
+        </action>
         <action id="0→5 0⎇">
             <when state="none" output="→"/>
             <when state="Diacritics" next="caron"/>
@@ -7799,9 +7802,6 @@
             <when state="math_" output="⟂"/>
             <when state="math|" output="‖"/>
             <when state="math‹" output="◁"/>
-        </action>
-        <action id="0→5 0⇧⎈⎇">
-            <when state="none" next="Punctuation"/>
         </action>
         <action id="Ї">
             <when state="none" next="Punctuation"/>
