@@ -6472,6 +6472,7 @@
             <when state="circumflex" output="ĉ"/>
             <when state="cur$re" output="₠"/>
             <when state="dot-above" output="ċ"/>
+            <when state="letₐsub" next="let𞁗sub"/>
             <when state="let𞁗sub" output="𞁞"/>
             <when state="math=" output="⊜"/>
             <when state="mathO" output="⊚"/>
