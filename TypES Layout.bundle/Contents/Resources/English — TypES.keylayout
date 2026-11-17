@@ -2253,6 +2253,7 @@
             <when state="cur$re" output="₫"/>
             <when state="grave" output="̀"/>
             <when state="horn" next="horn+grave"/>
+            <when state="let𞁗sub" output="𞁪"/>
             <when state="macron" next="macron+grave"/>
             <when state="math/" output="⊯"/>
             <when state="math=" output="⩵"/>
@@ -2628,6 +2629,7 @@
             <when state="dot-above" output="̇"/>
             <when state="dot-below" next="dot-below+dot-above"/>
             <when state="fs" output="∗"/>
+            <when state="let𞁗sub" output="𞁨"/>
             <when state="math=" next="math⩮"/>
             <when state="mathO" output="⊛"/>
             <when state="math_a-z_dbl" output="𝟠"/>
@@ -3227,6 +3229,7 @@
             <when state="dot-above" output="ẇ"/>
             <when state="dot-below" output="ẉ"/>
             <when state="grave" output="ẁ"/>
+            <when state="let𞁗sub" output="𞁢"/>
             <when state="math/" output="⊮"/>
             <when state="math_a-z_b" output="𝐰"/>
             <when state="math_a-z_bit" output="𝒘"/>
@@ -3340,6 +3343,7 @@
             <when state="greek-tonos" output="έ"/>
             <when state="hook-above" output="ẻ"/>
             <when state="letₐsub" output="ₑ"/>
+            <when state="let𞁗sub" output="𞁟"/>
             <when state="ligature" output="œ"/>
             <when state="macron" output="ē"/>
             <when state="macron+acute" output="ḗ"/>
@@ -3487,6 +3491,7 @@
             <when state="dot-below+macron" output="ṝ"/>
             <when state="fs" output="␍"/>
             <when state="letₐsub" output="ᵣ"/>
+            <when state="let𞁗sub" output="𞁚"/>
             <when state="math=" output="≗"/>
             <when state="mathO" output="∘"/>
             <when state="math_a-z" next="math_a-z_sans"/>
@@ -3609,6 +3614,7 @@
             <when state="dot-below" output="ṭ"/>
             <when state="fs" output="␉"/>
             <when state="letₐsub" output="ₜ"/>
+            <when state="let𞁗sub" output="𞁖"/>
             <when state="ligature" output="ﬆ"/>
             <when state="math=" next="math⩳"/>
             <when state="mathO" output="⋇"/>
@@ -3869,6 +3875,7 @@
             <when state="horn+hook-above" output="ử"/>
             <when state="horn+tilde" output="ữ"/>
             <when state="letₐsub" output="ᵤ"/>
+            <when state="let𞁗sub" output="𞁔"/>
             <when state="ligature" output="Ĳ"/>
             <when state="macron" output="ū"/>
             <when state="macron+diaeresis" output="ṻ"/>
@@ -4052,6 +4059,7 @@
             <when state="greek-tonos" output="ί"/>
             <when state="hook-above" output="ỉ"/>
             <when state="letₐsub" output="ᵢ"/>
+            <when state="let𞁗sub" output="𞁤"/>
             <when state="ligature" output="ﬁ"/>
             <when state="macron" output="ī"/>
             <when state="math-" output="∸"/>
@@ -4413,6 +4421,7 @@
             <!-- <when state="diaeresis" output="ӟ"/> -->
             <when state="fs" output="¦"/>
             <when state="letₐsub" output="ₚ"/>
+            <when state="let𞁗sub" output="𞁘"/>
             <when state="ligature" output="ꟹ"/>
             <when state="math-" output="∍"/>
             <when state="math/" output="∌"/>
@@ -4532,6 +4541,7 @@
             <when state="Typographical" next="ligature"/>
             <when state="\alt" output="{"/>
             <when state="cur$re" output="₧"/>
+            <when state="let𞁗sub" output="𞁡"/>
             <when state="math=" output="≚"/>
             <when state="mathO" output="⊟"/>
             <when state="math|" output="⟦"/>
@@ -4582,6 +4592,7 @@
             <when state="Typographical" output="↩"/>
             <when state="\alt" output="}"/>
             <when state="fs" output="¦"/>
+            <when state="let𞁗sub" output="𞁥"/>
             <when state="math=" output="≙"/>
             <when state="mathO" output="⊞"/>
             <when state="math|" output="⟧"/>
@@ -4646,6 +4657,7 @@
             <when state="greek-tonos" output="ά"/>
             <when state="hook-above" output="ả"/>
             <when state="letₐsub" output="ₐ"/>
+            <when state="let𞁗sub" output="𞁠"/>
             <when state="macron" output="ā"/>
             <when state="math=" next="math≈"/>
             <when state="math_a-z_b" output="𝐚"/>
@@ -4817,6 +4829,7 @@
             <!-- <when state="diaeresis" output="ӹ"/> -->
             <when state="fs" output="⸮"/>
             <when state="letₐsub" output="ₛ"/>
+            <when state="let𞁗sub" output="𞁦"/>
             <when state="math=" output="≛"/>
             <when state="mathO" output="⋆"/>
             <when state="math_a-z" next="math_a-z_script"/>
@@ -4947,6 +4960,7 @@
             <when state="dot-above" output="ḋ"/>
             <when state="dot-below" output="ḍ"/>
             <when state="fs" output="⁄"/>
+            <when state="let𞁗sub" output="𞁓"/>
             <when state="math=" next="math≝"/>
             <when state="mathO" output="⊝"/>
             <when state="math_a-z" next="math_a-z_dbl"/>
@@ -5125,6 +5139,7 @@
             <when state="dot-above" output="ḟ"/>
             <when state="fs" output="⧵"/>
             <when state="letₐsub" output="ᵩ"/>
+            <when state="let𞁗sub" output="𞁑"/>
             <when state="ligature" output="ﬀ"/>
             <when state="math/" output="⊬"/>
             <when state="math_a-z" next="math_a-z_fraktur"/>
@@ -5291,6 +5306,7 @@
             <when state="dot-above" output="ġ"/>
             <when state="fs" output="¦"/>
             <when state="letₐsub" output="ᵧ"/>
+            <when state="let𞁗sub" output="𞁝"/>
             <when state="macron" output="ḡ"/>
             <when state="math=" output="≑"/>
             <when state="math_a-z" next="math_a-z_greekb"/>
@@ -5535,6 +5551,7 @@
             <when state="hook-above" output="̉"/>
             <when state="horn" next="horn+hook-above"/>
             <when state="letₐsub" output="ⱼ"/>
+            <when state="let𞁗sub" output="𞁜"/>
             <when state="ligature" output="ĳ"/>
             <when state="math=" output="₌"/>
             <when state="math_a-z_b" output="𝐣"/>
@@ -5684,6 +5701,7 @@
             <when state="dot-below" output="ḳ"/>
             <when state="fs" output="“"/>
             <when state="letₐsub" output="ₖ"/>
+            <when state="let𞁗sub" output="𞁛"/>
             <when state="math-" output="∻"/>
             <when state="math=" output="⁼"/>
             <when state="math_a-z_b" output="𝐤"/>
@@ -5844,6 +5862,7 @@
             <when state="dot-below+macron" output="ḹ"/>
             <when state="fs" output="”"/>
             <when state="letₐsub" output="ₗ"/>
+            <when state="let𞁗sub" output="𞁕"/>
             <when state="ligature" output="ﬂ"/>
             <when state="math/" output="∤"/>
             <when state="math=" output="⋕"/>
@@ -6001,6 +6020,7 @@
             <when state="diaeresis" output="̈"/>
             <!-- <when state="diaeresis" output="ӝ"/> -->
             <when state="fs" output="꞉"/>
+            <when state="let𞁗sub" output="𞁗"/>
             <when state="macron" next="macron+diaeresis"/>
             <when state="math-" output="⟶"/>
             <when state="math=" next="math≕"/>
@@ -6100,6 +6120,7 @@
             <!-- <when state="diaeresis" output="ӭ"/> -->
             <when state="fs" output="＂"/>
             <when state="horn" output="̛"/>
+            <when state="let𞁗sub" output="𞁧"/>
             <when state="math-" output="∹"/>
             <when state="math/" output="∉"/>
             <when state="math_a-z_greekb" next="math_a-z_greeksansb"/>
@@ -6243,6 +6264,7 @@
             <when state="dot-above" output="ż"/>
             <when state="dot-below" output="ẓ"/>
             <when state="letₐsub" output="ᵪ"/>
+            <when state="let𞁗sub" output="𞁩"/>
             <when state="math=" output="⧣"/>
             <when state="mathO" output="⊠"/>
             <when state="math_a-z_b" output="𝐳"/>
@@ -6346,6 +6368,7 @@
             <!-- <when state="diaeresis" output="ӵ"/> -->
             <when state="fs" output="∗"/>
             <when state="letₐsub" output="ₓ"/>
+            <when state="let𞁗sub" output="𞁣"/>
             <when state="math-" output="≀"/>
             <when state="math=" next="math⋕"/>
             <when state="mathO" output="⊗"/>
@@ -6449,6 +6472,7 @@
             <when state="circumflex" output="ĉ"/>
             <when state="cur$re" output="₠"/>
             <when state="dot-above" output="ċ"/>
+            <when state="let𞁗sub" output="𞁞"/>
             <when state="math=" output="⊜"/>
             <when state="mathO" output="⊚"/>
             <when state="math_a-z_b" output="𝐜"/>
@@ -6663,6 +6687,7 @@
             <!-- <when state="macron" output="ӣ"/> -->
             <when state="fs" output="␈"/>
             <when state="letₐsub" output="ᵦ"/>
+            <when state="let𞁗sub" output="𞁙"/>
             <when state="math=" output="⪮"/>
             <when state="mathO" output="∙"/>
             <when state="math_a-z" next="math_a-z_b"/>
@@ -7009,6 +7034,7 @@
             <when state="\alt" output="«"/>
             <when state="cur$re" output="₾"/>
             <when state="fs" output="‹"/>
+            <when state="let𞁗sub" output="𞁒"/>
             <when state="math=" next="math⇐"/>
             <when state="mathO" output="⊡"/>
             <when state="math_" output="≤"/>
@@ -7093,6 +7119,7 @@
             <when state="\alt" output="»"/>
             <when state="cur$re" output="₼"/>
             <when state="fs" output="›"/>
+            <when state="let𞁗sub" output="𞁪"/>
             <when state="ligature" output="ﬄ"/>
             <when state="math-" output="→"/>
             <when state="math=" next="math⇒"/>
@@ -7790,6 +7817,7 @@
         <when state="horn+hook-above" output="◌̛̉"/>
         <when state="horn+tilde" output="◌̛̃"/>
         <when state="letₐsub" output="ᵢ"/>
+        <when state="let𞁗sub" output="𞁨"/>
         <when state="ligature" output=""/>
         <when state="macron" output="¯"/>
         <when state="macron+acute" output="◌̄́"/>
