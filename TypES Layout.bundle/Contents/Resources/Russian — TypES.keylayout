@@ -6685,6 +6685,7 @@
             <when state="math⊹" output="⋋"/>
             <when state="num_Roman" output="Ⅽ"/>
             <when state="num_roman" output="ⅽ"/>
+            <when state="num₅sub" next="letₐsub"/>
             <when state="space" output="␠"/>
         </action>
         <action id="3←3 c⇧">
